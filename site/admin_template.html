@@ -924,6 +924,50 @@ td.weak, .weak { color: var(--ink-2); }
    * likely a gap that size is by chance. Groups under PAT_MIN people are shown faded and left out of tests.
    */
   var PAT_MIN = 10, PAT_P = [], TIE = "tie", TIE_COLOR = "#8A959C";
+  /*
+   * Parties left to right, from the same model as the results page's left-to-right line: the main axis of
+   * the province-wide option scores (NDP on the left), each party placed where agreeing with it on every
+   * question would put a person. Computed from the scores, so it follows any score change.
+   */
+  var LR = (function () {
+    var qs = SPEC.questions.filter(function (q) { return q.scope === "provincial"; }), n = PIDS.length;
+    function nop(q, pid) { return (q.no_pos || []).indexOf(pid) >= 0; }
+    var cols = [];
+    qs.forEach(function (q) {
+      q.options.forEach(function (o) {
+        var have = PIDS.filter(function (pid) { return !nop(q, pid); }).map(function (pid) { return Number(o.scores[pid]); });
+        var m = have.length ? have.reduce(add, 0) / have.length : 0;
+        var col = PIDS.map(function (pid) { return nop(q, pid) ? m : Number(o.scores[pid]); });
+        var mu = col.reduce(add, 0) / n;
+        cols.push(col.map(function (v) { return v - mu; }));
+      });
+    });
+    var K = PIDS.map(function (_, i) { return PIDS.map(function (_, j) { return cols.reduce(function (t, c) { return t + c[i] * c[j]; }, 0); }); });
+    var v = PIDS.map(function (_, i) { return i + 1; });
+    for (var it = 0; it < 500; it++) {
+      var w = K.map(function (row) { return row.reduce(function (t, k, j) { return t + k * v[j]; }, 0); });
+      var nr = Math.sqrt(w.reduce(function (t, x) { return t + x * x; }, 0)) || 1;
+      v = w.map(function (x) { return x / nr; });
+    }
+    if (v[PIDS.indexOf("ndp")] > 0) v = v.map(function (x) { return -x; });
+    var dot = {};
+    PIDS.forEach(function (pid) {
+      var xs = [];
+      qs.forEach(function (q) {
+        if (nop(q, pid)) return;
+        var pos = function (o) {
+          var num = 0, den = 0;
+          PIDS.forEach(function (p2, j) { if (nop(q, p2)) return; var sc = Number(o.scores[p2]); num += sc * v[j]; den += sc; });
+          return den > 0 ? num / den : null;
+        };
+        var top = Math.max.apply(null, q.options.map(function (o) { return Number(o.scores[pid]); }));
+        var tied = q.options.filter(function (o) { return Number(o.scores[pid]) === top && pos(o) != null; });
+        if (tied.length) xs.push(tied.reduce(function (t, o) { return t + pos(o); }, 0) / tied.length);
+      });
+      dot[pid] = xs.length ? xs.reduce(add, 0) / xs.length : 0;
+    });
+    return PIDS.slice().sort(function (a, b) { return dot[a] - dot[b]; });
+  })();
   var PAT_BY = "level";
   try { PAT_BY = localStorage.getItem("bcvh-admin-pattern") || "level"; } catch (e) { /* storage blocked */ }
 
@@ -1043,7 +1087,7 @@ td.weak, .weak { color: var(--ink-2); }
     var groups = patGroups(g, P), big = groups.filter(function (x) { return x.people.length >= PAT_MIN; });
     var html = "";
     if (big.length < 2) return '<p class="muted">Needs at least two groups with ' + PAT_MIN + " or more people. Widen the filters or pick another comparison.</p>";
-    var cats = PIDS.concat([TIE]);
+    var cats = LR.concat([TIE]);
     /* 1. best match per group */
     var t = cramer(big.map(function (x) { return cats.map(function (c) { return x.people.filter(function (p) { return topCat(p) === c; }).length; }); }));
     html += '<h3 class="pat-sub">Best match by ' + esc(g.label.toLowerCase()) + "</h3>";
@@ -1060,15 +1104,15 @@ td.weak, .weak { color: var(--ink-2); }
     }).join("") + "</div>";
     html += '<div class="pat-legend small">' + cats.map(function (c) {
       return '<span><span class="dot" style="background:' + (c === TIE ? TIE_COLOR : esc(PBY[c].color)) + '"></span>' + esc(c === TIE ? "Tie" : PBY[c].short_name || PBY[c].name) + "</span>";
-    }).join("") + '<span class="muted">Right column: people</span></div>';
+    }).join("") + '<span class="muted">Parties left to right, as on the results page. Right column: people</span></div>';
 
     /* 2. average party score per group, with a trend for ordered groupings */
     html += '<h3 class="pat-sub">Average match score</h3><div class="scroll"><table><thead><tr><th>Group</th><th class="num">People</th>' +
-      PIDS.map(function (id) { return '<th class="num">' + esc(PBY[id].short_name || PBY[id].name) + "</th>"; }).join("") +
+      LR.map(function (id) { return '<th class="num">' + esc(PBY[id].short_name || PBY[id].name) + "</th>"; }).join("") +
       '<th class="num">Skipped</th><th class="num">Marked high</th></tr></thead><tbody>';
     groups.forEach(function (x) {
       var n = x.people.length;
-      html += "<tr" + (n < PAT_MIN ? ' class="weak"' : "") + "><td>" + esc(x.name) + '</td><td class="num">' + n + "</td>" + PIDS.map(function (id) {
+      html += "<tr" + (n < PAT_MIN ? ' class="weak"' : "") + "><td>" + esc(x.name) + '</td><td class="num">' + n + "</td>" + LR.map(function (id) {
         var s = 0, m = 0; x.people.forEach(function (p) { if (p.prov[id] != null) { s += p.prov[id]; m += 1; } });
         return '<td class="num">' + (m ? Math.round(s / m) : "-") + "</td>";
       }).join("") +
@@ -1078,7 +1122,7 @@ td.weak, .weak { color: var(--ink-2); }
     if (g.ordered) {
       /* least-squares slope of score on group position (0, 1, 2...), people in groups of PAT_MIN+ only */
       var pos = {}; big.forEach(function (x) { pos[x.k] = g.keys.indexOf(x.k); });
-      var trend = PIDS.map(function (id) {
+      var trend = LR.map(function (id) {
         var xs = [], ys = [];
         big.forEach(function (x) { x.people.forEach(function (p) { if (p.prov[id] != null) { xs.push(pos[x.k]); ys.push(p.prov[id]); } }); });
         var n = xs.length, mx = xs.reduce(add, 0) / n, my = ys.reduce(add, 0) / n, sxy = 0, sxx = 0, syy = 0;
