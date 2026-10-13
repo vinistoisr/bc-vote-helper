@@ -1777,7 +1777,7 @@
             "ndp": 1,
             "conservative": 0,
             "green": 4,
-            "centrebc": 2,
+            "centrebc": 1,
             "onebc": 0
           }
         }
@@ -1903,7 +1903,7 @@
           ]
         }
       },
-      "scoring_rationale": "Four options. a = OneBC (4); Conservatives 3 given the 2024 pledge to strip SOGI-derived materials, short of a Parental Bill of Rights in 2026. b = Conservative 2026 text (4); OneBC 3. c = the keep-protections, districts-choose, no-provincial-program position: NDP 4 on its record (kept the Human Rights Code and anti-bullying policy, cut ARC funding to $0, left districts to choose) and CentreBC 4 on its stated stance (opposes repeal of any anti-discrimination law, affirms inclusion, platform silent on SOGI 123); the two differ in tone, not in stated policy, so they score alike. Green 2 (keeps protections, wants more); Conservative 1 (its plan keeps the Code and ends the program); OneBC 0. d = Green (4); CentreBC 2 (no commitment either way; its counsellor pledge is 1:400, not 1:250); NDP 1 because the budget cut the funding regardless of campaign framing (record over rhetoric). First-reading votes on the 2026 private members' bills are described in the party records and positions but are not scored, consistent with the DRIPA question."
+      "scoring_rationale": "Four options. a = OneBC (4); Conservatives 3 given the 2024 pledge to strip SOGI-derived materials, short of a Parental Bill of Rights in 2026. b = Conservative 2026 text (4); OneBC 3. c = the keep-protections, districts-choose, no-provincial-program position: NDP 4 on its record (kept the Human Rights Code and anti-bullying policy, cut ARC funding to $0, left districts to choose) and CentreBC 4 on its stated stance (opposes repeal of any anti-discrimination law, affirms inclusion, platform silent on SOGI 123); the two differ in tone, not in stated policy, so they score alike. Green 2 (keeps protections, wants more); Conservative 1 (its plan keeps the Code and ends the program); OneBC 0. d = Green (4); CentreBC 1 (no commitment to fund or expand SOGI 123; its 1-per-400 counsellor pledge is general school staffing, not a SOGI measure; lowered from 2 on October 12 after a reader pointed this out); NDP 1 because the budget cut the funding regardless of campaign framing (record over rhetoric). First-reading votes on the 2026 private members' bills are described in the party records and positions but are not scored, consistent with the DRIPA question."
     },
     {
       "id": "q_drugs",
