@@ -497,5 +497,21 @@
   "party_communist": "Communist",
   "party_other": "Other",
   "party_unaffiliated": "Unaffiliated",
-  "month_names": "January,February,March,April,May,June,July,August,September,October,November,December"
+  "month_names": "January,February,March,April,May,June,July,August,September,October,November,December",
+  "jump_spectrum": "Left to right",
+  "spec_title": "Where your answers sit, from left to right",
+  "spec_title_family": "Where each person's answers sit, from left to right",
+  "spec_title_kid": "Where your answers land",
+  "spec_title_kid_family": "Where everyone's answers land",
+  "spec_intro": "Each answer leans toward the parties that back it. A person's mark is the average of their answers to the {n} province-wide questions, and answers marked more important count more. A party's mark is where someone who picked that party's answer every time would land.",
+  "spec_intro_kid": "Each party has a spot on the line. Your mark shows which parties your answers are near.",
+  "spec_intro_kid_family": "Each party has a spot on the line. Each person's mark shows which parties their answers are near.",
+  "spec_note": "This line uses only the {n} province-wide questions. The match percentages above also count the local questions, so they can point to a different party. One line cannot show everything: parties that sit far apart here agree on some questions.",
+  "spec_note_kid": "This line is a rough picture. The list of parties above tells you more.",
+  "spec_left": "Left",
+  "spec_right": "Right",
+  "spec_you": "You",
+  "spec_aria": "Line from left to right. Parties: {parties}. Answers: {people}.",
+  "spec_aria_item": "{name} at {pos} out of 100",
+  "method_spectrum": "The left-to-right line uses the {n} province-wide questions. Each party gets a place on it from the biggest pattern in how the five parties score the answers (a principal component analysis). Each answer then sits at the average place of the parties that back it, weighted by their scores, and a person's mark is the average of their answers, weighted by importance. A party's mark is where someone who picks that party's top answer every time would land. Calling the NDP's end left follows common use. The line does not say any place on it is better than another."
 }

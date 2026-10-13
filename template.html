@@ -684,6 +684,18 @@ html[lang="pa"] .handoff .big-name, html[lang="fa"] .handoff .big-name { line-he
 .bar-pct2 { font-family: var(--f-display); font-weight: 700; font-stretch: 100%; font-variant-numeric: tabular-nums; text-align: end; font-size: var(--t-s); color: var(--ink-2); }
 @media (max-width: 480px) { .bar-row { gap: 10px; grid-template-columns: auto minmax(0, 1fr) 3.2em; } }
 .bar-row.na .bar-pct { font-size: var(--t-xs); font-weight: 500; }
+/* Left-to-right line: party marks above the rule, people below; labels stack into lanes when they would touch (layoutSpectrum) */
+.spec { position: relative; direction: ltr; margin: 4px 0 2px; padding: 0 2px; }
+.spec-lanes { position: relative; }
+.spec-mark { position: absolute; left: 0; top: 0; display: flex; flex-direction: column; align-items: center; white-space: nowrap; font-size: var(--t-s); line-height: 1.2; }
+.spec-mark .spec-lab { position: relative; z-index: 2; padding: 3px 8px; border-radius: 999px; font-weight: 700; }
+.spec-party .spec-lab { background: var(--pc); color: var(--pc-on); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12); }
+.spec-person .spec-lab { background: var(--ink); color: var(--on-ink); }
+.spec-stem { position: relative; z-index: 1; width: 2px; flex: 1 1 auto; min-height: 6px; background: var(--line-strong); }
+.spec-rule { position: relative; height: 4px; border-radius: 999px; background: var(--track); margin: 0; }
+.spec-dot { position: absolute; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--pf); box-shadow: 0 0 0 2px var(--surface); }
+.spec-you { position: absolute; top: 50%; width: 16px; height: 16px; margin: -8px 0 0 -8px; transform: rotate(45deg); background: var(--ink); box-shadow: 0 0 0 2px var(--surface); }
+.spec-ends { display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: var(--t-xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; margin-top: 6px; }
 /* Family list: all-members bar and number, with the adults-only mean as a second number column */
 .bars.fam .bar-row { grid-template-columns: auto minmax(0, 1fr) 3.6em 3.6em; }
 .bars-head { display: grid; grid-template-columns: minmax(0, 1fr) 3.6em 3.6em; gap: 12px; font-family: var(--f-mono); font-size: var(--t-xs); letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; text-align: end; line-height: 1.25; }
@@ -2807,7 +2819,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     /* The disclaimer stays outside the fold so it is always visible */
     return foldSection("method", "method-title", t("how_this_works"), t("method"),
       '<div class="prose"><p>' + esc(pick(SPEC.meta.method_summary, level)) + "</p>" +
-      (level >= 3 ? "<p>" + esc(joinSent([t("method_weights"), localWeightText(), t(isTogether() ? "method_order_group" : "method_order_each")])) + "</p>" : "<p>" + esc(t(isTogether() ? "method_order_kid_group" : "method_order_kid_each")) + "</p>") + "</div>" +
+      (level >= 3 ? "<p>" + esc(joinSent([t("method_weights"), localWeightText(), t(isTogether() ? "method_order_group" : "method_order_each")])) + "</p><p>" + esc(t("method_spectrum", { n: spectrumModel().qs.length })) + "</p>" : "<p>" + esc(t(isTogether() ? "method_order_kid_group" : "method_order_kid_each")) + "</p>") + "</div>" +
       '<details class="more"><summary>' + esc(t("all_sources", { n: SPEC.sources.length })) + '</summary><ol class="srclist">' + src + "</ol></details>").replace(/<\/section>$/, "") +
       '<p class="notice" id="disclaimer">' + esc(pick(SPEC.meta.disclaimer, level)) + "</p></section>";
   }
@@ -2836,6 +2848,160 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     S.phase = "setup"; ridingUi.open = true; ridingUi.status = ""; save(); render("pc-input");
   }
   var foldState = {};
+  /* ------------------------------------------------------------------ */
+  /* Left-to-right line                                                  */
+  /* ------------------------------------------------------------------ */
+  /*
+   * Built from the 13 province-wide questions only, so the line is the same in every riding.
+   * 1. Party axis: the first principal component of the party x answer-option score matrix (no_position cells take
+   *    the mean of the parties that have a position, so they pull no party either way). Oriented with the NDP on the left.
+   * 2. Each answer option sits at the score-weighted mean axis position of the parties that back it.
+   * 3. A person's mark is the importance-weighted mean position of their answered options. A party's mark is where a
+   *    person who picks that party's top-scored option on every question it has a position on would land, so someone
+   *    who agrees with a party on everything sits on that party's mark.
+   * The ends are the furthest a person can reach (the left-most or right-most option on every question) or the
+   * outermost party mark, whichever is further out. Positions are 0 (left end) to 100 (right end).
+   */
+  var SPECTRUM = null;
+  function spectrumModel() {
+    if (SPECTRUM) return SPECTRUM;
+    var qs = SPEC.questions.filter(function (q) { return q.scope === "provincial"; });
+    var P = PARTY_IDS, n = P.length;
+    var cols = [];
+    qs.forEach(function (q) {
+      q.options.forEach(function (o) {
+        var have = P.filter(function (pid) { return !noPos(q, pid); }).map(function (pid) { return Number(o.scores[pid]); });
+        var m = have.length ? have.reduce(function (a, b) { return a + b; }, 0) / have.length : 0;
+        var col = P.map(function (pid) { return noPos(q, pid) ? m : Number(o.scores[pid]); });
+        var mu = col.reduce(function (a, b) { return a + b; }, 0) / n;
+        cols.push(col.map(function (v) { return v - mu; }));
+      });
+    });
+    var K = P.map(function (_, i) { return P.map(function (_, j) { return cols.reduce(function (s, c) { return s + c[i] * c[j]; }, 0); }); });
+    var v = P.map(function (_, i) { return i + 1; });
+    for (var it = 0; it < 500; it++) {
+      var w = K.map(function (row) { return row.reduce(function (s, k, j) { return s + k * v[j]; }, 0); });
+      var norm = Math.sqrt(w.reduce(function (s, x) { return s + x * x; }, 0)) || 1;
+      v = w.map(function (x) { return x / norm; });
+    }
+    if (v[P.indexOf("ndp")] > 0) v = v.map(function (x) { return -x; });
+    var ax = {};
+    P.forEach(function (pid, i) { ax[pid] = v[i]; });
+    var pos = {};
+    var lo = 0, hi = 0;
+    qs.forEach(function (q) {
+      pos[q.id] = {};
+      var vals = [];
+      q.options.forEach(function (o) {
+        var num = 0, den = 0;
+        P.forEach(function (pid) { if (noPos(q, pid)) return; var s = Number(o.scores[pid]); num += s * ax[pid]; den += s; });
+        var x = den > 0 ? num / den : null;
+        pos[q.id][o.id] = x;
+        if (x != null) vals.push(x);
+      });
+      lo += Math.min.apply(null, vals) / qs.length;
+      hi += Math.max.apply(null, vals) / qs.length;
+    });
+    var dots = {};
+    P.forEach(function (pid) {
+      var xs = [];
+      qs.forEach(function (q) {
+        if (noPos(q, pid)) return;
+        var top = Math.max.apply(null, q.options.map(function (o) { return Number(o.scores[pid]); }));
+        var tied = q.options.filter(function (o) { return Number(o.scores[pid]) === top && pos[q.id][o.id] != null; });
+        if (tied.length) xs.push(tied.reduce(function (s, o) { return s + pos[q.id][o.id]; }, 0) / tied.length);
+      });
+      dots[pid] = mean(xs);
+    });
+    P.forEach(function (pid) { if (dots[pid] != null) { lo = Math.min(lo, dots[pid]); hi = Math.max(hi, dots[pid]); } });
+    var span = hi - lo || 1;
+    var scale = function (x) { return x == null ? null : (100 * (x - lo)) / span; };
+    var parties = {};
+    P.forEach(function (pid) { parties[pid] = scale(dots[pid]); });
+    SPECTRUM = { qs: qs, pos: pos, parties: parties, scale: scale };
+    return SPECTRUM;
+  }
+  /** A person's mark, 0 (left end) to 100 (right end); null with no answered province-wide question. */
+  function spectrumPos(answers) {
+    var M = spectrumModel();
+    var num = 0, den = 0;
+    answeredQuestions(answers).forEach(function (r) {
+      if (r.q.scope !== "provincial") return;
+      var x = M.pos[r.q.id] && M.pos[r.q.id][r.opt.id];
+      if (x == null) return;
+      num += r.w * x; den += r.w;
+    });
+    return den > 0 ? M.scale(num / den) : null;
+  }
+  function spectrumSection(R, kid, who) {
+    var M = spectrumModel();
+    var people = R.members.map(function (m) { return { name: R.isFamily ? m.name : t("spec_you"), x: spectrumPos(m.answers) }; }).filter(function (p) { return p.x != null; });
+    if (!people.length) return "";
+    var parties = PARTY_IDS.filter(function (pid) { return M.parties[pid] != null; }).sort(function (a, b) { return M.parties[a] - M.parties[b]; });
+    var at = function (x) { return "left:" + Math.max(0, Math.min(100, x)).toFixed(2) + "%"; };
+    var aria = t("spec_aria", {
+      parties: joinAnd(parties.map(function (pid) { return t("spec_aria_item", { name: PBY[pid].short_name, pos: locDigits(String(Math.round(M.parties[pid]))) }); })),
+      people: joinAnd(people.map(function (p) { return t("spec_aria_item", { name: p.name, pos: locDigits(String(Math.round(p.x))) }); }))
+    });
+    var line = '<div class="spec" id="spec" role="img" aria-label="' + esc(aria) + '">' +
+      '<div class="spec-lanes spec-up">' + parties.map(function (pid) {
+        return '<span class="spec-mark spec-party" data-x="' + M.parties[pid].toFixed(2) + '" style="' + partyVars(pid) + '"><bdi class="spec-lab">' + esc(PBY[pid].short_name) + '</bdi><i class="spec-stem"></i></span>';
+      }).join("") + "</div>" +
+      '<div class="spec-rule">' + parties.map(function (pid) { return '<i class="spec-dot" style="' + partyVars(pid) + ";" + at(M.parties[pid]) + '"></i>'; }).join("") +
+      people.map(function (p) { return '<i class="spec-you" style="' + at(p.x) + '"></i>'; }).join("") + "</div>" +
+      '<div class="spec-lanes spec-down">' + people.map(function (p) {
+        return '<span class="spec-mark spec-person" data-x="' + p.x.toFixed(2) + '"><i class="spec-stem"></i><bdi class="spec-lab">' + esc(p.name) + "</bdi></span>";
+      }).join("") + "</div>" +
+      '<div class="spec-ends" aria-hidden="true"><span>' + esc(t("spec_left")) + "</span><span>" + esc(t("spec_right")) + "</span></div></div>";
+    return '<section class="block" id="spectrum" aria-labelledby="spec-title"><div class="block-head"><p class="eyebrow">' + esc(who) + '</p><h2 class="h2" id="spec-title">' + esc(t((kid ? "spec_title_kid" : "spec_title") + (R.isFamily ? "_family" : ""))) + "</h2>" +
+      '<p class="small muted">' + esc(kid ? t(R.isFamily ? "spec_intro_kid_family" : "spec_intro_kid") : t("spec_intro", { n: M.qs.length })) + "</p></div>" +
+      '<div class="panel">' + line + '<p class="small muted">' + esc(t(kid ? "spec_note_kid" : "spec_note", { n: M.qs.length })) + "</p></div></section>";
+  }
+  /**
+   * Places the labels of the line: each label is centred on its mark, kept inside the line's width, and moved to the
+   * next lane (further from the rule) when it would touch a label already placed. Party lanes grow upward, people downward.
+   */
+  function layoutSpectrum() {
+    var box = el("spec");
+    if (!box || !box.getClientRects().length) return;
+    var W = box.querySelector(".spec-rule").getBoundingClientRect().width;
+    if (!W) return;
+    var GAP = 6;
+    box.querySelectorAll(".spec-lanes").forEach(function (lanesEl) {
+      var up = lanesEl.classList.contains("spec-up");
+      var marks = Array.prototype.slice.call(lanesEl.querySelectorAll(".spec-mark"));
+      var items = marks.map(function (mk) {
+        var lab = mk.querySelector(".spec-lab");
+        return { mk: mk, x: (Number(mk.getAttribute("data-x")) / 100) * W, w: lab.getBoundingClientRect().width, h: lab.getBoundingClientRect().height };
+      }).sort(function (a, b) { return a.x - b.x; });
+      var lanes = [];
+      items.forEach(function (it) {
+        var left = Math.max(0, Math.min(W - it.w, it.x - it.w / 2));
+        var k = 0;
+        while (lanes[k] != null && lanes[k] + GAP > left) k++;
+        lanes[k] = left + it.w;
+        it.left = left; it.lane = k;
+      });
+      var labH = items.reduce(function (m, it) { return Math.max(m, it.h); }, 0);
+      var STEP = labH + 4, BASE = 8;
+      var total = BASE + (lanes.length || 1) * STEP;
+      lanesEl.style.height = total + "px";
+      items.forEach(function (it) {
+        var stemH = BASE + it.lane * STEP;
+        var stem = it.mk.querySelector(".spec-stem");
+        it.mk.style.width = it.w + "px";
+        it.mk.style.left = it.left + "px";
+        it.mk.style.top = (up ? total - stemH - labH : 0) + "px";
+        it.mk.style.height = stemH + labH + "px";
+        /* Stem runs from the rule to the label, at the mark's true position even when the label was shifted inward */
+        stem.style.alignSelf = "flex-start";
+        stem.style.marginLeft = Math.max(0, Math.min(it.w - 2, it.x - it.left - 1)) + "px";
+      });
+    });
+  }
+  var specResize = null;
+  window.addEventListener("resize", function () { clearTimeout(specResize); specResize = setTimeout(layoutSpectrum, 120); });
+
   function renderResults() {
     var R = computeResults(S);
     var level = R.level;
@@ -2853,6 +3019,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     }
     var order = R.rankedP.map(function (r) { return r.id; });
     var who = R.isFamily ? tn("fam_average_of", R.counted.length) : t("your_result");
+    var specHtml = spectrumSection(R, kid, R.isFamily ? t("each_person") : who);
     var solo = R.isFamily ? null : R.members[0];
     var rl = '<div class="rl" role="radiogroup" aria-labelledby="rl-label"><span class="rl-label" id="rl-label">' + esc(t("reading_level")) + '</span><div class="rl-row">' + LEVELS.map(function (l) {
       return '<div class="rl-opt"><input type="radio" name="rl" id="rl-' + l.id + '" value="' + l.id + '" aria-label="' + esc(t("rl_aria", { n: l.id, level: levelLong(l) })) + '"' + (level === l.id ? " checked" : "") + '><label for="rl-' + l.id + '" title="' + esc(levelLong(l)) + '">' + l.id + ' <span class="rl-word">' + esc(l.label) + "</span></label></div>";
@@ -2945,13 +3112,14 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       '<div class="hl-grid' + (R.closeP.length > 1 || R.closeC.length > 1 ? " stacked" : "") + '">' + headlineSet(R.closeP, false, level, t("who_province", { who: who }), R.rankedP, hlOpts) + (hasCands() ? headlineSet(R.closeC, true, level, t("who_riding", { who: who, riding: ridingName() }), R.rankedC, hlOpts) : noCandsHeadline()) + "</div>" +
       (R.isFamily && !R.split ? strip : "") +
       hlNote + famNote +
-      '<nav class="jump" aria-label="' + esc(t("jump_label")) + '"><a href="#ranked">' + esc(t("jump_parties")) + '</a><a href="#drivers">' + esc(t("jump_drivers")) + "</a>" + (R.isFamily ? '<a href="#agreement">' + esc(t("jump_agree")) + "</a>" : "") + '<a href="#breakdown">' + esc(t("issue_by_issue")) + '</a><a href="#riding">' + esc(ridingName() || t("your_riding")) + '</a><a href="#how-to-vote">' + esc(t("how_to_vote")) + '</a><a href="#share">' + esc(t("jump_share")) + "</a></nav>" +
+      '<nav class="jump" aria-label="' + esc(t("jump_label")) + '"><a href="#ranked">' + esc(t("jump_parties")) + "</a>" + (specHtml ? '<a href="#spectrum">' + esc(t("jump_spectrum")) + "</a>" : "") + '<a href="#drivers">' + esc(t("jump_drivers")) + "</a>" + (R.isFamily ? '<a href="#agreement">' + esc(t("jump_agree")) + "</a>" : "") + '<a href="#breakdown">' + esc(t("issue_by_issue")) + '</a><a href="#riding">' + esc(ridingName() || t("your_riding")) + '</a><a href="#how-to-vote">' + esc(t("how_to_vote")) + '</a><a href="#share">' + esc(t("jump_share")) + "</a></nav>" +
       "</section>" +
       '<section class="block" id="ranked" aria-labelledby="ranked-title"><div class="block-head"><p class="eyebrow">' + esc(who) + '</p><h2 class="h2" id="ranked-title">' + esc(kid ? t("ranked_title_kid") : t("ranked_title", { count: numWord(PARTIES.length) })) + "</h2></div>" +
       rankedParties +
       (hasCands() ? '<div class="block-head" style="margin-top:8px"><h3 class="h3">' + esc(kid ? t("ranked_cands_kid") : t("ranked_cands", { riding: ridingName() })) + '</h3><p class="small muted">' + esc(candNote()) + "</p></div>" + rankedCands :
         '<p class="notice" style="margin-top:8px">' + esc(RIDING ? t("ranked_cands_missing", { riding: ridingName() }) : t("pick_riding_cands")) + "</p>") +
       "</section>" +
+      specHtml +
       perPerson +
       '<section class="block" id="drivers" aria-labelledby="drivers-title"><div class="block-head"><p class="eyebrow">' + esc(t("drv_eyebrow")) + '</p><h2 class="h2" id="drivers-title">' + esc(drvTitle) + "</h2>" +
       '<p class="small muted">' + esc(drvIntro) + "</p></div>" + drvHtml + "</section>" +
@@ -2981,6 +3149,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
         }
       });
     });
+    layoutSpectrum();
     var tog = el("toggle-all");
     tog.addEventListener("click", function () {
       var ds = app.querySelectorAll("details.issue");

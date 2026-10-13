@@ -763,8 +763,8 @@
         "conservative": {
           "text": {
             "1": "This party would let people earn more before paying income tax, and it promises no new taxes.",
-            "3": "The Conservatives promise to raise the tax-free amount to $32,000 (about $1,000 a year), add no new taxes while in government, and remove provincial sales tax from Canadian alcohol until the trade conflict ends. The plan has no published cost and gives nothing to people who pay no provincial income tax.",
-            "5": "The Conservatives would raise the basic personal amount from $13,216 to $32,000, which the party says is worth about $1,000 a year; the saving is the same for everyone earning over about $40,000. It is a non-refundable credit, so people who owe no tax get nothing. The party has not costed it; an NDP candidate calls it a $2.5 billion hole and economist Ross Hickey estimates about $2 billion a year. It promises no new or higher taxes while in government, no PST on Canadian beer, wine and spirits until the trade conflict ends, and a three-year PST exemption on business machinery, tools and software. It voted against the 2026 bill (Bill 2) that raised the lowest rate."
+            "3": "The Conservatives promise to raise the tax-free amount to $32,000 (about $1,000 a year), add no new taxes while in government, and remove provincial sales tax from Canadian alcohol until the trade conflict ends. The plan has no published cost and gives nothing to people who pay no provincial income tax. They would also undo the 2026 rise in interest on property taxes that homeowners 55 and older put off paying.",
+            "5": "The Conservatives would raise the basic personal amount from $13,216 to $32,000, which the party says is worth about $1,000 a year; the saving is the same for everyone earning over about $40,000. It is a non-refundable credit, so people who owe no tax get nothing. The party has not costed it; an NDP candidate calls it a $2.5 billion hole and economist Ross Hickey estimates about $2 billion a year. It promises no new or higher taxes while in government, no PST on Canadian beer, wine and spirits until the trade conflict ends, and a three-year PST exemption on business machinery, tools and software. It would reverse the 2026 change to the Property Tax Deferment Program, which moved taxes deferred from 2026 on from simple interest at prime minus 2% to prime plus 2% compounded monthly. It voted against the 2026 bill (Bill 2) that raised the lowest rate."
           },
           "basis": "platform",
           "confidence": "high",
@@ -800,6 +800,14 @@
             {
               "label": "Votes and Proceedings, April 1, 2026 (Bill 2, Budget Measures Implementation Act, 2026, third reading)",
               "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260401.htm"
+            },
+            {
+              "label": "Conservative Party of BC: reverse the Property Tax Deferment Program changes (Oct 9, 2026)",
+              "url": "https://conservativebc.ca/conservatives-will-stop-the-ndp-from-taxing-seniors-out-of-their-homes/"
+            },
+            {
+              "label": "Daily Hive: Conservatives promise to reverse property tax deferral changes (Oct 9, 2026)",
+              "url": "https://dailyhive.com/vancouver/bc-conservatives-property-tax-deferment-program-promise"
             }
           ]
         },

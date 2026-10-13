@@ -807,6 +807,10 @@
 "e4649c0fea",
 "Enregistrer ou partager"
 ],
+"jump_spectrum": [
+"34ce147724",
+"De gauche à droite"
+],
 "lang_label": [
 "89b86ab0e6",
 "Langue"
@@ -930,6 +934,10 @@
 "method_order_kid_group": [
 "fb66895ff8",
 "Les réponses étaient mélangées, pour qu'aucune réponse de parti ne soit toujours en premier."
+],
+"method_spectrum": [
+"67e956d4df",
+"La ligne de gauche à droite utilise les {n} questions provinciales. Chaque parti y reçoit une place selon la principale tendance dans la façon dont les cinq partis notent les réponses (une analyse en composantes principales). Chaque réponse se place ensuite à la position moyenne des partis qui la soutiennent, pondérée par leurs notes, et la marque d'une personne est la moyenne de ses réponses, pondérée par leur importance. La marque d'un parti indique où arriverait une personne qui choisirait chaque fois la réponse la mieux notée par ce parti. Appeler « gauche » le côté du NPD suit l'usage courant. La ligne ne dit pas qu'une place vaut mieux qu'une autre."
 ],
 "method_weights": [
 "b73120ff57",
@@ -1666,6 +1674,62 @@
 "sources_label": [
 "ada52d888c",
 "Sources :"
+],
+"spec_aria": [
+"6ad965b55e",
+"Ligne de gauche à droite. Partis : {parties}. Réponses : {people}."
+],
+"spec_aria_item": [
+"393e925e8e",
+"{name} à {pos} sur 100"
+],
+"spec_intro": [
+"6509217ef4",
+"Chaque réponse penche vers les partis qui la soutiennent. La marque d'une personne est la moyenne de ses réponses aux {n} questions provinciales, et les réponses jugées plus importantes comptent davantage. La marque d'un parti indique où arriverait une personne qui aurait choisi la réponse de ce parti à chaque fois."
+],
+"spec_intro_kid": [
+"05236128a4",
+"Chaque parti a sa place sur la ligne. Ta marque montre de quels partis tes réponses sont proches."
+],
+"spec_intro_kid_family": [
+"86a3df2afb",
+"Chaque parti a sa place sur la ligne. La marque de chaque personne montre de quels partis ses réponses sont proches."
+],
+"spec_left": [
+"8ae1c34bd3",
+"Gauche"
+],
+"spec_note": [
+"6e4feee79f",
+"Cette ligne utilise seulement les {n} questions provinciales. Les pourcentages de correspondance plus haut comptent aussi les questions locales : ils peuvent donc indiquer un autre parti. Une seule ligne ne peut pas tout montrer : des partis éloignés ici sont d'accord sur certaines questions."
+],
+"spec_note_kid": [
+"9e26407cf1",
+"Cette ligne donne une idée générale. La liste des partis plus haut en dit plus."
+],
+"spec_right": [
+"954daa8b00",
+"Droite"
+],
+"spec_title": [
+"1b4c067861",
+"Où se situent vos réponses, de gauche à droite"
+],
+"spec_title_family": [
+"ef2aca3fd2",
+"Où se situent les réponses de chaque personne, de gauche à droite"
+],
+"spec_title_kid": [
+"cdd9e11852",
+"Où tombent vos réponses"
+],
+"spec_title_kid_family": [
+"a410b7c3b1",
+"Où tombent les réponses de tout le monde"
+],
+"spec_you": [
+"905cb326c7",
+"Vous"
 ],
 "split_banner": [
 "59bc5000b3",

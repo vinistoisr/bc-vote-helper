@@ -105,5 +105,14 @@
   "party_communist": "Short name of the Communist Party of BC, shown in 2024 riding results beside a percentage.",
   "party_other": "Votes for other parties or candidates in past election results, beside a percentage.",
   "party_unaffiliated": "A candidate with no party (Elections BC's term), shown in election results.",
-  "month_names": "The 12 month names in order, separated by commas (no spaces needed). Used only when the reader's browser has no month names for this language (Chrome has none for Punjabi): dates are then written '<day> <month> <year>'. Must have exactly 12 names."
+  "month_names": "The 12 month names in order, separated by commas (no spaces needed). Used only when the reader's browser has no month names for this language (Chrome has none for Punjabi): dates are then written '<day> <month> <year>'. Must have exactly 12 names.",
+  "jump_spectrum": "Short link in the jump menu to the left-to-right line section. Keep it short.",
+  "spec_title": "Heading of the section with a left-to-right political spectrum line. Left and right in the political sense.",
+  "spec_title_family": "Same heading when several family members answered.",
+  "spec_left": "Label at the left end of the political spectrum line (political left). One short word. The line is drawn left to right in every language, including right-to-left scripts.",
+  "spec_right": "Label at the right end of the political spectrum line (political right). One short word.",
+  "spec_you": "Label under the person's own mark on the line when one person answered. One short word.",
+  "spec_aria": "Screen reader description of the line. {parties} and {people} are lists of spec_aria_item.",
+  "spec_aria_item": "{name} is a party or person, {pos} a number from 0 (left end) to 100 (right end).",
+  "method_spectrum": "Method note. 'Principal component analysis' is the statistics term; use the standard term in your language."
 }

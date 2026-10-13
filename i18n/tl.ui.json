@@ -807,6 +807,10 @@
 "e4649c0fea",
 "I-save o i-share"
 ],
+"jump_spectrum": [
+"34ce147724",
+"Kaliwa pakanan"
+],
 "lang_label": [
 "89b86ab0e6",
 "Wika"
@@ -930,6 +934,10 @@
 "method_order_kid_group": [
 "fb66895ff8",
 "Pinaghalo ang pagkakasunod ng mga sagot, kaya walang sagot ng partido na laging nauuna."
+],
+"method_spectrum": [
+"67e956d4df",
+"Ginagamit ng linyang kaliwa-pakanan ang {n} tanong para sa buong probinsya. Nakukuha ang puwesto ng bawat partido mula sa pinakamalaking pattern sa paraan ng pag-iskor ng limang partido sa mga sagot (isang principal component analysis). Pagkatapos, inilalagay ang bawat sagot sa average na puwesto ng mga partidong sumusuporta rito, na tinimbang ayon sa kanilang mga iskor, at ang marka ng isang tao ay ang average ng kanyang mga sagot, na tinimbang ayon sa halaga ng bawat isa. Ang marka ng isang partido ay kung saan mapupunta ang taong laging pumipili ng pinakamataas na sagot ng partidong iyon. Ang pagtawag na kaliwa sa panig ng NDP ay sumusunod sa karaniwang gamit. Hindi sinasabi ng linya na mas mabuti ang isang puwesto kaysa sa iba."
 ],
 "method_weights": [
 "b73120ff57",
@@ -1666,6 +1674,62 @@
 "sources_label": [
 "ada52d888c",
 "Mga pinagkunan:"
+],
+"spec_aria": [
+"6ad965b55e",
+"Linya mula kaliwa pakanan. Mga partido: {parties}. Mga sagot: {people}."
+],
+"spec_aria_item": [
+"393e925e8e",
+"{name} sa {pos} sa 100"
+],
+"spec_intro": [
+"6509217ef4",
+"Bawat sagot ay kumikiling sa mga partidong sumusuporta rito. Ang marka ng isang tao ay ang average ng kanyang mga sagot sa {n} tanong para sa buong probinsya, at mas may bigat ang mga sagot na minarkahang mas mahalaga. Ang marka ng isang partido ay kung saan mapupunta ang taong laging pumili ng sagot ng partidong iyon."
+],
+"spec_intro_kid": [
+"05236128a4",
+"May sariling puwesto ang bawat partido sa linya. Ipinapakita ng iyong marka kung aling mga partido ang malapit sa iyong mga sagot."
+],
+"spec_intro_kid_family": [
+"86a3df2afb",
+"May sariling puwesto ang bawat partido sa linya. Ipinapakita ng marka ng bawat tao kung aling mga partido ang malapit sa kanyang mga sagot."
+],
+"spec_left": [
+"8ae1c34bd3",
+"Kaliwa"
+],
+"spec_note": [
+"6e4feee79f",
+"Ang linyang ito ay gumagamit lamang ng {n} tanong para sa buong probinsya. Binibilang din ng mga porsyento ng pagtutugma sa itaas ang mga lokal na tanong, kaya maaaring ibang partido ang ituro nila. Hindi kayang ipakita ng isang linya ang lahat: may mga tanong kung saan nagkakasundo ang mga partidong magkalayo rito."
+],
+"spec_note_kid": [
+"9e26407cf1",
+"Pangkalahatang larawan lang ang linyang ito. Mas marami pang sinasabi ang listahan ng mga partido sa itaas."
+],
+"spec_right": [
+"954daa8b00",
+"Kanan"
+],
+"spec_title": [
+"1b4c067861",
+"Kung saan nakapuwesto ang iyong mga sagot, mula kaliwa pakanan"
+],
+"spec_title_family": [
+"ef2aca3fd2",
+"Kung saan nakapuwesto ang mga sagot ng bawat tao, mula kaliwa pakanan"
+],
+"spec_title_kid": [
+"cdd9e11852",
+"Kung saan napunta ang iyong mga sagot"
+],
+"spec_title_kid_family": [
+"a410b7c3b1",
+"Kung saan napunta ang mga sagot ng lahat"
+],
+"spec_you": [
+"905cb326c7",
+"Ikaw"
 ],
 "split_banner": [
 "59bc5000b3",
