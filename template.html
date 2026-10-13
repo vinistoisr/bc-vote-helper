@@ -337,13 +337,9 @@ details.bg > p { margin-top: 6px; }
 .opt:hover { border-color: var(--line-strong); background: var(--surface-2); }
 .opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 /* The mark is a ballot box that fills with a check when chosen */
-.opt .mark { width: 40px; height: 40px; border-radius: 9px; border: 2.5px solid var(--ink); display: grid; place-items: center; background: var(--surface); transition: background-color 0.15s ease; }
-.opt .mark svg { width: 26px; height: 26px; overflow: visible; }
-.opt .mark path { fill: none; stroke: var(--ink); stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 20; stroke-dashoffset: 20; }
-.opt input:checked ~ .mark { background: var(--ink); border-color: var(--ink); }
-.opt input:checked ~ .mark path { stroke: var(--on-ink); }
-.opt input:checked ~ .mark path.x1 { stroke-dashoffset: 0; transition: stroke-dashoffset 0.12s ease-out; }
-.opt input:checked ~ .mark path.x2 { stroke-dashoffset: 0; transition: stroke-dashoffset 0.16s ease-out 0.1s; }
+.opt .mark { width: 40px; height: 40px; border-radius: 50%; border: 2.5px solid var(--ink); display: grid; place-items: center; background: var(--surface); }
+.opt .mark::after { content: ""; width: 52%; height: 52%; border-radius: 50%; background: var(--ink); transform: scale(0); transition: transform 0.16s cubic-bezier(0.2, 0.9, 0.3, 1.2); }
+.opt input:checked ~ .mark::after { transform: scale(1); }
 .opt:has(input:checked) { border-color: var(--ink); background: var(--surface); box-shadow: 0 0 0 2px var(--ink); }
 .opt:has(input:checked) .opt-text::after { content: attr(data-pick); display: block; margin-top: 6px; font: 700 var(--t-xs)/1 var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; }
 .opt-skip:has(input:checked) .opt-text::after { content: none; }
@@ -352,8 +348,7 @@ details.bg > p { margin-top: 6px; }
 .opt-text { font-size: var(--t-m); line-height: 1.45; }
 @media (max-width: 480px) {
   .opt { grid-template-columns: 34px minmax(0, 1fr); gap: 12px; padding: 14px 14px; }
-  .opt .mark { width: 34px; height: 34px; border-radius: 8px; }
-  .opt .mark svg { width: 22px; height: 22px; }
+  .opt .mark { width: 34px; height: 34px; }
   .opt-text { font-size: 1.0625rem; }
 }
 /* Early readers get bigger answer text */
@@ -478,8 +473,7 @@ details.lvl-fold > summary { min-height: 38px; }
 /* Options, one at a time */
 .qscreen .opts { gap: clamp(6px, 1vh, 10px); }
 .qscreen .opt { grid-template-columns: 30px minmax(0, 1fr); gap: 12px; padding: clamp(6px, 0.9vh, 10px) 14px; min-height: 44px; }
-.qscreen .opt .mark { width: 30px; height: 30px; border-radius: 7px; border-width: 2px; }
-.qscreen .opt .mark svg { width: 20px; height: 20px; }
+.qscreen .opt .mark { width: 30px; height: 30px; border-width: 2px; }
 .qscreen .opt-text { font-size: 1rem; line-height: 1.38; }
 .qscreen[data-level="1"] .opt-text, .qscreen[data-level="2"] .opt-text { font-size: 1.125rem; line-height: 1.35; }
 
@@ -619,6 +613,7 @@ html[lang="pa"] .handoff .big-name, html[lang="fa"] .handoff .big-name { line-he
 .res-head { display: grid; gap: 8px; margin-bottom: 16px; }
 .res-title { font-size: var(--t-xl); font-stretch: 112%; font-weight: 900; outline: none; }
 .res-title:focus-visible { outline: 3px solid var(--ink); }
+.res-sub { font-weight: 700; font-size: var(--t-m); max-width: 60ch; }
 .toolbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); margin-inline: calc(var(--gutter) * -1); padding: 10px var(--gutter); }
 .toolbar-in { max-width: 1080px; margin-inline: auto; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
 .rl { display: flex; align-items: center; gap: 10px; min-width: 0; flex-wrap: wrap; }
@@ -630,7 +625,7 @@ html[lang="pa"] .handoff .big-name, html[lang="fa"] .handoff .big-name { line-he
 .rl-opt label .rl-word { font-weight: 500; }
 .rl-opt input:checked + label { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
 .rl-opt input:focus-visible + label { outline: 3px solid var(--ink); outline-offset: 2px; }
-@media (max-width: 760px) { .rl-opt label .rl-word { display: none; } .rl-opt label { min-width: 44px; justify-content: center; } .jump { display: none !important; } }
+@media (max-width: 760px) { .rl-opt label .rl-word { display: none; } .rl-opt label { min-width: 44px; justify-content: center; } .jump { display: none !important; } .toolbar { padding-block: 6px; } .rl { gap: 4px 10px; } .rl-opt label { min-height: 36px; padding-block: 4px; } }
 .jump { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: var(--t-s); font-weight: 700; margin-top: 14px; }
 
 .block { padding-block: 34px 6px; display: grid; gap: 18px; scroll-margin-top: 80px; }
@@ -658,7 +653,6 @@ html[lang="pa"] .handoff .big-name, html[lang="fa"] .handoff .big-name { line-he
 .hl-local .hl-pct { font-size: clamp(2.5rem, 1.8rem + 2.5vw, 3.5rem); }
 .hl-local .hl-name { font-size: var(--t-l); }
 .hl-note { font-size: var(--t-s); padding: 12px 14px; border: 1px solid var(--line-strong); border-radius: var(--r-s); background: var(--surface); margin-top: 14px; max-width: 80ch; }
-.split-banner { margin-bottom: 14px; }
 .who-strip { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 12px 0 0; }
 .who-strip li { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; padding: 6px 12px; border: 1.5px solid var(--line-strong); border-radius: 999px; background: var(--surface); font-weight: 700; font-size: var(--t-s); max-width: 100%; min-width: 0; }
 .who-strip li.who-agree { border-style: dashed; font-weight: 600; }
@@ -817,7 +811,7 @@ details.issue:not([open]) .sum-toggle .minus { display: none; }
 
 .cands { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px; }
 .cand { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-l); padding: 16px 18px; display: grid; gap: 10px; align-content: start; min-width: 0; }
-.cand-head { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.cand-head { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; align-items: center; }
 .cand-name { font-size: var(--t-l); font-stretch: 106%; }
 .cand-other { background: var(--surface-2); border-style: dashed; }
 .hl-empty { border-style: dashed; background: var(--surface-2); }
@@ -2184,12 +2178,12 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       var o = optionOf(q, oid);
       var id = "opt-" + q.id + "-" + oid;
       return '<label class="opt" for="' + id + '"><input type="radio" name="choice" id="' + id + '" value="' + oid + '"' + (a.choice === oid ? " checked" : "") + ">" +
-        '<span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="x1" d="M5 12.5 L10 17.5"></path><path class="x2" d="M10 17.5 L19 6.5"></path></svg></span>' +
+        '<span class="mark" aria-hidden="true"></span>' +
         '<span class="opt-text" data-pick="' + esc(t("your_pick")) + '">' + esc(pick(o.text, L)) + "</span></label>";
     }).join("");
     var skipId = "opt-" + q.id + "-skip";
     opts += '<label class="opt opt-skip" for="' + skipId + '"><input type="radio" name="choice" id="' + skipId + '" value="skip"' + (a.choice === "skip" ? " checked" : "") + ">" +
-      '<span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="x1" d="M5 12.5 L10 17.5"></path><path class="x2" d="M10 17.5 L19 6.5"></path></svg></span>' +
+      '<span class="mark" aria-hidden="true"></span>' +
       '<span class="opt-text">' + esc(t(kid ? "quiz_skip_opt_kid" : "quiz_skip_opt")) + "</span></label>";
     var il = impLabels(L);
     var impHtml = ["low", "medium", "high"].map(function (k, idx) {
@@ -2832,7 +2826,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       '<div class="panel share"><div class="row">' +
       '<button type="button" class="btn btn-primary" id="pdf-btn" hidden>' + esc(t("pdf_btn")) + "</button>" +
       '<button type="button" class="btn" id="copy-btn">' + esc(t("copy_btn")) + "</button>" +
-      '<button type="button" class="btn btn-quiet" id="reset-btn">' + esc(t("reset_all")) + "</button></div>" +
+      "</div>" +
       '<p class="status" id="share-status" role="status" aria-live="polite"></p>' +
       '<p class="small muted" id="pdf-note">' + esc(pdfNoteText()) + "</p>" +
       '<div id="copy-fallback" hidden><label for="copy-text" class="small"><strong>' + esc(t("copy_fallback_label")) + '</strong></label><textarea id="copy-text" class="copybox" readonly dir="auto"></textarea></div>' +
@@ -2986,7 +2980,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
         it.left = left; it.lane = k;
       });
       var labH = items.reduce(function (m, it) { return Math.max(m, it.h); }, 0);
-      var STEP = labH + 4, BASE = 8;
+      var STEP = labH + 4, BASE = 14; /* clears the rotated person marker, which reaches about 11px past the rule */
       var total = BASE + (lanes.length || 1) * STEP;
       lanesEl.style.height = total + "px";
       items.forEach(function (it) {
@@ -3042,8 +3036,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       resTitle = R.isFamily ? t("res_title_family", { party: topShort }) : S.people[0].name.trim() ? t("res_title_named", { name: nameOf(S, 0), party: topShort, _poss: true }) : t("res_title_solo", { party: topShort });
     }
 
-    var splitBanner = R.split ? '<div class="close-banner split-banner"><span class="tag tag-solid">' + esc(t("split_tag")) + "</span><span>" +
-      esc(t(kid ? "split_banner_kid" : "split_banner")) + "</span></div>" : "";
+    var splitSub = R.split ? '<p class="res-sub">' + esc(t(kid ? "split_sub_kid" : "split_sub")) + "</p>" : "";
     var strip = R.isFamily ? whoStrip(R) : "";
     var hlOpts = { member: solo, soft: R.split };
     var hlNote = '<p class="hl-note">' + (kid ?
@@ -3107,16 +3100,16 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       t("drv_intro" + fam, { top: topN, second: secN, _poss: true });
 
     app.innerHTML =
-      '<div class="toolbar"><div class="toolbar-in">' + rl + '<button type="button" class="btn btn-s" id="tb-reset">' + esc(t("reset_all")) + "</button></div></div>" +
       '<section class="block" aria-labelledby="res-title" style="padding-top:20px">' +
       '<div class="res-head"><p class="eyebrow">' + th("res_eyebrow", { place: esc(ridingName() || t("all_of_bc")), date: '<span class="nowrap">' + esc(dateLong(SPEC.meta.data_as_of)) + "</span>" }) + "</p>" +
-      '<h2 class="res-title" id="res-title" tabindex="-1">' + esc(resTitle) + "</h2></div>" +
-      (R.split ? splitBanner + strip.replace('class="who-strip"', 'class="who-strip" style="margin:0 0 16px"') : "") +
+      '<h2 class="res-title" id="res-title" tabindex="-1">' + esc(resTitle) + "</h2>" + splitSub + "</div>" +
+      (R.split ? strip.replace('class="who-strip"', 'class="who-strip" style="margin:0 0 16px"') : "") +
       '<div class="hl-grid' + (R.closeP.length > 1 || R.closeC.length > 1 ? " stacked" : "") + '">' + headlineSet(R.closeP, false, level, t("who_province", { who: who }), R.rankedP, hlOpts) + (hasCands() ? headlineSet(R.closeC, true, level, t("who_riding", { who: who, riding: ridingName() }), R.rankedC, hlOpts) : noCandsHeadline()) + "</div>" +
       (R.isFamily && !R.split ? strip : "") +
       hlNote + famNote +
-      '<nav class="jump" aria-label="' + esc(t("jump_label")) + '"><a href="#ranked">' + esc(t("jump_parties")) + "</a>" + (specHtml ? '<a href="#spectrum">' + esc(t("jump_spectrum")) + "</a>" : "") + '<a href="#drivers">' + esc(t("jump_drivers")) + "</a>" + (R.isFamily ? '<a href="#agreement">' + esc(t("jump_agree")) + "</a>" : "") + '<a href="#breakdown">' + esc(t("issue_by_issue")) + '</a><a href="#riding">' + esc(ridingName() || t("your_riding")) + '</a><a href="#how-to-vote">' + esc(t("how_to_vote")) + '</a><a href="#share">' + esc(t("jump_share")) + "</a></nav>" +
+      '<nav class="jump" aria-label="' + esc(t("jump_label")) + '"><a href="#ranked">' + esc(t("jump_parties")) + "</a>" + (specHtml ? '<a href="#spectrum">' + esc(t("jump_spectrum")) + "</a>" : "") + '<a href="#drivers">' + esc(t("jump_drivers")) + "</a>" + (R.isFamily ? '<a href="#agreement">' + esc(t("jump_agree")) + "</a>" : "") + '<a href="#breakdown">' + esc(t("issue_by_issue")) + '</a><a href="#riding">' + esc(ridingName() || t("your_riding")) + '</a><a href="#share">' + esc(t("jump_share")) + '</a><a href="#how-to-vote">' + esc(t("how_to_vote")) + "</a></nav>" +
       "</section>" +
+      '<div class="toolbar"><div class="toolbar-in">' + rl + "</div></div>" +
       '<section class="block" id="ranked" aria-labelledby="ranked-title"><div class="block-head"><p class="eyebrow">' + esc(who) + '</p><h2 class="h2" id="ranked-title">' + esc(kid ? t("ranked_title_kid") : t("ranked_title", { count: numWord(PARTIES.length) })) + "</h2></div>" +
       rankedParties +
       (hasCands() ? '<div class="block-head" style="margin-top:8px"><h3 class="h3">' + esc(kid ? t("ranked_cands_kid") : t("ranked_cands", { riding: ridingName() })) + '</h3><p class="small muted">' + esc(candNote()) + "</p></div>" + rankedCands :
@@ -3124,18 +3117,17 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       "</section>" +
       specHtml +
       perPerson +
-      '<section class="block" id="drivers" aria-labelledby="drivers-title"><div class="block-head"><p class="eyebrow">' + esc(t("drv_eyebrow")) + '</p><h2 class="h2" id="drivers-title">' + esc(drvTitle) + "</h2>" +
-      '<p class="small muted">' + esc(drvIntro) + "</p></div>" + drvHtml + "</section>" +
-      (R.isFamily ? '<section class="block" id="agreement" aria-labelledby="agree-title"><div class="block-head"><p class="eyebrow">' + esc(t("family")) + '</p><h2 class="h2" id="agree-title">' + esc(t(kid ? "agree_title_kid" : "agree_title")) + "</h2></div>" + agreementTable(R, level) + "</section>" : "") +
-      '<section class="block" id="breakdown" aria-labelledby="breakdown-title"><div class="block-head"><p class="eyebrow">' + esc(t("all_n_questions", { n: QUESTIONS.length })) + '</p><h2 class="h2" id="breakdown-title">' + esc(t("issue_by_issue")) + "</h2>" +
-      '<div class="row-between"><p class="small muted">' + esc(t("breakdown_note")) + '</p><button type="button" class="btn btn-s" id="toggle-all">' + esc(t("open_all")) + "</button></div></div>" +
-      '<div class="issues">' + QUESTIONS.map(function (q) { return issueDetails(q, R, order, level, openSet); }).join("") + "</div></section>" +
+      foldSection("drivers", "drivers-title", t("drv_eyebrow"), drvTitle, '<p class="small muted">' + esc(drvIntro) + "</p>" + drvHtml) +
+      (R.isFamily ? foldSection("agreement", "agree-title", t("family"), t(kid ? "agree_title_kid" : "agree_title"), agreementTable(R, level)) : "") +
+      foldSection("breakdown", "breakdown-title", t("all_n_questions", { n: QUESTIONS.length }), t("issue_by_issue"),
+        '<div class="row-between"><p class="small muted">' + esc(t("breakdown_note")) + '</p><button type="button" class="btn btn-s" id="toggle-all">' + esc(t("open_all")) + "</button></div>" +
+        '<div class="issues">' + QUESTIONS.map(function (q) { return issueDetails(q, R, order, level, openSet); }).join("") + "</div>") +
       ridingSection(level, order) +
-      howToVoteSection(level) +
       partiesSection(level, order) +
       methodSection(level) +
       privacySection() +
-      shareSection();
+      shareSection() +
+      howToVoteSection(level);
 
     app.querySelectorAll('input[name="rl"]').forEach(function (r) {
       r.addEventListener("change", function () {
@@ -3181,8 +3173,6 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     });
     ["pick-riding-btn", "pick-riding-hl"].forEach(function (id) { var b = el(id); if (b) b.addEventListener("click", goPickRiding); });
     el("copy-btn").addEventListener("click", copyResults);
-    el("reset-btn").addEventListener("click", confirmReset);
-    el("tb-reset").addEventListener("click", confirmReset);
     el("pdf-btn").addEventListener("click", savePdf);
     updatePdfUi();
   }
@@ -3836,6 +3826,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     document.documentElement.classList.toggle("quiz-mode", S.phase === "quiz" || S.phase === "together");
     var mr = el("mast-reset");
     if (mr) mr.hidden = S.phase === "setup";
+    el("foot-reset").hidden = S.phase === "results";
     if (S.phase === "quiz") renderQuiz();
     else if (S.phase === "handoff") renderHandoff();
     else if (S.phase === "together") renderTogether();

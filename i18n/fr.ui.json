@@ -316,7 +316,7 @@
 "Résultat serré"
 ],
 "close_tag": [
-"bbfa773e5a",
+"1c59836910",
 "Serré"
 ],
 "closest": [
@@ -1064,8 +1064,8 @@
 "Parti libertarien de la C.-B."
 ],
 "party_meta": [
-"235fb1b0c6",
-"Chef : {leader}. {candidates} candidats. {seats} sièges à la dissolution."
+"ff5c3b7dc4",
+"Chef : {leader}. {candidates} candidats. Sièges à la dissolution : {seats}."
 ],
 "party_other": [
 "6e6a6f2086",
@@ -1592,16 +1592,16 @@
 "Jusqu'à 4 personnes peuvent répondre : à tour de rôle, ou toutes ensemble sur un seul écran."
 ],
 "setup_lede_cands": [
-"246af451b1",
-"Répondez à {n} questions courtes. Voyez quel parti et quel candidat local correspondent à vos réponses."
+"dabc4a2f62",
+"Répondez à {n} questions. Voyez quel parti et quel candidat local correspondent à vos réponses."
 ],
 "setup_lede_noriding": [
-"ea83866b26",
-"Répondez à {n} questions courtes. Voyez quel parti correspond à vos réponses. Choisissez votre circonscription pour ajouter les questions locales et les candidats."
+"97afd058da",
+"Répondez à {n} questions. Voyez quel parti correspond à vos réponses. Choisissez votre circonscription pour ajouter les questions locales et les candidats."
 ],
 "setup_lede_parties": [
-"77f3e019e8",
-"Répondez à {n} questions courtes. Voyez quel parti correspond à vos réponses."
+"c13e926040",
+"Répondez à {n} questions. Voyez quel parti correspond à vos réponses."
 ],
 "setup_level_label": [
 "50fe74ce40",
@@ -1738,6 +1738,14 @@
 "split_banner_kid": [
 "ce71ac1d8a",
 "Votre famille a fait des choix différents. Voici le résultat de chaque personne."
+],
+"split_sub": [
+"f81c27399d",
+"La moyenne ci-dessous combine tout le monde et peut ne correspondre au résultat d'aucune personne."
+],
+"split_sub_kid": [
+"c652a6574d",
+"Voici le résultat de chaque personne."
 ],
 "split_tag": [
 "d0cbcbcd73",

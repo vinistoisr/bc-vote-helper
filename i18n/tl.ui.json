@@ -316,7 +316,7 @@
 "Dikit na resulta"
 ],
 "close_tag": [
-"bbfa773e5a",
+"1c59836910",
 "Dikit"
 ],
 "closest": [
@@ -1064,7 +1064,7 @@
 "BC Libertarian"
 ],
 "party_meta": [
-"235fb1b0c6",
+"ff5c3b7dc4",
 "Lider: {leader}. {candidates} kandidato. {seats} puwesto noong pagbuwag ng Lehislatura."
 ],
 "party_other": [
@@ -1592,16 +1592,16 @@
 "Hanggang 4 na tao ang puwedeng sumagot: magsalitan, o sabay-sabay sa iisang screen."
 ],
 "setup_lede_cands": [
-"246af451b1",
-"Sagutin ang {n} maiikling tanong. Tingnan kung aling partido at aling lokal na kandidato ang tugma sa iyong mga sagot."
+"dabc4a2f62",
+"Sagutin ang {n} tanong. Tingnan kung aling partido at aling lokal na kandidato ang tugma sa iyong mga sagot."
 ],
 "setup_lede_noriding": [
-"ea83866b26",
-"Sagutin ang {n} maiikling tanong. Tingnan kung aling partido ang tugma sa iyong mga sagot. Piliin ang iyong riding para madagdagan ng mga lokal na tanong at kandidato."
+"97afd058da",
+"Sagutin ang {n} tanong. Tingnan kung aling partido ang tugma sa iyong mga sagot. Piliin ang iyong riding para madagdagan ng mga lokal na tanong at kandidato."
 ],
 "setup_lede_parties": [
-"77f3e019e8",
-"Sagutin ang {n} maiikling tanong. Tingnan kung aling partido ang tugma sa iyong mga sagot."
+"c13e926040",
+"Sagutin ang {n} tanong. Tingnan kung aling partido ang tugma sa iyong mga sagot."
 ],
 "setup_level_label": [
 "50fe74ce40",
@@ -1738,6 +1738,14 @@
 "split_banner_kid": [
 "ce71ac1d8a",
 "Magkakaiba ang pinili ng inyong pamilya. Narito ang nakuha ng bawat tao."
+],
+"split_sub": [
+"f81c27399d",
+"Pinaghahalo ng average sa ibaba ang lahat at maaaring hindi ito tumugma sa sariling resulta ng sinuman."
+],
+"split_sub_kid": [
+"c652a6574d",
+"Narito ang nakuha ng bawat tao."
 ],
 "split_tag": [
 "d0cbcbcd73",

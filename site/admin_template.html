@@ -804,27 +804,30 @@ td.weak, .weak { color: var(--ink-2); }
     if (!defs.querySelector("#" + id)) {
       var NS = "http://www.w3.org/2000/svg", pt = document.createElementNS(NS, "pattern");
       pt.setAttribute("id", id); pt.setAttribute("patternUnits", "userSpaceOnUse"); pt.setAttribute("patternTransform", "rotate(45)");
-      ids.slice(0, 2).forEach(function (pid) { var r = document.createElementNS(NS, "rect"); r.setAttribute("y", "0"); r.setAttribute("fill", PBY[pid].color); pt.appendChild(r); });
+      ids.slice(0, 2).forEach(function (pid) { var r = document.createElementNS(NS, "rect"); r.setAttribute("y", "0"); r.setAttribute("fill", mapColor(pid)); pt.appendChild(r); });
       defs.appendChild(pt);
       setVB(MAP.vb);
     }
     return "url(#" + id + ")";
   }
+  /* Map fills: BC NDP's brand orange-red and CentreBC's red look alike in small ridings, so the map shows the NDP as a plainer orange */
+  var MAP_COLOR = { ndp: "#F28A1E" };
+  function mapColor(pid) { return MAP_COLOR[pid] || PBY[pid].color; }
   function colorMap(people) {
     var st = MAP.stats = mapStats(people), lead = {}, ties = 0, low = 0, none = 0;
     Object.keys(MAP.paths).forEach(function (code) {
       var p = MAP.paths[code], s = st[code];
       if (!s || !s.lead.length) { p.setAttribute("class", "nodata" + (code === MAP.sel ? " sel" : "")); p.removeAttribute("fill"); p.removeAttribute("fill-opacity"); none++; return; }
       p.setAttribute("class", code === MAP.sel ? "sel" : "");
-      if (s.lead.length === 1) { p.setAttribute("fill", PBY[s.lead[0]].color); lead[s.lead[0]] = (lead[s.lead[0]] || 0) + 1; }
+      if (s.lead.length === 1) { p.setAttribute("fill", mapColor(s.lead[0])); lead[s.lead[0]] = (lead[s.lead[0]] || 0) + 1; }
       else { p.setAttribute("fill", tieFill(s.lead)); ties++; }
       p.setAttribute("fill-opacity", s.n < MAP_MIN ? "0.55" : "1");
       if (s.n < MAP_MIN) low++;
     });
     var rows = PIDS.slice().sort(function (a, b) { return (lead[b] || 0) - (lead[a] || 0); }).map(function (id) {
-      return '<div class="row"><span><span class="sw" style="background:' + esc(PBY[id].color) + '"></span>' + esc(PBY[id].short_name || PBY[id].name) + "</span><span>" + (lead[id] || 0) + "</span></div>";
+      return '<div class="row"><span><span class="sw" style="background:' + esc(mapColor(id)) + '"></span>' + esc(PBY[id].short_name || PBY[id].name) + "</span><span>" + (lead[id] || 0) + "</span></div>";
     });
-    rows.push('<div class="row"><span><span class="sw" style="background:repeating-linear-gradient(45deg,' + esc(PBY[PIDS[0]].color) + " 0 4px," + esc(PBY[PIDS[1]].color) + ' 4px 8px)"></span>Tie (stripes)</span><span>' + ties + "</span></div>");
+    rows.push('<div class="row"><span><span class="sw" style="background:repeating-linear-gradient(45deg,' + esc(mapColor(PIDS[0])) + " 0 4px," + esc(mapColor(PIDS[1])) + ' 4px 8px)"></span>Tie (stripes)</span><span>' + ties + "</span></div>");
     rows.push('<div class="row"><span><span class="sw" style="background:var(--wash)"></span>No responses yet</span><span>' + none + "</span></div>");
     el("map-legend").innerHTML = '<div class="small muted">Ridings led</div>' + rows.join("") +
       '<div class="small muted">Faded: fewer than ' + MAP_MIN + " people (" + low + " ridings).</div>";
