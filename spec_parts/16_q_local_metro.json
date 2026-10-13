@@ -4,11 +4,11 @@
     "issue_id": "metro_transit",
     "scope": "local",
     "prompt": {
-      "1": "Metro Vancouver's buses and trains will run short of money soon. What should the province do?",
-      "2": "TransLink, which runs Metro Vancouver's buses and trains, needs new money from 2028. What should the province do?",
-      "3": "TransLink needs at least $112 million a year in new money from 2028. How should the province fund transit in Metro Vancouver?",
-      "4": "TransLink's provincial top-up ends in 2027, and it needs at least $112 million a year more from 2028. How should the gap close?",
-      "5": "The province's $312 million subsidy carries TransLink to the end of 2027; the agency needs at least $112 million a year from 2028 and the government has ruled out a vehicle levy. Which approach?"
+      "1": "The agency that runs Metro Vancouver's buses and trains says it will run short of money soon. What should the province do?",
+      "2": "TransLink, which runs Metro Vancouver's buses and trains, says it needs new money from 2028. What should the province do?",
+      "3": "TransLink says it needs at least $112 million a year in new money from 2028. What should the province do about transit in Metro Vancouver?",
+      "4": "TransLink's provincial top-up ends in 2027, and it says it needs at least $112 million a year more from 2028. What should the province do?",
+      "5": "The province's $312 million subsidy carries TransLink to the end of 2027; the agency says it needs at least $112 million a year from 2028, and the government has ruled out a vehicle levy. Which approach?"
     },
     "context": {
       "1": "TransLink runs the buses and trains in Metro Vancouver. The province gives it extra money now, but that runs out after next year. Parties disagree on who should pay after that, and on whether some riders should travel free.",
@@ -221,14 +221,14 @@
     "issue_id": "metro_title",
     "scope": "local",
     "prompt": {
-      "1": "A court says a First Nation owns Richmond land with homes on it. What should happen?",
-      "2": "A court recognized a First Nation's title to Richmond land with private homes. How should owners be protected and claims settled?",
-      "3": "A 2025 ruling recognized Cowichan title over Richmond land with private homes. How should owners be protected and claims settled?",
-      "4": "The Cowichan title ruling over Richmond land with homes is under appeal. How should owners be protected and title settled?",
+      "1": "A court says a First Nation has title, a kind of ownership right, to Richmond land with homes on it. What should happen?",
+      "2": "A court recognized a First Nation's title to Richmond land with private homes. How should the province handle homeowners and title claims?",
+      "3": "A 2025 ruling recognized Cowichan title over Richmond land with private homes. How should the province handle homeowners and title claims?",
+      "4": "The Cowichan title ruling over Richmond land with homes is under appeal. How should the province handle homeowners and title?",
       "5": "In August 2025 the BC Supreme Court recognized Cowichan Tribes' Aboriginal title over Richmond land including privately held parcels; the province, Ottawa and Richmond have appealed. Which approach to homeowners and title?"
     },
     "context": {
-      "1": "A judge decided that a First Nation owns some land in Richmond, including land under people's homes. The province is fighting that decision in a higher court. Parties disagree on how to protect the people who live there, and on how to settle these claims.",
+      "1": "A judge decided that a First Nation has title, a kind of ownership right, to some land in Richmond, including land under people's homes. The province is fighting that decision in a higher court. Parties disagree on what this means for the people who live there, and on how to settle these claims.",
       "2": "In 2025 the BC Supreme Court recognized Cowichan Tribes' title over land in Richmond, including private homes. The province, the federal government and the City of Richmond have appealed. Parties disagree on whether to promise homeowners money if their home loses value, whether to change the Indigenous rights law, and whether claims should be settled by treaty or in court.",
       "3": "The August 2025 Cowichan ruling recognized Aboriginal title over Richmond land that includes private homes. The province is appealing and Eby says it will 'go to the wall' for owners. CentreBC would pass a law promising owners compensation for lost value. The Conservatives and OneBC would repeal the Indigenous rights law and put property rights first. The Greens would keep the law and settle claims by negotiation. A March poll found most people would put private property first.",
       "4": "The Cowichan decision (BC Supreme Court, August 2025) recognized Aboriginal title over part of Richmond including privately held parcels; the province, Canada, Richmond and others have appealed. A separate 2025 Court of Appeal ruling made DRIPA obligations enforceable, and the two cases are often confused. Eby calls the rulings 'overreaching' and promises to protect owners, without a compensation law. CentreBC's homeowner guarantee would compensate owners up to assessed value and keep homes mortgageable. The Conservatives and OneBC would repeal DRIPA. The Greens would legislate how DRIPA is carried out. Angus Reid (March 2026): 65% put private property first.",

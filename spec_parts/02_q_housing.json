@@ -4,9 +4,9 @@
     "issue_id": "housing",
     "scope": "provincial",
     "prompt": {
-      "1": "Homes cost a lot to buy or rent. How should the government help?",
-      "2": "Buying or renting a home in BC is expensive. How should the province help people afford housing?",
-      "3": "What should the province do about the cost of housing?",
+      "1": "Homes cost a lot to buy or rent. What should the government's plan be?",
+      "2": "Buying or renting a home in BC is expensive. Which housing approach should the province take?",
+      "3": "Which approach should the province take on housing costs?",
       "4": "Which housing approach should the province take: lower builder costs, taxes on empty homes, public building, faster approvals, or fewer rules?",
       "5": "Which mix of housing taxes, zoning rules, approval reforms and public building should the province pursue?"
     },

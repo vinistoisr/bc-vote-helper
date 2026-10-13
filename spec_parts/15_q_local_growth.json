@@ -4,9 +4,9 @@
     "issue_id": "surrey_growth",
     "scope": "local",
     "prompt": {
-      "1": "Surrey has a half-built hospital and crowded schools. What should the province do first?",
+      "1": "A new Surrey hospital is under construction, and schools are crowded. What should the province do first?",
       "2": "Surrey's new hospital opens in 2030, its emergency room is busy and schools keep growing. What should the province focus on?",
-      "3": "How should the province handle Surrey's half-built hospital, overloaded emergency room and crowded schools?",
+      "3": "How should the province handle Surrey's new hospital under construction, its busy emergency room and its crowded schools?",
       "4": "How should the province handle Surrey's hospital, emergency room and school space as the city grows?",
       "5": "The Cloverdale hospital (about $2.88 billion) opens in 2030, 8.4% of Surrey Memorial emergency patients left without being seen in 2024, and the school district expects 700 to 800 more students a year. Choose the approach."
     },

@@ -4,9 +4,9 @@
     "issue_id": "cost_of_living",
     "scope": "provincial",
     "prompt": {
-      "1": "Food, gas and rent cost more now. How should the government help people with costs?",
-      "2": "Groceries, gas and rent cost more than they used to. How should the province help families pay for them?",
-      "3": "Cost of living is the top issue for BC voters. Which approach should the province take to make life more affordable?",
+      "1": "Food, gas and rent cost more now. What should the government's plan be?",
+      "2": "Groceries, gas and rent cost more than they used to. Which approach should the province take?",
+      "3": "Which approach should the province take on the cost of living?",
       "4": "Which cost-of-living approach should come first: tax cuts, price rules, more help for low incomes, or targeted credits and rate caps?",
       "5": "Which mix of cost-of-living measures should the province put first: broad tax cuts, price controls, income support, or targeted credits and rate caps?"
     },
@@ -265,13 +265,13 @@
     "scope": "provincial",
     "prompt": {
       "1": "The province spends more money than it takes in. What should it do?",
-      "2": "BC spends more than it takes in. How should it close the gap, and who should pay?",
-      "3": "BC is spending far more than it takes in. How should it handle that, and who should pay more or less tax?",
-      "4": "Which path should BC take on its deficit: tax cuts, taxing high incomes or wealth, spending restraint, or borrowing to protect services?",
-      "5": "Which fiscal and tax path do you support for dealing with BC's $13.8 billion deficit?"
+      "2": "BC spends more than it takes in. What should it do?",
+      "3": "BC expects to spend about $13.8 billion more than it takes in this year. What should it do?",
+      "4": "Which path should BC take on its deficit: tax cuts, taxing high incomes or wealth, spending restraint, or continued borrowing?",
+      "5": "Which approach to taxes, spending and borrowing do you support for BC's $13.8 billion deficit?"
     },
     "context": {
-      "1": "The province spends more money than it takes in, so it borrows the rest. Borrowing costs extra because of interest. The province could spend less, raise some taxes, or keep borrowing to protect services.",
+      "1": "The province spends more money than it takes in, so it borrows the rest. Borrowing costs extra because of interest. The province could spend less, raise some taxes, or keep borrowing.",
       "2": "BC expects a deficit of about $13.8 billion this year, which means it spends that much more than it takes in. It borrows to cover the gap, and that adds interest costs. It can spend less, tax some people more, keep borrowing until the economy grows, or mix these.",
       "3": "BC's deficit, the gap between what it spends and what it takes in, is about $13.8 billion. That is a record in dollars. All four credit rating agencies lowered BC's rating in 2026. No party has a fully costed plan, so the parties' promises and price tags are hard to compare.",
       "4": "BC now forecasts a $13.8 billion deficit this year, up from $13.3 billion in Budget 2026, and debt rising to 37% of gross domestic product (GDP), the size of BC's economy, by 2028-29. The parties' plans differ in size. The NDP's higher tax on high incomes would raise about $1 billion a year. The Conservatives have not costed their tax cut; an economist puts it at about $2 billion a year. The Greens estimate their wealth tax would raise $22.2 billion in its first year. CentreBC says its promises cost $13.7 billion over four years and would balance the budget in 2034-35. OneBC has not costed its cuts.",

@@ -4,11 +4,11 @@
     "issue_id": "north_forestry",
     "scope": "local",
     "prompt": {
-      "1": "Northern mills are closing for lack of wood. How much forest should be cut?",
+      "1": "Northern mills are closing, and companies say they cannot get enough wood. How much forest should be cut?",
       "2": "Northern mills are closing, and companies blame a shortage of wood. How should the province decide how much timber is cut?",
-      "3": "Northern mills, including Prince George's Northwood pulp mill, are closing over fibre supply. How should the harvest be set?",
-      "4": "Northwood pulp mill is closing over fibre supply; the province aims for 45 million cubic metres a year. How should harvest be set?",
-      "5": "Canfor's Northwood pulp mill (about 300 jobs) closes in late 2026 citing fibre supply; the Working Forest Landscape Model aims at 45 million cubic metres a year against about 30 million harvested. Which approach?"
+      "3": "Northern mills, including Prince George's Northwood pulp mill, are closing, and companies cite fibre supply. How should the harvest be set?",
+      "4": "Canfor is closing the Northwood pulp mill, citing pulp losses and fibre supply; the province aims for 45 million cubic metres a year. How should harvest be set?",
+      "5": "Canfor will close its Northwood pulp mill (about 300 jobs) in late 2026, citing pulp losses and fibre supply; the Working Forest Landscape Model aims at 45 million cubic metres a year against about 30 million harvested. Which approach?"
     },
     "context": {
       "1": "Forestry is a main employer in many northern towns. Several mills have closed, and the companies say they cannot get enough wood. The province owns most of the forest and decides how much can be cut. Parties disagree on cutting more, less, or planning differently.",
@@ -208,18 +208,18 @@
     "issue_id": "north_resources",
     "scope": "local",
     "prompt": {
-      "1": "Gas plants, mines and a power line are planned up north. How should they be approved?",
+      "1": "Gas plants, mines and a power line are planned up north. How should the province decide on them?",
       "2": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. How should the province handle them?",
-      "3": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. What conditions should apply?",
-      "4": "LNG Canada is doubling; Ksi Lisims LNG is permitted, new mines await permits and the North Coast power line is being built. What conditions should apply?",
-      "5": "LNG Canada Phase 2 took its final investment decision September 29, 2026, doubling capacity; Ksi Lisims LNG is permitted and heading toward a final investment decision, critical mineral mines await permits, and the North Coast Transmission Line's first phase is under construction. Which approval approach?"
+      "3": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. How should the province decide on them?",
+      "4": "LNG Canada is doubling; Ksi Lisims LNG is permitted, new mines await permits and the North Coast power line is being built. How should the province handle these projects?",
+      "5": "LNG Canada Phase 2 took its final investment decision September 29, 2026, doubling capacity; Ksi Lisims LNG is permitted and heading toward a final investment decision, critical mineral mines await permits, and the North Coast Transmission Line's first phase is under construction. Which approach?"
     },
     "context": {
       "1": "The north has big projects waiting: gas export plants, new mines, and a long power line to run them. The province decides whether and how fast to approve them, and what pollution and First Nations rules apply. Parties disagree on speed and conditions.",
       "2": "In September the companies behind the Kitimat gas export plant agreed to build a second phase. Another gas plant near Prince Rupert has its permits but no final go-ahead, new mines are waiting on permits, and construction has started on a north coast power line. The province sets approval timelines, pollution rules, the carbon price for industry, and First Nations partnership rules. Parties disagree on speed and conditions.",
       "3": "The Kitimat gas export plant's owners are doubling it after a September decision. The Ksi Lisims plant near Prince Rupert is permitted but awaits its investment decision, mine proposals are in the permit queue, and the first phase of the North Coast power line is under construction. The NDP requires new plants to be net-zero ready by 2030. The Conservatives would legislate 120-day approvals and drop emissions limits. CentreBC would set a one-year legal deadline. The Greens would approve no new gas plants.",
       "4": "LNG Canada announced its Phase 2 final investment decision on September 29, doubling Kitimat capacity to 28 million tonnes. The NDP requires new projects to be net-zero ready by 2030, would run assessments and permits at the same time, double mineral exports and fast-track the North Coast line with Canadian steel. The Conservatives' plan doubles gas production by 2032, ends emissions limits, legislates 120-day permits and sets a fixed deadline for the line. CentreBC backs LNG with First Nations partners and net-zero plans, a 12-month decision deadline and ten mine decisions by 2030. The Greens would end approvals for new LNG and pipelines.",
-      "5": "LNG Canada's Phase 2 final investment decision (September 29, 2026) doubles Kitimat capacity to 28 million tonnes. On the NDP's own numbers, capacity reaches nearly 48 million tonnes by 2035, above the Conservatives' 'triple by 2035' target, so the real dispute is conditions and process. The NDP pledges to double critical mineral exports in five years, run permits concurrently, build the North Coast Transmission Line with Canadian steel, and keep the net-zero-ready requirement. The Conservatives would double gas by 2032 and triple by 2035, end emissions limits, pass a 120 Day Permitting Act and fix a line deadline. CentreBC requires First Nations partners and credible net-zero plans, keeps industrial carbon pricing, sets a 12-month provincial deadline and promises decisions on 10 mines by 2030. The Greens would approve no new LNG or pipelines."
+      "5": "LNG Canada's Phase 2 final investment decision (September 29, 2026) doubles Kitimat capacity to 28 million tonnes. On the NDP's own numbers, capacity reaches nearly 48 million tonnes by 2035, above the Conservatives' 'triple by 2035' target, so the NDP and the Conservatives differ mainly on conditions and process. The NDP pledges to double critical mineral exports in five years, run permits concurrently, build the North Coast Transmission Line with Canadian steel, and keep the net-zero-ready requirement. The Conservatives would double gas by 2032 and triple by 2035, end emissions limits, pass a 120 Day Permitting Act and fix a line deadline. CentreBC requires First Nations partners and credible net-zero plans, keeps industrial carbon pricing, sets a 12-month provincial deadline and promises decisions on 10 mines by 2030. The Greens would approve no new LNG or pipelines."
     },
     "options": [
       {

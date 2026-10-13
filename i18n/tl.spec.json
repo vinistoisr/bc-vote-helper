@@ -1016,8 +1016,8 @@
 "Nagbibigay ng trabaho ang langis at gas, pero nagpapalala rin ang mga ito sa climate change. Ano ang dapat gawin ng BC?"
 ],
 "questions/q_climate_energy/prompt/2": [
-"e17f434bb4",
-"Nagbebenta ang BC ng natural gas, pero nahuhuli ito sa layunin nitong bawasan ang polusyong nagpapainit sa klima. Ano ang dapat nitong gawin?"
+"b8a9cdae6e",
+"Nagbebenta ang BC ng natural gas, pero nahuhuli ito sa layunin nitong bawasan ang mga gas na nagpapainit sa klima. Ano ang dapat nitong gawin?"
 ],
 "questions/q_climate_energy/prompt/3": [
 "5b5cd02374",
@@ -1212,16 +1212,16 @@
 "Babawasan ng OneBC nang 25% ang bawat bracket ng personal at corporate income tax, ibababa nang dalawang puntos ang PST, unti-unting aalisin ang monopolyo ng ICBC at tatapusin ang no-fault na sistema nito, at aalisin ang BC Energy Step Code. Wala itong inilathalang kuwenta ng gastos o patakaran sa presyo, assistance o sahod, pero nangangako ito ng balanseng budget sa loob ng apat na taon kasabay ng mga bawas na ito."
 ],
 "questions/q_cost_of_living/prompt/1": [
-"77acc25979",
-"Mas mahal na ngayon ang pagkain, gasolina at upa. Paano dapat tulungan ng gobyerno ang mga tao sa gastos?"
+"61b63896e9",
+"Mas mahal na ngayon ang pagkain, gasolina at upa. Ano dapat ang plano ng gobyerno?"
 ],
 "questions/q_cost_of_living/prompt/2": [
-"28473c9518",
-"Mas mahal na ngayon ang grocery, gasolina at upa kaysa dati. Paano dapat tulungan ng probinsya ang mga pamilya na bayaran ang mga ito?"
+"5adf21a293",
+"Mas mahal na ngayon ang grocery, gasolina at upa kaysa dati. Aling paraan ang dapat gamitin ng probinsya?"
 ],
 "questions/q_cost_of_living/prompt/3": [
-"953a5e4a11",
-"Ang gastos sa pamumuhay ang pangunahing isyu ng mga botante sa BC. Aling paraan ang dapat gamitin ng probinsya para gawing mas abot-kaya ang buhay?"
+"a07abec81c",
+"Aling paraan ang dapat gamitin ng probinsya pagdating sa gastos sa pamumuhay?"
 ],
 "questions/q_cost_of_living/prompt/4": [
 "a8cc1a98a2",
@@ -1416,8 +1416,8 @@
 "Gaano kalaking kapangyarihan ang dapat gamitin ng gobyerno, at dapat bang magbago ang paraan ng ating pagboto?"
 ],
 "questions/q_democracy_power/prompt/2": [
-"db51a30db2",
-"Gaano kabilis dapat ipilit ng probinsya ang malalaking desisyon, at dapat bang magbago ang paraan ng ating pagboto?"
+"6049cf11ba",
+"Gaano kabilis dapat gumawa ng malalaking desisyon ang probinsya, at dapat bang magbago ang paraan ng ating pagboto?"
 ],
 "questions/q_democracy_power/prompt/3": [
 "2ab16dff76",
@@ -1432,8 +1432,8 @@
 "Pumili ng direksyon sa kapangyarihan ng probinsya, bilis ng pag-apruba, pagbabantay sa gobyerno at mga patakaran sa halalan."
 ],
 "questions/q_dripa/context/1": [
-"97c4616521",
-"Noong 2019, nagpasa ang mga mambabatas ng BC ng isang batas, nang walang bumoto laban, na nagsasabing dapat igalang ng mga batas ng BC ang karapatan ng mga Katutubo. Noong 2025, sinabi ng isang korte na puwedeng suriin ng mga hukom ang mga batas ng BC batay dito. Hindi nagkakasundo ang mga partido kung ano ang gagawin. Mananatili ang karapatan ng First Nations anuman ang mangyari."
+"af32fb4c0f",
+"Noong 2019, nagpasa ang mga mambabatas ng BC ng isang batas, nang walang bumoto laban, na nagsasabing dapat magsikap ang BC na itugma ang mga batas nito sa isang deklarasyon ng United Nations tungkol sa karapatan ng mga Katutubo. Noong 2025, sinabi ng isang korte na puwedeng suriin ng mga hukom ang mga batas ng BC batay sa deklarasyong ito. Hindi nagkakasundo ang mga partido kung ano ang gagawin. Mananatili ang karapatan ng First Nations anuman ang mangyari."
 ],
 "questions/q_dripa/context/2": [
 "2d081899d2",
@@ -1612,12 +1612,12 @@
 "Ibabasura ng OneBC ang DRIPA, idedeklarang walang bisa sa BC ang UNDRIP, ititigil ang boluntaryong paglilipat, at hihingi ng reporma sa konstitusyon para ibasura ang Indian Act at gawing township ang mga reserve; sa paglulunsad nito noong 2025, sinabi ni Brodie na 'aalisan nito ng pondo ang industriya ng reconciliation'. Noong Oktubre 2025, natalo sa botong 5 laban sa 85 ang panukalang batas niya na ipagbawal ang land acknowledgement, at natalo sa botong 40 laban sa 48 ang kanyang Property Rights Protection Act. Bumoto siya pabor sa unang pagbasa ng mga panukalang batas na magbabasura sa DRIPA mula sa independiyenteng MLA na si Jordan Kealy (Nobyembre 2025) at sa Conservative na MLA na si Trevor Halford (Abril 2026). Inalis siya ni Rustad sa caucus ng mga Conservative noong Marso 2025, at sinabi ni Rustad na kinutya ni Brodie ang testimonya ng mga survivor ng residential school."
 ],
 "questions/q_dripa/prompt/1": [
-"7209f89ee2",
-"Sinasabi ng isang batas ng BC na dapat igalang ng mga batas ng probinsya ang karapatan ng mga Katutubo. Ano ang dapat mangyari dito?"
+"3c3af13e88",
+"Sinasabi ng isang batas ng BC na dapat magsikap ang probinsya na itugma ang mga batas nito sa isang deklarasyon ng United Nations tungkol sa karapatan ng mga Katutubo. Ano ang dapat mangyari dito?"
 ],
 "questions/q_dripa/prompt/2": [
-"599f0b3c0b",
-"Sinasabi ng isang batas noong 2019 na dapat tumugma ang mga batas ng BC sa karapatan ng mga Katutubo. Ano ang dapat mangyari dito ngayon?"
+"7412085071",
+"Sinasabi ng isang batas noong 2019 na dapat magsikap ang BC na iayon ang mga batas nito sa isang deklarasyon ng United Nations tungkol sa karapatan ng mga Katutubo. Ano ang dapat mangyari dito ngayon?"
 ],
 "questions/q_dripa/prompt/3": [
 "94998db290",
@@ -1816,8 +1816,8 @@
 "Maraming tao sa BC ang namamatay sa nakalalasong droga mula sa kalye. Paano dapat tumugon ang probinsya?"
 ],
 "questions/q_drugs/prompt/2": [
-"ce2bf7edbc",
-"Dapat bang ituon ng BC ang pansin sa pagpapanatiling buhay ng mga gumagamit ng droga, sa sapilitang paggamot, o halo ng dalawa?"
+"476f7ec8e8",
+"Dapat bang ituon ng BC ang pansin sa pagbabawas ng pinsala o harm reduction (gaya ng mga lugar na may nagbabantay habang gumagamit ng droga), sa sapilitang paggamot, o halo ng dalawa?"
 ],
 "questions/q_drugs/prompt/3": [
 "2d6be19562",
@@ -2016,8 +2016,8 @@
 "Naglagay ang United States ng dagdag na buwis sa maraming produkto ng BC. Paano mapoprotektahan ng BC ang mga trabaho?"
 ],
 "questions/q_economy_tariffs/prompt/2": [
-"97620f0d80",
-"Nagpapawala ng trabaho ang mga taripa ng America (dagdag na buwis sa mga produkto ng BC na ibinebenta roon). Paano dapat protektahan ng BC ang mga trabaho at palaguin ang ekonomiya?"
+"fee60f03a4",
+"Habang may mga taripa ang America (dagdag na buwis sa mga produkto ng BC na ibinebenta roon), paano dapat protektahan ng BC ang mga trabaho at palaguin ang ekonomiya?"
 ],
 "questions/q_economy_tariffs/prompt/3": [
 "52601831aa",
@@ -2240,12 +2240,12 @@
 "Mga isa sa bawat apat na tao sa BC ang walang regular na family doctor o nurse practitioner, mula sa mas kaunti sa isa sa bawat lima noong 2017. Sinasabi ng bawat partido na dapat manatiling libre ang pangangalaga para sa mga pasyente. Hindi sila nagkakasundo kung dapat magpatakbo ang mga kumpanya ng mas maraming pangangalaga, at kung paano ito babayaran."
 ],
 "questions/q_health/context/3": [
-"e0767e525f",
-"Pangalawa ang health care sa mga alalahanin ng mga botante sa BC. Mga isa sa bawat apat na tao ang walang regular na family doctor o nurse practitioner, kahit binago ng gobyerno ng NDP ang paraan ng pagbabayad sa mga family doctor noong 2023. Sinasabi ng lahat ng partido na dapat manatiling pinopondohan ng publiko ang pangangalaga. Magkakaiba sila sa pagpapatayo ng mas maraming pampublikong klinika, pagbabayad sa mga provider na hindi gobyerno, pagpapahintulot sa mga tao na magbayad para sa mas mabilis na pangangalaga, at kung paano ito popondohan lahat."
+"fd71f59f51",
+"Pangalawa ang health care sa mga alalahanin ng mga botante sa BC. Mga isa sa bawat apat na tao ang walang regular na family doctor o nurse practitioner. Binago ng gobyerno ng NDP ang paraan ng pagbabayad sa mga family doctor noong 2023. Sinasabi ng lahat ng partido na dapat manatiling pinopondohan ng publiko ang pangangalaga. Magkakaiba sila sa pagpapatayo ng mas maraming pampublikong klinika, pagbabayad sa mga provider na hindi gobyerno, pagpapahintulot sa mga tao na magbayad para sa mas mabilis na pangangalaga, at kung paano ito popondohan lahat."
 ],
 "questions/q_health/context/4": [
-"c889623f1d",
-"Mga 1.26 milyong tao sa BC (23%) ang walang regular na family doctor o nurse practitioner, mula 18% noong 2017, kahit nagpatupad ang gobyerno ng NDP ng bagong modelo ng pagbabayad sa mga family doctor noong 2023. Ang median na paghihintay mula sa referral ng doktor hanggang sa paggamot ay 32 linggo. Ipinagbabawal ng isang batas ng probinsya, ang Medicare Protection Act, na singilin ng pribadong klinika ang mga pasyente para sa mga serbisyong sakop ng pampublikong plano."
+"9a4fe66f75",
+"Mga 1.26 milyong tao sa BC (23%) ang walang regular na family doctor o nurse practitioner, tumaas mula 18% noong 2017. Nagpatupad ang gobyerno ng NDP ng bagong modelo ng pagbabayad sa mga family doctor noong 2023. Ang median na paghihintay mula sa referral ng doktor hanggang sa paggamot ay 32 linggo. Ipinagbabawal ng isang batas ng probinsya, ang Medicare Protection Act, na singilin ng pribadong klinika ang mga pasyente para sa mga serbisyong sakop ng pampublikong plano."
 ],
 "questions/q_health/context/5": [
 "8ea311254f",
@@ -2412,16 +2412,16 @@
 "Papayagan ng OneBC ang pribadong health care kasabay ng pampublikong sistema, ibabasura ang Health Professions and Occupations Act, at ililipat sa pagpopondo sa mga frontline na kawani ang perang ginagastos sa administrasyon at HR. Wala itong pangako sa primary care, diagnostics, ratio ng nurse o long-term care. Ang isang kahanay na pribadong antas ay sasalungat sa Medicare Protection Act sa kasalukuyang anyo nito."
 ],
 "questions/q_health/prompt/1": [
-"880727a7c6",
-"Maraming tao ang hindi makahanap ng family doctor, at puno ang mga waiting room. Ano ang dapat magbago?"
+"f4b216fce3",
+"Maraming tao ang hindi makahanap ng family doctor, at puno ang mga waiting room. Ano ang dapat gawin ng probinsya?"
 ],
 "questions/q_health/prompt/2": [
-"eeb13ca8ef",
-"Paano dapat tulungan ng probinsya ang mga tao na mas maagang makakuha ng family doctor, emergency care at operasyon?"
+"41373b8b03",
+"Aling paraan ang dapat gamitin ng probinsya pagdating sa family doctor, emergency care at operasyon?"
 ],
 "questions/q_health/prompt/3": [
-"4208926b3b",
-"Paano dapat pagbutihin ng probinsya ang access sa mga family doctor, emergency room at operasyon?"
+"75cdeeedde",
+"Aling paraan ang dapat gamitin ng probinsya pagdating sa access sa mga family doctor, emergency room at operasyon?"
 ],
 "questions/q_health/prompt/4": [
 "e6962d875b",
@@ -2612,16 +2612,16 @@
 "Aalisin ng OneBC ang BC Energy Step Code at haharangin ang kontrol sa upa ng munisipyo, na ayon dito ay 'nagpapahina sa gana na magpatayo'. Hindi ito nagmumungkahi ng buwis sa panig ng demand at walang programa sa suplay. Wala itong rekord sa gobyerno; ang mga MLA nito ay nahalal bilang mga Conservative noong 2024."
 ],
 "questions/q_housing/prompt/1": [
-"e78f115c08",
-"Mahal bumili o umupa ng bahay. Paano dapat tumulong ang gobyerno?"
+"9f3b03e5a8",
+"Mahal bumili o umupa ng bahay. Ano dapat ang plano ng gobyerno?"
 ],
 "questions/q_housing/prompt/2": [
-"fb557fed07",
-"Mahal bumili o umupa ng bahay sa BC. Paano dapat tulungan ng probinsya ang mga tao na kayanin ang gastos sa pabahay?"
+"025515c835",
+"Mahal bumili o umupa ng bahay sa BC. Aling paraan sa pabahay ang dapat gamitin ng probinsya?"
 ],
 "questions/q_housing/prompt/3": [
-"2e6ee5c897",
-"Ano ang dapat gawin ng probinsya tungkol sa gastos ng pabahay?"
+"4dbb23b4f5",
+"Aling paraan ang dapat gamitin ng probinsya pagdating sa gastos ng pabahay?"
 ],
 "questions/q_housing/prompt/4": [
 "6c058de14b",
@@ -2632,8 +2632,8 @@
 "Aling halo ng buwis sa pabahay, patakaran sa zoning, reporma sa pag-apruba at pagpapatayo ng gobyerno ang dapat ituloy ng probinsya?"
 ],
 "questions/q_icbc/context/1": [
-"3ec19219c6",
-"Sa BC, nakakakuha ng nakatakdang bayad para sa pagpapagamot mula sa ICBC, ang pampublikong insurer, ang mga taong nasaktan sa banggaan ng sasakyan. Karamihan ay hindi puwedeng magdemanda sa korte, kaya mas mababa ang presyo. Gusto ng ilang partido na makapagdemanda muli ang mga taong malubhang nasaktan. Gusto ng ilan na makipagkumpitensya ang mga pribadong kumpanya."
+"c02093b020",
+"Sa BC, nakakakuha ng nakatakdang bayad para sa pagpapagamot mula sa ICBC, ang pampublikong insurer, ang mga taong nasaktan sa banggaan ng sasakyan. Karamihan ay hindi puwedeng magdemanda sa korte, at sabi ng gobyerno, dahil dito ay mas mababa ang presyo. Gusto ng ilang partido na makapagdemanda muli ang mga taong malubhang nasaktan. Gusto ng ilan na makipagkumpitensya ang mga pribadong kumpanya."
 ],
 "questions/q_icbc/context/2": [
 "ab19d21dea",
@@ -3732,16 +3732,16 @@
 "Papayagan ng OneBC ang pribadong pangangalaga kasabay ng pampublikong sistema, ibabasura ang Health Professions and Occupations Act at magpapatupad ng standardized testing. Wala itong ginawang pangako sa pagtatayo ng mga ospital o paaralan. Walang inilathalang posisyon ang kandidatong si Hofbauer."
 ],
 "questions/q_local_hospital_schools/prompt/1": [
-"3356a45d9e",
-"May ospital sa Surrey na kalahati pa lang ang naitatayo at masisikip na paaralan. Ano ang dapat unahin ng probinsya?"
+"11732d1c34",
+"May bagong ospital na itinatayo sa Surrey, at masisikip ang mga paaralan. Ano ang dapat unahin ng probinsya?"
 ],
 "questions/q_local_hospital_schools/prompt/2": [
 "29d27b2cc8",
 "Magbubukas ang bagong ospital ng Surrey sa 2030, abala ang emergency room sa Surrey at patuloy na lumalaki ang mga paaralan. Ano ang dapat pagtuunan ng probinsya?"
 ],
 "questions/q_local_hospital_schools/prompt/3": [
-"d219169768",
-"Paano dapat harapin ng probinsya ang kalahating-tapos na ospital ng Surrey, ang sobrang abalang emergency room at ang masisikip na paaralan?"
+"afe0e96f7d",
+"Paano dapat harapin ng probinsya ang bagong ospital ng Surrey na itinatayo pa, ang abalang emergency room nito at ang masisikip nitong paaralan?"
 ],
 "questions/q_local_hospital_schools/prompt/4": [
 "c22ca4cb51",
@@ -3932,12 +3932,12 @@
 "Pahina ng mga prayoridad: alisin ang safer supply (mas ligtas na suplay ng droga) at mga programa ng paggamit ng droga; kanselahin ang lahat ng bagong consumption site (lugar ng pinangangasiwaang paggamit ng droga) at gawing recovery centre ang mga kasalukuyan; sapilitang rehab sa droga at pabahay para sa mga malubha ang adiksyon; bawiin ang lahat ng dekriminalisasyon at higpitan ang hayagang paggamit ng droga; higpitan ang mga paulit-ulit at marahas na nagkakasala. Ang mga post sa X (Setyembre 29, Oktubre 5) ay nagdaragdag ng mga patrol sa kalye kasama ang mga munisipyo, muling pagbubukas ng Riverview Hospital at hindi pagpapalit ng mga sakdal sa mas magagaan na sakdal. Walang pahayag tungkol sa Kelowna o Okanagan; ang opsyon e ay ang inilathalang plano na inilapat sa hiling ng lungsod."
 ],
 "questions/q_local_interior_downtown/prompt/1": [
-"a93df04751",
-"Gusto ng Kelowna ng sapilitang paggamot para sa mga gumagamit ng droga na pinakamalubha ang sakit. Ano ang dapat gawin ng probinsya?"
+"b4fc24f838",
+"Gusto ng Kelowna ng isang lugar kung saan puwedeng obligahin ang mga gumagamit ng droga na pinakamalubha ang sakit na magpagamot. Ano ang dapat gawin ng probinsya?"
 ],
 "questions/q_local_interior_downtown/prompt/2": [
-"cac16c9ee6",
-"Gusto ng konseho ng Kelowna ng isang pasilidad sa rehiyon para sa sapilitang paggamot, at gusto nitong isara ang lugar sa downtown kung saan gumagamit ng droga ang mga tao. Ano ang dapat gawin ng probinsya?"
+"96a3e02c88",
+"Gusto ng konseho ng Kelowna ng isang sentro sa rehiyon kung saan puwedeng obligahin ang mga tao na magpagamot, at gusto nitong isara ang lugar sa downtown kung saan gumagamit ng droga ang mga tao. Ano ang dapat gawin ng probinsya?"
 ],
 "questions/q_local_interior_downtown/prompt/3": [
 "d65472f6c7",
@@ -3948,8 +3948,8 @@
 "Humiling ang Kelowna ng isang pasilidad sa rehiyon para sa sapilitang paggamot, at hiniling sa Health Canada na huwag nang i-renew ang consumption site nito. Ano ngayon?"
 ],
 "questions/q_local_interior_downtown/prompt/5": [
-"028db2d6f0",
-"Hiniling ng konseho ng Kelowna sa Health Canada na huwag i-renew ang Outreach Urban Health consumption site (3,466 na tawag sa RCMP mula 2021) at humiling sa probinsya ng isang pasilidad sa rehiyon para sa mandatory care (sapilitang paggamot). Aling paraan ng probinsya ang pipiliin?"
+"100b5305ff",
+"Hiniling ng konseho ng Kelowna sa Health Canada na huwag i-renew ang Outreach Urban Health consumption site at humiling sa probinsya ng isang pasilidad sa rehiyon para sa mandatory care (sapilitang paggamot). Aling paraan ng probinsya ang pipiliin?"
 ],
 "questions/q_local_interior_ltc/context/1": [
 "40c02cd329",
@@ -4144,8 +4144,8 @@
 "Itinigil muna ng Budget 2026 ang pagtatayo ng pitong care home kasama ang sa Kelowna, at binawi ang isang pribadong proyekto sa Vernon na may 250 kama. Ano ngayon?"
 ],
 "questions/q_local_interior_ltc/prompt/4": [
-"b03c76fb9b",
-"Itinigil muna ng Budget 2026 ang pitong proyekto ng care home na mga $1.8 milyon bawat kama, at kinansela ang isang pribadong proyekto sa Vernon na may 250 kama. Ano ngayon?"
+"9b5c6501eb",
+"Itinigil muna ng Budget 2026 ang pitong proyekto ng care home, at sinabi nitong mga $1.8 milyon ang gastos ng bawat kama; kinansela rin ang isang pribadong proyekto sa Vernon na may 250 kama. Ano ngayon?"
 ],
 "questions/q_local_interior_ltc/prompt/5": [
 "5dda16c8a9",
@@ -4492,8 +4492,8 @@
 "Walang nakalistang pangako sa ferry o transportasyon sa pahina ng mga prayoridad ng OneBC, at walang inilathala ang nag-iisang kandidato nito sa Island (Juan de Fuca-Malahat), kaya hindi kasama ang tanong na ito sa iskor nito."
 ],
 "questions/q_local_island_coast_ferries/prompt/1": [
-"785ba0328d",
-"Nakakansela ang mga ferry, mahahaba ang pila, at mataas ang pamasahe. Ano ang dapat unang baguhin ng probinsya?"
+"f7caade80e",
+"Nakakansela ang mga ferry, mahahaba ang pila, at patuloy na tumataas ang pamasahe. Ano ang dapat unang baguhin ng probinsya?"
 ],
 "questions/q_local_island_coast_ferries/prompt/2": [
 "66b23f5e3e",
@@ -4512,8 +4512,8 @@
 "Humaharap ang BC Ferries sa mga nakanselang biyahe, mahabang paghihintay at tumataas na pangangailangan; noong Mayo 2025, pumili ito ng shipyard na pag-aari ng estado ng China para sa apat na hybrid na barko matapos walang lokal na shipyard na nag-bid. Aling pagbabago ng probinsya ang dapat unahin?"
 ],
 "questions/q_local_island_coast_oldgrowth/context/1": [
-"3436929144",
-"Matagal nang malaking pinagkukunan ng trabaho ang pagtotroso sa Island at sa baybayin. Nagsara ngayong taon ang isang pulp mill malapit sa Duncan dahil kulang ang kahoy. Bawal munang putulin ang ilan sa pinakamatatandang kagubatan sa ngayon. Hindi nagkakasundo ang mga partido sa pagprotekta laban sa pagputol."
+"6c3c474cc7",
+"Matagal nang malaking pinagkukunan ng trabaho ang pagtotroso sa Island at sa baybayin. Nagsara na ang isang pulp mill malapit sa Duncan. Bawal munang putulin ang ilan sa pinakamatatandang kagubatan sa ngayon. Hindi nagkakasundo ang mga partido sa pagprotekta laban sa pagputol."
 ],
 "questions/q_local_island_coast_oldgrowth/context/2": [
 "64a76c332d",
@@ -4680,16 +4680,16 @@
 "Nagsara ang pulp mill sa Crofton at pinagtatalunan pa rin sa Island ang pagtotroso sa lumang kagubatan (old growth). Ano ang dapat gawin ng probinsya tungkol sa mga kagubatan?"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/3": [
-"18e4d6cdce",
-"Nagsara ang pulp mill sa Crofton matapos tumanggi ang premier na bigyan ito ng troso mula sa lumang kagubatan (old growth). Ano ang dapat gawin sa mga kagubatan sa Island?"
+"5e7b8a42c6",
+"Nagsara na ang pulp mill sa Crofton, at pinagtatalunan pa rin sa Island ang pagtotroso sa lumang kagubatan (old growth). Ano ang dapat gawin sa mga kagubatan sa Island?"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/4": [
-"c09efdda35",
-"Nagsara ang mill sa Crofton nang hindi pinayagan ang troso mula sa old growth; nananatili ang mga deferral, na may layuning 45 milyong cubic metre na ani. Ano ngayon?"
+"3c1d71a723",
+"Nagsara na ang pulp mill sa Crofton; nananatili ang mga deferral sa old growth, na may layuning 45 milyong cubic metre na ani. Ano ngayon?"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/5": [
-"970e8347e1",
-"Nagsara ang pulp mill ng Domtar sa Crofton (350 trabaho) matapos sabihin ni Eby noong Disyembre 2025 na hindi opsyon ang paggawang pulp ng old growth para pahabain ang buhay nito; nananatiling pansamantala ang mga deferral sa old growth. Ano ngayon?"
+"48d9c265ba",
+"Nagsara ang pulp mill ng Domtar sa Crofton (mga 350 trabaho) matapos ang anunsyo noong Disyembre 2025, at sinabi ni Eby na hindi opsyon ang paggawang pulp ng old growth para pahabain ang buhay nito; nananatiling pansamantala ang mga deferral sa old growth. Ano ngayon?"
 ],
 "questions/q_local_island_coast_seniors/context/1": [
 "61d2b2096a",
@@ -4876,20 +4876,20 @@
 "Kulang sa espasyo ang mga ospital sa Island at naghihintay ang seniors ng care home. Ano ang dapat unahin?"
 ],
 "questions/q_local_island_coast_seniors/prompt/2": [
-"c6723f66b2",
-"Hinihintay pa rin ng ospital sa Nanaimo ang bago nitong tore, at itinigil muna ang mga proyekto sa care home. Ano ang dapat unahin para sa pangangalaga sa seniors?"
+"299ae558f6",
+"May pondo para sa pagpaplano ang bagong tore ng ospital sa Nanaimo pero walang pondo para sa pagtatayo, at itinigil muna ang mga proyekto sa care home. Ano ang dapat unahin para sa pangangalaga sa seniors?"
 ],
 "questions/q_local_island_coast_seniors/prompt/3": [
-"00510500af",
-"Nasa pagpaplano pa lang ang tore at cardiac lab ng ospital sa Nanaimo, at itinigil muna ang isang care home sa Campbell River. Ano ang dapat unahin?"
+"f2f521c4a0",
+"May pondo para sa pagpaplano, hindi para sa pagtatayo, ang tore at cardiac lab ng ospital sa Nanaimo, at itinigil muna ang isang care home sa Campbell River. Ano ang dapat unahin?"
 ],
 "questions/q_local_island_coast_seniors/prompt/4": [
-"644f22b2de",
-"Pagpaplano lang ang pinondohan ng Budget 2026 para sa tore ng Nanaimo at itinigil muna nito ang isang 153-kamang care home sa Campbell River. Ano ang dapat unahin?"
+"81e7556da9",
+"Pinondohan ng Budget 2026 ang pagpaplano, hindi ang pagtatayo, ng tore ng Nanaimo, at itinigil muna nito ang isang 153-kamang care home sa Campbell River. Ano ang dapat unahin?"
 ],
 "questions/q_local_island_coast_seniors/prompt/5": [
-"a1c5cb95a0",
-"Concept planning lang ang pinondohan ng Budget 2026 para sa tore at cath lab ng Nanaimo, itinigil muna nito ang isang 153-kamang care home sa Campbell River, at mga 1,600 pasyente sa buong probinsya ang naghihintay sa ospital para sa kama sa care home. Aling paraan ang mas gusto mo?"
+"bcb0098c47",
+"Pinondohan ng Budget 2026 ang concept planning, hindi ang pagtatayo, ng tore at cath lab ng Nanaimo, itinigil muna nito ang isang 153-kamang care home sa Campbell River, at mga 1,600 pasyente sa buong probinsya ang naghihintay sa ospital para sa kama sa care home. Aling paraan ang mas gusto mo?"
 ],
 "questions/q_local_metro_density/context/1": [
 "711ac98a92",
@@ -5072,8 +5072,8 @@
 "Nangingibabaw sa zoning ng mga munisipyo ang Bill 44 (small-scale multi-unit housing, naipasa sa botong 45 laban sa 29) at ang Bill 47 (transit-oriented areas, 65 laban sa 0); hiniling ng labing-anim na mayor sa Metro noong Nobyembre 2025 na ibasura o baguhin ang mga ito. Ano ngayon?"
 ],
 "questions/q_local_metro_title_homes/context/1": [
-"32c20dc19b",
-"Nagpasya ang isang hukom na pag-aari ng isang First Nation ang ilang lupa sa Richmond, kasama ang lupang kinatatayuan ng mga bahay ng mga tao. Nilalabanan ng probinsya ang desisyong iyon sa mas mataas na korte. Hindi nagkakasundo ang mga partido kung paano poprotektahan ang mga taong nakatira roon, at kung paano aayusin ang ganitong mga claim."
+"b1ee254ff6",
+"Nagpasya ang isang hukom na may title (isang uri ng karapatan sa pagmamay-ari) ang isang First Nation sa ilang lupa sa Richmond, kasama ang lupang kinatatayuan ng mga bahay ng mga tao. Nilalabanan ng probinsya ang desisyong iyon sa mas mataas na korte. Hindi nagkakasundo ang mga partido kung ano ang ibig sabihin nito para sa mga taong nakatira roon, at kung paano aayusin ang ganitong mga claim."
 ],
 "questions/q_local_metro_title_homes/context/2": [
 "24fc23bcc2",
@@ -5252,20 +5252,20 @@
 "Pahina ng mga prayoridad: ibasura ang DRIPA at ideklarang walang bisa at epekto ang UNDRIP; itigil ang boluntaryong paglilipat ng pera, lupa at kontrol sa pampublikong likas na yaman sa mga band government; hilingin ang pagbasura sa Indian Act sa pamamagitan ng reporma sa konstitusyon; tapusin ang sapilitang land acknowledgement. X, Setyembre 26, 2026: ibasura ang DRIPA at 'alisan ng pondo ang Reconciliation Industry'. Natalo ang Property Rights Protection Act (Oktubre 2025) sa botong 40 laban sa 48. Walang pahayag na partikular sa Cowichan at walang mungkahi sa kabayaran."
 ],
 "questions/q_local_metro_title_homes/prompt/1": [
-"f4b1049cc0",
-"Sinabi ng korte na pag-aari ng isang First Nation ang lupa sa Richmond na may mga bahay. Ano ang dapat mangyari?"
+"a5b08bc58b",
+"Sinabi ng korte na may title (isang uri ng karapatan sa pagmamay-ari) ang isang First Nation sa lupa sa Richmond na may mga bahay. Ano ang dapat mangyari?"
 ],
 "questions/q_local_metro_title_homes/prompt/2": [
-"6617db7da2",
-"Kinilala ng korte ang title (karapatan sa lupa) ng isang First Nation sa lupa sa Richmond na may mga pribadong bahay. Paano dapat protektahan ang mga may-ari at ayusin ang mga claim?"
+"a301616644",
+"Kinilala ng korte ang title (karapatan sa lupa) ng isang First Nation sa lupa sa Richmond na may mga pribadong bahay. Paano dapat harapin ng probinsya ang mga may-ari ng bahay at ang mga claim sa title?"
 ],
 "questions/q_local_metro_title_homes/prompt/3": [
-"0d0feff690",
-"Kinilala ng isang desisyon noong 2025 ang title ng Cowichan sa lupa sa Richmond na may mga pribadong bahay. Paano dapat protektahan ang mga may-ari at ayusin ang mga claim?"
+"0b31bd6e79",
+"Kinilala ng isang desisyon noong 2025 ang title ng Cowichan sa lupa sa Richmond na may mga pribadong bahay. Paano dapat harapin ng probinsya ang mga may-ari ng bahay at ang mga claim sa title?"
 ],
 "questions/q_local_metro_title_homes/prompt/4": [
-"e709e50992",
-"Inaapela ang desisyon sa title ng Cowichan sa lupa sa Richmond na may mga bahay. Paano dapat protektahan ang mga may-ari at ayusin ang usapin sa title?"
+"4c29918fe0",
+"Inaapela ang desisyon sa title ng Cowichan sa lupa sa Richmond na may mga bahay. Paano dapat harapin ng probinsya ang mga may-ari ng bahay at ang usapin sa title?"
 ],
 "questions/q_local_metro_title_homes/prompt/5": [
 "bf6c357487",
@@ -5452,24 +5452,24 @@
 "Walang nakalistang pangako sa transportasyon sa pahina ng mga prayoridad ng OneBC, kaya hindi kasama ang tanong na ito sa iskor nito."
 ],
 "questions/q_local_metro_translink/prompt/1": [
-"e2b41c845f",
-"Malapit nang kapusin sa pera ang mga bus at tren ng Metro Vancouver. Ano ang dapat gawin ng probinsya?"
+"dbc5f7de81",
+"Sinasabi ng ahensyang nagpapatakbo ng mga bus at tren ng Metro Vancouver na malapit na itong kapusin sa pera. Ano ang dapat gawin ng probinsya?"
 ],
 "questions/q_local_metro_translink/prompt/2": [
-"2f8d407187",
-"Kailangan ng bagong pera simula 2028 ng TransLink, na nagpapatakbo ng mga bus at tren ng Metro Vancouver. Ano ang dapat gawin ng probinsya?"
+"aac0ef7ed2",
+"Sinasabi ng TransLink, na nagpapatakbo ng mga bus at tren ng Metro Vancouver, na kailangan nito ng bagong pera simula 2028. Ano ang dapat gawin ng probinsya?"
 ],
 "questions/q_local_metro_translink/prompt/3": [
-"5f3ca9f324",
-"Kailangan ng TransLink ng hindi bababa sa $112 milyon kada taon na bagong pera simula 2028. Paano dapat pondohan ng probinsya ang transit sa Metro Vancouver?"
+"1537e654e1",
+"Sinasabi ng TransLink na kailangan nito ng hindi bababa sa $112 milyon kada taon na bagong pera simula 2028. Ano ang dapat gawin ng probinsya tungkol sa transit sa Metro Vancouver?"
 ],
 "questions/q_local_metro_translink/prompt/4": [
-"e2ce41aba8",
-"Matatapos sa 2027 ang dagdag na pondo ng probinsya sa TransLink, at kailangan nito ng hindi bababa sa $112 milyon pa kada taon simula 2028. Paano dapat punan ang kakulangan?"
+"4ecd62a08d",
+"Matatapos sa 2027 ang dagdag na pondo ng probinsya sa TransLink, at sinasabi nitong kailangan nito ng hindi bababa sa $112 milyon pa kada taon simula 2028. Ano ang dapat gawin ng probinsya?"
 ],
 "questions/q_local_metro_translink/prompt/5": [
-"41090076d0",
-"Sapat ang $312 milyong subsidiya ng probinsya para sa TransLink hanggang katapusan ng 2027; kailangan ng ahensya ng hindi bababa sa $112 milyon kada taon simula 2028 at tinanggihan na ng gobyerno ang singil sa sasakyan. Aling paraan ang mas gusto mo?"
+"45dddc81a1",
+"Sapat ang $312 milyong subsidiya ng probinsya para sa TransLink hanggang katapusan ng 2027; sinasabi ng ahensya na kailangan nito ng hindi bababa sa $112 milyon kada taon simula 2028, at tinanggihan na ng gobyerno ang singil sa sasakyan. Aling paraan ang mas gusto mo?"
 ],
 "questions/q_local_north_er/context/1": [
 "733d4626ae",
@@ -5832,24 +5832,24 @@
 "Pahina ng mga prayoridad: 'Dagdagan ang pinapayagang taunang pagputol para matiyak na may magagamit na wood fibre ang ating sektor ng kagubatan para lumago at umunlad'; 'Bawasan ang stumpage fee (bayad sa pampublikong troso) para sa mga kumpanya ng tabla upang maging mas competitive ang merkado'; 'Pabilisin ang pag-apruba ng mga permit at ang mga konsultasyon'. Post noong Oktubre 5: gawing competitive ang forestry at pagmimina sa pamamagitan ng mas mababang bayad at mas mabilis na pag-apruba. Walang target sa dami, walang posisyon sa Working Forest model o sa lumang kagubatan (old growth)."
 ],
 "questions/q_local_north_forestry/prompt/1": [
-"aa7501b1a0",
-"Nagsasara ang mga mill sa hilaga dahil kulang ang kahoy. Gaano karaming kagubatan ang dapat putulin?"
+"de1f2d5021",
+"Nagsasara ang mga mill sa hilaga, at sinasabi ng mga kumpanya na hindi sila makakuha ng sapat na kahoy. Gaano karaming kagubatan ang dapat putulin?"
 ],
 "questions/q_local_north_forestry/prompt/2": [
 "0da624f03b",
 "Nagsasara ang mga mill sa hilaga, at sinisisi ng mga kumpanya ang kakulangan ng kahoy. Paano dapat magpasya ang probinsya kung gaano karaming troso ang puputulin?"
 ],
 "questions/q_local_north_forestry/prompt/3": [
-"5651eec073",
-"Nagsasara ang mga mill sa hilaga, kasama ang Northwood pulp mill sa Prince George, dahil sa suplay ng fibre (hibla ng kahoy). Paano dapat itakda ang dami ng pagtotroso?"
+"638cc073e0",
+"Nagsasara ang mga mill sa hilaga, kasama ang Northwood pulp mill sa Prince George, at binabanggit ng mga kumpanya ang suplay ng fibre (hibla ng kahoy). Paano dapat itakda ang dami ng pagtotroso?"
 ],
 "questions/q_local_north_forestry/prompt/4": [
-"f4915cd068",
-"Magsasara ang Northwood pulp mill dahil sa suplay ng fibre; layunin ng probinsya ang 45 milyong cubic metre kada taon. Paano dapat itakda ang dami ng pagtotroso?"
+"012b2728f0",
+"Isasara ng Canfor ang Northwood pulp mill, at binanggit nito ang pagkalugi sa pulp at ang suplay ng fibre; layunin ng probinsya ang 45 milyong cubic metre kada taon. Paano dapat itakda ang dami ng pagtotroso?"
 ],
 "questions/q_local_north_forestry/prompt/5": [
-"f60642bb35",
-"Magsasara ang Northwood pulp mill ng Canfor (mga 300 trabaho) sa huling bahagi ng 2026, na ang ibinigay na dahilan ay ang suplay ng fibre; layunin ng Working Forest Landscape Model ang 45 milyong cubic metre kada taon, kumpara sa mga 30 milyon na natotroso. Aling paraan?"
+"552bfa8618",
+"Isasara ng Canfor ang Northwood pulp mill nito (mga 300 trabaho) sa huling bahagi ng 2026, na ang ibinigay na dahilan ay ang pagkalugi sa pulp at ang suplay ng fibre; layunin ng Working Forest Landscape Model ang 45 milyong cubic metre kada taon, kumpara sa mga 30 milyon na natotroso. Aling paraan?"
 ],
 "questions/q_local_north_resources/context/1": [
 "88bcadef7f",
@@ -5868,8 +5868,8 @@
 "Inanunsyo ng LNG Canada ang final investment decision nito para sa Phase 2 noong Setyembre 29, na nagdodoble sa kapasidad ng Kitimat sa 28 milyong tonelada. Hinihingi ng NDP na maging net-zero ready ang mga bagong proyekto pagsapit ng 2030, sabay na isasagawa ang mga assessment at permit, dodoblehin ang export ng mineral at pabibilisin ang North Coast line gamit ang bakal ng Canada. Dinodoble ng plano ng mga Conservative ang produksyon ng gas pagsapit ng 2032, inaalis ang mga limitasyon sa emisyon, ginagawang batas ang permit sa loob ng 120 araw at nagtatakda ng tiyak na deadline para sa linya. Sinusuportahan ng CentreBC ang LNG na may mga katuwang na First Nations at mga plano para sa net-zero, isang deadline sa desisyon na 12 buwan at desisyon sa sampung minahan pagsapit ng 2030. Ititigil ng mga Green ang pag-apruba sa bagong LNG at mga pipeline."
 ],
 "questions/q_local_north_resources/context/5": [
-"ba82453784",
-"Dinodoble ng final investment decision ng LNG Canada para sa Phase 2 (Setyembre 29, 2026) ang kapasidad ng Kitimat sa 28 milyong tonelada. Ayon sa sariling bilang ng NDP, aabot ang kapasidad sa halos 48 milyong tonelada pagsapit ng 2035, mas mataas sa target ng mga Conservative na 'triple pagsapit ng 2035', kaya ang tunay na pinagtatalunan ay ang mga kondisyon at proseso. Nangangako ang NDP na dodoblehin ang export ng critical mineral sa loob ng limang taon, sabay na isasagawa ang mga permit, itatayo ang North Coast Transmission Line gamit ang bakal ng Canada, at pananatilihin ang kahilingang net-zero ready. Dodoblehin ng mga Conservative ang gas pagsapit ng 2032 at gagawing triple pagsapit ng 2035, aalisin ang mga limitasyon sa emisyon, ipapasa ang 120 Day Permitting Act at magtatakda ng deadline para sa linya. Hinihingi ng CentreBC ang mga katuwang na First Nations at kapani-paniwalang plano para sa net-zero, pinananatili ang carbon pricing sa industriya, nagtatakda ng deadline ng probinsya na 12 buwan at nangangako ng desisyon sa 10 minahan pagsapit ng 2030. Walang bagong LNG o pipeline na aaprubahan ang mga Green."
+"baa09a2e13",
+"Dinodoble ng final investment decision ng LNG Canada para sa Phase 2 (Setyembre 29, 2026) ang kapasidad ng Kitimat sa 28 milyong tonelada. Ayon sa sariling bilang ng NDP, aabot ang kapasidad sa halos 48 milyong tonelada pagsapit ng 2035, mas mataas sa target ng mga Conservative na 'triple pagsapit ng 2035', kaya pangunahing nagkakaiba ang NDP at ang mga Conservative sa mga kondisyon at proseso. Nangangako ang NDP na dodoblehin ang export ng critical mineral sa loob ng limang taon, sabay na isasagawa ang mga permit, itatayo ang North Coast Transmission Line gamit ang bakal ng Canada, at pananatilihin ang kahilingang net-zero ready. Dodoblehin ng mga Conservative ang gas pagsapit ng 2032 at gagawing triple pagsapit ng 2035, aalisin ang mga limitasyon sa emisyon, ipapasa ang 120 Day Permitting Act at magtatakda ng deadline para sa linya. Hinihingi ng CentreBC ang mga katuwang na First Nations at kapani-paniwalang plano para sa net-zero, pinananatili ang carbon pricing sa industriya, nagtatakda ng deadline ng probinsya na 12 buwan at nangangako ng desisyon sa 10 minahan pagsapit ng 2030. Walang bagong LNG o pipeline na aaprubahan ang mga Green."
 ],
 "questions/q_local_north_resources/options/a/text/1": [
 "d347459065",
@@ -6032,24 +6032,24 @@
 "Pahina ng mga prayoridad: 'Aprubahan ang isang pipeline papunta sa Port of Prince Rupert o Kitimat para madala ang enerhiya ng Canada sa mga dayuhang merkado'; pabilisin ang pag-apruba ng permit at mga konsultasyon para sa forestry. X (Setyembre 26): aaprubahan ang malalaking proyekto nang walang 'konsultasyon' na nagsisilbing veto. Post noong Oktubre 5: gawing competitive ang forestry at pagmimina sa pamamagitan ng mas mababang bayad at mas mabilis na pag-apruba. Walang posisyon sa LNG Canada Phase 2, Ksi Lisims, mga patakaran sa emisyon, carbon pricing o sa North Coast Transmission Line; pinagsasama ng opsyon e ang mga inilathalang item."
 ],
 "questions/q_local_north_resources/prompt/1": [
-"167e726147",
-"May mga planong planta ng gas, minahan at linya ng kuryente sa hilaga. Paano dapat aprubahan ang mga ito?"
+"2c80da20c9",
+"May mga planong planta ng gas, minahan at linya ng kuryente sa hilaga. Paano dapat magpasya ang probinsya tungkol sa mga ito?"
 ],
 "questions/q_local_north_resources/prompt/2": [
 "2eb2162589",
 "Dinodoble ang planta sa Kitimat na nag-e-export ng gas, at may mga panukala pang planta, minahan at linya ng kuryente. Paano dapat harapin ng probinsya ang mga ito?"
 ],
 "questions/q_local_north_resources/prompt/3": [
-"8bce298f96",
-"Dinodoble ang planta sa Kitimat na nag-e-export ng gas, at may mga panukala pang planta, minahan at linya ng kuryente. Anong mga kondisyon ang dapat ipatupad?"
+"4e2409cd71",
+"Dinodoble ang planta sa Kitimat na nag-e-export ng gas, at may mga panukala pang planta, minahan at linya ng kuryente. Paano dapat magpasya ang probinsya tungkol sa mga ito?"
 ],
 "questions/q_local_north_resources/prompt/4": [
-"c82217a32a",
-"Dinodoble ang LNG Canada; may permit na ang Ksi Lisims LNG, naghihintay ng permit ang mga bagong minahan at itinatayo ang North Coast power line. Anong mga kondisyon ang dapat ipatupad?"
+"a7b73bff41",
+"Dinodoble ang LNG Canada; may permit na ang Ksi Lisims LNG, naghihintay ng permit ang mga bagong minahan at itinatayo ang North Coast power line. Paano dapat harapin ng probinsya ang mga proyektong ito?"
 ],
 "questions/q_local_north_resources/prompt/5": [
-"5a6c0efb1e",
-"Ginawa ng LNG Canada Phase 2 ang final investment decision nito noong Setyembre 29, 2026, na nagdodoble sa kapasidad; may permit na ang Ksi Lisims LNG at patungo na ito sa final investment decision, naghihintay ng permit ang mga minahan ng critical mineral, at itinatayo na ang unang yugto ng North Coast Transmission Line. Aling paraan ng pag-apruba?"
+"655dbb54c7",
+"Ginawa ng LNG Canada Phase 2 ang final investment decision nito noong Setyembre 29, 2026, na nagdodoble sa kapasidad; may permit na ang Ksi Lisims LNG at patungo na ito sa final investment decision, naghihintay ng permit ang mga minahan ng critical mineral, at itinatayo na ang unang yugto ng North Coast Transmission Line. Aling paraan?"
 ],
 "questions/q_local_skytrain/context/1": [
 "0e5206a53d",
@@ -6224,16 +6224,16 @@
 "Paano dapat tapusin ng probinsya ang linya ng SkyTrain at pondohan ang TransLink, ang ahensya ng transit sa rehiyon, pagkatapos ng 2028?"
 ],
 "questions/q_local_skytrain/prompt/4": [
-"4378017493",
-"Paano dapat tapusin ng probinsya ang Surrey-Langley SkyTrain at punan ang kakulangan sa pondo ng TransLink simula 2028?"
+"3606997c06",
+"Paano dapat tapusin ng probinsya ang Surrey-Langley SkyTrain at harapin ang kakulangan sa pondo ng TransLink simula 2028?"
 ],
 "questions/q_local_skytrain/prompt/5": [
 "c7e9482936",
 "Nagkakahalaga ang Surrey-Langley SkyTrain ng $5.996 bilyon at magbubukas sa huling bahagi ng 2029, at may kakulangan ang TransLink na hindi bababa sa $112 milyon kada taon simula 2028. Aling paraan ang mas gusto mo?"
 ],
 "questions/q_public_safety/context/1": [
-"27034351aa",
-"Ang probinsya ang nagbabayad para sa pulis at korte. Hindi nagkakasundo ang mga partido kung ano ang gagawin tungkol sa krimen. Gusto ng isang partido na panatilihin ang mga kasalukuyang programa. Gusto ng iba ng mas marami pang pulis, isang espesyal na unit laban sa pagbabanta sa mga negosyo, o paghihigpit sa mga taong paulit-ulit na gumagawa ng marahas na krimen."
+"40a1035a26",
+"Ang probinsya ang nagbabayad para sa pulis at korte. Hindi nagkakasundo ang mga partido kung ano ang gagawin tungkol sa krimen. Gusto ng isang partido na panatilihin ang mga kasalukuyang programa. Gusto ng iba ng mas marami pang pulis, isang espesyal na unit laban sa pagbabanta sa mga negosyo, o pagtutok sa mga taong paulit-ulit na gumagawa ng marahas na krimen."
 ],
 "questions/q_public_safety/context/2": [
 "9fa812a654",
@@ -6392,16 +6392,16 @@
 "Ang mga prayoridad ng OneBC ay higpitan ang mga paulit-ulit at marahas na nagkakasala, ipagbawal ang mask sa mga protesta, ilayo ang probinsya sa pederal na firearms buyback na may programa ng probinsya para sa imbakan kung kailangan, at makipagtulungan sa Ottawa laban sa organisadong krimen na nagpupuslit ng droga at baril sa mga pantalan. Wala itong pangako sa bilang ng pulis, Crown prosecutor, korte o pangingikil."
 ],
 "questions/q_public_safety/prompt/1": [
-"ed4371ca76",
-"Ano ang dapat gawin ng gobyerno tungkol sa krimen at kaligtasan?"
+"1e799929f7",
+"Ano dapat ang plano ng gobyerno para sa krimen at kaligtasan?"
 ],
 "questions/q_public_safety/prompt/2": [
-"3bc3029e33",
-"Nag-aalala ang mga tao tungkol sa panloloob, pagbabanta sa mga may-ari ng tindahan at mga taong paulit-ulit na lumalabag sa batas. Ano ang dapat gawin ng probinsya?"
+"dbc54e48ea",
+"Aling paraan ang dapat gamitin ng probinsya pagdating sa panloloob, pagbabanta sa mga may-ari ng tindahan at mga taong paulit-ulit na lumalabag sa batas?"
 ],
 "questions/q_public_safety/prompt/3": [
-"91ab268f87",
-"Ano ang dapat gawin ng probinsya tungkol sa krimen at kaligtasan ng publiko?"
+"8def924270",
+"Aling paraan ang dapat gamitin ng probinsya pagdating sa krimen at kaligtasan ng publiko?"
 ],
 "questions/q_public_safety/prompt/4": [
 "53aac9ac74",
@@ -6592,8 +6592,8 @@
 "Ang SOGI 123 ay isang opsyonal na resource tungkol sa oryentasyong sekswal at pagkakakilanlang pangkasarian (SOGI) na pinipili ng bawat district, mula sa ARC Foundation (2016). Piliin ang posisyon ng probinsya na sinusuportahan mo."
 ],
 "questions/q_taxes_deficit/context/1": [
-"4789516f6d",
-"Mas malaki ang gastos ng probinsya kaysa sa pumapasok na pera, kaya inuutang nito ang kulang. Mas malaki ang gastos ng utang dahil sa interes. Puwedeng bawasan ng probinsya ang gastos, itaas ang ilang buwis, o patuloy na mangutang para protektahan ang mga serbisyo."
+"c3d82a63dc",
+"Mas malaki ang gastos ng probinsya kaysa sa pumapasok na pera, kaya inuutang nito ang kulang. Mas malaki ang gastos ng utang dahil sa interes. Puwedeng bawasan ng probinsya ang gastos, itaas ang ilang buwis, o patuloy na mangutang."
 ],
 "questions/q_taxes_deficit/context/2": [
 "b479671ace",
@@ -6776,20 +6776,20 @@
 "Mas malaki ang gastos ng probinsya kaysa sa pumapasok na pera. Ano ang dapat nitong gawin?"
 ],
 "questions/q_taxes_deficit/prompt/2": [
-"4bf2ef9eb1",
-"Mas malaki ang gastos ng BC kaysa sa kita nito. Paano nito dapat punan ang kakulangan, at sino ang dapat magbayad?"
+"e31da986fd",
+"Mas malaki ang gastos ng BC kaysa sa kita nito. Ano ang dapat nitong gawin?"
 ],
 "questions/q_taxes_deficit/prompt/3": [
-"f6dcd16a94",
-"Mas malaki nang husto ang ginagastos ng BC kaysa sa kinikita nito. Paano nito dapat harapin iyon, at sino ang dapat magbayad ng mas malaki o mas maliit na buwis?"
+"9f452a06e7",
+"Inaasahan ng BC na gagastos ito ng mga $13.8 bilyon nang higit sa kikitain nito ngayong taon. Ano ang dapat nitong gawin?"
 ],
 "questions/q_taxes_deficit/prompt/4": [
-"ed41f266e8",
-"Aling landas ang dapat tahakin ng BC sa depisit nito: pagbaba ng buwis, pagbubuwis sa malalaking kita o yaman, paghihigpit sa gastos, o pangungutang para protektahan ang mga serbisyo?"
+"2a8faa225a",
+"Aling landas ang dapat tahakin ng BC sa depisit nito: pagbaba ng buwis, pagbubuwis sa malalaking kita o yaman, paghihigpit sa gastos, o patuloy na pangungutang?"
 ],
 "questions/q_taxes_deficit/prompt/5": [
-"d5cb07ee48",
-"Aling landas sa pananalapi at buwis ang sinusuportahan mo para harapin ang $13.8 bilyong depisit ng BC?"
+"e325a83575",
+"Aling paraan sa buwis, paggastos at pangungutang ang sinusuportahan mo para sa $13.8 bilyong depisit ng BC?"
 ],
 "regions/fraser_valley/name": [
 "3e4db1bc80",

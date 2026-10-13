@@ -624,9 +624,9 @@
       "issue_id": "cost_of_living",
       "scope": "provincial",
       "prompt": {
-        "1": "Food, gas and rent cost more now. How should the government help people with costs?",
-        "2": "Groceries, gas and rent cost more than they used to. How should the province help families pay for them?",
-        "3": "Cost of living is the top issue for BC voters. Which approach should the province take to make life more affordable?",
+        "1": "Food, gas and rent cost more now. What should the government's plan be?",
+        "2": "Groceries, gas and rent cost more than they used to. Which approach should the province take?",
+        "3": "Which approach should the province take on the cost of living?",
         "4": "Which cost-of-living approach should come first: tax cuts, price rules, more help for low incomes, or targeted credits and rate caps?",
         "5": "Which mix of cost-of-living measures should the province put first: broad tax cuts, price controls, income support, or targeted credits and rate caps?"
       },
@@ -885,13 +885,13 @@
       "scope": "provincial",
       "prompt": {
         "1": "The province spends more money than it takes in. What should it do?",
-        "2": "BC spends more than it takes in. How should it close the gap, and who should pay?",
-        "3": "BC is spending far more than it takes in. How should it handle that, and who should pay more or less tax?",
-        "4": "Which path should BC take on its deficit: tax cuts, taxing high incomes or wealth, spending restraint, or borrowing to protect services?",
-        "5": "Which fiscal and tax path do you support for dealing with BC's $13.8 billion deficit?"
+        "2": "BC spends more than it takes in. What should it do?",
+        "3": "BC expects to spend about $13.8 billion more than it takes in this year. What should it do?",
+        "4": "Which path should BC take on its deficit: tax cuts, taxing high incomes or wealth, spending restraint, or continued borrowing?",
+        "5": "Which approach to taxes, spending and borrowing do you support for BC's $13.8 billion deficit?"
       },
       "context": {
-        "1": "The province spends more money than it takes in, so it borrows the rest. Borrowing costs extra because of interest. The province could spend less, raise some taxes, or keep borrowing to protect services.",
+        "1": "The province spends more money than it takes in, so it borrows the rest. Borrowing costs extra because of interest. The province could spend less, raise some taxes, or keep borrowing.",
         "2": "BC expects a deficit of about $13.8 billion this year, which means it spends that much more than it takes in. It borrows to cover the gap, and that adds interest costs. It can spend less, tax some people more, keep borrowing until the economy grows, or mix these.",
         "3": "BC's deficit, the gap between what it spends and what it takes in, is about $13.8 billion. That is a record in dollars. All four credit rating agencies lowered BC's rating in 2026. No party has a fully costed plan, so the parties' promises and price tags are hard to compare.",
         "4": "BC now forecasts a $13.8 billion deficit this year, up from $13.3 billion in Budget 2026, and debt rising to 37% of gross domestic product (GDP), the size of BC's economy, by 2028-29. The parties' plans differ in size. The NDP's higher tax on high incomes would raise about $1 billion a year. The Conservatives have not costed their tax cut; an economist puts it at about $2 billion a year. The Greens estimate their wealth tax would raise $22.2 billion in its first year. CentreBC says its promises cost $13.7 billion over four years and would balance the budget in 2034-35. OneBC has not costed its cuts.",
@@ -1144,9 +1144,9 @@
       "issue_id": "housing",
       "scope": "provincial",
       "prompt": {
-        "1": "Homes cost a lot to buy or rent. How should the government help?",
-        "2": "Buying or renting a home in BC is expensive. How should the province help people afford housing?",
-        "3": "What should the province do about the cost of housing?",
+        "1": "Homes cost a lot to buy or rent. What should the government's plan be?",
+        "2": "Buying or renting a home in BC is expensive. Which housing approach should the province take?",
+        "3": "Which approach should the province take on housing costs?",
         "4": "Which housing approach should the province take: lower builder costs, taxes on empty homes, public building, faster approvals, or fewer rules?",
         "5": "Which mix of housing taxes, zoning rules, approval reforms and public building should the province pursue?"
       },
@@ -1380,17 +1380,17 @@
       "issue_id": "health",
       "scope": "provincial",
       "prompt": {
-        "1": "Many people cannot find a family doctor, and waiting rooms are full. What should change?",
-        "2": "How should the province help people get a family doctor, emergency care and surgery sooner?",
-        "3": "How should the province improve access to family doctors, emergency rooms and surgeries?",
+        "1": "Many people cannot find a family doctor, and waiting rooms are full. What should the province do?",
+        "2": "Which approach should the province take on family doctors, emergency care and surgery?",
+        "3": "Which approach should the province take on access to family doctors, emergency rooms and surgeries?",
         "4": "Which way of running and paying for health care should BC choose to cut waits and connect people to a doctor?",
         "5": "Which health care delivery and funding model do you support?"
       },
       "context": {
         "1": "About one in four people in BC has no family doctor. Every party says health care should stay free. They disagree on who should run clinics and care homes, and on how to pay for more care.",
         "2": "About one in four people in BC has no regular family doctor or nurse practitioner, up from fewer than one in five in 2017. Every party says care should stay free for patients. They disagree on whether companies should run more care, and on how to pay for it.",
-        "3": "Health care ranks second for BC voters. About one in four people has no regular family doctor or nurse practitioner, even after the NDP government changed how family doctors are paid in 2023. All parties say care should stay publicly funded. They differ on building more public clinics, paying non-government providers, allowing people to pay for faster care, and how to fund it all.",
-        "4": "About 1.26 million people in BC (23%) have no regular family doctor or nurse practitioner, up from 18% in 2017, even though the NDP government brought in a new pay model for family doctors in 2023. The median wait from a doctor's referral to treatment is 32 weeks. A provincial law, the Medicare Protection Act, bars private clinics from charging patients for services the public plan covers.",
+        "3": "Health care ranks second for BC voters. About one in four people has no regular family doctor or nurse practitioner. The NDP government changed how family doctors are paid in 2023. All parties say care should stay publicly funded. They differ on building more public clinics, paying non-government providers, allowing people to pay for faster care, and how to fund it all.",
+        "4": "About 1.26 million people in BC (23%) have no regular family doctor or nurse practitioner, up from 18% in 2017. The NDP government brought in a new pay model for family doctors in 2023. The median wait from a doctor's referral to treatment is 32 weeks. A provincial law, the Medicare Protection Act, bars private clinics from charging patients for services the public plan covers.",
         "5": "In April 2026, 1,259,425 people (23%) had no regular primary care provider, compared with 897,000 (18.2%) in 2017. The Health Connect Registry links more than 4,000 people a week to a provider, and a new family doctor payment model (LFP) has been in place since 2023. The Fraser Institute puts the median wait from referral to treatment at 32.2 weeks. The first phase of minimum nurse-to-patient ratios was 81% in place by March 2026, according to the BC Nurses' Union, and the health budget is about $36 billion. The Medicare Protection Act bars extra-billing for services the public plan insures."
       },
       "options": [
@@ -1620,14 +1620,14 @@
       "issue_id": "dripa",
       "scope": "provincial",
       "prompt": {
-        "1": "A BC law says provincial laws must respect Indigenous rights. What should happen to it?",
-        "2": "A 2019 law says BC's laws should match Indigenous peoples' rights. What should happen to it now?",
+        "1": "A BC law says the province must work to make its laws match a United Nations declaration on Indigenous rights. What should happen to it?",
+        "2": "A 2019 law says BC must work to bring its laws in line with a United Nations declaration on Indigenous rights. What should happen to it now?",
         "3": "After a 2025 court ruling, what should BC do with the Declaration on the Rights of Indigenous Peoples Act?",
         "4": "Should BC repeal, amend, replace, keep or strengthen the Declaration on the Rights of Indigenous Peoples Act (DRIPA)?",
         "5": "Which legislative response to the Declaration on the Rights of Indigenous Peoples Act (DRIPA) do you support after the Gitxaala ruling?"
       },
       "context": {
-        "1": "In 2019, BC lawmakers passed a law, with no one voting against, saying BC's laws should respect Indigenous peoples' rights. In 2025, a court said judges can check BC's laws against it. Parties disagree on what to do. First Nations keep their rights either way.",
+        "1": "In 2019, BC lawmakers passed a law, with no one voting against, saying BC must work to make its laws match a United Nations declaration on Indigenous rights. In 2025, a court said judges can check BC's laws against the declaration. Parties disagree on what to do. First Nations keep their rights either way.",
         "2": "In 2019, BC passed a law promising to bring its laws in line with the United Nations declaration on Indigenous peoples' rights. In 2025, a court ruled that judges can check BC's laws against it. Supporters say the law builds fairness and trust. Critics say it leads to court cases and uncertainty. First Nations keep their rights either way.",
         "3": "The Declaration on the Rights of Indigenous Peoples Act passed in 2019 with no votes against. It commits BC to bring its laws in line with the United Nations Declaration on the Rights of Indigenous Peoples. In 2025 the BC Court of Appeal ruled that this promise can be enforced in court. Repealing the law would not end the province's duty to consult First Nations or their land title cases, because those rest on section 35 of Canada's Constitution.",
         "4": "The Declaration on the Rights of Indigenous Peoples Act (DRIPA) passed unanimously in 2019. In December 2025, in a case brought by the Gitxaala Nation, the BC Court of Appeal held that courts can assess whether provincial laws are consistent with it. The Premier then proposed suspending parts of the law for up to three years, but dropped the plan in April 2026 before introducing a bill. In an Angus Reid poll in May 2026, 47% supported repeal and 33% opposed it. Repeal would not end the duty to consult, which rests on section 35 of the Constitution.",
@@ -2160,7 +2160,7 @@
       "scope": "provincial",
       "prompt": {
         "1": "Many people in BC die from toxic street drugs. How should the province respond?",
-        "2": "Should BC focus on keeping people who use drugs alive, on required treatment, or a mix?",
+        "2": "Should BC focus on harm reduction (such as supervised drug-use sites), on required treatment, or a mix?",
         "3": "BC's toxic drug emergency is ten years old. What approach should the province take now?",
         "4": "After the decriminalization pilot ended and involuntary care expanded, which direction should BC's toxic drug policy take?",
         "5": "Decriminalization expired in January 2026, all prescribed alternatives now require witnessed dosing, and involuntary care is expanding. Choose the policy mix."
@@ -2399,14 +2399,14 @@
       "issue_id": "safety",
       "scope": "provincial",
       "prompt": {
-        "1": "What should the government do about crime and safety?",
-        "2": "People worry about break-ins, threats against shop owners and people who keep breaking the law. What should the province do?",
-        "3": "What should the province do about crime and public safety?",
+        "1": "What should the government's plan for crime and safety be?",
+        "2": "Which approach should the province take on break-ins, threats against shop owners and people who keep breaking the law?",
+        "3": "Which approach should the province take on crime and public safety?",
         "4": "The federal government sets bail law, while the province pays for police, prosecutors and courts. Which approach should BC take?",
         "5": "The province controls police funding, prosecutor and court capacity and the Mental Health Act, and can lobby Ottawa on bail (Bill C-14). Which provincial approach do you prefer?"
       },
       "context": {
-        "1": "The province pays for police and courts. Parties disagree on what to do about crime. One party wants to keep today's programs. Others want many more police, a special unit against threats to businesses, or a crackdown on people who keep committing violent crimes.",
+        "1": "The province pays for police and courts. Parties disagree on what to do about crime. One party wants to keep today's programs. Others want many more police, a special unit against threats to businesses, or a focus on people who keep committing violent crimes.",
         "2": "The province pays for police, prosecutors (the lawyers who charge people with crimes) and courts. The federal government sets the bail rules that decide who is released before trial, so BC parties can only ask for changes. Parties differ on whether to hire many more police, add special units, or keep and grow current programs.",
         "3": "Crime is a mid-level concern for voters. The Conservatives promise many more police, prosecutors and judges. The NDP government would keep current funding and expand a program aimed at people who commit many crimes. CentreBC promises 500 more Mounties, 60 more prosecutors and a permanent task force against extortion, which is when criminals threaten business owners for money. OneBC targets repeat violent offenders. The Greens have published no plan.",
         "4": "BC's Crime Severity Index, a Statistics Canada measure of police-reported crime, fell to 92.4 in 2025, nearly 12% below 2023. A Fraser Institute analysis says violent crime still rose 2.2% last year and about a third since 2017. Provincial figures show extortion fell 7% in 2025. Because bail law is federal, the province's main tools are funding for police, prosecutors and courts. The NDP has made no numeric police pledge. The Conservative plan for about 1,000 new positions has no published cost. CentreBC puts its whole safety chapter, which also covers housing, treatment and disaster preparedness, at about $1.8 billion over four years.",
@@ -2632,7 +2632,7 @@
       "scope": "provincial",
       "prompt": {
         "1": "The United States put extra taxes on many BC products. How can BC protect jobs?",
-        "2": "American tariffs (extra taxes on BC goods sold there) are costing jobs. How should BC protect jobs and grow the economy?",
+        "2": "With American tariffs (extra taxes on BC goods sold there) in place, how should BC protect jobs and grow the economy?",
         "3": "With American tariffs and slow growth, what should BC's plan for the economy be?",
         "4": "The United States has put tariffs on BC lumber, metals and other goods. Which economic strategy should the province pursue?",
         "5": "The United States charges tariffs on goods outside the Canada-United States-Mexico Agreement (CUSMA), on metals and on softwood lumber. Which provincial economic strategy do you prefer?"
@@ -2900,7 +2900,7 @@
       "scope": "provincial",
       "prompt": {
         "1": "Oil and gas create jobs, but they also add to climate change. What should BC do?",
-        "2": "BC sells natural gas, but it is behind on its goal to cut pollution that warms the climate. What should it do?",
+        "2": "BC sells natural gas, but it is behind on its goal to cut the gases that warm the climate. What should it do?",
         "3": "What direction should BC take on climate change and energy?",
         "4": "Which direction should BC take on climate targets, carbon pricing for industry and natural gas production?",
         "5": "Choose a direction on emissions targets, industrial carbon pricing, liquefied natural gas (LNG) expansion and clean power."
@@ -3378,7 +3378,7 @@
         "5": "Choose a model for basic auto insurance: Enhanced Care no-fault, a hybrid allowing lawsuits (tort claims) for serious injury, or private competition with lawsuits."
       },
       "context": {
-        "1": "In BC, people hurt in car crashes get set payments for care from ICBC, the public insurer. Most cannot sue in court, which keeps prices lower. Some parties want badly hurt people to be able to sue again. Some want private companies to compete.",
+        "1": "In BC, people hurt in car crashes get set payments for care from ICBC, the public insurer. Most cannot sue in court, which the government says keeps prices lower. Some parties want badly hurt people to be able to sue again. Some want private companies to compete.",
         "2": "Since 2021, ICBC, the public car insurer, has paid set amounts for care and lost income instead of letting people sue after crashes. The province says this saves drivers about $500 a year. Critics say people with the most serious injuries get too little. Some parties want lawsuits back for serious injuries, which others fear would raise prices.",
         "3": "In 2021 the NDP government brought in a no-fault system, which pays set care and income benefits instead of letting people sue. The province says drivers save about $500 a year, and basic rates are frozen. Critics say people with life-changing injuries get too little. No published estimate shows how bringing back lawsuits would change prices.",
         "4": "Enhanced Care began in May 2021 and replaced most lawsuits with set care and income benefits. The province says basic rates fell by an average of $496, about 28%, and basic rates are frozen until spring 2027. Critics say people with catastrophic injuries, such as brain and spinal cord injuries, are not supported well enough. No published estimate shows how restoring lawsuits would affect premiums.",
@@ -3568,7 +3568,7 @@
       "scope": "provincial",
       "prompt": {
         "1": "How much power should the government use, and should the way we vote change?",
-        "2": "How fast should the province push big decisions through, and should the way we vote change?",
+        "2": "How fast should the province make big decisions, and should the way we vote change?",
         "3": "How much power should the province use, and should BC change its voting system?",
         "4": "What balance between fast decisions and checks on government do you want, and should voting rules change?",
         "5": "Choose a direction on provincial powers, approval speed, government oversight and electoral rules."
@@ -3826,7 +3826,7 @@
         "1": "SkyTrain is being extended to Fleetwood. What should happen with trains and buses?",
         "2": "SkyTrain reaches Fleetwood in 2029, and the regional transit system needs new money from 2028. What should the province do?",
         "3": "How should the province finish the SkyTrain line and fund TransLink, the regional transit agency, after 2028?",
-        "4": "How should the province finish the Surrey-Langley SkyTrain and close TransLink's funding gap from 2028?",
+        "4": "How should the province finish the Surrey-Langley SkyTrain and handle TransLink's funding gap from 2028?",
         "5": "The Surrey-Langley SkyTrain costs $5.996 billion and opens in late 2029, and TransLink faces a gap of at least $112 million a year from 2028. Which approach?"
       },
       "context": {
@@ -4275,9 +4275,9 @@
       "issue_id": "surrey_growth",
       "scope": "local",
       "prompt": {
-        "1": "Surrey has a half-built hospital and crowded schools. What should the province do first?",
+        "1": "A new Surrey hospital is under construction, and schools are crowded. What should the province do first?",
         "2": "Surrey's new hospital opens in 2030, its emergency room is busy and schools keep growing. What should the province focus on?",
-        "3": "How should the province handle Surrey's half-built hospital, overloaded emergency room and crowded schools?",
+        "3": "How should the province handle Surrey's new hospital under construction, its busy emergency room and its crowded schools?",
         "4": "How should the province handle Surrey's hospital, emergency room and school space as the city grows?",
         "5": "The Cloverdale hospital (about $2.88 billion) opens in 2030, 8.4% of Surrey Memorial emergency patients left without being seen in 2024, and the school district expects 700 to 800 more students a year. Choose the approach."
       },
@@ -4539,11 +4539,11 @@
       "issue_id": "metro_transit",
       "scope": "local",
       "prompt": {
-        "1": "Metro Vancouver's buses and trains will run short of money soon. What should the province do?",
-        "2": "TransLink, which runs Metro Vancouver's buses and trains, needs new money from 2028. What should the province do?",
-        "3": "TransLink needs at least $112 million a year in new money from 2028. How should the province fund transit in Metro Vancouver?",
-        "4": "TransLink's provincial top-up ends in 2027, and it needs at least $112 million a year more from 2028. How should the gap close?",
-        "5": "The province's $312 million subsidy carries TransLink to the end of 2027; the agency needs at least $112 million a year from 2028 and the government has ruled out a vehicle levy. Which approach?"
+        "1": "The agency that runs Metro Vancouver's buses and trains says it will run short of money soon. What should the province do?",
+        "2": "TransLink, which runs Metro Vancouver's buses and trains, says it needs new money from 2028. What should the province do?",
+        "3": "TransLink says it needs at least $112 million a year in new money from 2028. What should the province do about transit in Metro Vancouver?",
+        "4": "TransLink's provincial top-up ends in 2027, and it says it needs at least $112 million a year more from 2028. What should the province do?",
+        "5": "The province's $312 million subsidy carries TransLink to the end of 2027; the agency says it needs at least $112 million a year from 2028, and the government has ruled out a vehicle levy. Which approach?"
       },
       "context": {
         "1": "TransLink runs the buses and trains in Metro Vancouver. The province gives it extra money now, but that runs out after next year. Parties disagree on who should pay after that, and on whether some riders should travel free.",
@@ -4756,14 +4756,14 @@
       "issue_id": "metro_title",
       "scope": "local",
       "prompt": {
-        "1": "A court says a First Nation owns Richmond land with homes on it. What should happen?",
-        "2": "A court recognized a First Nation's title to Richmond land with private homes. How should owners be protected and claims settled?",
-        "3": "A 2025 ruling recognized Cowichan title over Richmond land with private homes. How should owners be protected and claims settled?",
-        "4": "The Cowichan title ruling over Richmond land with homes is under appeal. How should owners be protected and title settled?",
+        "1": "A court says a First Nation has title, a kind of ownership right, to Richmond land with homes on it. What should happen?",
+        "2": "A court recognized a First Nation's title to Richmond land with private homes. How should the province handle homeowners and title claims?",
+        "3": "A 2025 ruling recognized Cowichan title over Richmond land with private homes. How should the province handle homeowners and title claims?",
+        "4": "The Cowichan title ruling over Richmond land with homes is under appeal. How should the province handle homeowners and title?",
         "5": "In August 2025 the BC Supreme Court recognized Cowichan Tribes' Aboriginal title over Richmond land including privately held parcels; the province, Ottawa and Richmond have appealed. Which approach to homeowners and title?"
       },
       "context": {
-        "1": "A judge decided that a First Nation owns some land in Richmond, including land under people's homes. The province is fighting that decision in a higher court. Parties disagree on how to protect the people who live there, and on how to settle these claims.",
+        "1": "A judge decided that a First Nation has title, a kind of ownership right, to some land in Richmond, including land under people's homes. The province is fighting that decision in a higher court. Parties disagree on what this means for the people who live there, and on how to settle these claims.",
         "2": "In 2025 the BC Supreme Court recognized Cowichan Tribes' title over land in Richmond, including private homes. The province, the federal government and the City of Richmond have appealed. Parties disagree on whether to promise homeowners money if their home loses value, whether to change the Indigenous rights law, and whether claims should be settled by treaty or in court.",
         "3": "The August 2025 Cowichan ruling recognized Aboriginal title over Richmond land that includes private homes. The province is appealing and Eby says it will 'go to the wall' for owners. CentreBC would pass a law promising owners compensation for lost value. The Conservatives and OneBC would repeal the Indigenous rights law and put property rights first. The Greens would keep the law and settle claims by negotiation. A March poll found most people would put private property first.",
         "4": "The Cowichan decision (BC Supreme Court, August 2025) recognized Aboriginal title over part of Richmond including privately held parcels; the province, Canada, Richmond and others have appealed. A separate 2025 Court of Appeal ruling made DRIPA obligations enforceable, and the two cases are often confused. Eby calls the rulings 'overreaching' and promises to protect owners, without a compensation law. CentreBC's homeowner guarantee would compensate owners up to assessed value and keep homes mortgageable. The Conservatives and OneBC would repeal DRIPA. The Greens would legislate how DRIPA is carried out. Angus Reid (March 2026): 65% put private property first.",
@@ -5773,7 +5773,7 @@
       "issue_id": "island_ferries",
       "scope": "local",
       "prompt": {
-        "1": "Ferries get cancelled, lines are long, and fares are high. What should the province change first?",
+        "1": "Ferries get cancelled, lines are long, and fares keep rising. What should the province change first?",
         "2": "BC Ferries has cancelled sailings, long waits and rising demand. Which change should the province push first?",
         "3": "BC Ferries has cancelled sailings, long waits, rising demand and a dispute over where ships are built. What should come first?",
         "4": "BC Ferries has cancellations, long waits and rising demand, and chose a Chinese state-owned yard for new ships. What comes first?",
@@ -5971,12 +5971,12 @@
       "prompt": {
         "1": "Island mills are closing, and people disagree about cutting the oldest forests. What should happen?",
         "2": "The Crofton pulp mill closed and old-growth logging is still argued over on the Island. What should the province do about forests?",
-        "3": "The Crofton pulp mill closed after the premier refused old-growth logs to supply it. What should be done with Island forests?",
-        "4": "Crofton's mill closed when old-growth logs were ruled out; deferrals remain, with a 45 million cubic metre harvest goal. What now?",
-        "5": "Domtar's Crofton pulp mill (350 jobs) closed after Eby said in December 2025 that pulping old growth to extend it was not an option; old-growth deferrals remain temporary. What now?"
+        "3": "The Crofton pulp mill has closed, and old-growth logging is still argued over on the Island. What should be done with Island forests?",
+        "4": "Crofton's pulp mill has closed; old-growth deferrals remain, with a 45 million cubic metre harvest goal. What now?",
+        "5": "Domtar's Crofton pulp mill (about 350 jobs) closed after a December 2025 announcement, and Eby said pulping old growth to extend it was not an option; old-growth deferrals remain temporary. What now?"
       },
       "context": {
-        "1": "Logging has long been a big employer on the Island and the coast. A pulp mill near Duncan closed this year for lack of wood. Some of the oldest forests are off limits for now. Parties disagree on protecting versus cutting.",
+        "1": "Logging has long been a big employer on the Island and the coast. A pulp mill near Duncan has closed. Some of the oldest forests are off limits for now. Parties disagree on protecting versus cutting.",
         "2": "The Crofton pulp mill, with about 350 jobs, closed last December. The premier said limits on old-growth logging were necessary and refused to let old growth be pulped to keep the mill open. Some old forests are under temporary logging deferrals. Parties disagree on what to protect and how much to cut.",
         "3": "Domtar's Crofton pulp mill (about 350 jobs) closed after a December 2025 announcement. Eby said old-growth limits had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. Old-growth deferrals from 2021 are temporary. The government's Working Forest plan would zone forests with a 45 million cubic metre goal. The Greens reject the plan; CentreBC would write it into law.",
         "4": "Domtar's Crofton pulp mill closed after a December 2025 announcement; Eby said old-growth restrictions had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. Old-growth deferrals from 2021 remain temporary. The Forests minister's mandate letter sets a 45 million cubic metre harvest target while Budget 2026 projects about 30 million. On October 10 in Courtenay the NDP pledged $50 million to make the rarest deferrals permanent and help mills retrofit. The Greens would protect big-treed old growth permanently. CentreBC would legislate Working Forest zones. OneBC would raise the cut. The Conservatives have no 2026 forestry plan.",
@@ -6170,10 +6170,10 @@
       "scope": "local",
       "prompt": {
         "1": "Island hospitals are short of space and seniors wait for care homes. What should come first?",
-        "2": "Nanaimo's hospital still waits for its new tower, and care-home projects were paused. What should come first for seniors' care?",
-        "3": "Nanaimo's hospital tower and cardiac lab are only in planning, and a Campbell River care home was paused. What should come first?",
-        "4": "Budget 2026 funded only planning for Nanaimo's tower and paused a 153-bed Campbell River care home. What should come first?",
-        "5": "Budget 2026 funded only concept planning for Nanaimo's tower and cath lab, paused a 153-bed Campbell River care home, and about 1,600 patients province-wide wait in hospital for care beds. Which approach?"
+        "2": "Nanaimo's new hospital tower has planning money but no construction money, and care-home projects were paused. What should come first for seniors' care?",
+        "3": "Nanaimo's hospital tower and cardiac lab are funded for planning, not construction, and a Campbell River care home was paused. What should come first?",
+        "4": "Budget 2026 funded planning, not construction, for Nanaimo's tower and paused a 153-bed Campbell River care home. What should come first?",
+        "5": "Budget 2026 funded concept planning, not construction, for Nanaimo's tower and cath lab, paused a 153-bed Campbell River care home, and about 1,600 patients province-wide wait in hospital for care beds. Which approach?"
       },
       "context": {
         "1": "The Island has the oldest population in the province. Nanaimo has waited years for a bigger hospital. A care home in Campbell River was put on hold, and seniors wait in hospital beds for a care home place. Parties disagree on what to build first.",
@@ -6613,11 +6613,11 @@
       "issue_id": "interior_downtown",
       "scope": "local",
       "prompt": {
-        "1": "Kelowna wants forced care for the sickest drug users. What should the province do?",
-        "2": "Kelowna's council wants a regional forced-treatment facility and its downtown drug-use site closed. What should the province do?",
+        "1": "Kelowna wants a place where the sickest drug users can be made to get care. What should the province do?",
+        "2": "Kelowna's council wants a regional centre where people can be required to get treatment, and its downtown drug-use site closed. What should the province do?",
         "3": "Kelowna's council wants a regional involuntary care facility and its downtown consumption site closed. What should be done?",
         "4": "Kelowna asked for a regional involuntary care facility and for Health Canada not to renew its consumption site. What now?",
-        "5": "Kelowna council asked Health Canada not to renew the Outreach Urban Health consumption site (3,466 RCMP calls since 2021) and asked the province for a regional mandatory care facility. Which provincial approach?"
+        "5": "Kelowna council asked Health Canada not to renew the Outreach Urban Health consumption site and asked the province for a regional mandatory care facility. Which provincial approach?"
       },
       "context": {
         "1": "Kelowna's downtown has people living on the street with addiction and mental illness. The city wants a regional centre where the sickest can be made to get care, and wants a downtown supervised drug-use site closed. Parties disagree on what the province should pay for.",
@@ -6824,7 +6824,7 @@
         "1": "Kelowna's new care home is on hold and Vernon's was cancelled. What should the province do?",
         "2": "The province paused Kelowna's new care home in February, and a private 250-bed Vernon project was cancelled in October. What now?",
         "3": "Budget 2026 paused seven care home builds including Kelowna's, and a private 250-bed Vernon project was pulled. What now?",
-        "4": "Budget 2026 paused seven care builds at about $1.8 million a bed, and a private 250-bed Vernon project was cancelled. What now?",
+        "4": "Budget 2026 paused seven care builds, saying beds cost about $1.8 million each, and a private 250-bed Vernon project was cancelled. What now?",
         "5": "Budget 2026 (February 17) paused seven long-term care projects (Kelowna, Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Squamish; about $1.4 billion); Park Place's cancellation of a 250-bed Vernon project was reported October 6. Which approach?"
       },
       "context": {
@@ -7041,11 +7041,11 @@
       "issue_id": "north_forestry",
       "scope": "local",
       "prompt": {
-        "1": "Northern mills are closing for lack of wood. How much forest should be cut?",
+        "1": "Northern mills are closing, and companies say they cannot get enough wood. How much forest should be cut?",
         "2": "Northern mills are closing, and companies blame a shortage of wood. How should the province decide how much timber is cut?",
-        "3": "Northern mills, including Prince George's Northwood pulp mill, are closing over fibre supply. How should the harvest be set?",
-        "4": "Northwood pulp mill is closing over fibre supply; the province aims for 45 million cubic metres a year. How should harvest be set?",
-        "5": "Canfor's Northwood pulp mill (about 300 jobs) closes in late 2026 citing fibre supply; the Working Forest Landscape Model aims at 45 million cubic metres a year against about 30 million harvested. Which approach?"
+        "3": "Northern mills, including Prince George's Northwood pulp mill, are closing, and companies cite fibre supply. How should the harvest be set?",
+        "4": "Canfor is closing the Northwood pulp mill, citing pulp losses and fibre supply; the province aims for 45 million cubic metres a year. How should harvest be set?",
+        "5": "Canfor will close its Northwood pulp mill (about 300 jobs) in late 2026, citing pulp losses and fibre supply; the Working Forest Landscape Model aims at 45 million cubic metres a year against about 30 million harvested. Which approach?"
       },
       "context": {
         "1": "Forestry is a main employer in many northern towns. Several mills have closed, and the companies say they cannot get enough wood. The province owns most of the forest and decides how much can be cut. Parties disagree on cutting more, less, or planning differently.",
@@ -7245,18 +7245,18 @@
       "issue_id": "north_resources",
       "scope": "local",
       "prompt": {
-        "1": "Gas plants, mines and a power line are planned up north. How should they be approved?",
+        "1": "Gas plants, mines and a power line are planned up north. How should the province decide on them?",
         "2": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. How should the province handle them?",
-        "3": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. What conditions should apply?",
-        "4": "LNG Canada is doubling; Ksi Lisims LNG is permitted, new mines await permits and the North Coast power line is being built. What conditions should apply?",
-        "5": "LNG Canada Phase 2 took its final investment decision September 29, 2026, doubling capacity; Ksi Lisims LNG is permitted and heading toward a final investment decision, critical mineral mines await permits, and the North Coast Transmission Line's first phase is under construction. Which approval approach?"
+        "3": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. How should the province decide on them?",
+        "4": "LNG Canada is doubling; Ksi Lisims LNG is permitted, new mines await permits and the North Coast power line is being built. How should the province handle these projects?",
+        "5": "LNG Canada Phase 2 took its final investment decision September 29, 2026, doubling capacity; Ksi Lisims LNG is permitted and heading toward a final investment decision, critical mineral mines await permits, and the North Coast Transmission Line's first phase is under construction. Which approach?"
       },
       "context": {
         "1": "The north has big projects waiting: gas export plants, new mines, and a long power line to run them. The province decides whether and how fast to approve them, and what pollution and First Nations rules apply. Parties disagree on speed and conditions.",
         "2": "In September the companies behind the Kitimat gas export plant agreed to build a second phase. Another gas plant near Prince Rupert has its permits but no final go-ahead, new mines are waiting on permits, and construction has started on a north coast power line. The province sets approval timelines, pollution rules, the carbon price for industry, and First Nations partnership rules. Parties disagree on speed and conditions.",
         "3": "The Kitimat gas export plant's owners are doubling it after a September decision. The Ksi Lisims plant near Prince Rupert is permitted but awaits its investment decision, mine proposals are in the permit queue, and the first phase of the North Coast power line is under construction. The NDP requires new plants to be net-zero ready by 2030. The Conservatives would legislate 120-day approvals and drop emissions limits. CentreBC would set a one-year legal deadline. The Greens would approve no new gas plants.",
         "4": "LNG Canada announced its Phase 2 final investment decision on September 29, doubling Kitimat capacity to 28 million tonnes. The NDP requires new projects to be net-zero ready by 2030, would run assessments and permits at the same time, double mineral exports and fast-track the North Coast line with Canadian steel. The Conservatives' plan doubles gas production by 2032, ends emissions limits, legislates 120-day permits and sets a fixed deadline for the line. CentreBC backs LNG with First Nations partners and net-zero plans, a 12-month decision deadline and ten mine decisions by 2030. The Greens would end approvals for new LNG and pipelines.",
-        "5": "LNG Canada's Phase 2 final investment decision (September 29, 2026) doubles Kitimat capacity to 28 million tonnes. On the NDP's own numbers, capacity reaches nearly 48 million tonnes by 2035, above the Conservatives' 'triple by 2035' target, so the real dispute is conditions and process. The NDP pledges to double critical mineral exports in five years, run permits concurrently, build the North Coast Transmission Line with Canadian steel, and keep the net-zero-ready requirement. The Conservatives would double gas by 2032 and triple by 2035, end emissions limits, pass a 120 Day Permitting Act and fix a line deadline. CentreBC requires First Nations partners and credible net-zero plans, keeps industrial carbon pricing, sets a 12-month provincial deadline and promises decisions on 10 mines by 2030. The Greens would approve no new LNG or pipelines."
+        "5": "LNG Canada's Phase 2 final investment decision (September 29, 2026) doubles Kitimat capacity to 28 million tonnes. On the NDP's own numbers, capacity reaches nearly 48 million tonnes by 2035, above the Conservatives' 'triple by 2035' target, so the NDP and the Conservatives differ mainly on conditions and process. The NDP pledges to double critical mineral exports in five years, run permits concurrently, build the North Coast Transmission Line with Canadian steel, and keep the net-zero-ready requirement. The Conservatives would double gas by 2032 and triple by 2035, end emissions limits, pass a 120 Day Permitting Act and fix a line deadline. CentreBC requires First Nations partners and credible net-zero plans, keeps industrial carbon pricing, sets a 12-month provincial deadline and promises decisions on 10 mines by 2030. The Greens would approve no new LNG or pipelines."
       },
       "options": [
         {

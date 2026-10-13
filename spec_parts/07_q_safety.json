@@ -4,14 +4,14 @@
     "issue_id": "safety",
     "scope": "provincial",
     "prompt": {
-      "1": "What should the government do about crime and safety?",
-      "2": "People worry about break-ins, threats against shop owners and people who keep breaking the law. What should the province do?",
-      "3": "What should the province do about crime and public safety?",
+      "1": "What should the government's plan for crime and safety be?",
+      "2": "Which approach should the province take on break-ins, threats against shop owners and people who keep breaking the law?",
+      "3": "Which approach should the province take on crime and public safety?",
       "4": "The federal government sets bail law, while the province pays for police, prosecutors and courts. Which approach should BC take?",
       "5": "The province controls police funding, prosecutor and court capacity and the Mental Health Act, and can lobby Ottawa on bail (Bill C-14). Which provincial approach do you prefer?"
     },
     "context": {
-      "1": "The province pays for police and courts. Parties disagree on what to do about crime. One party wants to keep today's programs. Others want many more police, a special unit against threats to businesses, or a crackdown on people who keep committing violent crimes.",
+      "1": "The province pays for police and courts. Parties disagree on what to do about crime. One party wants to keep today's programs. Others want many more police, a special unit against threats to businesses, or a focus on people who keep committing violent crimes.",
       "2": "The province pays for police, prosecutors (the lawyers who charge people with crimes) and courts. The federal government sets the bail rules that decide who is released before trial, so BC parties can only ask for changes. Parties differ on whether to hire many more police, add special units, or keep and grow current programs.",
       "3": "Crime is a mid-level concern for voters. The Conservatives promise many more police, prosecutors and judges. The NDP government would keep current funding and expand a program aimed at people who commit many crimes. CentreBC promises 500 more Mounties, 60 more prosecutors and a permanent task force against extortion, which is when criminals threaten business owners for money. OneBC targets repeat violent offenders. The Greens have published no plan.",
       "4": "BC's Crime Severity Index, a Statistics Canada measure of police-reported crime, fell to 92.4 in 2025, nearly 12% below 2023. A Fraser Institute analysis says violent crime still rose 2.2% last year and about a third since 2017. Provincial figures show extortion fell 7% in 2025. Because bail law is federal, the province's main tools are funding for police, prosecutors and courts. The NDP has made no numeric police pledge. The Conservative plan for about 1,000 new positions has no published cost. CentreBC puts its whole safety chapter, which also covers housing, treatment and disaster preparedness, at about $1.8 billion over four years.",

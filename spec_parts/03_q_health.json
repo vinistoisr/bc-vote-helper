@@ -4,17 +4,17 @@
     "issue_id": "health",
     "scope": "provincial",
     "prompt": {
-      "1": "Many people cannot find a family doctor, and waiting rooms are full. What should change?",
-      "2": "How should the province help people get a family doctor, emergency care and surgery sooner?",
-      "3": "How should the province improve access to family doctors, emergency rooms and surgeries?",
+      "1": "Many people cannot find a family doctor, and waiting rooms are full. What should the province do?",
+      "2": "Which approach should the province take on family doctors, emergency care and surgery?",
+      "3": "Which approach should the province take on access to family doctors, emergency rooms and surgeries?",
       "4": "Which way of running and paying for health care should BC choose to cut waits and connect people to a doctor?",
       "5": "Which health care delivery and funding model do you support?"
     },
     "context": {
       "1": "About one in four people in BC has no family doctor. Every party says health care should stay free. They disagree on who should run clinics and care homes, and on how to pay for more care.",
       "2": "About one in four people in BC has no regular family doctor or nurse practitioner, up from fewer than one in five in 2017. Every party says care should stay free for patients. They disagree on whether companies should run more care, and on how to pay for it.",
-      "3": "Health care ranks second for BC voters. About one in four people has no regular family doctor or nurse practitioner, even after the NDP government changed how family doctors are paid in 2023. All parties say care should stay publicly funded. They differ on building more public clinics, paying non-government providers, allowing people to pay for faster care, and how to fund it all.",
-      "4": "About 1.26 million people in BC (23%) have no regular family doctor or nurse practitioner, up from 18% in 2017, even though the NDP government brought in a new pay model for family doctors in 2023. The median wait from a doctor's referral to treatment is 32 weeks. A provincial law, the Medicare Protection Act, bars private clinics from charging patients for services the public plan covers.",
+      "3": "Health care ranks second for BC voters. About one in four people has no regular family doctor or nurse practitioner. The NDP government changed how family doctors are paid in 2023. All parties say care should stay publicly funded. They differ on building more public clinics, paying non-government providers, allowing people to pay for faster care, and how to fund it all.",
+      "4": "About 1.26 million people in BC (23%) have no regular family doctor or nurse practitioner, up from 18% in 2017. The NDP government brought in a new pay model for family doctors in 2023. The median wait from a doctor's referral to treatment is 32 weeks. A provincial law, the Medicare Protection Act, bars private clinics from charging patients for services the public plan covers.",
       "5": "In April 2026, 1,259,425 people (23%) had no regular primary care provider, compared with 897,000 (18.2%) in 2017. The Health Connect Registry links more than 4,000 people a week to a provider, and a new family doctor payment model (LFP) has been in place since 2023. The Fraser Institute puts the median wait from referral to treatment at 32.2 weeks. The first phase of minimum nurse-to-patient ratios was 81% in place by March 2026, according to the BC Nurses' Union, and the health budget is about $36 billion. The Medicare Protection Act bars extra-billing for services the public plan insures."
     },
     "options": [

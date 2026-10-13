@@ -4,7 +4,7 @@
     "issue_id": "island_ferries",
     "scope": "local",
     "prompt": {
-      "1": "Ferries get cancelled, lines are long, and fares are high. What should the province change first?",
+      "1": "Ferries get cancelled, lines are long, and fares keep rising. What should the province change first?",
       "2": "BC Ferries has cancelled sailings, long waits and rising demand. Which change should the province push first?",
       "3": "BC Ferries has cancelled sailings, long waits, rising demand and a dispute over where ships are built. What should come first?",
       "4": "BC Ferries has cancellations, long waits and rising demand, and chose a Chinese state-owned yard for new ships. What comes first?",
@@ -202,12 +202,12 @@
     "prompt": {
       "1": "Island mills are closing, and people disagree about cutting the oldest forests. What should happen?",
       "2": "The Crofton pulp mill closed and old-growth logging is still argued over on the Island. What should the province do about forests?",
-      "3": "The Crofton pulp mill closed after the premier refused old-growth logs to supply it. What should be done with Island forests?",
-      "4": "Crofton's mill closed when old-growth logs were ruled out; deferrals remain, with a 45 million cubic metre harvest goal. What now?",
-      "5": "Domtar's Crofton pulp mill (350 jobs) closed after Eby said in December 2025 that pulping old growth to extend it was not an option; old-growth deferrals remain temporary. What now?"
+      "3": "The Crofton pulp mill has closed, and old-growth logging is still argued over on the Island. What should be done with Island forests?",
+      "4": "Crofton's pulp mill has closed; old-growth deferrals remain, with a 45 million cubic metre harvest goal. What now?",
+      "5": "Domtar's Crofton pulp mill (about 350 jobs) closed after a December 2025 announcement, and Eby said pulping old growth to extend it was not an option; old-growth deferrals remain temporary. What now?"
     },
     "context": {
-      "1": "Logging has long been a big employer on the Island and the coast. A pulp mill near Duncan closed this year for lack of wood. Some of the oldest forests are off limits for now. Parties disagree on protecting versus cutting.",
+      "1": "Logging has long been a big employer on the Island and the coast. A pulp mill near Duncan has closed. Some of the oldest forests are off limits for now. Parties disagree on protecting versus cutting.",
       "2": "The Crofton pulp mill, with about 350 jobs, closed last December. The premier said limits on old-growth logging were necessary and refused to let old growth be pulped to keep the mill open. Some old forests are under temporary logging deferrals. Parties disagree on what to protect and how much to cut.",
       "3": "Domtar's Crofton pulp mill (about 350 jobs) closed after a December 2025 announcement. Eby said old-growth limits had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. Old-growth deferrals from 2021 are temporary. The government's Working Forest plan would zone forests with a 45 million cubic metre goal. The Greens reject the plan; CentreBC would write it into law.",
       "4": "Domtar's Crofton pulp mill closed after a December 2025 announcement; Eby said old-growth restrictions had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. Old-growth deferrals from 2021 remain temporary. The Forests minister's mandate letter sets a 45 million cubic metre harvest target while Budget 2026 projects about 30 million. On October 10 in Courtenay the NDP pledged $50 million to make the rarest deferrals permanent and help mills retrofit. The Greens would protect big-treed old growth permanently. CentreBC would legislate Working Forest zones. OneBC would raise the cut. The Conservatives have no 2026 forestry plan.",
@@ -401,10 +401,10 @@
     "scope": "local",
     "prompt": {
       "1": "Island hospitals are short of space and seniors wait for care homes. What should come first?",
-      "2": "Nanaimo's hospital still waits for its new tower, and care-home projects were paused. What should come first for seniors' care?",
-      "3": "Nanaimo's hospital tower and cardiac lab are only in planning, and a Campbell River care home was paused. What should come first?",
-      "4": "Budget 2026 funded only planning for Nanaimo's tower and paused a 153-bed Campbell River care home. What should come first?",
-      "5": "Budget 2026 funded only concept planning for Nanaimo's tower and cath lab, paused a 153-bed Campbell River care home, and about 1,600 patients province-wide wait in hospital for care beds. Which approach?"
+      "2": "Nanaimo's new hospital tower has planning money but no construction money, and care-home projects were paused. What should come first for seniors' care?",
+      "3": "Nanaimo's hospital tower and cardiac lab are funded for planning, not construction, and a Campbell River care home was paused. What should come first?",
+      "4": "Budget 2026 funded planning, not construction, for Nanaimo's tower and paused a 153-bed Campbell River care home. What should come first?",
+      "5": "Budget 2026 funded concept planning, not construction, for Nanaimo's tower and cath lab, paused a 153-bed Campbell River care home, and about 1,600 patients province-wide wait in hospital for care beds. Which approach?"
     },
     "context": {
       "1": "The Island has the oldest population in the province. Nanaimo has waited years for a bigger hospital. A care home in Campbell River was put on hold, and seniors wait in hospital beds for a care home place. Parties disagree on what to build first.",

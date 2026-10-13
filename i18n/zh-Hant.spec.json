@@ -1016,8 +1016,8 @@
 "石油和天然氣帶來工作，但也令氣候變化加劇。卑詩省應該怎樣做？"
 ],
 "questions/q_climate_energy/prompt/2": [
-"e17f434bb4",
-"卑詩省出售天然氣，但在減少令氣候變暖的污染方面落後於目標。它應該怎樣做？"
+"b8a9cdae6e",
+"卑詩省出售天然氣，但在減少令氣候變暖的氣體方面落後於目標。它應該怎樣做？"
 ],
 "questions/q_climate_energy/prompt/3": [
 "5b5cd02374",
@@ -1212,16 +1212,16 @@
 "OneBC 會把所有個人及企業入息稅級的稅率削減25%，把 PST 降低兩個百分點，逐步終止 ICBC 的壟斷並結束其無過失制度，並廢除 BC Energy Step Code。它沒有公布成本計算，也沒有關於價格、援助或工資的政策，但承諾在這些減稅的同時，於四年內平衡預算。"
 ],
 "questions/q_cost_of_living/prompt/1": [
-"77acc25979",
-"食物、汽油和租金現在都貴了。政府應該怎樣幫大家應付開支？"
+"61b63896e9",
+"食物、汽油和租金現在都貴了。政府應該有甚麼方案？"
 ],
 "questions/q_cost_of_living/prompt/2": [
-"28473c9518",
-"雜貨、汽油和租金比以前貴。省政府應該怎樣幫家庭支付這些開支？"
+"5adf21a293",
+"雜貨、汽油和租金比以前貴。省政府應該採取哪種方法？"
 ],
 "questions/q_cost_of_living/prompt/3": [
-"953a5e4a11",
-"生活成本是卑詩省選民最關注的議題。省府應採取哪種方法，令生活更可負擔？"
+"a07abec81c",
+"在生活成本方面，省府應採取哪種方法？"
 ],
 "questions/q_cost_of_living/prompt/4": [
 "a8cc1a98a2",
@@ -1416,8 +1416,8 @@
 "政府應該用多大的權力？我們投票的方式應該改變嗎？"
 ],
 "questions/q_democracy_power/prompt/2": [
-"db51a30db2",
-"省政府應該多快推動重大決定？我們投票的方式應該改變嗎？"
+"6049cf11ba",
+"省政府應該多快作出重大決定？我們投票的方式應該改變嗎？"
 ],
 "questions/q_democracy_power/prompt/3": [
 "2ab16dff76",
@@ -1432,8 +1432,8 @@
 "請就省政府權力、審批速度、監察政府及選舉規則選擇一個方向。"
 ],
 "questions/q_dripa/context/1": [
-"97c4616521",
-"在2019年，卑詩省議員通過了一條法律，沒有人投反對票。這條法律說卑詩省的法律應該尊重原住民的權利。在2025年，法院說法官可以用它來檢查卑詩省的法律。各政黨對應該怎樣做意見不一。無論如何，原住民族都會保留他們的權利。"
+"af32fb4c0f",
+"在2019年，卑詩省議員通過了一條法律，沒有人投反對票。這條法律說卑詩省必須努力令其法律符合聯合國一份關於原住民權利的宣言。在2025年，法院說法官可以用這份宣言來檢查卑詩省的法律。各政黨對應該怎樣做意見不一。無論如何，原住民族都會保留他們的權利。"
 ],
 "questions/q_dripa/context/2": [
 "2d081899d2",
@@ -1612,12 +1612,12 @@
 "OneBC 會廢除 DRIPA，宣布 UNDRIP 在卑詩省沒有效力，停止自願轉移，並爭取修憲以廢除 Indian Act（印第安人法）及把保留地變為鎮區；Brodie 在該黨2025年成立時表示會「停止資助和解產業」。在2025年10月，她禁止土地致謝聲明的法案以5票對85票被否決，她的 Property Rights Protection Act（財產權保障法）以40票對48票被否決。她投票支持獨立省議員 Jordan Kealy（2025年11月）及保守黨省議員 Trevor Halford（2026年4月）提出的廢除 DRIPA 法案首讀。Rustad 在2025年3月把她逐出保守黨黨團，指她嘲弄寄宿學校倖存者的證供。"
 ],
 "questions/q_dripa/prompt/1": [
-"7209f89ee2",
-"卑詩省有一條法律說，省的法律必須尊重原住民權利。這條法律應該怎樣處理？"
+"3c3af13e88",
+"卑詩省有一條法律說，省政府必須努力令省的法律符合聯合國一份關於原住民權利的宣言。這條法律應該怎樣處理？"
 ],
 "questions/q_dripa/prompt/2": [
-"599f0b3c0b",
-"一條2019年的法律說，卑詩省的法律應該符合原住民的權利。現在應該怎樣處理這條法律？"
+"7412085071",
+"一條2019年的法律說，卑詩省必須努力令其法律與聯合國一份關於原住民權利的宣言一致。現在應該怎樣處理這條法律？"
 ],
 "questions/q_dripa/prompt/3": [
 "94998db290",
@@ -1816,8 +1816,8 @@
 "卑詩省有很多人死於有毒街頭毒品。省政府應該怎樣應對？"
 ],
 "questions/q_drugs/prompt/2": [
-"ce2bf7edbc",
-"卑詩省應該專注保住吸毒者的性命、強制治療，還是兩者兼顧？"
+"476f7ec8e8",
+"卑詩省應該專注減低傷害（例如有人監督的吸毒場所）、強制治療，還是兩者兼顧？"
 ],
 "questions/q_drugs/prompt/3": [
 "2d6be19562",
@@ -2016,8 +2016,8 @@
 "美國向很多卑詩省產品收額外的稅。卑詩省可以怎樣保住職位？"
 ],
 "questions/q_economy_tariffs/prompt/2": [
-"97620f0d80",
-"美國的關稅（對在美國出售的卑詩省貨品收取的額外稅項）令人失去工作。卑詩省應該怎樣保住職位和發展經濟？"
+"fee60f03a4",
+"在美國實施關稅（對在美國出售的卑詩省貨品收取的額外稅項）的情況下，卑詩省應該怎樣保住職位和發展經濟？"
 ],
 "questions/q_economy_tariffs/prompt/3": [
 "52601831aa",
@@ -2240,12 +2240,12 @@
 "卑詩省約四分之一的人沒有固定的家庭醫生或執業護士，而2017年時不足五分之一。每個政黨都說病人看病應該繼續免費。它們對應否讓私人公司提供更多醫療服務，以及怎樣支付，意見不一。"
 ],
 "questions/q_health/context/3": [
-"e0767e525f",
-"醫療在卑詩省選民關注的議題中排第二。即使新民主黨政府在2023年改變了家庭醫生的薪酬方式，仍有約四分之一的人沒有固定的家庭醫生或執業護士。所有政黨都說醫療應該繼續由公帑資助。它們在以下各方面有分歧：興建更多公營診所、向非政府服務提供者付款、容許市民付費以更快得到治療，以及怎樣為這一切提供資金。"
+"fd71f59f51",
+"醫療在卑詩省選民關注的議題中排第二。約四分之一的人沒有固定的家庭醫生或執業護士。新民主黨政府在2023年改變了家庭醫生的薪酬方式。所有政黨都說醫療應該繼續由公帑資助。它們在以下各方面有分歧：興建更多公營診所、向非政府服務提供者付款、容許市民付費以更快得到治療，以及怎樣為這一切提供資金。"
 ],
 "questions/q_health/context/4": [
-"c889623f1d",
-"卑詩省約有126萬人（23%）沒有固定的家庭醫生或執業護士，比2017年的18%為高，儘管新民主黨政府在2023年為家庭醫生推出了新的薪酬模式。由醫生轉介至接受治療的輪候時間中位數為32星期。省級法律 Medicare Protection Act（醫療保障法）禁止私營診所就公營計劃涵蓋的服務向病人收費。"
+"9a4fe66f75",
+"卑詩省約有126萬人（23%）沒有固定的家庭醫生或執業護士，比2017年的18%為高。新民主黨政府在2023年為家庭醫生推出了新的薪酬模式。由醫生轉介至接受治療的輪候時間中位數為32星期。省級法律 Medicare Protection Act（醫療保障法）禁止私營診所就公營計劃涵蓋的服務向病人收費。"
 ],
 "questions/q_health/context/5": [
 "8ea311254f",
@@ -2412,16 +2412,16 @@
 "OneBC 會容許私營醫療與公營系統並存，廢除 Health Professions and Occupations Act（醫療專業及職業法），並把行政及人力資源開支轉向前線人員。它沒有就基層醫療、診斷服務、護士比例或長期護理作出承諾。按現行條文，平行的私營層級會與 Medicare Protection Act（醫療保障法）有衝突。"
 ],
 "questions/q_health/prompt/1": [
-"880727a7c6",
-"很多人找不到家庭醫生，候診室也坐滿了人。應該改變甚麼？"
+"f4b216fce3",
+"很多人找不到家庭醫生，候診室也坐滿了人。省政府應該怎樣做？"
 ],
 "questions/q_health/prompt/2": [
-"eeb13ca8ef",
-"省政府應該怎樣幫助市民更快找到家庭醫生、得到急症治療和做手術？"
+"41373b8b03",
+"在家庭醫生、急症治療和手術方面，省政府應該採取哪種方法？"
 ],
 "questions/q_health/prompt/3": [
-"4208926b3b",
-"省政府應該怎樣改善市民使用家庭醫生、急症室和手術服務的情況？"
+"75cdeeedde",
+"在市民使用家庭醫生、急症室和手術服務方面，省政府應該採取哪種方法？"
 ],
 "questions/q_health/prompt/4": [
 "e6962d875b",
@@ -2612,16 +2612,16 @@
 "OneBC 會取消 BC Energy Step Code，並阻止市政府實施租金管制，它表示這些會「打擊發展意欲」。它沒有提出需求方面的稅項，也沒有供應計劃。它沒有執政紀錄；其省議員在2024年以保守黨身份當選。"
 ],
 "questions/q_housing/prompt/1": [
-"e78f115c08",
-"買樓或租屋都很貴。政府應該怎樣幫忙？"
+"9f3b03e5a8",
+"買樓或租屋都很貴。政府應該有甚麼方案？"
 ],
 "questions/q_housing/prompt/2": [
-"fb557fed07",
-"在卑詩省買樓或租屋都很貴。省政府應該怎樣幫助市民付得起買樓或租屋的費用？"
+"025515c835",
+"在卑詩省買樓或租屋都很貴。省政府應該採取哪種房屋方法？"
 ],
 "questions/q_housing/prompt/3": [
-"2e6ee5c897",
-"省政府應該怎樣處理房屋成本問題？"
+"4dbb23b4f5",
+"在房屋成本方面，省政府應該採取哪種方法？"
 ],
 "questions/q_housing/prompt/4": [
 "6c058de14b",
@@ -2632,8 +2632,8 @@
 "省政府應該推行哪一種房屋稅、分區規則、審批改革及公營建屋的組合？"
 ],
 "questions/q_icbc/context/1": [
-"3ec19219c6",
-"在卑詩省，在車禍中受傷的人會從公營保險公司 ICBC 得到固定的護理賠償。大部分人不能上法庭告人，這令保費較低。有些政黨想讓傷勢嚴重的人可以再次告人。有些政黨想讓私營公司參與競爭。"
+"c02093b020",
+"在卑詩省，在車禍中受傷的人會從公營保險公司 ICBC 得到固定的護理賠償。大部分人不能上法庭告人，政府說這令保費較低。有些政黨想讓傷勢嚴重的人可以再次告人。有些政黨想讓私營公司參與競爭。"
 ],
 "questions/q_icbc/context/2": [
 "ab19d21dea",
@@ -3732,16 +3732,16 @@
 "OneBC 會容許私營醫療與公營系統並存，廢除 Health Professions and Occupations Act（醫療專業及職業法），並引入標準化考試。它沒有就興建醫院或學校作出任何承諾。候選人 Hofbauer 未有公布任何立場。"
 ],
 "questions/q_local_hospital_schools/prompt/1": [
-"3356a45d9e",
-"Surrey 有一間建了一半的醫院，學校也很擠迫。省政府應該先做甚麼？"
+"11732d1c34",
+"Surrey 有一間新醫院正在興建，學校也很擠迫。省政府應該先做甚麼？"
 ],
 "questions/q_local_hospital_schools/prompt/2": [
 "29d27b2cc8",
 "Surrey 的新醫院在2030年啟用，急症室很繁忙，學校人數也不斷增加。省政府應該集中做甚麼？"
 ],
 "questions/q_local_hospital_schools/prompt/3": [
-"d219169768",
-"省政府應該怎樣處理 Surrey 建了一半的醫院、超出負荷的急症室和擠迫的學校？"
+"afe0e96f7d",
+"省政府應該怎樣處理 Surrey 正在興建的新醫院、繁忙的急症室和擠迫的學校？"
 ],
 "questions/q_local_hospital_schools/prompt/4": [
 "c22ca4cb51",
@@ -3932,12 +3932,12 @@
 "政策重點網頁：取消安全供應和吸毒場所計劃；取消所有新的吸毒場所並把現有場所改為康復中心；為嚴重成癮者提供非自願戒毒治療和住屋；撤回所有非刑事化措施並嚴厲打擊公開吸毒；嚴厲打擊慣犯和暴力罪犯。在 X 上的帖文（9月29日、10月5日）補充：與市政府合作進行街頭巡邏、重開 Riverview Hospital，以及不降低控罪。沒有關於 Kelowna 或 Okanagan 的聲明；選項 e 是把其公布的計劃應用於該市的要求。"
 ],
 "questions/q_local_interior_downtown/prompt/1": [
-"a93df04751",
-"Kelowna 想讓病情最重的吸毒者接受強制護理。省政府應該怎樣做？"
+"b4fc24f838",
+"Kelowna 想設立一個地方，讓病情最重的吸毒者必須接受護理。省政府應該怎樣做？"
 ],
 "questions/q_local_interior_downtown/prompt/2": [
-"cac16c9ee6",
-"Kelowna 市議會希望設立一個地區強制治療設施，並關閉市中心的吸毒場所。省政府應該怎樣做？"
+"96a3e02c88",
+"Kelowna 市議會希望設立一個地區中心，在那裡可以要求有關人士必須接受治療，並希望關閉市中心的吸毒場所。省政府應該怎樣做？"
 ],
 "questions/q_local_interior_downtown/prompt/3": [
 "d65472f6c7",
@@ -3948,8 +3948,8 @@
 "Kelowna 要求設立一個地區非自願護理設施，並要求 Health Canada 不再續期當地的吸毒場所。下一步應怎樣做？"
 ],
 "questions/q_local_interior_downtown/prompt/5": [
-"028db2d6f0",
-"Kelowna 市議會要求 Health Canada 不再續期 Outreach Urban Health 吸毒場所（自2021年以來 RCMP 接獲3466宗相關求助），並要求省政府設立一個地區強制護理設施。省政府應採取哪種方針？"
+"100b5305ff",
+"Kelowna 市議會要求 Health Canada 不再續期 Outreach Urban Health 吸毒場所，並要求省政府設立一個地區強制護理設施。省政府應採取哪種方針？"
 ],
 "questions/q_local_interior_ltc/context/1": [
 "40c02cd329",
@@ -4144,8 +4144,8 @@
 "2026年預算擱置了七個護理院興建項目，包括 Kelowna 的項目，一個私營的250張床位 Vernon 項目亦已撤回。下一步應怎樣做？"
 ],
 "questions/q_local_interior_ltc/prompt/4": [
-"b03c76fb9b",
-"2026年預算擱置了七個護理院興建項目，每張床位成本約180萬元，一個私營的250張床位 Vernon 項目亦被取消。下一步應怎樣做？"
+"9b5c6501eb",
+"2026年預算擱置了七個護理院興建項目，並指每張床位成本約180萬元；一個私營的250張床位 Vernon 項目亦被取消。下一步應怎樣做？"
 ],
 "questions/q_local_interior_ltc/prompt/5": [
 "5dda16c8a9",
@@ -4492,8 +4492,8 @@
 "OneBC 的優先事項網頁沒有列出渡輪或交通承諾，而它在島上唯一的候選人（Juan de Fuca-Malahat）也沒有公布任何承諾，所以這題不計入它的分數。"
 ],
 "questions/q_local_island_coast_ferries/prompt/1": [
-"785ba0328d",
-"渡輪有時取消，排隊時間長，票價又高。省政府應該先改變甚麼？"
+"f7caade80e",
+"渡輪有時取消，排隊時間長，票價又不斷上升。省政府應該先改變甚麼？"
 ],
 "questions/q_local_island_coast_ferries/prompt/2": [
 "66b23f5e3e",
@@ -4512,8 +4512,8 @@
 "BC Ferries 面對航班取消、輪候時間長和需求上升；在2025年5月，由於沒有本地船廠投標，它選了一間中國國有船廠建造四艘混合動力船。省政府應該先作出哪項改變？"
 ],
 "questions/q_local_island_coast_oldgrowth/context/1": [
-"3436929144",
-"伐木業一直是島上和沿岸地區的主要僱主。Duncan 附近一間紙漿廠今年因缺乏木材而關閉。一些最古老的森林暫時禁止砍伐。各黨對應保護還是砍伐意見不同。"
+"6c3c474cc7",
+"伐木業一直是島上和沿岸地區的主要僱主。Duncan 附近一間紙漿廠已經關閉。一些最古老的森林暫時禁止砍伐。各黨對應保護還是砍伐意見不同。"
 ],
 "questions/q_local_island_coast_oldgrowth/context/2": [
 "64a76c332d",
@@ -4680,16 +4680,16 @@
 "Crofton 紙漿廠已關閉，而島上仍在爭論應否砍伐原始森林。省政府應該怎樣處理森林？"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/3": [
-"18e4d6cdce",
-"省長拒絕以原始森林的木材供應 Crofton 紙漿廠之後，該廠關閉了。島上的森林應該怎樣處理？"
+"5e7b8a42c6",
+"Crofton 紙漿廠已經關閉，而島上對砍伐原始森林仍有爭論。島上的森林應該怎樣處理？"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/4": [
-"c09efdda35",
-"原始森林木材被排除後，Crofton 的廠房關閉；暫緩採伐措施仍然存在，採伐目標為4,500萬立方米。現在應該怎樣做？"
+"3c1d71a723",
+"Crofton 的紙漿廠已經關閉；原始森林暫緩採伐措施仍然存在，採伐目標為4,500萬立方米。現在應該怎樣做？"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/5": [
-"970e8347e1",
-"Eby 在2025年12月表示，不會考慮以原始森林木材造紙漿來延續 Domtar 的 Crofton 紙漿廠（350個職位）的營運，該廠其後關閉；原始森林暫緩採伐措施仍屬臨時性質。現在應該怎樣做？"
+"48d9c265ba",
+"Domtar 的 Crofton 紙漿廠（約350個職位）在2025年12月宣布關閉後停產，而 Eby 表示以原始森林木材造紙漿來延續該廠營運並不在考慮之列；原始森林暫緩採伐措施仍屬臨時性質。現在應該怎樣做？"
 ],
 "questions/q_local_island_coast_seniors/context/1": [
 "61d2b2096a",
@@ -4876,20 +4876,20 @@
 "島上的醫院空間不足，長者要等候護理院。應該先做甚麼？"
 ],
 "questions/q_local_island_coast_seniors/prompt/2": [
-"c6723f66b2",
-"Nanaimo 的醫院仍在等候新大樓，而護理院項目已暫停。長者護理應該先做甚麼？"
+"299ae558f6",
+"Nanaimo 的醫院新大樓有規劃資金，但沒有興建資金，而護理院項目已暫停。長者護理應該先做甚麼？"
 ],
 "questions/q_local_island_coast_seniors/prompt/3": [
-"00510500af",
-"Nanaimo 的醫院大樓和心臟檢查室只在規劃中，而 Campbell River 一間護理院已暫停。應該先做甚麼？"
+"f2f521c4a0",
+"Nanaimo 的醫院大樓和心臟檢查室獲得的是規劃資金，而不是興建資金，而 Campbell River 一間護理院已暫停。應該先做甚麼？"
 ],
 "questions/q_local_island_coast_seniors/prompt/4": [
-"644f22b2de",
-"2026年度預算只資助 Nanaimo 大樓的規劃，並暫停了 Campbell River 一間153張床位的護理院。應該先做甚麼？"
+"81e7556da9",
+"2026年度預算資助 Nanaimo 大樓的規劃，而不是興建，並暫停了 Campbell River 一間153張床位的護理院。應該先做甚麼？"
 ],
 "questions/q_local_island_coast_seniors/prompt/5": [
-"a1c5cb95a0",
-"2026年度預算只資助 Nanaimo 大樓及心導管室的概念規劃，暫停了 Campbell River 一間153張床位的護理院，而全省約有1,600名病人在醫院等候護理床位。你支持哪種做法？"
+"bcb0098c47",
+"2026年度預算資助 Nanaimo 大樓及心導管室的概念規劃，而不是興建，暫停了 Campbell River 一間153張床位的護理院，而全省約有1,600名病人在醫院等候護理床位。你支持哪種做法？"
 ],
 "questions/q_local_metro_density/context/1": [
 "711ac98a92",
@@ -5072,8 +5072,8 @@
 "第44號法案（小規模多單位住宅，以45對29票通過）和第47號法案（公共交通導向區，以65對0票通過）凌駕市政分區規劃；十六位 Metro 市長在2025年11月要求廢除或修訂。現在應該怎樣做？"
 ],
 "questions/q_local_metro_title_homes/context/1": [
-"32c20dc19b",
-"一名法官裁定一個原住民族擁有 Richmond 的一些土地，包括人們房屋下面的土地。省政府正在更高級的法院反對這個裁決。各黨對怎樣保護住在那裡的人，以及怎樣解決這些土地權利問題，意見不同。"
+"b1ee254ff6",
+"一名法官裁定一個原住民族對 Richmond 的一些土地擁有業權（一種擁有權利），包括人們房屋下面的土地。省政府正在更高級的法院反對這個裁決。各黨對這件事對住在那裡的人有甚麼影響，以及怎樣解決這些土地權利問題，意見不同。"
 ],
 "questions/q_local_metro_title_homes/context/2": [
 "24fc23bcc2",
@@ -5252,20 +5252,20 @@
 "優先事項網頁：廢除 DRIPA 並宣布 UNDRIP 沒有任何效力；停止自願向部落政府轉移現金、土地及公共資源的控制權；透過修憲爭取廢除 Indian Act（印第安人法）；停止強制性的土地致謝聲明。X，2026年9月26日：廢除 DRIPA 並「停止資助和解產業」。Property Rights Protection Act（財產權保障法，2025年10月）以40票對48票被否決。沒有針對 Cowichan 的聲明，也沒有賠償建議。"
 ],
 "questions/q_local_metro_title_homes/prompt/1": [
-"f4b1049cc0",
-"法院說一個原住民族擁有 Richmond 一片有房屋的土地。應該怎樣做？"
+"a5b08bc58b",
+"法院說一個原住民族對 Richmond 一片有房屋的土地擁有業權（一種擁有權利）。應該怎樣做？"
 ],
 "questions/q_local_metro_title_homes/prompt/2": [
-"6617db7da2",
-"法院承認一個原住民族對 Richmond 一片有私人住宅的土地擁有業權。應該怎樣保障業主及解決土地權利問題？"
+"a301616644",
+"法院承認一個原住民族對 Richmond 一片有私人住宅的土地擁有業權。省政府應該怎樣處理業主及業權申索的問題？"
 ],
 "questions/q_local_metro_title_homes/prompt/3": [
-"0d0feff690",
-"一項2025年的裁決承認 Cowichan 對 Richmond 一片有私人住宅的土地擁有業權。應該怎樣保障業主及解決土地權利申索？"
+"0b31bd6e79",
+"一項2025年的裁決承認 Cowichan 對 Richmond 一片有私人住宅的土地擁有業權。省政府應該怎樣處理業主及業權申索？"
 ],
 "questions/q_local_metro_title_homes/prompt/4": [
-"e709e50992",
-"有關 Richmond 有房屋土地的 Cowichan 業權裁決正在上訴中。應該怎樣保障業主及解決業權問題？"
+"4c29918fe0",
+"有關 Richmond 有房屋土地的 Cowichan 業權裁決正在上訴中。省政府應該怎樣處理業主及業權問題？"
 ],
 "questions/q_local_metro_title_homes/prompt/5": [
 "bf6c357487",
@@ -5452,24 +5452,24 @@
 "OneBC 的優先事項網頁沒有列出交通承諾，所以這題不計入它的分數。"
 ],
 "questions/q_local_metro_translink/prompt/1": [
-"e2b41c845f",
-"Metro Vancouver 的巴士和火車很快會缺錢。省政府應該怎樣做？"
+"dbc5f7de81",
+"負責 Metro Vancouver 巴士和火車的機構說，它很快會缺錢。省政府應該怎樣做？"
 ],
 "questions/q_local_metro_translink/prompt/2": [
-"2f8d407187",
-"負責 Metro Vancouver 巴士和火車的 TransLink 從2028年起需要新的資金。省政府應該怎樣做？"
+"aac0ef7ed2",
+"負責 Metro Vancouver 巴士和火車的 TransLink 說，它從2028年起需要新的資金。省政府應該怎樣做？"
 ],
 "questions/q_local_metro_translink/prompt/3": [
-"5f3ca9f324",
-"TransLink 從2028年起每年需要最少11,200萬元的新資金。省政府應該怎樣資助 Metro Vancouver 的公共交通？"
+"1537e654e1",
+"TransLink 說，它從2028年起每年需要最少11,200萬元的新資金。在 Metro Vancouver 的公共交通方面，省政府應該怎樣做？"
 ],
 "questions/q_local_metro_translink/prompt/4": [
-"e2ce41aba8",
-"省政府給 TransLink 的額外撥款在2027年結束，而它從2028年起每年需要最少多11,200萬元。應該怎樣填補缺口？"
+"4ecd62a08d",
+"省政府給 TransLink 的額外撥款在2027年結束，而 TransLink 說它從2028年起每年需要最少多11,200萬元。省政府應該怎樣做？"
 ],
 "questions/q_local_metro_translink/prompt/5": [
-"41090076d0",
-"省政府31,200萬元的補貼可支持 TransLink 至2027年底；該機構從2028年起每年需要最少11,200萬元，而政府已排除車輛徵費。你支持哪個方案？"
+"45dddc81a1",
+"省政府31,200萬元的補貼可支持 TransLink 至2027年底；該機構說它從2028年起每年需要最少11,200萬元，而政府已排除車輛徵費。你支持哪個方案？"
 ],
 "questions/q_local_north_er/context/1": [
 "733d4626ae",
@@ -5832,24 +5832,24 @@
 "政策重點網頁：「增加每年准許伐木量，確保我們的林業有足夠木纖維發展壯大」；「為木材公司降低立木費，令市場更具競爭力」；「加快許可審批時間和諮詢」。10月5日帖文：以較低收費和較快審批，令林業和礦業更具競爭力。沒有數量目標，亦沒有就 Working Forest 模式或原始森林表明立場。"
 ],
 "questions/q_local_north_forestry/prompt/1": [
-"aa7501b1a0",
-"北部的木廠因為缺乏木材而倒閉。應該砍伐多少森林？"
+"de1f2d5021",
+"北部的木廠正在倒閉，公司表示無法取得足夠木材。應該砍伐多少森林？"
 ],
 "questions/q_local_north_forestry/prompt/2": [
 "0da624f03b",
 "北部的木廠相繼倒閉，公司歸咎於木材短缺。省政府應該怎樣決定砍伐多少木材？"
 ],
 "questions/q_local_north_forestry/prompt/3": [
-"5651eec073",
-"北部的木廠，包括 Prince George 的 Northwood 紙漿廠，因木纖維供應問題而倒閉。應該怎樣訂定伐木量？"
+"638cc073e0",
+"北部的木廠，包括 Prince George 的 Northwood 紙漿廠，正在倒閉，有關公司以木纖維供應為由。應該怎樣訂定伐木量？"
 ],
 "questions/q_local_north_forestry/prompt/4": [
-"f4915cd068",
-"Northwood 紙漿廠因木纖維供應問題而倒閉；省政府的目標是每年4,500萬立方米。應該怎樣訂定伐木量？"
+"012b2728f0",
+"Canfor 以紙漿業務虧損及木纖維供應為由，將關閉 Northwood 紙漿廠；省政府的目標是每年4,500萬立方米。應該怎樣訂定伐木量？"
 ],
 "questions/q_local_north_forestry/prompt/5": [
-"f60642bb35",
-"Canfor 的 Northwood 紙漿廠（約300個職位）以木纖維供應為由，將於2026年底關閉；Working Forest Landscape Model 的目標是每年4,500萬立方米，而實際伐木量約為3,000萬立方米。應採取哪種方針？"
+"552bfa8618",
+"Canfor 將於2026年底關閉旗下的 Northwood 紙漿廠（約300個職位），理由是紙漿業務虧損及木纖維供應；Working Forest Landscape Model 的目標是每年4,500萬立方米，而實際伐木量約為3,000萬立方米。應採取哪種方針？"
 ],
 "questions/q_local_north_resources/context/1": [
 "88bcadef7f",
@@ -5868,8 +5868,8 @@
 "LNG Canada 於9月29日宣布第2期的最終投資決定，令 Kitimat 的產能加倍至2,800萬噸。新民主黨要求新項目在2030年前達到淨零就緒，會同時進行評估和許可審批，令礦產出口加倍，並以加拿大鋼材加快興建 North Coast 輸電線。保守黨的計劃在2032年前令天然氣產量加倍，取消排放上限，立法規定120日內發出許可，並為輸電線訂立固定期限。CentreBC 支持有原住民族夥伴和淨零計劃的液化天然氣（LNG）項目，訂立12個月的決定期限，並在2030年前就十個礦場作出決定。綠黨會停止審批新的 LNG 和管道。"
 ],
 "questions/q_local_north_resources/context/5": [
-"ba82453784",
-"LNG Canada 第2期的最終投資決定（2026年9月29日）令 Kitimat 的產能加倍至2,800萬噸。按新民主黨自己的數字，產能到2035年將達到接近4,800萬噸，高於保守黨「2035年前增加至三倍」的目標，所以真正的爭議在於條件和程序。新民主黨承諾在五年內令關鍵礦產出口加倍，同時進行許可審批，以加拿大鋼材興建 North Coast Transmission Line，並保留淨零就緒規定。保守黨會在2032年前令天然氣產量加倍，2035年前增加至三倍，取消排放上限，通過 120 Day Permitting Act，並為輸電線訂立期限。CentreBC 要求有原住民族夥伴和可信的淨零計劃，保留工業碳定價，訂立12個月的省級決定期限，並承諾在2030年前就10個礦場作出決定。綠黨不會批准任何新的液化天然氣（LNG）或管道項目。"
+"baa09a2e13",
+"LNG Canada 第2期的最終投資決定（2026年9月29日）令 Kitimat 的產能加倍至2,800萬噸。按新民主黨自己的數字，產能到2035年將達到接近4,800萬噸，高於保守黨「2035年前增加至三倍」的目標，所以新民主黨和保守黨的分歧主要在於條件和程序。新民主黨承諾在五年內令關鍵礦產出口加倍，同時進行許可審批，以加拿大鋼材興建 North Coast Transmission Line，並保留淨零就緒規定。保守黨會在2032年前令天然氣產量加倍，2035年前增加至三倍，取消排放上限，通過 120 Day Permitting Act，並為輸電線訂立期限。CentreBC 要求有原住民族夥伴和可信的淨零計劃，保留工業碳定價，訂立12個月的省級決定期限，並承諾在2030年前就10個礦場作出決定。綠黨不會批准任何新的液化天然氣（LNG）或管道項目。"
 ],
 "questions/q_local_north_resources/options/a/text/1": [
 "d347459065",
@@ -6032,24 +6032,24 @@
 "政策重點網頁：「批准一條通往 Port of Prince Rupert 或 Kitimat 的管道，把加拿大能源送往海外市場」；加快林業許可審批和諮詢。X（9月26日）：大型項目獲批准，不設等同否決權的「諮詢」。10月5日帖文：以較低收費和較快審批，令林業和礦業更具競爭力。沒有就 LNG Canada 第2期、Ksi Lisims、排放規則、碳定價或 North Coast Transmission Line 表明立場；選項 e 綜合了其公布的項目。"
 ],
 "questions/q_local_north_resources/prompt/1": [
-"167e726147",
-"北部計劃興建天然氣廠、礦場和一條輸電線。應該怎樣審批？"
+"2c80da20c9",
+"北部計劃興建天然氣廠、礦場和一條輸電線。省政府應該怎樣對這些項目作出決定？"
 ],
 "questions/q_local_north_resources/prompt/2": [
 "2eb2162589",
 "Kitimat 的天然氣出口廠規模將會加倍，另外還有人提議興建更多天然氣廠、礦場和一條輸電線。省政府應該怎樣處理？"
 ],
 "questions/q_local_north_resources/prompt/3": [
-"8bce298f96",
-"Kitimat 的天然氣出口廠規模將會加倍，另外還有人提議興建更多天然氣廠、礦場和一條輸電線。應該設定甚麼條件？"
+"4e2409cd71",
+"Kitimat 的天然氣出口廠規模將會加倍，另外還有人提議興建更多天然氣廠、礦場和一條輸電線。省政府應該怎樣對這些項目作出決定？"
 ],
 "questions/q_local_north_resources/prompt/4": [
-"c82217a32a",
-"LNG Canada 正在擴建一倍；Ksi Lisims LNG 已獲許可，新礦場正等待許可，North Coast 輸電線正在興建。應該設定甚麼條件？"
+"a7b73bff41",
+"LNG Canada 正在擴建一倍；Ksi Lisims LNG 已獲許可，新礦場正等待許可，North Coast 輸電線正在興建。省政府應該怎樣處理這些項目？"
 ],
 "questions/q_local_north_resources/prompt/5": [
-"5a6c0efb1e",
-"LNG Canada 第2期於2026年9月29日作出最終投資決定，產能加倍；Ksi Lisims LNG 已獲許可，正邁向最終投資決定，關鍵礦產礦場正等待許可，North Coast Transmission Line 的第一期正在興建。應採取哪種審批方針？"
+"655dbb54c7",
+"LNG Canada 第2期於2026年9月29日作出最終投資決定，產能加倍；Ksi Lisims LNG 已獲許可，正邁向最終投資決定，關鍵礦產礦場正等待許可，North Coast Transmission Line 的第一期正在興建。應採取哪種方針？"
 ],
 "questions/q_local_skytrain/context/1": [
 "0e5206a53d",
@@ -6224,16 +6224,16 @@
 "2028年之後，省政府應該怎樣完成這條 SkyTrain 線，以及資助區域公共交通機構 TransLink？"
 ],
 "questions/q_local_skytrain/prompt/4": [
-"4378017493",
-"省政府應該怎樣完成 Surrey-Langley SkyTrain，並填補 TransLink 從2028年起的資金缺口？"
+"3606997c06",
+"省政府應該怎樣完成 Surrey-Langley SkyTrain，並處理 TransLink 從2028年起的資金缺口？"
 ],
 "questions/q_local_skytrain/prompt/5": [
 "c7e9482936",
 "Surrey-Langley SkyTrain 造價59.96億元，在2029年底通車，而 TransLink 從2028年起每年面對最少11,200萬元的資金缺口。你支持哪個方案？"
 ],
 "questions/q_public_safety/context/1": [
-"27034351aa",
-"省政府支付警察和法院的費用。各政黨對怎樣處理罪案意見不一。一個政黨想保留現有的計劃。其他政黨想大量增加警察、設立專門對付威脅商戶的小組，或者嚴厲打擊不斷犯暴力罪行的人。"
+"40a1035a26",
+"省政府支付警察和法院的費用。各政黨對怎樣處理罪案意見不一。一個政黨想保留現有的計劃。其他政黨想大量增加警察、設立專門對付威脅商戶的小組，或者集中處理不斷犯暴力罪行的人。"
 ],
 "questions/q_public_safety/context/2": [
 "9fa812a654",
@@ -6392,16 +6392,16 @@
 "OneBC 的重點是嚴厲打擊重犯及暴力罪犯、禁止在示威中戴面罩、讓省政府不參與聯邦的槍械回購（如有需要則推行省級槍械存放計劃），以及與聯邦政府（Ottawa）合作，打擊經港口走私毒品和槍械的有組織罪案。它沒有就警察人數、皇家檢控官、法院或勒索作出承諾。"
 ],
 "questions/q_public_safety/prompt/1": [
-"ed4371ca76",
-"政府應該怎樣處理罪案和安全問題？"
+"1e799929f7",
+"政府在罪案和安全方面應該有甚麼方案？"
 ],
 "questions/q_public_safety/prompt/2": [
-"3bc3029e33",
-"市民擔心爆竊、店主受威脅，以及不斷犯法的人。省政府應該怎樣做？"
+"dbc54e48ea",
+"在爆竊、店主受威脅，以及不斷犯法的人這些問題上，省政府應該採取哪種方法？"
 ],
 "questions/q_public_safety/prompt/3": [
-"91ab268f87",
-"省政府應該怎樣處理罪案和公共安全問題？"
+"8def924270",
+"在罪案和公共安全方面，省政府應該採取哪種方法？"
 ],
 "questions/q_public_safety/prompt/4": [
 "53aac9ac74",
@@ -6592,8 +6592,8 @@
 "SOGI 123 是由 ARC Foundation 製作（2016年）的非強制性取向及性別認同（SOGI）教學資源，由學區自行選用。請選擇你支持的省級立場。"
 ],
 "questions/q_taxes_deficit/context/1": [
-"4789516f6d",
-"省政府花的錢比收入多，所以要借錢補上不足。借錢要付利息，所以成本更高。省政府可以少花錢、加一些稅，或者繼續借錢來保住服務。"
+"c3d82a63dc",
+"省政府花的錢比收入多，所以要借錢補上不足。借錢要付利息，所以成本更高。省政府可以少花錢、加一些稅，或者繼續借錢。"
 ],
 "questions/q_taxes_deficit/context/2": [
 "b479671ace",
@@ -6776,20 +6776,20 @@
 "省政府花的錢比收入多。應該怎樣做？"
 ],
 "questions/q_taxes_deficit/prompt/2": [
-"4bf2ef9eb1",
-"卑詩省支出多過收入。應該怎樣填補差額，由誰來付？"
+"e31da986fd",
+"卑詩省支出多過收入。應該怎樣做？"
 ],
 "questions/q_taxes_deficit/prompt/3": [
-"f6dcd16a94",
-"卑詩省的支出遠超收入。應該怎樣處理，誰應該多交或少交稅？"
+"9f452a06e7",
+"卑詩省預計今年的支出會比收入多約138億元。應該怎樣做？"
 ],
 "questions/q_taxes_deficit/prompt/4": [
-"ed41f266e8",
-"卑詩省應該怎樣處理赤字：減稅、向高收入或財富徵稅、節制開支，還是借錢以保住公共服務？"
+"2a8faa225a",
+"卑詩省應該怎樣處理赤字：減稅、向高收入或財富徵稅、節制開支，還是繼續借錢？"
 ],
 "questions/q_taxes_deficit/prompt/5": [
-"d5cb07ee48",
-"面對卑詩省138億元的赤字，你支持哪一種財政及稅務方針？"
+"e325a83575",
+"面對卑詩省138億元的赤字，你支持在稅務、開支及借貸方面採取哪一種方針？"
 ],
 "regions/fraser_valley/name": [
 "3e4db1bc80",

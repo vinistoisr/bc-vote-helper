@@ -208,11 +208,11 @@
     "issue_id": "interior_downtown",
     "scope": "local",
     "prompt": {
-      "1": "Kelowna wants forced care for the sickest drug users. What should the province do?",
-      "2": "Kelowna's council wants a regional forced-treatment facility and its downtown drug-use site closed. What should the province do?",
+      "1": "Kelowna wants a place where the sickest drug users can be made to get care. What should the province do?",
+      "2": "Kelowna's council wants a regional centre where people can be required to get treatment, and its downtown drug-use site closed. What should the province do?",
       "3": "Kelowna's council wants a regional involuntary care facility and its downtown consumption site closed. What should be done?",
       "4": "Kelowna asked for a regional involuntary care facility and for Health Canada not to renew its consumption site. What now?",
-      "5": "Kelowna council asked Health Canada not to renew the Outreach Urban Health consumption site (3,466 RCMP calls since 2021) and asked the province for a regional mandatory care facility. Which provincial approach?"
+      "5": "Kelowna council asked Health Canada not to renew the Outreach Urban Health consumption site and asked the province for a regional mandatory care facility. Which provincial approach?"
     },
     "context": {
       "1": "Kelowna's downtown has people living on the street with addiction and mental illness. The city wants a regional centre where the sickest can be made to get care, and wants a downtown supervised drug-use site closed. Parties disagree on what the province should pay for.",
@@ -419,7 +419,7 @@
       "1": "Kelowna's new care home is on hold and Vernon's was cancelled. What should the province do?",
       "2": "The province paused Kelowna's new care home in February, and a private 250-bed Vernon project was cancelled in October. What now?",
       "3": "Budget 2026 paused seven care home builds including Kelowna's, and a private 250-bed Vernon project was pulled. What now?",
-      "4": "Budget 2026 paused seven care builds at about $1.8 million a bed, and a private 250-bed Vernon project was cancelled. What now?",
+      "4": "Budget 2026 paused seven care builds, saying beds cost about $1.8 million each, and a private 250-bed Vernon project was cancelled. What now?",
       "5": "Budget 2026 (February 17) paused seven long-term care projects (Kelowna, Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Squamish; about $1.4 billion); Park Place's cancellation of a 250-bed Vernon project was reported October 6. Which approach?"
     },
     "context": {

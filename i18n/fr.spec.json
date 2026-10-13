@@ -1016,8 +1016,8 @@
 "Le pétrole et le gaz créent des emplois, mais ils contribuent aussi aux changements climatiques. Que devrait faire la C.-B.?"
 ],
 "questions/q_climate_energy/prompt/2": [
-"e17f434bb4",
-"La C.-B. vend du gaz naturel, mais elle est en retard sur son objectif de réduire la pollution qui réchauffe le climat. Que devrait-elle faire?"
+"b8a9cdae6e",
+"La C.-B. vend du gaz naturel, mais elle est en retard sur son objectif de réduire les gaz qui réchauffent le climat. Que devrait-elle faire?"
 ],
 "questions/q_climate_energy/prompt/3": [
 "5b5cd02374",
@@ -1212,16 +1212,16 @@
 "OneBC réduirait de 25 % chaque tranche d'imposition du revenu des particuliers et des sociétés, baisserait la PST de deux points, mettrait fin progressivement au monopole d'ICBC et à son régime sans égard à la responsabilité, et abolirait le BC Energy Step Code. Il n'a publié aucun chiffrage et aucune politique sur les prix, l'aide sociale ou les salaires, mais promet tout de même un budget équilibré en quatre ans en plus de ces baisses."
 ],
 "questions/q_cost_of_living/prompt/1": [
-"77acc25979",
-"La nourriture, l'essence et le loyer coûtent plus cher. Comment le gouvernement devrait-il aider les gens à payer?"
+"61b63896e9",
+"La nourriture, l'essence et le loyer coûtent plus cher. Quel devrait être le plan du gouvernement?"
 ],
 "questions/q_cost_of_living/prompt/2": [
-"28473c9518",
-"L'épicerie, l'essence et le loyer coûtent plus cher qu'avant. Comment la province devrait-elle aider les familles à les payer?"
+"5adf21a293",
+"L'épicerie, l'essence et le loyer coûtent plus cher qu'avant. Quelle approche la province devrait-elle adopter?"
 ],
 "questions/q_cost_of_living/prompt/3": [
-"953a5e4a11",
-"Le coût de la vie est l'enjeu principal pour les électeurs de la C.-B. Quelle approche la province devrait-elle adopter pour rendre la vie plus abordable?"
+"a07abec81c",
+"Quelle approche la province devrait-elle adopter face au coût de la vie?"
 ],
 "questions/q_cost_of_living/prompt/4": [
 "a8cc1a98a2",
@@ -1416,8 +1416,8 @@
 "Combien de pouvoir le gouvernement devrait-il utiliser, et notre façon de voter devrait-elle changer?"
 ],
 "questions/q_democracy_power/prompt/2": [
-"db51a30db2",
-"À quelle vitesse la province devrait-elle faire passer les grandes décisions, et notre façon de voter devrait-elle changer?"
+"6049cf11ba",
+"À quelle vitesse la province devrait-elle prendre les grandes décisions, et notre façon de voter devrait-elle changer?"
 ],
 "questions/q_democracy_power/prompt/3": [
 "2ab16dff76",
@@ -1432,8 +1432,8 @@
 "Choisissez une direction sur les pouvoirs provinciaux, la vitesse des approbations, la surveillance du gouvernement et les règles électorales."
 ],
 "questions/q_dripa/context/1": [
-"97c4616521",
-"En 2019, les élus de la C.-B. ont adopté une loi, sans aucun vote contre, qui dit que les lois de la C.-B. devraient respecter les droits des peuples autochtones. En 2025, un tribunal a dit que les juges peuvent vérifier les lois de la C.-B. par rapport à cette loi. Les partis ne s'entendent pas sur quoi faire. Les Premières Nations gardent leurs droits dans tous les cas."
+"af32fb4c0f",
+"En 2019, les élus de la C.-B. ont adopté une loi, sans aucun vote contre, qui dit que la C.-B. doit travailler pour que ses lois correspondent à une déclaration des Nations Unies sur les droits des peuples autochtones. En 2025, un tribunal a dit que les juges peuvent vérifier les lois de la C.-B. par rapport à cette déclaration. Les partis ne s'entendent pas sur quoi faire. Les Premières Nations gardent leurs droits dans tous les cas."
 ],
 "questions/q_dripa/context/2": [
 "2d081899d2",
@@ -1612,12 +1612,12 @@
 "OneBC abrogerait DRIPA, déclarerait UNDRIP sans effet en C.-B., mettrait fin aux transferts volontaires et chercherait une réforme constitutionnelle pour abroger l'Indian Act (Loi sur les Indiens) et transformer les réserves en municipalités (townships); lors du lancement du parti en 2025, Brodie a dit qu'il « couperait les fonds à l'industrie de la réconciliation ». En octobre 2025, son projet de loi visant à interdire les reconnaissances territoriales a été rejeté par 5 voix contre 85 et sa Property Rights Protection Act (loi sur la protection des droits de propriété) a été rejetée par 40 voix contre 48. Elle a voté pour la première lecture des projets de loi d'abrogation de DRIPA de Jordan Kealy, député indépendant (novembre 2025), et de Trevor Halford, du caucus conservateur (avril 2026). Rustad l'a exclue du caucus conservateur en mars 2025, en disant qu'elle s'était moquée des témoignages de survivants des pensionnats autochtones."
 ],
 "questions/q_dripa/prompt/1": [
-"7209f89ee2",
-"Une loi de la C.-B. dit que les lois provinciales doivent respecter les droits des peuples autochtones. Que faut-il faire de cette loi?"
+"3c3af13e88",
+"Une loi de la C.-B. dit que la province doit travailler pour que ses lois correspondent à une déclaration des Nations Unies sur les droits des peuples autochtones. Que faut-il faire de cette loi?"
 ],
 "questions/q_dripa/prompt/2": [
-"599f0b3c0b",
-"Une loi de 2019 dit que les lois de la C.-B. devraient respecter les droits des peuples autochtones. Que faut-il en faire maintenant?"
+"7412085071",
+"Une loi de 2019 dit que la C.-B. doit travailler à harmoniser ses lois avec une déclaration des Nations Unies sur les droits des peuples autochtones. Que faut-il en faire maintenant?"
 ],
 "questions/q_dripa/prompt/3": [
 "94998db290",
@@ -1816,8 +1816,8 @@
 "Beaucoup de gens en C.-B. meurent à cause des drogues toxiques de la rue. Comment la province devrait-elle réagir?"
 ],
 "questions/q_drugs/prompt/2": [
-"ce2bf7edbc",
-"La C.-B. devrait-elle miser sur garder en vie les personnes qui consomment des drogues, sur le traitement obligatoire, ou sur un mélange des deux?"
+"476f7ec8e8",
+"La C.-B. devrait-elle miser sur la réduction des méfaits (comme les sites de consommation supervisée), sur le traitement obligatoire, ou sur un mélange des deux?"
 ],
 "questions/q_drugs/prompt/3": [
 "2d6be19562",
@@ -2016,8 +2016,8 @@
 "Les États-Unis ont mis des taxes de plus sur beaucoup de produits de la C.-B. Comment la C.-B. peut-elle protéger les emplois?"
 ],
 "questions/q_economy_tariffs/prompt/2": [
-"97620f0d80",
-"Les droits de douane américains (des taxes de plus sur les produits de la C.-B. vendus là-bas) font perdre des emplois. Comment la C.-B. devrait-elle protéger les emplois et faire croître l'économie?"
+"fee60f03a4",
+"Avec les droits de douane américains (des taxes de plus sur les produits de la C.-B. vendus là-bas) en vigueur, comment la C.-B. devrait-elle protéger les emplois et faire croître l'économie?"
 ],
 "questions/q_economy_tariffs/prompt/3": [
 "52601831aa",
@@ -2240,12 +2240,12 @@
 "Environ une personne sur quatre en C.-B. n'a pas de médecin de famille ou d'infirmière praticienne attitré, contre moins d'une sur cinq en 2017. Tous les partis disent que les soins doivent rester gratuits pour les patients. Ils ne s'entendent pas sur la question de confier plus de soins à des entreprises, ni sur la façon de les payer."
 ],
 "questions/q_health/context/3": [
-"e0767e525f",
-"La santé est la deuxième préoccupation des électeurs de la C.-B. Environ une personne sur quatre n'a pas de médecin de famille ou d'infirmière praticienne attitré, même après que le gouvernement néo-démocrate a changé le mode de rémunération des médecins de famille en 2023. Tous les partis disent que les soins doivent rester financés par l'État. Ils diffèrent sur la construction de plus de cliniques publiques, le paiement de fournisseurs non gouvernementaux, la possibilité de payer pour des soins plus rapides et la façon de financer le tout."
+"fd71f59f51",
+"La santé est la deuxième préoccupation des électeurs de la C.-B. Environ une personne sur quatre n'a pas de médecin de famille ou d'infirmière praticienne attitré. Le gouvernement néo-démocrate a changé le mode de rémunération des médecins de famille en 2023. Tous les partis disent que les soins doivent rester financés par l'État. Ils diffèrent sur la construction de plus de cliniques publiques, le paiement de fournisseurs non gouvernementaux, la possibilité de payer pour des soins plus rapides et la façon de financer le tout."
 ],
 "questions/q_health/context/4": [
-"c889623f1d",
-"Environ 1,26 million de personnes en C.-B. (23 %) n'ont pas de médecin de famille ou d'infirmière praticienne attitré, contre 18 % en 2017, même si le gouvernement néo-démocrate a instauré un nouveau mode de rémunération des médecins de famille en 2023. L'attente médiane entre la demande de consultation faite par un médecin et le traitement est de 32 semaines. Une loi provinciale, la Medicare Protection Act (loi sur la protection de l'assurance-maladie), interdit aux cliniques privées de faire payer aux patients des services couverts par le régime public."
+"9a4fe66f75",
+"Environ 1,26 million de personnes en C.-B. (23 %) n'ont pas de médecin de famille ou d'infirmière praticienne attitré, contre 18 % en 2017. Le gouvernement néo-démocrate a instauré un nouveau mode de rémunération des médecins de famille en 2023. L'attente médiane entre la demande de consultation faite par un médecin et le traitement est de 32 semaines. Une loi provinciale, la Medicare Protection Act (loi sur la protection de l'assurance-maladie), interdit aux cliniques privées de faire payer aux patients des services couverts par le régime public."
 ],
 "questions/q_health/context/5": [
 "8ea311254f",
@@ -2412,16 +2412,16 @@
 "OneBC permettrait des soins de santé privés à côté du système public, abrogerait la Health Professions and Occupations Act (loi sur les professions et métiers de la santé) et transférerait des dépenses d'administration et de ressources humaines vers le personnel de première ligne. Il ne prend aucun engagement sur les soins primaires, les examens diagnostiques, les ratios infirmières-patients ou les soins de longue durée. Un volet privé parallèle entrerait en conflit avec la Medicare Protection Act dans sa forme actuelle."
 ],
 "questions/q_health/prompt/1": [
-"880727a7c6",
-"Beaucoup de gens ne trouvent pas de médecin de famille, et les salles d'attente sont pleines. Que faut-il changer?"
+"f4b216fce3",
+"Beaucoup de gens ne trouvent pas de médecin de famille, et les salles d'attente sont pleines. Que devrait faire la province?"
 ],
 "questions/q_health/prompt/2": [
-"eeb13ca8ef",
-"Comment la province devrait-elle aider les gens à obtenir plus tôt un médecin de famille, des soins d'urgence et une chirurgie?"
+"41373b8b03",
+"Quelle approche la province devrait-elle adopter pour les médecins de famille, les soins d'urgence et la chirurgie?"
 ],
 "questions/q_health/prompt/3": [
-"4208926b3b",
-"Comment la province devrait-elle améliorer l'accès aux médecins de famille, aux urgences et aux chirurgies?"
+"75cdeeedde",
+"Quelle approche la province devrait-elle adopter en matière d'accès aux médecins de famille, aux urgences et aux chirurgies?"
 ],
 "questions/q_health/prompt/4": [
 "e6962d875b",
@@ -2612,16 +2612,16 @@
 "OneBC éliminerait le BC Energy Step Code et bloquerait le contrôle des loyers municipal, qui, selon le parti, « découragerait le développement ». Il ne propose aucune taxe sur la demande ni aucun programme d'offre. Il n'a jamais gouverné; ses députés provinciaux ont été élus comme conservateurs en 2024."
 ],
 "questions/q_housing/prompt/1": [
-"e78f115c08",
-"Les logements coûtent cher à acheter ou à louer. Comment le gouvernement devrait-il aider?"
+"9f3b03e5a8",
+"Les logements coûtent cher à acheter ou à louer. Quel devrait être le plan du gouvernement?"
 ],
 "questions/q_housing/prompt/2": [
-"fb557fed07",
-"Acheter ou louer un logement en C.-B. coûte cher. Comment la province devrait-elle aider les gens à se loger à un prix abordable?"
+"025515c835",
+"Acheter ou louer un logement en C.-B. coûte cher. Quelle approche la province devrait-elle adopter en matière de logement?"
 ],
 "questions/q_housing/prompt/3": [
-"2e6ee5c897",
-"Que devrait faire la province face au coût du logement?"
+"4dbb23b4f5",
+"Quelle approche la province devrait-elle adopter face au coût du logement?"
 ],
 "questions/q_housing/prompt/4": [
 "6c058de14b",
@@ -2632,8 +2632,8 @@
 "Quelle combinaison de taxes sur le logement, de règles de zonage, de réformes des approbations et de construction publique la province devrait-elle adopter?"
 ],
 "questions/q_icbc/context/1": [
-"3ec19219c6",
-"En C.-B., les personnes blessées dans un accident de voiture reçoivent d'ICBC, l'assureur public, des paiements fixes pour leurs soins. La plupart ne peuvent pas poursuivre en justice, ce qui garde les prix plus bas. Certains partis veulent que les personnes gravement blessées puissent de nouveau poursuivre. Certains veulent que des entreprises privées fassent concurrence."
+"c02093b020",
+"En C.-B., les personnes blessées dans un accident de voiture reçoivent d'ICBC, l'assureur public, des paiements fixes pour leurs soins. La plupart ne peuvent pas poursuivre en justice, ce qui, selon le gouvernement, garde les prix plus bas. Certains partis veulent que les personnes gravement blessées puissent de nouveau poursuivre. Certains veulent que des entreprises privées fassent concurrence."
 ],
 "questions/q_icbc/context/2": [
 "ab19d21dea",
@@ -3732,16 +3732,16 @@
 "OneBC permettrait les soins privés à côté du système public, abrogerait la Health Professions and Occupations Act (loi sur les professions de la santé) et instaurerait des examens standardisés. Il n'a pris aucun engagement sur la construction d'hôpitaux ou d'écoles. La candidate Hofbauer n'a publié aucune position."
 ],
 "questions/q_local_hospital_schools/prompt/1": [
-"3356a45d9e",
-"Surrey a un hôpital à moitié construit et des écoles surpeuplées. Que devrait faire la province en premier?"
+"11732d1c34",
+"Un nouvel hôpital est en construction à Surrey, et les écoles sont surpeuplées. Que devrait faire la province en premier?"
 ],
 "questions/q_local_hospital_schools/prompt/2": [
 "29d27b2cc8",
 "Le nouvel hôpital de Surrey ouvrira en 2030, son urgence est très occupée et les écoles continuent de grandir. Sur quoi la province devrait-elle se concentrer?"
 ],
 "questions/q_local_hospital_schools/prompt/3": [
-"d219169768",
-"Comment la province devrait-elle gérer l'hôpital à moitié construit de Surrey, son urgence surchargée et ses écoles surpeuplées?"
+"afe0e96f7d",
+"Comment la province devrait-elle gérer le nouvel hôpital de Surrey en construction, son urgence achalandée et ses écoles surpeuplées?"
 ],
 "questions/q_local_hospital_schools/prompt/4": [
 "c22ca4cb51",
@@ -3932,12 +3932,12 @@
 "Page des priorités : éliminer l'approvisionnement plus sécuritaire et les programmes de consommation de drogues; annuler tous les nouveaux sites de consommation et transformer les sites actuels en centres de rétablissement; réadaptation involontaire et logement pour les personnes gravement dépendantes; revenir sur toute la décriminalisation et sévir contre la consommation de drogues à découvert; sévir contre les récidivistes et les délinquants violents. Des publications sur X (29 septembre, 5 octobre) ajoutent des patrouilles de rue avec les municipalités, la réouverture du Riverview Hospital et aucune réduction des accusations. Aucune déclaration sur Kelowna ou l'Okanagan; l'option e est le plan publié appliqué à la demande de la ville."
 ],
 "questions/q_local_interior_downtown/prompt/1": [
-"a93df04751",
-"Kelowna veut des soins forcés pour les consommateurs de drogues les plus malades. Que doit faire la province?"
+"b4fc24f838",
+"Kelowna veut un endroit où les consommateurs de drogues les plus malades peuvent être obligés de recevoir des soins. Que doit faire la province?"
 ],
 "questions/q_local_interior_downtown/prompt/2": [
-"cac16c9ee6",
-"Le conseil de Kelowna veut un centre régional de traitement forcé et la fermeture de son site de consommation de drogues du centre-ville. Que doit faire la province?"
+"96a3e02c88",
+"Le conseil de Kelowna veut un centre régional où des personnes peuvent être tenues de suivre un traitement, ainsi que la fermeture de son site de consommation de drogues du centre-ville. Que doit faire la province?"
 ],
 "questions/q_local_interior_downtown/prompt/3": [
 "d65472f6c7",
@@ -3948,8 +3948,8 @@
 "Kelowna a demandé un centre régional de soins involontaires et que Santé Canada ne renouvelle pas son site de consommation supervisée. Et maintenant?"
 ],
 "questions/q_local_interior_downtown/prompt/5": [
-"028db2d6f0",
-"Le conseil de Kelowna a demandé à Santé Canada de ne pas renouveler le site de consommation supervisée d'Outreach Urban Health (3 466 appels à la GRC depuis 2021) et a demandé à la province un centre régional de soins obligatoires. Quelle approche provinciale?"
+"100b5305ff",
+"Le conseil de Kelowna a demandé à Santé Canada de ne pas renouveler le site de consommation supervisée d'Outreach Urban Health et a demandé à la province un centre régional de soins obligatoires. Quelle approche provinciale?"
 ],
 "questions/q_local_interior_ltc/context/1": [
 "40c02cd329",
@@ -4144,8 +4144,8 @@
 "Le budget 2026 a mis en pause la construction de sept foyers de soins, dont celui de Kelowna, et un projet privé de 250 lits à Vernon a été retiré. Et maintenant?"
 ],
 "questions/q_local_interior_ltc/prompt/4": [
-"b03c76fb9b",
-"Le budget 2026 a mis en pause sept projets de soins à environ 1,8 million de dollars le lit, et un projet privé de 250 lits à Vernon a été annulé. Que faire maintenant?"
+"9b5c6501eb",
+"Le budget 2026 a mis en pause sept projets de soins, en indiquant que chaque lit coûte environ 1,8 million de dollars, et un projet privé de 250 lits à Vernon a été annulé. Que faire maintenant?"
 ],
 "questions/q_local_interior_ltc/prompt/5": [
 "5dda16c8a9",
@@ -4492,8 +4492,8 @@
 "La page des priorités de OneBC ne contient aucun engagement sur les traversiers ou le transport, et sa seule personne candidate sur l'île (Juan de Fuca-Malahat) n'en a publié aucun; cette question est donc exclue de sa note."
 ],
 "questions/q_local_island_coast_ferries/prompt/1": [
-"785ba0328d",
-"Des traversiers sont annulés, les files sont longues et les tarifs sont élevés. Que devrait changer la province en premier?"
+"f7caade80e",
+"Des traversiers sont annulés, les files sont longues et les tarifs ne cessent d'augmenter. Que devrait changer la province en premier?"
 ],
 "questions/q_local_island_coast_ferries/prompt/2": [
 "66b23f5e3e",
@@ -4512,8 +4512,8 @@
 "BC Ferries fait face à des traversées annulées, à de longues attentes et à une demande en hausse; en mai 2025, la société a choisi un chantier naval d'État chinois pour quatre navires hybrides, aucun chantier local n'ayant soumissionné. Quel changement provincial devrait venir en premier?"
 ],
 "questions/q_local_island_coast_oldgrowth/context/1": [
-"3436929144",
-"L'exploitation forestière est depuis longtemps un grand employeur sur l'île et la côte. Une usine de pâte près de Duncan a fermé cette année faute de bois. Certaines des plus vieilles forêts sont interdites de coupe pour le moment. Les partis ne s'entendent pas : protéger ou couper."
+"6c3c474cc7",
+"L'exploitation forestière est depuis longtemps un grand employeur sur l'île et la côte. Une usine de pâte près de Duncan a fermé. Certaines des plus vieilles forêts sont interdites de coupe pour le moment. Les partis ne s'entendent pas : protéger ou couper."
 ],
 "questions/q_local_island_coast_oldgrowth/context/2": [
 "64a76c332d",
@@ -4680,16 +4680,16 @@
 "L'usine de pâte de Crofton a fermé et l'exploitation des forêts anciennes fait toujours débat sur l'île. Que devrait faire la province pour les forêts?"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/3": [
-"18e4d6cdce",
-"L'usine de pâte de Crofton a fermé après que le premier ministre a refusé de l'approvisionner en bois de forêts anciennes. Que faire des forêts de l'île?"
+"5e7b8a42c6",
+"L'usine de pâte de Crofton a fermé, et l'exploitation des forêts anciennes fait toujours débat sur l'île. Que faire des forêts de l'île?"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/4": [
-"c09efdda35",
-"L'usine de Crofton a fermé quand le bois de forêts anciennes a été exclu; les reports d'exploitation demeurent, avec un objectif de récolte de 45 millions de mètres cubes. Que faire maintenant?"
+"3c1d71a723",
+"L'usine de pâte de Crofton a fermé; les reports d'exploitation des forêts anciennes demeurent, avec un objectif de récolte de 45 millions de mètres cubes. Que faire maintenant?"
 ],
 "questions/q_local_island_coast_oldgrowth/prompt/5": [
-"970e8347e1",
-"L'usine de pâte de Domtar à Crofton (350 emplois) a fermé après qu'Eby a dit en décembre 2025 que transformer des forêts anciennes en pâte pour prolonger sa vie n'était pas une option; les reports d'exploitation des forêts anciennes restent temporaires. Que faire maintenant?"
+"48d9c265ba",
+"L'usine de pâte de Domtar à Crofton (environ 350 emplois) a fermé après une annonce en décembre 2025, et Eby a dit que transformer des forêts anciennes en pâte pour prolonger sa vie n'était pas une option; les reports d'exploitation des forêts anciennes restent temporaires. Que faire maintenant?"
 ],
 "questions/q_local_island_coast_seniors/context/1": [
 "61d2b2096a",
@@ -4876,20 +4876,20 @@
 "Les hôpitaux de l'île manquent de place et des aînés attendent une place en foyer de soins. Que faire en premier?"
 ],
 "questions/q_local_island_coast_seniors/prompt/2": [
-"c6723f66b2",
-"L'hôpital de Nanaimo attend toujours sa nouvelle tour, et des projets de foyers de soins ont été mis en pause. Quelle devrait être la priorité pour les soins aux aînés?"
+"299ae558f6",
+"La nouvelle tour de l'hôpital de Nanaimo a de l'argent pour la planification, mais pas pour la construction, et des projets de foyers de soins ont été mis en pause. Quelle devrait être la priorité pour les soins aux aînés?"
 ],
 "questions/q_local_island_coast_seniors/prompt/3": [
-"00510500af",
-"La tour et le laboratoire cardiaque de l'hôpital de Nanaimo n'en sont qu'à la planification, et un foyer de soins de Campbell River a été mis en pause. Que faire en premier?"
+"f2f521c4a0",
+"La tour et le laboratoire cardiaque de l'hôpital de Nanaimo sont financés pour la planification, pas pour la construction, et un foyer de soins de Campbell River a été mis en pause. Que faire en premier?"
 ],
 "questions/q_local_island_coast_seniors/prompt/4": [
-"644f22b2de",
-"Le budget de 2026 n'a financé que la planification de la tour de Nanaimo et a mis en pause un foyer de soins de 153 lits à Campbell River. Quelle est la priorité?"
+"81e7556da9",
+"Le budget de 2026 a financé la planification, mais pas la construction, de la tour de Nanaimo et a mis en pause un foyer de soins de 153 lits à Campbell River. Quelle est la priorité?"
 ],
 "questions/q_local_island_coast_seniors/prompt/5": [
-"a1c5cb95a0",
-"Le budget de 2026 n'a financé que la planification conceptuelle de la tour et du laboratoire de cathétérisme de Nanaimo, a mis en pause un foyer de soins de 153 lits à Campbell River, et environ 1 600 patients dans la province attendent à l'hôpital un lit de soins de longue durée. Quelle approche choisir?"
+"bcb0098c47",
+"Le budget de 2026 a financé la planification conceptuelle, mais pas la construction, de la tour et du laboratoire de cathétérisme de Nanaimo, a mis en pause un foyer de soins de 153 lits à Campbell River, et environ 1 600 patients dans la province attendent à l'hôpital un lit de soins de longue durée. Quelle approche choisir?"
 ],
 "questions/q_local_metro_density/context/1": [
 "711ac98a92",
@@ -5072,8 +5072,8 @@
 "Le projet de loi 44 (logements multiples à petite échelle, adopté par 45 voix contre 29) et le projet de loi 47 (secteurs axés sur le transport en commun, 65 contre 0) l'emportent sur le zonage municipal; seize maires de Metro Vancouver ont demandé leur abrogation ou leur révision en novembre 2025. Que faire maintenant?"
 ],
 "questions/q_local_metro_title_homes/context/1": [
-"32c20dc19b",
-"Un juge a décidé qu'une Première Nation est propriétaire de certaines terres à Richmond, y compris des terres sous les maisons de gens. La province conteste cette décision devant un tribunal supérieur. Les partis ne s'entendent pas sur la façon de protéger les gens qui y vivent, ni sur la façon de régler ces revendications."
+"b1ee254ff6",
+"Un juge a décidé qu'une Première Nation a un titre, une sorte de droit de propriété, sur certaines terres à Richmond, y compris des terres sous les maisons de gens. La province conteste cette décision devant un tribunal supérieur. Les partis ne s'entendent pas sur ce que cela signifie pour les gens qui y vivent, ni sur la façon de régler ces revendications."
 ],
 "questions/q_local_metro_title_homes/context/2": [
 "24fc23bcc2",
@@ -5252,20 +5252,20 @@
 "Page des priorités : abroger DRIPA et déclarer l'UNDRIP inopérante et sans effet; arrêter les transferts volontaires d'argent, de terres et de contrôle sur les ressources publiques aux gouvernements de bande; demander l'abrogation de l'Indian Act (Loi sur les Indiens) par une réforme constitutionnelle; mettre fin aux reconnaissances territoriales obligatoires. X, 26 septembre 2026 : abroger DRIPA et « couper les fonds à l'industrie de la réconciliation ». La Property Rights Protection Act (octobre 2025) a été rejetée par 40 voix contre 48. Aucune déclaration propre à l'affaire Cowichan et aucune proposition d'indemnisation."
 ],
 "questions/q_local_metro_title_homes/prompt/1": [
-"f4b1049cc0",
-"Un tribunal dit qu'une Première Nation est propriétaire de terres à Richmond où il y a des maisons. Que faire?"
+"a5b08bc58b",
+"Un tribunal dit qu'une Première Nation a un titre, une sorte de droit de propriété, sur des terres à Richmond où il y a des maisons. Que faire?"
 ],
 "questions/q_local_metro_title_homes/prompt/2": [
-"6617db7da2",
-"Un tribunal a reconnu le titre d'une Première Nation sur des terres de Richmond où se trouvent des maisons privées. Comment protéger les propriétaires et régler les revendications?"
+"a301616644",
+"Un tribunal a reconnu le titre d'une Première Nation sur des terres de Richmond où se trouvent des maisons privées. Comment la province devrait-elle gérer la situation des propriétaires et les revendications de titre?"
 ],
 "questions/q_local_metro_title_homes/prompt/3": [
-"0d0feff690",
-"Une décision de 2025 a reconnu le titre des Cowichan sur des terres de Richmond où se trouvent des maisons privées. Comment protéger les propriétaires et régler les revendications?"
+"0b31bd6e79",
+"Une décision de 2025 a reconnu le titre des Cowichan sur des terres de Richmond où se trouvent des maisons privées. Comment la province devrait-elle gérer la situation des propriétaires et les revendications de titre?"
 ],
 "questions/q_local_metro_title_homes/prompt/4": [
-"e709e50992",
-"La décision sur le titre des Cowichan sur des terres de Richmond où se trouvent des maisons est portée en appel. Comment protéger les propriétaires et régler la question du titre?"
+"4c29918fe0",
+"La décision sur le titre des Cowichan sur des terres de Richmond où se trouvent des maisons est portée en appel. Comment la province devrait-elle gérer la situation des propriétaires et la question du titre?"
 ],
 "questions/q_local_metro_title_homes/prompt/5": [
 "bf6c357487",
@@ -5452,24 +5452,24 @@
 "La page de priorités de OneBC n'indique aucun engagement en matière de transport, donc cette question est exclue de sa note."
 ],
 "questions/q_local_metro_translink/prompt/1": [
-"e2b41c845f",
-"Les autobus et les trains de Metro Vancouver vont bientôt manquer d'argent. Que devrait faire la province?"
+"dbc5f7de81",
+"L'organisme qui gère les autobus et les trains de Metro Vancouver dit qu'il va bientôt manquer d'argent. Que devrait faire la province?"
 ],
 "questions/q_local_metro_translink/prompt/2": [
-"2f8d407187",
-"TransLink, qui gère les autobus et les trains de Metro Vancouver, a besoin de nouveaux fonds à partir de 2028. Que devrait faire la province?"
+"aac0ef7ed2",
+"TransLink, qui gère les autobus et les trains de Metro Vancouver, dit avoir besoin de nouveaux fonds à partir de 2028. Que devrait faire la province?"
 ],
 "questions/q_local_metro_translink/prompt/3": [
-"5f3ca9f324",
-"TransLink a besoin d'au moins 112 millions de dollars par année en nouveaux fonds à partir de 2028. Comment la province devrait-elle financer le transport en commun à Metro Vancouver?"
+"1537e654e1",
+"TransLink dit avoir besoin d'au moins 112 millions de dollars par année en nouveaux fonds à partir de 2028. Que devrait faire la province au sujet du transport en commun à Metro Vancouver?"
 ],
 "questions/q_local_metro_translink/prompt/4": [
-"e2ce41aba8",
-"Le complément de financement provincial de TransLink prend fin en 2027, et l'organisme a besoin d'au moins 112 millions de dollars de plus par année à partir de 2028. Comment combler ce manque?"
+"4ecd62a08d",
+"Le complément de financement provincial de TransLink prend fin en 2027, et l'organisme dit avoir besoin d'au moins 112 millions de dollars de plus par année à partir de 2028. Que devrait faire la province?"
 ],
 "questions/q_local_metro_translink/prompt/5": [
-"41090076d0",
-"La subvention provinciale de 312 millions de dollars couvre TransLink jusqu'à la fin de 2027; l'organisme a besoin d'au moins 112 millions de dollars par année à partir de 2028 et le gouvernement a exclu une redevance sur les véhicules. Quelle approche choisir?"
+"45dddc81a1",
+"La subvention provinciale de 312 millions de dollars couvre TransLink jusqu'à la fin de 2027; l'organisme dit avoir besoin d'au moins 112 millions de dollars par année à partir de 2028, et le gouvernement a exclu une redevance sur les véhicules. Quelle approche choisir?"
 ],
 "questions/q_local_north_er/context/1": [
 "733d4626ae",
@@ -5832,24 +5832,24 @@
 "Page des priorités : « Augmenter la coupe annuelle permise pour que notre secteur forestier dispose de la fibre de bois nécessaire pour croître et prospérer »; « Réduire les droits de coupe pour les entreprises de bois d'œuvre afin de rendre le marché plus concurrentiel »; « Accélérer les délais d'approbation des permis et les consultations ». Publication du 5 octobre : rendre la foresterie et les mines concurrentielles avec des frais plus bas et des approbations plus rapides. Aucune cible de volume, aucune position sur le modèle Working Forest ou les forêts anciennes."
 ],
 "questions/q_local_north_forestry/prompt/1": [
-"aa7501b1a0",
-"Des scieries du Nord ferment faute de bois. Quelle surface de forêt faut-il couper?"
+"de1f2d5021",
+"Des scieries du Nord ferment, et les entreprises disent qu'elles ne peuvent pas obtenir assez de bois. Quelle surface de forêt faut-il couper?"
 ],
 "questions/q_local_north_forestry/prompt/2": [
 "0da624f03b",
 "Des scieries du Nord ferment, et les entreprises blâment un manque de bois. Comment la province doit-elle décider de la quantité de bois coupé?"
 ],
 "questions/q_local_north_forestry/prompt/3": [
-"5651eec073",
-"Des usines du Nord, dont l'usine de pâte Northwood de Prince George, ferment à cause de l'approvisionnement en fibre. Comment fixer la récolte?"
+"638cc073e0",
+"Des usines du Nord, dont l'usine de pâte Northwood de Prince George, ferment, et les entreprises invoquent l'approvisionnement en fibre. Comment fixer la récolte?"
 ],
 "questions/q_local_north_forestry/prompt/4": [
-"f4915cd068",
-"L'usine de pâte Northwood ferme à cause de l'approvisionnement en fibre; la province vise 45 millions de mètres cubes par an. Comment fixer la récolte?"
+"012b2728f0",
+"Canfor ferme l'usine de pâte Northwood en invoquant les pertes liées à la pâte et l'approvisionnement en fibre; la province vise 45 millions de mètres cubes par an. Comment fixer la récolte?"
 ],
 "questions/q_local_north_forestry/prompt/5": [
-"f60642bb35",
-"L'usine de pâte Northwood de Canfor (environ 300 emplois) ferme à la fin de 2026 en invoquant l'approvisionnement en fibre; le Working Forest Landscape Model vise 45 millions de mètres cubes par an, contre environ 30 millions récoltés. Quelle approche?"
+"552bfa8618",
+"Canfor fermera son usine de pâte Northwood (environ 300 emplois) à la fin de 2026, en invoquant les pertes liées à la pâte et l'approvisionnement en fibre; le Working Forest Landscape Model vise 45 millions de mètres cubes par an, contre environ 30 millions récoltés. Quelle approche?"
 ],
 "questions/q_local_north_resources/context/1": [
 "88bcadef7f",
@@ -5868,8 +5868,8 @@
 "LNG Canada a annoncé sa décision finale d'investissement pour la phase 2 le 29 septembre, ce qui double la capacité de Kitimat à 28 millions de tonnes. Le NPD exige que les nouveaux projets soient prêts pour la carboneutralité d'ici 2030, mènerait les évaluations et les démarches de délivrance des permis en même temps, doublerait les exportations de minéraux et accélérerait la ligne North Coast avec de l'acier canadien. Le plan des conservateurs double la production de gaz d'ici 2032, met fin aux limites d'émissions, inscrit dans la loi des permis en 120 jours et fixe une échéance pour la ligne. CentreBC appuie le LNG avec des partenaires des Premières Nations et des plans de carboneutralité, un délai de décision de 12 mois et des décisions sur dix mines d'ici 2030. Les verts mettraient fin aux approbations de nouveaux projets de LNG et de pipelines."
 ],
 "questions/q_local_north_resources/context/5": [
-"ba82453784",
-"La décision finale d'investissement de LNG Canada pour la phase 2 (29 septembre 2026) double la capacité de Kitimat à 28 millions de tonnes. Selon les chiffres du NPD lui-même, la capacité atteint près de 48 millions de tonnes d'ici 2035, au-dessus de la cible des conservateurs de « tripler d'ici 2035 »; le vrai désaccord porte donc sur les conditions et le processus. Le NPD promet de doubler les exportations de minéraux critiques en cinq ans, de traiter les demandes de permis en parallèle, de construire la North Coast Transmission Line avec de l'acier canadien et de garder l'exigence d'être prêt pour la carboneutralité. Les conservateurs doubleraient le gaz d'ici 2032 et le tripleraient d'ici 2035, mettraient fin aux limites d'émissions, adopteraient un 120 Day Permitting Act et fixeraient une échéance pour la ligne. CentreBC exige des partenaires des Premières Nations et des plans crédibles de carboneutralité, garde la tarification industrielle du carbone, fixe un délai provincial de 12 mois et promet des décisions sur 10 mines d'ici 2030. Les verts n'approuveraient aucun nouveau projet de LNG ni de pipeline."
+"baa09a2e13",
+"La décision finale d'investissement de LNG Canada pour la phase 2 (29 septembre 2026) double la capacité de Kitimat à 28 millions de tonnes. Selon les chiffres du NPD lui-même, la capacité atteint près de 48 millions de tonnes d'ici 2035, au-dessus de la cible des conservateurs de « tripler d'ici 2035 »; le NPD et les conservateurs divergent donc surtout sur les conditions et le processus. Le NPD promet de doubler les exportations de minéraux critiques en cinq ans, de traiter les demandes de permis en parallèle, de construire la North Coast Transmission Line avec de l'acier canadien et de garder l'exigence d'être prêt pour la carboneutralité. Les conservateurs doubleraient le gaz d'ici 2032 et le tripleraient d'ici 2035, mettraient fin aux limites d'émissions, adopteraient un 120 Day Permitting Act et fixeraient une échéance pour la ligne. CentreBC exige des partenaires des Premières Nations et des plans crédibles de carboneutralité, garde la tarification industrielle du carbone, fixe un délai provincial de 12 mois et promet des décisions sur 10 mines d'ici 2030. Les verts n'approuveraient aucun nouveau projet de LNG ni de pipeline."
 ],
 "questions/q_local_north_resources/options/a/text/1": [
 "d347459065",
@@ -6032,24 +6032,24 @@
 "Page des priorités : « Approuver un pipeline vers le port de Prince Rupert ou Kitimat pour amener l'énergie canadienne vers les marchés étrangers »; accélérer les approbations de permis et les consultations pour la foresterie. X (26 septembre) : grands projets approuvés sans « consultations » qui servent de veto. Publication du 5 octobre : rendre la foresterie et les mines concurrentielles avec des frais plus bas et des approbations plus rapides. Aucune position sur la phase 2 de LNG Canada, Ksi Lisims, les règles sur les émissions, la tarification du carbone ou la North Coast Transmission Line; l'option e combine les éléments publiés."
 ],
 "questions/q_local_north_resources/prompt/1": [
-"167e726147",
-"Des usines de gaz, des mines et une ligne électrique sont prévues dans le Nord. Comment faut-il les approuver?"
+"2c80da20c9",
+"Des usines de gaz, des mines et une ligne électrique sont prévues dans le Nord. Comment la province devrait-elle décider à leur sujet?"
 ],
 "questions/q_local_north_resources/prompt/2": [
 "2eb2162589",
 "L'usine d'exportation de gaz de Kitimat double de taille, et d'autres usines, des mines et une ligne électrique sont proposées. Comment la province doit-elle les gérer?"
 ],
 "questions/q_local_north_resources/prompt/3": [
-"8bce298f96",
-"L'usine d'exportation de gaz de Kitimat double de taille, et d'autres usines, des mines et une ligne électrique sont proposées. Quelles conditions faut-il appliquer?"
+"4e2409cd71",
+"L'usine d'exportation de gaz de Kitimat double de taille, et d'autres usines, des mines et une ligne électrique sont proposées. Comment la province devrait-elle décider à leur sujet?"
 ],
 "questions/q_local_north_resources/prompt/4": [
-"c82217a32a",
-"LNG Canada double sa taille; Ksi Lisims LNG a ses permis, de nouvelles mines attendent leurs permis et la ligne électrique de la côte nord est en construction. Quelles conditions faut-il imposer?"
+"a7b73bff41",
+"LNG Canada double sa taille; Ksi Lisims LNG a ses permis, de nouvelles mines attendent leurs permis et la ligne électrique de la côte nord est en construction. Comment la province devrait-elle gérer ces projets?"
 ],
 "questions/q_local_north_resources/prompt/5": [
-"5a6c0efb1e",
-"La phase 2 de LNG Canada a obtenu sa décision finale d'investissement le 29 septembre 2026, ce qui double la capacité; Ksi Lisims LNG a ses permis et se dirige vers une décision finale d'investissement, des mines de minéraux critiques attendent leurs permis, et la première phase de la North Coast Transmission Line est en construction. Quelle approche d'approbation choisir?"
+"655dbb54c7",
+"La phase 2 de LNG Canada a obtenu sa décision finale d'investissement le 29 septembre 2026, ce qui double la capacité; Ksi Lisims LNG a ses permis et se dirige vers une décision finale d'investissement, des mines de minéraux critiques attendent leurs permis, et la première phase de la North Coast Transmission Line est en construction. Quelle approche choisir?"
 ],
 "questions/q_local_skytrain/context/1": [
 "0e5206a53d",
@@ -6224,16 +6224,16 @@
 "Comment la province devrait-elle terminer la ligne de SkyTrain et financer TransLink, l'organisme régional de transport en commun, après 2028?"
 ],
 "questions/q_local_skytrain/prompt/4": [
-"4378017493",
-"Comment la province devrait-elle terminer le Surrey-Langley SkyTrain et combler le manque de financement de TransLink à partir de 2028?"
+"3606997c06",
+"Comment la province devrait-elle terminer le Surrey-Langley SkyTrain et gérer le manque de financement de TransLink à partir de 2028?"
 ],
 "questions/q_local_skytrain/prompt/5": [
 "c7e9482936",
 "Le Surrey-Langley SkyTrain coûte 5,996 milliards de dollars et ouvrira à la fin de 2029, et TransLink fait face à un manque d'au moins 112 millions de dollars par année à partir de 2028. Quelle approche choisir?"
 ],
 "questions/q_public_safety/context/1": [
-"27034351aa",
-"La province paie la police et les tribunaux. Les partis ne s'entendent pas sur quoi faire contre le crime. Un parti veut garder les programmes actuels. D'autres veulent beaucoup plus de policiers, une unité spéciale contre les menaces visant les entreprises, ou des mesures sévères contre les personnes qui commettent des crimes violents à répétition."
+"40a1035a26",
+"La province paie la police et les tribunaux. Les partis ne s'entendent pas sur quoi faire contre le crime. Un parti veut garder les programmes actuels. D'autres veulent beaucoup plus de policiers, une unité spéciale contre les menaces visant les entreprises, ou une priorité donnée aux personnes qui commettent des crimes violents à répétition."
 ],
 "questions/q_public_safety/context/2": [
 "9fa812a654",
@@ -6392,16 +6392,16 @@
 "Les priorités de OneBC sont de sévir contre les récidivistes et les délinquants violents, d'interdire les masques dans les manifestations, de garder la province hors du programme fédéral de rachat d'armes à feu avec un programme provincial d'entreposage au besoin, et de collaborer avec Ottawa contre le crime organisé qui fait passer des drogues et des armes à feu par les ports. Le parti n'a pris aucun engagement sur le nombre de policiers, les procureurs de la Couronne, les tribunaux ou l'extorsion."
 ],
 "questions/q_public_safety/prompt/1": [
-"ed4371ca76",
-"Que devrait faire le gouvernement au sujet du crime et de la sécurité?"
+"1e799929f7",
+"Quel devrait être le plan du gouvernement au sujet du crime et de la sécurité?"
 ],
 "questions/q_public_safety/prompt/2": [
-"3bc3029e33",
-"Les gens s'inquiètent des introductions par effraction, des menaces contre les commerçants et des personnes qui enfreignent la loi à répétition. Que devrait faire la province?"
+"dbc54e48ea",
+"Quelle approche la province devrait-elle adopter face aux introductions par effraction, aux menaces contre les commerçants et aux personnes qui enfreignent la loi à répétition?"
 ],
 "questions/q_public_safety/prompt/3": [
-"91ab268f87",
-"Que devrait faire la province au sujet de la criminalité et de la sécurité publique?"
+"8def924270",
+"Quelle approche la province devrait-elle adopter au sujet de la criminalité et de la sécurité publique?"
 ],
 "questions/q_public_safety/prompt/4": [
 "53aac9ac74",
@@ -6592,8 +6592,8 @@
 "SOGI 123 est une ressource facultative sur l'orientation sexuelle et l'identité de genre (SOGI), choisie par les districts, créée par l'ARC Foundation (2016). Choisissez la position provinciale que vous appuyez."
 ],
 "questions/q_taxes_deficit/context/1": [
-"4789516f6d",
-"La province dépense plus d'argent qu'elle n'en reçoit, alors elle emprunte le reste. Emprunter coûte plus cher à cause des intérêts. La province pourrait dépenser moins, augmenter certains impôts ou continuer d'emprunter pour protéger les services."
+"c3d82a63dc",
+"La province dépense plus d'argent qu'elle n'en reçoit, alors elle emprunte le reste. Emprunter coûte plus cher à cause des intérêts. La province pourrait dépenser moins, augmenter certains impôts ou continuer d'emprunter."
 ],
 "questions/q_taxes_deficit/context/2": [
 "b479671ace",
@@ -6776,20 +6776,20 @@
 "La province dépense plus d'argent qu'elle n'en reçoit. Que devrait-elle faire?"
 ],
 "questions/q_taxes_deficit/prompt/2": [
-"4bf2ef9eb1",
-"La C.-B. dépense plus qu'elle ne reçoit. Comment devrait-elle combler l'écart, et qui devrait payer?"
+"e31da986fd",
+"La C.-B. dépense plus qu'elle ne reçoit. Que devrait-elle faire?"
 ],
 "questions/q_taxes_deficit/prompt/3": [
-"f6dcd16a94",
-"La C.-B. dépense beaucoup plus qu'elle ne reçoit. Comment devrait-elle gérer cette situation, et qui devrait payer plus ou moins d'impôts?"
+"9f452a06e7",
+"La C.-B. prévoit dépenser environ 13,8 milliards de dollars de plus qu'elle ne reçoit cette année. Que devrait-elle faire?"
 ],
 "questions/q_taxes_deficit/prompt/4": [
-"ed41f266e8",
-"Quelle voie la C.-B. devrait-elle suivre face à son déficit : baisses d'impôts, imposition des hauts revenus ou de la fortune, freinage des dépenses, ou emprunt pour protéger les services?"
+"2a8faa225a",
+"Quelle voie la C.-B. devrait-elle suivre face à son déficit : baisses d'impôts, imposition des hauts revenus ou de la fortune, freinage des dépenses, ou poursuite des emprunts?"
 ],
 "questions/q_taxes_deficit/prompt/5": [
-"d5cb07ee48",
-"Quelle orientation budgétaire et fiscale appuyez-vous pour faire face au déficit de 13,8 G$ de la C.-B.?"
+"e325a83575",
+"Quelle approche en matière d'impôts, de dépenses et d'emprunts appuyez-vous face au déficit de 13,8 G$ de la C.-B.?"
 ],
 "regions/fraser_valley/name": [
 "3e4db1bc80",

@@ -173,7 +173,7 @@ Every link the tool uses, generated from `quiz_spec.json` by `gen_sources.py`. C
 For each question: the sources behind each party's position. The written reason for every score is in `scoring_rationale` in `quiz_spec.json`.
 
 <details>
-<summary><b>Cost of living is the top issue for BC voters. Which approach should the province take to make life more affordable?</b> (Province-wide, <code>q_cost_of_living</code>)</summary>
+<summary><b>Which approach should the province take on the cost of living?</b> (Province-wide, <code>q_cost_of_living</code>)</summary>
 
 **BC NDP** (basis: both, confidence: high)
 
@@ -218,7 +218,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>BC is spending far more than it takes in. How should it handle that, and who should pay more or less tax?</b> (Province-wide, <code>q_taxes_deficit</code>)</summary>
+<summary><b>BC expects to spend about $13.8 billion more than it takes in this year. What should it do?</b> (Province-wide, <code>q_taxes_deficit</code>)</summary>
 
 **BC NDP** (basis: both, confidence: high)
 
@@ -263,7 +263,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>What should the province do about the cost of housing?</b> (Province-wide, <code>q_housing</code>)</summary>
+<summary><b>Which approach should the province take on housing costs?</b> (Province-wide, <code>q_housing</code>)</summary>
 
 **BC NDP** (basis: both, confidence: high)
 
@@ -302,7 +302,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>How should the province improve access to family doctors, emergency rooms and surgeries?</b> (Province-wide, <code>q_health</code>)</summary>
+<summary><b>Which approach should the province take on access to family doctors, emergency rooms and surgeries?</b> (Province-wide, <code>q_health</code>)</summary>
 
 **BC NDP** (basis: both, confidence: high)
 
@@ -481,7 +481,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>What should the province do about crime and public safety?</b> (Province-wide, <code>q_public_safety</code>)</summary>
+<summary><b>Which approach should the province take on crime and public safety?</b> (Province-wide, <code>q_public_safety</code>)</summary>
 
 **BC NDP** (basis: both, confidence: medium)
 
@@ -806,7 +806,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>How should the province handle Surrey's half-built hospital, overloaded emergency room and crowded schools?</b> (Regional: Surrey, <code>q_local_hospital_schools</code>)</summary>
+<summary><b>How should the province handle Surrey's new hospital under construction, its busy emergency room and its crowded schools?</b> (Regional: Surrey, <code>q_local_hospital_schools</code>)</summary>
 
 **BC NDP** (basis: both, confidence: high)
 
@@ -852,7 +852,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>TransLink needs at least $112 million a year in new money from 2028. How should the province fund transit in Metro Vancouver?</b> (Regional: Metro Vancouver, <code>q_local_metro_translink</code>)</summary>
+<summary><b>TransLink says it needs at least $112 million a year in new money from 2028. What should the province do about transit in Metro Vancouver?</b> (Regional: Metro Vancouver, <code>q_local_metro_translink</code>)</summary>
 
 **BC NDP** (basis: both, confidence: high)
 
@@ -886,7 +886,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>A 2025 ruling recognized Cowichan title over Richmond land with private homes. How should owners be protected and claims settled?</b> (Regional: Metro Vancouver, <code>q_local_metro_title_homes</code>)</summary>
+<summary><b>A 2025 ruling recognized Cowichan title over Richmond land with private homes. How should the province handle homeowners and title claims?</b> (Regional: Metro Vancouver, <code>q_local_metro_title_homes</code>)</summary>
 
 **BC NDP** (basis: record, confidence: medium)
 
@@ -1085,7 +1085,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>The Crofton pulp mill closed after the premier refused old-growth logs to supply it. What should be done with Island forests?</b> (Regional: Vancouver Island and the Coast, <code>q_local_island_coast_oldgrowth</code>)</summary>
+<summary><b>The Crofton pulp mill has closed, and old-growth logging is still argued over on the Island. What should be done with Island forests?</b> (Regional: Vancouver Island and the Coast, <code>q_local_island_coast_oldgrowth</code>)</summary>
 
 **BC NDP** (basis: both, confidence: medium)
 
@@ -1119,7 +1119,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>Nanaimo's hospital tower and cardiac lab are only in planning, and a Campbell River care home was paused. What should come first?</b> (Regional: Vancouver Island and the Coast, <code>q_local_island_coast_seniors</code>)</summary>
+<summary><b>Nanaimo's hospital tower and cardiac lab are funded for planning, not construction, and a Campbell River care home was paused. What should come first?</b> (Regional: Vancouver Island and the Coast, <code>q_local_island_coast_seniors</code>)</summary>
 
 **BC NDP** (basis: both, confidence: medium)
 
@@ -1261,7 +1261,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>Northern mills, including Prince George's Northwood pulp mill, are closing over fibre supply. How should the harvest be set?</b> (Regional: North and Cariboo, <code>q_local_north_forestry</code>)</summary>
+<summary><b>Northern mills, including Prince George's Northwood pulp mill, are closing, and companies cite fibre supply. How should the harvest be set?</b> (Regional: North and Cariboo, <code>q_local_north_forestry</code>)</summary>
 
 **BC NDP** (basis: both, confidence: medium)
 
@@ -1296,7 +1296,7 @@ For each question: the sources behind each party's position. The written reason 
 </details>
 
 <details>
-<summary><b>Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. What conditions should apply?</b> (Regional: North and Cariboo, <code>q_local_north_resources</code>)</summary>
+<summary><b>Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. How should the province decide on them?</b> (Regional: North and Cariboo, <code>q_local_north_resources</code>)</summary>
 
 **BC NDP** (basis: both, confidence: high)
 
