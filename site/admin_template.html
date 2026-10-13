@@ -77,7 +77,7 @@ details.q[open] > summary { margin-bottom: 6px; }
 .q-sum { font-size: 0.82rem; color: var(--ink-2); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .more-rows tr.more { display: none; }
 .more-rows.show tr.more { display: table-row; }
-.linkish { border: 0; background: none; padding: 4px 0; min-height: 0; color: var(--bar); text-decoration: underline; }
+.linkish { border: 0; background: none; padding: 4px 0; min-height: 0; color: var(--bar); text-decoration: underline; text-align: left; }
 .linkish:hover { background: none; }
 /* Riding map: drawn from /geo/eds.json over /geo/basemap.json, pan and zoom by changing the SVG viewBox */
 :root { --water: #CFE0E8; --land: #F4F5F1; --coast: #7F9BA8; --river: #8FB7C9; --label: #24323A; --water-label: #3F6F86; --halo: #FFFFFF; }
@@ -115,10 +115,34 @@ details.q[open] > summary { margin-bottom: 6px; }
 .info { border-top: 1px solid var(--line); padding-top: 10px; min-height: 120px; }
 .info h3 { margin-bottom: 2px; }
 .info .bar-row { grid-template-columns: minmax(70px, 110px) 1fr 44px; gap: 6px; font-size: 0.85rem; }
+/* Patterns: one row per group, a 100% stacked bar of best matches */
+.pat-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+.pat-tools label { display: grid; gap: 4px; width: min(100%, 36em); }
+#pat-by { width: 100%; }
+.pat-verdict { margin: 0 0 12px; }
+.pat-rows { display: grid; gap: 6px; margin-bottom: 8px; }
+.pat-row { display: grid; grid-template-columns: minmax(110px, 200px) minmax(0, 1fr) 52px; gap: 10px; align-items: center; }
+.pat-row.few { opacity: 0.5; }
+.pat-row .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.stack { display: flex; height: 18px; border-radius: 6px; overflow: hidden; background: var(--surface-2); }
+.stack span { height: 100%; min-width: 0; }
+.stack span + span { box-shadow: inset 1px 0 0 var(--surface); }
+.pat-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 4px 0 14px; }
+.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.weak, .weak { color: var(--ink-2); }
+.vbar { display: inline-block; width: 60px; height: 8px; border-radius: 4px; background: var(--surface-2); overflow: hidden; vertical-align: middle; margin-right: 6px; }
+.vbar i { display: block; height: 100%; background: var(--bar); }
+.pat-sub { margin: 18px 0 8px; }
 @media (max-width: 860px) { .map-wrap { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { .caret { transition: none; } }
 @media (max-width: 560px) {
   .bar-row { grid-template-columns: 90px 1fr 52px; }
+  .pat-row { grid-template-columns: 96px minmax(0, 1fr) 44px; gap: 6px; }
+  /* question and pair lists: one stacked block per row instead of three narrow columns */
+  .pat-list thead { display: none; }
+  .pat-list tr, .pat-list.show tr.more { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .pat-list td { border: 0; padding: 0; }
+  .pat-list td:last-child { grid-column: 1 / -1; }
   .opt { grid-template-columns: 1fr 70px 46px; }
   details.q > summary { grid-template-columns: 1.2em minmax(0, 1fr); }
   .q-sum { grid-column: 2; text-align: left; white-space: normal; }
@@ -340,6 +364,8 @@ details.q[open] > summary { margin-bottom: 6px; }
     html += "</div><div style=\"height:16px\"></div>";
     html += mapSection();
     html += byRidingTable(P, f);
+    PAT_P = P;
+    html += patternsSection(P) + pairsSection(P);
 
     /* per day */
     var days = {}; P.forEach(function (p) { var d = (p.sub.created_at || "").slice(0, 10); days[d] = (days[d] || 0) + 1; });
@@ -423,6 +449,7 @@ details.q[open] > summary { margin-bottom: 6px; }
     el("out").innerHTML = html;
     el("del-btn").addEventListener("click", delSelected);
     wireCollapsibles();
+    wirePatterns(el("out"));
     mountMap(baseFiltered(), f);
   }
 
@@ -440,10 +467,10 @@ details.q[open] > summary { margin-bottom: 6px; }
       (tools ? '<span class="sec-tools">' + tools + "</span>" : "") + "</summary>" + body + "</details>";
   }
   /* A table that shows its first `shown` rows (rows past that carry class "more") with a toggle for the rest */
-  function moreTable(key, shown, total, inner, label) {
+  function moreTable(key, shown, total, inner, label, cls) {
     var k = "all:" + key, all = isOpen(k, false);
-    return '<div class="scroll more-rows' + (all ? " show" : "") + '" data-more="' + esc(k) + '"><table>' + inner + "</table></div>" +
-      (total > shown ? '<button type="button" class="linkish" data-more-btn="' + esc(k) + '" aria-expanded="' + all + '">' +
+    return '<div class="scroll more-rows' + (cls ? " " + cls : "") + (all ? " show" : "") + '" data-more="' + esc(k) + '"><table>' + inner + "</table></div>" +
+      (total > shown ? '<button type="button" class="linkish" data-more-btn="' + esc(k) + '" data-more-label="' + esc(label) + '" aria-expanded="' + all + '">' +
         (all ? "Show the first " + shown + " only" : "Show all " + total + " " + label) + "</button>" : "");
   }
   function wireCollapsibles() {
@@ -458,14 +485,17 @@ details.q[open] > summary { margin-bottom: 6px; }
         saveOpen();
       });
     });
-    Array.prototype.forEach.call(document.querySelectorAll("#out [data-more-btn]"), function (b) {
+    wireMore(el("out"));
+  }
+  function wireMore(root) {
+    Array.prototype.forEach.call(root.querySelectorAll("[data-more-btn]"), function (b) {
       b.addEventListener("click", function () {
-        var k = b.getAttribute("data-more-btn"), box = document.querySelector('#out [data-more="' + k + '"]');
+        var k = b.getAttribute("data-more-btn"), box = root.querySelector('[data-more="' + k + '"]');
         var all = !box.classList.contains("show");
         box.classList.toggle("show", all); OPEN[k] = all; saveOpen();
         var shown = box.querySelectorAll("tbody tr:not(.more)").length, total = box.querySelectorAll("tbody tr").length;
         b.setAttribute("aria-expanded", String(all));
-        b.textContent = all ? "Show the first " + shown + " only" : "Show all " + total + " " + (k === "all:sessions" ? "sessions" : "ridings");
+        b.textContent = all ? "Show the first " + shown + " only" : "Show all " + total + " " + b.getAttribute("data-more-label");
       });
     });
   }
@@ -885,6 +915,300 @@ details.q[open] > summary { margin-bottom: 6px; }
         return "<tr" + (i >= SHOWN ? ' class="more"' : "") + "><td>" + esc(ridingLabel(r.code === NOT_GIVEN ? null : r.code)) + "</td><td>" + esc(reg ? reg.name : "-") + "</td><td>" + Object.keys(r.sids).length + "</td><td>" + r.people + "</td><td>" +
           (r.share[best] ? '<span class="dot" style="background:' + esc(PBY[best].color) + '"></span>' + esc(PBY[best].short_name || PBY[best].name) + " " + fmt(pct(r.share[best], r.people)) : "-") + "</td></tr>";
       }).join("") + "</tbody>", "ridings"));
+  }
+
+  /*
+   * Patterns. Pick a trait (reading level, region, ...) or the answer to one question, and see how it
+   * relates to best match, party scores and the other answers. Each link is a chi-square test of
+   * independence: Cramer's V gives its strength (0 = none, 1 = the trait decides the answer) and p how
+   * likely a gap that size is by chance. Groups under PAT_MIN people are shown faded and left out of tests.
+   */
+  var PAT_MIN = 10, PAT_P = [], TIE = "tie", TIE_COLOR = "#8A959C";
+  var PAT_BY = "level";
+  try { PAT_BY = localStorage.getItem("bcvh-admin-pattern") || "level"; } catch (e) { /* storage blocked */ }
+
+  function lgamma(x) {
+    var c = [76.18009172947146, -86.50532032941677, 24.01409824083091, -1.231739572450155, 0.1208650973866179e-2, -0.5395239384953e-5];
+    var y = x, t = x + 5.5, s = 1.000000000190015;
+    t -= (x + 0.5) * Math.log(t);
+    for (var j = 0; j < 6; j++) s += c[j] / ++y;
+    return -t + Math.log(2.5066282746310005 * s / x);
+  }
+  /* upper regularized gamma Q(a, x): the chi-square tail is Q(df / 2, chi / 2) */
+  function gammaQ(a, x) {
+    if (x <= 0) return 1;
+    var gln = lgamma(a), i, del, sum;
+    if (x < a + 1) {
+      var ap = a; sum = del = 1 / a;
+      for (i = 0; i < 500; i++) { ap += 1; del *= x / ap; sum += del; if (Math.abs(del) < Math.abs(sum) * 1e-14) break; }
+      return Math.max(0, 1 - sum * Math.exp(-x + a * Math.log(x) - gln));
+    }
+    var b = x + 1 - a, c = 1e300, d = 1 / b, h = d, an;
+    for (i = 1; i < 500; i++) {
+      an = -i * (i - a); b += 2;
+      d = an * d + b; if (Math.abs(d) < 1e-300) d = 1e-300;
+      c = b + an / c; if (Math.abs(c) < 1e-300) c = 1e-300;
+      d = 1 / d; del = d * c; h *= del;
+      if (Math.abs(del - 1) < 1e-14) break;
+    }
+    return Math.min(1, Math.exp(-x + a * Math.log(x) - gln) * h);
+  }
+  /* two-sided normal tail, for the trend test (n is in the hundreds, so the normal is close enough) */
+  function normP(z) {
+    var x = Math.abs(z) / Math.SQRT2, t = 1 / (1 + 0.3275911 * x);
+    var erfc = t * (0.254829592 + t * (-0.284496736 + t * (1.421413741 + t * (-1.453152027 + t * 1.061405429)))) * Math.exp(-x * x);
+    return Math.min(1, erfc);
+  }
+  /* rows x cols counts -> {v, p, n}; empty rows and columns dropped; null when fewer than 2 of either */
+  function cramer(tab) {
+    tab = tab.filter(function (r) { return r.reduce(add, 0) > 0; });
+    if (tab.length < 2) return null;
+    var cols = tab[0].map(function (_, j) { return j; }).filter(function (j) { return tab.reduce(function (a, r) { return a + r[j]; }, 0) > 0; });
+    if (cols.length < 2) return null;
+    tab = tab.map(function (r) { return cols.map(function (j) { return r[j]; }); });
+    var R = tab.map(function (r) { return r.reduce(add, 0); }), C = cols.map(function (_, j) { return tab.reduce(function (a, r) { return a + r[j]; }, 0); });
+    var n = R.reduce(add, 0), chi = 0;
+    tab.forEach(function (r, i) { r.forEach(function (o, j) { var e = R[i] * C[j] / n; chi += (o - e) * (o - e) / e; }); });
+    var k = Math.min(tab.length, cols.length) - 1;
+    return { v: Math.sqrt(chi / (n * k)), p: gammaQ((tab.length - 1) * (cols.length - 1) / 2, chi / 2), n: n };
+  }
+  function add(a, b) { return a + b; }
+  function strengthWord(v) { return v < 0.1 ? "very weak" : v < 0.2 ? "weak" : v < 0.3 ? "moderate" : "strong"; }
+  function evidenceWord(p) { return p < 0.001 ? "clear" : p < 0.01 ? "probably real" : "could be chance"; }
+  function fmtP(p) { return p < 0.001 ? "< 0.001" : p.toPrecision(2); }
+  /* clear results first, then probably real, then the rest; strongest first within each */
+  function byEvidence(a, b) {
+    var ra = a.t.p < 0.001 ? 0 : a.t.p < 0.01 ? 1 : 2, rb = b.t.p < 0.001 ? 0 : b.t.p < 0.01 ? 1 : 2;
+    return ra - rb || b.t.v - a.t.v;
+  }
+  function vbar(v) { return '<span class="vbar" aria-hidden="true"><i style="width:' + Math.min(100, 200 * v).toFixed(0) + '%"></i></span>'; }
+  function verdict(t) {
+    return "Link: <b>" + strengthWord(t.v) + "</b> (V " + t.v.toFixed(2) + "). Evidence: <b>" + evidenceWord(t.p) + "</b> (p " + fmtP(t.p) + ", " + t.n + " people).";
+  }
+  function letter(q, c) { var i = q.options.map(function (o) { return o.id; }).indexOf(c); return i < 0 ? "?" : String.fromCharCode(65 + i); }
+  function cut(s, n) { s = String(s || ""); return s.length > n ? s.slice(0, n - 1) + "..." : s; }
+  function choice(p, q) { var a = p.answers && p.answers[q.id]; return a && a.c && a.c !== "skip" && letter(q, a.c) !== "?" ? a.c : null; }
+  function qName(q) { return issueLabel(q) + (q.scope !== "provincial" && QREG[q.id] && REGBY[QREG[q.id]] ? " (" + REGBY[QREG[q.id]].name + ")" : ""); }
+  function countIf(p, f) { var n = 0; Object.keys(p.answers || {}).forEach(function (k) { if (f(p.answers[k])) n += 1; }); return n; }
+
+  /* Each grouping: ordered groups have a natural order (a trend makes sense); key(p) null leaves the person out */
+  function patGroupings() {
+    var g = [
+      { id: "level", label: "Reading level", ordered: true, keys: SPEC.levels.map(function (L) { return String(L.id); }),
+        name: function (k) { var L = SPEC.levels.filter(function (x) { return String(x.id) === k; })[0]; return k + ". " + (L ? L.label : ""); },
+        short: function (k) { return "level " + k; }, key: function (p) { return String(p.level); } },
+      { id: "region", label: "Region (from riding)", keys: REGIONS.map(function (r) { return r.id; }).concat([NOT_GIVEN]),
+        name: function (k) { return k === NOT_GIVEN ? "Not given" : REGBY[k].name; }, key: function (p) { return p.region || NOT_GIVEN; } },
+      { id: "lang", label: "Page language", name: function (k) { return langLabel(k === NOT_GIVEN ? null : k); }, key: function (p) { return p.sub.lang || NOT_GIVEN; } },
+      { id: "size", label: "Alone or with others", keys: ["1", "2"], name: function (k) { return k === "1" ? "Alone" : "With others (2-4)"; },
+        short: function (k) { return k === "1" ? "alone" : "with others"; }, key: function (p) { return p.sub.count > 1 ? "2" : "1"; } },
+      { id: "skips", label: "Questions skipped", ordered: true, keys: ["0", "1-2", "3+"], name: function (k) { return k + " skipped"; },
+        key: function (p) { var n = countIf(p, function (a) { return a && a.c === "skip"; }); return n === 0 ? "0" : n <= 2 ? "1-2" : "3+"; } },
+      { id: "high", label: "Questions marked high importance", ordered: true, keys: ["0", "1-2", "3-5", "6+"], name: function (k) { return k + " marked high"; },
+        key: function (p) { var n = countIf(p, function (a) { return a && a.c && a.c !== "skip" && a.w === "high"; }); return n === 0 ? "0" : n <= 2 ? "1-2" : n <= 5 ? "3-5" : "6+"; } }
+    ];
+    SPEC.questions.forEach(function (q) {
+      g.push({ id: "q:" + q.id, q: q, label: qName(q), keys: q.options.map(function (o) { return o.id; }),
+        name: function (k) { var o = q.options.filter(function (x) { return x.id === k; })[0]; return letter(q, k) + ". " + cut(o && o.text, 60); },
+        short: function (k) { return "picked " + letter(q, k); }, key: function (p) { return choice(p, q); } });
+    });
+    return g;
+  }
+  function patGrouping(id) { var all = patGroupings(); return all.filter(function (g) { return g.id === id; })[0] || all[0]; }
+
+  /* people -> [{k, name, people}] in the grouping's order (or largest first), empty groups dropped */
+  function patGroups(g, P) {
+    var by = {};
+    P.forEach(function (p) { var k = g.key(p); if (k == null) return; (by[k] = by[k] || []).push(p); });
+    var keys = g.keys ? g.keys.filter(function (k) { return by[k]; }) : Object.keys(by).sort(function (a, b) { return by[b].length - by[a].length; });
+    return keys.map(function (k) { return { k: k, name: g.name(k), short: (g.short || g.name)(k), people: by[k] }; });
+  }
+  function topCat(p) { return p.top.length === 1 ? p.top[0] : p.top.length ? TIE : null; }
+
+  function patternsSection(P) {
+    var all = patGroupings(), cur = patGrouping(PAT_BY);
+    var opts = '<optgroup label="About the person">' + all.filter(function (g) { return !g.q; }).map(function (g) {
+      return '<option value="' + esc(g.id) + '"' + (g.id === cur.id ? " selected" : "") + ">" + esc(g.label) + "</option>";
+    }).join("") + '</optgroup><optgroup label="Their answer to a question">' + all.filter(function (g) { return g.q; }).map(function (g) {
+      return '<option value="' + esc(g.id) + '"' + (g.id === cur.id ? " selected" : "") + ">" + esc(cut(g.label, 70)) + "</option>";
+    }).join("") + "</optgroup>";
+    return section("patterns", "Patterns", "how traits and answers relate to the results",
+      '<p class="muted small">Pick a trait or a question to compare groups. <b>Link</b> runs from 0 (none) to 1 (the trait decides the result); in survey data 0.1 is weak and 0.3 is strong. ' +
+      "<b>Evidence</b> says whether a gap that size could be chance. Groups under " + PAT_MIN + " people are faded and left out of the tests. These are links, not causes: groups also differ in other ways, such as who shared the link with them.</p>" +
+      '<div class="pat-tools"><label class="small">Compare by <select id="pat-by">' + opts + "</select></label></div>" +
+      '<div id="pat-body">' + patBody(P, cur) + "</div>");
+  }
+
+  function patBody(P, g) {
+    var groups = patGroups(g, P), big = groups.filter(function (x) { return x.people.length >= PAT_MIN; });
+    var html = "";
+    if (big.length < 2) return '<p class="muted">Needs at least two groups with ' + PAT_MIN + " or more people. Widen the filters or pick another comparison.</p>";
+    var cats = PIDS.concat([TIE]);
+    /* 1. best match per group */
+    var t = cramer(big.map(function (x) { return cats.map(function (c) { return x.people.filter(function (p) { return topCat(p) === c; }).length; }); }));
+    html += '<h3 class="pat-sub">Best match by ' + esc(g.label.toLowerCase()) + "</h3>";
+    html += '<p class="small pat-verdict">' + (t ? verdict(t) : "Not enough variation to test.") + "</p>";
+    html += '<div class="pat-rows">' + groups.map(function (x) {
+      var n = x.people.length;
+      var segs = cats.map(function (c) {
+        var m = x.people.filter(function (p) { return topCat(p) === c; }).length;
+        if (!m) return "";
+        var nm = c === TIE ? "Tie" : PBY[c].short_name || PBY[c].name;
+        return '<span style="width:' + (100 * m / n).toFixed(2) + "%;background:" + (c === TIE ? TIE_COLOR : esc(PBY[c].color)) + '" title="' + esc(nm + ": " + fmt(pct(m, n)) + " (" + m + ")") + '"></span>';
+      }).join("");
+      return '<div class="pat-row' + (n < PAT_MIN ? " few" : "") + '"><span class="lbl small" title="' + esc(x.name) + '">' + esc(x.name) + '</span><div class="stack">' + segs + '</div><span class="val small">' + n + "</span></div>";
+    }).join("") + "</div>";
+    html += '<div class="pat-legend small">' + cats.map(function (c) {
+      return '<span><span class="dot" style="background:' + (c === TIE ? TIE_COLOR : esc(PBY[c].color)) + '"></span>' + esc(c === TIE ? "Tie" : PBY[c].short_name || PBY[c].name) + "</span>";
+    }).join("") + '<span class="muted">Right column: people</span></div>';
+
+    /* 2. average party score per group, with a trend for ordered groupings */
+    html += '<h3 class="pat-sub">Average match score</h3><div class="scroll"><table><thead><tr><th>Group</th><th class="num">People</th>' +
+      PIDS.map(function (id) { return '<th class="num">' + esc(PBY[id].short_name || PBY[id].name) + "</th>"; }).join("") +
+      '<th class="num">Skipped</th><th class="num">Marked high</th></tr></thead><tbody>';
+    groups.forEach(function (x) {
+      var n = x.people.length;
+      html += "<tr" + (n < PAT_MIN ? ' class="weak"' : "") + "><td>" + esc(x.name) + '</td><td class="num">' + n + "</td>" + PIDS.map(function (id) {
+        var s = 0, m = 0; x.people.forEach(function (p) { if (p.prov[id] != null) { s += p.prov[id]; m += 1; } });
+        return '<td class="num">' + (m ? Math.round(s / m) : "-") + "</td>";
+      }).join("") +
+        '<td class="num">' + (x.people.reduce(function (a, p) { return a + countIf(p, function (v) { return v && v.c === "skip"; }); }, 0) / n).toFixed(1) + "</td>" +
+        '<td class="num">' + (x.people.reduce(function (a, p) { return a + countIf(p, function (v) { return v && v.c && v.c !== "skip" && v.w === "high"; }); }, 0) / n).toFixed(1) + "</td></tr>";
+    });
+    if (g.ordered) {
+      /* least-squares slope of score on group position (0, 1, 2...), people in groups of PAT_MIN+ only */
+      var pos = {}; big.forEach(function (x) { pos[x.k] = g.keys.indexOf(x.k); });
+      var trend = PIDS.map(function (id) {
+        var xs = [], ys = [];
+        big.forEach(function (x) { x.people.forEach(function (p) { if (p.prov[id] != null) { xs.push(pos[x.k]); ys.push(p.prov[id]); } }); });
+        var n = xs.length, mx = xs.reduce(add, 0) / n, my = ys.reduce(add, 0) / n, sxy = 0, sxx = 0, syy = 0;
+        for (var i = 0; i < n; i++) { sxy += (xs[i] - mx) * (ys[i] - my); sxx += (xs[i] - mx) * (xs[i] - mx); syy += (ys[i] - my) * (ys[i] - my); }
+        if (!sxx || !syy) return '<td class="num weak">-</td>';
+        var r = sxy / Math.sqrt(sxx * syy), p = normP(r * Math.sqrt(n - 1)), slope = sxy / sxx;
+        return '<td class="num' + (p < 0.01 ? "" : " weak") + '" title="' + esc("r " + r.toFixed(2) + ", p " + fmtP(p)) + '">' + (slope >= 0 ? "+" : "") + slope.toFixed(1) + "</td>";
+      });
+      html += '<tr><td colspan="2"><b>Change per step</b></td>' + trend.join("") + "<td></td><td></td></tr>";
+    }
+    html += "</tbody></table></div>";
+    html += '<p class="muted small">Scores 0 to 100, as on the results page.' + (g.ordered ? " Change per step: average points gained or lost from one group to the next. Grey: could be chance (p 0.01 or more)." : "") + "</p>";
+
+    /* 3. questions answered most differently between the groups */
+    var rows = [];
+    SPEC.questions.forEach(function (q) {
+      if (g.q && g.q.id === q.id) return;
+      var gs = groups.map(function (x) { return { x: x, ans: x.people.map(function (p) { return choice(p, q); }).filter(Boolean) }; }).filter(function (y) { return y.ans.length >= PAT_MIN; });
+      if (gs.length < 2) return;
+      var ids = q.options.map(function (o) { return o.id; });
+      var tq = cramer(gs.map(function (y) { return ids.map(function (c) { return y.ans.filter(function (a) { return a === c; }).length; }); }));
+      if (!tq) return;
+      /* the answer whose share differs most between two groups */
+      var gap = null;
+      ids.forEach(function (c) {
+        var sh = gs.map(function (y) { return { y: y, s: y.ans.filter(function (a) { return a === c; }).length / y.ans.length }; });
+        sh.sort(function (a, b) { return b.s - a.s; });
+        var d = sh[0].s - sh[sh.length - 1].s;
+        if (!gap || d > gap.d) gap = { d: d, c: c, hi: sh[0], lo: sh[sh.length - 1] };
+      });
+      rows.push({ q: q, t: tq, gap: gap });
+    });
+    rows.sort(byEvidence);
+    var SHOWN = 8;
+    html += '<h3 class="pat-sub">Questions answered most differently</h3>';
+    if (!rows.length) html += '<p class="muted small">No question has two groups with ' + PAT_MIN + " or more answers.</p>";
+    else html += moreTable("patq", SHOWN, rows.length, '<thead><tr><th>Question</th><th>Link</th><th>Largest gap</th></tr></thead><tbody>' + rows.map(function (r, i) {
+      var o = r.q.options.filter(function (x) { return x.id === r.gap.c; })[0];
+      return "<tr" + (i >= SHOWN ? ' class="more"' : "") + '><td><button type="button" class="linkish" data-pat="q:' + esc(r.q.id) + '" title="Compare by this question">' + esc(qName(r.q)) + "</button></td>" +
+        '<td class="' + (r.t.p < 0.001 ? "" : "weak") + '" style="white-space:nowrap">' + vbar(r.t.v) + r.t.v.toFixed(2) + " " + esc(evidenceWord(r.t.p)) + "</td>" +
+        '<td><span title="' + esc(o ? o.text : "") + '">' + letter(r.q, r.gap.c) + ". " + esc(cut(o && o.text, 50)) + "</span>: " +
+        fmt(100 * r.gap.hi.s) + " (" + esc(r.gap.hi.y.x.short) + ") vs " + fmt(100 * r.gap.lo.s) + " (" + esc(r.gap.lo.y.x.short) + ")</td></tr>";
+    }).join("") + "</tbody>", "questions", "pat-list");
+    html += '<p class="muted small">Clear results first, then the rest; strongest link first within each. With ' + rows.length + " questions tested, one or two can look \"probably real\" by chance; \"clear\" is safer. Click a question to compare by it.</p>";
+    return html;
+  }
+
+  /* Pairs of questions whose answers go together, over everyone in the current filters */
+  var PAIRS_LOCAL = false;
+  function pairsSection(P) {
+    return section("pairs", "Answers that go together", "pairs of questions",
+      '<p class="muted small">Pairs of questions where knowing one answer tells you most about the other (people who answered both, 30 or more). ' +
+      "Clear results first, strongest first within each. Click a question to compare by it. Local questions are answered by one region only, so their pairs rest on fewer people.</p>" +
+      '<label class="small"><input type="checkbox" id="pairs-local"' + (PAIRS_LOCAL ? " checked" : "") + "> Include local questions</label>" +
+      '<div id="pairs-body">' + pairsBody(P) + "</div>");
+  }
+  function pairsBody(P) {
+    var Q = SPEC.questions.filter(function (q) { return PAIRS_LOCAL || q.scope === "provincial"; }), MIN_BOTH = 30, rows = [];
+    var ch = P.map(function (p) { return Q.map(function (q) { return choice(p, q); }); });
+    for (var i = 0; i < Q.length; i++) {
+      for (var j = i + 1; j < Q.length; j++) {
+        var a = Q[i].options.map(function (o) { return o.id; }), b = Q[j].options.map(function (o) { return o.id; });
+        var tab = a.map(function () { return b.map(function () { return 0; }); }), n = 0;
+        for (var k = 0; k < ch.length; k++) {
+          var x = ch[k][i], y = ch[k][j];
+          if (!x || !y) continue;
+          tab[a.indexOf(x)][b.indexOf(y)] += 1; n += 1;
+        }
+        if (n < MIN_BOTH) continue;
+        var t = cramer(tab);
+        if (!t) continue;
+        /* the pair of answers picked together most often relative to chance, among cells big enough to trust */
+        var best = null, minCell = Math.max(5, Math.round(0.03 * n));
+        tab.forEach(function (r, ri) {
+          var rt = r.reduce(add, 0);
+          r.forEach(function (c, ci) {
+            if (c < minCell) return;
+            var ct = tab.reduce(function (s, rr) { return s + rr[ci]; }, 0), lift = (c / rt) / (ct / n);
+            if (!best || lift > best.lift) best = { lift: lift, x: a[ri], y: b[ci], given: c / rt, base: ct / n, m: rt };
+          });
+        });
+        rows.push({ q1: Q[i], q2: Q[j], t: t, best: best });
+      }
+    }
+    rows.sort(byEvidence);
+    var SHOWN = 10, html = "";
+    if (!rows.length) return '<p class="muted">Not enough answers yet.</p>';
+    html += '<p class="small muted">' + rows.length + " pairs.</p>" + moreTable("pairs", SHOWN, rows.length, "<thead><tr><th>Questions</th><th>Link</th><th>Answers most often picked together</th></tr></thead><tbody>" + rows.map(function (r, i) {
+      var bt = r.best;
+      return "<tr" + (i >= SHOWN ? ' class="more"' : "") + '><td><button type="button" class="linkish" data-pat="q:' + esc(r.q1.id) + '">' + esc(qName(r.q1)) + '</button> and <button type="button" class="linkish" data-pat="q:' + esc(r.q2.id) + '">' + esc(qName(r.q2)) + '</button> <span class="muted small">' + r.t.n + " people</span></td>" +
+        '<td class="' + (r.t.p < 0.001 ? "" : "weak") + '" style="white-space:nowrap">' + vbar(r.t.v) + r.t.v.toFixed(2) + " " + esc(evidenceWord(r.t.p)) + "</td><td>" +
+        (bt && bt.lift > 1 ? "Of the " + bt.m + " who picked " + letter(r.q1, bt.x) + " on the first, " + fmt(100 * bt.given) + " picked " + letter(r.q2, bt.y) + " on the second (" + fmt(100 * bt.base) + " of everyone)" : "-") + "</td></tr>";
+    }).join("") + "</tbody>", "pairs", "pat-list");
+    return html;
+  }
+
+  function wirePatterns(root) {
+    var sel = el("pat-by");
+    if (sel && !sel._wired) {
+      sel._wired = true;
+      sel.addEventListener("change", function () { setPattern(sel.value, false); });
+    }
+    var box = el("pairs-local");
+    if (box && !box._wired) {
+      box._wired = true;
+      box.addEventListener("change", function () {
+        PAIRS_LOCAL = box.checked;
+        var body = el("pairs-body");
+        body.innerHTML = pairsBody(PAT_P);
+        wireMore(body);
+        wirePatterns(body);
+      });
+    }
+    Array.prototype.forEach.call(root.querySelectorAll("[data-pat]"), function (b) {
+      b.addEventListener("click", function () { setPattern(b.getAttribute("data-pat"), true); });
+    });
+  }
+  function setPattern(id, scroll) {
+    PAT_BY = id;
+    try { localStorage.setItem("bcvh-admin-pattern", id); } catch (e) { /* storage blocked */ }
+    var sel = el("pat-by"), body = el("pat-body");
+    if (!sel || !body) return;
+    sel.value = patGrouping(id).id;
+    body.innerHTML = patBody(PAT_P, patGrouping(id));
+    wireMore(body);
+    wirePatterns(body);
+    if (scroll) {
+      var d = sel.closest("details");
+      if (d) { d.open = true; d.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    }
   }
 
   var armed = false;

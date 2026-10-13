@@ -43,6 +43,12 @@ for (let s = 0; s < 30; s++) {
     ok(w + " map draws land, lakes, rivers and names", (await p.locator("#map-svg .land").count()) === 1 && (await p.locator("#map-svg .lakes").count()) === 1 && (await p.locator("#map-labels text").count()) > 100);
     // Questions collapse to one line each and open on demand
     ok(w + " questions start closed", (await p.$$eval("details.q", (ds) => ds.filter((d) => !d.open).length)) === Object.keys(valid.questions).length);
+    // Patterns: compare groups, then switch the comparison without a full re-render
+    ok(w + " patterns compare by reading level", (await p.inputValue("#pat-by")) === "level" && /Link: .*Evidence: /.test(await p.textContent("#pat-body")), (await p.textContent("#pat-body")).slice(0, 80));
+    await p.selectOption("#pat-by", "size");
+    ok(w + " patterns switch to alone or with others", /Alone/.test(await p.textContent("#pat-body .pat-rows")));
+    await p.selectOption("#pat-by", "level");
+    ok(w + " answers that go together lists pairs", (await p.locator("#pairs-body tbody tr").count()) > 0);
     await p.selectOption("#f-who", "kids");
     const kids = people.filter(x => x.level <= 2).length;
     ok(w + " kids filter", (await p.textContent(".kpi b")) === String(kids));
