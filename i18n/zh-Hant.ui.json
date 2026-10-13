@@ -1,0 +1,1886 @@
+{
+"adults_top": [
+"74006792e4",
+"閱讀程度3至5級成員最接近的：{match}"
+],
+"agree_agree": [
+"3477f4d91d",
+"答案相同"
+],
+"agree_chip_note": [
+"d9517c1bca",
+"每個標籤顯示立場最接近該人答案的政黨。"
+],
+"agree_close": [
+"4f22e84309",
+"答案不同，最接近的政黨相同"
+],
+"agree_kid_agree": [
+"3477f4d91d",
+"答案一樣"
+],
+"agree_kid_close": [
+"8a08cace69",
+"最接近的黨一樣"
+],
+"agree_kid_mostly": [
+"56a6fa8b54",
+"多數人同意"
+],
+"agree_kid_na": [
+"7600f8c6fe",
+"回答不夠"
+],
+"agree_kid_split": [
+"0dda633d45",
+"選得不一樣"
+],
+"agree_mostly": [
+"56a6fa8b54",
+"大多數同意"
+],
+"agree_na": [
+"7600f8c6fe",
+"回答不足"
+],
+"agree_split": [
+"fc8230b411",
+"意見分歧"
+],
+"agree_sum_agree_one": [
+"cb76894727",
+"{n}條問題答案相同"
+],
+"agree_sum_agree_other": [
+"bfa0d91894",
+"{n}條問題答案相同"
+],
+"agree_sum_all_same": [
+"af84c265ae",
+"你們在全部{n}條問題上都選了相同答案。"
+],
+"agree_sum_all_split": [
+"1942b4cf75",
+"你們在全部{n}條問題上都選了不同答案。"
+],
+"agree_sum_close_one": [
+"82f1f58272",
+"{n}條問題答案不同但最接近的政黨相同"
+],
+"agree_sum_close_other": [
+"9890070698",
+"{n}條問題答案不同但最接近的政黨相同"
+],
+"agree_sum_mostly_one": [
+"b58ffa59c9",
+"{n}條問題大多數同意"
+],
+"agree_sum_mostly_other": [
+"27f2d49ce4",
+"{n}條問題大多數同意"
+],
+"agree_sum_na_one": [
+"6aa2b0a22e",
+"{n}條問題回答不足"
+],
+"agree_sum_na_other": [
+"c4faa32f2f",
+"{n}條問題回答不足"
+],
+"agree_sum_split_kid_one": [
+"ef85e75f33",
+"{n}條問題選得不一樣"
+],
+"agree_sum_split_kid_other": [
+"9853dabe10",
+"{n}條問題選得不一樣"
+],
+"agree_sum_split_one": [
+"e8126e3d0a",
+"{n}條問題意見分歧"
+],
+"agree_sum_split_other": [
+"a73a3a6dc9",
+"{n}條問題意見分歧"
+],
+"agree_sum_wrap": [
+"7d2682b43d",
+"{parts}。"
+],
+"agree_title": [
+"90984e52e1",
+"你們在哪裏意見一致，在哪裏有分歧"
+],
+"agree_title_kid": [
+"c0cd74875f",
+"你們在哪裏想法一樣，在哪裏想法不同"
+],
+"ai_notice": [
+"b533acc8f8",
+"本頁由 AI 從英文版翻譯，內容以英文版為準。"
+],
+"ai_notice_switch": [
+"6426855e11",
+"以英文顯示"
+],
+"all_n_questions": [
+"baf1a49bd5",
+"全部{n}條問題"
+],
+"all_of_bc": [
+"a568761f1a",
+"全卑詩省"
+],
+"all_sources": [
+"0ea6b8bf22",
+"全部{n}個資料來源"
+],
+"and_word": [
+"cffa50a32c",
+"和"
+],
+"back": [
+"b52b36b726",
+"上一步"
+],
+"background": [
+"64dd60fe1a",
+"背景資料"
+],
+"bar_aria": [
+"3a9f510c14",
+"{name}：百分之{pct}"
+],
+"bar_aria_none": [
+"b3949d1282",
+"{name}：沒有分數"
+],
+"basis_both": [
+"7214010aba",
+"政綱及往績"
+],
+"basis_inferred": [
+"b5966ba81c",
+"從相關政策推斷"
+],
+"basis_platform": [
+"123a7f2fcc",
+"政綱"
+],
+"basis_record": [
+"1c54132b8e",
+"往績"
+],
+"breakdown_note": [
+"6461ab4524",
+"政黨按你的結果次序排列。點按議題可查看各政黨的立場及資料來源。"
+],
+"cand_count_one": [
+"30f9a0ceaf",
+"{n}名候選人"
+],
+"cand_count_other": [
+"eca9cdc6cf",
+"{n}名候選人"
+],
+"cand_count_scored_one": [
+"edf0640b6a",
+"{n}名候選人已計分，另列出{more}名"
+],
+"cand_count_scored_other": [
+"1508f679d2",
+"{n}名候選人已計分，另列出{more}名"
+],
+"cand_lead": [
+"4ae72d422e",
+"{riding}沒有候選人公布過與其政黨不同的立場。"
+],
+"cand_lead_generic": [
+"aaf83a8eba",
+"候選人按其所屬政黨的立場計分，你所在地區的本地問題以雙倍計算。"
+],
+"cand_lead_inc": [
+"c6e90d8aad",
+"{riding}沒有候選人公布過與其政黨不同的立場，而現任議員{name}在全部105次記名表決中都與他的政黨一致投票。"
+],
+"cand_lead_kid": [
+"6fe5520089",
+"這裏沒有候選人說過跟他們政黨不同的話。"
+],
+"cand_lead_kid_inc": [
+"6291705a83",
+"現任省議員{name}每次都跟他的政黨一起投票。"
+],
+"cand_list_missing_long": [
+"e26233e19b",
+"候選人名單尚未載入。請在接近投票日時再查看，或到 elections.bc.ca 查看名單。"
+],
+"cand_list_missing_short": [
+"9b9a620950",
+"候選人名單尚未載入"
+],
+"cand_note_none": [
+"ac23d3c3ae",
+"候選人採用其政黨的立場。"
+],
+"cand_note_one": [
+"50d6580cf4",
+"候選人採用其政黨的立場，{region}的{count}條本地問題以雙倍計算。"
+],
+"cand_note_other": [
+"7b5b531f9e",
+"候選人採用其政黨的立場，{region}的{count}條本地問題以雙倍計算。"
+],
+"cand_same_as_party_kid": [
+"f49b646d28",
+"所以每位候選人的分數和他們的政黨一樣。"
+],
+"cand_scoring_generic": [
+"9748bd2f39",
+"候選人按其所屬政黨的立場計分，你所在地區的本地問題以雙倍計算。獨立候選人和較小政黨會列出但不計分，因為他們未有公布可供比較的政綱。"
+],
+"candidates": [
+"b5bf8067cf",
+"候選人"
+],
+"cands_forum": [
+"929c9654c1",
+"候選人論壇"
+],
+"cands_we_score_one": [
+"10653b6e4a",
+"我們計分的{count}名候選人"
+],
+"cands_we_score_other": [
+"1128f9ecbf",
+"我們計分的{count}名候選人"
+],
+"cd_advance_closed": [
+"27eb8d1dcf",
+"提前投票已結束，投票日還有{day}"
+],
+"cd_advance_open": [
+"37ee9fd75e",
+"提前投票進行中，至10月21日止；投票日還有{day}"
+],
+"cd_before_advance": [
+"7f72f8970b",
+"提前投票還有{adv}，投票日還有{day}"
+],
+"cd_days_one": [
+"e5af3b0ac6",
+"{n}日"
+],
+"cd_days_other": [
+"c752c6dea2",
+"{n}日"
+],
+"cd_past": [
+"95f776cee5",
+"投票日已於2026年10月24日舉行"
+],
+"cd_today": [
+"37973f9793",
+"今日是投票日，投票時間為上午8時至晚上8時"
+],
+"chip_closest": [
+"0343a4c567",
+"最接近：{parties}"
+],
+"chip_fam_closest": [
+"0893bd4c95",
+"{name}：最接近{parties}"
+],
+"chip_fam_skipped": [
+"04b36b3159",
+"{name}：已略過"
+],
+"chip_skipped": [
+"5a000ad7bd",
+"已略過"
+],
+"close_all": [
+"98553cc854",
+"全部收起"
+],
+"close_banner": [
+"e4c643e87d",
+"{names}之間相差不超過{points}個百分點，所以沒有一個明確最相符的選擇。"
+],
+"close_banner_kid": [
+"89da102b6c",
+"{names}差不多平手。"
+],
+"close_result": [
+"41e62b4d8d",
+"結果接近"
+],
+"close_tag": [
+"bbfa773e5a",
+"接近"
+],
+"closest": [
+"e596de546a",
+"最接近"
+],
+"col_issue": [
+"73781a127e",
+"議題"
+],
+"col_party": [
+"60b18fc8a8",
+"政黨"
+],
+"col_together": [
+"a4bc67f330",
+"一起"
+],
+"col_your_answer": [
+"3ae5ff6e17",
+"你的答案"
+],
+"colon": [
+"d9f3aa8c70",
+"{a}：{b}"
+],
+"conf_high": [
+"6c2943a404",
+"高可信度"
+],
+"conf_low": [
+"99d4ceaeba",
+"低可信度"
+],
+"conf_medium": [
+"156b5ba334",
+"中等可信度"
+],
+"copy_blocked": [
+"02599f901a",
+"此處不能複製。文字已在下方選取；請用你裝置的複製功能複製。"
+],
+"copy_btn": [
+"ff866c630a",
+"將結果複製為文字"
+],
+"copy_done": [
+"193320d026",
+"已複製結果。"
+],
+"copy_done_paste": [
+"722d6eb699",
+"已複製結果。可貼上到訊息或筆記中。"
+],
+"copy_fallback_label": [
+"508efdf278",
+"全選並複製以下文字："
+],
+"count_just_me": [
+"4fffbbf4a6",
+"只有我"
+],
+"count_people_one": [
+"ab3ccc8dba",
+"人"
+],
+"count_people_other": [
+"ab3ccc8dba",
+"人"
+],
+"doc_title": [
+"4d2fd3517b",
+"BC Vote Helper 2026｜卑詩省選舉投票助手"
+],
+"drv_eyebrow": [
+"407c689054",
+"結果背後"
+],
+"drv_intro": [
+"1fbbe28420",
+"令{top}領先{second}最多的三條問題，以百分點計。"
+],
+"drv_intro_close": [
+"4dc0d0e04a",
+"{top}和{second}相差不超過{points}個百分點。以下三條問題令兩者差距拉得最大。"
+],
+"drv_intro_close_family": [
+"6350992e81",
+"{top}和{second}相差不超過{points}個百分點。以下三條問題令兩者差距拉得最大，按全家平均計算。"
+],
+"drv_intro_family": [
+"01c9111322",
+"令{top}領先{second}最多的三條問題，以百分點計，按全家平均計算。"
+],
+"drv_intro_kid": [
+"0670d3ce81",
+"這些答案令你更接近{top}而不是{second}。"
+],
+"drv_line": [
+"06120bda56",
+"為{top}加了{a}個百分點，為{second}加了{b}個百分點。"
+],
+"drv_line_kid_first": [
+"b8f6db202f",
+"這個答案令你最傾向{top}，並遠離{second}。"
+],
+"drv_line_kid_more": [
+"ec212aab23",
+"這個答案也令你更接近{top}而不是{second}。"
+],
+"drv_none": [
+"4b307306ac",
+"沒有單一問題令{party}領先。"
+],
+"drv_title": [
+"3df8cd40c3",
+"甚麼影響了你的配對結果"
+],
+"drv_title_close": [
+"acd747451b",
+"首兩名的分別在哪裏"
+],
+"drv_title_kid": [
+"03d00454a1",
+"最重要的答案"
+],
+"each_person": [
+"14dd751299",
+"每個人"
+],
+"err_bad_location": [
+"2545f7fc63",
+"無法讀取該位置。請輸入郵區編號或從名單中選擇。"
+],
+"err_geo_failed": [
+"73146ff12e",
+"無法根據你的位置找到卑詩省選區。請輸入郵區編號或從名單中選擇。"
+],
+"err_geo_no_riding": [
+"58c48264f1",
+"在你的位置找不到卑詩省選區。請輸入郵區編號或從名單中選擇。"
+],
+"err_geo_outside_bc": [
+"80bd8f3eca",
+"你的位置似乎在卑詩省以外。請輸入卑詩省郵區編號或從名單中選擇。"
+],
+"err_geo_unavailable": [
+"5302648dfd",
+"無法取得你的位置。請輸入郵區編號或從名單中選擇。"
+],
+"err_missing": [
+"19f108c0b8",
+"請輸入郵區編號，或從名單中選擇你的選區。"
+],
+"err_pc_failed": [
+"8733bca175",
+"找不到該郵區編號所屬的選區。請改為從名單中選擇。"
+],
+"err_pc_not_found": [
+"a032a5ab0d",
+"找不到這個郵區編號。請檢查一下，或從名單中選擇你的選區。"
+],
+"err_rate_limited": [
+"a4fe3579b9",
+"連續查找次數太多。請等候一分鐘，或從名單中選擇你的選區。"
+],
+"err_slow": [
+"8c1c7789cf",
+"查找時間過長。請改為從名單中選擇你的選區。"
+],
+"fam_average_of_one": [
+"92d9e1270f",
+"{n}人的家庭平均"
+],
+"fam_average_of_other": [
+"c87fc469d1",
+"{n}人的家庭平均"
+],
+"fam_bar_aria": [
+"c09252d2c8",
+"{name}：全體成員百分之{pct}"
+],
+"fam_bar_aria_none": [
+"c4cae2f808",
+"{name}：全體成員沒有分數"
+],
+"fam_col_adults": [
+"0d02507e7d",
+"3至5級"
+],
+"fam_col_all": [
+"6a72085653",
+"全部"
+],
+"fam_key_adults_none": [
+"af9621c131",
+"{adults}是以閱讀程度3至5級作答的成員的平均值。沒有人以這些程度作答，所以這些程度沒有平均值。"
+],
+"fam_key_adults_one": [
+"df3d70757c",
+"{adults}是以閱讀程度3至5級作答的成員的平均值（{n}人）。"
+],
+"fam_key_adults_other": [
+"b339d27ff5",
+"{adults}是以閱讀程度3至5級作答的成員的平均值（{n}人）。"
+],
+"fam_key_all_one": [
+"898efec0b2",
+"{all}是{n}人的平均值（即主要結果）。"
+],
+"fam_key_all_other": [
+"f15906237e",
+"{all}是{n}人的平均值（即主要結果）。"
+],
+"fam_skipped_one": [
+"473d782dc6",
+"{names}略過了所有問題，不計入平均。"
+],
+"fam_skipped_other": [
+"8dfec044e9",
+"{names}略過了所有問題，不計入平均。"
+],
+"fam_sr_adults": [
+"91af064335",
+"閱讀程度3至5級"
+],
+"fam_sr_all": [
+"2ed2c0ed6b",
+"全體成員"
+],
+"family": [
+"4efb6cb7c0",
+"家庭"
+],
+"foot_text": [
+"0621d226fc",
+"獨立製作，與任何政黨無關。資料截至{date}。並非背書。"
+],
+"geo_finding": [
+"8babe9fbb5",
+"正在尋找你的位置……"
+],
+"handoff_done": [
+"4b744b708b",
+"{name}：已完成，回答了{total}條中的{n}條"
+],
+"handoff_hidden": [
+"6147e7edaa",
+"{name}的答案已儲存並隱藏。所有人完成之前，誰都看不到任何人的答案。"
+],
+"handoff_level": [
+"9c219b0b80",
+"{name}的閱讀程度"
+],
+"handoff_pass": [
+"14525ec2d0",
+"請將裝置交給"
+],
+"handoff_person_of": [
+"ca65a531c5",
+"第{n}人，共{total}人"
+],
+"handoff_start": [
+"271be0c257",
+"開始{name}的問題"
+],
+"hist_aria": [
+"9ef54dfd2a",
+"{year}年得票率：{shares}"
+],
+"hist_won_one": [
+"137b16785f",
+"{winner}（{party}）以{votes}票之差勝出，相差{points}個百分點。"
+],
+"hist_won_other": [
+"4c14c603c5",
+"{winner}（{party}）以{votes}票之差勝出，相差{points}個百分點。"
+],
+"hl_close_1": [
+"8378238644",
+"第1名，結果接近"
+],
+"hl_close_2": [
+"4d654816f2",
+"第2名，結果接近"
+],
+"hl_close_3": [
+"8bd2e91498",
+"第3名，結果接近"
+],
+"hl_close_4": [
+"88c8b69c96",
+"第4名，結果接近"
+],
+"hl_close_5": [
+"6e4676ef2a",
+"第5名，結果接近"
+],
+"hl_close_kid_1": [
+"77d552a72c",
+"第1，差不多平手"
+],
+"hl_close_kid_2": [
+"6358751bed",
+"第2，差不多平手"
+],
+"hl_close_kid_3": [
+"815e1b6253",
+"第3，差不多平手"
+],
+"hl_close_kid_4": [
+"a938f842fe",
+"第4，差不多平手"
+],
+"hl_close_kid_5": [
+"a892d0b86f",
+"第5，差不多平手"
+],
+"hl_closest_cand": [
+"14920476a7",
+"最接近的本地候選人"
+],
+"hl_closest_cand_kid": [
+"7c4ac25394",
+"你本區選票上最接近的"
+],
+"hl_closest_party": [
+"0e58721f21",
+"最接近的政黨"
+],
+"hl_closest_party_kid": [
+"07e1cf2669",
+"最接近你的答案"
+],
+"hl_match": [
+"ef5c844eab",
+"相符"
+],
+"hl_next": [
+"d20395b653",
+"其次：{name}，{pct}%"
+],
+"hl_note_based": [
+"8f920268ef",
+"根據{date}或之前公布的政黨立場。"
+],
+"hl_note_kid": [
+"6417a0f0ea",
+"這只是一個起點，不是教你怎樣投票。和你信任的人談談吧。"
+],
+"hl_note_strong": [
+"fdfab30e83",
+"這只是一個起點，不是推薦。"
+],
+"hl_scored": [
+"997312f7a8",
+"按你{total}個答案中的{n}個計分。這個政黨對其餘問題未有公布立場。"
+],
+"hl_scored_kid": [
+"c38dfe634f",
+"用了你{total}個答案中的{n}個。"
+],
+"hl_tied": [
+"5a1d5e5e8f",
+"並列第一"
+],
+"hl_tied_kid": [
+"2e9807f6ce",
+"平手"
+],
+"how_this_works": [
+"b895a8c34e",
+"運作方式"
+],
+"how_to_vote": [
+"d6dd9a89bb",
+"如何投票"
+],
+"htv_advance": [
+"6d962e3f6c",
+"提前投票"
+],
+"htv_eyebrow": [
+"ac95cbd934",
+"卑詩省選舉局"
+],
+"htv_id": [
+"b3902083af",
+"所需身份證明"
+],
+"htv_mail": [
+"47f1941a87",
+"郵寄投票"
+],
+"htv_other": [
+"e000a4f942",
+"其他日期"
+],
+"htv_voting_day": [
+"715a6cb278",
+"投票日"
+],
+"htv_where": [
+"337f19e435",
+"在哪裏投票"
+],
+"htv_who": [
+"434e66ca1e",
+"誰可以投票"
+],
+"imp_high": [
+"b1a5954a48",
+"高"
+],
+"imp_high_kid": [
+"82ad6929c3",
+"很多"
+],
+"imp_low": [
+"a124947cbd",
+"低"
+],
+"imp_low_kid": [
+"c73bd54b40",
+"有一點"
+],
+"imp_medium": [
+"d404968ea9",
+"中"
+],
+"imp_medium_kid": [
+"00b2aad45d",
+"有些"
+],
+"imp_tag": [
+"35c5e81d11",
+"重要性{level}"
+],
+"independent": [
+"228505f856",
+"獨立候選人"
+],
+"inferred_list": [
+"7a651ece49",
+"推斷：{parties}"
+],
+"issue_by_issue": [
+"b671a4ab21",
+"逐個議題"
+],
+"issue_each_chose": [
+"3b202cec10",
+"每人的選擇"
+],
+"issue_how_close": [
+"af2280afeb",
+"各政黨在這個議題上有多接近（0至4）"
+],
+"issue_positions": [
+"ee485818ac",
+"各政黨的說法和做法"
+],
+"issue_the_question": [
+"d79cce547d",
+"問題"
+],
+"issue_you_chose": [
+"1bf99ab224",
+"你的選擇"
+],
+"jump_agree": [
+"96826139f7",
+"同意與分歧"
+],
+"jump_drivers": [
+"3fc5dbceea",
+"影響因素"
+],
+"jump_label": [
+"7e439c353e",
+"本頁內容"
+],
+"jump_parties": [
+"9c1a3c7e8b",
+"所有政黨"
+],
+"jump_share": [
+"e4649c0fea",
+"儲存或分享"
+],
+"lang_label": [
+"89b86ab0e6",
+"語言"
+],
+"last_time": [
+"74319b9c3d",
+"2024年，{party}在此以{points}個百分點之差勝出。沒有人知道今次誰會勝出。"
+],
+"last_time_missing": [
+"1fb4b5da23",
+"此選區上次的結果尚未載入。沒有人知道今次誰會勝出。"
+],
+"last_time_title": [
+"e2a4976fa6",
+"上一次"
+],
+"leader_line": [
+"e90e507877",
+"黨魁：{leader}"
+],
+"level_long": [
+"c8ad11a624",
+"{label}，{experience}"
+],
+"list_official": [
+"77c4761c24",
+"卑詩省選舉局（Elections BC）的正式候選人名單。"
+],
+"list_partial": [
+"b139827a69",
+"部分名單。可能會再加入更多候選人。"
+],
+"list_pending": [
+"4850c646e7",
+"候選人名單尚未載入。"
+],
+"listed_by_last_name": [
+"b5bc019a37",
+"按姓氏排列。"
+],
+"local_note_communities": [
+"d2920c6b8b",
+"選區範圍包括{communities}。"
+],
+"local_note_result_one": [
+"21c2b8c705",
+"2024年，{winner}（{party}）以{votes}票之差在此勝出，相差{points}個百分點。"
+],
+"local_note_result_other": [
+"1a7649f0ce",
+"2024年，{winner}（{party}）以{votes}票之差在此勝出，相差{points}個百分點。"
+],
+"local_note_ridings_one": [
+"68ea477f24",
+"{riding}是{region}{n}個選區之一。"
+],
+"local_note_ridings_other": [
+"68ea477f24",
+"{riding}是{region}{n}個選區之一。"
+],
+"local_tag": [
+"dc99d54d99",
+"本地"
+],
+"local_weight_none": [
+"7cb790439f",
+"本地候選人分數直接使用政黨分數，因為{region}暫未有本地問題。"
+],
+"local_weight_noriding": [
+"55088bedf3",
+"本地候選人分數需要選區；目前未選擇選區。"
+],
+"local_weight_one": [
+"dd171abee2",
+"本地候選人分數將{region}的{count}條本地問題以雙倍計算。"
+],
+"local_weight_other": [
+"6f07f77710",
+"本地候選人分數將{region}的{count}條本地問題以雙倍計算。"
+],
+"logo_alt": [
+"787f5ccbce",
+"{party}標誌"
+],
+"margins_note": [
+"3a132750c6",
+"本部分只報告過往結果及已公布的預測。這不是投票建議，而預測並不表示誰會勝出。"
+],
+"margins_title": [
+"38a5c6ad2c",
+"過往差距及預測"
+],
+"mast_kicker": [
+"600062e882",
+"卑詩省省選"
+],
+"mast_title": [
+"2182e711d2",
+"BC Vote Helper"
+],
+"mast_voting_day": [
+"660c2c414f",
+"投票日：10月24日（星期六）"
+],
+"method": [
+"88306943fe",
+"方法"
+],
+"method_order_each": [
+"f122e400ef",
+"答案選項以不同的隨機次序向每人顯示，所以沒有任何政黨的答案總是排第一。"
+],
+"method_order_group": [
+"bdfde4b15b",
+"答案選項以同一個隨機次序向整組人顯示，所以沒有任何政黨的答案總是排第一。"
+],
+"method_order_kid_each": [
+"8a9643f015",
+"每人看到的答案次序都打亂了，所以沒有政黨的答案總是排第一。"
+],
+"method_order_kid_group": [
+"fb66895ff8",
+"答案的次序打亂了，所以沒有政黨的答案總是排第一。"
+],
+"method_weights": [
+"b73120ff57",
+"重要性權重：低計一半，中計一次，高計兩次。"
+],
+"mode_legend": [
+"e6c6bb9172",
+"你想怎樣作答？"
+],
+"mode_solo": [
+"bf4cffd3cf",
+"逐一作答"
+],
+"mode_solo_sub": [
+"5e578b2f1d",
+"輪流作答。答案會隱藏至最後。"
+],
+"mode_together": [
+"a4bc67f330",
+"一起作答"
+],
+"mode_together_sub": [
+"92adf70d5a",
+"同一畫面，每個人都回答每條問題。"
+],
+"name_party": [
+"cf84cf0b34",
+"{name}（{party}）"
+],
+"next": [
+"bc981983e7",
+"下一步"
+],
+"no_cands_sub": [
+"4e190b2660",
+"加入{riding}的候選人後，這裏會顯示哪一位最接近你的答案。"
+],
+"no_position": [
+"84016df1a3",
+"未有公布立場"
+],
+"no_position_left_out": [
+"b2fd3b2d4d",
+"不計入此政黨的分數"
+],
+"no_position_list": [
+"46b98575a5",
+"未有公布立場：{parties}"
+],
+"no_riding_picked": [
+"e664c43c0b",
+"未選擇選區"
+],
+"no_riding_sub": [
+"022722d07f",
+"你的選區會加入本地問題和候選人配對。"
+],
+"no_score": [
+"2aa01887e6",
+"沒有分數"
+],
+"noscript": [
+"b2cc76f7fe",
+"本工具需要啟用 JavaScript 才能運作。"
+],
+"not_sure": [
+"20c47c9167",
+"不確定"
+],
+"not_sure_skipped": [
+"9748486bcd",
+"不確定或已略過"
+],
+"open_all": [
+"09f0662f45",
+"全部展開"
+],
+"others_note": [
+"8430501c61",
+"獨立候選人和較小政黨未有公布可供比較的政綱，所以沒有相符分數。"
+],
+"others_title": [
+"6ea0026e15",
+"其他參選人，不計分"
+],
+"parties_eyebrow": [
+"03cb581f0c",
+"按你的結果次序排列"
+],
+"parties_title": [
+"e082504349",
+"{count}個政黨"
+],
+"party_incumbent": [
+"f9bdd6e82a",
+"{party}，現任議員"
+],
+"party_incumbent_mla": [
+"834ee945d7",
+"{party}，現任省議員"
+],
+"party_meta": [
+"235fb1b0c6",
+"黨魁：{leader}。{candidates}名候選人。解散議會時佔{seats}席。"
+],
+"past_results": [
+"860762937d",
+"過往結果"
+],
+"pc_bad": [
+"bf3c475346",
+"這看來不是郵區編號。格式應該像 V3S 1A1。"
+],
+"pc_empty": [
+"a899defb0c",
+"請輸入郵區編號，例如 V3S 1A1。"
+],
+"pc_outside_bc": [
+"2441e6ea2d",
+"這個郵區編號不在卑詩省。卑詩省的郵區編號以 V 開頭。"
+],
+"pcard_answered": [
+"23f4733110",
+"回答了{total}條中的{n}條。"
+],
+"pcard_local": [
+"cd51d5cca6",
+"本地：{name} {pct}%。"
+],
+"pcard_local_none": [
+"36e24d7c66",
+"本地：沒有分數。"
+],
+"pdf_adults_none": [
+"6e4a8bdedb",
+"閱讀程度3至5級：沒有人以這些程度作答。"
+],
+"pdf_all_parties_fam": [
+"9b468ade84",
+"全部{count}個政黨（全體成員）"
+],
+"pdf_btn": [
+"12e90d1977",
+"將結果儲存為 PDF"
+],
+"pdf_build_failed": [
+"e489bd79d9",
+"無法製作 PDF。請改為將結果複製為文字。"
+],
+"pdf_checking": [
+"705dd9bd46",
+"正在檢查此檢視模式能否儲存檔案。"
+],
+"pdf_close_banner": [
+"b5f0b99fa7",
+"結果接近：{names}之間相差不超過{points}個百分點，所以沒有一個明確最相符的選擇。"
+],
+"pdf_close_mark": [
+"93c66bbed1",
+"{pct}（接近）"
+],
+"pdf_col_adults": [
+"7472984752",
+"只計閱讀程度3至5級"
+],
+"pdf_col_all": [
+"371ad4f958",
+"全體成員"
+],
+"pdf_col_person": [
+"1a25d6db02",
+"參與者"
+],
+"pdf_confirm": [
+"672781dacf",
+"請在提示中確認儲存。"
+],
+"pdf_declined": [
+"e1569c787d",
+"已取消儲存。沒有儲存任何內容。"
+],
+"pdf_disclaimer": [
+"4c4a2e80cc",
+"免責聲明"
+],
+"pdf_drv_close": [
+"8890a627e7",
+"{top}和{second}相差不超過{points}個百分點。以下三條問題令兩者差距拉得最大，以百分點計。"
+],
+"pdf_drv_close_family": [
+"6f083fd400",
+"{top}和{second}相差不超過{points}個百分點。以下三條問題令兩者差距拉得最大，以百分點計，按全家平均計算。"
+],
+"pdf_drv_line": [
+"1525711b4b",
+"{issue}（+{lead}個百分點）"
+],
+"pdf_drv_title": [
+"2d36918360",
+"影響配對的因素"
+],
+"pdf_files_unavailable": [
+"029ae324b9",
+"此檢視模式不能儲存檔案。請改為將結果複製為文字。"
+],
+"pdf_footer": [
+"12c4028817",
+"這只是一個起點，不是推薦。獨立工具，與任何政黨無關。並非背書。分數反映截至{date}已公布的2026年承諾及往績。政黨名稱及標誌屬各政黨所有。"
+],
+"pdf_header_meta": [
+"46a1dffadf",
+"結果｜{riding}｜{today}｜資料截至{date}"
+],
+"pdf_htv_id": [
+"89f89c02cf",
+"身份證明"
+],
+"pdf_imp": [
+"e627ac6caa",
+"{text}［重要性{level}］"
+],
+"pdf_issue_local": [
+"ea2c2ed7d7",
+"{issue}（{region}）"
+],
+"pdf_issue_note": [
+"03836eccab",
+"每行顯示所選的答案，以及立場最接近該答案的政黨。「未有公布立場」的格不計入該政黨的分數。"
+],
+"pdf_local_cands": [
+"b2e2e5b3b7",
+"本地候選人"
+],
+"pdf_na": [
+"50f013532a",
+"不適用"
+],
+"pdf_no_answers": [
+"874f980678",
+"暫時沒有答案可以比較。"
+],
+"pdf_not_enabled": [
+"b75af06842",
+"此檢視模式不能儲存 PDF 檔案。請改為將結果複製為文字。"
+],
+"pdf_others": [
+"bb9ffb4909",
+"其他參選人，不計分（沒有已公布的政綱可供比較）：{list}。"
+],
+"pdf_page": [
+"42420a32b1",
+"第{n}頁，共{total}頁"
+],
+"pdf_page_problem": [
+"ee684d37c9",
+"由於此頁面出現問題，未能儲存 PDF。請改為將結果複製為文字。"
+],
+"pdf_participant": [
+"1cf3820588",
+"參與者：{list}"
+],
+"pdf_participant_item": [
+"c064d7f102",
+"{name}（{level}，回答了{total}條中的{n}條）"
+],
+"pdf_participants": [
+"9c0c2150f2",
+"參與者：{list}"
+],
+"pdf_rate_limited": [
+"2ca3a3f433",
+"已有一個儲存提示開啟，或連續出現了多個提示。請稍等，然後再試。"
+],
+"pdf_saved": [
+"5ddfdf89dd",
+"PDF 已儲存。請查看你的下載資料夾。"
+],
+"pdf_sources_note": [
+"39f98503f1",
+"每個政黨立場的資料來源均列於網上版本。卑詩省選舉局（Elections BC）：elections.bc.ca"
+],
+"pdf_split": [
+"04b318e32b",
+"結果不同：每人自己最接近的政黨都不一樣。{list}。以下的家庭平均綜合了所有人，未必與任何一人自己的結果相符。"
+],
+"pdf_too_large": [
+"9bcc8724b6",
+"PDF 太大，無法在此儲存。請改為將結果複製為文字。"
+],
+"pdf_tool_missing": [
+"6da00552bc",
+"PDF 工具未能載入。請檢查網絡連線並重新載入，或將結果複製為文字。"
+],
+"pdf_top_mark": [
+"1503b70a6e",
+"{pct}（最高）"
+],
+"pdf_unavailable": [
+"a5d9adbfa6",
+"此檢視模式不能儲存 PDF。請改為將結果複製為文字。"
+],
+"people_title": [
+"6659ab2307",
+"每個人的結果"
+],
+"people_title_kid": [
+"ec89793010",
+"每個人得到甚麼"
+],
+"person_n": [
+"3c671f1b75",
+"第{n}人"
+],
+"pick_riding": [
+"43169a0b89",
+"選擇你的選區"
+],
+"pick_riding_cands": [
+"ff99fe0ede",
+"選擇你的選區，即可看到你的本地候選人。"
+],
+"pips_aria": [
+"af8ce68af4",
+"{n}分（滿分4分）"
+],
+"points_label": [
+"819f41f058",
+"百分點"
+],
+"privacy": [
+"cf01481f62",
+"私隱"
+],
+"privacy_code": [
+"e2819ac00b",
+"程式碼及所有資料來源均公開於{link}。"
+],
+"privacy_cookies": [
+"4a11326d00",
+"不設帳戶，也沒有追蹤 cookies。到訪次數以 Cloudflare Web Analytics 計算，它不使用 cookies。"
+],
+"privacy_local": [
+"42bee8abc3",
+"你的名字、閱讀程度和答案只會儲存在這部裝置的瀏覽器內。「全部清除並重新開始」會將它們刪除。"
+],
+"privacy_pc_artifact": [
+"eb10beb530",
+"你的郵區編號會傳送到 Open North 的 Represent 服務以查找你的選區。本頁不會儲存它。"
+],
+"privacy_pc_site": [
+"c09ee7637e",
+"你的郵區編號會傳送到本網站的伺服器以查找你的選區，然後即被丟棄。它絕不會被儲存或記錄。"
+],
+"privacy_share": [
+"f1f2f1399f",
+"如你剔選分享方格，完成時你的答案、閱讀程度、選區及城市會加入匿名統計。名字和 IP 地址絕不會被傳送或儲存。所有分享的答案將於2026年11月23日刪除。"
+],
+"quiz_count": [
+"3a5e6dcf1a",
+"第{n}題，共{total}題"
+],
+"quiz_done_pass": [
+"04aef84198",
+"完成，交給下一位"
+],
+"quiz_imp_label": [
+"1904cb757b",
+"這對你有多重要？"
+],
+"quiz_imp_label_kid": [
+"802317e300",
+"你有多在乎？"
+],
+"quiz_imp_legend": [
+"84ade0a753",
+"這個議題對你有多重要？"
+],
+"quiz_imp_legend_kid": [
+"6be145f244",
+"你有多在乎這件事？"
+],
+"quiz_opts_legend": [
+"6143161b8b",
+"選擇最接近你觀點的答案"
+],
+"quiz_opts_legend_kid": [
+"d3f2845a9f",
+"選你最喜歡的答案"
+],
+"quiz_skip_opt": [
+"470dec8f68",
+"我不確定／略過"
+],
+"quiz_skip_opt_kid": [
+"976d6f3cbd",
+"我不確定"
+],
+"quiz_who_answers": [
+"ec8ec6535a",
+"{name}的答案"
+],
+"quiz_who_turn_kid": [
+"abf614b791",
+"輪到{name}"
+],
+"quiz_your_answers": [
+"5cb44afe4d",
+"你的答案"
+],
+"ranked_cands": [
+"cfe313b26c",
+"{riding}候選人"
+],
+"ranked_cands_kid": [
+"9d021161a7",
+"每位本地候選人有多接近"
+],
+"ranked_cands_missing": [
+"05dfcf9fe8",
+"{riding}的候選人名單尚未載入，所以沒有候選人配對。"
+],
+"ranked_title": [
+"ce671ff259",
+"全部{count}個政黨"
+],
+"ranked_title_kid": [
+"86210a5363",
+"每個政黨有多接近"
+],
+"reading_level": [
+"f445c6b6ff",
+"閱讀程度"
+],
+"reading_level_change": [
+"e622f5b08a",
+"更改閱讀程度"
+],
+"record_label": [
+"9b5e24d4cd",
+"往績："
+],
+"res_eyebrow": [
+"ea0e9d851d",
+"{place}｜資料截至{date}"
+],
+"res_none_redo": [
+"c509c6b0d1",
+"回答問題"
+],
+"res_none_text": [
+"1c3c5e4287",
+"所有問題都略過了，所以沒有東西可以計分。請返回回答幾條問題，或重新開始。"
+],
+"res_none_title": [
+"78f0c10d4e",
+"暫時沒有答案可以比較"
+],
+"res_title_close": [
+"1dd4273c42",
+"結果接近：{parties}"
+],
+"res_title_close_family": [
+"bffdf1294f",
+"你家人的結果接近：{parties}"
+],
+"res_title_family": [
+"77c8fe5033",
+"最接近你家人的答案：{party}"
+],
+"res_title_named": [
+"359a40ce98",
+"最接近{name}的答案：{party}"
+],
+"res_title_solo": [
+"12c34ca5ab",
+"最接近你的答案：{party}"
+],
+"res_title_split": [
+"47f904db1b",
+"你家人的答案指向不同方向"
+],
+"res_title_split_kid": [
+"d9899f50e0",
+"你的家人選了不同的東西"
+],
+"reset_all": [
+"0ff3cf1f38",
+"全部清除並重新開始"
+],
+"reset_desc": [
+"35837e96bb",
+"這會從此裝置刪除所有人的名字、閱讀程度和答案，並返回開始畫面。此操作無法復原。"
+],
+"reset_keep": [
+"c413e64e99",
+"保留我的答案"
+],
+"reset_title": [
+"a9a8095b4b",
+"清除所有答案並重新開始？"
+],
+"result_2024_missing": [
+"e45e5482fc",
+"此選區的2024年結果尚未載入。"
+],
+"result_2024_title": [
+"f0b7644d6a",
+"2024年結果"
+],
+"riding_adds_local": [
+"22dde3bd6c",
+"你的選區會加入本地問題，並顯示你選票上的候選人。"
+],
+"riding_alts": [
+"6b288917e0",
+"這個郵區編號也涵蓋{ridings}。如你住在其中一個選區，請選擇該選區。"
+],
+"riding_change": [
+"64fbd995d3",
+"更改"
+],
+"riding_choices": [
+"d7dbb3873c",
+"我們現時無法查找你的確實地址。你的郵區編號位於以下其中一個選區。請選擇你的選區："
+],
+"riding_choose": [
+"0db4abd414",
+"選擇你的選區"
+],
+"riding_find": [
+"df251b06ee",
+"查找"
+],
+"riding_geo": [
+"0132375d9a",
+"使用我的位置"
+],
+"riding_intro": [
+"4ef465f13a",
+"你的選區決定你會看到的本地問題和候選人。郵區編號只用來查找你的選區，不會被儲存。"
+],
+"riding_keep": [
+"588a20e541",
+"保留{riding}"
+],
+"riding_list_label": [
+"84a439fcd5",
+"從名單中選擇"
+],
+"riding_looking": [
+"caf2da3c70",
+"正在查找你的選區……"
+],
+"riding_meta": [
+"ebe7c733a6",
+"{region}。{candidates}。{local}。"
+],
+"riding_meta_local_one": [
+"83974a8170",
+"{n}條本地問題"
+],
+"riding_meta_local_other": [
+"04de62f812",
+"{n}條本地問題"
+],
+"riding_meta_nolocal": [
+"fe517eef68",
+"暫未有本地問題"
+],
+"riding_parties_only": [
+"c4172927d1",
+"只看政黨"
+],
+"riding_parties_only_note": [
+"c7c9046440",
+"未選擇選區，所以沒有本地問題或候選人。"
+],
+"riding_pc_label": [
+"d7432cda8e",
+"郵區編號"
+],
+"riding_skip": [
+"19fb4d9633",
+"略過，只看政黨"
+],
+"riding_sources": [
+"fada69624c",
+"選區資料來源"
+],
+"riding_where": [
+"393e8ec53f",
+"你在哪裏投票？"
+],
+"rl_aria": [
+"318fd8cd40",
+"{n}，{level}"
+],
+"scored_note": [
+"509167449c",
+"按你{total}個答案中的{n}個計分"
+],
+"scored_note_kid": [
+"fa30be74fb",
+"用了你{total}個答案中的{n}個"
+],
+"see_results": [
+"e90d0209dc",
+"查看結果"
+],
+"setup_count_legend": [
+"fd17bd0295",
+"有多少人作答？"
+],
+"setup_how": [
+"e9f34faab4",
+"最多4人可以作答：輪流作答，或在同一畫面一起作答。"
+],
+"setup_lede_cands": [
+"246af451b1",
+"回答{n}條簡短問題，看看哪個政黨和哪位本地候選人與你的答案相符。"
+],
+"setup_lede_noriding": [
+"ea83866b26",
+"回答{n}條簡短問題，看看哪個政黨與你的答案相符。選擇你的選區，即可加入本地問題和候選人。"
+],
+"setup_lede_parties": [
+"77f3e019e8",
+"回答{n}條簡短問題，看看哪個政黨與你的答案相符。"
+],
+"setup_level_label": [
+"50fe74ce40",
+"問題要用哪種閱讀程度？"
+],
+"setup_name_label": [
+"9c9f03a839",
+"名字（可選填）"
+],
+"setup_sample": [
+"6b23c1f20a",
+"此程度下的第1條問題"
+],
+"setup_saved_so_far": [
+"3fa7460149",
+"你到目前為止的答案已儲存。"
+],
+"setup_saves": [
+"c2dd5d7da5",
+"你的答案會在作答時儲存在此瀏覽器。你可隨時關閉分頁，之後在這部裝置上回來，從上次停下的地方繼續。"
+],
+"setup_time_group": [
+"7f56d0ae70",
+"一組人約需45分鐘至一小時。任何問題都可以略過。"
+],
+"setup_time_solo": [
+"1a3a0346a4",
+"每人約20分鐘，閱讀背景資料則需時更長。任何問題都可以略過。"
+],
+"setup_title": [
+"0e7b5354a4",
+"看看哪個政黨最接近你的觀點"
+],
+"setup_welcome_back": [
+"4308f5ef22",
+"歡迎回來。"
+],
+"share_eyebrow": [
+"7bfaf3e7a1",
+"保留副本"
+],
+"share_opt": [
+"77328a8073",
+"將我的答案加入匿名統計。名字絕不會傳送；只傳送答案、閱讀程度、你的選區及大概位置（城市）。"
+],
+"share_title": [
+"3af1b88a6b",
+"儲存或分享你的結果"
+],
+"since_2024": [
+"5bbd077cc3",
+"2024年以來："
+],
+"skip": [
+"3da474537a",
+"略過"
+],
+"skipped_every": [
+"35d01d4768",
+"略過了所有問題。"
+],
+"skipped_every_lc": [
+"eeb3a7d80b",
+"略過了所有問題"
+],
+"skipped_lc": [
+"413a9328e5",
+"已略過"
+],
+"sources_label": [
+"ada52d888c",
+"資料來源："
+],
+"split_banner": [
+"59bc5000b3",
+"你家人的答案指向不同方向。以下的平均值綜合了所有人，未必與任何一人自己的結果相符。"
+],
+"split_banner_kid": [
+"ce71ac1d8a",
+"你的家人選了不同的東西。以下是每個人得到的結果。"
+],
+"split_tag": [
+"d0cbcbcd73",
+"結果不同"
+],
+"start_continue_together": [
+"6d4c8c0925",
+"一起繼續"
+],
+"start_continue_with": [
+"9c602b7a29",
+"由{name}繼續"
+],
+"start_over": [
+"51dd91dc98",
+"重新開始"
+],
+"start_together": [
+"ed3c6e186d",
+"一起開始"
+],
+"start_with": [
+"2a224bb405",
+"由{name}開始"
+],
+"text_adults_none": [
+"ea79a17b79",
+"沒有人以3至5級作答。"
+],
+"text_adults_only": [
+"8bd66a7d2e",
+"只計閱讀程度3至5級："
+],
+"text_all_parties": [
+"307cbedcbf",
+"所有政黨："
+],
+"text_all_parties_fam": [
+"c91670e33d",
+"所有政黨（全體成員）："
+],
+"text_answers": [
+"1a25dfd9fc",
+"答案："
+],
+"text_cand_note_none": [
+"bbc88f46fb",
+"採用其政黨的立場"
+],
+"text_cand_note_one": [
+"6d0c1879cd",
+"採用其政黨的立場，{region}的{count}條本地問題以雙倍計算"
+],
+"text_cand_note_other": [
+"ba2f3e1e79",
+"採用其政黨的立場，{region}的{count}條本地問題以雙倍計算"
+],
+"text_cands_head": [
+"ab04ddd64a",
+"{riding}的候選人（{note}）："
+],
+"text_cands_missing": [
+"d5d0dcb988",
+"{riding}：候選人名單尚未載入。"
+],
+"text_close": [
+"9c8f4f2565",
+"{who}：{list}之間結果接近（相差不超過{points}個百分點）。"
+],
+"text_close_cands": [
+"367e3e97e4",
+"{riding}：{list}之間結果接近。"
+],
+"text_closest": [
+"1ec1b8f101",
+"{who}：最接近的政黨是{party}（{leader}），{pct}%。"
+],
+"text_closest_cand": [
+"e6092c2c32",
+"{riding}：最接近的候選人是{name}（{party}），{pct}%。"
+],
+"text_drv": [
+"f1f25352bb",
+"影響配對的因素（{top}領先{second}）："
+],
+"text_drv_close": [
+"2253ae084b",
+"首兩名的分別（{top}領先{second}）："
+],
+"text_drv_line": [
+"22b0f8ef02",
+"{issue}（+{lead}個百分點）"
+],
+"text_each_person": [
+"4544a618aa",
+"每個人："
+],
+"text_fam_avg_one": [
+"84b8ab5763",
+"家庭平均（{n}人）"
+],
+"text_fam_avg_other": [
+"84b8ab5763",
+"家庭平均（{n}人）"
+],
+"text_imp_high": [
+"28a79e4809",
+"［重要性高］"
+],
+"text_imp_low": [
+"44d8051f5f",
+"［重要性低］"
+],
+"text_meta": [
+"0ed4513c40",
+"{riding}｜{today}｜資料截至{date}"
+],
+"text_no_answers": [
+"48e183ae1f",
+"暫時沒有答案。"
+],
+"text_not_sure": [
+"a3c521827c",
+"不確定或已略過"
+],
+"text_others": [
+"c7d9f3a91a",
+"其他參選人，不計分：{list}。"
+],
+"text_person_line": [
+"70baee2d7d",
+"{name}（{level}）：{list}"
+],
+"text_person_skipped": [
+"ec599049c8",
+"{name}：略過了所有問題"
+],
+"text_result": [
+"5faa59d4bc",
+"結果"
+],
+"text_split": [
+"08ac616ddc",
+"結果不同：每人自己最接近的政黨都不一樣（{list}）。以下的家庭平均綜合了所有人。"
+],
+"text_title": [
+"300f562041",
+"BC Vote Helper 2026 結果"
+],
+"tg_answer_legend": [
+"50f2228fb0",
+"{name}的答案"
+],
+"tg_answers_label": [
+"b12fcedc7b",
+"答案"
+],
+"tg_count_one": [
+"e2c9a6d941",
+"一起作答，共{n}人"
+],
+"tg_count_other": [
+"e2c9a6d941",
+"一起作答，共{n}人"
+],
+"tg_imp_legend": [
+"c77f44984e",
+"對{name}有多重要"
+],
+"tg_imp_short": [
+"a2ad7912eb",
+"重要性"
+],
+"tg_imp_short_kid": [
+"779db9a7c6",
+"在乎"
+],
+"tg_people_head": [
+"7b76e6aaff",
+"每人選一個字母，再選這對他們有多重要。"
+],
+"tg_people_head_kid": [
+"7739e27114",
+"每人選一個字母，再選有多在乎。"
+],
+"tg_skip_kid": [
+"20c47c9167",
+"不確定"
+],
+"where_communities": [
+"0531f8b6e8",
+"{communities}。"
+],
+"where_it_is": [
+"cd3bb6eb0f",
+"位置"
+],
+"where_local_count": [
+"ad8ab0936c",
+"{region}的本地問題：{n}條。"
+],
+"where_no_local": [
+"9b3e1825cf",
+"{region}暫未有本地問題，所以此選區只使用全省問題。"
+],
+"where_part_of": [
+"fce95a36ca",
+"屬於{region}。"
+],
+"who_lives_here": [
+"1cbbbdf8cb",
+"誰住在這裏"
+],
+"who_province": [
+"f04c0279f2",
+"{who}，全省"
+],
+"who_riding": [
+"7838aaefa3",
+"{who}，{riding}"
+],
+"who_same": [
+"66cf0bdf5d",
+"{total}條問題中有{n}條答案相同"
+],
+"who_strip_label": [
+"2591546888",
+"每人最接近的政黨"
+],
+"your_data": [
+"48cd18dabc",
+"你的資料"
+],
+"your_pick": [
+"e5af99dc3c",
+"你的選擇"
+],
+"your_result": [
+"209d8db14d",
+"你的結果"
+],
+"your_riding": [
+"47c09604a0",
+"你的選區"
+]
+}
