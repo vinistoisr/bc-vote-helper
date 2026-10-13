@@ -2,7 +2,8 @@
  * BC Vote Helper 2026 - votebc.vinceroyer.ca
  *
  * - Serves the quiz (static assets) to visitors in Canada only.
- * - POST /api/response stores anonymous answers in D1 (no names, no IP).
+ * - POST /api/response stores anonymous answers in D1 (no names, no IP), with the page language.
+ * - /i18n/<lang>.json: translation bundles, fetched by the page when a reader picks a language.
  * - GET /api/riding?pc= finds the BC riding through Represent (Open North),
  *   cached 30 days, with a local postal code table as the fallback when
  *   Represent is busy. ?lat=&lon= is answered locally from the riding shapes.
@@ -14,6 +15,8 @@ import VALID from "./spec_valid.json";
 import NAMES from "./riding_names.json";
 
 const IMPORTANCE = new Set(["low", "medium", "high"]);
+/* Page languages (template.html LANGS); anything else is rejected */
+const LANGS = new Set(["en", "pa", "zh-Hans", "zh-Hant", "tl", "fr", "ru", "ko", "fa"]);
 const MAX_BODY = 24 * 1024;
 const RIDING_RE = /^[A-Z]{3}$/;
 const POSTAL_RE = /^[A-Z]\d[A-Z]\d[A-Z]\d$/;
@@ -78,6 +81,8 @@ export default {
 
       if (request.method !== "GET" && request.method !== "HEAD") return text("Method not allowed", 405);
       const res = await env.ASSETS.fetch(request);
+      /* Translation bundles change with each deploy; the page asks for them with ?v=<content hash> */
+      if (path.startsWith("/i18n/") && res.ok) return withHeaders(res, { "Cache-Control": "public, max-age=300" });
       const type = res.headers.get("Content-Type") || "";
       return withHeaders(res, type.includes("text/html") ? { "Content-Security-Policy": PAGE_CSP, "Cache-Control": "public, max-age=300" } : {});
     } catch (err) {
@@ -185,10 +190,11 @@ async function saveResponse(request, env) {
   const now = new Date().toISOString();
   const stmts = [
     env.DB.prepare(
-      `INSERT INTO submissions (sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding)
-       VALUES (?1, ?2, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)
-       ON CONFLICT(sid) DO UPDATE SET updated_at = ?2, count = ?3, data_as_of = ?8, riding = ?9`
-    ).bind(clean.sid, now, clean.count, str(cf.country, 2), str(cf.region, 64), str(cf.regionCode, 8), str(cf.city, 64), clean.data_as_of, clean.riding),
+      /* lang needs migrate_i18n.sql. Without that column this insert fails (500 and an error log), on purpose: run the migration first. */
+      `INSERT INTO submissions (sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding, lang)
+       VALUES (?1, ?2, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10)
+       ON CONFLICT(sid) DO UPDATE SET updated_at = ?2, count = ?3, data_as_of = ?8, riding = ?9, lang = ?10`
+    ).bind(clean.sid, now, clean.count, str(cf.country, 2), str(cf.region, 64), str(cf.regionCode, 8), str(cf.city, 64), clean.data_as_of, clean.riding, clean.lang),
     env.DB.prepare("DELETE FROM people WHERE sid = ?1").bind(clean.sid),
   ];
   clean.people.forEach((p, idx) => {
@@ -263,7 +269,13 @@ function validate(b) {
     if (!validRiding(b.riding)) return null;
     riding = b.riding;
   }
-  return { sid: b.sid, count, people, data_as_of: asOf, riding };
+  /* Optional page language: one of LANGS, or nothing (pages from before languages were added) */
+  let lang = null;
+  if (b.lang != null && b.lang !== "") {
+    if (typeof b.lang !== "string" || !LANGS.has(b.lang)) return null;
+    lang = b.lang;
+  }
+  return { sid: b.sid, count, people, data_as_of: asOf, riding, lang };
 }
 
 function validRiding(code) {
@@ -466,7 +478,7 @@ const ADMIN_ROWS = 20000;
 async function adminApi(request, env, path) {
   if (path === "/api/admin/data" && request.method === "GET") {
     const subs = await env.DB.prepare(
-      `SELECT sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding FROM submissions
+      `SELECT sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding, lang FROM submissions
        ORDER BY created_at DESC LIMIT ${ADMIN_ROWS}`
     ).all();
     const people = await env.DB.prepare(
@@ -486,17 +498,17 @@ async function adminApi(request, env, path) {
 
   if (path === "/api/admin/export.csv" && request.method === "GET") {
     const rows = await env.DB.prepare(
-      `SELECT s.sid, s.created_at, s.updated_at, s.count, s.country, s.region_code, s.city, s.data_as_of, s.riding, p.idx, p.level, p.answered, p.answers
+      `SELECT s.sid, s.created_at, s.updated_at, s.count, s.country, s.region_code, s.city, s.data_as_of, s.riding, s.lang, p.idx, p.level, p.answered, p.answers
        FROM people p JOIN (SELECT * FROM submissions ORDER BY created_at DESC LIMIT ${ADMIN_ROWS}) s ON s.sid = p.sid
        ORDER BY s.created_at, p.idx`
     ).all();
     const qids = Object.keys(VALID.questions);
-    const head = ["session", "created_at", "updated_at", "people_in_session", "country", "region", "city", "data_as_of", "riding", "person", "level", "answered"];
+    const head = ["session", "created_at", "updated_at", "people_in_session", "country", "region", "city", "data_as_of", "riding", "lang", "person", "level", "answered"];
     qids.forEach((q) => head.push(q, q + "_importance"));
     const lines = [head.map(csv).join(",")];
     for (const r of rows.results) {
       const a = safeParse(r.answers) || {};
-      const line = [r.sid, r.created_at, r.updated_at, r.count, r.country, r.region_code, r.city, r.data_as_of, r.riding, r.idx + 1, r.level, r.answered];
+      const line = [r.sid, r.created_at, r.updated_at, r.count, r.country, r.region_code, r.city, r.data_as_of, r.riding, r.lang, r.idx + 1, r.level, r.answered];
       qids.forEach((q) => line.push(a[q] ? a[q].c : "", a[q] ? a[q].w : ""));
       lines.push(line.map(csv).join(","));
     }

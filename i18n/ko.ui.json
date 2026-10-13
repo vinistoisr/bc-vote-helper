@@ -1,0 +1,1886 @@
+{
+"adults_top": [
+"74006792e4",
+"읽기 수준 3~5 구성원과 가장 가까움: {match}"
+],
+"agree_agree": [
+"3477f4d91d",
+"같은 답"
+],
+"agree_chip_note": [
+"d9517c1bca",
+"각 칩은 그 사람의 답과 입장이 가장 가까운 정당을 보여 줍니다."
+],
+"agree_close": [
+"4f22e84309",
+"답은 다르지만 가장 가까운 정당은 같음"
+],
+"agree_kid_agree": [
+"3477f4d91d",
+"같은 답"
+],
+"agree_kid_close": [
+"8a08cace69",
+"가장 가까운 정당이 같음"
+],
+"agree_kid_mostly": [
+"56a6fa8b54",
+"대부분 같음"
+],
+"agree_kid_na": [
+"7600f8c6fe",
+"답이 모자람"
+],
+"agree_kid_split": [
+"0dda633d45",
+"고른 답이 다름"
+],
+"agree_mostly": [
+"56a6fa8b54",
+"대부분 일치"
+],
+"agree_na": [
+"7600f8c6fe",
+"답이 부족함"
+],
+"agree_split": [
+"fc8230b411",
+"의견 갈림"
+],
+"agree_sum_agree_one": [
+"cb76894727",
+"질문 {n}개에서 같은 답"
+],
+"agree_sum_agree_other": [
+"bfa0d91894",
+"질문 {n}개에서 같은 답"
+],
+"agree_sum_all_same": [
+"af84c265ae",
+"질문 {n}개 모두에서 같은 답을 골랐습니다."
+],
+"agree_sum_all_split": [
+"1942b4cf75",
+"질문 {n}개 모두에서 서로 다른 답을 골랐습니다."
+],
+"agree_sum_close_one": [
+"82f1f58272",
+"질문 {n}개에서 답은 다르지만 가장 가까운 정당은 같음"
+],
+"agree_sum_close_other": [
+"9890070698",
+"질문 {n}개에서 답은 다르지만 가장 가까운 정당은 같음"
+],
+"agree_sum_mostly_one": [
+"b58ffa59c9",
+"질문 {n}개에서 대부분 일치"
+],
+"agree_sum_mostly_other": [
+"27f2d49ce4",
+"질문 {n}개에서 대부분 일치"
+],
+"agree_sum_na_one": [
+"6aa2b0a22e",
+"질문 {n}개에서 답이 부족함"
+],
+"agree_sum_na_other": [
+"c4faa32f2f",
+"질문 {n}개에서 답이 부족함"
+],
+"agree_sum_split_kid_one": [
+"ef85e75f33",
+"질문 {n}개에서 고른 답이 다름"
+],
+"agree_sum_split_kid_other": [
+"9853dabe10",
+"질문 {n}개에서 고른 답이 다름"
+],
+"agree_sum_split_one": [
+"e8126e3d0a",
+"질문 {n}개에서 의견 갈림"
+],
+"agree_sum_split_other": [
+"a73a3a6dc9",
+"질문 {n}개에서 의견 갈림"
+],
+"agree_sum_wrap": [
+"7d2682b43d",
+"{parts}."
+],
+"agree_title": [
+"90984e52e1",
+"의견이 같은 곳과 갈리는 곳"
+],
+"agree_title_kid": [
+"c0cd74875f",
+"생각이 같은 곳과 다른 곳"
+],
+"ai_notice": [
+"b533acc8f8",
+"영어판을 AI로 번역했습니다. 기준은 영어판입니다."
+],
+"ai_notice_switch": [
+"6426855e11",
+"영어로 보기"
+],
+"all_n_questions": [
+"baf1a49bd5",
+"질문 {n}개 전체"
+],
+"all_of_bc": [
+"a568761f1a",
+"BC주 전체"
+],
+"all_sources": [
+"0ea6b8bf22",
+"출처 {n}개 전체"
+],
+"and_word": [
+"cffa50a32c",
+"및"
+],
+"back": [
+"b52b36b726",
+"뒤로"
+],
+"background": [
+"64dd60fe1a",
+"배경"
+],
+"bar_aria": [
+"3a9f510c14",
+"{name}: {pct}퍼센트"
+],
+"bar_aria_none": [
+"b3949d1282",
+"{name}: 점수 없음"
+],
+"basis_both": [
+"7214010aba",
+"공약집과 기록"
+],
+"basis_inferred": [
+"b5966ba81c",
+"관련 정책에서 추론"
+],
+"basis_platform": [
+"123a7f2fcc",
+"공약집"
+],
+"basis_record": [
+"1c54132b8e",
+"기록"
+],
+"breakdown_note": [
+"6461ab4524",
+"정당은 내 결과 순서대로 표시됩니다. 쟁점을 누르면 각 정당의 입장과 출처를 볼 수 있습니다."
+],
+"cand_count_one": [
+"30f9a0ceaf",
+"후보 {n}명"
+],
+"cand_count_other": [
+"eca9cdc6cf",
+"후보 {n}명"
+],
+"cand_count_scored_one": [
+"edf0640b6a",
+"후보 {n}명 점수 산정, {more}명 추가 표시"
+],
+"cand_count_scored_other": [
+"1508f679d2",
+"후보 {n}명 점수 산정, {more}명 추가 표시"
+],
+"cand_lead": [
+"4ae72d422e",
+"{riding} 선거구 후보 중 소속 정당과 다른 입장을 공개한 후보는 없습니다."
+],
+"cand_lead_generic": [
+"aaf83a8eba",
+"후보 점수는 소속 정당의 입장을 바탕으로 매기며, 여러분 지역의 지역 질문은 두 배로 계산합니다."
+],
+"cand_lead_inc": [
+"c6e90d8aad",
+"{riding} 선거구 후보 중 소속 정당과 다른 입장을 공개한 후보는 없으며, 현역 의원인 {name} 의원은 기록 표결 105건 모두에서 소속 정당과 같은 쪽에 투표했습니다."
+],
+"cand_lead_kid": [
+"6fe5520089",
+"이 지역 후보 중 소속 정당과 다른 말을 한 사람은 없습니다."
+],
+"cand_lead_kid_inc": [
+"6291705a83",
+"현재 주의원인 {name} 의원은 매번 소속 정당과 같은 쪽에 투표했습니다."
+],
+"cand_list_missing_long": [
+"e26233e19b",
+"후보 명단을 아직 불러오지 않았습니다. 선거일이 가까워지면 다시 확인하시거나 elections.bc.ca에서 명단을 보십시오."
+],
+"cand_list_missing_short": [
+"9b9a620950",
+"후보 명단을 아직 불러오지 않음"
+],
+"cand_note_none": [
+"ac23d3c3ae",
+"후보 점수는 소속 정당의 입장을 사용합니다."
+],
+"cand_note_one": [
+"50d6580cf4",
+"후보 점수는 소속 정당의 입장을 사용하며, {region}의 지역 질문 {count}개를 두 배로 계산합니다."
+],
+"cand_note_other": [
+"7b5b531f9e",
+"후보 점수는 소속 정당의 입장을 사용하며, {region}의 지역 질문 {count}개를 두 배로 계산합니다."
+],
+"cand_same_as_party_kid": [
+"f49b646d28",
+"그래서 각 후보의 점수는 소속 정당의 점수와 같습니다."
+],
+"cand_scoring_generic": [
+"9748bd2f39",
+"후보 점수는 소속 정당의 입장을 바탕으로 매기며, 여러분 지역의 지역 질문은 두 배로 계산합니다. 무소속 및 소수 정당 후보는 비교할 수 있는 공약집을 발표하지 않았기 때문에 명단에는 표시되지만 점수를 매기지 않습니다."
+],
+"candidates": [
+"b5bf8067cf",
+"후보"
+],
+"cands_forum": [
+"929c9654c1",
+"후보 토론회"
+],
+"cands_we_score_one": [
+"10653b6e4a",
+"점수를 매긴 후보 {count}명"
+],
+"cands_we_score_other": [
+"1128f9ecbf",
+"점수를 매긴 후보 {count}명"
+],
+"cd_advance_closed": [
+"27eb8d1dcf",
+"사전투표 마감, 선거일까지 {day}"
+],
+"cd_advance_open": [
+"37ee9fd75e",
+"사전투표 10월 21일까지 진행, 선거일까지 {day}"
+],
+"cd_before_advance": [
+"7f72f8970b",
+"사전투표까지 {adv}, 선거일까지 {day}"
+],
+"cd_days_one": [
+"e5af3b0ac6",
+"{n}일"
+],
+"cd_days_other": [
+"c752c6dea2",
+"{n}일"
+],
+"cd_past": [
+"95f776cee5",
+"선거일은 2026년 10월 24일이었습니다"
+],
+"cd_today": [
+"37973f9793",
+"오늘이 선거일입니다(오전 8시부터 오후 8시까지)"
+],
+"chip_closest": [
+"0343a4c567",
+"가장 가까움: {parties}"
+],
+"chip_fam_closest": [
+"0893bd4c95",
+"{name}: 가장 가까운 정당 {parties}"
+],
+"chip_fam_skipped": [
+"04b36b3159",
+"{name}: 건너뜀"
+],
+"chip_skipped": [
+"5a000ad7bd",
+"건너뜀"
+],
+"close_all": [
+"98553cc854",
+"모두 접기"
+],
+"close_banner": [
+"e4c643e87d",
+"{names}의 차이가 {points}포인트 이내이므로 뚜렷한 하나의 일치 결과가 없습니다."
+],
+"close_banner_kid": [
+"89da102b6c",
+"{names}: 거의 동점입니다."
+],
+"close_result": [
+"41e62b4d8d",
+"근소한 차이"
+],
+"close_tag": [
+"bbfa773e5a",
+"근소"
+],
+"closest": [
+"e596de546a",
+"가장 가까움"
+],
+"col_issue": [
+"73781a127e",
+"쟁점"
+],
+"col_party": [
+"60b18fc8a8",
+"정당"
+],
+"col_together": [
+"a4bc67f330",
+"함께"
+],
+"col_your_answer": [
+"3ae5ff6e17",
+"내 답"
+],
+"colon": [
+"d9f3aa8c70",
+"{a}: {b}"
+],
+"conf_high": [
+"6c2943a404",
+"신뢰도 높음"
+],
+"conf_low": [
+"99d4ceaeba",
+"신뢰도 낮음"
+],
+"conf_medium": [
+"156b5ba334",
+"신뢰도 보통"
+],
+"copy_blocked": [
+"02599f901a",
+"여기서는 복사가 차단되어 있습니다. 아래 텍스트가 선택되어 있으니 기기의 복사 기능으로 복사하십시오."
+],
+"copy_btn": [
+"ff866c630a",
+"결과를 텍스트로 복사"
+],
+"copy_done": [
+"193320d026",
+"결과를 복사했습니다."
+],
+"copy_done_paste": [
+"722d6eb699",
+"결과를 복사했습니다. 메시지나 메모에 붙여 넣으십시오."
+],
+"copy_fallback_label": [
+"508efdf278",
+"이 텍스트를 모두 선택해 복사하십시오:"
+],
+"count_just_me": [
+"4fffbbf4a6",
+"나 혼자"
+],
+"count_people_one": [
+"ab3ccc8dba",
+"명"
+],
+"count_people_other": [
+"ab3ccc8dba",
+"명"
+],
+"doc_title": [
+"4d2fd3517b",
+"BC Vote Helper 2026"
+],
+"drv_eyebrow": [
+"407c689054",
+"결과의 배경"
+],
+"drv_intro": [
+"1fbbe28420",
+"{second} 대비 {top}의 우위에 가장 많이 기여한 세 질문(퍼센트포인트)."
+],
+"drv_intro_close": [
+"4dc0d0e04a",
+"{top}, {second}의 차이는 {points}포인트 이내입니다. 이 세 질문이 둘의 차이를 가장 크게 벌렸습니다."
+],
+"drv_intro_close_family": [
+"6350992e81",
+"{top}, {second}의 차이는 {points}포인트 이내입니다. 이 세 질문이 둘의 차이를 가장 크게 벌렸습니다(가족 평균 기준)."
+],
+"drv_intro_family": [
+"01c9111322",
+"{second} 대비 {top}의 우위에 가장 많이 기여한 세 질문(퍼센트포인트, 가족 평균 기준)."
+],
+"drv_intro_kid": [
+"0670d3ce81",
+"이 답들 때문에 {second}보다 {top}에 더 가까워졌습니다."
+],
+"drv_line": [
+"06120bda56",
+"{top}에 {a}포인트, {second}에 {b}포인트를 더했습니다."
+],
+"drv_line_kid_first": [
+"b8f6db202f",
+"이 답 때문에 {top} 쪽으로 가장 많이 가까워지고 {second}에서 멀어졌습니다."
+],
+"drv_line_kid_more": [
+"ec212aab23",
+"이 답도 {second}보다 {top}에 더 가깝게 만들었습니다."
+],
+"drv_none": [
+"4b307306ac",
+"{party}에 앞서게 만든 단일 질문은 없습니다."
+],
+"drv_title": [
+"3df8cd40c3",
+"일치 결과를 이끈 것"
+],
+"drv_title_close": [
+"acd747451b",
+"상위 두 정당을 가르는 것"
+],
+"drv_title_kid": [
+"03d00454a1",
+"가장 중요했던 답"
+],
+"each_person": [
+"14dd751299",
+"각 사람"
+],
+"err_bad_location": [
+"2545f7fc63",
+"위치를 읽을 수 없습니다. 우편번호를 입력하거나 목록에서 고르십시오."
+],
+"err_geo_failed": [
+"73146ff12e",
+"현재 위치에 해당하는 BC주 선거구를 찾지 못했습니다. 우편번호를 입력하거나 목록에서 고르십시오."
+],
+"err_geo_no_riding": [
+"58c48264f1",
+"현재 위치에서 BC주 선거구를 찾지 못했습니다. 우편번호를 입력하거나 목록에서 고르십시오."
+],
+"err_geo_outside_bc": [
+"80bd8f3eca",
+"현재 위치가 BC주 밖인 것 같습니다. BC주 우편번호를 입력하거나 목록에서 고르십시오."
+],
+"err_geo_unavailable": [
+"5302648dfd",
+"위치 정보를 사용할 수 없습니다. 우편번호를 입력하거나 목록에서 고르십시오."
+],
+"err_missing": [
+"19f108c0b8",
+"우편번호를 입력하거나 목록에서 선거구를 고르십시오."
+],
+"err_pc_failed": [
+"8733bca175",
+"이 우편번호의 선거구를 찾지 못했습니다. 대신 목록에서 고르십시오."
+],
+"err_pc_not_found": [
+"a032a5ab0d",
+"이 우편번호를 찾을 수 없습니다. 다시 확인하시거나 목록에서 선거구를 고르십시오."
+],
+"err_rate_limited": [
+"a4fe3579b9",
+"연속 조회가 너무 많습니다. 잠시 기다리시거나 목록에서 선거구를 고르십시오."
+],
+"err_slow": [
+"8c1c7789cf",
+"조회가 너무 오래 걸립니다. 대신 목록에서 선거구를 고르십시오."
+],
+"fam_average_of_one": [
+"92d9e1270f",
+"가족 {n}명의 평균"
+],
+"fam_average_of_other": [
+"c87fc469d1",
+"가족 {n}명의 평균"
+],
+"fam_bar_aria": [
+"c09252d2c8",
+"{name}: 전체 구성원 {pct}퍼센트"
+],
+"fam_bar_aria_none": [
+"c4cae2f808",
+"{name}: 전체 구성원 점수 없음"
+],
+"fam_col_adults": [
+"0d02507e7d",
+"L3-5"
+],
+"fam_col_all": [
+"6a72085653",
+"전체"
+],
+"fam_key_adults_none": [
+"af9621c131",
+"{adults}: 읽기 수준 3~5로 답한 구성원의 평균. 해당하는 사람이 없어 이 수준의 평균은 없습니다."
+],
+"fam_key_adults_one": [
+"df3d70757c",
+"{adults}: 읽기 수준 3~5로 답한 구성원의 평균({n}명)."
+],
+"fam_key_adults_other": [
+"b339d27ff5",
+"{adults}: 읽기 수준 3~5로 답한 구성원의 평균({n}명)."
+],
+"fam_key_all_one": [
+"898efec0b2",
+"{all}: {n}명의 평균(대표 결과)."
+],
+"fam_key_all_other": [
+"f15906237e",
+"{all}: {n}명의 평균(대표 결과)."
+],
+"fam_skipped_one": [
+"473d782dc6",
+"{names}: 모든 질문을 건너뛰어 평균에 포함되지 않았습니다."
+],
+"fam_skipped_other": [
+"8dfec044e9",
+"{names}: 모든 질문을 건너뛰어 평균에 포함되지 않았습니다."
+],
+"fam_sr_adults": [
+"91af064335",
+"읽기 수준 3~5"
+],
+"fam_sr_all": [
+"2ed2c0ed6b",
+"전체 구성원"
+],
+"family": [
+"4efb6cb7c0",
+"가족"
+],
+"foot_text": [
+"0621d226fc",
+"독립적인 도구이며 어느 정당과도 관련이 없습니다. {date} 기준 자료입니다. 지지 표명이 아닙니다."
+],
+"geo_finding": [
+"8babe9fbb5",
+"위치를 찾는 중..."
+],
+"handoff_done": [
+"4b744b708b",
+"{name}: 완료, {total}개 중 {n}개 답함"
+],
+"handoff_hidden": [
+"6147e7edaa",
+"{name}의 답은 저장되었고 숨겨져 있습니다. 모두 끝날 때까지 아무도 다른 사람의 답을 볼 수 없습니다."
+],
+"handoff_level": [
+"9c219b0b80",
+"{name}의 읽기 수준"
+],
+"handoff_pass": [
+"14525ec2d0",
+"다음 사람에게 기기를 넘기십시오:"
+],
+"handoff_person_of": [
+"ca65a531c5",
+"{total}명 중 {n}번째"
+],
+"handoff_start": [
+"271be0c257",
+"{name}의 질문 시작"
+],
+"hist_aria": [
+"9ef54dfd2a",
+"{year}년 득표율: {shares}"
+],
+"hist_won_one": [
+"137b16785f",
+"{winner}({party}) 후보가 {votes}표, {points}포인트 차이로 이겼습니다."
+],
+"hist_won_other": [
+"4c14c603c5",
+"{winner}({party}) 후보가 {votes}표, {points}포인트 차이로 이겼습니다."
+],
+"hl_close_1": [
+"8378238644",
+"1위, 근소한 차이"
+],
+"hl_close_2": [
+"4d654816f2",
+"2위, 근소한 차이"
+],
+"hl_close_3": [
+"8bd2e91498",
+"3위, 근소한 차이"
+],
+"hl_close_4": [
+"88c8b69c96",
+"4위, 근소한 차이"
+],
+"hl_close_5": [
+"6e4676ef2a",
+"5위, 근소한 차이"
+],
+"hl_close_kid_1": [
+"77d552a72c",
+"1위, 거의 동점"
+],
+"hl_close_kid_2": [
+"6358751bed",
+"2위, 거의 동점"
+],
+"hl_close_kid_3": [
+"815e1b6253",
+"3위, 거의 동점"
+],
+"hl_close_kid_4": [
+"a938f842fe",
+"4위, 거의 동점"
+],
+"hl_close_kid_5": [
+"a892d0b86f",
+"5위, 거의 동점"
+],
+"hl_closest_cand": [
+"14920476a7",
+"가장 가까운 지역 후보"
+],
+"hl_closest_cand_kid": [
+"7c4ac25394",
+"내 지역 투표용지에서 가장 가까운 후보"
+],
+"hl_closest_party": [
+"0e58721f21",
+"가장 가까운 정당"
+],
+"hl_closest_party_kid": [
+"07e1cf2669",
+"내 답과 가장 가까움"
+],
+"hl_match": [
+"ef5c844eab",
+"일치"
+],
+"hl_next": [
+"d20395b653",
+"다음: {name}, {pct}%"
+],
+"hl_note_based": [
+"8f920268ef",
+"{date}까지 공개된 정당 입장을 바탕으로 합니다."
+],
+"hl_note_kid": [
+"6417a0f0ea",
+"어떻게 투표하라는 조언이 아니라 출발점입니다. 믿을 수 있는 사람들과 이야기해 보세요."
+],
+"hl_note_strong": [
+"fdfab30e83",
+"추천이 아니라 출발점입니다."
+],
+"hl_scored": [
+"997312f7a8",
+"답 {total}개 중 {n}개로 점수를 매겼습니다. 이 정당은 나머지 질문에 대해 공개된 입장이 없습니다."
+],
+"hl_scored_kid": [
+"c38dfe634f",
+"답 {total}개 중 {n}개를 썼습니다."
+],
+"hl_tied": [
+"5a1d5e5e8f",
+"공동 선두"
+],
+"hl_tied_kid": [
+"2e9807f6ce",
+"동점"
+],
+"how_this_works": [
+"b895a8c34e",
+"작동 방식"
+],
+"how_to_vote": [
+"d6dd9a89bb",
+"투표 방법"
+],
+"htv_advance": [
+"6d962e3f6c",
+"사전투표"
+],
+"htv_eyebrow": [
+"ac95cbd934",
+"BC주 선거관리청"
+],
+"htv_id": [
+"b3902083af",
+"필요한 신분증"
+],
+"htv_mail": [
+"47f1941a87",
+"우편투표"
+],
+"htv_other": [
+"e000a4f942",
+"기타 날짜"
+],
+"htv_voting_day": [
+"715a6cb278",
+"선거일"
+],
+"htv_where": [
+"337f19e435",
+"투표 장소"
+],
+"htv_who": [
+"434e66ca1e",
+"투표 자격"
+],
+"imp_high": [
+"b1a5954a48",
+"높음"
+],
+"imp_high_kid": [
+"82ad6929c3",
+"많이"
+],
+"imp_low": [
+"a124947cbd",
+"낮음"
+],
+"imp_low_kid": [
+"c73bd54b40",
+"조금"
+],
+"imp_medium": [
+"d404968ea9",
+"보통"
+],
+"imp_medium_kid": [
+"00b2aad45d",
+"어느 정도"
+],
+"imp_tag": [
+"35c5e81d11",
+"중요도 {level}"
+],
+"independent": [
+"228505f856",
+"무소속"
+],
+"inferred_list": [
+"7a651ece49",
+"추론: {parties}"
+],
+"issue_by_issue": [
+"b671a4ab21",
+"쟁점별"
+],
+"issue_each_chose": [
+"3b202cec10",
+"각 사람의 선택"
+],
+"issue_how_close": [
+"af2280afeb",
+"이 쟁점에서 각 정당이 얼마나 가까운지(0~4)"
+],
+"issue_positions": [
+"ee485818ac",
+"각 정당이 말한 것과 한 일"
+],
+"issue_the_question": [
+"d79cce547d",
+"질문"
+],
+"issue_you_chose": [
+"1bf99ab224",
+"내 선택"
+],
+"jump_agree": [
+"96826139f7",
+"일치와 차이"
+],
+"jump_drivers": [
+"3fc5dbceea",
+"결과의 이유"
+],
+"jump_label": [
+"7e439c353e",
+"이 페이지 내용"
+],
+"jump_parties": [
+"9c1a3c7e8b",
+"모든 정당"
+],
+"jump_share": [
+"e4649c0fea",
+"저장 또는 공유"
+],
+"lang_label": [
+"89b86ab0e6",
+"언어"
+],
+"last_time": [
+"74319b9c3d",
+"2024년 이곳에서는 {party} 후보가 {points}포인트 차이로 이겼습니다. 이번에 누가 이길지는 아무도 모릅니다."
+],
+"last_time_missing": [
+"1fb4b5da23",
+"이 선거구의 지난 결과는 아직 불러오지 않았습니다. 이번에 누가 이길지는 아무도 모릅니다."
+],
+"last_time_title": [
+"e2a4976fa6",
+"지난 선거"
+],
+"leader_line": [
+"e90e507877",
+"당대표: {leader}"
+],
+"level_long": [
+"c8ad11a624",
+"{label}, {experience}"
+],
+"list_official": [
+"77c4761c24",
+"BC주 선거관리청(Elections BC)의 공식 후보 명단입니다."
+],
+"list_partial": [
+"b139827a69",
+"일부 명단입니다. 후보가 더 추가될 수 있습니다."
+],
+"list_pending": [
+"4850c646e7",
+"후보 명단을 아직 불러오지 않았습니다."
+],
+"listed_by_last_name": [
+"b5bc019a37",
+"성(last name) 순서로 표시합니다."
+],
+"local_note_communities": [
+"d2920c6b8b",
+"{communities} 지역을 포함합니다."
+],
+"local_note_result_one": [
+"21c2b8c705",
+"2024년에는 {winner}({party}) 후보가 {votes}표, {points}포인트 차이로 이곳에서 이겼습니다."
+],
+"local_note_result_other": [
+"1a7649f0ce",
+"2024년에는 {winner}({party}) 후보가 {votes}표, {points}포인트 차이로 이곳에서 이겼습니다."
+],
+"local_note_ridings_one": [
+"68ea477f24",
+"{riding} 선거구는 {region}의 선거구 {n}곳 중 하나입니다."
+],
+"local_note_ridings_other": [
+"68ea477f24",
+"{riding} 선거구는 {region}의 선거구 {n}곳 중 하나입니다."
+],
+"local_tag": [
+"dc99d54d99",
+"지역"
+],
+"local_weight_none": [
+"7cb790439f",
+"{region}에는 아직 지역 질문이 없으므로 지역 후보 점수는 정당 점수를 그대로 사용합니다."
+],
+"local_weight_noriding": [
+"55088bedf3",
+"지역 후보 점수에는 선거구가 필요하지만, 선택된 선거구가 없습니다."
+],
+"local_weight_one": [
+"dd171abee2",
+"지역 후보 점수는 {region}의 지역 질문 {count}개를 두 배로 계산합니다."
+],
+"local_weight_other": [
+"6f07f77710",
+"지역 후보 점수는 {region}의 지역 질문 {count}개를 두 배로 계산합니다."
+],
+"logo_alt": [
+"787f5ccbce",
+"{party} 로고"
+],
+"margins_note": [
+"3a132750c6",
+"이 부분은 과거 결과와 공개된 예측만 보여 줍니다. 어떻게 투표하라는 조언이 아니며, 예측은 누가 이길지 알려 주지 않습니다."
+],
+"margins_title": [
+"38a5c6ad2c",
+"과거 격차와 예측"
+],
+"mast_kicker": [
+"600062e882",
+"브리티시컬럼비아주 총선"
+],
+"mast_title": [
+"2182e711d2",
+"BC Vote Helper"
+],
+"mast_voting_day": [
+"660c2c414f",
+"선거일: 10월 24일 토요일"
+],
+"method": [
+"88306943fe",
+"방법"
+],
+"method_order_each": [
+"f122e400ef",
+"어느 정당의 답도 항상 먼저 나오지 않도록, 답 선택지를 사람마다 다른 무작위 순서로 보여 주었습니다."
+],
+"method_order_group": [
+"bdfde4b15b",
+"어느 정당의 답도 항상 먼저 나오지 않도록, 그룹에는 답 선택지를 하나의 무작위 순서로 보여 주었습니다."
+],
+"method_order_kid_each": [
+"8a9643f015",
+"답을 사람마다 섞인 순서로 보여 주어서, 어느 정당의 답도 항상 먼저 나오지 않았습니다."
+],
+"method_order_kid_group": [
+"fb66895ff8",
+"답을 섞인 순서로 보여 주어서, 어느 정당의 답도 항상 먼저 나오지 않았습니다."
+],
+"method_weights": [
+"b73120ff57",
+"중요도 가중치: 낮음은 절반, 보통은 한 번, 높음은 두 번으로 계산합니다."
+],
+"mode_legend": [
+"e6c6bb9172",
+"어떻게 답하시겠습니까?"
+],
+"mode_solo": [
+"bf4cffd3cf",
+"한 명씩"
+],
+"mode_solo_sub": [
+"5e578b2f1d",
+"차례로 답합니다. 끝날 때까지 답은 숨겨집니다."
+],
+"mode_together": [
+"a4bc67f330",
+"함께"
+],
+"mode_together_sub": [
+"92adf70d5a",
+"한 화면에서 모두가 각 질문에 답합니다."
+],
+"name_party": [
+"cf84cf0b34",
+"{name} ({party})"
+],
+"next": [
+"bc981983e7",
+"다음"
+],
+"no_cands_sub": [
+"4e190b2660",
+"{riding} 선거구의 후보가 추가되면, 내 답과 가장 가까운 후보를 여기에 보여 줍니다."
+],
+"no_position": [
+"84016df1a3",
+"공개된 입장 없음"
+],
+"no_position_left_out": [
+"b2fd3b2d4d",
+"이 정당의 점수에서 제외"
+],
+"no_position_list": [
+"46b98575a5",
+"공개된 입장 없음: {parties}"
+],
+"no_riding_picked": [
+"e664c43c0b",
+"선택한 선거구 없음"
+],
+"no_riding_sub": [
+"022722d07f",
+"선거구를 고르면 지역 질문과 후보 일치 결과가 추가됩니다."
+],
+"no_score": [
+"2aa01887e6",
+"점수 없음"
+],
+"noscript": [
+"b2cc76f7fe",
+"이 도구를 사용하려면 JavaScript가 필요합니다."
+],
+"not_sure": [
+"20c47c9167",
+"잘 모르겠음"
+],
+"not_sure_skipped": [
+"9748486bcd",
+"잘 모르겠음 또는 건너뜀"
+],
+"open_all": [
+"09f0662f45",
+"모두 펼치기"
+],
+"others_note": [
+"8430501c61",
+"무소속 및 소수 정당 후보는 비교할 수 있는 공약집을 발표하지 않아 일치 점수가 없습니다."
+],
+"others_title": [
+"6ea0026e15",
+"그 밖의 출마자, 점수 미산정"
+],
+"parties_eyebrow": [
+"03cb581f0c",
+"내 결과 순서대로 표시"
+],
+"parties_title": [
+"e082504349",
+"{count}개 정당"
+],
+"party_incumbent": [
+"f9bdd6e82a",
+"{party}, 현역 의원"
+],
+"party_incumbent_mla": [
+"834ee945d7",
+"{party}, 현역 주의원"
+],
+"party_meta": [
+"235fb1b0c6",
+"당대표: {leader}. 후보 {candidates}명. 의회 해산 시 의석 {seats}석."
+],
+"past_results": [
+"860762937d",
+"과거 결과"
+],
+"pc_bad": [
+"bf3c475346",
+"우편번호 형식이 아닌 것 같습니다. V3S 1A1과 같은 형식이어야 합니다."
+],
+"pc_empty": [
+"a899defb0c",
+"우편번호를 입력하십시오(예: V3S 1A1)."
+],
+"pc_outside_bc": [
+"2441e6ea2d",
+"BC주 밖의 우편번호입니다. BC주 우편번호는 V로 시작합니다."
+],
+"pcard_answered": [
+"23f4733110",
+"{total}개 중 {n}개 답함."
+],
+"pcard_local": [
+"cd51d5cca6",
+"지역: {name} {pct}%."
+],
+"pcard_local_none": [
+"36e24d7c66",
+"지역: 점수 없음."
+],
+"pdf_adults_none": [
+"6e4a8bdedb",
+"읽기 수준 3~5: 이 수준으로 답한 사람이 없습니다."
+],
+"pdf_all_parties_fam": [
+"9b468ade84",
+"{count}개 정당 전체(전체 구성원)"
+],
+"pdf_btn": [
+"12e90d1977",
+"결과를 PDF로 저장"
+],
+"pdf_build_failed": [
+"e489bd79d9",
+"PDF를 만들지 못했습니다. 대신 결과를 텍스트로 복사하십시오."
+],
+"pdf_checking": [
+"705dd9bd46",
+"이 화면에서 파일을 저장할 수 있는지 확인하는 중입니다."
+],
+"pdf_close_banner": [
+"b5f0b99fa7",
+"근소한 차이: {names}의 차이가 {points}포인트 이내이므로 뚜렷한 하나의 일치 결과가 없습니다."
+],
+"pdf_close_mark": [
+"93c66bbed1",
+"{pct} (근소)"
+],
+"pdf_col_adults": [
+"7472984752",
+"읽기 수준 3~5만"
+],
+"pdf_col_all": [
+"371ad4f958",
+"전체 구성원"
+],
+"pdf_col_person": [
+"1a25d6db02",
+"참여자"
+],
+"pdf_confirm": [
+"672781dacf",
+"창에서 저장을 확인하십시오."
+],
+"pdf_declined": [
+"e1569c787d",
+"저장을 취소했습니다. 저장된 것이 없습니다."
+],
+"pdf_disclaimer": [
+"4c4a2e80cc",
+"면책 고지"
+],
+"pdf_drv_close": [
+"8890a627e7",
+"{top}, {second}의 차이는 {points}포인트 이내입니다. 이 세 질문이 둘의 차이를 가장 크게 벌렸습니다(퍼센트포인트)."
+],
+"pdf_drv_close_family": [
+"6f083fd400",
+"{top}, {second}의 차이는 {points}포인트 이내입니다. 이 세 질문이 둘의 차이를 가장 크게 벌렸습니다(퍼센트포인트, 가족 평균 기준)."
+],
+"pdf_drv_line": [
+"1525711b4b",
+"{issue}  (+{lead}포인트)"
+],
+"pdf_drv_title": [
+"2d36918360",
+"일치 결과를 이끈 것"
+],
+"pdf_files_unavailable": [
+"029ae324b9",
+"이 화면에서는 파일 저장을 사용할 수 없습니다. 대신 결과를 텍스트로 복사하십시오."
+],
+"pdf_footer": [
+"12c4028817",
+"추천이 아니라 출발점입니다. 어느 정당과도 관련 없는 독립 도구입니다. 지지 표명이 아닙니다. 점수는 {date} 현재 공개된 2026년 공약과 기록을 반영합니다. 정당 이름과 로고는 각 정당의 것입니다."
+],
+"pdf_header_meta": [
+"46a1dffadf",
+"결과 | {riding} | {today} | {date} 기준 자료"
+],
+"pdf_htv_id": [
+"89f89c02cf",
+"신분증"
+],
+"pdf_imp": [
+"e627ac6caa",
+"{text}  [중요도 {level}]"
+],
+"pdf_issue_local": [
+"ea2c2ed7d7",
+"{issue}  ({region})"
+],
+"pdf_issue_note": [
+"03836eccab",
+"각 줄은 고른 답과, 그 답에 입장이 가장 가까운 정당을 보여 줍니다. '공개된 입장 없음' 칸은 그 정당의 점수에서 제외됩니다."
+],
+"pdf_local_cands": [
+"b2e2e5b3b7",
+"지역 후보"
+],
+"pdf_na": [
+"50f013532a",
+"해당 없음"
+],
+"pdf_no_answers": [
+"874f980678",
+"아직 비교할 답이 없습니다."
+],
+"pdf_not_enabled": [
+"b75af06842",
+"이 화면에서는 PDF 파일을 저장할 수 없습니다. 대신 결과를 텍스트로 복사하십시오."
+],
+"pdf_others": [
+"bb9ffb4909",
+"그 밖의 출마자, 점수 미산정(비교할 공개 공약집 없음): {list}."
+],
+"pdf_page": [
+"42420a32b1",
+"{total}쪽 중 {n}쪽"
+],
+"pdf_page_problem": [
+"ee684d37c9",
+"이 페이지의 문제로 PDF를 저장하지 못했습니다. 대신 결과를 텍스트로 복사하십시오."
+],
+"pdf_participant": [
+"1cf3820588",
+"참여자: {list}"
+],
+"pdf_participant_item": [
+"c064d7f102",
+"{name}({level}, {total}개 중 {n}개 답함)"
+],
+"pdf_participants": [
+"9c0c2150f2",
+"참여자: {list}"
+],
+"pdf_rate_limited": [
+"2ca3a3f433",
+"저장 창이 이미 열려 있거나 연속으로 여러 번 요청했습니다. 잠시 기다린 후 다시 시도하십시오."
+],
+"pdf_saved": [
+"5ddfdf89dd",
+"PDF를 저장했습니다. 다운로드 폴더를 확인하십시오."
+],
+"pdf_sources_note": [
+"39f98503f1",
+"모든 정당 입장의 출처는 온라인 도우미에 나와 있습니다. BC주 선거관리청(Elections BC): elections.bc.ca"
+],
+"pdf_split": [
+"04b318e32b",
+"결과가 다름: 각 사람과 가장 가까운 정당이 서로 다릅니다. {list}. 아래 가족 평균은 모두를 합친 것이라 각자의 결과와 맞지 않을 수 있습니다."
+],
+"pdf_too_large": [
+"9bcc8724b6",
+"PDF가 너무 커서 여기서 저장할 수 없습니다. 대신 결과를 텍스트로 복사하십시오."
+],
+"pdf_tool_missing": [
+"6da00552bc",
+"PDF 도구를 불러오지 못했습니다. 연결을 확인하고 새로 고치거나, 결과를 텍스트로 복사하십시오."
+],
+"pdf_top_mark": [
+"1503b70a6e",
+"{pct} (최고)"
+],
+"pdf_unavailable": [
+"a5d9adbfa6",
+"이 화면에서는 PDF로 저장할 수 없습니다. 대신 결과를 텍스트로 복사하십시오."
+],
+"people_title": [
+"6659ab2307",
+"각 사람의 결과"
+],
+"people_title_kid": [
+"ec89793010",
+"각자 받은 결과"
+],
+"person_n": [
+"3c671f1b75",
+"참여자 {n}"
+],
+"pick_riding": [
+"43169a0b89",
+"선거구 선택"
+],
+"pick_riding_cands": [
+"ff99fe0ede",
+"선거구를 고르면 지역 후보를 볼 수 있습니다."
+],
+"pips_aria": [
+"af8ce68af4",
+"4점 중 {n}점"
+],
+"points_label": [
+"819f41f058",
+"포인트"
+],
+"privacy": [
+"cf01481f62",
+"개인정보"
+],
+"privacy_code": [
+"e2819ac00b",
+"코드와 모든 출처는 {link}에 공개되어 있습니다."
+],
+"privacy_cookies": [
+"4a11326d00",
+"계정도 추적 쿠키도 없습니다. 방문 수는 쿠키를 사용하지 않는 Cloudflare Web Analytics로 집계합니다."
+],
+"privacy_local": [
+"42bee8abc3",
+"이름, 읽기 수준, 답은 이 기기의 이 브라우저에만 저장됩니다. \"모두 지우고 다시 시작\"을 누르면 지워집니다."
+],
+"privacy_pc_artifact": [
+"eb10beb530",
+"우편번호는 선거구를 찾기 위해 Open North의 Represent 서비스로 전송됩니다. 이 페이지는 우편번호를 저장하지 않습니다."
+],
+"privacy_pc_site": [
+"c09ee7637e",
+"우편번호는 선거구를 찾기 위해 이 사이트의 서버로 전송된 후 폐기됩니다. 저장되거나 기록되지 않습니다."
+],
+"privacy_share": [
+"f1f2f1399f",
+"공유 상자에 체크하면, 마칠 때 답, 읽기 수준, 선거구, 도시가 익명 합계에 추가됩니다. 이름과 IP 주소는 절대 전송되거나 저장되지 않습니다. 공유된 모든 답은 2026년 11월 23일에 삭제됩니다."
+],
+"quiz_count": [
+"3a5e6dcf1a",
+"질문 {n} / {total}"
+],
+"quiz_done_pass": [
+"04aef84198",
+"완료, 다음 사람에게"
+],
+"quiz_imp_label": [
+"1904cb757b",
+"나에게 얼마나 중요합니까?"
+],
+"quiz_imp_label_kid": [
+"802317e300",
+"얼마나 중요한가요?"
+],
+"quiz_imp_legend": [
+"84ade0a753",
+"이 쟁점이 나에게 얼마나 중요합니까?"
+],
+"quiz_imp_legend_kid": [
+"6be145f244",
+"이것이 얼마나 중요한가요?"
+],
+"quiz_opts_legend": [
+"6143161b8b",
+"내 생각과 가장 가까운 답을 고르십시오"
+],
+"quiz_opts_legend_kid": [
+"d3f2845a9f",
+"제일 마음에 드는 답을 고르세요"
+],
+"quiz_skip_opt": [
+"470dec8f68",
+"잘 모르겠음 / 건너뛰기"
+],
+"quiz_skip_opt_kid": [
+"976d6f3cbd",
+"잘 모르겠음"
+],
+"quiz_who_answers": [
+"ec8ec6535a",
+"{name}의 답"
+],
+"quiz_who_turn_kid": [
+"abf614b791",
+"{name} 차례"
+],
+"quiz_your_answers": [
+"5cb44afe4d",
+"내 답"
+],
+"ranked_cands": [
+"cfe313b26c",
+"{riding} 선거구 후보"
+],
+"ranked_cands_kid": [
+"9d021161a7",
+"각 지역 후보가 얼마나 가까운지"
+],
+"ranked_cands_missing": [
+"05dfcf9fe8",
+"{riding} 선거구 후보 명단을 아직 불러오지 않아 후보 일치 결과가 없습니다."
+],
+"ranked_title": [
+"ce671ff259",
+"{count}개 정당 전체"
+],
+"ranked_title_kid": [
+"86210a5363",
+"각 정당이 얼마나 가까운지"
+],
+"reading_level": [
+"f445c6b6ff",
+"읽기 수준"
+],
+"reading_level_change": [
+"e622f5b08a",
+"읽기 수준 변경"
+],
+"record_label": [
+"9b5e24d4cd",
+"기록:"
+],
+"res_eyebrow": [
+"ea0e9d851d",
+"{place} | {date} 기준 자료"
+],
+"res_none_redo": [
+"c509c6b0d1",
+"질문에 답하기"
+],
+"res_none_text": [
+"1c3c5e4287",
+"모든 질문을 건너뛰어서 점수를 매길 것이 없습니다. 돌아가서 몇 가지 질문에 답하거나 처음부터 다시 시작하십시오."
+],
+"res_none_title": [
+"78f0c10d4e",
+"아직 비교할 답이 없습니다"
+],
+"res_title_close": [
+"1dd4273c42",
+"근소한 차이: {parties}"
+],
+"res_title_close_family": [
+"bffdf1294f",
+"가족 결과, 근소한 차이: {parties}"
+],
+"res_title_family": [
+"77c8fe5033",
+"가족의 답과 가장 가까움: {party}"
+],
+"res_title_named": [
+"359a40ce98",
+"{name}의 답과 가장 가까움: {party}"
+],
+"res_title_solo": [
+"12c34ca5ab",
+"내 답과 가장 가까움: {party}"
+],
+"res_title_split": [
+"47f904db1b",
+"가족의 답이 서로 다른 방향을 가리킵니다"
+],
+"res_title_split_kid": [
+"d9899f50e0",
+"가족이 서로 다른 것을 골랐습니다"
+],
+"reset_all": [
+"0ff3cf1f38",
+"모두 지우고 다시 시작"
+],
+"reset_desc": [
+"35837e96bb",
+"이 기기에서 모든 사람의 이름, 읽기 수준, 답을 지우고 시작 화면으로 돌아갑니다. 되돌릴 수 없습니다."
+],
+"reset_keep": [
+"c413e64e99",
+"내 답 유지"
+],
+"reset_title": [
+"a9a8095b4b",
+"모든 답을 지우고 다시 시작하시겠습니까?"
+],
+"result_2024_missing": [
+"e45e5482fc",
+"이 선거구의 2024년 결과는 아직 불러오지 않았습니다."
+],
+"result_2024_title": [
+"f0b7644d6a",
+"2024년 결과"
+],
+"riding_adds_local": [
+"22dde3bd6c",
+"선거구를 고르면 지역 질문이 추가되고 내 투표용지의 후보가 표시됩니다."
+],
+"riding_alts": [
+"6b288917e0",
+"이 우편번호는 {ridings} 선거구에도 걸쳐 있습니다. 그중 한 곳에 사시면 그곳을 고르십시오."
+],
+"riding_change": [
+"64fbd995d3",
+"변경"
+],
+"riding_choices": [
+"d7dbb3873c",
+"지금은 정확한 주소를 조회할 수 없습니다. 우편번호가 다음 선거구 중 한 곳에 속합니다. 해당 선거구를 고르십시오:"
+],
+"riding_choose": [
+"0db4abd414",
+"선거구를 고르십시오"
+],
+"riding_find": [
+"df251b06ee",
+"찾기"
+],
+"riding_geo": [
+"0132375d9a",
+"내 위치 사용"
+],
+"riding_intro": [
+"4ef465f13a",
+"선거구에 따라 보이는 지역 질문과 후보가 정해집니다. 우편번호는 선거구를 찾는 데만 쓰이며 저장되지 않습니다."
+],
+"riding_keep": [
+"588a20e541",
+"{riding} 유지"
+],
+"riding_list_label": [
+"84a439fcd5",
+"목록에서 선택"
+],
+"riding_looking": [
+"caf2da3c70",
+"선거구를 찾는 중..."
+],
+"riding_meta": [
+"ebe7c733a6",
+"{region}. {candidates}. {local}."
+],
+"riding_meta_local_one": [
+"83974a8170",
+"지역 질문 {n}개"
+],
+"riding_meta_local_other": [
+"04de62f812",
+"지역 질문 {n}개"
+],
+"riding_meta_nolocal": [
+"fe517eef68",
+"아직 지역 질문 없음"
+],
+"riding_parties_only": [
+"c4172927d1",
+"정당만"
+],
+"riding_parties_only_note": [
+"c7c9046440",
+"선거구를 고르지 않아 지역 질문과 후보가 없습니다."
+],
+"riding_pc_label": [
+"d7432cda8e",
+"우편번호"
+],
+"riding_skip": [
+"19fb4d9633",
+"건너뛰고 정당만 보기"
+],
+"riding_sources": [
+"fada69624c",
+"선거구 출처"
+],
+"riding_where": [
+"393e8ec53f",
+"어디에서 투표하십니까?"
+],
+"rl_aria": [
+"318fd8cd40",
+"{n}, {level}"
+],
+"scored_note": [
+"509167449c",
+"답 {total}개 중 {n}개로 점수 산정"
+],
+"scored_note_kid": [
+"fa30be74fb",
+"답 {total}개 중 {n}개 사용"
+],
+"see_results": [
+"e90d0209dc",
+"결과 보기"
+],
+"setup_count_legend": [
+"fd17bd0295",
+"몇 명이 답합니까?"
+],
+"setup_how": [
+"e9f34faab4",
+"최대 4명이 답할 수 있습니다. 차례로 하거나 한 화면에서 함께 하십시오."
+],
+"setup_lede_cands": [
+"246af451b1",
+"짧은 질문 {n}개에 답하십시오. 어느 정당과 어느 지역 후보가 내 답과 맞는지 볼 수 있습니다."
+],
+"setup_lede_noriding": [
+"ea83866b26",
+"짧은 질문 {n}개에 답하십시오. 어느 정당이 내 답과 맞는지 볼 수 있습니다. 선거구를 고르면 지역 질문과 후보가 추가됩니다."
+],
+"setup_lede_parties": [
+"77f3e019e8",
+"짧은 질문 {n}개에 답하십시오. 어느 정당이 내 답과 맞는지 볼 수 있습니다."
+],
+"setup_level_label": [
+"50fe74ce40",
+"질문을 어떤 수준으로 보시겠습니까?"
+],
+"setup_name_label": [
+"9c9f03a839",
+"이름(선택)"
+],
+"setup_sample": [
+"6b23c1f20a",
+"이 수준의 1번 질문"
+],
+"setup_saved_so_far": [
+"3fa7460149",
+"지금까지의 답이 저장되어 있습니다."
+],
+"setup_saves": [
+"c2dd5d7da5",
+"답은 진행하면서 이 브라우저에 저장됩니다. 언제든 탭을 닫고, 이 기기에서 다시 열면 이어서 할 수 있습니다."
+],
+"setup_time_group": [
+"7f56d0ae70",
+"그룹은 약 45분에서 한 시간 걸립니다. 어느 질문이든 건너뛸 수 있습니다."
+],
+"setup_time_solo": [
+"1a3a0346a4",
+"한 사람당 약 20분, 배경 설명을 읽으면 더 걸립니다. 어느 질문이든 건너뛸 수 있습니다."
+],
+"setup_title": [
+"0e7b5354a4",
+"내 생각과 가장 가까운 정당 알아보기"
+],
+"setup_welcome_back": [
+"4308f5ef22",
+"다시 오신 것을 환영합니다."
+],
+"share_eyebrow": [
+"7bfaf3e7a1",
+"사본 보관"
+],
+"share_opt": [
+"77328a8073",
+"내 답을 익명 합계에 추가합니다. 이름은 절대 보내지 않으며, 답, 읽기 수준, 선거구, 대략적인 위치(도시)만 보냅니다."
+],
+"share_title": [
+"3af1b88a6b",
+"결과 저장 또는 공유"
+],
+"since_2024": [
+"5bbd077cc3",
+"2024년 이후:"
+],
+"skip": [
+"3da474537a",
+"건너뛰기"
+],
+"skipped_every": [
+"35d01d4768",
+"모든 질문을 건너뛰었습니다."
+],
+"skipped_every_lc": [
+"eeb3a7d80b",
+"모든 질문을 건너뜀"
+],
+"skipped_lc": [
+"413a9328e5",
+"건너뜀"
+],
+"sources_label": [
+"ada52d888c",
+"출처:"
+],
+"split_banner": [
+"59bc5000b3",
+"가족의 답이 서로 다른 방향을 가리킵니다. 아래 평균은 모두를 합친 것이라 각자의 결과와 맞지 않을 수 있습니다."
+],
+"split_banner_kid": [
+"ce71ac1d8a",
+"가족이 서로 다른 것을 골랐습니다. 각 사람의 결과는 다음과 같습니다."
+],
+"split_tag": [
+"d0cbcbcd73",
+"결과가 다름"
+],
+"start_continue_together": [
+"6d4c8c0925",
+"함께 계속"
+],
+"start_continue_with": [
+"9c602b7a29",
+"{name} 차례 계속"
+],
+"start_over": [
+"51dd91dc98",
+"처음부터 다시"
+],
+"start_together": [
+"ed3c6e186d",
+"함께 시작"
+],
+"start_with": [
+"2a224bb405",
+"{name}부터 시작"
+],
+"text_adults_none": [
+"ea79a17b79",
+"읽기 수준 3~5로 답한 사람이 없습니다."
+],
+"text_adults_only": [
+"8bd66a7d2e",
+"읽기 수준 3~5만:"
+],
+"text_all_parties": [
+"307cbedcbf",
+"모든 정당:"
+],
+"text_all_parties_fam": [
+"c91670e33d",
+"모든 정당(전체 구성원):"
+],
+"text_answers": [
+"1a25dfd9fc",
+"답:"
+],
+"text_cand_note_none": [
+"bbc88f46fb",
+"소속 정당의 입장 사용"
+],
+"text_cand_note_one": [
+"6d0c1879cd",
+"소속 정당의 입장 사용, {region}의 지역 질문 {count}개는 두 배로 계산"
+],
+"text_cand_note_other": [
+"ba2f3e1e79",
+"소속 정당의 입장 사용, {region}의 지역 질문 {count}개는 두 배로 계산"
+],
+"text_cands_head": [
+"ab04ddd64a",
+"{riding} 후보({note}):"
+],
+"text_cands_missing": [
+"d5d0dcb988",
+"{riding}: 후보 명단을 아직 불러오지 않음."
+],
+"text_close": [
+"9c8f4f2565",
+"{who}: {list} 사이의 근소한 결과({points}포인트 이내)."
+],
+"text_close_cands": [
+"367e3e97e4",
+"{riding}: {list} 사이의 근소한 결과."
+],
+"text_closest": [
+"1ec1b8f101",
+"{who}: 가장 가까운 정당은 {party}({leader}), {pct}%."
+],
+"text_closest_cand": [
+"e6092c2c32",
+"{riding}: 가장 가까운 후보는 {name}({party}), {pct}%."
+],
+"text_drv": [
+"f1f25352bb",
+"일치 결과를 이끈 질문({second} 대비 {top} 우세):"
+],
+"text_drv_close": [
+"2253ae084b",
+"상위 두 정당을 가르는 질문({second} 대비 {top} 우세):"
+],
+"text_drv_line": [
+"22b0f8ef02",
+"{issue} (+{lead}포인트)"
+],
+"text_each_person": [
+"4544a618aa",
+"각 사람:"
+],
+"text_fam_avg_one": [
+"84b8ab5763",
+"가족 평균({n}명)"
+],
+"text_fam_avg_other": [
+"84b8ab5763",
+"가족 평균({n}명)"
+],
+"text_imp_high": [
+"28a79e4809",
+"[중요도 높음]"
+],
+"text_imp_low": [
+"44d8051f5f",
+"[중요도 낮음]"
+],
+"text_meta": [
+"0ed4513c40",
+"{riding} | {today} | {date} 기준 자료"
+],
+"text_no_answers": [
+"48e183ae1f",
+"아직 답이 없습니다."
+],
+"text_not_sure": [
+"a3c521827c",
+"잘 모르겠음 또는 건너뜀"
+],
+"text_others": [
+"c7d9f3a91a",
+"그 밖의 출마자, 점수 미산정: {list}."
+],
+"text_person_line": [
+"70baee2d7d",
+"{name}({level}): {list}"
+],
+"text_person_skipped": [
+"ec599049c8",
+"{name}: 모든 질문을 건너뜀"
+],
+"text_result": [
+"5faa59d4bc",
+"결과"
+],
+"text_split": [
+"08ac616ddc",
+"결과가 다름: 각 사람과 가장 가까운 정당이 서로 다릅니다({list}). 아래 가족 평균은 모두를 합친 것입니다."
+],
+"text_title": [
+"300f562041",
+"BC Vote Helper 2026 결과"
+],
+"tg_answer_legend": [
+"50f2228fb0",
+"{name}의 답"
+],
+"tg_answers_label": [
+"b12fcedc7b",
+"답"
+],
+"tg_count_one": [
+"e2c9a6d941",
+"함께, {n}명"
+],
+"tg_count_other": [
+"e2c9a6d941",
+"함께, {n}명"
+],
+"tg_imp_legend": [
+"c77f44984e",
+"{name}에게 얼마나 중요한지"
+],
+"tg_imp_short": [
+"a2ad7912eb",
+"중요도"
+],
+"tg_imp_short_kid": [
+"779db9a7c6",
+"관심"
+],
+"tg_people_head": [
+"7b76e6aaff",
+"모두 글자 하나를 고른 다음, 얼마나 중요한지 고르십시오."
+],
+"tg_people_head_kid": [
+"7739e27114",
+"모두 글자 하나를 고르고, 얼마나 중요한지 고르세요."
+],
+"tg_skip_kid": [
+"20c47c9167",
+"모름"
+],
+"where_communities": [
+"0531f8b6e8",
+"{communities}."
+],
+"where_it_is": [
+"cd3bb6eb0f",
+"위치"
+],
+"where_local_count": [
+"ad8ab0936c",
+"{region} 지역 질문: {n}개."
+],
+"where_no_local": [
+"9b3e1825cf",
+"{region}에는 아직 지역 질문이 없어, 이 선거구는 주 전체 질문만 사용합니다."
+],
+"where_part_of": [
+"fce95a36ca",
+"{region}에 속합니다."
+],
+"who_lives_here": [
+"1cbbbdf8cb",
+"주민 구성"
+],
+"who_province": [
+"f04c0279f2",
+"{who}, 주 전체"
+],
+"who_riding": [
+"7838aaefa3",
+"{who}, {riding}"
+],
+"who_same": [
+"66cf0bdf5d",
+"질문 {total}개 중 {n}개에서 같은 답"
+],
+"who_strip_label": [
+"2591546888",
+"각 사람과 가장 가까운 정당"
+],
+"your_data": [
+"48cd18dabc",
+"내 데이터"
+],
+"your_pick": [
+"e5af99dc3c",
+"내 선택"
+],
+"your_result": [
+"209d8db14d",
+"내 결과"
+],
+"your_riding": [
+"47c09604a0",
+"내 선거구"
+]
+}

@@ -1,0 +1,76 @@
+BC Vote Helper 2026: translation brief (read fully before translating)
+
+WHAT THIS IS
+A neutral, independent quiz for the British Columbia provincial election on Saturday, October 24, 2026
+(advance voting October 16 to 21). Voters answer 16 questions and see which party, and which candidate in
+their riding, is closest to their answers. Live at votebc.vinceroyer.ca. Readers include people with limited
+English, seniors, and new citizens voting for the first time in BC.
+
+LANGUAGES (code, write-system, community)
+  pa       Punjabi, Gurmukhi script. Plain modern Punjabi as read in Surrey and Abbotsford Punjabi media.
+           English loanwords that BC Punjabi speakers actually use are fine (ਟੈਕਸ, ਬਜਟ); avoid heavy
+           Sanskritised Hindi vocabulary.
+  zh-Hans  Simplified Chinese (Mandarin readers). Standard written Chinese, mainland conventions.
+  zh-Hant  Traditional Chinese for BC's Cantonese-reading community (mostly Hong Kong origin). Standard
+           written Chinese (not colloquial Cantonese), Hong Kong vocabulary where HK and Taiwan differ.
+           Use the established Canadian/HK names: BC = 卑詩省.
+  tl       Filipino/Tagalog as read by Filipino-Canadians. Keep natural Filipino grammar; common English
+           technical terms that Filipino readers use (tax, budget, SkyTrain) may stay in English.
+  fr       Canadian French (français canadien), OQLF conventions, « » quotes, Canadian terms
+           (circonscription, député provincial, vote par anticipation).
+  ru       Standard Russian, as read by Russian-speaking Canadians.
+  ko       Korean (Hangul), standard written Korean as read by Korean-Canadians in Metro Vancouver.
+           Polite neutral register (합니다/습니다 style for statements; questions addressed politely).
+  fa       Persian (Farsi), standard written Persian as read by Iranian-Canadians in Metro Vancouver.
+           Right-to-left text: write naturally; Latin names inside stay Latin. Use Persian digits
+           (۰۱۲۳۴۵۶۷۸۹) or Western digits, but keep every number's value; Gregorian dates only (October 24,
+           2026 = ۲۴ اکتبر ۲۰۲۶), never convert to the Solar Hijri calendar. Use Persian punctuation (، ؛ ؟).
+
+HARD RULES
+1. Meaning must be identical. Do not soften, strengthen, add or drop anything. This is political content and
+   every party must be described with the same care. Keep hedges and attributions exactly ("says", "promises",
+   "would", "plans to", "according to"). Keep negatives and conditions exactly.
+2. Numbers are copied exactly: every digit, percentage, dollar amount, year and count in the English must appear
+   in the translation with the same digits (write $1,050 as you like for the locale, e.g. 1 050 $ in French,
+   but the digits 1050 must be there). Do not convert units or round. Do not spell numbers as words where the
+   English uses digits.
+3. Five reading levels. Keys ending /1 to /5 are the same idea at five difficulty levels: /1 very short and
+   simple, everyday words; /5 full detail. Keep that difference. A /1 translation must be as simple as you can
+   make it in the target language; do not make /1 and /3 read alike.
+4. Names stay in Latin script exactly as written, because that is how they appear on the ballot: candidates,
+   leaders, ridings (electoral districts), cities, neighbourhoods, roads, hospitals, organisations, programs,
+   law and bill names (you may add a short translation after a law name in parentheses at levels 3-5 only).
+   Acronyms stay Latin: NDP, ICBC, PST, GST, DRIPA, UNDRIP, SOGI 123, BC Hydro, TransLink, SkyTrain, LNG, MLA
+   (MLA may be translated with the glossary term).
+5. Party names: use the glossary entry for your language (glossary.<lang>.json). Same name every time.
+6. NEVER use an em dash (U+2014) or the Chinese double dash (two U+2014 characters in a row). Use a comma, colon, parentheses or a new
+   sentence. No en dash as punctuation either.
+7. Chinese: full-width punctuation (，。：；（）「」 for zh-Hant, “” for zh-Hans). Space handling: no spaces
+   between Chinese characters; Latin names keep their own spaces.
+8. Plain text only. No Markdown, no HTML, no notes to the reader, no translator comments.
+9. Keep the tone neutral and factual. No marketing words. Do not explain BC politics beyond what the English says.
+
+FILE FORMAT
+Input: i18n/chunks/NN.en.json, a JSON object {key: English text}.
+Output: i18n/out/<lang>/NN.json, a JSON object with EXACTLY the same keys, each value the translated string.
+Write valid UTF-8 JSON (ensure_ascii off is fine). Never change or drop keys. If a value is a person's name
+only, copy it unchanged.
+After writing each file, validate it with:
+    python -I i18n_check.py <lang> NN
+and fix every error it reports before moving on. (The checker tests JSON validity, key match, digits, dashes
+and leftover English.)
+
+GLOSSARY
+i18n/glossary.<lang>.json holds the fixed terms (parties, riding, MLA, advance voting, reading levels, issue
+names, recurring policy terms). Read it before you start and use it consistently. If you meet a recurring term
+that is not in it, pick one rendering and keep using it.
+
+GENDER OF PEOPLE (added 22:24)
+Never guess a person's gender. Use the gender only when the English shows it for that person (he/she/his/her,
+or a gendered word) in this string or in another English string about the same person (search the chunks:
+grep the name in i18n/chunks/*.en.json). Known: Dallas Brodie, Tara Armstrong, Karin Kirkpatrick, Elenore
+Sturko and Carolyn Hofbauer are women; David Eby, Kevin Falcon, John Rustad, Trevor Bolin, Jagrup Brar and
+Garry Purewal are men. If the English gives no gender, write it so the grammar does not mark gender (Russian:
+present tense or noun phrases instead of gendered past-tense verbs; French: épicène wording; Punjabi: phrasing
+that avoids gendered verb endings, e.g. noun phrases like "ਸਾਬਕਾ ਅਧਿਆਪਕ"). For Punjabi, do not use the
+honorific masculine plural for a woman.

@@ -11,3 +11,7 @@ index.html
 .env*
 tests/.tmp/
 .dev.vars*
+i18n/chunks/
+i18n/out/
+i18n/review/
+deploy/

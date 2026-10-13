@@ -1,0 +1,26 @@
+GLOSSARY TASK (do this first, before translating anything)
+
+Write i18n/glossary.<lang>.json: a JSON object {English term: target-language rendering}. Cover at least:
+- The 5 scored parties, both forms: full name and short name as used in i18n/chunks/00.en.json
+  (BC New Democratic Party / BC NDP; Conservative Party of British Columbia / BC Conservatives;
+  BC Green Party / BC Greens; CentreBC; OneBC), plus minor parties listed in other_parties_note
+  (BC Libertarian, Communist, Christian Heritage, CanWest, Freedom, BC United). Use the name that community
+  media in BC actually use for that party in your language, if one is established; otherwise keep the Latin
+  name. CentreBC and OneBC are new; keep them in Latin unless a clear established rendering exists.
+- British Columbia / BC, Elections BC, riding / electoral district, MLA, Premier, Legislature, cabinet minister,
+  interim leader, incumbent, candidate, platform, voting day, advance voting, vote by mail, voter ID,
+  voting place, ballot, independent candidate, majority/minority government, dissolution.
+- The 5 reading levels: Simplest / Simple / Plain language / Informed / Expert, and their descriptions:
+  New to politics / Know the basics / Follow the news a bit / Follow politics / Want every detail.
+- The 6 regions: Surrey; Metro Vancouver; Fraser Valley; Vancouver Island and the Coast; Southern Interior;
+  North and Cariboo (place names stay Latin; translate only the generic words like "North", "Coast", "and").
+- Recurring policy terms: cost of living, deficit, carbon tax, consumer carbon tax, industrial carbon pricing,
+  basic personal amount, provincial sales tax (PST), rent control, vacancy control, non-market housing,
+  public health care, private clinics, emergency room (ER), family doctor, long-term care, decriminalization,
+  safe supply, involuntary (mandatory) care, Indigenous rights, UNDRIP / DRIPA, Aboriginal title, treaty,
+  SOGI 123, parental rights, tariffs, LNG, old-growth forest, Agricultural Land Reserve (ALR), $10-a-day
+  child care, ICBC / no-fault car insurance, proportional representation, extortion, Surrey Police Service,
+  RCMP, SkyTrain, TransLink, BC Ferries, wildfire, "not scored", "no published position".
+Where Elections BC publishes official material in your language (elections.bc.ca has multilingual voter
+information), prefer its terms; a quick web search is worth it for riding, advance voting and voter ID.
+Spend at most 10 minutes on research. Write the glossary file as soon as it is ready.

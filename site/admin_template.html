@@ -123,6 +123,9 @@ th { color: var(--ink-2); font-weight: 600; }
   /* Which region owns each local question */
   var QREG = {}; REGIONS.forEach(function (r) { (r.local_qids || []).forEach(function (q) { QREG[q] = r.id; }); });
   var NOT_GIVEN = "none";
+  /* Page language recorded with each session (NULL before languages were added) */
+  var LANG_NAMES = { en: "English", pa: "Punjabi", "zh-Hans": "Chinese (Simplified)", "zh-Hant": "Chinese (Traditional)", tl: "Tagalog", fr: "French", ru: "Russian", ko: "Korean", fa: "Persian (Farsi)" };
+  function langLabel(c) { return c ? LANG_NAMES[c] || c : "Not given"; }
   var DATA = null;
 
   function el(id) { return document.getElementById(id); }
@@ -322,21 +325,24 @@ th { color: var(--ink-2); font-weight: 600; }
       var c = (s.city || "Unknown") + (s.region_code ? ", " + s.region_code : ""); cities[c] = (cities[c] || 0) + s.count;
     });
     function topList(obj, k) { return Object.keys(obj).sort(function (a, b) { return obj[b] - obj[a]; }).slice(0, k).map(function (x) { return { label: x, v: obj[x] }; }); }
+    var langs = {};
+    f.subs.forEach(function (s) { var l = langLabel(s.lang); langs[l] = (langs[l] || 0) + s.count; });
     html += '<div class="grid">';
     html += '<div class="card"><h2>Reading level</h2>' + barRows(SPEC.levels.map(function (L) { return { label: L.id + ". " + L.label, v: lv[L.id] || 0 }; }), n) + "</div>";
     html += '<div class="card"><h2>Province</h2>' + barRows(topList(regions, 8), n) + "</div>";
+    html += '<div class="card"><h2>Language</h2><p class="muted small">Page language when the answers were sent, counted per person.</p>' + barRows(topList(langs, 12), n) + "</div>";
     html += '<div class="card"><h2>Top cities</h2><p class="muted small">From Cloudflare IP location, approximate.</p>' + barRows(topList(cities, 12), n) + "</div>";
     html += "</div><div style=\"height:16px\"></div>";
 
     /* recent sessions */
     var recent = f.subs.slice().sort(function (a, b) { return b.created_at < a.created_at ? -1 : 1; }).slice(0, 60);
     var pBySid = {}; P.forEach(function (p) { (pBySid[p.sid] = pBySid[p.sid] || []).push(p); });
-    html += '<div class="card"><h2>Recent sessions</h2><p class="muted small">Tick test runs or junk and delete them. This cannot be undone.</p><div class="scroll"><table><thead><tr><th></th><th>When</th><th>People</th><th>Where</th><th>Riding</th><th>Best match per person</th></tr></thead><tbody>' +
+    html += '<div class="card"><h2>Recent sessions</h2><p class="muted small">Tick test runs or junk and delete them. This cannot be undone.</p><div class="scroll"><table><thead><tr><th></th><th>When</th><th>People</th><th>Where</th><th>Riding</th><th>Language</th><th>Best match per person</th></tr></thead><tbody>' +
       recent.map(function (s) {
         var ppl = (pBySid[s.sid] || []).sort(function (a, b) { return a.idx - b.idx; });
         return '<tr><td><input type="checkbox" class="del" value="' + esc(s.sid) + '" aria-label="Select session"></td><td>' +
           esc(new Date(s.created_at).toLocaleString("en-CA", { dateStyle: "short", timeStyle: "short" })) + "</td><td>" + s.count + "</td><td>" +
-          esc([s.city, s.region_code].filter(Boolean).join(", ") || "-") + "</td><td>" + esc(ridingLabel(s.riding)) + "</td><td>" +
+          esc([s.city, s.region_code].filter(Boolean).join(", ") || "-") + "</td><td>" + esc(ridingLabel(s.riding)) + "</td><td>" + esc(langLabel(s.lang)) + "</td><td>" +
           ppl.map(function (p) { return "L" + p.level + ": " + p.top.map(function (id) { return esc(PBY[id].short_name || PBY[id].name); }).join(" / "); }).join("; ") + "</td></tr>";
       }).join("") + '</tbody></table></div><p><button type="button" class="danger" id="del-btn">Delete selected</button> <span class="small muted" id="del-msg"></span></p></div>';
 

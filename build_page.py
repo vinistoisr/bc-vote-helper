@@ -5,15 +5,28 @@ spec and the logos into <script type="application/json"> blocks, and writes
 index.html (the claude.ai Artifact page). Re-run after any spec change:
 
     python -I build_page.py
+
+Languages: i18n/ui.en.json holds the page's English UI strings (embedded in both builds).
+i18n/<lang>.ui.json and i18n/<lang>.spec.json hold translations as {key: [src_hash, text]}; only
+entries whose hash matches the current English count. Each language becomes one bundle
+{ui: {key: text}, spec: {path: text}}: inline <script> blocks in index.html (the artifact cannot
+load extra files), and site/public/i18n/<lang>.json on the website, fetched when chosen.
+Languages with no translated strings are left out and hidden from the language picker.
 """
 import base64
+import hashlib
+import html as htmllib
 import json
 import pathlib
+import re
 import shutil
 import struct
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+import i18n_strings  # noqa: E402  (same folder; python -I leaves it off sys.path)
+
 TEMPLATE = ROOT / "template.html"
 SPEC = ROOT / "quiz_spec.json"
 LOGOS = ROOT / "logos" / "logos_datauri.json"
@@ -22,6 +35,14 @@ OUT = ROOT / "index.html"
 SPEC_MARK = "/*__SPEC__*/"
 LOGO_MARK = "/*__LOGOS__*/"
 BUILD_MARK = "/*__BUILD__*/"
+UI_MARK = "/*__UI_EN__*/"
+BUNDLES_MARK = "<!--__I18N_BUNDLES__-->"
+NOSCRIPT_MARK = "<!--__NOSCRIPT__-->"
+# <html lang> / dir per language code (matches LANGS in template.html)
+HTML_LANG = {"pa": "pa", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "tl": "tl", "fr": "fr-CA", "ru": "ru", "ko": "ko", "fa": "fa"}
+RTL = {"fa"}
+EM_DASH = chr(0x2014)
+PH_RE = re.compile(r"\{[a-z0-9_]+\}")
 
 
 def safe_json(obj):
@@ -33,6 +54,69 @@ def safe_json(obj):
         .replace("&", "\\u0026")
         .replace(chr(0x2028), "\\u2028")
         .replace(chr(0x2029), "\\u2029")
+    )
+
+
+def load_i18n(spec):
+    """(English UI strings, {lang: bundle}) with per-language coverage printed. Bad entries are dropped with a note."""
+    en = i18n_strings.ui_source()
+    if not en:
+        sys.exit("i18n/ui.en.json is missing")
+    for k, v in en.items():
+        if not isinstance(v, str):
+            sys.exit(f"ui.en.json: {k} is not a string")
+        if EM_DASH in v:
+            sys.exit(f"em dash found in ui.en.json ({k})")
+        for ph in re.findall(r"\{([^}]*)\}", v):
+            if not re.fullmatch(r"[a-z0-9_]+", ph):
+                sys.exit(f"ui.en.json: bad placeholder {{{ph}}} in {k}")
+    src = i18n_strings.strings(spec)
+    bundles = {}
+    print(f"languages (UI {len(en)} strings, spec {len(src)} strings):")
+    for lang in i18n_strings.LANGS:
+        ui, ui_stale = i18n_strings.ui_overlay(en, i18n_strings.load_ui(lang))
+        sp, sp_stale = i18n_strings.spec_overlay(src, i18n_strings.load_lang(lang))
+        dropped = 0
+        for k, v in list(ui.items()):
+            want = sorted(PH_RE.findall(i18n_strings.ui_src_text(k, en)))
+            if EM_DASH in v or sorted(PH_RE.findall(v)) != want:
+                del ui[k]
+                dropped += 1
+        for k, v in list(sp.items()):
+            if EM_DASH in v:
+                del sp[k]
+                dropped += 1
+        ui_n = sum(1 for k in ui if k in en)
+        note = f"  dropped {dropped} (em dash or placeholders)" if dropped else ""
+        if ui or sp:
+            bundles[lang] = {"ui": ui, "spec": sp}
+            print(f"  {lang:8} ui {ui_n:4}/{len(en)} ({100 * ui_n / len(en):5.1f}%)  spec {len(sp):5}/{len(src)} ({100 * len(sp) / max(1, len(src)):5.1f}%)  stale ui {ui_stale}, spec {sp_stale}{note}")
+        else:
+            print(f"  {lang:8} no translations yet: hidden{note}")
+    return en, bundles
+
+
+def noscript_html(en, bundles):
+    """The no-JavaScript notice in English and every bundled language (the page cannot pick one without JavaScript)."""
+    out = ['<p class="notice">' + htmllib.escape(en["noscript"]) + "</p>"]
+    for lang, b in bundles.items():
+        msg = b["ui"].get("noscript")
+        if msg:
+            d = ' dir="rtl"' if lang in RTL else ""
+            out.append(f'<p class="notice" lang="{HTML_LANG.get(lang, lang)}"{d}>' + htmllib.escape(msg) + "</p>")
+    return "".join(out)
+
+
+def fill(template, spec, logos, info, en, inline_bundles, noscript):
+    blocks = "".join(f'<script type="application/json" id="bcvh-i18n-{lang}">{safe_json(b)}</script>\n' for lang, b in inline_bundles.items())
+    return (
+        template.replace(SPEC_MARK, safe_json(spec))
+        .replace(LOGO_MARK, safe_json(logos))
+        .replace(BUILD_MARK, safe_json(info))
+        .replace(UI_MARK, safe_json(en))
+        .replace(BUNDLES_MARK + "\n", blocks)
+        .replace(BUNDLES_MARK, blocks)
+        .replace(NOSCRIPT_MARK, noscript)
     )
 
 
@@ -61,18 +145,25 @@ FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox
            "%3Cpath d='M20 33l9 9 16-18' stroke='%23F7F9F9' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
 
 
-def build_site(template, spec, logos, build_info):
+def build_site(template, spec, logos, build_info, en, bundles):
     """Write site/public/ for votebc.vinceroyer.ca: the same page in a full document, plus the admin dashboard."""
     import html
-    import re
 
-    info = dict(build_info, collect=True)
+    # Language bundles are separate files, fetched only when a reader picks that language
+    pub = SITE_DIR / "public"
+    i18n_dir = pub / "i18n"
+    i18n_dir.mkdir(parents=True, exist_ok=True)
+    versions = {}
+    for lang, b in bundles.items():
+        text = json.dumps(b, ensure_ascii=False, separators=(",", ":"))
+        (i18n_dir / f"{lang}.json").write_text(text, encoding="utf-8", newline="\n")
+        versions[lang] = hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
+    for old in i18n_dir.glob("*.json"):
+        if old.stem not in bundles:
+            old.unlink()
+    info = dict(build_info, collect=True, langs=list(bundles), i18n_base="/i18n/", i18n_v=versions)
     party_ids = [p["id"] for p in spec["parties"]]
-    body = (
-        template.replace(SPEC_MARK, safe_json(spec))
-        .replace(LOGO_MARK, safe_json(logos))
-        .replace(BUILD_MARK, safe_json(info))
-    )
+    body = fill(template, spec, logos, info, en, {}, noscript_html(en, bundles))
     m = re.match(r"\s*<title>(.*?)</title>\s*", body, re.S)
     if not m:
         sys.exit("template must start with <title>")
@@ -113,7 +204,6 @@ def build_site(template, spec, logos, build_info):
         "<style>*,*::before,*::after{box-sizing:border-box}html,body{margin:0;padding:0}</style>"
         "</head><body>"
     )
-    pub = SITE_DIR / "public"
     (pub / "admin").mkdir(parents=True, exist_ok=True)
     (pub / "index.html").write_text(head + body + "</body></html>", encoding="utf-8", newline="\n")
     shutil.copyfile(ROOT / "assets" / "og.png", pub / "og.png")  # link preview, drawn by make_og.py
@@ -167,7 +257,8 @@ def build_site(template, spec, logos, build_info):
         "data_as_of": spec["meta"].get("data_as_of"),
     }
     (SITE_DIR / "src" / "spec_valid.json").write_text(json.dumps(valid, separators=(",", ":")), encoding="utf-8")
-    print(f"wrote site/public (index {(pub / 'index.html').stat().st_size / 1024:.0f} KB, admin) and site/src/spec_valid.json")
+    sizes = ", ".join(f"{lang} {(i18n_dir / (lang + '.json')).stat().st_size / 1024:.0f} KB" for lang in bundles)
+    print(f"wrote site/public (index {(pub / 'index.html').stat().st_size / 1024:.0f} KB, admin, i18n: {sizes or 'none'}) and site/src/spec_valid.json")
 
 
 def check_ridings(spec):
@@ -224,7 +315,7 @@ def main():
 
     check_ridings(spec)
 
-    for mark in (SPEC_MARK, LOGO_MARK):
+    for mark in (SPEC_MARK, LOGO_MARK, UI_MARK, BUNDLES_MARK, NOSCRIPT_MARK):
         if template.count(mark) != 1:
             sys.exit(f"template must contain {mark} exactly once")
 
@@ -238,14 +329,13 @@ def main():
         "questions": len(spec["questions"]),
         "parties": len(spec["parties"]),
     }
-    page = (
-        template.replace(SPEC_MARK, safe_json(spec))
-        .replace(LOGO_MARK, safe_json(logos))
-        .replace(BUILD_MARK, safe_json(build_info))
-    )
+    en, bundles = load_i18n(spec)
+    # The artifact carries every bundle inline
+    art_info = dict(build_info, langs=list(bundles))
+    page = fill(template, spec, logos, art_info, en, bundles, noscript_html(en, bundles))
     OUT.write_text(page, encoding="utf-8", newline="\n")
 
-    build_site(template, spec, logos, build_info)
+    build_site(template, spec, logos, build_info, en, bundles)
 
     head = page[:8192]
     if "<title>" not in head:

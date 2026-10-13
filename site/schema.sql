@@ -9,7 +9,8 @@ CREATE TABLE IF NOT EXISTS submissions (
   region_code TEXT,
   city TEXT,
   data_as_of TEXT,               -- spec version the answers were given against
-  riding TEXT                    -- 3-letter riding code (V2), NULL when not given; never a postal code
+  riding TEXT,                   -- 3-letter riding code (V2), NULL when not given; never a postal code
+  lang TEXT                      -- page language (en, pa, zh-Hans, zh-Hant, tl, fr, ru, ko, fa); NULL for older rows
 );
 CREATE INDEX IF NOT EXISTS submissions_created ON submissions (created_at);
 CREATE INDEX IF NOT EXISTS submissions_riding ON submissions (riding);

@@ -73,7 +73,34 @@ Rules used for scoring:
 - **Neutral wording:** each option is written the way its supporters would put it. The language rules are in `meta.language_rules` in the spec.
 - **One top score per party:** each party has exactly one option scored 4 on every question where it has a position, so the number of options written for a party gives it no head start.
 
+### How sources are chosen
+
+Every source is sorted into one of three tiers. [`audit_sources.py`](audit_sources.py) holds the lists and runs before each build.
+
+- **Tier 1, primary:** the party's or candidate's own website, platform and news releases; BC government and budget pages; the Legislature (Hansard, votes, bills); Elections BC; BC Laws; Statistics Canada; poll firms' own releases for poll numbers.
+- **Tier 2, news:** established outlets with editors and a corrections policy, such as CBC, CTV, Global, The Canadian Press (including copies on other sites), the Vancouver Sun, Times Colonist, The Tyee, The Narwhal, BIV and BC community papers.
+- **Tier 3, extra reading only:** Wikipedia, election aggregator sites, opinion columns and blogs, advocacy groups, partisan outlets and social media posts. These may be listed next to a better source, but never as the only support for a party position, a candidate bio or a voting rule.
+
+The build fails if any party position, party profile or candidate bio has no Tier 1 or Tier 2 source, if a voting rule cites anything other than Elections BC, or if a source comes from a site not yet sorted into a tier. `python -I audit_sources.py --links` also checks every link and lists dead ones.
+
+### Keeping it current
+
+Parties are still announcing promises. Party news pages and the Elections BC candidate list are checked several times a day until voting day. A new announcement changes a position only after it is confirmed on the party's own site or in a Tier 2 outlet. Every change is a commit in this repository, and the date at the top of the quiz shows when the positions were last checked.
+
 The question design, the judgment calls and the audit history are in [`design_notes.md`](design_notes.md). [`audit_scoring.py`](audit_scoring.py) checks schema completeness, an ideal-voter test (each party's own answers must put it first by a clear margin), random-voter bias, how well each question separates the parties, how distinct each pair of parties is, the local formula, and how far the low-confidence and inferred scores move results.
+
+## Languages
+
+The site is available in English, Punjabi (ਪੰਜਾਬੀ), Simplified Chinese (简体中文), Traditional Chinese (繁體中文), Tagalog, French (Français), Russian (Русский), Korean (한국어) and Persian (فارسی, shown right to left). Pick a language from the menu at the top of the page, or add `?lang=` to the address (for example `votebc.vinceroyer.ca/?lang=pa`). On a first visit the site uses your browser's language if it is one of these.
+
+How the translations were made:
+
+- An AI assistant (Anthropic's Claude) translated the questions, answer options, party positions, candidate bios and page text at all five reading levels, following a written brief ([`i18n/BRIEF.txt`](i18n/BRIEF.txt)) and a glossary for each language. Names of people, ridings and places stay in English, as they appear on the ballot.
+- A script ([`i18n_check.py`](i18n_check.py)) checks every string: the numbers must have the same values as the English, placeholders must match, the text must be in the right script, and nothing may be left out.
+- A second AI model (OpenAI's Codex) then compared every translated string with the English and flagged changed meaning, wrong numbers and wording that treats a party differently from the English. Those fixes were applied ([`i18n_review.py`](i18n_review.py)).
+- No native speaker has reviewed the translations yet. The English version is the reference, and every other language says so at the top of the page. Corrections from fluent readers are welcome as GitHub issues.
+
+Scores do not depend on the language: each answer option has the same score in every language. Each translated string stores a fingerprint of the English it was made from. When the English changes, that string shows in English until it is translated again.
 
 ## Authorship and AI use
 
@@ -81,13 +108,13 @@ Vincent Royer built this as a side project, first for his own family, then opene
 
 The research, the position summaries, the 0 to 4 scores and the code were produced with an AI assistant (Anthropic's Claude), working from the sources listed below. Separate AI review passes checked the scores against the sources, the wording for loaded language, and the scoring for bias. Automated browser tests check the site. Vincent reviewed the questions, the wording and the results. He did not re-read all 600+ sources himself, which is why every score has a source and a written rationale here for anyone to check.
 
-Data as of October 12, 2026. Parties are still announcing promises, and the leaders' debates are on October 13 and 14. Positions will be rechecked after the debates, and every change will show in this repository's history.
+Data as of October 12, 2026. Parties are still announcing promises, and the televised leaders' debate is on October 14. Positions will be rechecked after the debate, and every change will show in this repository's history.
 
 ## Privacy
 
 - No accounts, names, email addresses or tracking cookies. Cloudflare Web Analytics counts visits without cookies. Fonts and scripts are served from this site, so no other company sees your visit. Your progress is saved in your own browser, so a reload keeps your answers.
 - Your postal code is used to find your riding and then discarded. The server looks it up with Open North's Represent service, which receives the postal code from the server and never sees your IP address. When Represent is busy or slow, the server answers from its own postal code table instead. The postal code is never stored or logged; request logging is off on the server for this reason. Only the riding code is kept.
-- With the "share my answers anonymously" box ticked, the site stores your answers, reading level, riding, and the city and province Cloudflare reports for the connection. No IP address is stored. The IP is used only as a counter key for rate limits.
+- With the "share my answers anonymously" box ticked, the site stores your answers, reading level, riding, page language, and the city and province Cloudflare reports for the connection. No IP address is stored. The IP is used only as a counter key for rate limits.
 - Shared answers feed anonymous totals on a private dashboard that only the site owner can open (behind Cloudflare Access).
 - All shared answers are deleted automatically on November 23, 2026, 30 days after the election. The cutoff is `DELETE_AFTER` in the Worker config, and a daily scheduled job in [`site/src/worker.js`](site/src/worker.js) runs the delete.
 - The quiz is open to visitors connecting from Canada.
@@ -105,10 +132,13 @@ The server code is [`site/src/worker.js`](site/src/worker.js) and the database s
 | `geo/` | Riding list and boundaries, the Elections BC candidate list, per-region candidate research and local-issue research |
 | `research/` | The platform research report and notes (October 9 to 10, 2026) the province-wide positions were written from |
 | `template.html` | The app: layout, scoring, results, PDF |
-| `build_page.py` | Puts the spec into the template and writes the site to `site/public/` |
+| `build_page.py` | Puts the spec into the template and writes the site to `site/public/`, with one translation file per language in `site/public/i18n/` |
+| `i18n/` | Translations: `ui.en.json` (page text in English), `<lang>.spec.json` and `<lang>.ui.json` (translations, each tied to a fingerprint of its English source), a glossary per language, and the translation brief |
+| `i18n_strings.py`, `i18n_check.py`, `i18n_review.py`, `i18n_merge.py` | Extract the text to translate, check translations, run the second-model review, merge translations into the files the build reads |
 | `site/src/worker.js` | Cloudflare Worker: serves the page, riding lookup, anonymous answer storage, private dashboard API |
 | `site/admin_template.html` | Private results dashboard |
 | `audit_scoring.py`, `sim_random_voters.py`, `check_local_lengths.py` | Bias and quality checks |
+| `audit_sources.py` | Source tier check and link check |
 | `gen_sources.py` | Writes the source list below from `quiz_spec.json` |
 | `tests/` | Browser tests (Playwright) |
 | `make_og.py` | Draws the link-preview image |
@@ -120,13 +150,16 @@ The server code is [`site/src/worker.js`](site/src/worker.js) and the database s
 python -I merge_ridings.py      # only if candidate data changed
 python -I build_spec.py         # spec_parts/ -> quiz_spec.json, with validation
 python -I audit_scoring.py      # bias checks
+python -I audit_sources.py      # source tiers (add --links to check every link)
+python -I i18n_strings.py extract   # list the English text to translate
+python -I i18n_strings.py status    # per language: translated, out of date, missing
 python -I build_page.py         # writes site/public/
 python -I gen_sources.py        # refreshes the source list in this README
 ```
 
 ### Deploy
 
-To run your own copy on Cloudflare: copy `site/wrangler.example.toml` to `site/wrangler.toml`, fill in your D1 database id, domain and Cloudflare Access values, run `site/schema.sql` on the database, then run `npx wrangler deploy` from `site/`.
+To run your own copy on Cloudflare: copy `site/wrangler.example.toml` to `site/wrangler.toml`, fill in your D1 database id, domain and Cloudflare Access values, run `site/schema.sql` on the database, then run `npx wrangler deploy` from `site/`. A database created before the languages were added also needs `site/migrate_i18n.sql`.
 
 ## Sources
 
