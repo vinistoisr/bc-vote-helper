@@ -18,3 +18,16 @@ Method: each postal code point is placed in the riding that contains it (BC Albe
 A point within 150 m (urban codes) or 5 km (rural codes, second character 0) of another riding also lists that riding.
 For a postal code the table does not know, the page offers the ridings of its first 3 characters (forward sortation area)
 that hold at least 2% of that area's postal codes. Check: 40 of 40 random BC postal codes matched Represent (2026-10-12).
+
+Admin map base layers (built by build_basemap.py into site/public/geo/basemap.json; inputs in geo/basemap/raw/, not committed)
+
+4. Land and coastline: OpenStreetMap simplified land polygons, EPSG:3857, https://osmdata.openstreetmap.de/download/simplified-land-polygons-complete-3857.zip
+   Licence: Open Database License (ODbL), credit "(c) OpenStreetMap contributors". Fetched 2026-10-13. Clipped to 140.5 W to 112.5 W, 47 N to 61 N.
+   The riding shapes run out into the sea; the admin map draws this land under them and clips them to it.
+
+5. Lakes and rivers: Natural Earth 1:10m lakes, lakes (North America), rivers and lake centerlines, rivers (North America),
+   https://github.com/nvkelso/natural-earth-vector/tree/master/geojson (public domain). Fetched 2026-10-13.
+
+6. Place names: GeoNames cities1000.zip (places with 1,000+ people), https://download.geonames.org/export/dump/
+   Licence: Creative Commons Attribution 4.0 (credit: GeoNames). Fetched 2026-10-13. BC towns and cities only (feature codes
+   PPL, PPLA to PPLA4, PPLC); neighbourhood entries are left out. Water, island and neighbour names are placed by hand in build_basemap.py.

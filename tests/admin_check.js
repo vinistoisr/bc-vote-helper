@@ -30,15 +30,17 @@ for (let s = 0; s < 30; s++) {
     await p.route("**/api/admin/data", r => r.fulfill({ contentType: "application/json", body: JSON.stringify({ generated_at: new Date().toISOString(), submissions: subs, people }) }));
     await p.route("**/api/admin/delete", r => { deleted = JSON.parse(r.request().postData()); r.fulfill({ contentType: "application/json", body: '{"ok":true}' }); });
     await p.route("**/geo/eds.json", r => r.fulfill({ contentType: "application/json", body: fs.readFileSync(REPO_ROOT + "/site/public/geo/eds.json", "utf8") }));
+    await p.route("**/geo/basemap.json", r => r.fulfill({ contentType: "application/json", body: fs.readFileSync(REPO_ROOT + "/site/public/geo/basemap.json", "utf8") }));
     await p.goto("http://127.0.0.1:8799/admin/");
     await p.waitForSelector(".kpi");
     ok(w + " kpi people", (await p.textContent(".kpi b")) === String(people.length), await p.textContent(".kpi b"));
     ok(w + " all spec questions listed (" + Object.keys(valid.questions).length + ")", (await p.locator(".q").count()) === Object.keys(valid.questions).length);
     // Map: every riding drawn, the ridings with responses coloured, the rest marked as no data
-    await p.waitForSelector("#map-svg path");
-    ok(w + " map draws 93 ridings", (await p.locator("#map-svg path").count()) === 93);
+    await p.waitForSelector("#map-g path");
+    ok(w + " map draws 93 ridings", (await p.locator("#map-g path").count()) === 93);
     const withRiding = new Set(subs.filter((s) => s.riding).map((s) => s.riding)).size;
-    ok(w + " map colours the " + withRiding + " ridings with responses", (await p.locator("#map-svg path:not(.nodata)").count()) === withRiding, String(await p.locator("#map-svg path:not(.nodata)").count()));
+    ok(w + " map colours the " + withRiding + " ridings with responses", (await p.locator("#map-g path:not(.nodata)").count()) === withRiding, String(await p.locator("#map-g path:not(.nodata)").count()));
+    ok(w + " map draws land, lakes, rivers and names", (await p.locator("#map-svg .land").count()) === 1 && (await p.locator("#map-svg .lakes").count()) === 1 && (await p.locator("#map-labels text").count()) > 100);
     // Questions collapse to one line each and open on demand
     ok(w + " questions start closed", (await p.$$eval("details.q", (ds) => ds.filter((d) => !d.open).length)) === Object.keys(valid.questions).length);
     await p.selectOption("#f-who", "kids");
