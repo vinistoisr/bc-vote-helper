@@ -1,0 +1,1158 @@
+{
+ "group": "surrey",
+ "as_of": "2026-10-12",
+ "candidate_total": 47,
+ "sources_checked": [
+  {
+   "label": "Elections BC 2026 candidate list",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+  },
+  {
+   "label": "Elections BC 2026 candidate list (CSV)",
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+  },
+  {
+   "label": "Elections BC Statement of Votes 2024",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+  },
+  {
+   "label": "BC Election Guide (riding pages with official 2024 results)",
+   "url": "https://bcelectionguide.ca/ridings/"
+  },
+  {
+   "label": "BC Election Guide candidates index (links to party pages)",
+   "url": "https://bcelectionguide.ca/candidates/"
+  },
+  {
+   "label": "Surrey Now-Leader: final list of 47 candidates in 10 Surrey ridings",
+   "url": "https://surreynowleader.com/2026/10/04/see-the-final-list-of-47-candidates-in-10-surrey-ridings-for-b-c-election/"
+  },
+  {
+   "label": "Surrey Now-Leader: who's running in Surrey ridings and what happened last election",
+   "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+  },
+  {
+   "label": "Surrey Now-Leader: Conservative candidates named in all 10 Surrey ridings",
+   "url": "https://surreynowleader.com/2026/09/29/conservative-candidates-named-in-all-10-surrey-ridings-for-b-c-election/"
+  },
+  {
+   "label": "Surrey Now-Leader: meet the candidates in Surrey-Cloverdale",
+   "url": "https://surreynowleader.com/2026/10/08/bc-votes-meet-the-candidates-in-surrey-cloverdale/"
+  },
+  {
+   "label": "Surrey Now-Leader: meet your Surrey North candidates",
+   "url": "https://surreynowleader.com/2026/10/09/b-c-votes-meet-your-surrey-north-candidates/"
+  },
+  {
+   "label": "Surrey Now-Leader: new candidates announced for Surrey-White Rock",
+   "url": "https://surreynowleader.com/2026/10/02/new-election-candidates-announced-for-surrey-white-rock/"
+  },
+  {
+   "label": "Wikipedia: Candidates of the 2026 British Columbia general election (lead only)",
+   "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia riding pages (2024 results cross-check, MLA changes)",
+   "url": "https://en.wikipedia.org/wiki/Surrey-Fleetwood"
+  },
+  {
+   "label": "Wikipedia: Brent Chapman",
+   "url": "https://en.wikipedia.org/wiki/Brent_Chapman"
+  },
+  {
+   "label": "Wikipedia: Linda Hepner",
+   "url": "https://en.wikipedia.org/wiki/Linda_Hepner"
+  },
+  {
+   "label": "Wikipedia: Trevor Halford",
+   "url": "https://en.wikipedia.org/wiki/Trevor_Halford"
+  },
+  {
+   "label": "Wikipedia: Elenore Sturko",
+   "url": "https://en.wikipedia.org/wiki/Elenore_Sturko"
+  },
+  {
+   "label": "Wikipedia: Jagrup Brar",
+   "url": "https://en.wikipedia.org/wiki/Jagrup_Brar"
+  },
+  {
+   "label": "Castanet: five return to BC Conservative caucus",
+   "url": "https://www.castanetkamloops.net/news/BC/631916/Five-return-to-BC-Conservative-caucus-as-early-election-looms"
+  },
+  {
+   "label": "Daily Hive: Brent Chapman drops out of race",
+   "url": "https://dailyhive.com/vancouver/bc-mla-brent-chapman-drops-out-surrey"
+  },
+  {
+   "label": "Western Standard: OneBC says Brent Chapman will not run in Surrey South",
+   "url": "https://www.westernstandard.news/bc/onebc-says-brent-chapman-will-not-run-in-surrey-south/77571"
+  },
+  {
+   "label": "BC Greens candidate pages",
+   "url": "https://bcgreens.ca/candidates-2026/"
+  },
+  {
+   "label": "CentreBC candidate pages",
+   "url": "https://www.centrebc.ca/candidates/"
+  },
+  {
+   "label": "BC NDP candidate sites (name.bcndp.ca)",
+   "url": "https://www.bcndp.ca/"
+  },
+  {
+   "label": "Conservative Party of BC candidate pages",
+   "url": "https://conservativebc.ca/candidate/"
+  }
+ ],
+ "gaps": [
+  "No biography found for OneBC candidates Oliver Wildfong, Carolyn Hofbauer, Todd Holowchak, Amanda James (OneBC site returned no content), nor for independents Jag Bhandari, James Yaroshuk, Denis R Hurtubise.",
+  "Neighbourhood lists for Surrey-Fleetwood, Surrey-Panorama, Surrey-Serpentine River and Surrey-Newton are thin; sources name few or no neighbourhoods.",
+  "Elections BC Statement of Votes PDF text extraction was scrambled; 2024 numbers come from BC Election Guide (which cites it) and were cross-checked against the PDF's valid-vote totals and Wikipedia. Small differences with Wikipedia (1 to 2 votes) are noted per riding."
+ ],
+ "ridings": [
+  {
+   "code": "SRC",
+   "name": "Surrey City Centre",
+   "communities": "Surrey City Centre (the Whalley core), the King George Boulevard corridor; southern boundary at 96 Avenue",
+   "result_2024": {
+    "winner": "Amna Shah",
+    "party": "ndp",
+    "margin_votes": 232,
+    "votes": {
+     "ndp": 6726,
+     "conservative": 6494,
+     "green": 877,
+     "independent": 160,
+     "communist": 147
+    },
+    "valid_votes": 14404,
+    "shares": {
+     "ndp": 46.7,
+     "conservative": 45.08,
+     "green": 6.09,
+     "independent": 1.11,
+     "communist": 1.02
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-city-centre/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Surrey Now-Leader reports Shah won after a recount. Wikipedia shows slightly different (pre-recount) counts; the Elections BC Statement of Votes figures are used here."
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Amna Shah",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2024; previously worked on affordable housing policy with the provincial housing ministry and served on the Surrey Food Bank board of directors.",
+     "sources": [
+      {
+       "label": "Amna Shah campaign page",
+       "url": "https://amnashah.bcndp.ca"
+      },
+      {
+       "label": "Surrey Now-Leader: final list of 47 candidates",
+       "url": "https://surreynowleader.com/2026/10/04/see-the-final-list-of-47-candidates-in-10-surrey-ridings-for-b-c-election/"
+      }
+     ]
+    },
+    {
+     "name": "Raman Sharma",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Surrey construction-industry entrepreneur; founded and presides over the Tradesman Association of BC (2016) and runs the Annual Construction Expo; arrived in Canada in 1998.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/raman-sharma/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Zeeshan Wahla",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Professional engineer with his own consulting firm, registered in four provinces; immigrated to BC in 2007, lives in Surrey, and was the 2024 Conservative candidate here.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/zeeshan-wahla/"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Oliver Wildfong",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "OneBC candidate. No published biography found in the sources checked.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Candidate list matches Elections BC CSV (4 candidates). 2024 Green, Independent and Communist candidates are not on the 2026 ballot. Wikipedia riding page text did not name other neighbourhoods."
+  },
+  {
+   "code": "SUN",
+   "name": "Surrey North",
+   "communities": "Northwest Surrey: northern Newton and western Whalley, Bear Creek Park area; Fraser River on the north and west, 132 Street on much of the east",
+   "result_2024": {
+    "winner": "Mandeep Dhaliwal",
+    "party": "conservative",
+    "margin_votes": 1159,
+    "votes": {
+     "conservative": 7954,
+     "ndp": 6795,
+     "green": 662,
+     "other:Freedom Party of BC": 162,
+     "independent": 125
+    },
+    "valid_votes": 15698,
+    "shares": {
+     "conservative": 50.67,
+     "ndp": 43.29,
+     "green": 4.22,
+     "other:Freedom Party of BC": 1.03,
+     "independent": 0.8
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-north/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Conservative gain from the NDP (Rachna Singh, two-term MLA and cabinet minister). Wikipedia lists NDP at 6,794; Elections BC Statement of Votes total of 15,698 supports 6,795."
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Sahib Thind",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Semi-retired construction worker; founder and president of the Professor Mohan Singh Memorial Foundation; Surrey North resident for over 40 years; received BC's Medal of Good Citizenship in 2017.",
+     "sources": [
+      {
+       "label": "Sahib Thind campaign page",
+       "url": "https://sahibthind.bcndp.ca"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Parm Bhandol",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "HandyDART operator who has lived and worked in Surrey North for more than 10 years; holds a BSc and an MSc in mathematics.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/bhandol-parm/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Mandeep Singh Dhaliwal",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024, first elected by defeating NDP incumbent Rachna Singh; founded Fixman Auto Glass Repair and Fixman Auto Glass Supplier; raised in Surrey.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/mandeep-dhaliwal/"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Yudhbir Gill",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Sprinkler fitter apprentice and former long-haul and dump truck driver; came to Canada in 2012; married to a registered nurse; father of twin boys.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/yudhbir-gill/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Tanya Gupta",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Surrey notary public and business owner.",
+     "sources": [
+      {
+       "label": "Surrey Now-Leader: meet your Surrey North candidates",
+       "url": "https://surreynowleader.com/2026/10/09/b-c-votes-meet-your-surrey-north-candidates/"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Jag Bhandari",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Unaffiliated candidate. No published biography found in the sources checked.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Elections BC web list shows Bhandari as Unaffiliated (CSV says Other). Candidate list matches Elections BC CSV (6 candidates)."
+  },
+  {
+   "code": "SUS",
+   "name": "Surrey South",
+   "communities": "Panorama Ridge, Crescent, Grandview Heights, Hazelmere, Douglas (southern Surrey, inside the City of Surrey; does not include White Rock)",
+   "result_2024": {
+    "winner": "Brent Chapman",
+    "party": "conservative",
+    "margin_votes": 3920,
+    "votes": {
+     "conservative": 13056,
+     "ndp": 9136
+    },
+    "valid_votes": 22192,
+    "shares": {
+     "conservative": 58.83,
+     "ndp": 41.17
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-south/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Chapman won as a Conservative over NDP's Haroon Ghaffar. Only two candidates per Elections BC data."
+   },
+   "mla_changes_since_2024": "MLA Brent Chapman (elected as Conservative) joined OneBC on Sept 22, 2026, the day the writ dropped, after his wife Kerry-Lynne Findlay resigned as Conservative leader. OneBC then said he would not run; his name is not on the final Elections BC list. No sitting MLA is on the ballot here. Elenore Sturko (CentreBC leader), who won the 2022 Surrey South by-election, is running here but was the MLA for Surrey-Cloverdale at dissolution.",
+   "candidates": [
+    {
+     "name": "Parik Tahlan",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Security professional who works protecting high-profile people and organizations; longtime supporter of the Canadian Cancer Society.",
+     "sources": [
+      {
+       "label": "Parik Tahlan campaign page",
+       "url": "https://pariktahlan.bcndp.ca/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Megan Knight",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "White Rock mayor elected 2022 and city councillor 2014 to 2018; commissioned BC notary public since 1998; on the Metro Vancouver board and TransLink Mayors' Council as mayor.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/megan-knight/"
+      },
+      {
+       "label": "Daily Hive: Megan Knight to run in Surrey South",
+       "url": "https://dailyhive.com/vancouver/megan-knight-white-rock-surrey-south-civic-provincial-election-conservatives"
+      }
+     ]
+    },
+    {
+     "name": "Elenore Sturko",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "CentreBC leader since Sept 22, 2026; former RCMP staff sergeant and Surrey RCMP spokesperson; MLA for Surrey South (2022 by-election) then Surrey-Cloverdale (2024).",
+     "sources": [
+      {
+       "label": "Wikipedia: Elenore Sturko",
+       "url": "https://en.wikipedia.org/wiki/Elenore_Sturko"
+      },
+      {
+       "label": "CentreBC candidates page",
+       "url": "https://centrebc.ca/candidates"
+      }
+     ]
+    },
+    {
+     "name": "Bill McConnell",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Retired electrician who taught electrical apprentices at BCIT for 19 years; Red Seal certified; graduated from Delta Secondary School in Ladner.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/bill-mcconnell/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Denis R Hurtubise",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Unaffiliated candidate. No published biography found in the sources checked.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Elections BC web list shows Hurtubise as Unaffiliated (CSV says Other). In the CSV, Hurtubise and Surrey-Guildford's James Yaroshuk list the same financial agent address (262-5525 West Boulevard, Vancouver) as several OneBC candidates; no party link is stated anywhere, so both are recorded as independent. Wikipedia's candidate table shows Brent Chapman as incumbent with a not-seeking-re-election marker, consistent with the Elections BC list."
+  },
+  {
+   "code": "SRD",
+   "name": "Surrey-Cloverdale",
+   "communities": "Clayton and the Cloverdale town centre (southeast Surrey; Highway 15 on the west, Township of Langley on the east, 88 Avenue on the north)",
+   "result_2024": {
+    "winner": "Elenore Sturko",
+    "party": "conservative",
+    "margin_votes": 586,
+    "votes": {
+     "conservative": 10268,
+     "ndp": 9682,
+     "green": 1150,
+     "other:Freedom Party of BC": 153
+    },
+    "valid_votes": 21253,
+    "shares": {
+     "conservative": 48.31,
+     "ndp": 45.56,
+     "green": 5.41,
+     "other:Freedom Party of BC": 0.72
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-cloverdale/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Wikipedia shows NDP at 9,681 (margin 587); Elections BC figure is 9,682 (margin 586)."
+   },
+   "mla_changes_since_2024": "Elenore Sturko (elected as Conservative) was removed from the Conservative caucus on Sept 22, 2025 and sat as an independent, then joined CentreBC on Sept 18, 2026 and became its leader on Sept 22, 2026. Wikipedia lists her as CentreBC at dissolution; BC Election Guide lists her as Independent. She is running in Surrey South, not here. No sitting MLA is on the Cloverdale ballot.",
+   "candidates": [
+    {
+     "name": "Stephen Dooley",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Recently retired executive director of SFU's Surrey campus; former chair of the Surrey Board of Trade; named Surrey Leader of the Year in 2013.",
+     "sources": [
+      {
+       "label": "Stephen Dooley campaign page",
+       "url": "https://stephendooley.bcndp.ca/"
+      },
+      {
+       "label": "Surrey Now-Leader: meet the candidates in Surrey-Cloverdale",
+       "url": "https://surreynowleader.com/2026/10/08/bc-votes-meet-the-candidates-in-surrey-cloverdale/"
+      }
+     ]
+    },
+    {
+     "name": "Nicholas Cartmell",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Former CEO of the BC Sports Hall of Fame and former TELUS senior director; Surrey resident since 2012; vice-president of the Surrey 2027 55+ BC Games host society.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/nicholas-cartmell/"
+      },
+      {
+       "label": "Surrey Now-Leader: meet the candidates in Surrey-Cloverdale",
+       "url": "https://surreynowleader.com/2026/10/08/bc-votes-meet-the-candidates-in-surrey-cloverdale/"
+      }
+     ]
+    },
+    {
+     "name": "Sargy Chima",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Service Canada team leader with over 20 years in the public service; former national executive vice-president of her union; has run provincially in Surrey-Whalley and for Surrey council.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/sargy-chima/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Pat McCutcheon",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Retired professional engineer who ran his own engineering consulting firm for 28 years; Cloverdale resident; Green candidate here in 2024 (1,150 votes).",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/patrick-mccutcheon/"
+      },
+      {
+       "label": "BC Election Guide: Surrey-Cloverdale",
+       "url": "https://bcelectionguide.ca/ridings/surrey-cloverdale/"
+      }
+     ]
+    },
+    {
+     "name": "Travis Marchenski",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Tradesperson raising a young family in Cloverdale.",
+     "sources": [
+      {
+       "label": "Surrey Now-Leader: meet the candidates in Surrey-Cloverdale",
+       "url": "https://surreynowleader.com/2026/10/08/bc-votes-meet-the-candidates-in-surrey-cloverdale/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Candidate list matches Elections BC CSV (5 candidates). Former NDP MLA Mike Starchuk is running for Surrey mayor, not on this ballot."
+  },
+  {
+   "code": "SRF",
+   "name": "Surrey-Fleetwood",
+   "communities": "Fleetwood (town centre area); riding drawn from most of the former Surrey-Tynehead plus parts of Green Timbers, Newton and Cloverdale",
+   "result_2024": {
+    "winner": "Jagrup Brar",
+    "party": "ndp",
+    "margin_votes": 753,
+    "votes": {
+     "ndp": 9923,
+     "conservative": 9170,
+     "green": 1321
+    },
+    "valid_votes": 20414,
+    "shares": {
+     "ndp": 48.61,
+     "conservative": 44.92,
+     "green": 6.47
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-fleetwood/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Wikipedia shows Conservative Avtar Gill at 9,172 (margin 751); Elections BC figure is 9,170 (margin 753)."
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Jagrup Brar",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Surrey-Fleetwood 2009 to 2013 and since 2017; Minister of Mining and Critical Minerals since Nov 2024; former executive director of SEEDS, a Surrey entrepreneur-training society.",
+     "sources": [
+      {
+       "label": "Wikipedia: Jagrup Brar",
+       "url": "https://en.wikipedia.org/wiki/Jagrup_Brar"
+      },
+      {
+       "label": "Jagrup Brar campaign page",
+       "url": "https://jagrupbrar.bcndp.ca"
+      }
+     ]
+    },
+    {
+     "name": "Garry Purewal",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Business owner who has run companies including a property restoration business; formerly a military police member with the Canadian Armed Forces; youth sports leader.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/garry-purewal/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Tim Binnema",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Senior leader for over 25 years at a BC engineering and equipment supply firm; Fleetwood resident since 2000; Green candidate here in 2024 (1,321 votes).",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/tim-binnema/"
+      },
+      {
+       "label": "BC Election Guide: Surrey-Fleetwood",
+       "url": "https://bcelectionguide.ca/ridings/surrey-fleetwood/"
+      }
+     ]
+    },
+    {
+     "name": "Paul Brar",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Real estate professional for about four decades; came to Canada in 1983 and started work as a shingle sawyer in Mission; raised four children in Surrey.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/paul-brar/"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Carolyn Hofbauer",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "OneBC candidate. No published biography found in the sources checked.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Confirms the five known names (Jagrup Brar, Garry Purewal, Tim Binnema, Paul Brar, Carolyn Hofbauer); no extra names on the Elections BC CSV. Wikipedia's riding page once showed Pat McCutcheon in this riding; that is an error (he is Surrey-Cloverdale). Neighbourhood list is thin because sources name only Fleetwood."
+  },
+  {
+   "code": "SRG",
+   "name": "Surrey-Guildford",
+   "communities": "Guildford, Fraser Heights, Tynehead, Port Kells, Anniedale, Port Mann (northeast Surrey)",
+   "result_2024": {
+    "winner": "Garry Begg",
+    "party": "ndp",
+    "margin_votes": 22,
+    "votes": {
+     "ndp": 8947,
+     "conservative": 8925,
+     "green": 824,
+     "independent": 370
+    },
+    "valid_votes": 19066,
+    "shares": {
+     "ndp": 46.93,
+     "conservative": 46.81,
+     "green": 4.32,
+     "independent": 1.94
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-guildford/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "NDP won by 22 votes after a judicial recount (Conservative Honveer Singh Randhawa led by 103 on election night). Randhawa filed a court petition to void the result and later withdrew it. Wikipedia lists Begg at 46.83 percent; computed share is 46.93."
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Garry Begg",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2017 and former Minister of Public Safety and Solicitor General; spent 38 years as an RCMP officer, the last eight in Surrey.",
+     "sources": [
+      {
+       "label": "Garry Begg campaign page",
+       "url": "https://garrybegg.bcndp.ca"
+      },
+      {
+       "label": "Surrey Now-Leader: final list of 47 candidates",
+       "url": "https://surreynowleader.com/2026/10/04/see-the-final-list-of-47-candidates-in-10-surrey-ridings-for-b-c-election/"
+      }
+     ]
+    },
+    {
+     "name": "Garry Thind",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Surrey school trustee for 12 years and current board vice-chair; full-time Realtor; past president of the Rotary Club of Surrey. Also named Gurpreet Garry Thind in news.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/garry-thind/"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Jodi Murphy",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Operations manager now in an accounting role with the Province; Guildford resident for almost 15 years; ran as a BC Green here in 2017 and 2020.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/jodi-murphy/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "James Yaroshuk",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Unaffiliated candidate. No published biography found in the sources checked.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Candidate list matches Elections BC CSV (4 candidates). Elections BC web list shows Yaroshuk as Unaffiliated (CSV says Other); see Surrey South note about a shared financial agent address with OneBC candidates. CentreBC has no candidate here."
+  },
+  {
+   "code": "SRN",
+   "name": "Surrey-Newton",
+   "communities": "Newton (town centre) in central Surrey",
+   "result_2024": {
+    "winner": "Jessie Sunner",
+    "party": "ndp",
+    "margin_votes": 1266,
+    "votes": {
+     "ndp": 7924,
+     "conservative": 6658,
+     "other:Freedom Party of BC": 371,
+     "independent": 533
+    },
+    "valid_votes": 15486,
+    "shares": {
+     "ndp": 51.17,
+     "conservative": 42.99,
+     "other:Freedom Party of BC": 2.4,
+     "independent": 3.44
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-newton/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Independent total combines Japreet Lehal (Unaffiliated, 344) and Joginder Singh Randhawa (Independent, 189)."
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Jessie Sunner",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2024 and former Minister of Post-Secondary Education and Future Skills; labour and human rights lawyer and trade unionist with the Hospital Employees' Union; grew up in Surrey.",
+     "sources": [
+      {
+       "label": "Jessie Sunner campaign page",
+       "url": "https://jessiesunner.bcndp.ca"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Harj Dhaliwal",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Business executive and educator with an MBA and PhD; six years a TransLink director; Newton youth soccer leader; Surrey resident for 28 years.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/harj-dhaliwal/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Harman Preet Singh",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Lawyer completing articling in BC with criminal defence, immigration and administrative law experience; former student member of the Kwantlen Polytechnic University board of governors.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/harman-preet-singh/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Candidate list matches Elections BC CSV (3 candidates). Smallest field in Surrey. Wikipedia riding page names no neighbourhoods beyond Newton."
+  },
+  {
+   "code": "SUP",
+   "name": "Surrey-Panorama",
+   "communities": "Panorama area of Surrey (riding built mainly from the former Surrey-Panorama Ridge, with parts of Cloverdale and White Rock ridings)",
+   "result_2024": {
+    "winner": "Bryan Tepper",
+    "party": "conservative",
+    "margin_votes": 263,
+    "votes": {
+     "conservative": 8735,
+     "ndp": 8472,
+     "other:Freedom Party of BC": 404
+    },
+    "valid_votes": 17611,
+    "shares": {
+     "conservative": 49.6,
+     "ndp": 48.11,
+     "other:Freedom Party of BC": 2.29
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-panorama/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Conservative gain; NDP's Jinny Sims was the prior MLA."
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Jinny Sims",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Former Surrey-Panorama MLA and Minister of Citizens' Services; MP for Newton-North Delta 2011 to 2015; former BC Teachers' Federation president and radio talk show host.",
+     "sources": [
+      {
+       "label": "Jinny Sims campaign page",
+       "url": "https://jinnysims.bcndp.ca"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Bryan Tepper",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024; former RCMP officer of about two decades, the last ten in Surrey; treasurer of the Mounted Police Professional Association of Canada.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/bryan-tepper/"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Manav Manro",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Local businessman with a hospitality background who lives in Surrey-Panorama.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/manav-manro/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Nolen Scott",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Assistant director in BC film and television for nearly a decade; co-founder of the Vancouver Venue Co-op; served two terms on a Directors Guild of Canada advisory committee.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/nolen-scott/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Tepper (Conservative) was the sitting MLA at dissolution; some Wikipedia text was ambiguous about Sims being incumbent, but Elections BC data and Surrey Now-Leader confirm Tepper won in 2024 and is the incumbent. Neighbourhood list is thin because sources name no specific neighbourhoods."
+  },
+  {
+   "code": "SUR",
+   "name": "Surrey-Serpentine River",
+   "communities": "Area around the Serpentine River in south-central Surrey (riding formed from parts of the former Cloverdale, Panorama and Fleetwood ridings)",
+   "result_2024": {
+    "winner": "Linda Hepner",
+    "party": "conservative",
+    "margin_votes": 435,
+    "votes": {
+     "conservative": 9782,
+     "ndp": 9347,
+     "independent": 554
+    },
+    "valid_votes": 19683,
+    "shares": {
+     "conservative": 49.7,
+     "ndp": 47.49,
+     "independent": 2.81
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-serpentine-river/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Conservative gain; Hepner is a former Surrey mayor (2014 to 2018). Independent was Jim McMurtry."
+   },
+   "mla_changes_since_2024": "MLA Linda Hepner (Conservative) quit the Conservative caucus on Sept 20, 2026 over the removal of three MLAs and leadership, then rejoined about Sept 21 after Lorne Doerkson became interim leader. She is not running in 2026 and said she could not commit to another four years. No sitting MLA is on the ballot.",
+   "candidates": [
+    {
+     "name": "Sikander Kang",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Physiotherapist who established and manages five physiotherapy clinics in the Lower Mainland; holds master's and bachelor's degrees in physiotherapy; lives in Surrey.",
+     "sources": [
+      {
+       "label": "Sikander Kang campaign page",
+       "url": "https://sikanderkang.bcndp.ca"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Jessy Sahota",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Law enforcement officer; since 2009 a volunteer wrestling coach with the Yo-Bro Yo-Girl Youth Initiative; won a national wrestling title while studying at SFU.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/jessy-sahota/"
+      },
+      {
+       "label": "Surrey Now-Leader: who's running in Surrey ridings",
+       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+      }
+     ]
+    },
+    {
+     "name": "Judy Higginbotham",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Former Surrey city councillor elected in 1983 who served 25 consecutive years; former Metro Vancouver board member; taught for 12 years; helped found Surrey Foundation and Tourism Surrey.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/judy-higginbotham/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Todd Holowchak",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "OneBC candidate. No published biography found in the sources checked.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Errol Povah",
+     "party": "other:Freedom Party of BC",
+     "incumbent": false,
+     "bio": "Ran in Richmond-Queensborough in 2024 as an independent; describes himself as a long-time activist (self-description on VoteMate).",
+     "sources": [
+      {
+       "label": "VoteMate 2024 profile",
+       "url": "https://votemate.org/bc2024/candidates/9213"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Candidate list matches Elections BC CSV (5 candidates). Wikipedia's member table for this riding is inconsistent about Hepner's affiliation; the Independent then Conservative sequence above comes from Wikipedia's Linda Hepner article and news reports. Neighbourhood list is thin because sources name none."
+  },
+  {
+   "code": "SWR",
+   "name": "Surrey-White Rock",
+   "communities": "City of White Rock and South Surrey (Semiahmoo peninsula), including the Semiahmoo First Nation reserve; Semiahmoo Bay on the south and west, Highway 99 on the east, 24 Avenue on the north",
+   "result_2024": {
+    "winner": "Trevor Halford",
+    "party": "conservative",
+    "margin_votes": 1969,
+    "votes": {
+     "conservative": 14667,
+     "ndp": 12698,
+     "libertarian": 671
+    },
+    "valid_votes": 28036,
+    "shares": {
+     "conservative": 52.31,
+     "ndp": 45.29,
+     "libertarian": 2.39
+    },
+    "source": "https://bcelectionguide.ca/ridings/surrey-white-rock/ (citing Elections BC Statement of Votes, https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)",
+    "note": "Conservative gain from BC United (Halford was the incumbent). Wikipedia shows NDP at 12,699; Elections BC figure is 12,698."
+   },
+   "mla_changes_since_2024": "Trevor Halford (Conservative) was removed from the Conservative caucus on Sept 18, 2026 by then-leader Kerry-Lynne Findlay, and readmitted on Sept 21, 2026 by interim leader Lorne Doerkson. He is running again as a Conservative. Surrey Now-Leader also described him as the party's former interim leader (as of Dec 2025).",
+   "candidates": [
+    {
+     "name": "Darryl Walker",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Former mayor of White Rock and past president of the BC General Employees' Union; was the 2024 NDP candidate here.",
+     "sources": [
+      {
+       "label": "Darryl Walker campaign page",
+       "url": "https://darrylwalker.bcndp.ca/"
+      },
+      {
+       "label": "Surrey Now-Leader: new candidates announced for Surrey-White Rock",
+       "url": "https://surreynowleader.com/2026/10/02/new-election-candidates-announced-for-surrey-white-rock/"
+      }
+     ]
+    },
+    {
+     "name": "Trevor Halford",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2020; born and raised in Surrey-White Rock; earlier chief of staff to two cabinet ministers; ran for Surrey council in 2018 and was not elected.",
+     "sources": [
+      {
+       "label": "Conservative candidate page",
+       "url": "https://conservativebc.ca/candidate/trevor-halford/"
+      },
+      {
+       "label": "Wikipedia: Trevor Halford",
+       "url": "https://en.wikipedia.org/wiki/Trevor_Halford"
+      }
+     ]
+    },
+    {
+     "name": "Amanda James",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "OneBC candidate. No published biography found in the sources checked.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Christine Kinnie",
+     "party": "green",
+     "incumbent": false,
+     "bio": "School secretary in Surrey; Green candidate for South Surrey-White Rock in the 2025 federal election; lay chaplain with the South Fraser Unitarians.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/christine-kinnie/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Waqas Rana",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Banking and insurance professional; chartered professional accountant and certified management accountant; describes himself as a local resident and community advocate.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/waqas-rana/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Kevin Diakiw",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Former Surrey journalist with over 20 years in the field who left in 2017; now works in addiction and recovery and owns a local business.",
+     "sources": [
+      {
+       "label": "Surrey Now-Leader: new candidates announced for Surrey-White Rock",
+       "url": "https://surreynowleader.com/2026/10/02/new-election-candidates-announced-for-surrey-white-rock/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Candidate list matches Elections BC CSV (6 candidates). Surrey Now-Leader article text wrongly refers to the 2024 'civic' election; it means the 2024 provincial election. Wikipedia's member table shows an Independent then Conservative sequence for Halford in 2026, consistent with the removal and readmission."
+  }
+ ]
+}

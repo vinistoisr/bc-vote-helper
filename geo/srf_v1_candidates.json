@@ -1,0 +1,150 @@
+{
+ "note": "Surrey-Fleetwood candidate entries from V1 of this tool (level-keyed bios and record notes), kept for V2.",
+ "candidates": [
+  {
+   "id": "jagrup_brar",
+   "name": "Jagrup Brar",
+   "party_id": "ndp",
+   "incumbent": true,
+   "bio": {
+    "1": "He has long been the local member, is a minister, and played basketball for India.",
+    "3": "MLA for Surrey-Fleetwood since 2017 (also 2009-2013; Surrey-Panorama Ridge 2004-2009). Minister of Mining and Critical Minerals since November 2024. Former India national basketball player, public administration master's, ex-director of SEEDS. Lives in Surrey with family.",
+    "5": "Born Bathinda, Punjab; MPA (University of Manitoba); SEEDS executive director; MLA Surrey-Panorama Ridge (2004 by-election), Surrey-Fleetwood 2009-2013 (lost 2013 by about 200 votes) and 2017 on; caucus chair (2021); Minister of State for Trade (2022-2024); Mining and Critical Minerals minister (November 2024 on). Salary $183,064; 2024 campaign raised $105,649."
+   },
+   "record_note": {
+    "3": "Voted with his party on every recorded vote checked. As minister, approved the Eskay Creek mine under DRIPA's first consent agreement. Local pledges: hospital, SkyTrain, jobs, housing; no timelines.",
+    "5": "Yea on Bills 36, 44, 46, 7, 14, 15, 32, 24, 3; nay at first reading on property rights, gender identity and Human Rights Code repeal bills. Attended all 105 divisions; never broke ranks. Approved Eskay Creek under DRIPA. No Gitxaala or extortion statement found."
+   },
+   "sources": [
+    {
+     "label": "BC Ballot: Jagrup Brar",
+     "url": "https://bcballot.ca/mlas/jagrup-brar/"
+    },
+    {
+     "label": "Wikipedia: Jagrup Brar (secondary)",
+     "url": "https://en.wikipedia.org/wiki/Jagrup_Brar"
+    },
+    {
+     "label": "Votes and Proceedings, May 28, 2025",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
+    },
+    {
+     "label": "BC Government: Eskay Creek approval",
+     "url": "https://news.gov.bc.ca/releases/2026MCM0008-000078"
+    },
+    {
+     "label": "Jagrup Brar campaign page (party-authored)",
+     "url": "https://jagrupbrar.bcndp.ca"
+    }
+   ]
+  },
+  {
+   "id": "garry_purewal",
+   "name": "Garry Purewal",
+   "party_id": "conservative",
+   "incumbent": false,
+   "bio": {
+    "1": "He owns a business, was a military police officer, and helps run kids' sports.",
+    "3": "Business owner with more than 20 years in business, public service and community work; former Canadian Armed Forces military police member; owned companies including a property restoration business; youth sports leader. First run for office.",
+    "5": "Party page (party-authored): 20-plus years in business leadership, public service and community work; former CAF Military Police; property restoration business owner; youth sports leader; listed commitments are party themes. No previous run (BC Ballot). Financial agent Harvinder Sidhu (Delta). No source links him to Shinder Purewal (2019 federal candidate)."
+   },
+   "record_note": {
+    "3": "No voting record or published local positions beyond party themes. Scored on the Conservative platform.",
+    "5": "No electoral history; no published statements on SkyTrain, extortion, the Surrey Police Service or the hospital; no 2026 controversy or endorsement found. Scored as Conservative."
+   },
+   "sources": [
+    {
+     "label": "Conservative Party of BC: Garry Purewal candidate page",
+     "url": "https://conservativebc.ca/candidate/garry-purewal/"
+    },
+    {
+     "label": "BC Ballot: Garry Purewal, Surrey-Fleetwood",
+     "url": "https://bcballot.ca/ridings/surrey-fleetwood/garry-purewal/"
+    },
+    {
+     "label": "Conservative Party of BC: Surrey candidates (Sept 29, 2026)",
+     "url": "https://conservativebc.ca/conservative-party-of-bc-announces-strong-surrey-candidates-for-serious-times/"
+    }
+   ]
+  },
+  {
+   "id": "tim_binnema",
+   "name": "Tim Binnema",
+   "party_id": "green",
+   "incumbent": false,
+   "bio": {
+    "1": "He is an engineer who fights pollution and has long lived in Fleetwood.",
+    "3": "Engineering and business leader with 25-plus years at a BC pollution-control and energy-optimization firm. Fleetwood resident since 2000; four children, six grandchildren. Fourth Green run here (third in 2013, 2017 and 2024).",
+    "5": "25-plus years senior leadership at a BC engineering and equipment supply firm (pollution control, energy optimization); Fleetwood resident since 2000; priorities 'affordability, housing, tax fairness and environmental sustainability'; results: 2013 1,147 (5.8%), 2017 2,004 (9.7%), 2024 1,321 (6.5%); 2024 campaign raised $225, spent $476."
+   },
+   "record_note": {
+    "3": "No voting record. Stated priorities match the Green platform; no local statements on SkyTrain, extortion or the hospital found. Scored on the Green platform.",
+    "5": "No divergence from party found; no 2026 controversy or endorsement found. Scored as Green."
+   },
+   "sources": [
+    {
+     "label": "BC Greens: Tim Binnema candidate page",
+     "url": "https://bcgreens.ca/candidates/tim-binnema/"
+    },
+    {
+     "label": "BC Ballot: Tim Binnema, Surrey-Fleetwood",
+     "url": "https://bcballot.ca/ridings/surrey-fleetwood/tim-binnema/"
+    }
+   ]
+  },
+  {
+   "id": "paul_brar",
+   "name": "Paul Brar",
+   "party_id": "centrebc",
+   "incumbent": false,
+   "bio": {
+    "1": "He has sold homes in Surrey for decades and raised four kids here.",
+    "3": "Realtor since 1988, Surrey resident 30-plus years. Arrived 1983, started as a shingle sawyer; UBC Urban Land Economics diploma; raised four children here; campaign volunteer. First run. No source links him to the incumbent.",
+    "5": "Party page (party-authored): arrived 1983, shingle sawyer in Mission, four decades in real estate, UBC Urban Land Economics diploma, raised four children in Surrey, campaign volunteer. First run (BC Ballot). BCFSA licensee 'Sukhpal Paul Singh Brar' unconfirmed as the candidate; not used. No source claims a link to Jagrup Brar."
+   },
+   "record_note": {
+    "3": "No voting record or published positions. Scored on CentreBC's October 10 platform.",
+    "5": "No positions, statements or local pledges found, including on the October 10 platform; no 2026 controversy or endorsement. Scored as CentreBC."
+   },
+   "sources": [
+    {
+     "label": "CentreBC: Paul Brar candidate page",
+     "url": "https://centrebc.ca/candidates/paul-brar/"
+    },
+    {
+     "label": "Surrey Now-Leader: who is running in Surrey ridings (Sept 28, 2026)",
+     "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
+    },
+    {
+     "label": "BC Ballot: Paul Brar, Surrey-Fleetwood",
+     "url": "https://bcballot.ca/ridings/surrey-fleetwood/paul-brar/"
+    }
+   ]
+  },
+  {
+   "id": "carolyn_hofbauer",
+   "name": "Carolyn Hofbauer",
+   "party_id": "onebc",
+   "incumbent": false,
+   "bio": {
+    "1": "She has always lived in Surrey, was a chef, and helps run a gun-safety school.",
+    "3": "Lifelong Surrey resident and mother. Co-manages BC Firearms Academy, a Surrey firearms licensing and hunter education school, with her husband; previously head chef at The Vault in Cloverdale for nearly a decade. First run.",
+    "5": "Party page (party-authored): co-manages BC Firearms Academy (PAL, RPAL, CORE courses); former head chef (The Vault, Cloverdale; Fresgo Inn); substitute teacher during college; lifelong Surrey resident; campaign volunteer. No previous run (BC Ballot). The official agent's Vancouver address is the agent's, not hers."
+   },
+   "record_note": {
+    "3": "No voting record or published positions. Scored on OneBC's priorities.",
+    "5": "No positions, statements or local pledges found; no 2026 controversy or endorsement. OneBC is not standing aside in this riding. Scored as OneBC."
+   },
+   "sources": [
+    {
+     "label": "OneBC: Carolyn Hofbauer candidate page",
+     "url": "https://1bc.ca/candidates/chofbauer"
+    },
+    {
+     "label": "BC Ballot: Carolyn Hofbauer, Surrey-Fleetwood",
+     "url": "https://bcballot.ca/ridings/surrey-fleetwood/carolyn-hofbauer/"
+    }
+   ]
+  }
+ ]
+}

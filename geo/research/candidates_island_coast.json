@@ -1,0 +1,1653 @@
+{
+ "group": "island_coast",
+ "as_of": "2026-10-12",
+ "shares_format": "fraction of total valid votes, 4 decimals; independent includes unaffiliated",
+ "sources_checked": [
+  {
+   "label": "Elections BC candidate list (2026)",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+  },
+  {
+   "label": "Elections BC candidate list CSV (downloaded Oct 12, 2026)",
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+  },
+  {
+   "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+   "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+  },
+  {
+   "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+   "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+  },
+  {
+   "label": "Nanaimo News Now: Challengers added for Nanaimo and Oceanside ridings",
+   "url": "https://nanaimonewsnow.com/2026/10/01/challengers-added-for-nanaimo-oceanside-ridings-in-provincial-election/"
+  },
+  {
+   "label": "Powell River Peak: Powell River-Sunshine Coast will see three candidates run for MLA",
+   "url": "https://www.prpeak.com/2026-bc-votes/powell-river-sunshine-coast-will-see-three-candidates-run-for-mla-12869651"
+  },
+  {
+   "label": "Elections BC Statement of Votes, 2024 provincial general election",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+  },
+  {
+   "label": "Wikipedia: 2026 British Columbia general election",
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia: Candidates of the 2026 British Columbia general election",
+   "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia: 43rd Parliament of British Columbia",
+   "url": "https://en.wikipedia.org/wiki/43rd_Parliament_of_British_Columbia"
+  },
+  {
+   "label": "Comox Valley Record candidate profiles",
+   "url": "https://comoxvalleyrecord.com/2026/10/10/courtenay-comox-mla-candidates-jason-cook/"
+  },
+  {
+   "label": "North Island Gazette candidate profiles",
+   "url": "https://northislandgazette.com/2026/10/10/north-island-mla-candidates-sara-lopez/"
+  },
+  {
+   "label": "BC Ballot riding pages (communities lists)",
+   "url": "https://bcballot.ca/ridings/saanich-south/"
+  },
+  {
+   "label": "Daily Hive: Agou removal",
+   "url": "https://dailyhive.com/vancouver/bc-conservative-agou-removal"
+  }
+ ],
+ "ridings": [
+  {
+   "code": "CRC",
+   "name": "Courtenay-Comox",
+   "communities": "Courtenay, Comox, Little River, Merville, Black Creek, Mount Washington, Oyster River",
+   "result_2024": {
+    "winner": "Brennan Day",
+    "party": "conservative",
+    "margin_votes": 93,
+    "total_valid_votes": 34718,
+    "votes": {
+     "Brennan Day (conservative)": 13481,
+     "Ronna-Rae Leonard (ndp)": 13388,
+     "Arzeena Hamir (green)": 7202,
+     "John Hedican / Devin Howell (independent)": 647
+    },
+    "shares": {
+     "conservative": 0.3883,
+     "ndp": 0.3856,
+     "green": 0.2074,
+     "independent": 0.0186
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Brennan Day (elected 2024 as Conservative) left the Conservative caucus on Aug 26, 2026 to sit as an independent, then rejoined the Conservatives before the election; Elections BC lists him as Conservative. Wikipedia is the source for the rejoin; exact date not confirmed.",
+   "candidates": [
+    {
+     "name": "Will Cole-Hamilton",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Courtenay city councillor (two terms) and chair of the Comox Valley Regional District. Has a background in law and a former small business.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Comox Valley Record: Will Cole-Hamilton running for NDP",
+       "url": "https://comoxvalleyrecord.com/2026/09/23/will-cole-hamilton-running-for-ndp-mla-courtenay-comox-in-snap-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Jason Cook",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Courtenay resident with over 20 years in foreign exchange, capital markets and banking. Volunteers with Habitat for Humanity.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Comox Valley Record: Jason Cook",
+       "url": "https://comoxvalleyrecord.com/2026/10/10/courtenay-comox-mla-candidates-jason-cook/"
+      }
+     ]
+    },
+    {
+     "name": "Brennan Day",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA for Courtenay-Comox since 2024. Former executive director of the Eureka Support Society; founded an industrial supply, manpower and training firm.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Brennan Day",
+       "url": "https://en.wikipedia.org/wiki/Brennan_Day"
+      }
+     ]
+    },
+    {
+     "name": "Jay Van Oostdam",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Veterinarian and public health professional. Spent 25 years with Health Canada and BC Environment researching how environmental contaminants affect human health.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Comox Valley Record: Jay Van Oostdam",
+       "url": "https://comoxvalleyrecord.com/2026/10/10/courtenay-comox-mla-candidates-jay-van-oostdam/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Official Elections BC list shows 4 candidates. Brennan Day is incumbent (sitting MLA at dissolution, as independent)."
+  },
+  {
+   "code": "CWV",
+   "name": "Cowichan Valley",
+   "communities": "Duncan, Lake Cowichan, Shawnigan Lake, Mill Bay, Cobble Hill, Maple Bay, southern North Cowichan",
+   "result_2024": {
+    "winner": "Debra Toporowski",
+    "party": "ndp",
+    "margin_votes": 849,
+    "total_valid_votes": 29118,
+    "votes": {
+     "Debra Toporowski (ndp)": 11795,
+     "John Koury (conservative)": 10946,
+     "Cammy Lockwood (green)": 5773,
+     "Eden Haythornthwaite / Jon Coleman (independent)": 604
+    },
+    "shares": {
+     "ndp": 0.4051,
+     "conservative": 0.3759,
+     "green": 0.1983,
+     "independent": 0.0207
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Bert Chen",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Small business owner from a rural family that ran a gas station. Has worked on infrastructure projects in remote communities, including with First Nations.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "James Chumsa",
+     "party": "communist",
+     "incumbent": false,
+     "bio": "Raised in the Cowichan Valley. Ran federally for the Communist Party in Nanaimo-Ladysmith in 2019. Vancouver Island University sociology graduate.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "Justin Douglas",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Raised on Vancouver Island. Small business owner with political science and law degrees and a background in immigration and refugee law and restorative justice.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Debra Toporowski",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Cowichan Valley since 2024. Cowichan Tribes member; former Cowichan Tribes councillor and North Cowichan councillor.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Debra Toporowski",
+       "url": "https://en.wikipedia.org/wiki/Debra_Toporowski"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2024 independent share combines Eden Haythornthwaite (independent, 341) and Jon Coleman (unaffiliated, 263)."
+  },
+  {
+   "code": "ESC",
+   "name": "Esquimalt-Colwood",
+   "communities": "Colwood, View Royal, Esquimalt, Victoria West, Royal Roads area",
+   "result_2024": {
+    "winner": "Darlene Rotchford",
+    "party": "ndp",
+    "margin_votes": 6586,
+    "total_valid_votes": 29606,
+    "votes": {
+     "Darlene Rotchford (ndp)": 15238,
+     "John Wilson (conservative)": 8652,
+     "Camille Currie (green)": 5716
+    },
+    "shares": {
+     "ndp": 0.5147,
+     "conservative": 0.2922,
+     "green": 0.1931
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Sidney Coles",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Journalist and communications professional, former public servant. Reported for Capital Daily and worked for Doctors Without Borders and the Gitanyow Hereditary Chiefs.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Dave Johnston",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Canadian Ranger for about two decades and Red Seal electrician. Founded the nonprofit The North Matters.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Darlene Rotchford",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Esquimalt-Colwood since 2024. Former Esquimalt councillor, past president of the Victoria Labour Council, 18 years in mental health and addictions work.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Darlene Rotchford",
+       "url": "https://en.wikipedia.org/wiki/Darlene_Rotchford"
+      }
+     ]
+    },
+    {
+     "name": "Sid Tobias",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Canadian Armed Forces veteran with 25 years of service and over a decade in the B.C. Public Service. View Royal mayor since 2022.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "JFM",
+   "name": "Juan de Fuca-Malahat",
+   "communities": "Sooke, Metchosin, Malahat, Port Renfrew, Shawnigan Lake, Cobble Hill, Mill Bay",
+   "result_2024": {
+    "winner": "Dana Lajeunesse",
+    "party": "ndp",
+    "margin_votes": 141,
+    "total_valid_votes": 23997,
+    "votes": {
+     "Dana Lajeunesse (ndp)": 9308,
+     "Marina Sapozhnikov (conservative)": 9167,
+     "David Evans (green)": 5522
+    },
+    "shares": {
+     "ndp": 0.3879,
+     "conservative": 0.382,
+     "green": 0.2301
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Jeff Brown",
+     "party": "christian_heritage",
+     "incumbent": false,
+     "bio": "Chartered Professional Accountant and former CEO of PL&B Insurance and American Marine Insurance.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "David Evans",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Runs a coffee roasting business in Sooke and founded a landscaping company. Background in broadcasting and writing. Also ran for the Greens in 2024.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Shane Friesen",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Project manager who has served on boards. No further detail found.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "Mike Hicks",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Capital Regional District director for Juan de Fuca for 13 years. BCIT hotel management graduate with a background in forestry, tourism and hospitality.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Dana Lajeunesse",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Juan de Fuca-Malahat since 2024. Former Sooke councillor, mechanical engineering technologist with 23 years in the forestry industry.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Dana Lajeunesse",
+       "url": "https://en.wikipedia.org/wiki/Dana_Lajeunesse"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2024 margin was 141 votes after a recount."
+  },
+  {
+   "code": "LAO",
+   "name": "Ladysmith-Oceanside",
+   "communities": "Ladysmith, Cedar and rural west Nanaimo area, Nanoose Bay, Parksville, Qualicum Beach",
+   "result_2024": {
+    "winner": "Stephanie Higginson",
+    "party": "ndp",
+    "margin_votes": 2047,
+    "total_valid_votes": 34092,
+    "votes": {
+     "Stephanie Higginson (ndp)": 14144,
+     "Brett Fee (conservative)": 12097,
+     "Adam Walker (independent)": 5559,
+     "Laura Ferreira (green)": 2292
+    },
+    "shares": {
+     "ndp": 0.4149,
+     "conservative": 0.3548,
+     "independent": 0.1631,
+     "green": 0.0672
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Stephanie Higginson",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Ladysmith-Oceanside since 2024. Former Nanaimo-Ladysmith school board trustee; lives on a small farm in Cedar.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Stephanie Higginson",
+       "url": "https://en.wikipedia.org/wiki/Stephanie_Higginson"
+      }
+     ]
+    },
+    {
+     "name": "Kris McNichol",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Parksville-Nanoose resident for over 30 years who owns interests in five businesses. Volunteer firefighter, softball association president, 2025 federal Conservative nominee in Courtenay-Alberni.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Nanaimo News Now: Challengers added for Nanaimo and Oceanside ridings",
+       "url": "https://nanaimonewsnow.com/2026/10/01/challengers-added-for-nanaimo-oceanside-ridings-in-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Charlene Smylie",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Former mayor and councillor of Wabamun, Alberta. Co-founded Redstone Electrical Services and served on Alberta Municipalities and Safety Codes Council boards.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Elections BC list shows 3 candidates. Nanaimo News Now (Oct 1) reported a CentreBC candidate, Kim Lockhart, but she is not on the Elections BC list downloaded Oct 12 (list covers complete nominations only). Excluded; treat as unconfirmed."
+  },
+  {
+   "code": "LFH",
+   "name": "Langford-Highlands",
+   "communities": "Langford and the District of Highlands (Bear Mountain, Goldstream, Westhills)",
+   "result_2024": {
+    "winner": "Ravi Parmar",
+    "party": "ndp",
+    "margin_votes": 3193,
+    "total_valid_votes": 22063,
+    "votes": {
+     "Ravi Parmar (ndp)": 11444,
+     "Mike Harris (conservative)": 8251,
+     "Erin Cassels (green)": 2368
+    },
+    "shares": {
+     "ndp": 0.5187,
+     "conservative": 0.374,
+     "green": 0.1073
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Sean Flynn",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Langford resident. Thirteen years as a Royal Canadian Navy officer, later worked with Lockheed Martin Canada and in capital markets; now a defence and cyber consultant.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Christian McCay",
+     "party": "christian_heritage",
+     "incumbent": false,
+     "bio": "Provincial leader of the Christian Heritage Party of BC. Has advocated on education, family and local government issues.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "Christopher Moon",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Public servant in financial administration and team leadership with the Ministry of Forests and BC Wildfire Service.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Ravi Parmar",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Langford-Highlands since 2024 (first elected in a 2023 by-election). Former Sooke school board chair and ministerial chief of staff.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Ravi Parmar",
+       "url": "https://en.wikipedia.org/wiki/Ravi_Parmar"
+      }
+     ]
+    },
+    {
+     "name": "Cindy Scott",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Langford business owner for over 20 years (KC Custom Designs). Started the Holiday Home Tour at Bear Mountain, which raised money for the Goldstream Food Bank.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Alex Thurlborn",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Independent candidate running on free votes without party whips and more open debate. No further detail found.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Christian McCay is the provincial leader of the Christian Heritage Party. Alex Thurlborn is on the ballot as an independent."
+  },
+  {
+   "code": "MPR",
+   "name": "Mid Island-Pacific Rim",
+   "communities": "Port Alberni, Tofino, Ucluelet, Bamfield, Sproat Lake, Cumberland, Union Bay, Royston, Denman Island, Hornby Island, Fanny Bay, Bowser",
+   "result_2024": {
+    "winner": "Josie Osborne",
+    "party": "ndp",
+    "margin_votes": 2676,
+    "total_valid_votes": 28810,
+    "votes": {
+     "Josie Osborne (ndp)": 14042,
+     "Adam Hayduk (conservative)": 11366,
+     "Ross Reid (green)": 3402
+    },
+    "shares": {
+     "ndp": 0.4874,
+     "conservative": 0.3945,
+     "green": 0.1181
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Joshua Dahling",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Overcame addiction and homelessness, later worked in treatment facilities and helped build the LUMARA children's charity. Was the BC United nominee here before 2024.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "PQB News: Provincial election candidates finalized for 2 PQB area ridings",
+       "url": "https://pqbnews.com/2026/10/04/provincial-election-candidates-finalized-for-2-pqb-area-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Gracie MacDonald",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Educator and nonprofit executive leading a community school society on Denman Island. Former school principal and teacher; sits on an affordable housing board.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "Josie Osborne",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Mid Island-Pacific Rim since 2020. Mayor of Tofino 2013 to 2020; former fisheries biologist with the Nuu-chah-nulth Tribal Council.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Josie Osborne",
+       "url": "https://en.wikipedia.org/wiki/Josie_Osborne"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "NAI",
+   "name": "Nanaimo-Gabriola Island",
+   "communities": "Central and south Nanaimo, Gabriola Island, Cedar, South Wellington",
+   "result_2024": {
+    "winner": "Sheila Malcolmson",
+    "party": "ndp",
+    "margin_votes": 5030,
+    "total_valid_votes": 27798,
+    "votes": {
+     "Sheila Malcolmson (ndp)": 14663,
+     "Dale Parker (conservative)": 9633,
+     "Shirley Lambrecht (green)": 3502
+    },
+    "shares": {
+     "ndp": 0.5275,
+     "conservative": 0.3465,
+     "green": 0.126
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Mark MacDonald",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Ran publishing and communications companies for over 20 years. Former Nanaimo Daily News managing editor, Greater Nanaimo Chamber of Commerce president, and Vancouver Island Junior Hockey League president.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Nanaimo News Now: Challengers added for Nanaimo and Oceanside ridings",
+       "url": "https://nanaimonewsnow.com/2026/10/01/challengers-added-for-nanaimo-oceanside-ridings-in-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Sheila Malcolmson",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2019 (Nanaimo-Gabriola Island since 2024). Former federal MP for Nanaimo-Ladysmith and former Islands Trust Council chair.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Sheila Malcolmson",
+       "url": "https://en.wikipedia.org/wiki/Sheila_Malcolmson"
+      }
+     ]
+    },
+    {
+     "name": "Anna Mary McKenzie",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Cree journalist, policy adviser and child and youth advocate, from Opaskwayak Cree Nation. Started as a youth worker.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "NAL",
+   "name": "Nanaimo-Lantzville",
+   "communities": "North Nanaimo (Departure Bay, Hammond Bay, Linley Valley, Pleasant Valley area) and Lantzville",
+   "result_2024": {
+    "winner": "George Anderson",
+    "party": "ndp",
+    "margin_votes": 3620,
+    "total_valid_votes": 29580,
+    "votes": {
+     "George Anderson (ndp)": 15307,
+     "Gwen O'Mahony (conservative)": 11687,
+     "Lia Versaevel (green)": 2586
+    },
+    "shares": {
+     "ndp": 0.5175,
+     "conservative": 0.3951,
+     "green": 0.0874
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "George Anderson",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Nanaimo-Lantzville since 2024. Nanaimo-born commercial lawyer, Nanaimo city councillor 2011 to 2014, former Vancouver Island University board chair.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: George Anderson (Canadian politician)",
+       "url": "https://en.wikipedia.org/wiki/George_Anderson_(Canadian_politician)"
+      }
+     ]
+    },
+    {
+     "name": "Kelsey Pringle",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Nanaimo-area resident for 12 years and business owner, co-founder of Motivation Monday Marketing. Sits on the Vancouver Island Economic Alliance board.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Nanaimo News Now: Challengers added for Nanaimo and Oceanside ridings",
+       "url": "https://nanaimonewsnow.com/2026/10/01/challengers-added-for-nanaimo-oceanside-ridings-in-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Pepper Saltman",
+     "party": "communist",
+     "incumbent": false,
+     "bio": "Recent computer science graduate with 15 years in food service and hospital housekeeping. Communist Party member since 2019.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "Sharleen Weatherley",
+     "party": "green",
+     "incumbent": false,
+     "bio": "High school teacher and former data scientist. Chemical and bioengineering degree and a master's in statistics.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "NOI",
+   "name": "North Island",
+   "communities": "Campbell River, Quadra Island, Cortes Island, Gold River, Port McNeill, Port Hardy, Port Alice, Alert Bay, Sointula, Kyuquot",
+   "result_2024": {
+    "winner": "Anna Kindy",
+    "party": "conservative",
+    "margin_votes": 639,
+    "total_valid_votes": 29958,
+    "votes": {
+     "Anna Kindy (conservative)": 14100,
+     "Michele Babchuk (ndp)": 13461,
+     "Nic Dedeluk (green)": 2397
+    },
+    "shares": {
+     "conservative": 0.4707,
+     "ndp": 0.4493,
+     "green": 0.08
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Anna Kindy",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA for North Island since 2024. Physician and addiction specialist with 25 years in medicine; competed in moguls skiing at the 1992 Winter Olympics.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Anna Kindy",
+       "url": "https://en.wikipedia.org/wiki/Anna_Kindy"
+      }
+     ]
+    },
+    {
+     "name": "Richard Lambert",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Grew up in Port McNeill. Served 15 years in the Princess Patricia's Canadian Light Infantry, then worked as an electrician, including on the Campbell River Hospital.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "Sara Lopez",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Campbell River resident. Former executive director of the Campbell River Art Gallery; works with Habitat for Humanity Vancouver Island North.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "North Island Gazette: Sara Lopez",
+       "url": "https://northislandgazette.com/2026/10/10/north-island-mla-candidates-sara-lopez/"
+      }
+     ]
+    },
+    {
+     "name": "Benjamin Olsson",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Registered social worker and health care professional, Campbell River resident since 2010, with over two decades of union activism.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "North Island Gazette: Benjamin Olsson",
+       "url": "https://northislandgazette.com/2026/10/10/north-island-mla-candidates-benjamin-olsson/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Richard Lambert is on the ballot as an independent."
+  },
+  {
+   "code": "OBG",
+   "name": "Oak Bay-Gordon Head",
+   "communities": "Oak Bay, Gordon Head, Cadboro Bay, Jubilee, Gonzales, University of Victoria area",
+   "result_2024": {
+    "winner": "Diana Gibson",
+    "party": "ndp",
+    "margin_votes": 5977,
+    "total_valid_votes": 29570,
+    "votes": {
+     "Diana Gibson (ndp)": 14519,
+     "Stephen Andrew (conservative)": 8542,
+     "Lisa Gunderson (green)": 6509
+    },
+    "shares": {
+     "ndp": 0.491,
+     "conservative": 0.2889,
+     "green": 0.2201
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Andrew Appleton",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Two-term Oak Bay councillor and environmental professional who volunteers with community and environmental groups.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Diana Gibson",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Oak Bay-Gordon Head since 2024. Former executive director of the Greater Victoria Community Social Planning Council; helped launch the Greater Victoria Rent Bank.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Stan Sipos",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Came to Canada as a refugee from Yugoslavia. Business owner and real estate developer; co-founded Cielo Carbon Solutions.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Andrew Weaver",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Former UVic climate scientist. Oak Bay-Gordon Head MLA 2013 to 2020 and BC Green leader 2015 to 2020.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Andrew Weaver",
+       "url": "https://en.wikipedia.org/wiki/Andrew_Weaver"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "POR",
+   "name": "Powell River-Sunshine Coast",
+   "communities": "Powell River, Texada Island, Lund, Sechelt, Gibsons, Roberts Creek, Halfmoon Bay, Pender Harbour (Madeira Park, Garden Bay), Egmont, Gambier and Keats Islands",
+   "result_2024": {
+    "winner": "Randene Neill",
+    "party": "ndp",
+    "margin_votes": 4065,
+    "total_valid_votes": 29171,
+    "votes": {
+     "Randene Neill (ndp)": 14474,
+     "Chris Moore (conservative)": 10409,
+     "Chris Hergesheimer (green)": 3932,
+     "Greg Reid (independent)": 356
+    },
+    "shares": {
+     "ndp": 0.4962,
+     "conservative": 0.3568,
+     "green": 0.1348,
+     "independent": 0.0122
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "John Henderson",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Outgoing mayor of the District of Sechelt who chose not to seek another term as mayor.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Powell River Peak: Powell River-Sunshine Coast will see three candidates run for MLA",
+       "url": "https://www.prpeak.com/2026-bc-votes/powell-river-sunshine-coast-will-see-three-candidates-run-for-mla-12869651"
+      }
+     ]
+    },
+    {
+     "name": "Griffin Leonard Lea",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Canada Post letter carrier for nine years, involved in labour movements, long-time Green volunteer. Lives in Victoria, not in the riding.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Powell River Peak: Powell River-Sunshine Coast will see three candidates run for MLA",
+       "url": "https://www.prpeak.com/2026-bc-votes/powell-river-sunshine-coast-will-see-three-candidates-run-for-mla-12869651"
+      }
+     ]
+    },
+    {
+     "name": "Randene Neill",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Powell River-Sunshine Coast since 2024. Former Global BC journalist of nearly two decades; has lived in Pender Harbour since 2020.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Powell River Peak: Powell River-Sunshine Coast will see three candidates run for MLA",
+       "url": "https://www.prpeak.com/2026-bc-votes/powell-river-sunshine-coast-will-see-three-candidates-run-for-mla-12869651"
+      },
+      {
+       "label": "Wikipedia: Randene Neill",
+       "url": "https://en.wikipedia.org/wiki/Randene_Neill"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Green candidate Griffin Leonard Lea lives in Victoria, per Powell River Peak."
+  },
+  {
+   "code": "SAN",
+   "name": "Saanich North and the Islands",
+   "communities": "Sidney, North Saanich, Central Saanich (Brentwood Bay, Saanichton), Southern Gulf Islands (Salt Spring, Pender, Mayne, Galiano, Saturna)",
+   "result_2024": {
+    "winner": "Rob Botterell",
+    "party": "green",
+    "margin_votes": 1350,
+    "total_valid_votes": 34046,
+    "votes": {
+     "Rob Botterell (green)": 12308,
+     "Sarah Riddell (ndp)": 10958,
+     "David Busch (conservative)": 10145,
+     "Amy Haysom (independent)": 635
+    },
+    "shares": {
+     "green": 0.3615,
+     "ndp": 0.3219,
+     "conservative": 0.298,
+     "independent": 0.0187
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Rob Botterell (Green) announced Sept 23, 2026 he is not seeking re-election; Green leader Emily Lowan is running here.",
+   "candidates": [
+    {
+     "name": "Kala Bryson",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Lawyer and community advocate focused on access to justice. University of Victoria law graduate.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Emily Lowan",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Leader of the BC Greens since 2025, raised on the Saanich Peninsula. Former researcher at the Canadian Centre for Policy Alternatives; led coalitions at Climate Action Network Canada.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Emily Lowan",
+       "url": "https://en.wikipedia.org/wiki/Emily_Lowan"
+      }
+     ]
+    },
+    {
+     "name": "Richard Smith",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Research scientist and project manager with a UBC PhD who managed life science projects for Defence R&D Canada and Canadian Forces Health Services.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      }
+     ]
+    },
+    {
+     "name": "Ryan Windsor",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Mayor of Central Saanich since 2014 (councillor from 2013) and former Capital Regional District director.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No incumbent running; Rob Botterell not seeking re-election."
+  },
+  {
+   "code": "SAS",
+   "name": "Saanich South",
+   "communities": "Saanich: Cordova Bay, Royal Oak, Broadmead, Prospect Lake, Strawberry Vale, Blenkinsop, North Quadra",
+   "result_2024": {
+    "winner": "Lana Popham",
+    "party": "ndp",
+    "margin_votes": 5335,
+    "total_valid_votes": 30826,
+    "votes": {
+     "Lana Popham (ndp)": 15338,
+     "Adam Kubel (conservative)": 10003,
+     "Ned Taylor (green)": 5485
+    },
+    "shares": {
+     "ndp": 0.4976,
+     "conservative": 0.3245,
+     "green": 0.1779
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Lana Popham (NDP) announced Sept 21, 2026 she is not seeking re-election.",
+   "candidates": [
+    {
+     "name": "Lisa Lapointe",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Retired B.C. chief coroner (from 2011), law graduate, and former board member of PHS Community Services Society.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Business Examiner: Lisa Lapointe becomes B.C. Greens candidate in Saanich South",
+       "url": "https://businessexaminer.ca/victoria-articles/item/former-chief-coroner-lisa-lapointe-becomes-b-c-greens-candidate-in-saanich-south/"
+      }
+     ]
+    },
+    {
+     "name": "Cathie Ounsted",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Former Central Saanich councillor with service on the Central Saanich Police Board and Victoria Airport Authority board. Runs an accounting firm with her husband.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Richard Zussman",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Former legislative reporter for Global BC and CBC, later a public affairs executive at Burson. Sits on local baseball and curling boards.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Richard Zussman",
+       "url": "https://en.wikipedia.org/wiki/Richard_Zussman"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No incumbent running; Lana Popham not seeking re-election."
+  },
+  {
+   "code": "VTB",
+   "name": "Victoria-Beacon Hill",
+   "communities": "Downtown Victoria, James Bay, Fairfield, Fernwood, Rockland, Vic West edge, Harris Green",
+   "result_2024": {
+    "winner": "Grace Lore",
+    "party": "ndp",
+    "margin_votes": 3990,
+    "total_valid_votes": 28792,
+    "votes": {
+     "Grace Lore (ndp)": 13634,
+     "Sonia Furstenau (green)": 9644,
+     "Tim Thielmann (conservative)": 5514
+    },
+    "shares": {
+     "ndp": 0.4735,
+     "green": 0.335,
+     "conservative": 0.1915
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Joachim Agou",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Professional engineer and small business owner in defence test and evaluation; interim vice-president of the Victoria Conservative Association. Dropped by the party on Oct. 8 over social media posts.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Daily Hive: B.C. Conservative candidate says he's truly sorry after party removal",
+       "url": "https://dailyhive.com/vancouver/bc-conservative-agou-removal"
+      }
+     ]
+    },
+    {
+     "name": "Grace Lore",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Victoria-Beacon Hill since 2020. Former UVic and UBC political science instructor and anti-violence advocate; cabinet minister from 2020 to 2026.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Grace Lore",
+       "url": "https://en.wikipedia.org/wiki/Grace_Lore"
+      }
+     ]
+    },
+    {
+     "name": "Rajinder S. Sahota",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Born and raised on the South Island. Corporate lawyer and litigator for about two decades.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Joachim Agou is listed by Elections BC as Conservative. The party removed him on Oct 8, 2026 after the nomination deadline over past social media posts; the interim leader said he would not sit in the Conservative caucus if elected. He remains on the ballot per Wikipedia note. 2024 numbers here come from the official Statement of Votes (an older Wikipedia template showed different figures)."
+  },
+  {
+   "code": "VTS",
+   "name": "Victoria-Swan Lake",
+   "communities": "Victoria: Burnside-Gorge, Hillside-Quadra, Oaklands; Saanich: Tillicum-Gorge, Uptown, Quadra-Cedar Hill",
+   "result_2024": {
+    "winner": "Nina Krieger",
+    "party": "ndp",
+    "margin_votes": 8374,
+    "total_valid_votes": 25474,
+    "votes": {
+     "Nina Krieger (ndp)": 14273,
+     "Christina Winter (green)": 5899,
+     "Tim Taylor (conservative)": 5146,
+     "Robert Crooks (communist)": 156
+    },
+    "shares": {
+     "ndp": 0.5603,
+     "green": 0.2316,
+     "conservative": 0.202,
+     "communist": 0.0061
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Carolyn Howe",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Teacher at South Park Family School since 2005 and president of the Greater Victoria Teachers' Association.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Nina Krieger",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA for Victoria-Swan Lake since 2024. Former executive director of a Holocaust museum.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Wikipedia: Nina Krieger",
+       "url": "https://en.wikipedia.org/wiki/Nina_Krieger"
+      }
+     ]
+    },
+    {
+     "name": "Tim Taylor",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Decades in commercial and residential real estate; former chair of the Victoria Real Estate Board commercial division. Also ran for the Conservatives here in 2024.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list (2026)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
+       "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+      },
+      {
+       "label": "Island Social Trends: Provincial election candidates in south Vancouver Island ridings",
+       "url": "https://islandsocialtrends.ca/provincial-election-candidates-in-south-vancouver-island-ridings/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  }
+ ]
+}

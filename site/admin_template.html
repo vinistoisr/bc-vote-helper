@@ -1,0 +1,410 @@
+﻿<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Vote Helper Responses</title>
+<style>
+:root {
+  --bg: #ECEFEE; --surface: #FFFFFF; --surface-2: #F5F7F6; --ink: #121A1F; --ink-2: #4A5661;
+  --line: #C7CFD2; --wash: #DCE4E6; --bar: #2B6E7E; --danger: #A3261F;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10171B; --surface: #172127; --surface-2: #1D2930; --ink: #E8EEF0; --ink-2: #A9B6BD;
+    --line: #2F3E46; --wash: #24323A; --bar: #6FB3C4; --danger: #FF8A80; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10171B; --surface: #172127; --surface-2: #1D2930; --ink: #E8EEF0; --ink-2: #A9B6BD;
+  --line: #2F3E46; --wash: #24323A; --bar: #6FB3C4; --danger: #FF8A80; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 1120px; margin: 0 auto; padding: 20px 16px 60px; }
+h1 { font-size: 1.5rem; margin: 0; }
+h2 { font-size: 1.1rem; margin: 0 0 12px; }
+h3 { font-size: 0.98rem; margin: 0 0 8px; font-weight: 600; }
+.muted { color: var(--ink-2); }
+.small { font-size: 0.85rem; }
+.top { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+select, button, .btn { max-width: 100%; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; min-height: 36px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
+button:hover, .btn:hover { background: var(--wash); }
+button.danger { color: var(--danger); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 16px; min-width: 0; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid > .card { margin-bottom: 0; }
+.kpis { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); margin-bottom: 16px; }
+.kpi { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.kpi b { display: block; font-size: 1.6rem; font-variant-numeric: tabular-nums; }
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(90px, 160px) 1fr 64px; gap: 10px; align-items: center; }
+.bar-row .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.track { background: var(--surface-2); border-radius: 6px; height: 18px; overflow: hidden; }
+.fill { height: 100%; border-radius: 6px; background: var(--bar); min-width: 2px; }
+.val { text-align: right; font-variant-numeric: tabular-nums; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.days { display: flex; align-items: flex-end; gap: 3px; height: 140px; border-bottom: 1px solid var(--line); padding-top: 8px; }
+.day { flex: 1; background: var(--bar); border-radius: 3px 3px 0 0; min-height: 1px; position: relative; }
+.days-x { display: flex; justify-content: space-between; margin-top: 4px; }
+.q { border-top: 1px solid var(--line); padding: 14px 0; }
+.q:first-of-type { border-top: 0; padding-top: 0; }
+.opt { display: grid; grid-template-columns: 1fr minmax(80px, 30%) 56px; gap: 10px; align-items: center; margin: 6px 0; }
+.chips { display: inline-flex; flex-wrap: wrap; gap: 4px; margin-left: 6px; }
+.chip { font-size: 0.72rem; padding: 1px 6px; border-radius: 999px; color: #fff; white-space: nowrap; }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink-2); font-weight: 600; }
+.scroll { overflow-x: auto; }
+.empty { padding: 30px 0; text-align: center; }
+.tag { font-size: 0.75rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-left: 6px; color: var(--ink-2); }
+@media (max-width: 560px) {
+  .bar-row { grid-template-columns: 90px 1fr 52px; }
+  .opt { grid-template-columns: 1fr 70px 46px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <div>
+      <h1>Vote Helper responses</h1>
+      <p class="muted small" id="stamp">Loading...</p>
+    </div>
+    <div class="controls">
+      <label class="small">Period
+        <select id="f-period">
+          <option value="all">All time</option>
+          <option value="7">Last 7 days</option>
+          <option value="1">Last 24 hours</option>
+        </select>
+      </label>
+      <label class="small">People
+        <select id="f-who">
+          <option value="all">Everyone</option>
+          <option value="adults">Reading levels 3-5</option>
+          <option value="kids">Reading levels 1-2</option>
+        </select>
+      </label>
+      <label class="small">Region
+        <select id="f-region"><option value="all">All regions</option></select>
+      </label>
+      <label class="small">Riding
+        <select id="f-riding"><option value="all">All ridings</option></select>
+      </label>
+      <label class="small">Location
+        <select id="f-where">
+          <option value="all">All of Canada</option>
+          <option value="BC">BC only</option>
+        </select>
+      </label>
+      <button type="button" id="refresh">Refresh</button>
+      <a class="btn" href="/api/admin/export.csv">Download CSV</a>
+    </div>
+  </div>
+
+  <div id="out"></div>
+</main>
+
+<script type="application/json" id="spec">/*__SPEC__*/</script>
+<script>
+(function () {
+  "use strict";
+  var SPEC = JSON.parse(document.getElementById("spec").textContent);
+  var WEIGHTS = { low: 0.5, medium: 1, high: 2 };
+  var PARTIES = SPEC.parties, PIDS = PARTIES.map(function (p) { return p.id; });
+  var PBY = {}; PARTIES.forEach(function (p) { PBY[p.id] = p; });
+  var ISSUE = {}; SPEC.issues.forEach(function (i) { ISSUE[i.id] = i; });
+  var REGIONS = SPEC.regions || [], REGBY = {}; REGIONS.forEach(function (r) { REGBY[r.id] = r; });
+  var RIDINGS = SPEC.ridings || [], RIDBY = {}; RIDINGS.forEach(function (r) { RIDBY[r.code] = r; });
+  /* Which region owns each local question */
+  var QREG = {}; REGIONS.forEach(function (r) { (r.local_qids || []).forEach(function (q) { QREG[q] = r.id; }); });
+  var NOT_GIVEN = "none";
+  var DATA = null;
+
+  function el(id) { return document.getElementById(id); }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function pct(n, d) { return d ? (100 * n) / d : 0; }
+  function fmt(v) { return (Math.round(v * 10) / 10).toFixed(v >= 10 || v === 0 ? 0 : 1) + "%"; }
+  function issueLabel(q) { var l = ISSUE[q.issue_id] && ISSUE[q.issue_id].label; return l ? (l["3"] || l[Object.keys(l)[0]]) : q.id; }
+
+  /*
+   * Same rule as the quiz: alignment = sum(w*s) / sum(w*4), skips and no-position cells left out.
+   * With a riding, only the provincial questions and that region's local questions count (as on the
+   * page). Without one (V1 rows, or "parties only"), every stored answer counts, which matches V1.
+   */
+  function inSet(q, riding) {
+    if (!riding || !RIDBY[riding]) return true;
+    return q.scope === "provincial" || QREG[q.id] === RIDBY[riding].region;
+  }
+  function score(answers, local, riding) {
+    var t = {}; PIDS.forEach(function (p) { t[p] = { num: 0, den: 0 }; });
+    SPEC.questions.forEach(function (q) {
+      if (!inSet(q, riding)) return;
+      var a = answers && answers[q.id];
+      if (!a || !a.c || a.c === "skip") return;
+      var opt = q.options.filter(function (o) { return o.id === a.c; })[0];
+      if (!opt) return;
+      var w = (WEIGHTS[a.w] || 1) * (local && q.scope === "local" ? 2 : 1);
+      PIDS.forEach(function (p) {
+        if ((q.no_pos || []).indexOf(p) >= 0) return;
+        t[p].num += w * Number(opt.scores[p]); t[p].den += w * 4;
+      });
+    });
+    var out = {}; PIDS.forEach(function (p) { out[p] = t[p].den ? (100 * t[p].num) / t[p].den : null; });
+    return out;
+  }
+  function tops(map) {
+    var best = -1, ids = [];
+    PIDS.forEach(function (p) {
+      if (map[p] == null) return;
+      var v = Math.round(map[p]);
+      if (v > best) { best = v; ids = [p]; } else if (v === best) ids.push(p);
+    });
+    return ids;
+  }
+
+  function load() {
+    el("stamp").textContent = "Loading...";
+    fetch("/api/admin/data", { credentials: "same-origin", cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).then(function (d) {
+      var subBy = {}; d.submissions.forEach(function (s) { subBy[s.sid] = s; });
+      d.people.forEach(function (p) {
+        p.sub = subBy[p.sid] || {};
+        p.riding = p.sub.riding && RIDBY[p.sub.riding] ? p.sub.riding : null;
+        p.region = p.riding ? RIDBY[p.riding].region : null;
+        p.prov = score(p.answers, false, p.riding);
+        p.local = score(p.answers, true, p.riding);
+        p.top = tops(p.prov);
+        p.topLocal = tops(p.local);
+      });
+      DATA = d;
+      render();
+    }).catch(function (e) {
+      el("stamp").textContent = "Could not load data (" + e.message + "). Your Access session may have expired: reload the page.";
+    });
+  }
+
+  function filtered() {
+    var period = el("f-period").value, who = el("f-who").value, where = el("f-where").value;
+    var region = el("f-region").value, riding = el("f-riding").value;
+    var cutoff = period === "all" ? 0 : Date.parse(DATA.generated_at) - Number(period) * 86400000;
+    var people = DATA.people.filter(function (p) {
+      if (cutoff && Date.parse(p.sub.created_at) < cutoff) return false;
+      if (who === "adults" && p.level < 3) return false;
+      if (who === "kids" && p.level > 2) return false;
+      if (where === "BC" && p.sub.region_code !== "BC") return false;
+      if (region === NOT_GIVEN && p.region) return false;
+      if (region !== "all" && region !== NOT_GIVEN && p.region !== region) return false;
+      if (riding === NOT_GIVEN && p.riding) return false;
+      if (riding !== "all" && riding !== NOT_GIVEN && p.riding !== riding) return false;
+      return true;
+    });
+    var sids = {}; people.forEach(function (p) { sids[p.sid] = true; });
+    var subs = DATA.submissions.filter(function (s) { return sids[s.sid]; });
+    return { people: people, subs: subs, region: region, riding: riding };
+  }
+  function ridingOptions() {
+    var html = '<option value="all">All ridings</option><option value="' + NOT_GIVEN + '">Not given</option>';
+    REGIONS.forEach(function (reg) {
+      var list = RIDINGS.filter(function (r) { return r.region === reg.id; }).sort(function (a, b) { return a.name.localeCompare(b.name); });
+      if (!list.length) return;
+      html += '<optgroup label="' + esc(reg.name) + '">' + list.map(function (r) { return '<option value="' + esc(r.code) + '">' + esc(r.name) + "</option>"; }).join("") + "</optgroup>";
+    });
+    return html;
+  }
+  function regionOptions() {
+    return '<option value="all">All regions</option><option value="' + NOT_GIVEN + '">Not given</option>' +
+      REGIONS.map(function (r) { return '<option value="' + esc(r.id) + '">' + esc(r.name) + "</option>"; }).join("");
+  }
+  function ridingLabel(code) { return code && RIDBY[code] ? RIDBY[code].name : "Not given"; }
+
+  function barRows(rows, total) {
+    var max = Math.max.apply(null, rows.map(function (r) { return r.v; }).concat([1e-9]));
+    return '<div class="bars">' + rows.map(function (r) {
+      return '<div class="bar-row"><span class="lbl">' + (r.color ? '<span class="dot" style="background:' + r.color + '"></span>' : "") + esc(r.label) + '</span>' +
+        '<div class="track"><div class="fill" style="width:' + (100 * r.v / max).toFixed(1) + "%" + (r.color ? ";background:" + r.color : "") + '"></div></div>' +
+        '<span class="val">' + (r.text != null ? esc(r.text) : fmt(pct(r.v, total))) + "</span></div>";
+    }).join("") + "</div>";
+  }
+
+  function render() {
+    var f = filtered(), P = f.people, n = P.length;
+    el("stamp").textContent = "Updated " + new Date(DATA.generated_at).toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" }) +
+      "; scores use the current quiz data (" + SPEC.meta.data_as_of + "). " + DATA.people.length + " people stored in total.";
+    if (!n) { el("out").innerHTML = '<div class="card empty muted">No responses match these filters yet.</div>'; return; }
+
+    var families = f.subs.filter(function (s) { return s.count > 1; }).length;
+    var dayAgo = Date.parse(DATA.generated_at) - 86400000;
+    var last24 = P.filter(function (p) { return Date.parse(p.sub.created_at) >= dayAgo; }).length;
+    var answeredAvg = P.reduce(function (a, p) { return a + p.answered; }, 0) / n;
+
+    /* best match shares (ties split) */
+    var share = {}, avg = {}, avgN = {}, shareLocal = {};
+    PIDS.forEach(function (p) { share[p] = 0; avg[p] = 0; avgN[p] = 0; shareLocal[p] = 0; });
+    P.forEach(function (p) {
+      p.top.forEach(function (id) { share[id] += 1 / p.top.length; });
+      p.topLocal.forEach(function (id) { shareLocal[id] += 1 / p.topLocal.length; });
+      PIDS.forEach(function (id) { if (p.prov[id] != null) { avg[id] += p.prov[id]; avgN[id] += 1; } });
+    });
+    var byShare = PIDS.slice().sort(function (a, b) { return share[b] - share[a]; });
+    var html = "";
+    html += '<div class="kpis">' +
+      kpi(n, "people") + kpi(f.subs.length, "sessions") + kpi(families, "family sessions (2-4 people)") +
+      kpi(last24, "people in the last 24 hours") + kpi(answeredAvg.toFixed(1), "questions answered, average") +
+      kpi(f.subs.filter(function (s) { return s.riding && RIDBY[s.riding]; }).length, "sessions with a riding") + "</div>";
+
+    html += '<div class="grid">';
+    html += '<div class="card"><h2>Best match</h2><p class="muted small">Share of people whose top match is each party. Ties are split.</p>' +
+      barRows(byShare.map(function (id) { return { label: PBY[id].short_name || PBY[id].name, v: share[id], color: PBY[id].color }; }), n) + "</div>";
+    html += '<div class="card"><h2>Average match</h2><p class="muted small">Mean alignment score per party, 0 to 100.</p>' +
+      barRows(PIDS.slice().sort(function (a, b) { return avg[b] / (avgN[b] || 1) - avg[a] / (avgN[a] || 1); }).map(function (id) {
+        var v = avgN[id] ? avg[id] / avgN[id] : 0;
+        return { label: PBY[id].short_name || PBY[id].name, v: v, color: PBY[id].color, text: Math.round(v) + "" };
+      }), 100) + "</div>";
+    html += candidatePanel(f, shareLocal, n);
+    html += "</div><div style=\"height:16px\"></div>";
+    html += byRidingTable(P, f);
+
+    /* per day */
+    var days = {}; P.forEach(function (p) { var d = (p.sub.created_at || "").slice(0, 10); days[d] = (days[d] || 0) + 1; });
+    var keys = Object.keys(days).sort();
+    if (keys.length) {
+      var list = [], d0 = new Date(keys[0] + "T00:00:00Z"), d1 = new Date(keys[keys.length - 1] + "T00:00:00Z");
+      for (var d = d0; d <= d1; d = new Date(d.getTime() + 86400000)) { var k = d.toISOString().slice(0, 10); list.push({ k: k, v: days[k] || 0 }); }
+      var mx = Math.max.apply(null, list.map(function (x) { return x.v; }));
+      html += '<div class="card"><h2>People per day (UTC)</h2><div class="days">' + list.map(function (x) {
+        return '<div class="day" title="' + x.k + ": " + x.v + '" style="height:' + (100 * x.v / mx).toFixed(1) + '%"></div>';
+      }).join("") + '</div><div class="days-x small muted"><span>' + list[0].k + "</span><span>" + list[list.length - 1].k + "</span></div></div>";
+    }
+
+    /* questions */
+    html += '<div class="card"><h2>Answers by question</h2><p class="muted small">Share of people who picked each answer (skips left out). Chips show the parties whose position that answer matches best (score 4).</p>';
+    var showRegion = f.riding !== "all" && f.riding !== NOT_GIVEN && RIDBY[f.riding] ? RIDBY[f.riding].region : f.region !== "all" && f.region !== NOT_GIVEN ? f.region : null;
+    var qn = 0;
+    SPEC.questions.forEach(function (q) {
+      if (showRegion && q.scope !== "provincial" && QREG[q.id] !== showRegion) return;
+      var qi = qn++;
+      var counts = {}, given = 0, skips = 0, high = 0, seen = 0;
+      P.forEach(function (p) {
+        var a = p.answers && p.answers[q.id];
+        if (!a) return;
+        seen += 1;
+        if (a.c === "skip") { skips += 1; return; }
+        counts[a.c] = (counts[a.c] || 0) + 1; given += 1;
+        if (a.w === "high") high += 1;
+      });
+      var mx2 = Math.max.apply(null, q.options.map(function (o) { return counts[o.id] || 0; }).concat([1]));
+      html += '<div class="q"><h3>' + (qi + 1) + ". " + esc(issueLabel(q)) + (q.scope !== "provincial" ? '<span class="tag">' + esc(QREG[q.id] && REGBY[QREG[q.id]] ? REGBY[QREG[q.id]].name : "Local") + "</span>" : "") + "</h3>" +
+        '<p class="small">' + esc(q.prompt) + "</p>";
+      q.options.forEach(function (o) {
+        var c = counts[o.id] || 0;
+        var chips = PIDS.filter(function (pid) { return Number(o.scores[pid]) === 4 && (q.no_pos || []).indexOf(pid) < 0; }).map(function (pid) {
+          return '<span class="chip" style="background:' + PBY[pid].color + '">' + esc(PBY[pid].short_name || PBY[pid].name) + "</span>";
+        }).join("");
+        html += '<div class="opt"><span class="small">' + esc(o.text) + (chips ? '<span class="chips">' + chips + "</span>" : "") + "</span>" +
+          '<div class="track"><div class="fill" style="width:' + (100 * c / mx2).toFixed(1) + '%"></div></div><span class="val small">' + fmt(pct(c, given)) + "</span></div>";
+      });
+      html += '<p class="muted small">' + given + " answered, " + skips + " skipped. " + fmt(pct(high, given)) + " marked it high importance.</p></div>";
+    });
+    html += "</div>";
+
+    /* levels and places */
+    var lv = {}; P.forEach(function (p) { lv[p.level] = (lv[p.level] || 0) + 1; });
+    var regions = {}, cities = {};
+    f.subs.forEach(function (s) {
+      var r = s.region || s.region_code || "Unknown"; regions[r] = (regions[r] || 0) + s.count;
+      var c = (s.city || "Unknown") + (s.region_code ? ", " + s.region_code : ""); cities[c] = (cities[c] || 0) + s.count;
+    });
+    function topList(obj, k) { return Object.keys(obj).sort(function (a, b) { return obj[b] - obj[a]; }).slice(0, k).map(function (x) { return { label: x, v: obj[x] }; }); }
+    html += '<div class="grid">';
+    html += '<div class="card"><h2>Reading level</h2>' + barRows(SPEC.levels.map(function (L) { return { label: L.id + ". " + L.label, v: lv[L.id] || 0 }; }), n) + "</div>";
+    html += '<div class="card"><h2>Province</h2>' + barRows(topList(regions, 8), n) + "</div>";
+    html += '<div class="card"><h2>Top cities</h2><p class="muted small">From Cloudflare IP location, approximate.</p>' + barRows(topList(cities, 12), n) + "</div>";
+    html += "</div><div style=\"height:16px\"></div>";
+
+    /* recent sessions */
+    var recent = f.subs.slice().sort(function (a, b) { return b.created_at < a.created_at ? -1 : 1; }).slice(0, 60);
+    var pBySid = {}; P.forEach(function (p) { (pBySid[p.sid] = pBySid[p.sid] || []).push(p); });
+    html += '<div class="card"><h2>Recent sessions</h2><p class="muted small">Tick test runs or junk and delete them. This cannot be undone.</p><div class="scroll"><table><thead><tr><th></th><th>When</th><th>People</th><th>Where</th><th>Riding</th><th>Best match per person</th></tr></thead><tbody>' +
+      recent.map(function (s) {
+        var ppl = (pBySid[s.sid] || []).sort(function (a, b) { return a.idx - b.idx; });
+        return '<tr><td><input type="checkbox" class="del" value="' + esc(s.sid) + '" aria-label="Select session"></td><td>' +
+          esc(new Date(s.created_at).toLocaleString("en-CA", { dateStyle: "short", timeStyle: "short" })) + "</td><td>" + s.count + "</td><td>" +
+          esc([s.city, s.region_code].filter(Boolean).join(", ") || "-") + "</td><td>" + esc(ridingLabel(s.riding)) + "</td><td>" +
+          ppl.map(function (p) { return "L" + p.level + ": " + p.top.map(function (id) { return esc(PBY[id].short_name || PBY[id].name); }).join(" / "); }).join("; ") + "</td></tr>";
+      }).join("") + '</tbody></table></div><p><button type="button" class="danger" id="del-btn">Delete selected</button> <span class="small muted" id="del-msg"></span></p></div>';
+
+    el("out").innerHTML = html;
+    el("del-btn").addEventListener("click", delSelected);
+  }
+  function kpi(v, label) { return '<div class="kpi"><b>' + esc(v) + '</b><span class="small muted">' + esc(label) + "</span></div>"; }
+
+  /* Candidate match for one riding: share of people whose top local party (local questions double) is each candidate's party */
+  function candidatePanel(f, shareLocal, n) {
+    var r = f.riding !== "all" && f.riding !== NOT_GIVEN ? RIDBY[f.riding] : null;
+    if (!r) return '<div class="card"><h2>Candidate match</h2><p class="muted small">Pick one riding in the Riding filter to see its candidate match (party score with that region\'s local questions counted double, same method as the page).</p></div>';
+    var reg = REGBY[r.region];
+    var nLocal = reg ? (reg.local_qids || []).length : 0;
+    var note = nLocal ? "Party score with the " + nLocal + " local questions for " + reg.name + " counted double. Ties are split." : "No local questions for " + (reg ? reg.name : "this region") + " yet, so this is the party score.";
+    if (!r.candidates.length) return '<div class="card"><h2>' + esc(r.name) + ' candidate match</h2><p class="muted small">Candidate list not loaded yet.</p></div>';
+    return '<div class="card"><h2>' + esc(r.name) + ' candidate match</h2><p class="muted small">' + esc(note) + "</p>" +
+      barRows(r.candidates.slice().sort(function (a, b) { return shareLocal[b.party_id] - shareLocal[a.party_id]; }).map(function (c) {
+        return { label: c.name, v: shareLocal[c.party_id] || 0, color: PBY[c.party_id] && PBY[c.party_id].color };
+      }), n) + "</div>";
+  }
+  /* One row per riding (and "Not given"): sessions, people and the party most often on top */
+  function byRidingTable(P, f) {
+    var rows = {};
+    P.forEach(function (p) {
+      var k = p.riding || NOT_GIVEN;
+      var r = rows[k] = rows[k] || { code: k, people: 0, sids: {}, share: {} };
+      r.people += 1; r.sids[p.sid] = true;
+      p.top.forEach(function (id) { r.share[id] = (r.share[id] || 0) + 1 / p.top.length; });
+    });
+    var list = Object.keys(rows).map(function (k) { return rows[k]; }).sort(function (a, b) { return b.people - a.people || ridingLabel(a.code).localeCompare(ridingLabel(b.code)); });
+    return '<div class="card"><h2>By riding</h2><p class="muted small">Top party is the party most often first for people in that riding (ties split). Old rows and "parties only" sessions count as Not given.</p><div class="scroll"><table><thead><tr><th>Riding</th><th>Region</th><th>Sessions</th><th>People</th><th>Top party</th></tr></thead><tbody>' +
+      list.map(function (r) {
+        var best = PIDS.slice().sort(function (a, b) { return (r.share[b] || 0) - (r.share[a] || 0); })[0];
+        var reg = r.code !== NOT_GIVEN && RIDBY[r.code] ? REGBY[RIDBY[r.code].region] : null;
+        return "<tr><td>" + esc(ridingLabel(r.code === NOT_GIVEN ? null : r.code)) + "</td><td>" + esc(reg ? reg.name : "-") + "</td><td>" + Object.keys(r.sids).length + "</td><td>" + r.people + "</td><td>" +
+          (r.share[best] ? '<span class="dot" style="background:' + esc(PBY[best].color) + '"></span>' + esc(PBY[best].short_name || PBY[best].name) + " " + fmt(pct(r.share[best], r.people)) : "-") + "</td></tr>";
+      }).join("") + "</tbody></table></div></div>";
+  }
+
+  var armed = false;
+  function delSelected() {
+    var sids = Array.prototype.map.call(document.querySelectorAll(".del:checked"), function (c) { return c.value; });
+    var msg = el("del-msg"), btn = el("del-btn");
+    if (!sids.length) { msg.textContent = "Nothing selected."; return; }
+    if (!armed) { armed = true; btn.textContent = "Click again to delete " + sids.length; msg.textContent = ""; return; }
+    armed = false; btn.disabled = true;
+    fetch("/api/admin/delete", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sids: sids }) })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); load(); })
+      .catch(function (e) { msg.textContent = "Delete failed (" + e.message + ")."; btn.disabled = false; btn.textContent = "Delete selected"; });
+  }
+
+  el("f-riding").innerHTML = ridingOptions();
+  el("f-region").innerHTML = regionOptions();
+  /* Picking a riding sets its region; picking a region clears a riding outside it */
+  el("f-riding").addEventListener("change", function () {
+    var v = el("f-riding").value;
+    if (RIDBY[v]) el("f-region").value = RIDBY[v].region;
+    else if (v === NOT_GIVEN) el("f-region").value = "all";
+  });
+  el("f-region").addEventListener("change", function () {
+    var v = el("f-riding").value, rg = el("f-region").value;
+    if (RIDBY[v] && RIDBY[v].region !== rg) el("f-riding").value = "all";
+  });
+  ["f-period", "f-who", "f-where", "f-region", "f-riding"].forEach(function (id) { el(id).addEventListener("change", function () { if (DATA) render(); }); });
+  el("refresh").addEventListener("click", load);
+  load();
+})();
+</script>
+</body>
+</html>

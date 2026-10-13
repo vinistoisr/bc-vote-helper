@@ -1,0 +1,10 @@
+Fonts in this folder, downloaded from Google Fonts (latin and latin-ext subsets) by fetch_fonts.py:
+
+- Archivo (variable, width and weight), Copyright The Archivo Project Authors
+- Atkinson Hyperlegible Next, Copyright Braille Institute of America
+- Atkinson Hyperlegible Mono, Copyright Braille Institute of America
+
+All are licensed under the SIL Open Font License, Version 1.1: https://openfontlicense.org/
+
+assets/vendor/jspdf.umd.min.js is jsPDF 2.5.1 (https://github.com/parallax/jsPDF), MIT License,
+same file and SRI hash as https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js

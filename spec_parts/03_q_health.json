@@ -1,0 +1,222 @@
+[
+  {
+    "id": "q_health",
+    "issue_id": "health",
+    "scope": "provincial",
+    "prompt": {
+      "1": "Many people cannot find a family doctor, and waiting rooms are full. What should change?",
+      "2": "How should the province help people get a family doctor, emergency care and surgery sooner?",
+      "3": "How should the province improve access to family doctors, emergency rooms and surgeries?",
+      "4": "Which way of running and paying for health care should BC choose to cut waits and connect people to a doctor?",
+      "5": "Which health care delivery and funding model do you support?"
+    },
+    "context": {
+      "1": "About one in four people in BC has no family doctor. Every party says health care should stay free. They disagree on who should run clinics and care homes, and on how to pay for more care.",
+      "2": "About one in four people in BC has no regular family doctor or nurse practitioner, up from fewer than one in five in 2017. Every party says care should stay free for patients. They disagree on whether companies should run more care, and on how to pay for it.",
+      "3": "Health care ranks second for BC voters. About one in four people has no regular family doctor or nurse practitioner, even after the NDP government changed how family doctors are paid in 2023. All parties say care should stay publicly funded. They differ on building more public clinics, paying non-government providers, allowing people to pay for faster care, and how to fund it all.",
+      "4": "About 1.26 million people in BC (23%) have no regular family doctor or nurse practitioner, up from 18% in 2017, even though the NDP government brought in a new pay model for family doctors in 2023. The median wait from a doctor's referral to treatment is 32 weeks. A provincial law, the Medicare Protection Act, bars private clinics from charging patients for services the public plan covers.",
+      "5": "In April 2026, 1,259,425 people (23%) had no regular primary care provider, compared with 897,000 (18.2%) in 2017. The family doctor payment model brought in in 2023 (LFP) connects about 4,000 people a week to a provider. The Fraser Institute puts the median wait from referral to treatment at 32.2 weeks. The government has put 73% of its minimum nurse-to-patient ratios in place, and the health budget is about $36 billion. The Medicare Protection Act bars extra-billing for services the public plan insures."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Open more public clinics and train more doctors, paid for by top earners.",
+          "2": "Open more public clinics, train more doctors, buy more scanners, and raise taxes on top earners.",
+          "3": "Expand the public system with more clinics, training seats and scanners, paid for by higher taxes on top earners.",
+          "4": "Scale up public care and testing with 20 clinics, 1,000 training seats and more MRI and CT scanners, paid for by a higher top tax rate.",
+          "5": "Expand the public system with 20 clinics, a bridge for foreign-trained doctors, 1,000 training seats, 8 MRIs, 10 CT scanners and regional waitlists, keep the LFP pay model, and raise top tax brackets."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 1,
+          "green": 3,
+          "centrebc": 2,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Care stays free. Families can pick approved care homes, run by government or not.",
+          "2": "Care stays free, public money follows patients to approved providers, even company-run ones, and emergency rooms stay open.",
+          "3": "Public funding follows patients to approved non-government providers, and a rural fund keeps emergency rooms open.",
+          "4": "Public funding with mixed delivery: hold spending at 2026 levels, a $50 million rural emergency room fund, a 100-day wait-time commission, and long-term and home-care funding that follows the patient.",
+          "5": "Universal public funding with mixed delivery: 2026 funding levels, a $50 million rural ER fund, a 100-day wait-time commission, and long-term and home-care funding patients can take to any qualified provider."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 2,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "People can pay to get care faster. Free care stays for everyone else.",
+          "2": "Let private clinics charge people who want to be seen sooner, alongside the free public system.",
+          "3": "Allow private-pay care alongside the public system so people can pay for faster treatment.",
+          "4": "Add a private-pay option for services the public plan covers, alongside the public system, and loosen rules on health professions to add capacity.",
+          "5": "Allow a parallel private tier for services the Medical Services Plan insures and repeal the Health Professions and Occupations Act, which needs the Medicare Protection Act amended or left unenforced."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 1,
+          "green": 0,
+          "centrebc": 0,
+          "onebc": 4
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "A public health centre in every community, and no private nursing companies.",
+          "2": "A public health centre in every area, and no more hiring nurses through private agencies.",
+          "3": "Public care only: a community health centre in every riding, no private agency nurses, and public mental health care.",
+          "4": "Public delivery only: a community health centre in every riding, full nurse-to-patient ratios, no agency nurses, and public coverage for counselling.",
+          "5": "A community health centre in every riding, nurse-to-patient ratios completed, agency nursing phased out, mental health care in the public plan, and single-entry surgical referral."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 2,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "e",
+        "text": {
+          "1": "Give everyone a regular doctor or nurse, paid for by cutting health office costs.",
+          "2": "A doctor or nurse practitioner for everyone, more surgeries and care homes, paid for by cutting health office costs.",
+          "3": "A doctor or nurse practitioner for everyone by 2031, a law on emergency room closures, more surgeries and care beds, and fewer health executives.",
+          "4": "A primary-care team for everyone by 2031, an ER Accountability Act, 15,000 more surgeries a year and 2,500 care beds started, paid for by merging health-authority back offices, with no private pay.",
+          "5": "Team-based care for everyone by 2031 with automatic registration, 600 nurse practitioners, an ER Accountability Act, 15,000 more surgeries, 2,500 long-term care beds under construction and one health-authority back office, with no private pay."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 3,
+          "green": 1,
+          "centrebc": 4,
+          "onebc": 1
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party wants more clinics, nurses and doctors, paid for by higher taxes on top earners.",
+          "3": "The NDP promises 20 clinics, 1,000 training seats, 18 scanners and 500 home-care workers, paid for by a higher top tax rate. In government it brought in a new pay model for family doctors and nurse-to-patient ratios, but the share of people without a regular provider rose from 18% to 23%.",
+          "5": "The NDP's 2026 plan adds 20 clinics, a bridge for foreign-trained doctors, 1,000 training seats, 8 MRI and 10 CT scanners, regional waitlists and 500 home-care workers, scraps home-care fees and restarts seven paused long-term care projects. Higher top brackets would raise about $1 billion a year. In government it introduced the LFP pay model in 2023 and has 73% of nurse ratios in effect, while the share of people without a provider rose from 18.2% in 2017 to 23% in 2026."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC NDP: wait times and diagnostics (Oct 6, 2026)",
+            "url": "https://www.bcndp.ca/releases/getting-care-sooner-eby-will-cut-wait-times-add-new-diagnostic-equipment"
+          },
+          {
+            "label": "Global News: leaders on health care and seniors (Oct 9, 2026)",
+            "url": "https://globalnews.ca/news/12097726/bc-leaders-campaign-trail-health-care-supporting-seniors-october-9"
+          },
+          {
+            "label": "The Tyee: family doctor crisis figures (May 31, 2026)",
+            "url": "https://thetyee.ca/News/2026/05/31/BC-Family-Doctor-Crisis-Gets-Even-Worse/"
+          },
+          {
+            "label": "BCNU: nurse-patient ratios progress (2026)",
+            "url": "https://www.bcnu.org/news-and-events/news/2026/minimum-nurse-patient-ratios-focus-bc-nurses-conference"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party wants care to stay free, emergency rooms kept open, and more choice of care homes for families.",
+          "3": "The Conservatives promise open emergency rooms, a $50 million rural emergency fund, a 100-day wait-time commission and funding held at 2026 levels. They would let long-term and home-care funding follow patients to non-government providers. They have not repeated their 2024 private-clinic plan.",
+          "5": "On October 5 the Conservatives promised open ERs, a $50 million rural emergency fund, a 100-day commission drawing on 'other public systems' and funding at 2026 levels, calling care 'universal and publicly funded'. On October 9 they promised long-term care funding that patients can take to 'qualified public or non-government' providers. They have not repeated 2024 pledges on private-clinic partnerships or out-of-province care guarantees. They voted against the NDP's 2025 mental health bill (Bill 32)."
+        },
+        "basis": "both",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "Conservative Party of BC: Keep Emergency Rooms Open (Oct 5, 2026)",
+            "url": "https://conservativebc.ca/keep-emergency-rooms-open/"
+          },
+          {
+            "label": "Sitka Media: Conservative seniors plan (Oct 9, 2026)",
+            "url": "https://www.sitkamedia.ca/watch-bc-conservatives-unveil-plan-to-support-seniors/"
+          },
+          {
+            "label": "Global News 2024: Conservative hybrid health plan (not repeated in 2026)",
+            "url": "https://globalnews.ca/news/10631278/bc-conservatives-hybrid-health-care-system"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party wants a public health centre in every community and no private nursing companies.",
+          "3": "The Greens would put a community health centre in every riding, finish nurse-to-patient ratios, phase out private agency nurses, cover mental health care publicly and keep public health money in public care.",
+          "5": "The Greens would put a community health centre in every riding, complete nurse ratios, phase out agency nurses, add public mental health coverage and single-entry surgical referral, forgive student loans in health fields, and assess the health effects of liquefied natural gas (LNG) and fracking. Their 2024 accord with the NDP included health centres and psychologist coverage; the Greens say commitments of $15 million and $50 million were not delivered."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan/"
+          },
+          {
+            "label": "BC Ballot: BC Green health commitments",
+            "url": "https://bcballot.ca/platforms/bc-green-party/"
+          },
+          {
+            "label": "CP24: Greens cite undelivered health commitments",
+            "url": "https://www.cp24.com/news/canada/2026/02/09/bc-greens-wont-renew-accord-with-ndp-citing-stalled-undelivered-promises/"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party wants a doctor or nurse for everyone, open emergency rooms and more care homes, with no paying for faster care.",
+          "3": "CentreBC's platform promises a family doctor or nurse practitioner team for everyone by 2031, a law on emergency room closures, 15,000 more surgeries a year, 2,500 long-term care beds started and free counselling. It rejects private pay and phases out agency nurses. It pays mainly by merging health-authority back offices, at about $4 billion over four years (party costing).",
+          "5": "The platform promises a provider for everyone by 2031 with automatic registration, 600 nurse practitioners, 100 residencies, more foreign-trained doctor assessments and 30-day licensing for out-of-province staff. It adds an ER Accountability Act with a $25 million a year rural fund, 15,000 surgeries, 5 MRIs, 2,500 long-term care beds under construction by March 2031 and a $400 a month caregiver benefit. It rules out private pay, phases out agency nurses and keeps the LFP model. The party puts the cost at $4.0 billion plus $3.2 billion capital over four years."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 14-19)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "CentreBC: 'Healthcare crisis was never a surprise' (June 2026)",
+            "url": "https://www.centrebc.ca/news/opinion-healthcare-crisis-was-never-a-surprise/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party would let people pay for faster care, while free care stays for everyone else.",
+          "3": "OneBC would allow private health care alongside the public system and repeal the Health Professions and Occupations Act. It has no plan for clinics, training or long-term care.",
+          "5": "OneBC would allow private health care alongside the public system and repeal the Health Professions and Occupations Act. It makes no commitments on primary care, diagnostics, nurse ratios or long-term care. A parallel private tier would conflict with the Medicare Protection Act as it stands."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "BC Ballot: platform comparison",
+            "url": "https://bcballot.ca/platforms/"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "All five parties say care should stay publicly funded; the split is delivery and funding. a is the NDP plan and record (4); Greens would also expand public capacity and tax more (3); CentreBC 2 (the same public expansion, including NPs, residencies, scanners and foreign-trained doctors, but it rules out the top-earner tax that defines the option and funds the expansion from admin savings); Conservatives 1 (training and recruitment overlap, but no new tax and funding frozen); OneBC 0. b is the 2026 Conservative plan including portable funding to non-government providers (4); OneBC 2 (wants private pay alongside public, has not endorsed portable funding or the ER fund); CentreBC 2 (shares the ER fund and wait-time transparency and contracts private clinics for public scans for two years, but rejects portable funding to non-government providers and private pay); NDP 1 (it already contracts some non-government long-term care but opposes expansion); Green 0. c is OneBC alone (4); Conservatives 1 because the 2024 private-partnership plank exists but was dropped in 2026, and the current line is 'universal and publicly funded'; CentreBC 0 (bars private pay and dual practice, would fix rather than repeal the HPOA). d is the Green platform (4); NDP 2 (team-based clinics and ratios, but uses agency nurses and contracts); CentreBC 2 (public-only, phases out agency nurses, free counselling; no health centre per riding or ratios pledge); others 0. e is CentreBC's platform (4): primary-care teams for all, ER law, surgeries, LTC, home support, admin savings; Conservatives 3 (ER fund, LTC and home care, no new tax; differ on non-government delivery); NDP 2 (team-based clinics, LTC restarts and surgical targets, but funds them with a tax rise and keeps agency contracts); Green 1; OneBC 1. Option e was rewritten on October 10 from the earlier operational-fixes framing; other parties' scores on it were kept. Record over rhetoric: the NDP is scored with its paused projects and the rise in unattached patients noted in the explainer, but the direction of its commitments is unchanged; the Conservatives are scored on the 2026 text, not the 2024 private-clinic plan."
+  }
+]

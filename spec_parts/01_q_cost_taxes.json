@@ -1,0 +1,446 @@
+[
+  {
+    "id": "q_cost_of_living",
+    "issue_id": "cost_of_living",
+    "scope": "provincial",
+    "prompt": {
+      "1": "Food, gas and rent cost more now. How should the government help people with costs?",
+      "2": "Groceries, gas and rent cost more than they used to. How should the province help families pay for them?",
+      "3": "Cost of living is the top issue for BC voters. Which approach should the province take to make life more affordable?",
+      "4": "Which cost-of-living approach should come first: tax cuts, price rules, more help for low incomes, or targeted credits and rate caps?",
+      "5": "Which mix of cost-of-living measures should the province put first: broad tax cuts, price controls, income support, or targeted credits and rate caps?"
+    },
+    "context": {
+      "1": "Prices for food, gas and rent have gone up. Every party says it wants to make life cost less. Some want to cut taxes. Some want rules that keep prices down. Some want more help for people with low incomes.",
+      "2": "Prices were 2.9% higher in July 2026 than a year before. Every party promises to make life more affordable, but they disagree on how. The province could cut taxes for everyone, limit some prices, give more money to people with the lowest incomes, or lower costs for businesses so they can charge less.",
+      "3": "Cost of living is the top issue for BC voters. In 2025 the NDP government ended the consumer carbon tax, but it paused a $1,000 rebate, and in 2026 it raised the lowest tax rate. Every party promises relief in a different way. Some would cut income taxes for everyone. One would cap markups on gas and some groceries. Another would raise support for the poorest people. Others mix smaller tax cuts with limits on power and car insurance increases.",
+      "4": "Cost of living ranks first for 56% of BC voters, according to an Ipsos poll. The minimum wage is $18.25 an hour and rises with inflation each year. In 2025 the NDP government paused a $1,000 grocery rebate, and in 2026 it raised the lowest income tax rate. The parties' price tags are hard to compare. The Conservative and OneBC tax cuts have no published cost. The Greens have not published how they estimated their wealth tax revenue, and CentreBC's cost figures are its own, not checked by anyone else.",
+      "5": "Consumer prices rose 2.9% in the year to July 2026. The NDP government ended the consumer carbon tax in April 2025, and Budget 2026 raised the lowest income tax rate from 5.06% to 5.60%. The NDP proposes a 10-cent-a-litre fuel tax cut with a BC Utilities Commission cap on gas margins, caps on grocery margins, and a freeze on Insurance Corporation of British Columbia (ICBC) rates. The Conservatives would raise the basic personal amount, the income you earn tax-free, to $32,000. The Greens would raise income assistance to the poverty line and make transit free for people under 25 and over 65. CentreBC would return the lowest rate to 5.06%, raise the renter's credit to $600 and cap BC Hydro and ICBC increases. OneBC would cut every income tax rate by 25% and the provincial sales tax (PST) by two points."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Cut income tax by a quarter for everyone, businesses too, and cut sales tax.",
+          "2": "Cut every income tax rate by a quarter, for people and companies, and lower the sales tax.",
+          "3": "Cut every income tax rate by 25%, including the rate companies pay, and lower the provincial sales tax.",
+          "4": "Cut every personal and corporate income tax rate by 25%, and cut the provincial sales tax (PST) by two points.",
+          "5": "Cut every personal and corporate income tax bracket by 25%, and lower the provincial sales tax (PST) by two percentage points."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 2,
+          "green": 0,
+          "centrebc": 1,
+          "onebc": 4
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Raise the amount people can earn before paying income tax. Add no new taxes.",
+          "2": "Raise the amount you can earn tax-free, so most workers save about $1,000 a year. Add no new taxes.",
+          "3": "Raise the tax-free amount to $32,000, worth about $1,000 a year for most workers, and add no new taxes.",
+          "4": "Raise the basic personal amount (income you earn tax-free) to $32,000, about $1,050 per taxpayer, pledge no new taxes, and remove PST from Canadian alcohol.",
+          "5": "Raise the basic personal amount from $13,216 to $32,000 (about $1,050 per filer, the same for everyone earning over about $40,000), add no new taxes, and remove PST from Canadian alcohol."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 2,
+          "onebc": 3
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Cut the gas tax, limit milk and egg prices, and freeze car insurance rates.",
+          "2": "Cut the gas tax, limit store markups on milk, eggs and poultry, and freeze car insurance rates.",
+          "3": "Cut the gas tax by 10 cents a litre, cap store markups on milk, eggs and poultry, and freeze car insurance rates.",
+          "4": "Suspend 10 cents a litre of fuel tax and cap gas station margins, cap margins on dairy, eggs and poultry, and freeze ICBC rates.",
+          "5": "Suspend 10 cents a litre of fuel tax with a BC Utilities Commission cap on gas margins, cap dairy, egg and poultry margins, and freeze ICBC rates until 2030."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 1,
+          "green": 2,
+          "centrebc": 2,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Give more help to people with the lowest incomes, paid for by the richest.",
+          "2": "Raise government support for the poorest people to the poverty line, paid for by a tax on the very rich.",
+          "3": "Raise income assistance to the poverty line and make transit free for young people and seniors, paid for by a tax on large fortunes.",
+          "4": "Raise income assistance to the poverty line, move toward a living wage, and make transit free for people under 25 and over 65, paid for by a wealth tax.",
+          "5": "Index income assistance to the Market Basket Measure poverty line, move the minimum wage toward a living wage, make transit free under 25 and over 65, and tax net worth over $50 million."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 1,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "e",
+        "text": {
+          "1": "Undo this year's tax rise and give renters a bigger tax break.",
+          "2": "Undo this year's rise in the lowest tax rate, raise the renter's credit, and cap Hydro and car insurance increases.",
+          "3": "Reverse the 2026 rise in the lowest tax rate, raise the renter's credit, add a transit-pass credit, cap Hydro and car insurance increases.",
+          "4": "Return the lowest tax rate to 5.06%, raise the renter's credit to $600, add a 15% transit and ferry pass credit, cap Hydro and ICBC increases at inflation, and widen PST relief on machinery.",
+          "5": "Cut the first tax bracket from 5.60% to 5.06% in January 2027, raise the renter's credit to $600 (indexed, full up to $80,000 income), add a 15% refundable commuter credit, and hold Hydro and ICBC increases at or below inflation."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 3,
+          "green": 1,
+          "centrebc": 4,
+          "onebc": 2
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party wants to cut the gas tax, limit some grocery prices and freeze car insurance rates.",
+          "3": "The NDP promises a 10-cent gas tax cut, caps on grocery markups and a freeze on car insurance rates until 2030. In government it ended Medical Services Plan premiums and the consumer carbon tax, but it also paused a $1,000 rebate and raised the lowest income tax rate.",
+          "5": "The NDP would suspend 10 cents a litre of fuel tax, with a BC Utilities Commission cap on gas margins; the Premier puts the cost at about $250 million. It would cap dairy, egg and poultry margins and freeze ICBC rates to spring 2030. In government it ended Medical Services Plan premiums in 2020 and the consumer carbon tax in 2025, and paused the $1,000 grocery rebate in 2025. In 2026 it raised the lowest tax rate from 5.06% to 5.60% and froze bracket indexing for 2027 to 2030."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC NDP: gas price plan (Oct 1, 2026)",
+            "url": "https://www.bcndp.ca/releases/ebys-plan-will-cut-gas-prices-30-cents-litre-crack-down-gouging"
+          },
+          {
+            "label": "BC NDP: ICBC rate freeze to 2030 (Oct 8, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-freeze-car-insurance-rates-another-three-years"
+          },
+          {
+            "label": "Global News: BC pauses $1,000 rebate (Feb 2025)",
+            "url": "https://globalnews.ca/news/11017886/bc-pauses-tax-rebate-donald-trump-tariffs/amp"
+          },
+          {
+            "label": "BC Government: Budget 2026 tax changes (5.60% rate, indexation pause)",
+            "url": "https://www2.gov.bc.ca/budgettaxchanges"
+          },
+          {
+            "label": "BOE Report: Eby on the cost of the fuel tax cut (Oct 1, 2026)",
+            "url": "https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/amp/"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party would let people earn more before paying income tax, and it promises no new taxes.",
+          "3": "The Conservatives promise to raise the tax-free amount to $32,000 (about $1,000 a year), add no new taxes for four years, and remove provincial sales tax from Canadian alcohol. The plan has no published cost and gives nothing to people who pay no provincial income tax.",
+          "5": "The Conservatives would raise the basic personal amount from $13,216 to $32,000, worth about $1,050 a year and the same for everyone earning over about $40,000. It is a non-refundable credit, so people who owe no tax get nothing. The party has not costed it; an outside estimate is about $2.5 billion a year. It promises no new or higher taxes this term, no PST on Canadian alcohol and a three-year PST exemption on machinery and software. It voted against the 2026 bill that raised the lowest rate."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "Conservative Party of BC: $1,000 tax cut (Oct 8, 2026)",
+            "url": "https://conservativebc.ca/conservatives-will-cut-your-taxes-by-1000/"
+          },
+          {
+            "label": "Conservative Party of BC: no new taxes pledge",
+            "url": "https://conservativebc.ca/conservative-party-of-bc-pledges-no-new-taxes-on-british-columbians/"
+          },
+          {
+            "label": "Daily Hive: tax cut benefit shape and funding",
+            "url": "https://dailyhive.com/vancouver/bc-conservatives-election-annual-income-tax-cut-promise"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party wants more help for people with low incomes, and free public transit for young people and seniors.",
+          "3": "The Greens would raise income assistance to the poverty line, move toward a living wage, and make transit free for people under 25 and over 65. A tax on fortunes over $50 million would pay for it. The party has not published how it estimated that tax's revenue.",
+          "5": "The Greens would raise income assistance to the Market Basket Measure poverty line and index it, move the minimum wage toward a living wage, make transit free under 25 and over 65, and make large essential-goods companies disclose their margins. A wealth tax would pay for it; the party estimates $22.2 billion in year one and $5.4 billion a year after, with no published method. The party has two MLAs. In 2018 it secured a change to the speculation tax."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan/"
+          },
+          {
+            "label": "Global News: Green free transit pledge (Oct 9, 2026)",
+            "url": "https://globalnews.ca/news/12097726/bc-leaders-campaign-trail-health-care-supporting-seniors-october-9"
+          },
+          {
+            "label": "BC Ballot: BC Green commitments",
+            "url": "https://bcballot.ca/platforms/bc-green-party/"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party would undo this year's tax rise, give renters a bigger tax break, and cap power and car insurance increases.",
+          "3": "CentreBC's platform would return the lowest tax rate to 5.06%, raise the renter's credit to $600, add a 15% transit-pass credit, cap Hydro and car insurance increases at inflation, and add 20,000 $10-a-day child care spaces. It has no price caps on groceries or gas and nothing on minimum wage or income assistance.",
+          "5": "The platform cuts the first bracket from 5.60% to 5.06% from January 2027, about $540 a year for a two-income family. It raises the renter's credit from $400 to $600 and adds a 15% refundable commuter credit. Hydro increases are capped at inflation and 3%, and ICBC rates are frozen to spring 2027, then held at or below inflation. The party costs its tax relief at $4.5 billion over four years. It has no position on the basic personal amount, price caps, minimum wage or assistance rates."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 6-7, 12-13)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "CentreBC: platform landing page",
+            "url": "https://www.centrebc.ca/platform/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party wants everyone to pay much less tax. It does not propose limits on prices.",
+          "3": "OneBC would cut every income tax rate by 25%, including the rate companies pay, cut the provincial sales tax by two points, and end the public insurer's monopoly on car insurance. It has published no costing and no plans on prices or income assistance.",
+          "5": "OneBC would cut every personal and corporate income tax bracket by 25%, lower the PST by two points, end ICBC's monopoly and its no-fault system, and scrap the BC Energy Step Code. It has published no costing and no policy on prices, assistance or wages, yet promises a balanced budget within four years alongside these cuts."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "BC Ballot: OneBC commitments",
+            "url": "https://bcballot.ca/platforms/"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "Option a is the OneBC 25% cut and PST reduction (4); Conservatives share a broad cut but at a different scale and have not endorsed rate cuts of that size (2); CentreBC 1 (cuts one bracket modestly inside a legislated balance path and rejects cuts of this size); NDP and Green 0. Option b is the Conservative basic personal amount increase (4); OneBC 3 (would cut everyone's taxes, by a different instrument); CentreBC 2 (a broad income tax cut and no new taxes, but through the bottom rate, about half the size, and costed); NDP 1 (it did cut MSP and the carbon tax, but its 2026 direction is price regulation and a higher bottom rate); Green 0. Option c is the NDP 2026 package (4); Greens share the margin-disclosure instinct but not price caps (2); CentreBC 2 (caps Hydro and ICBC increases, a Crown-rate measure, but no grocery caps or fuel tax cut); Conservatives oppose price regulation but kept their own targeted PST-off-alcohol measure (1); OneBC 0. Option d is the Green plan (4); NDP 2 because it indexed the minimum wage and expanded benefits but froze child care and has no assistance pledge; CentreBC 1 (renter's credit and a caregiver benefit, no assistance or wage pledge, no wealth tax); Conservative and OneBC 0 (a non-refundable credit gives nothing to the lowest incomes). Option e is CentreBC's platform package (4): bottom rate to 5.06%, renter's credit $600, commuter credit, Hydro and ICBC caps, PST machinery relief; Conservatives 3 (voted against the bottom-rate rise, no new taxes, machinery PST exemption; no renter or rate-cap measures); OneBC 2 (broad tax cuts, no targeted measures); NDP 1 (it created the renter's credit and the ICBC freeze but enacted the rate rise the option reverses); Green 1 (renter support only). Option e was rewritten on October 10 from the earlier farm PST item, which the platform does not repeat; other parties' scores on it were kept. Symmetry check: Conservative on a (2) and OneBC on b (3) are within one point; NDP on e (1) and CentreBC on c (2) are within one point."
+  },
+  {
+    "id": "q_taxes_deficit",
+    "issue_id": "taxes_fiscal",
+    "scope": "provincial",
+    "prompt": {
+      "1": "The province spends more money than it takes in. What should it do?",
+      "2": "BC spends more than it takes in. How should it close the gap, and who should pay?",
+      "3": "BC is spending far more than it takes in. How should it handle that, and who should pay more or less tax?",
+      "4": "Which path should BC take on its deficit: tax cuts, taxing high incomes or wealth, spending restraint, or borrowing to protect services?",
+      "5": "Which fiscal and tax path do you support for dealing with BC's $13.8 billion deficit?"
+    },
+    "context": {
+      "1": "The province spends more money than it takes in, so it borrows the rest. Borrowing costs extra because of interest. The province could spend less, raise some taxes, or keep borrowing to protect services.",
+      "2": "BC's budget shows a deficit of about $13.8 billion, which means it spends that much more than it takes in. It borrows to cover the gap, and that adds interest costs. It can spend less, tax some people more, keep borrowing until the economy grows, or mix these.",
+      "3": "BC's deficit, the gap between what it spends and what it takes in, is about $13.8 billion. That is a record in dollars. All four credit rating agencies lowered BC's rating in 2026. No party has a fully costed plan, so the parties' promises and price tags are hard to compare.",
+      "4": "Budget 2026 projects a $13.8 billion deficit and debt rising to 37% of gross domestic product (GDP), the size of BC's economy, by 2028-29. The parties' plans differ in size. The NDP's higher tax on high incomes would raise about $1 billion a year. The Conservative tax cut would cost about $2.5 billion a year, by an outside estimate. The Greens estimate their wealth tax would raise $22.2 billion in its first year. CentreBC says its promises cost $13.7 billion over four years and would balance the budget in 2034-35. OneBC has not costed its cuts.",
+      "5": "Budget 2026 projects a $13.8 billion deficit, with debt rising to 37.4% of gross domestic product (GDP) by 2028-29, and all four credit rating agencies downgraded BC this year. The NDP would add two points to the top two income tax brackets and charge 24.5% above $1 million (about $1 billion a year), and plans 15,000 fewer full-time-equivalent public positions. The Conservatives would raise the basic personal amount to $32,000 (about $2.5 billion a year, outside estimate) and set no deficit target. The Greens would tax wealth above $50 million ($22.2 billion in year one, party estimate). CentreBC would write a 2034-35 balanced budget into law, cut 10,000 positions as people leave and return the lowest rate to 5.06% ($13.7 billion over four years, party costing). OneBC would cut taxes 25% and balance in four years."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Cut taxes a lot and spend much less, to stop borrowing within four years.",
+          "2": "Cut everyone's taxes deeply and cut spending, so the budget balances within four years.",
+          "3": "Cut every income tax rate by 25% and cut spending enough to balance the budget within four years.",
+          "4": "Cut every income tax bracket by 25% and the PST by two points, with a firm target to balance the budget within four years.",
+          "5": "Cut every personal and corporate bracket by 25% and the PST by two points, legislate a balanced budget within four years, and put surpluses toward debt."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 2,
+          "green": 0,
+          "centrebc": 1,
+          "onebc": 4
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Cut taxes a little and let a growing economy close the gap over time.",
+          "2": "Cut taxes by about $1,000 per worker, add no new taxes, and let job growth close the gap over time.",
+          "3": "Give a $1,000 income tax cut, add no new taxes, protect health funding, and rely on growth instead of a date to balance.",
+          "4": "A $1,000-per-taxpayer income tax cut, a no-new-taxes pledge and health funding held at 2026 levels, with resource growth to close the gap and no deficit target.",
+          "5": "Raise the basic personal amount to $32,000 (about $2.5 billion a year), add no new or higher taxes, hold health funding at 2026 levels, and rely on resource-led growth, with no balance date."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 2,
+          "onebc": 3
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "By law, stop borrowing in about eight years. Undo this year's tax rise.",
+          "2": "Balance the budget by law in about eight years, undo this year's tax rise, and cut government jobs without layoffs.",
+          "3": "Write a 2034-35 balanced budget into law, undo the 2026 rise in the lowest tax rate, and shrink the public service as people leave.",
+          "4": "Legislate a balanced budget by 2034-35, checked by an Independent Budget Officer, return the lowest tax rate to 5.06%, cut 10,000 public positions through attrition, and add no new taxes.",
+          "5": "A Balanced Budget and Spending Control Act (balance in 2034-35, an Independent Budget Officer, ministers' pay at risk), the first bracket back to 5.06%, 10,000 positions cut by attrition, zero-based spending reviews, and no new taxes or wealth tax."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 2,
+          "green": 1,
+          "centrebc": 4,
+          "onebc": 1
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Keep borrowing so schools and hospitals are not cut. Top earners pay more tax.",
+          "2": "Keep borrowing to protect services, keep this year's tax changes, and raise taxes on top earners.",
+          "3": "Keep borrowing to protect services, keep the 2026 rise in the lowest tax rate, and tax top earners more.",
+          "4": "Run deficits above $11 billion a year instead of cutting services, shrink the public service through attrition, keep the Budget 2026 tax measures, and raise rates on income above $190,405.",
+          "5": "Run deficits of $13.3 billion, $12.2 billion and $11.4 billion, cut 15,000 full-time-equivalent positions, keep the Budget 2026 tax measures, and raise the top two brackets by two points, with 24.5% above $1 million."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 0,
+          "green": 3,
+          "centrebc": 1,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "e",
+        "text": {
+          "1": "A new tax on the richest pays for child care, transit, housing and debt.",
+          "2": "Tax people worth over $50 million and spend the money on child care, transit, housing and paying down debt.",
+          "3": "Tax fortunes over $50 million and use the money for child care, transit, housing and debt.",
+          "4": "A one-time, then yearly, wealth tax above $50 million, plus a windfall tax and higher resource royalties, with revenue split between programs and debt.",
+          "5": "Tax net worth above $50 million (one-time 5%, 10% or 20% by tier, then 2%, 3% or 5% a year), add a windfall tax and 50% net-profit royalties, and fund programs and debt."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 0,
+          "onebc": 0
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party would keep borrowing to protect hospitals and schools, and raise taxes on top earners.",
+          "3": "The NDP plans deficits above $11 billion a year until 2028-29 and 15,000 fewer public sector jobs. It proposes higher tax on income above $190,405, raising about $1 billion a year. In February 2026 it raised the lowest tax rate and stopped tax brackets from rising with inflation.",
+          "5": "Budget 2026 plans deficits of $13.3 billion, $12.2 billion and $11.4 billion, with debt rising from 30.6% to 37.4% of GDP, 15,000 fewer full-time-equivalent positions, a 5.60% lowest rate and paused bracket indexing. On October 4 the NDP proposed top rates of 18.8%, 22.5% and 24.5% from 2027, raising $1 billion by 2028-29. All four credit rating agencies downgraded BC in 2026. Eby said he chose not to cut 'to meet a credit rating'."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC NDP: top-bracket tax proposal (Oct 4, 2026)",
+            "url": "https://www.bcndp.ca/releases/build-bc-strong-eby-will-ask-wealthy-pitch-bit-more"
+          },
+          {
+            "label": "BC Budget 2026 and Fiscal Plan",
+            "url": "https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf"
+          },
+          {
+            "label": "Moody's rating action, March 2026",
+            "url": "https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/moodys-ratings-march-2026.pdf"
+          },
+          {
+            "label": "National Newswatch: Eby defends budget after downgrade",
+            "url": "https://nationalnewswatch.com/2026/03/19/premier-eby-defends-budget-after-credit-drop-but-opposition-says-b-c-is-going-broke"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party would cut taxes, add no new ones, and count on more jobs to close the gap.",
+          "3": "The Conservatives promise a $1,000 tax cut, no new taxes and no health cuts, relying on resource growth. They have published no costing or date to balance the budget. They voted against the last two budgets and did not repeat their 2024 promise to balance within two terms.",
+          "5": "The Conservatives would raise the basic personal amount to $32,000 (no party costing; outside estimates put it at about $2.5 billion a year), add no new or higher taxes and hold health funding at 2026 levels. Their other pledges are not costed. Interim leader Lorne Doerkson says the plan is to 'supercharge the economy ... that is our revenue'. There is no deficit target. They voted against the 2025 Supply Act and the 2026 budget bill (Bill 3) and have not repeated the 2024 pledge to balance within two terms."
+        },
+        "basis": "both",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "Conservative Party of BC: $1,000 tax cut",
+            "url": "https://conservativebc.ca/conservatives-will-cut-your-taxes-by-1000/"
+          },
+          {
+            "label": "Canadian Press via Medicine Hat News: cost estimates and deficit",
+            "url": "https://medicinehatnews.com/news/national-news/2026/10/08/b-c-campaign-trail-conservatives-promise-1000-tax-cut-by-boosting-exemption-level/"
+          },
+          {
+            "label": "Votes and Proceedings, March 5, 2026 (Bill 3 third reading)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260305.htm"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party would tax the richest people more to pay for child care, transit and housing.",
+          "3": "The Greens propose a tax on fortunes over $50 million, plus a windfall tax and higher resource royalties. They project $22 billion in the first year for child care, transit, housing and debt, but have not published how they estimated it. They voted against the 2026 budget.",
+          "5": "The Greens' Fair Share Act would charge a one-time 5%, 10% or 20% on wealth above $50 million, $100 million and $1 billion, then 2%, 3% or 5% a year. The party estimates $22.2 billion in year one and $5.4 billion a year after, with no published valuation method. It adds a windfall tax, a minimum corporate tax and 50% net-profit royalties. The Greens voted for Budget 2026 at second reading and against it at third, and backed the 2025 Supply Act under their accord with the NDP."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC Greens: Fair Share Act",
+            "url": "https://bcgreens.ca/fair-share-act-would-unlock-22-2b-for-childcare-transit-and-housing/"
+          },
+          {
+            "label": "Daily Hive: Green wealth tax details and critiques",
+            "url": "https://dailyhive.com/vancouver/bc-greens-wealth-tax-fair-share-act"
+          },
+          {
+            "label": "Votes and Proceedings, March 5, 2026",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260305.htm"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party would put a price on every promise, balance the budget slowly without layoffs, and add no new taxes.",
+          "3": "CentreBC's platform cuts the deficit every year and writes a 2034-35 balanced budget into law, checked by an Independent Budget Officer. It would cut 10,000 public positions as people leave, return the lowest tax rate to 5.06% and add no new taxes. It costs this at $13.7 billion over four years, plus $7.8 billion borrowed for capital projects.",
+          "5": "The platform cuts the deficit to about $9.0 billion by 2030-31 and balances in 2034-35. A Balanced Budget and Spending Control Act would create an Independent Budget Officer and cut ministers' pay if the target is missed. Spending would grow 1.5 points a year less than Budget 2026 plans, with 10,000 positions cut by attrition. Savings total $5.6 billion and tax relief $4.5 billion over four years, by the party's own costing. Its fallback list sets a manufacturing fund at $30 million, below its $60 million pledge."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 4, 11-13, 37)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "CentreBC: 'A Blueprint for Bankruptcy' (February 2026 budget response)",
+            "url": "https://www.centrebc.ca/news/budget-2026-a-blueprint-for-bankruptcy/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party wants everyone to pay much less tax and to stop borrowing within a few years.",
+          "3": "OneBC promises to cut every income tax rate by 25% and the provincial sales tax by two points, and still balance the budget within four years. It has not shown how the numbers add up or what it would cut.",
+          "5": "OneBC would cut every bracket by 25%, including corporate, lower the PST by two points, balance within four years with surpluses going to debt, and audit 176,000 regulations. It has published no costing and no list of spending cuts. It has the shortest balance target of any party, and also the largest tax cuts."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "BC Ballot: platform comparison",
+            "url": "https://bcballot.ca/platforms/"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "Five options give each party a clear home. a = OneBC (4); Conservatives share deep tax cuts but have no balance date (2); CentreBC shares a legislated balance target but on an eight-year path with a modest cut (1). b = Conservative 2026 position (4); OneBC close (3); CentreBC 2 (no new taxes and a bracket cut, but a legislated balance date and party costing, which the option lacks); NDP and Green 0. c = CentreBC's platform (4): balance 2034/35 in law, Independent Budget Officer, attrition, bottom rate to 5.06%; Conservative 2 (fiscal rhetoric without a balance date or costing); NDP 1 because it enacted the bottom-rate increase the option reverses and has no balance date, although its fiscal plan also cuts FTEs; Green 1; OneBC 1 (a balance date, but four years and 25% cuts). d = NDP record and platform (4), including the enacted Budget 2026 measures; Green 3 because it voted for Supply 2025 and supports top-bracket increases while preferring a wealth tax; CentreBC 1 (also protects front-line services and cuts positions by attrition, but rejects the deficit path and the bracket increases). e = Green (4); NDP 1 for the school tax increase above $3M and top brackets, but it has adopted none of the option's instruments (wealth levy, windfall tax, royalty reform); others 0. The NDP-Green cross-scores are asymmetric on purpose: the Greens voted for the NDP's supply bill and support its bracket increases (3 on d), while the NDP has taken up none of the Green instruments (1 on e). Record over rhetoric: the NDP is scored on its enacted budget path, not only its campaign framing; the Conservatives are scored as uncosted because the 2024 balance pledge has been dropped. Symmetry: Conservative on a (2) and OneBC on b (3) are within one point."
+  }
+]

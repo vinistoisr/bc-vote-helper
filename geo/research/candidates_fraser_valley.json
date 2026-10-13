@@ -1,0 +1,884 @@
+{
+ "group": "fraser_valley",
+ "as_of": "2026-10-12",
+ "shares_note": "Vote shares are fractions of valid votes (0.6161 = 61.61 percent). Keys are party ids; 'independent' groups independents.",
+ "sources_checked": [
+  {
+   "label": "Elections BC candidate list (fetched Oct 12, 2026)",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+  },
+  {
+   "label": "Elections BC candidate list CSV (includes Sandhu added Oct 8)",
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+  },
+  {
+   "label": "Elections BC: Candidates Finalized for the 44th Provincial General Election",
+   "url": "https://elections.bc.ca/news/candidates-finalized-for-british-columbias-44th-provincial-general-election/"
+  },
+  {
+   "label": "Elections BC Statement of Votes, 2024",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+  },
+  {
+   "label": "Elections BC Electoral Boundaries Commission Final Report 2023",
+   "url": "https://elections.bc.ca/docs/rpt/BCEBC-Final-Report-April-3-2023.pdf"
+  },
+  {
+   "label": "BC NDP candidate profiles (bcndp.ca team page)",
+   "url": "https://www.bcndp.ca/team"
+  },
+  {
+   "label": "BC Conservatives, Our Team",
+   "url": "https://conservativebc.ca/our-team/"
+  },
+  {
+   "label": "BC Greens, Candidates 2026",
+   "url": "https://bcgreens.ca/candidates-2026/"
+  },
+  {
+   "label": "CentreBC candidate pages",
+   "url": "https://www.centrebc.ca/"
+  },
+  {
+   "label": "OneBC candidates",
+   "url": "https://1bc.ca/candidates"
+  },
+  {
+   "label": "Wikipedia: Candidates of the 2026 BC general election (lead only, verified against Elections BC)",
+   "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia: 2026 BC general election and 43rd Parliament of BC (MLA changes)",
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Abbotsford News, Oct 5, 2026",
+   "url": "https://abbynews.com/2026/10/05/19-provincial-election-candidates-finalized-for-5-abbotsford-ridings/"
+  },
+  {
+   "label": "Langley Advance Times, Oct 5, 2026",
+   "url": "https://langleyadvancetimes.com/2026/10/05/candidates-named-in-all-langley-ridings/"
+  },
+  {
+   "label": "Maple Ridge News, Oct 5, 2026",
+   "url": "https://mapleridgenews.com/2026/10/05/four-candidates-running-in-both-maple-ridge-ridings-in-oct-24-provincial-election/"
+  },
+  {
+   "label": "Chilliwack Progress, Oct 5, 2026",
+   "url": "https://theprogress.com/2026/10/05/adila-shaukat-to-run-as-bc-ndp-candidate-in-chilliwack-north/"
+  },
+  {
+   "label": "Fraser Valley Today, Oct 4, 2026",
+   "url": "https://fraservalleytoday.ca/2026/10/04/ndp-libertarians-onebc-field-candidates-for-langley-and-abbotsford-ridings/"
+  },
+  {
+   "label": "Agassiz-Harrison Observer, Sept 23, 2026",
+   "url": "https://agassizharrisonobserver.com/2026/09/23/incumbent-mla-aaliya-warbus-returns-to-conservatives/"
+  }
+ ],
+ "ridings": [
+  {
+   "code": "ABS",
+   "name": "Abbotsford South",
+   "communities": "Abbotsford city centre, Barrowtown, Poplar, Aberdeen, and the south and east parts of Abbotsford",
+   "result_2024": {
+    "winner": "Bruce Banman",
+    "party": "conservative",
+    "margin_votes": 5599,
+    "shares": {
+     "conservative": 0.6161,
+     "ndp": 0.3518,
+     "independent": 0.0321
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Abbotsford_South"
+   },
+   "mla_changes_since_2024": "Bruce Banman (Conservative, elected 2024) left the Conservative caucus on Aug 27, 2026 to sit as an independent, joined CentreBC on Sept 18, and rejoined the Conservatives after the Sept 22 election call. He is on the ballot as a Conservative.",
+   "candidates": [
+    {
+     "name": "Leah Ballantyne",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Lawyer and member of the Mikisew Cree Nation who practised in downtown Abbotsford; has advised First Nations and governments and served as vice-chair of a health authority board.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "BC NDP release, Oct 3, 2026",
+       "url": "https://www.bcndp.ca/releases/more-bc-ndp-candidates-ready-fight-their-communities"
+      }
+     ]
+    },
+    {
+     "name": "Bruce Banman",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Chiropractor and small business owner; former mayor and councillor of Abbotsford; MLA for Abbotsford South since 2020, first as a BC Liberal and as a Conservative from 2023.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Banman",
+       "url": "https://conservativebc.ca/candidate/bruce-banman/"
+      },
+      {
+       "label": "Wikipedia: Bruce Banman",
+       "url": "https://en.wikipedia.org/wiki/Bruce_Banman"
+      }
+     ]
+    },
+    {
+     "name": "Robin Roy",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Runs an IT services company in Abbotsford and earlier ran construction companies; grew up in Chilliwack and Abbotsford and lives in Abbotsford South.",
+     "sources": [
+      {
+       "label": "OneBC candidate page: Robin Roy",
+       "url": "https://1bc.ca/candidates/rroy"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Three candidates on the Elections BC list. No Green or CentreBC candidate."
+  },
+  {
+   "code": "ABW",
+   "name": "Abbotsford West",
+   "communities": "West Abbotsford, Matsqui, Mount Lehman",
+   "result_2024": {
+    "winner": "Korky Neufeld",
+    "party": "conservative",
+    "margin_votes": 4228,
+    "shares": {
+     "conservative": 0.5835,
+     "ndp": 0.3687,
+     "independent": 0.0478
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Abbotsford_West"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Gurpreet Chahal",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Real estate professional for about 20 years and Fraser Valley resident for 25 years; volunteers with community groups including Abbotsford Field Hockey Club and Mission Community Services.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page: Gurpreet Singh Chahal",
+       "url": "https://www.centrebc.ca/candidates/gurpreet-singh-chahal/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Jules Côté",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Political science student at the University of the Fraser Valley, born and raised in Abbotsford; NDP candidate in the 2025 federal election; volunteers with the local food bank.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "UFV Cascade, 2025 federal campaign profile",
+       "url": "https://ufvcascade.ca/jules-cote-for-ndp-mp/"
+      }
+     ]
+    },
+    {
+     "name": "Korky Neufeld",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Former church pastor and construction manager; Abbotsford school trustee for 15 years; MLA for Abbotsford West since 2024.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Neufeld",
+       "url": "https://conservativebc.ca/candidate/korky-neufeld/"
+      },
+      {
+       "label": "Wikipedia: Korky Neufeld",
+       "url": "https://en.wikipedia.org/wiki/Korky_Neufeld"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Ballot name is Jules Côté (the accent is garbled in the Elections BC CSV encoding). No Green or OneBC candidate."
+  },
+  {
+   "code": "ABM",
+   "name": "Abbotsford-Mission",
+   "communities": "Clayburn and Ridgedale in northeast Abbotsford, the city of Mission including its core, and Hatzic",
+   "result_2024": {
+    "winner": "Reann Gasper",
+    "party": "conservative",
+    "margin_votes": 2629,
+    "shares": {
+     "conservative": 0.5538,
+     "ndp": 0.4462
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Abbotsford-Mission"
+   },
+   "mla_changes_since_2024": "Seat is vacant. Reann Gasper (Conservative) resigned on Aug 22, 2026 so then-leader Kerry-Lynne Findlay could run in a by-election set for Sept 26. The by-election was cancelled when the writ was issued on Sept 22 and its ballots were not counted. Findlay resigned as leader on Sept 20.",
+   "candidates": [
+    {
+     "name": "Pam Alexis",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Former Abbotsford-Mission MLA (2020 to 2024) and Minister of Agriculture and Food; former mayor of Mission; lost the seat in 2024.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "BC NDP release, Aug 29, 2026",
+       "url": "https://www.bcndp.ca/releases/pam-alexis-run-bc-ndp-candidate-abbotsford-misson-election"
+      }
+     ]
+    },
+    {
+     "name": "Virender Dass",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Visual effects artist for 18 years before moving to Canada in 2014; founded Abbotsford supplement company Wellness Extract and runs a children's mental-math centre with his wife.",
+     "sources": [
+      {
+       "label": "OneBC candidate page: Virender Dass",
+       "url": "https://1bc.ca/candidates/vdass"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Lakhwinder Jhaj",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Businesswoman and former reporter who runs a construction company and used vehicle dealership; family farm on Huntington Road; has led multicultural and community societies.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page: Lakhwinder Jhaj",
+       "url": "https://www.centrebc.ca/candidates/lakhwinder-jhaj/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Darryl Kropp",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Technology and human services leader at RedMane Technology; 17 years on the Northview Community Church board; elected to the First West Credit Union board in 2018.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Kropp",
+       "url": "https://conservativebc.ca/candidate/darryl-kropp/"
+      },
+      {
+       "label": "Abbotsford News, Oct 5, 2026",
+       "url": "https://abbynews.com/2026/10/05/19-provincial-election-candidates-finalized-for-5-abbotsford-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Jeff Monds",
+     "party": "libertarian",
+     "incumbent": false,
+     "bio": "Libertarian candidate who ran once before, in Maple Ridge-Mission in 2017, finishing fifth of five.",
+     "sources": [
+      {
+       "label": "Fraser Valley Today, Oct 4, 2026",
+       "url": "https://fraservalleytoday.ca/2026/10/04/ndp-libertarians-onebc-field-candidates-for-langley-and-abbotsford-ridings/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No incumbent. The Wikipedia candidate table shows Virender Dass in the Green column, but Elections BC lists him as OneBC (also confirmed on 1bc.ca). No Green candidate. Alexis, Jhaj and Monds were also by-election candidates."
+  },
+  {
+   "code": "CHN",
+   "name": "Chilliwack North",
+   "communities": "Northern Chilliwack including the city centre, Fairfield Island, Greendale, Rosedale and Popkum, plus surrounding farmland",
+   "result_2024": {
+    "winner": "Heather Maahs",
+    "party": "conservative",
+    "margin_votes": 3651,
+    "shares": {
+     "conservative": 0.5458,
+     "ndp": 0.3766,
+     "green": 0.055,
+     "independent": 0.0226
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Chilliwack_North"
+   },
+   "mla_changes_since_2024": "No change of MLA or party. Heather Maahs served as interim Leader of the Opposition from June 29 to Sept 20, 2026.",
+   "candidates": [
+    {
+     "name": "Adila Shaukat",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Scientist with a PhD in evolutionary biology from Imperial College London and mother of three; worked as a constituency assistant to the late NDP MLA Dan Coulter.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "Chilliwack Progress, Oct 5, 2026",
+       "url": "https://theprogress.com/2026/10/05/adila-shaukat-to-run-as-bc-ndp-candidate-in-chilliwack-north/"
+      }
+     ]
+    },
+    {
+     "name": "Heather Maahs",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Chilliwack school trustee from 2008 to 2024; ran a construction company with her late husband; MLA since 2024 and interim Leader of the Opposition June to September 2026.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Maahs",
+       "url": "https://conservativebc.ca/candidate/heather-maahs/"
+      },
+      {
+       "label": "Wikipedia: Heather Maahs",
+       "url": "https://en.wikipedia.org/wiki/Heather_Maahs"
+      }
+     ]
+    },
+    {
+     "name": "Dan Grice",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Real estate and estate planning lawyer with 12 years of practice, living in North Chilliwack since 2013; ran as an independent in Chilliwack North in 2024.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page: Dan Grice",
+       "url": "https://www.centrebc.ca/candidates/dan-grice/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Dan Grice ran as an independent in 2024 (487 votes, 2.26 percent). Louis De Jaeger began campaigning for the NDP but was not approved and endorsed Shaukat."
+  },
+  {
+   "code": "CHC",
+   "name": "Chilliwack-Cultus Lake",
+   "communities": "Yarrow, Vedder Crossing, rural Chilliwack south of Highway 1, Cultus Lake and Lindell Beach",
+   "result_2024": {
+    "winner": "Áʼa꞉líya Warbus",
+    "party": "conservative",
+    "margin_votes": 2290,
+    "shares": {
+     "conservative": 0.5458,
+     "ndp": 0.4542
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Chilliwack-Cultus_Lake"
+   },
+   "mla_changes_since_2024": "Áʼa:líya Warbus (Conservative, elected 2024) stepped down as Opposition House Leader on June 29, 2026, left the Conservative caucus on Aug 31 to sit as an independent, joined CentreBC on Sept 18, and rejoined the Conservatives on Sept 22 after the election call.",
+   "candidates": [
+    {
+     "name": "Kelli Paddon",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Former NDP MLA for Chilliwack-Kent (2020 to 2024) and parliamentary secretary for gender equity; founder of Chilliwack consulting firm Equiiti Strategic; mother of two.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "Chilliwack Progress, Oct 5, 2026",
+       "url": "https://theprogress.com/2026/10/05/adila-shaukat-to-run-as-bc-ndp-candidate-in-chilliwack-north/"
+      }
+     ]
+    },
+    {
+     "name": "A'aliya Warbus",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Filmmaker and artist, former Capilano University film professor and Stó:lō government communications director; daughter of former Lieutenant Governor Steven Point; MLA since 2024.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Warbus",
+       "url": "https://conservativebc.ca/candidate/aaliya-warbus/"
+      },
+      {
+       "label": "Agassiz-Harrison Observer, Sept 23, 2026",
+       "url": "https://agassizharrisonobserver.com/2026/09/23/incumbent-mla-aaliya-warbus-returns-to-conservatives/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Only two candidates. Ballot name on the Elections BC list is A'aliya Warbus; she is also written Áʼa꞉líya Warbus."
+  },
+  {
+   "code": "LLA",
+   "name": "Langley-Abbotsford",
+   "communities": "Murrayville, Fernridge, Glen Valley, Aldergrove and western Abbotsford (most of the rural and eastern Township of Langley)",
+   "result_2024": {
+    "winner": "Harman Bhangu",
+    "party": "conservative",
+    "margin_votes": 5650,
+    "shares": {
+     "conservative": 0.5565,
+     "ndp": 0.3373,
+     "green": 0.0556,
+     "independent": 0.0428,
+     "libertarian": 0.0078
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Langley-Abbotsford"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Harman Bhangu",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Heavy-load trucker for 17 years; Conservative candidate in the 2022 Surrey South by-election; MLA for Langley-Abbotsford since 2024 and transportation critic.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Bhangu",
+       "url": "https://conservativebc.ca/candidate/harman-bhangu/"
+      },
+      {
+       "label": "Wikipedia: Harman Bhangu",
+       "url": "https://en.wikipedia.org/wiki/Harman_Bhangu"
+      }
+     ]
+    },
+    {
+     "name": "Shelly Jan",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Career teacher with a Master's in Education; ran for the Conservatives in Langley in 2020 and withdrew in 2024 after being nominated in this riding.",
+     "sources": [
+      {
+       "label": "Fraser Valley Today, Oct 4, 2026",
+       "url": "https://fraservalleytoday.ca/2026/10/04/ndp-libertarians-onebc-field-candidates-for-langley-and-abbotsford-ridings/"
+      },
+      {
+       "label": "BC Ballot (aggregator of the Elections BC list): Shelly Jan",
+       "url": "https://bcballot.ca/ridings/langley-abbotsford/shelly-jan/"
+      }
+     ]
+    },
+    {
+     "name": "Alex Joehl",
+     "party": "libertarian",
+     "incumbent": false,
+     "bio": "Libertarian candidate in Langley ridings in 2017, 2020 and 2024 and in four federal elections; prioritizes housing affordability, healthcare and tax reform.",
+     "sources": [
+      {
+       "label": "Fraser Valley Today, Oct 4, 2026",
+       "url": "https://fraservalleytoday.ca/2026/10/04/ndp-libertarians-onebc-field-candidates-for-langley-and-abbotsford-ridings/"
+      },
+      {
+       "label": "BC Ballot (aggregator of the Elections BC list): Alex Joehl",
+       "url": "https://bcballot.ca/ridings/langley-abbotsford/alex-joehl/"
+      }
+     ]
+    },
+    {
+     "name": "Erin Osborne",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Former manager at independent bookstore The Book Man and public servant who has worked on reconciliation issues; grew up in a military family.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "BC Ballot (aggregator of the Elections BC list): Erin Osborne",
+       "url": "https://bcballot.ca/ridings/langley-abbotsford/erin-osborne/"
+      }
+     ]
+    },
+    {
+     "name": "Melissa Snazell",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Registered pharmacy technician with 25 years in healthcare and a Kwantlen Polytechnic University student; BC Greens Fraser Valley regional representative; Green candidate here in 2024.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page: Snazell",
+       "url": "https://bcgreens.ca/candidates-2026/melissa-snazell/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No CentreBC candidate. Snazell also ran in this riding in 2024 (1,434 votes)."
+  },
+  {
+   "code": "LWG",
+   "name": "Langley-Walnut Grove",
+   "communities": "Walnut Grove, northern Willoughby, Fort Langley, Forest Knolls, McMillan Island",
+   "result_2024": {
+    "winner": "Misty Van Popta",
+    "party": "conservative",
+    "margin_votes": 1172,
+    "shares": {
+     "conservative": 0.4956,
+     "ndp": 0.4477,
+     "green": 0.0513,
+     "independent": 0.0055
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Langley-Walnut_Grove"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Holly Isaac",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Canada Post letter carrier and local union first vice-president, raised in Langley; ran for the NDP in Langley Township-Fraser Heights in the 2025 federal election.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "Aldergrove Star, Oct 4, 2026",
+       "url": "https://aldergrovestar.com/2026/10/04/ndp-name-candidate-in-langley-walnut-grove/"
+      }
+     ]
+    },
+    {
+     "name": "Sam Meyer",
+     "party": "green",
+     "incumbent": false,
+     "bio": "No public biography found. Listed by Elections BC and on the BC Greens 2026 candidates list; BC Ballot shows no earlier run on record.",
+     "sources": [
+      {
+       "label": "BC Greens 2026 candidates list",
+       "url": "https://bcgreens.ca/candidates-2026/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Kyle Stevenson",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Former journeyman electrician who worked at Tesla Energy; now a commercial pilot working toward an instructor rating; lives in Walnut Grove with his wife and two daughters.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page: Kyle Stevenson",
+       "url": "https://www.centrebc.ca/candidates/kyle-stevenson/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Misty Van Popta",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Construction project manager with a PMP designation and Fort Langley resident; Township of Langley councillor from 2022 to 2025; MLA for Langley-Walnut Grove since 2024.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Van Popta",
+       "url": "https://conservativebc.ca/candidate/misty-van-popta/"
+      },
+      {
+       "label": "Wikipedia: Misty Van Popta",
+       "url": "https://en.wikipedia.org/wiki/Misty_Van_Popta"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Langley Advance Times (Oct 5) text says no Green candidate in one sentence but also names Sam Meyer as the Green; Elections BC lists Meyer. No OneBC candidate."
+  },
+  {
+   "code": "LWI",
+   "name": "Langley-Willowbrook",
+   "communities": "City of Langley, Willowbrook, and parts of the Township of Langley just north and south of the city",
+   "result_2024": {
+    "winner": "Jody Toor",
+    "party": "conservative",
+    "margin_votes": 867,
+    "shares": {
+     "conservative": 0.4824,
+     "ndp": 0.4443,
+     "green": 0.0734
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Langley-Willowbrook"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Shubham Joshi",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Registered physiotherapist and clinical instructor in UBC's Faculty of Medicine; has worked as a national team physiotherapist; speaks English, Hindi, Gujarati and Punjabi.",
+     "sources": [
+      {
+       "label": "OneBC candidate page: Shubham Joshi",
+       "url": "https://1bc.ca/candidates/sjoshi"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Andrew Mercier",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Labour lawyer and former NDP MLA for Langley (2020 to 2024); Minister of State for Sustainable Forestry Innovation; became Chief of Staff to Premier Eby in 2026.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "Langley Advance Times, Oct 5, 2026",
+       "url": "https://langleyadvancetimes.com/2026/10/05/candidates-named-in-all-langley-ridings/"
+      }
+     ]
+    },
+    {
+     "name": "Anisha Sandhu",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Community food security coordinator with a UBC master's in human nutrition; former chair of Seeds of Change Surrey and a former UBC Senator.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page: Sandhu",
+       "url": "https://bcgreens.ca/candidates-2026/anisha-sandhu/"
+      },
+      {
+       "label": "Aldergrove Star, Oct 8, 2026",
+       "url": "https://aldergrovestar.com/2026/10/08/late-candidate-added-to-langley-willowbrook-ballot/"
+      }
+     ]
+    },
+    {
+     "name": "Jody Toor",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Runs an integrative holistic clinic in Langley; born and raised in Langley; MLA for Langley-Willowbrook since 2024.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Toor",
+       "url": "https://conservativebc.ca/candidate/jody-toor/"
+      },
+      {
+       "label": "Wikipedia: Jody Toor",
+       "url": "https://en.wikipedia.org/wiki/Jody_Toor"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Anisha Sandhu (Green) was added on Oct 8, 2026 after Elections BC found her nomination had not been processed correctly. Press coverage from Oct 5 lists three candidates; the current list has four. No CentreBC candidate."
+  },
+  {
+   "code": "MAE",
+   "name": "Maple Ridge East",
+   "communities": "Stave Falls, Silverhill, Ruskin, Whonnock, Webster's Corners, Albion, Yennadon (eastern Maple Ridge)",
+   "result_2024": {
+    "winner": "Lawrence Mok",
+    "party": "conservative",
+    "margin_votes": 97,
+    "shares": {
+     "conservative": 0.4702,
+     "ndp": 0.4664,
+     "green": 0.0634
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Maple_Ridge_East"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Hudson Campbell",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Maple Ridge-Pitt Meadows school trustee since 2022, age 24; former constituency advisor to Lisa Beare; past president of the Maple Ridge Climate Hub.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "Maple Ridge News, Sept 29, 2026",
+       "url": "https://mapleridgenews.com/2026/09/29/school-board-trustee-running-for-ndp-in-maple-ridge-east/"
+      }
+     ]
+    },
+    {
+     "name": "Chris Hatchwell",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Independent candidate with a Maple Ridge address; no public biography found and no earlier run on record.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "BC Ballot (aggregator of the Elections BC list): Chris Hatchwell",
+       "url": "https://bcballot.ca/ridings/maple-ridge-east/chris-hatchwell/"
+      }
+     ]
+    },
+    {
+     "name": "Daniel Kite",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Social studies and English teacher in School District 42 and union advocate; Maple Ridge resident since 2023; previously taught for seven years in China, Egypt and Russia.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page: Kite",
+       "url": "https://bcgreens.ca/candidates-2026/daniel-kite/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Lawrence Mok",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Worked over 30 years in the overhead crane industry; moved from Singapore to Maple Ridge in 1988; part-time preacher; MLA for Maple Ridge East since 2024.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Mok",
+       "url": "https://conservativebc.ca/candidate/lawrence-mok/"
+      },
+      {
+       "label": "Wikipedia: Lawrence Mok",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Mok"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Closest 2024 race in this group: Mok won by 97 votes over NDP incumbent Bob D'Eith. No CentreBC or OneBC candidate."
+  },
+  {
+   "code": "MAP",
+   "name": "Maple Ridge-Pitt Meadows",
+   "communities": "City of Pitt Meadows and the City of Maple Ridge west of 224th Street (including the Haney and Hammond areas), plus northern lake and forest areas such as Alouette Lake",
+   "result_2024": {
+    "winner": "Lisa Beare",
+    "party": "ndp",
+    "margin_votes": 2579,
+    "shares": {
+     "ndp": 0.5489,
+     "conservative": 0.4511
+    },
+    "source": "Elections BC Statement of Votes 2024 (https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf), figures as reproduced by Wikipedia: https://en.wikipedia.org/wiki/Template:2024_British_Columbia_general_election/Maple_Ridge-Pitt_Meadows"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Lisa Beare",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Minister of Education and Child Care; MLA since 2017; Maple Ridge school trustee from 2014; former flight attendant and union vice-president.",
+     "sources": [
+      {
+       "label": "BC NDP candidate profiles (bcndp.ca team page)",
+       "url": "https://www.bcndp.ca/team"
+      },
+      {
+       "label": "Maple Ridge News, Oct 5, 2026",
+       "url": "https://mapleridgenews.com/2026/10/05/four-candidates-running-in-both-maple-ridge-ridings-in-oct-24-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Susan Einarsson",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Former news anchor and reporter and BCIT instructor for over a decade; owns My Town Maple Ridge News Society; served on a local federal Conservative association board.",
+     "sources": [
+      {
+       "label": "OneBC candidate page: Susan Einarsson",
+       "url": "https://1bc.ca/candidates/seinarsson"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Doug Morneau",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Technology consultant with about 40 years in business; former BC Assessment board member; Maple Ridge resident for eight years; sits on the local federal Conservative association board.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page: Morneau",
+       "url": "https://conservativebc.ca/candidate/doug-morneau/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Jordan Simmons",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Co-founder and CEO of Nominee, a political leadership platform; former senior advisor to BC cabinet ministers; has lived in west Maple Ridge for seven years.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page: Jordan Simmons",
+       "url": "https://www.centrebc.ca/candidates/jordan-simmons/"
+      },
+      {
+       "label": "Elections BC candidate list, 2026 general election",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "The 2024 Conservative candidate was Mike Morden; Morneau is new. Communities taken from the Electoral Boundaries Commission 2023 final report (Pitt Meadows plus Maple Ridge west of 224th Street)."
+  }
+ ]
+}

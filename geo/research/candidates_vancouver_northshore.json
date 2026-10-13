@@ -1,0 +1,1201 @@
+{
+ "group": "vancouver_northshore",
+ "as_of": "2026-10-12",
+ "sources_checked": [
+  {
+   "label": "Elections BC 2026 candidate list (HTML)",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+  },
+  {
+   "label": "Elections BC 2026 candidate list (CSV, stale: lacks Alan Beesley)",
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+  },
+  {
+   "label": "Elections BC 2026 candidate website report (PDF, includes Beesley)",
+   "url": "https://www.elections.bc.ca/docs/fin/GE-2026-10-24-Candidate-Website-Report.PDF"
+  },
+  {
+   "label": "Elections BC Statement of Votes, 2024 general election (PDF)",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+  },
+  {
+   "label": "Wikipedia: 2026 British Columbia general election",
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia: Candidates of the 2026 BC general election",
+   "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+  },
+  {
+   "label": "BC Greens candidates 2026",
+   "url": "https://bcgreens.ca/candidates-2026/"
+  },
+  {
+   "label": "Conservative Party of BC team page",
+   "url": "https://www.conservativebc.ca/our-team/"
+  },
+  {
+   "label": "CentreBC candidate pages",
+   "url": "https://www.centrebc.ca/"
+  },
+  {
+   "label": "BC NDP release: more candidates (2026)",
+   "url": "https://www.bcndp.ca/releases/more-bc-ndp-candidates-ready-fight-their-communities"
+  },
+  {
+   "label": "North Shore News candidate roundup",
+   "url": "https://www.nsnews.com/local-news/here-are-the-north-shore-candidates-running-in-bcs-snap-election-12858354"
+  },
+  {
+   "label": "BC Ballot (candidate profiles, cross-check)",
+   "url": "https://bcballot.ca/candidates/"
+  },
+  {
+   "label": "Squamish Chief: dissolution Sept 22, 2026",
+   "url": "https://www.squamishchief.com/local-news/why-bc-is-going-to-the-polls-two-years-early-and-whos-running-in-west-vancouver-sea-to-sky-12847800"
+  }
+ ],
+ "ridings": [
+  {
+   "code": "NVL",
+   "name": "North Vancouver-Lonsdale",
+   "communities": "Lower Lonsdale, Central Lonsdale, Norgate, and the urban core of the City of North Vancouver.",
+   "result_2024": {
+    "winner": "Bowinn Ma",
+    "party": "ndp",
+    "margin_votes": 7686,
+    "shares": {
+     "ndp": 0.6488,
+     "conservative": 0.3512
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Bowinn Ma has been NDP MLA since 2017; Wikipedia lists her as Minister of Infrastructure (earlier Emergency Management).",
+   "candidates": [
+    {
+     "name": "Joshua A Singer Johnson",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Lawyer and lifelong North Vancouver resident with experience in constitutional and Indigenous litigation, human rights and tenant advocacy; law degree from McGill.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/joshua-a-singer-johnson/"
+      }
+     ]
+    },
+    {
+     "name": "Bowinn Ma",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Engineer and project manager at Vancouver airport before politics; MLA since 2017. Wikipedia lists her as Minister of Infrastructure, after serving as Minister of Emergency Management.",
+     "sources": [
+      {
+       "label": "Wikipedia: Bowinn Ma",
+       "url": "https://en.wikipedia.org/wiki/Bowinn_Ma"
+      }
+     ]
+    },
+    {
+     "name": "Trevor Withers",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Data visualization engineer at Aritzia and Queen's University graduate; has worked at a North Vancouver pub, played junior hockey with the Wolfpack and refereed minor hockey.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/trevor-withers/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Ballot list from Elections BC. 2024 had only two candidates (no Green)."
+  },
+  {
+   "code": "NVS",
+   "name": "North Vancouver-Seymour",
+   "communities": "Most of the District of North Vancouver: Upper Lonsdale, Carisbrooke, Upper Delbrook, Lynn Valley, Capilano University area, Tsleil-Waututh Nation, and east of the Seymour River to Deep Cove.",
+   "result_2024": {
+    "winner": "Susie Chant",
+    "party": "ndp",
+    "margin_votes": 5215,
+    "shares": {
+     "ndp": 0.5277,
+     "conservative": 0.3579,
+     "green": 0.0561,
+     "independent": 0.0584
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Susie Chant is a Parliamentary Secretary (Seniors' Services and Long-Term Care) per Wikipedia. Conservative Lynne Block, the sitting West Vancouver-Capilano MLA, was moved here to run against her.",
+   "candidates": [
+    {
+     "name": "Lynne Block",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Educator and former West Vancouver school trustee; elected Conservative MLA for West Vancouver-Capilano in 2024 and now running in North Vancouver-Seymour instead.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/lynne-block/"
+      },
+      {
+       "label": "North Shore News candidate roundup",
+       "url": "https://www.nsnews.com/local-news/here-are-the-north-shore-candidates-running-in-bcs-snap-election-12858354"
+      }
+     ]
+    },
+    {
+     "name": "Susie Chant",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Registered nurse and long-serving Royal Canadian Navy Reserve member; NDP MLA since 2020 and Parliamentary Secretary for Seniors' Services and Long-Term Care.",
+     "sources": [
+      {
+       "label": "Wikipedia: Susie Chant",
+       "url": "https://en.wikipedia.org/wiki/Susie_Chant"
+      }
+     ]
+    },
+    {
+     "name": "Lori Climenhaga",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Deep Cove resident for over 16 years; former director with the BC government and the BC Chamber of Commerce, with 25 years in government, business and community work.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/lori-climenhaga/"
+      }
+     ]
+    },
+    {
+     "name": "Ben Holt",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Software team lead and systems administrator raised in North Vancouver-Seymour; chaired the Mount Fromme Residents Association and coaches youth soccer and baseball.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/ben-holt/"
+      }
+     ]
+    },
+    {
+     "name": "Frederick Thiele",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Born and raised in North Vancouver; local business owner with over 25 years in technology, per the preview of his VoteMate profile..",
+     "sources": [
+      {
+       "label": "VoteMate 2026 riding page",
+       "url": "https://votemate.org/bc2026provincial/candidates/?riding=2165"
+      },
+      {
+       "label": "BC Ballot profile",
+       "url": "https://bcballot.ca/ridings/north-vancouver-seymour/frederick-thiele/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Communities from a North Shore News 2024 riding brief seen via search summary (secondary). 2024 independent was Mitchell Baker."
+  },
+  {
+   "code": "VFV",
+   "name": "Vancouver-Fraserview",
+   "communities": "Sunset, Victoria-Fraserview, Killarney.",
+   "result_2024": {
+    "winner": "George Chow",
+    "party": "ndp",
+    "margin_votes": 4278,
+    "shares": {
+     "ndp": 0.5718,
+     "conservative": 0.3662,
+     "green": 0.062
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Incumbent George Chow (NDP, former Minister of Citizens' Services) is not seeking re-election (announced Sept 27, 2026, per Wikipedia). Aman Singh replaced him as NDP candidate.",
+   "candidates": [
+    {
+     "name": "Francoise Raunet",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Public school teacher and vice president of the Vancouver Elementary and Adult Educators Society, on leave from the classroom; ran for BC Greens in Point Grey in 2011 and 2013.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/francoise-raunet/"
+      }
+     ]
+    },
+    {
+     "name": "Deep Sandhu",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Businessman and longshoreman with experience in forestry, real estate and asset management; Vancouver resident for over 35 years and former Canadian Armed Forces reservist.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/deep-sandhu/"
+      }
+     ]
+    },
+    {
+     "name": "Aman Singh",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Lawyer; NDP MLA for Richmond-Queensborough 2020 to 2024, lost that seat in 2024; BC NDP president since November 2025.",
+     "sources": [
+      {
+       "label": "Wikipedia: Aman Singh",
+       "url": "https://en.wikipedia.org/wiki/Aman_Singh"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No sitting MLA is on the ballot."
+  },
+  {
+   "code": "VHA",
+   "name": "Vancouver-Hastings",
+   "communities": "Hastings-Sunrise and half of Grandview-Woodland (per a BIV 2024 riding brief seen via search summary; boundaries unchanged for 2024).",
+   "result_2024": {
+    "winner": "Niki Sharma",
+    "party": "ndp",
+    "margin_votes": 8846,
+    "shares": {
+     "ndp": 0.6415,
+     "conservative": 0.2429,
+     "green": 0.1085,
+     "independent": 0.0071
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Niki Sharma is Deputy Premier and Attorney General per Wikipedia.",
+   "candidates": [
+    {
+     "name": "Christian Bosio",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Mechanical engineer and clean hydrogen entrepreneur who co-founded a company with over 300 employees; Commercial Drive resident for 12 years and youth soccer volunteer coach.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/christian-bosio/"
+      }
+     ]
+    },
+    {
+     "name": "Kimball Cariou",
+     "party": "communist",
+     "incumbent": false,
+     "bio": "Longtime Communist candidate and BC party leader from December 2020 to 2025; ran in Vancouver-Strathcona in 2024 and Vancouver-Hastings in 2017 and 2020.",
+     "sources": [
+      {
+       "label": "BC Ballot profile",
+       "url": "https://bcballot.ca/ridings/vancouver-hastings/kimball-cariou/"
+      },
+      {
+       "label": "Wikipedia: Communist Party of British Columbia",
+       "url": "https://en.wikipedia.org/wiki/Communist_Party_of_British_Columbia"
+      }
+     ]
+    },
+    {
+     "name": "Kyra Philbert",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Registered nurse with over a decade in healthcare; holds a UBC nursing master's degree and a bachelor's in gender, race, sexuality and social justice.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/kyra-philbert/"
+      }
+     ]
+    },
+    {
+     "name": "Niki Sharma",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Lawyer and former Stand.earth campaigner; Vancouver-Hastings MLA, now Deputy Premier and Attorney General.",
+     "sources": [
+      {
+       "label": "Wikipedia: Niki Sharma",
+       "url": "https://en.wikipedia.org/wiki/Niki_Sharma"
+      }
+     ]
+    },
+    {
+     "name": "Phyllis Tang",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Piano teacher for 25 years and community outreach worker; former constituency assistant to a Richmond-Queensborough MLA; ran for Vancouver city council in 2018.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/phyllis-tang/"
+      }
+     ]
+    },
+    {
+     "name": "Phil Webb",
+     "party": "libertarian",
+     "incumbent": false,
+     "bio": "No biography found. Elections BC lists him as the Libertarian candidate; BC Ballot shows no earlier run on record.",
+     "sources": [
+      {
+       "label": "BC Ballot profile",
+       "url": "https://bcballot.ca/ridings/vancouver-hastings/phil-webb/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "VKE",
+   "name": "Vancouver-Kensington",
+   "communities": "Kensington-Cedar Cottage, Sunset, and parts of Renfrew-Collingwood along the Kingsway corridor (from search summary; Wikipedia gives no list).",
+   "result_2024": {
+    "winner": "Mable Elmore",
+    "party": "ndp",
+    "margin_votes": 5652,
+    "shares": {
+     "ndp": 0.609,
+     "conservative": 0.3152,
+     "green": 0.0758
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Mable Elmore was a parliamentary secretary until November 2024; no current cabinet role per Wikipedia.",
+   "candidates": [
+    {
+     "name": "Mable Elmore",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Former Coast Mountain bus driver; NDP MLA for Vancouver-Kensington since 2009 and parliamentary secretary until November 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia: Mable Elmore",
+       "url": "https://en.wikipedia.org/wiki/Mable_Elmore"
+      }
+     ]
+    },
+    {
+     "name": "Adam Hawk",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Organic foods industry professional and Vancouver resident since 2006; past board member of the Vancouver Greens; ran for BC Greens in Vancouver-South Granville in 2024.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/adam-hawk/"
+      },
+      {
+       "label": "Elections BC Statement of Votes 2024",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+      }
+     ]
+    },
+    {
+     "name": "Aron Lageri",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Medical imaging technologist turned health-care manager with 22 years of experience, including False Creek Surgical Centre; ran for the Conservatives in Vancouver-South Granville in 2024.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/aron-lageri/"
+      },
+      {
+       "label": "Elections BC Statement of Votes 2024",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "VLA",
+   "name": "Vancouver-Langara",
+   "communities": "Marpole, Sunset, Oakridge.",
+   "result_2024": {
+    "winner": "Sunita Dhir",
+    "party": "ndp",
+    "margin_votes": 419,
+    "shares": {
+     "ndp": 0.4843,
+     "conservative": 0.4605,
+     "green": 0.0552
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Sunita Dhir is Parliamentary Secretary for International Credentials per Wikipedia.",
+   "candidates": [
+    {
+     "name": "John Atoyebi",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Lawyer and former magistrate and district court judge in Nigeria; former investigator with the BC Ombudsperson; sits on a City of Vancouver disability advisory committee.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/john-atoyebi/"
+      }
+     ]
+    },
+    {
+     "name": "Alan Beesley",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Lawyer called to the BC bar in 1989; ran a Tofino business including a restaurant and fish buying station from 2000 to 2019; son of a Canadian diplomat.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/alan-beesley/"
+      }
+     ]
+    },
+    {
+     "name": "Sunita Dhir",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Former S.U.C.C.E.S.S. language instructor; NDP MLA for Vancouver-Langara and Parliamentary Secretary for International Credentials.",
+     "sources": [
+      {
+       "label": "Wikipedia: Sunita Dhir",
+       "url": "https://en.wikipedia.org/wiki/Sunita_Dhir"
+      }
+     ]
+    },
+    {
+     "name": "Jaime Stein",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Business and non-profit executive and former broadcast journalist; born and raised in Vancouver and a graduate of Point Grey Secondary.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/jaime-stein/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "NOTE: Alan Beesley (CentreBC) is on the Elections BC HTML candidate list and the official PDF candidate report but is missing from the older Elections BC CSV but is on the live list (now also in the refreshed candidates_min.json). PDF: https://www.elections.bc.ca/docs/fin/GE-2026-10-24-Candidate-Website-Report.PDF"
+  },
+  {
+   "code": "VLM",
+   "name": "Vancouver-Little Mountain",
+   "communities": "Riley Park, South Cambie, parts of Mount Pleasant and part of Oakridge (from search summary; Wikipedia gives no list). New riding in 2024.",
+   "result_2024": {
+    "winner": "Christine Boyle",
+    "party": "ndp",
+    "margin_votes": 7932,
+    "shares": {
+     "ndp": 0.6211,
+     "conservative": 0.306,
+     "green": 0.0728
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Christine Boyle is Minister of Housing and Municipal Affairs since July 2025 (earlier Indigenous Relations and Reconciliation), per Wikipedia.",
+   "candidates": [
+    {
+     "name": "Christine Boyle",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Climate activist and ordained United Church minister; Vancouver city councillor 2018 to 2024; MLA since 2024 and Minister of Housing and Municipal Affairs since July 2025.",
+     "sources": [
+      {
+       "label": "Wikipedia: Christine Boyle",
+       "url": "https://en.wikipedia.org/wiki/Christine_Boyle"
+      }
+     ]
+    },
+    {
+     "name": "Sarah MacLeod",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Former film assistant director now in fundraising and advocacy; attended Vancouver City Council meetings for over a year and spoke on tree canopy and supportive housing.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/sarah-macleod/"
+      }
+     ]
+    },
+    {
+     "name": "Alex Muir",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "UBC political science graduate and Team BC rugby player with a Canada U20 cap; worked as a communications staffer in the Official Opposition leader's office in Ottawa.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/alex-muir/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "VNP",
+   "name": "Vancouver-Point Grey",
+   "communities": "West Point Grey, western Kitsilano, University Endowment Lands, UBC Point Grey campus.",
+   "result_2024": {
+    "winner": "David Eby",
+    "party": "ndp",
+    "margin_votes": 4916,
+    "shares": {
+     "ndp": 0.5677,
+     "conservative": 0.3451,
+     "green": 0.0872
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None. David Eby is Premier (since Nov 18, 2022) and NDP leader; he dissolved the legislature on Sept 22, 2026.",
+   "candidates": [
+    {
+     "name": "Michael Davis",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Recently retired head of a communications and government relations firm; former director of communications to Canada's Justice Minister; founder of OurKidsClimate.ca.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/michael-davis/"
+      }
+     ]
+    },
+    {
+     "name": "David Eby",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Premier of British Columbia since November 2022; Point Grey MLA since 2013; former Attorney General and housing minister.",
+     "sources": [
+      {
+       "label": "Wikipedia: David Eby",
+       "url": "https://en.wikipedia.org/wiki/David_Eby"
+      }
+     ]
+    },
+    {
+     "name": "Alex McMillan",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Interim CEO of the BC Chamber of Commerce until February; runs a consultancy started in 2020; former provincial political staffer and civil servant.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/alex-mcmillan/"
+      }
+     ]
+    },
+    {
+     "name": "Beatrice Sharpe",
+     "party": "green",
+     "incumbent": false,
+     "bio": "University of Victoria student in political science and environmental studies; former chair of the Young BC Greens and chair of Green Nation Collective Changemakers.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/beatrice-sharpe/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "VNQ",
+   "name": "Vancouver-Quilchena",
+   "communities": "Quilchena, Kerrisdale, Arbutus Ridge, parts of Shaughnessy.",
+   "result_2024": {
+    "winner": "Dallas Brodie",
+    "party": "conservative",
+    "margin_votes": 2815,
+    "shares": {
+     "ndp": 0.3891,
+     "conservative": 0.5158,
+     "green": 0.0778,
+     "independent": 0.0173
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Dallas Brodie was elected as a Conservative, removed from the Conservative caucus March 7, 2025, co-founded OneBC June 9, 2025, and sits as OneBC. Wikipedia notes she was removed as OneBC interim leader Dec 13, 2025 and reinstated Dec 21. A 2026 recall bid against her failed.",
+   "candidates": [
+    {
+     "name": "Carson Binda",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Former BC director of the Canadian Taxpayers Federation (joined 2022); campaign staffer at three levels of government; served as a logistics officer in the army reserves.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/carson-binda/"
+      }
+     ]
+    },
+    {
+     "name": "Dallas Brodie",
+     "party": "onebc",
+     "incumbent": true,
+     "bio": "Lawyer and broadcaster; elected as a Conservative in 2024, removed from caucus in March 2025, co-founded OneBC in June 2025. Sitting MLA for this riding.",
+     "sources": [
+      {
+       "label": "Wikipedia: Dallas Brodie",
+       "url": "https://en.wikipedia.org/wiki/Dallas_Brodie"
+      }
+     ]
+    },
+    {
+     "name": "Douglas Courtemanche",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Semi-retired craniofacial surgeon and UBC clinical professor since 2008; grew up in Vancouver-Quilchena; former Medical Staff President at BC Children's and Women's Hospital.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/douglas-courtemanche/"
+      }
+     ]
+    },
+    {
+     "name": "Petra Kuret",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Former Accenture managing partner for British Columbia and Vancity senior vice president; sought the federal Liberal nomination in Vancouver Quadra in 2025; Quilchena resident 40 years.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/petra-kuret/"
+      }
+     ]
+    },
+    {
+     "name": "Callista Ryan",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Communications professional, co-chair of the BC Young New Democrats and board director of the BC Council for Families; NDP candidate here in 2024, finishing second.",
+     "sources": [
+      {
+       "label": "BC NDP release (2024 nomination)",
+       "url": "https://bcndp.ca/releases/youth-advocate-callista-ryan-run-bc-ndp-vancouver-quilchena"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2024 winner Brodie ran as Conservative; she is now OneBC (result_2024.party shows her 2024 party). 2024 shares: Independent Caroline Ying-Mei Wang 1.73 percent, Green Michael Barkusky 7.78 percent."
+  },
+  {
+   "code": "VNR",
+   "name": "Vancouver-Renfrew",
+   "communities": "Most of Renfrew-Collingwood.",
+   "result_2024": {
+    "winner": "Adrian Dix",
+    "party": "ndp",
+    "margin_votes": 5656,
+    "shares": {
+     "ndp": 0.6322,
+     "conservative": 0.3066,
+     "green": 0.0612
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Adrian Dix is Minister of Energy and Climate Solutions per Wikipedia.",
+   "candidates": [
+    {
+     "name": "Adrian Dix",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Former BC NDP leader and Health Minister, earlier a political aide and commentator; now Minister of Energy and Climate Solutions per Wikipedia.",
+     "sources": [
+      {
+       "label": "Wikipedia: Adrian Dix",
+       "url": "https://en.wikipedia.org/wiki/Adrian_Dix"
+      }
+     ]
+    },
+    {
+     "name": "Rebecca Haber",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Public health professional with over 15 years in pregnancy, child health and immunization programs; East Vancouver resident for 17 years and community garden board member.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/rebecca-haber/"
+      }
+     ]
+    },
+    {
+     "name": "Tom Ikonomou",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Realtor since 2008 and former restaurant owner; Army veteran and former volunteer firefighter; treasurer of a Burnaby AHEPA chapter.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/tom-ikonomou/"
+      }
+     ]
+    },
+    {
+     "name": "Lisa Prescott",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Engineer with over 20 years in public service, including senior roles at the City of Vancouver and BC Hydro, now a consultant; Renfrew resident since 2003.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/lisa-prescott/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "VNS",
+   "name": "Vancouver-South Granville",
+   "communities": "South Granville, eastern Kitsilano, western Fairview, Granville Island.",
+   "result_2024": {
+    "winner": "Brenda Bailey",
+    "party": "ndp",
+    "margin_votes": 10530,
+    "shares": {
+     "ndp": 0.6431,
+     "conservative": 0.2496,
+     "green": 0.1073
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Incumbent Brenda Bailey (NDP, former finance minister per Wikipedia) is not seeking re-election (announced Sept 23, 2026). Lara Honrado is the NDP candidate.",
+   "candidates": [
+    {
+     "name": "Maria J Cruz",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Outreach worker in the Vancouver School Board adult education program; culture and heritage planner with a Master of Museum Studies; South Granville renter for 15 years.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/maria-cruz/"
+      }
+     ]
+    },
+    {
+     "name": "Lara Honrado",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Led community relations for Mayor Gregor Robertson; works with the United Nations on public understanding of AI; board member of the 221A cultural land trust.",
+     "sources": [
+      {
+       "label": "BC NDP release, more candidates (2026)",
+       "url": "https://www.bcndp.ca/releases/more-bc-ndp-candidates-ready-fight-their-communities"
+      }
+     ]
+    },
+    {
+     "name": "Lisa Phillips",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Third-generation Vancouverite, finance and technology professional and business owner with a UBC mathematics degree and eight years of board governance experience.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/lisa-phillips/"
+      }
+     ]
+    },
+    {
+     "name": "Colin Smith",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Owner of a Kitsilano construction management firm with an academic background in law, international relations and sociology; area resident for over 30 years.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/colin-smith/"
+      }
+     ]
+    },
+    {
+     "name": "Salvatore Vetro",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "No 2026 biography found. Ran as an Independent in Vancouver-Kensington in 2020, finishing fourth with 202 votes.",
+     "sources": [
+      {
+       "label": "BC Ballot profile",
+       "url": "https://bcballot.ca/ridings/vancouver-south-granville/salvatore-vetro/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No sitting MLA is on the ballot."
+  },
+  {
+   "code": "VNT",
+   "name": "Vancouver-Strathcona",
+   "communities": "Eastern downtown, Strathcona, Downtown Eastside, Gastown, and parts of Mount Pleasant, Grandview-Woodland, Kensington-Cedar Cottage and Chinatown.",
+   "result_2024": {
+    "winner": "Joan Phillip",
+    "party": "ndp",
+    "margin_votes": 10243,
+    "shares": {
+     "ndp": 0.6817,
+     "conservative": 0.171,
+     "green": 0.1305,
+     "communist": 0.0168
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Seat vacant. NDP MLA Joan Phillip died Aug 28, 2026; the by-election was cancelled when the general election was called (per Wikipedia). Amanda Burrows is the NDP candidate.",
+   "candidates": [
+    {
+     "name": "Amanda Burrows",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Executive director of First United Church in the Downtown Eastside, working in the neighbourhood over a decade; lost the OneCity mayoral nomination earlier in 2026.",
+     "sources": [
+      {
+       "label": "Daily Hive",
+       "url": "https://dailyhive.com/vancouver/amanda-burrows-bc-ndp"
+      }
+     ]
+    },
+    {
+     "name": "Robert Crooks",
+     "party": "communist",
+     "incumbent": false,
+     "bio": "Leader of the Communist Party of BC since July 2025; ran in Victoria-Swan Lake in 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia: Communist Party of British Columbia",
+       "url": "https://en.wikipedia.org/wiki/Communist_Party_of_British_Columbia"
+      },
+      {
+       "label": "Elections BC Statement of Votes 2024",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+      }
+     ]
+    },
+    {
+     "name": "Jordan Zheng McIntosh",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Mineral exploration field worker and geological engineering student, born in Vancouver; has volunteered in politics since middle school.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/jordan-mcintosh/"
+      }
+     ]
+    },
+    {
+     "name": "Tanya Webking",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Dene and German with roots in the Tlicho Nation; decades of frontline work in housing, healthcare and community support in the Downtown Eastside.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/tanya-webking/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No sitting MLA is on the ballot. 2024 Communist candidate was Kimball Cariou (336 votes)."
+  },
+  {
+   "code": "VNW",
+   "name": "Vancouver-West End",
+   "communities": "West End, Coal Harbour, Davie Village, Stanley Park.",
+   "result_2024": {
+    "winner": "Spencer Chandra Herbert",
+    "party": "ndp",
+    "margin_votes": 7466,
+    "shares": {
+     "ndp": 0.6301,
+     "conservative": 0.2722,
+     "green": 0.0908,
+     "independent": 0.0069
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Spencer Chandra Herbert is Minister of Indigenous Relations and Reconciliation since July 2025 and deputy speaker since 2020, per Wikipedia.",
+   "candidates": [
+    {
+     "name": "Spencer Chandra Herbert",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Former arts manager and Vancouver park commissioner; MLA since 2008, deputy speaker since 2020 and Minister of Indigenous Relations and Reconciliation since July 2025.",
+     "sources": [
+      {
+       "label": "Wikipedia: Spencer Chandra Herbert",
+       "url": "https://en.wikipedia.org/wiki/Spencer_Chandra_Herbert"
+      }
+     ]
+    },
+    {
+     "name": "Scott MacDonald",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Recently retired physician who practised addictions-focused primary care in downtown Vancouver from 2004 to 2026; earlier medical director of Casey House Hospice in Toronto.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/donald-scott-macdonald/"
+      }
+     ]
+    },
+    {
+     "name": "Dion Weisner",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Senior staffer in the Official Opposition leader's office working on public policy and research; previously worked in sales and marketing at Harbour Air.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/dion-weisner/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "VNY",
+   "name": "Vancouver-Yaletown",
+   "communities": "Yaletown and downtown Vancouver east of Burrard Street.",
+   "result_2024": {
+    "winner": "Terry Yung",
+    "party": "ndp",
+    "margin_votes": 1161,
+    "shares": {
+     "ndp": 0.4976,
+     "conservative": 0.4335,
+     "green": 0.0689
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None found. Terry Yung is Minister of State for Community Safety and Integrated Services since November 2024 per Wikipedia.",
+   "candidates": [
+    {
+     "name": "Sam Chandola",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Tech founder who arrived in Canada in 2012 and started First Fund, a pre-seed investment fund; was the Conservative candidate in North Vancouver-Seymour in 2024.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/sam-chandola/"
+      },
+      {
+       "label": "Elections BC Statement of Votes 2024",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+      }
+     ]
+    },
+    {
+     "name": "Margareta Dovgal",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "National economic commentator and policy analyst with a career in economic development advocacy; born in and lives in downtown Vancouver.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/margareta-dovgal/"
+      }
+     ]
+    },
+    {
+     "name": "Priyan Samarakoone",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Housing lawyer called to the BC bar in 2013; spent seven years with Access Pro Bono BC; Yaletown resident for 16 years.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/priyan-samarakoone/"
+      }
+     ]
+    },
+    {
+     "name": "Terry Yung",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Retired Vancouver police inspector with thirty years of service; Vancouver-Yaletown MLA since 2024 and Minister of State for Community Safety and Integrated Services.",
+     "sources": [
+      {
+       "label": "Wikipedia: Terry Yung",
+       "url": "https://en.wikipedia.org/wiki/Terry_Yung"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "WVC",
+   "name": "West Vancouver-Capilano",
+   "communities": "Most of the District of West Vancouver and the Capilano area of the District of North Vancouver.",
+   "result_2024": {
+    "winner": "Lynne Block",
+    "party": "conservative",
+    "margin_votes": 5043,
+    "shares": {
+     "conservative": 0.4667,
+     "ndp": 0.2714,
+     "green": 0.0556,
+     "independent": 0.2063
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "Sitting MLA Lynne Block (Conservative) is running in North Vancouver-Seymour instead; the Conservatives moved her and named Caroline Elliott here. No sitting MLA is on this ballot.",
+   "candidates": [
+    {
+     "name": "Honieh Barzegari",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Physician by training with over 20 years in healthcare, life sciences and technology; former Ministerial Advisor to the BC government; sits on the Langara College Board of Governors.",
+     "sources": [
+      {
+       "label": "BC NDP release, more candidates (2026)",
+       "url": "https://www.bcndp.ca/releases/more-bc-ndp-candidates-ready-fight-their-communities"
+      }
+     ]
+    },
+    {
+     "name": "Naomi Chocyk",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "No biography found. Elections BC lists her as the OneBC candidate; BC Ballot shows no earlier run on record.",
+     "sources": [
+      {
+       "label": "BC Ballot profile",
+       "url": "https://bcballot.ca/ridings/west-vancouver-capilano/naomi-chocyk/"
+      }
+     ]
+    },
+    {
+     "name": "Caroline Elliott",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Public policy think tank senior fellow with an SFU political science PhD; former BC legislature adviser to two ministers; lives in North Vancouver; former Conservative leadership candidate.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/caroline-elliott/"
+      },
+      {
+       "label": "CTV News",
+       "url": "https://www.ctvnews.ca/vancouver/article/former-bc-conservative-leadership-candidate-caroline-elliott-will-run-in-election/"
+      }
+     ]
+    },
+    {
+     "name": "Arwa Shurab",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Regulated Canadian Immigration Consultant, leadership coach and founder of HERVOICE; board director of the North Shore Restorative Justice Society; North Shore resident.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/arwa-shurab/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2024 independent was Karin Kirkpatrick (20.63 percent)."
+  },
+  {
+   "code": "WVS",
+   "name": "West Vancouver-Sea to Sky",
+   "communities": "West Vancouver west of Cypress Creek, Bowen Island, Lions Bay, Furry Creek, Britannia Beach, Squamish, Whistler, Pemberton, Mount Currie, D'Arcy, and communities near the north end of Harrison Lake.",
+   "result_2024": {
+    "winner": "Jeremy Valeriote",
+    "party": "green",
+    "margin_votes": 676,
+    "shares": {
+     "green": 0.3808,
+     "conservative": 0.3561,
+     "ndp": 0.2631
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+   },
+   "mla_changes_since_2024": "None. Jeremy Valeriote (Green) was named BC Green interim leader in January 2025 and remains the Green MLA at dissolution (per Wikipedia). First BC Green elected on the mainland.",
+   "candidates": [
+    {
+     "name": "Ayla Dumais",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Raised in Squamish, member of Prophet River First Nation; policy adviser in the Official Opposition leader's office; formerly in community relations at Woodfibre LNG.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/ayla-dumais/"
+      }
+     ]
+    },
+    {
+     "name": "Michelle Livaja",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Bowen Island resident for 26 years; works in the Ministry of Infrastructure minister's office after four years as a constituency assistant; NDP candidate here in 2017.",
+     "sources": [
+      {
+       "label": "Pique Newsmagazine",
+       "url": "https://www.piquenewsmagazine.com/local-news/four-candidates-announced-in-west-vancouver-sea-to-sky-provincial-race-12848838"
+      }
+     ]
+    },
+    {
+     "name": "Jeremy Valeriote",
+     "party": "green",
+     "incumbent": true,
+     "bio": "MLA since 2024 and first BC Green elected on the mainland; environmental consultant and former Gibsons councillor; Green interim leader since January 2025.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/jeremy-valeriote-2/"
+      }
+     ]
+    },
+    {
+     "name": "Dan Wood",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Housing and real estate professional at a provincial Crown organization; West Vancouver resident since 2023; CentreBC communications chair on its provincial executive.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/dan-wood/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Closest 2024 margin in this group is Langara (419 votes), then Sea to Sky (676)."
+  }
+ ]
+}

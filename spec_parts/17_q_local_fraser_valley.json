@@ -1,0 +1,599 @@
+[
+  {
+    "id": "q_local_fraser_valley_farmland",
+    "issue_id": "fv_farmland",
+    "scope": "local",
+    "prompt": {
+      "1": "Should food factories be allowed on some weaker farmland in the Fraser Valley?",
+      "2": "The province proposed letting food processing plants build on some lower-quality protected farmland. What should happen?",
+      "3": "The province proposed letting food plants use some lower-quality land in the Agricultural Land Reserve. What should happen?",
+      "4": "A July 2026 proposal would let food processors use Class 5 to 7 reserve soil, up to 0.25% of private reserve land. What now?",
+      "5": "The July 2026 proposal would let food processors build on Agricultural Land Reserve Class 5 to 7 soil, capped at 0.25% of private reserve land, with a 5% local-product minimum. Which approach?"
+    },
+    "context": {
+      "1": "Much of the Fraser Valley is protected farmland that can only be used for farming. The province wants to let food factories build on some of the weaker soil, so more food can be made nearby. Farm groups say the land would be lost.",
+      "2": "Much of the Fraser Valley is in the farmland reserve, where building is limited to farm use. In July 2026 the province proposed letting food processing plants build on lower-quality reserve soil, with a cap on the area and a lower local-content rule. Business groups support it; the farmland commission and farm groups oppose it. The election paused the decision.",
+      "3": "On July 23, 2026 the NDP government proposed letting food processors build on Agricultural Land Reserve land with poorer soil, capped at a small share of private reserve land, with the local-product minimum cut from 50% to 5%. The province says 500 to 1,000 hectares in the Lower Mainland and Fraser Valley could qualify. The Abbotsford Chamber and food manufacturers back it; the Agricultural Land Commission and the BC Agriculture Council oppose it. The election paused the decision.",
+      "4": "The July 23, 2026 proposal would allow food processing on Agricultural Land Reserve Class 5 to 7 soil, cut the local-product minimum from 50% to 5%, and cap the total at 0.25% of the 2.1 million hectares of private reserve land. The province says the soil test excludes about 90% of Fraser Valley farmland and that 500 to 1,000 hectares could qualify. Food manufacturers, the Board of Trade and the Abbotsford Chamber support it. The Agricultural Land Commission and the BC Agriculture Council oppose it. Consultation closed September 18 and the election paused the decision. Eby calls it a food security measure; the Conservatives declined to state a position.",
+      "5": "The July 23, 2026 proposal would let food processors build on Agricultural Land Reserve Class 5 to 7 soil, cut the local-product minimum from 50% to 5%, and cap the total at 0.25% of the 2.1 million hectares of privately owned reserve land. The province says about 90% of Lower Mainland and Fraser Valley reserve farmland fails the soil test and 500 to 1,000 hectares could qualify. Supporters include BC Food and Beverage, the Board of Trade and the Abbotsford Chamber of Commerce. The Agricultural Land Commission called it one of the most significant policy shifts in decades; the BC Agriculture Council also opposes it. Consultation closed September 18, 2026 and the election call paused the decision. Eby says it affects 0.3% of the reserve; the Agriculture Council's figure is far larger and the two do not reconcile."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Keep farmland for farming, and limit who can buy it.",
+          "2": "Keep the farmland rules, limit farmland buyers to citizens and residents, create a public land bank, and tax unused farmland.",
+          "3": "Keep the reserve rules, limit larger farmland purchases to citizens and permanent residents, create a public land bank, and tax unused farmland.",
+          "4": "Reject reserve processing, limit owners of reserve parcels over four hectares to citizens and permanent residents, start a public farmland bank, and tax unused farmland.",
+          "5": "Withdraw the processing proposal; restrict ownership of Agricultural Land Reserve parcels over 4 hectares to Canadian citizens and permanent residents; create a public land bank for new farmers; tax unused farmland; add food sovereignty to the Agricultural Land Commission's mandate."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 2,
+          "green": 4,
+          "centrebc": 1,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Keep the farmland rules, and help food makers with loans and grants instead.",
+          "2": "Keep the farmland rules, and help processors with loan guarantees and a food-processing fund on regular industrial land.",
+          "3": "Keep the reserve rules, and support processors with loan guarantees and a food stream in a manufacturing fund, with faster approvals on industrial land.",
+          "4": "Keep reserve processing rules, offer processing and equipment loan guarantees, add a food stream to a manufacturing fund, and update farm classification so farmland is farmed.",
+          "5": "Leave the reserve's processing rules unchanged; provide loan guarantees for processing and equipment; add a food stream to a Manufacturing Jobs Fund doubled to $60 million a year; set ten-year farm targets; update farm classification rules so farmland is farmed."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 2,
+          "green": 2,
+          "centrebc": 4,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Allow food factories on a small amount of weaker farmland, after a soil check.",
+          "2": "Allow food processing plants on a small, capped share of lower-quality farmland, with a soil test and local permits.",
+          "3": "Allow food processing on a small capped share of lower-quality reserve land, with a soil test, and let processors use food from anywhere.",
+          "4": "Adopt the proposal: processing on Class 5 to 7 reserve soil, capped at 0.25% of private reserve land, with a soil assessment and a 5% BC-product minimum.",
+          "5": "Proceed with the July 2026 proposal: processing on Class 5 to 7 soil and serviced Class 4, capped at 0.25% of the 2.1 million private reserve hectares, soil assessment required, local-product minimum cut from 50% to 5%."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 2,
+          "green": 0,
+          "centrebc": 1,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Loosen the rules more, letting landowners and councils decide what goes on weak soil.",
+          "2": "Go further than the proposal: let landowners and local governments decide what is built on reserve land with weak soil.",
+          "3": "Go further than the proposal: remove the area cap and let landowners and local governments decide what is built on weak-soil reserve land.",
+          "4": "Go further: drop the 0.25% cap and soil-class test, and let landowners and local governments decide what is built on lower-quality reserve land, including non-food industry.",
+          "5": "Go beyond the July 2026 proposal: remove the 0.25% cap and the Class 5 to 7 soil test, allow non-food industrial uses, and devolve decisions on lower-quality reserve land to landowners and local governments rather than the Agricultural Land Commission."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 2,
+          "green": 0,
+          "centrebc": 1,
+          "onebc": 2
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party made the proposal. It says food made here means safer supply and lower prices.",
+          "3": "The NDP government proposed the change in July 2026 and Eby defends it as a food security and cost-of-living measure: 'food processing is part of that'. It is not in any platform document and the election paused it. The agriculture minister who sponsored it is not running again.",
+          "5": "Record: news release 2026AF0017 (July 23, 2026) proposed processing on Class 5 to 7 soil, a 5% local-product minimum and a 0.25% cap; consultation closed September 18. Eby told The Tyee the change affects 0.3% of the reserve and is about food security. There is no platform commitment and Agriculture Minister Popham is retiring. Other 2026 farm pledges are a cap on retail margins for essentials and a Lower Mainland wholesale food terminal with Ottawa."
+        },
+        "basis": "both",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "BC Gov News: proposed changes to support food processing in the ALR (July 23, 2026)",
+            "url": "https://news.gov.bc.ca/releases/2026AF0017-000863"
+          },
+          {
+            "label": "The Tyee: How the ALR's future is becoming an election issue (Oct 7, 2026)",
+            "url": "https://thetyee.ca/News/2026/10/07/ALR-Future-Becoming-Election-Issue/"
+          },
+          {
+            "label": "BC Ballot: BC NDP commitments",
+            "url": "https://bcballot.ca/platforms/bc-ndp/"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party has not said what it would do about this, so it is not scored here.",
+          "3": "A Conservative spokesperson declined to state a position on the farmland proposal; Doerkson said the party would do 'everything in our power' for agriculture and more would come in its platform. With no published position, the party is not scored here.",
+          "5": "The Tyee (October 7, 2026): a party spokesperson declined to take a position on the proposal; Doerkson promised 'everything in our power' for agriculture with details to come. The 'Our Plan' page has no farmland or agriculture item as of October 12, and the party pointed only to a temporary PST removal on beer and wine. No_position; recheck if a platform appears."
+        },
+        "basis": "platform",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "The Tyee: How the ALR's future is becoming an election issue (Oct 7, 2026)",
+            "url": "https://thetyee.ca/News/2026/10/07/ALR-Future-Becoming-Election-Issue/"
+          },
+          {
+            "label": "Conservative Party of BC: Our Plan (no agriculture item)",
+            "url": "https://conservativebc.ca/plan/"
+          }
+        ],
+        "no_position": true
+      },
+      "green": {
+        "text": {
+          "1": "This party says weaker farmland is still farmland and should not become factory land.",
+          "3": "A Green spokesperson told The Tyee that much of the land in the proposal is farmable and 'shouldn't be turned into industrial lands'. The October 2 food plan limits ownership of reserve parcels over four hectares to citizens and permanent residents, creates a public land bank, taxes unused farmland and adds food sovereignty to the commission's mandate.",
+          "5": "The Tyee (October 7, 2026): a Green spokesperson opposed turning farmable reserve land industrial. Food plan (October 2, 2026): restrict ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents, create a public land bank, tax unused farmland, and add food sovereignty to the Agricultural Land Commission's mandate. The plan does not address processing directly, so option a pairs the stated opposition with the ownership measures."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "The Tyee: How the ALR's future is becoming an election issue (Oct 7, 2026)",
+            "url": "https://thetyee.ca/News/2026/10/07/ALR-Future-Becoming-Election-Issue/"
+          },
+          {
+            "label": "BC Greens: plan to support local food production and farmers (Oct 2, 2026)",
+            "url": "https://bcgreens.ca/launch-plan-to-support-local-food-production-and-farmers/"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party would help food makers with loans and a fund, and has not said whether farmland rules should change.",
+          "3": "CentreBC's platform offers loan guarantees for processing and equipment, a food stream in its Manufacturing Jobs Fund 'to help process more BC food here', ten-year farm targets and updated farm classification rules. It takes no stated position on the reserve proposal, so option b is inferred from its funding approach.",
+          "5": "Platform (October 10): loan guarantees for processing and equipment, a food stream in a Manufacturing Jobs Fund doubled to $60 million a year, ten-year farm production targets, updated farm classification rules 'so farmland is farmed', a permanent farm recovery program and a farm water stream. The platform does not mention the Agricultural Land Reserve processing proposal. Option b is inferred from funding processors without changing reserve rules; low confidence."
+        },
+        "basis": "inferred",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, Economy and Affordability)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party has said nothing about farmland, so it is not scored here.",
+          "3": "OneBC has no agriculture or farmland position, so it is not scored on this question.",
+          "5": "OneBC's priorities page and the BC Ballot tracker list no agriculture or farmland commitment, so this question is left out of its score."
+        },
+        "basis": "platform",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "BC Ballot: OneBC commitments (no agriculture item)",
+            "url": "https://bcballot.ca/platforms/onebc/"
+          }
+        ],
+        "no_position": true
+      }
+    },
+    "scoring_rationale": "a = Green (4): stated opposition plus the October 2 ownership, land bank and unused-land tax measures; CentreBC 1 (keeps the rules in effect but funds processors and has no ownership limits); NDP 0 (proposed the change). b = CentreBC (4), inferred and low confidence: the platform funds processing with loan guarantees and a fund and never proposes reserve changes; NDP 2 (also funds food processing and a food terminal, but changes the rules); Green 2 (keeps the rules, no processor funding). c = NDP record (4); CentreBC 1 (silent on the proposal, with a 'farmland is farmed' line that cuts against it); Green 0. d has no home: no party proposes going beyond the capped proposal; NDP 1 (closest, but its proposal is capped and soil-tested); Green 0; CentreBC 1. The Conservatives (declined to state a position) and OneBC (nothing on agriculture) are no_position, so only three parties are scored; that is the honest state of the record on a live Fraser Valley issue rather than a reason to drop it."
+  },
+  {
+    "id": "q_local_fraser_valley_highway1",
+    "issue_id": "fv_highway1",
+    "scope": "local",
+    "prompt": {
+      "1": "Highway One is being widened to Abbotsford. What should the province build next in the valley?",
+      "2": "Highway 1 widening is funded to Abbotsford and only planned east of there. Where should the next transportation money go?",
+      "3": "Highway 1 widening is funded to Highway 11 in Abbotsford by 2031 and only planned to Chilliwack. Where should the next money go?",
+      "4": "Highway 1 widening to Highway 11 is funded ($2.65 billion, due 2031); the Chilliwack phase is not. What should be funded next?",
+      "5": "Phase 3B of Highway 1 ($2.65 billion, due 2031) is in procurement; Phase 4 to Chilliwack is unfunded and the 2024 West Coast Express promise has no plan. What next?"
+    },
+    "context": {
+      "1": "The main highway through the valley is being made wider, but only as far as Abbotsford. Traffic is heavy and buses and trains are few. Parties disagree on whether to keep widening the highway toward Chilliwack, or spend the next money on buses and trains.",
+      "2": "Highway 1 is being widened through Langley and Abbotsford, with work funded as far as Highway 11 and due 2031. The section through Sumas Prairie to Chilliwack is only being planned, with no money or date. In 2024 the government promised commuter rail to Chilliwack but has published no plan. Parties disagree on whether roads or transit should come next.",
+      "3": "The province has funded Highway 1 widening to Highway 11 ($2.65 billion for the latest phase, due 2031). The final phase through Sumas Prairie to Chilliwack is in planning with no funding. The NDP has made no 2026 transport pledge for the valley. The Conservatives pledged six lanes to Chilliwack in 2024, nothing new since. CentreBC names Chilliwack widening in its transport plan. The Greens want transit and rail. OneBC has no position.",
+      "4": "Phase 3B (Mount Lehman Road to Highway 11) is budgeted at $2.65 billion with completion in 2031, on top of $2.34 billion for the phase now under construction. Phase 4 through Sumas Prairie to Chilliwack is 'in integrated planning' with no funding or date. The NDP's 2024 platform promised West Coast Express service to Chilliwack and new valley rail; by March 2025 there were no details. The NDP has no 2026 valley transport pledge and rules out road pricing. The Conservatives pledged six lanes through Chilliwack and no tolls in October 2024 and have no 2026 highway or transit commitment. CentreBC names Chilliwack widening and rapid buses in its plan.",
+      "5": "Phase 2 and Phase 3A ($2.34 billion, announced fall 2023) are under construction; Phase 3B (Mount Lehman Road to Highway 11) was funded at $2.65 billion in August 2024 for completion in 2031; Phase 4 (Highway 11 through Sumas Prairie to Chilliwack) is 'in integrated planning' with no funding or date. The NDP's fall 2024 platform promised West Coast Express service to Chilliwack and a new valley rail service; by March 2025 there were no details and it was absent from the minister's mandate letter. The NDP rules out road pricing (October 2). The Conservatives pledged six lanes through Chilliwack and no tolls on October 3, 2024; their 2026 plan page has no highway item. CentreBC's $15 billion three-year plan names widening to Chilliwack. The Greens' October 9 plan funds buses and province-wide rail. OneBC has no transportation commitment."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Widen the highway to six lanes right to Chilliwack first, with no tolls.",
+          "2": "Widen Highway 1 to six lanes all the way to Chilliwack first, and charge no tolls or road fees.",
+          "3": "Make six lanes on Highway 1 through Chilliwack the first priority, with no tolls or road pricing, before new transit spending.",
+          "4": "Commit to six lanes on Highway 1 through Chilliwack as the next priority, fund it without tolls or road pricing, and make no new valley transit or rail commitment.",
+          "5": "Commit to six lanes on Highway 1 through Chilliwack (Phase 4) as the next provincial priority, fund it from general revenue with no tolls or road pricing, and add no new Fraser Valley transit or passenger rail commitment."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 3,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Widen the highway to Chilliwack, add fast buses, and give money back on passes.",
+          "2": "Widen Highway 1 to Chilliwack and add transit: rapid bus lines, more service, and a tax credit on transit passes.",
+          "3": "Widen Highway 1 to Chilliwack, add rapid bus lines and 15% more transit service, study rapid transit beyond Langley, plus a 15% pass credit.",
+          "4": "Put Highway 1 to Chilliwack in a $15 billion three-year plan, add six rapid bus lines and 15% more transit, study rapid transit past Langley, and offer a 15% pass credit.",
+          "5": "Include widening Highway 1 to Chilliwack in a $15 billion three-year plan ($3.5 billion added through borrowing), add six rapid bus lines and 15% more service by 2030, study rapid transit beyond Langley, and offer a 15% credit on passes."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 3,
+          "green": 1,
+          "centrebc": 4,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Finish the funded widening to Abbotsford, keep planning the rest, with no tolls.",
+          "2": "Finish the funded widening to Highway 11, keep planning the Chilliwack section and valley rail, and rule out tolls.",
+          "3": "Keep the current schedule: widening to Highway 11 by 2031, the Chilliwack section and valley rail in planning, no tolls or road pricing.",
+          "4": "Keep the funded schedule (to Highway 11 by 2031), leave the Chilliwack phase and valley rail in planning without new money, and rule out tolls and road pricing.",
+          "5": "Maintain the funded program (Phase 3B, $2.65 billion, to Highway 11 by 2031), keep Phase 4 to Chilliwack and the 2024 West Coast Express pledge in planning with no new money, and rule out tolls and road pricing."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 2,
+          "green": 2,
+          "centrebc": 2,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Spend new money on buses and rail, free for young people and seniors.",
+          "2": "Put new money into buses and passenger rail, free under 25 and over 65, and widen no further than funded.",
+          "3": "Put new money into bus service and valley passenger rail, with free fares under 25 and over 65, and widen no further than funded.",
+          "4": "Fund stable bus service and province-wide passenger rail including the valley, phase in free transit starting with under 25s and over 65s, and fund no new highway lanes.",
+          "5": "Direct new money to stable BC Transit bus funding and province-wide passenger rail with the BC Rail Corridor Alliance, phase in fare-free transit starting under 25 and over 65, and build no highway lanes beyond those already funded."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 1,
+          "onebc": 2
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party funded the widening as far as Abbotsford and is still planning the rest. It has made no new valley promise.",
+          "3": "The NDP government funded Highway 1 widening to Highway 11 ($2.65 billion, due 2031) and has the Chilliwack section 'in integrated planning' with no money. Its 2024 promise of West Coast Express to Chilliwack produced no plan. In 2026 it rules out road pricing and offers a fuel tax cut, with no valley-specific pledge.",
+          "5": "Record: $2.34 billion for Phase 3A (2023) and $2.65 billion for Phase 3B to Highway 11 (August 2024), completion 2031; Phase 4 to Chilliwack 'in integrated planning' with no funding. The fall 2024 platform promised West Coast Express to Chilliwack and valley rail; by March 2025 there were no details and it was outside the minister's mandate letter. 2026: no road pricing or vehicle levy (October 2), 10 cent fuel tax cut, no Fraser Valley highway, transit or rail commitment. Option c is the standing record."
+        },
+        "basis": "record",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "BC Gov: Fraser Valley Highway 1 program",
+            "url": "https://www2.gov.bc.ca/gov/content/transportation-projects/fraser-valley-highway1"
+          },
+          {
+            "label": "BC Gov News: Highway 1 widening to Highway 11 (Aug 14, 2024)",
+            "url": "https://news.gov.bc.ca/releases/2024MOTI0113-001306"
+          },
+          {
+            "label": "Fraser Valley Current: West Coast Express extension promise update (Mar 4, 2025)",
+            "url": "https://fvcurrent.com/p/west-coast-extension-promise-update"
+          },
+          {
+            "label": "Daily Hive: Eby rules out TransLink vehicle levy and road pricing (Oct 2, 2026)",
+            "url": "https://dailyhive.com/vancouver/bc-ndp-david-eby-translink-vehicle-levy"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party promised six lanes to Chilliwack and no tolls last election. It has said nothing new this time.",
+          "3": "On October 3, 2024 the Conservatives pledged six lanes on Highway 1 through Chilliwack and no tolls or road pricing. Their 2026 plan page has no highway, transit or rail item (ferries and HandyDART only). Option a is inferred from the 2024 pledge and is low confidence.",
+          "5": "Fraser Valley Today (October 3, 2024): Rustad pledged six lanes through Chilliwack and no tolls or road pricing. The 2026 'Our Plan' page lists no highway, transit or rail commitment; a CBC interview summary has Doerkson saying the platform has not changed much from 2024, but that page was not opened. BC Ballot lists no 2026 transportation item beyond ferries and HandyDART. Inferred from 2024, low confidence."
+        },
+        "basis": "inferred",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "Fraser Valley Today: Conservatives pledge six lanes through Chilliwack (Oct 3, 2024)",
+            "url": "https://fraservalleytoday.ca/2024/10/03/b-c-conservatives-pledge-to-expand-highway-1-to-6-lanes-through-chilliwack/"
+          },
+          {
+            "label": "Conservative Party of BC: Our Plan (no highway item)",
+            "url": "https://conservativebc.ca/plan/"
+          },
+          {
+            "label": "BC Ballot: Conservative commitments",
+            "url": "https://bcballot.ca/platforms/conservative-party/"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party wants new money to go to buses and trains, with free rides for young people and seniors.",
+          "3": "The Greens' October 9 plan promises free transit for riders under 25 and over 65, more bus service with stable funding, support for the BC Rail Corridor Alliance and province-wide passenger rail. They have no published position on Highway 1 widening; option d pairs their transit plan with their general view that more lanes do not fix congestion.",
+          "5": "Transit and Transportation Policy Brief and release (October 9, 2026): fare-free transit phased in from under 25 and over 65, doubled bus fleet, stable BC Transit funding, province-wide passenger rail with the BC Rail Corridor Alliance, and the statement that BC 'cannot build our way out of congestion with more traffic lanes'. No Highway 1 or Fraser Valley rail item was found. Option d applies the brief to the valley; medium confidence."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "Langley Advance Times: Greens release transportation plans (Oct 9, 2026)",
+            "url": "https://langleyadvancetimes.com/2026/10/09/b-c-greens-release-transportation-plans-includes-free-transit-for-youth-seniors/"
+          },
+          {
+            "label": "BC Greens: Transit and Transportation Policy Brief 2026 (PDF)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party would widen the highway to Chilliwack and add fast buses, with money back on passes.",
+          "3": "CentreBC's platform names widening Highway 1 to Chilliwack as a priority in a $15 billion three-year transportation plan, with about six rapid bus lines, a study of rapid transit south of the Fraser beyond the SkyTrain, 15% more transit service by 2030 and a refundable 15% credit on passes and ferry fares. No dates for the Chilliwack widening.",
+          "5": "Platform (October 10, pages 10 and 13): priorities are the Surrey-Langley SkyTrain, the Fraser River Tunnel, widening Highway 1 to Chilliwack and North Coast roads, within $15 billion over three years ($3.5 billion added through borrowing); about six new rapid bus lines; a study of rapid transit south of the Fraser beyond the SkyTrain; 15% more transit service by 2030; a refundable BC Commuter Credit of 15% on passes and ferry multi-trip fares. No timeline or cost for the Chilliwack phase and no position on tolls."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 10, 13)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party has said nothing about roads or transit, so it is not scored here.",
+          "3": "OneBC has no transportation position, so it is not scored on this question.",
+          "5": "OneBC's priorities page and the BC Ballot tracker list no transportation commitment, so this question is left out of its score."
+        },
+        "basis": "platform",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "BC Ballot: OneBC commitments (no transportation item)",
+            "url": "https://bcballot.ca/platforms/onebc/"
+          }
+        ],
+        "no_position": true
+      }
+    },
+    "scoring_rationale": "a = Conservative (4), inferred from the October 2024 six-lanes and no-tolls pledge because the party has published nothing on the valley in 2026; CentreBC 3 (also widens to Chilliwack and takes no tolls position, but pairs it with transit); NDP 2 (is building the highway and rules out road pricing, but has not funded the Chilliwack phase); Green 0. b = CentreBC (4); Conservative 3 (shares the widening, not the transit or credit); NDP 2 (funds the highway and interim transit, no rapid bus or credit pledge); Green 1 (transit elements only, opposes more lanes). c = NDP record (4); Conservative, Green and CentreBC 2 each (all would at least keep the funded phases; none would stop there). d = Green (4); NDP 1 (2024 rail pledge, otherwise roads); CentreBC 1 (adds buses but widens too); Conservative 0. OneBC is no_position. Balance: option c is 'stay the course', so a voter who picks it rewards only the NDP; a, b and d each reward a different challenger."
+  },
+  {
+    "id": "q_local_fraser_valley_er",
+    "issue_id": "fv_er",
+    "scope": "local",
+    "prompt": {
+      "1": "Mission's emergency room keeps closing at night for lack of doctors. What should come first?",
+      "2": "Mission's emergency room closed overnight for weeks this year for lack of doctors. What should the province do first?",
+      "3": "Mission Memorial's emergency room closed overnight for 51 nights in a row this spring for lack of doctors. What should come first?",
+      "4": "Mission's emergency room cut overnight hours for 51 nights in spring 2026, with more closures into September. What comes first?",
+      "5": "Mission Memorial's emergency department ran reduced overnight hours for 51 nights in spring 2026 and 16 more in August and September, citing physician staffing; an $18 million expansion is due in 2027. Which approach?"
+    },
+    "context": {
+      "1": "The emergency room at Mission's hospital has often closed overnight this year because there were not enough doctors. People had to drive to Abbotsford instead. Other valley hospitals are very busy too. Parties disagree on the fastest way to keep emergency rooms open.",
+      "2": "Mission Memorial Hospital's emergency room closed overnight for 51 nights in a row this spring, and more nights through the summer, because it could not staff enough doctors. The health authority says it is recruiting, and a bigger emergency room is being built for 2027. Candidates in Abbotsford-Mission debated the closures in September. Parties disagree on what to do first.",
+      "3": "Mission Memorial's emergency room ran reduced overnight hours for 51 straight nights in spring 2026 and more in the summer, because of physician staffing. Fraser Health says it is recruiting, and an $18 million expansion is due in spring 2027. The Conservatives announced a $50 million fund for rural emergency rooms on October 5. CentreBC promises a law reporting every closure and a yearly fund. The NDP offers tuition discounts and moving costs for rural work.",
+      "4": "Mission Memorial Hospital's emergency department ran reduced overnight hours for 51 consecutive nights in spring 2026, with further closures through September; Fraser Health cites physician staffing and says it is recruiting. An $18 million emergency department expansion began in February 2026 and is due in spring 2027. The Conservatives' first health announcement was a $50 million fund for rural practices at risk of closing. CentreBC would cut unplanned closure hours in half by 2029/30 and legislate public reporting. The NDP's October 9 plan offers tuition discounts, loan forgiveness and moving costs for rural posts and fast-tracks international graduates. The Greens propose community health centres; OneBC private care alongside public.",
+      "5": "Mission Memorial Hospital's emergency department ran reduced overnight hours for 51 consecutive nights in spring 2026, with 16 more closures scheduled for August and September; Fraser Health cites physician staffing and is recruiting. An $18 million expansion began in February 2026 and is due in spring 2027. At the September 14 Abbotsford-Mission debate, candidates from four parties addressed the closures. Party pledges: the Conservatives' $50 million rural practice fund and flexible staffing (October 5); CentreBC's Emergency Room Accountability Act, halved unplanned closure hours by 2029/30, $25 million a year stabilization fund and permanent retention bonus; the NDP's rural tuition, loan forgiveness and moving support, 1,000 training seats and international graduate bridging (October 9); the Greens' community health centres, nurse ratios and consolidated authority; OneBC's private care alongside public and nurse reinstatement."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Make every closure public, set a target to cut them, and fund fill-in doctors.",
+          "2": "Pass a law reporting every closure, aim to halve closure hours, and fund a pot for fill-in doctors and backup.",
+          "3": "Legislate reporting of every closure, aim to halve closure hours by 2030, fund a rural pot for locums and backup, with permanent retention bonuses.",
+          "4": "Publicly report every closure, halve unplanned closure hours by 2029/30, spend $25 million a year on rural locums and backup, and make the retention bonus permanent.",
+          "5": "Enact an Emergency Room Accountability Act requiring public reporting of every closure, halve unplanned closure hours by 2029/30, fund a $25 million a year rural stabilization fund for locums, travel and virtual backup, and make the rural retention bonus permanent."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 3,
+          "green": 1,
+          "centrebc": 4,
+          "onebc": 1
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Set up an emergency fund for small-town clinics and emergency rooms about to close.",
+          "2": "Create a $50 million emergency fund for rural practices at risk of closing, loosen staffing rules, and fast-track foreign-trained doctors.",
+          "3": "Create a $50 million emergency fund for rural practices at risk of closing, allow flexible staffing, fast-track credentials, and appoint an expert commission.",
+          "4": "Put $50 million into rural practices at risk of closing, allow flexible staffing, accept other provinces' credentials, hold health spending, and form an expert panel.",
+          "5": "Create a $50 million emergency fund for rural medical practices at risk of closing, flexible staffing to prevent closures, automatic recognition of other provinces' credentials, an expert commission within 100 days, and no cuts to the 2026 health budget."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 4,
+          "green": 1,
+          "centrebc": 3,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Recruit more doctors with cheaper tuition, loan help and moving money for rural jobs.",
+          "2": "Recruit: tuition discounts, loan forgiveness and moving costs for rural posts, more training seats, and a bridge for foreign-trained doctors.",
+          "3": "Recruit staff through tuition discounts, loan forgiveness and moving costs for rural areas, 1,000 more training seats, and a bridging program for international graduates.",
+          "4": "Give rural health workers tuition discounts, loan forgiveness and moving costs, add 1,000 training seats, help foreign-trained doctors qualify, and open 20 team clinics.",
+          "5": "Recruit through discounted tuition, loan forgiveness and moving expenses for health workers taking rural and emergency posts, 1,000 added training seats, a bridging-to-practice program for internationally trained doctors, 20 team-based primary care clinics, and eight MRI and ten CT scanners."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 3,
+          "green": 2,
+          "centrebc": 3,
+          "onebc": 1
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Open a public health centre in every area so fewer people need emergency rooms.",
+          "2": "Open a community health centre in every riding, set nurse-to-patient limits, stop using private agency nurses, and keep care public.",
+          "3": "Change the model: a community health centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, one provincial health authority.",
+          "4": "Fund a community health centre in every riding, legislate nurse-to-patient ratios, phase out agency nurses, move toward one health authority, and keep health dollars public.",
+          "5": "Fund a Community Health Centre in every riding, legislate safe nurse-to-patient ratios, phase out private agency nurses and for-profit staffing agencies, consolidate the health authorities into one provincial authority, and keep every public health dollar in public care."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 2,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "e",
+        "text": {
+          "1": "Allow private clinics beside public care, and rehire workers who left over vaccine rules.",
+          "2": "Allow private health care alongside public care, and reinstate nurses who lost jobs over vaccine mandates, with back pay.",
+          "3": "Allow private health care alongside public care, reinstate nurses removed under vaccine mandates with back pay, and shift administration spending to the front line.",
+          "4": "Allow private care beside fully funded public care, reinstate nurses removed under vaccine mandates with back pay, and move admin spending to front-line staff.",
+          "5": "Allow private health care alongside fully funded public care, reinstate nurses removed under vaccine mandates with back pay, shift administration and human resources spending to front-line staff, attract medical professionals, and repeal the Health Professions and Occupations Act."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 1,
+          "green": 0,
+          "centrebc": 0,
+          "onebc": 4
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party is in charge now. It offers cheaper tuition and moving money to bring doctors to rural areas.",
+          "3": "The NDP government funded the $18 million Mission emergency room expansion. Its October 9 plan offers discounted tuition, loan forgiveness and moving costs for health workers in underserved rural areas, a bridging program for international graduates, 1,000 training seats and 20 team-based clinics. No emergency fund or closure-reporting law.",
+          "5": "Record: Mission Memorial's $18 million emergency department expansion (February 2026 to spring 2027); the closures occurred under its government. Pledges (October 9, 2026): discounted tuition, loan forgiveness and moving expenses for rural and emergency posts, bridging to practice for international medical graduates in BC, 1,000 added training seats, 20 team-based primary care clinics, eight MRI and ten CT scanners, recruiters focused on emergency and rural care (September 23). No dedicated rural emergency fund and no closure-reporting law."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "Mission City Record: more overnight closures coming to Mission Memorial ER (Aug 6, 2026)",
+            "url": "https://missioncityrecord.com/2026/08/06/more-overnight-closures-coming-to-mission-memorial-hospital-emergency-department/"
+          },
+          {
+            "label": "Langley Advance Times: Eby vows to fast-track international medical grads, more doctors for rural areas (Oct 9, 2026)",
+            "url": "https://langleyadvancetimes.com/2026/10/09/b-c-election-eby-vows-to-fast-track-intl-medical-grads-bring-more-docs-to-rural-areas/"
+          },
+          {
+            "label": "BC NDP: more doctors and nurses, fast-tracking international graduates (Oct 9, 2026)",
+            "url": "https://www.bcndp.ca/releases/ebys-plan-includes-more-doctors-and-nurses-fast-tracking-international-graduates"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party would set up an emergency fund to stop small-town emergency rooms from closing.",
+          "3": "On October 5 the Conservatives pledged a $50 million emergency fund for rural medical practices at risk of closing, flexible staffing to avoid emergency and maternity closures, fast-tracked credentials, priority for BC students, an expert commission within 100 days and no health cuts. They did not say whether the fund is one-time or yearly.",
+          "5": "'Keep Emergency Rooms Open' (October 5, 2026, launched in 100 Mile House): $50 million emergency fund for rural practices at risk of closing (one-time or recurring not stated), flexible staffing to prevent emergency and maternity closures, automatic recognition of other provinces' credentials, priority for BC students in medical training, an expert commission within 100 days, the system kept universal and publicly funded, no cuts to the 2026 health budget. Findlay earlier called the Mission closures unacceptable."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "Conservative Party of BC: Keep emergency rooms open (Oct 5, 2026)",
+            "url": "https://conservativebc.ca/keep-emergency-rooms-open/"
+          },
+          {
+            "label": "Abbotsford News: Doerkson pledges $50M fund for ER closures (Oct 5, 2026)",
+            "url": "https://abbynews.com/2026/10/05/lorne-doerkson-pledges-to-create-50m-fund-to-address-emergency-room-closures/"
+          },
+          {
+            "label": "Abbotsford News: Abbotsford-Mission by-election debate (Sept 14, 2026)",
+            "url": "https://abbynews.com/2026/09/14/mla-hopefuls-spar-in-abbotsford-mission-byelection-debate/"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party would open a public health centre in every area so fewer people need emergency rooms.",
+          "3": "The Greens promise a Community Health Centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a review toward one provincial health authority and 'every public health dollar in public care'. They have no emergency room specific commitment; option d is their care model applied to the closures.",
+          "5": "Healthcare Policy Brief (October 6, 2026) and Our Plan: Community Health Centre in every riding, legislated safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, review of loan forgiveness and paid practicums, a consolidated provincial health authority, single-entry surgical referrals, no private expansion. No Mission or rural emergency room item. The by-election candidate Fowler also wanted more local capacity. Option d is the model, not a closure plan."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan/"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party would make every closure public, set a target to cut them, and pay for fill-in doctors.",
+          "3": "CentreBC's platform would cut unplanned emergency room closure hours in half by 2029/30, pass an accountability law with public reporting of every closure and live status online, fund a $25 million a year rural stabilization fund for locums, travel and virtual backup, make the rural retention bonus permanent, and decide credentials within 30 days.",
+          "5": "Platform (October 10, page 16): Emergency Room Accountability Act with public reporting of every closure and a live open-or-closed dashboard; halve unplanned closure hours by 2029/30; $25 million a year rural stabilization fund for locums, nurses, travel and virtual backup; permanent rural retention bonus extended to every community with repeated closures; credential decisions within 30 days; 600 nurse practitioner positions by 2030; 100 more residency positions; no private pay for essential care. Candidate Jhaj (Abbotsford-Mission) also urged faster certification."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, p 16)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "Abbotsford News: Abbotsford-Mission by-election debate (Sept 14, 2026)",
+            "url": "https://abbynews.com/2026/09/14/mla-hopefuls-spar-in-abbotsford-mission-byelection-debate/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party would allow private clinics beside public care and rehire workers who left over vaccine rules.",
+          "3": "OneBC would allow private health care alongside fully funded public care, reinstate nurses it says were removed under COVID-era mandates with back pay, move administration spending to the front line and 'attract medical professionals'. It has no emergency room specific commitment.",
+          "5": "Priorities page: private health care alongside fully funded public care, shift administration and human resources spending to front-line staff, repeal the Health Professions and Occupations Act. October 11 video (via BC Ballot): reinstate nurses removed under COVID-era mandates with back pay. October 5 post: reduce wait times and attract medical professionals. No rural or Mission emergency room item; option e is the party's health model applied to the closures."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "BC Ballot: OneBC commitments",
+            "url": "https://bcballot.ca/platforms/onebc/"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "a = CentreBC (4): accountability law, halved closure hours, $25 million a year fund, permanent retention bonus; Conservative 3 (its $50 million fund does the same job without the reporting law or targets); NDP 2 (runs a rural retention incentive and funds the Mission expansion, but no dedicated fund or law); Green 1; OneBC 1. b = Conservative (4); CentreBC 3 (a yearly fund and faster credentials, but no expert commission or staffing-rule change); NDP 2 (no fund, but fast-tracks credentials and holds the budget); Green 1; OneBC 2 (shares 'attract professionals' and budget caution). c = NDP (4); Conservative 3 and CentreBC 3 (both fast-track credentials and add training; neither offers tuition or moving incentives); Green 2 (reviews loan forgiveness, prefers retention); OneBC 1. d = Green (4); NDP 2 and CentreBC 2 (team-based clinics and limits on agency nurses, but no single authority); Conservative 0; OneBC 0. e = OneBC (4); Conservative 1 (expert commission may study other systems but keeps the system public); others 0. The same mechanism set appears in the North's emergency room question with the same scores; the two regions never see each other's question."
+  }
+]

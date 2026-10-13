@@ -1,0 +1,194 @@
+[
+  {
+    "id": "q_icbc",
+    "issue_id": "icbc",
+    "scope": "provincial",
+    "prompt": {
+      "1": "How should car insurance work for people hurt in crashes?",
+      "2": "Should ICBC's current way of paying people hurt in crashes stay, change, or face private competition?",
+      "3": "Should BC keep no-fault car insurance, bring back lawsuits for serious injuries, or open insurance to competition?",
+      "4": "Should BC keep Enhanced Care, ICBC's no-fault system, adopt a hybrid that allows lawsuits for serious injuries, or open the market?",
+      "5": "Choose a model for basic auto insurance: Enhanced Care no-fault, a hybrid allowing lawsuits (tort claims) for serious injury, or private competition with lawsuits."
+    },
+    "context": {
+      "1": "In BC, people hurt in car crashes get set payments for care from ICBC, the public insurer. Most cannot sue in court, which keeps prices lower. Some parties want badly hurt people to be able to sue again. Some want private companies to compete.",
+      "2": "Since 2021, ICBC, the public car insurer, has paid set amounts for care and lost income instead of letting people sue after crashes. ICBC says this saves drivers about $490 a year. Critics say people with the most serious injuries get too little. Some parties want lawsuits back for serious injuries, which others fear would raise prices.",
+      "3": "In 2021 the NDP government brought in a no-fault system, which pays set care and income benefits instead of letting people sue. ICBC says drivers save about $490 a year, and basic rates are frozen. Critics say people with life-changing injuries get too little. No published estimate shows how bringing back lawsuits would change prices.",
+      "4": "Enhanced Care began in May 2021 and replaced most lawsuits with set care and income benefits. ICBC says drivers saved about $490 a year at first renewal, and basic rates are frozen until spring 2027. Critics say people with catastrophic injuries, such as brain and spinal cord injuries, are not supported well enough. No published estimate shows how restoring lawsuits would affect premiums.",
+      "5": "Enhanced Care, in place since May 2021, pays no-fault care-based benefits instead of court awards. ICBC reports an average saving of about $490 (28%) at first renewal and $2.7 billion in rebates, with about $5 billion in claims from before 2021 still to pay. Basic rates are frozen through spring 2027. Critics say support for catastrophic injuries is inadequate. The Conservatives' hybrid proposal is described differently in a September 29 letter and an October 7 party page, and neither gives a premium estimate. The NDP's claim that premiums would double has not been verified."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Let private companies sell car insurance, and let people hurt in crashes sue.",
+          "2": "Let private companies sell basic car insurance, not just ICBC, and let people hurt in crashes sue.",
+          "3": "Open basic car insurance to private companies, and end no-fault so injured people can sue.",
+          "4": "Phase out ICBC's monopoly on basic insurance, let private insurers compete, and replace no-fault with the right to sue.",
+          "5": "Phase out ICBC's basic-insurance monopoly, end the Enhanced Care no-fault system, and restore the right to sue for crash injuries (tort liability)."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 2,
+          "green": 2,
+          "centrebc": 0,
+          "onebc": 4
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Keep public insurance, let badly hurt people sue, and allow some private competition.",
+          "2": "Keep ICBC, bring back lawsuits for serious injuries, and allow competition where it lowers prices.",
+          "3": "Keep ICBC public, restore lawsuits for serious injuries, and allow some private competition.",
+          "4": "Create a hybrid: ICBC stays a public insurer, people with serious injuries can sue with capped lawyer fees, and competition is allowed where it helps.",
+          "5": "Pass a hybrid law within one year: lawsuits for serious injury, lawyer fees under Law Society caps, ICBC kept as a public option, and competition where it improves prices."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 4,
+          "green": 2,
+          "centrebc": 2,
+          "onebc": 3
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Keep public insurance with set care payments and no lawsuits, and keep prices frozen.",
+          "2": "Keep ICBC paying for care instead of lawsuits, and freeze basic rates for three more years.",
+          "3": "Keep public no-fault insurance and freeze basic rates until 2030.",
+          "4": "Keep the Enhanced Care no-fault system and ICBC's monopoly on basic insurance, and extend the basic rate freeze to spring 2030.",
+          "5": "Keep Enhanced Care with no lawsuits for most claims, extend the basic rate freeze to spring 2030, and keep ICBC's monopoly on basic insurance."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 0,
+          "green": 2,
+          "centrebc": 3,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Keep public insurance, cap price rises, and pay more for the worst injuries.",
+          "2": "Keep ICBC's care system, hold rate rises to inflation after spring 2027, and add pain-and-suffering payments for the worst injuries.",
+          "3": "Keep public no-fault insurance, cap rate rises at inflation after 2027, and add awards for catastrophic injuries.",
+          "4": "Keep Enhanced Care and ICBC's monopoly, freeze rates to spring 2027 and then hold rises at or below inflation to 2030, and add pain-and-suffering awards for catastrophic injuries from 2031.",
+          "5": "Keep Enhanced Care, freeze basic rates to spring 2027 and hold rises at or below inflation to 2030, add pain-and-suffering awards for brain and spinal injuries from 2031, and act on the committee review."
+        },
+        "scores": {
+          "ndp": 3,
+          "conservative": 2,
+          "green": 2,
+          "centrebc": 4,
+          "onebc": 0
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party set up care payments without lawsuits and wants to keep prices frozen longer.",
+          "3": "The NDP brought in no-fault 'Enhanced Care' in 2021, says the average driver saves about $500 a year, and has frozen basic rates for seven years. It promises to extend the freeze to spring 2030 but has not said what that would cost.",
+          "5": "The NDP brought in Enhanced Care in May 2021 and froze basic rates for seven years through spring 2027. ICBC paid $2.7 billion in rebates and reports an average first-renewal saving of about $490, with about $5 billion in older claims still to pay. On October 8, 2026, the party promised to extend the freeze to spring 2030, with no cost stated. It says the Conservative plan would open private competition and double premiums, a claim that has not been verified."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC NDP: ICBC rate freeze to 2030 (Oct 8, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-freeze-car-insurance-rates-another-three-years"
+          },
+          {
+            "label": "BC Government: ICBC rate freeze release (2025)",
+            "url": "https://news.gov.bc.ca/releases/2025AG0063-001064"
+          },
+          {
+            "label": "BC Budget 2025: ICBC service plan (legacy claims)",
+            "url": "https://bcbudget.gov.bc.ca/2025/sp/pdf/agency/icbc.pdf"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party would keep public insurance but let badly hurt people sue, and allow some private competition.",
+          "3": "A leaked letter commits the Conservatives to a 'hybrid' law within a year that restores lawsuits for serious injuries. The party's web page keeps ICBC public and caps lawyer fees. The two describe the plan differently, and neither gives a premium estimate.",
+          "5": "A September 29, 2026 letter promised hybrid legislation within a year giving people the 'right to recover for their serious injuries', and CTV reported that private competition and limits on minor injuries were on the table. The October 7 party page caps fees under Law Society limits, says it 'eliminates the overwhelming majority of litigation' and keeps ICBC as a public option. Findlay's own site pledged to repeal no-fault. There is no premium estimate."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "Global News: Conservative plan to end no-fault (leaked letter)",
+            "url": "https://globalnews.ca/news/12090331/bc-conservatives-plan-no-fault-insurance-repeal/"
+          },
+          {
+            "label": "CP24: leaked letter details (Oct 6, 2026)",
+            "url": "https://www.cp24.com/news/canada/2026/10/06/bc-conservatives-plan-to-end-no-fault-insurance-leaked-letter-shows/"
+          },
+          {
+            "label": "Conservative Party of BC: Insurance plan page",
+            "url": "https://conservativebc.ca/plan/insurance/"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party has not shared a car insurance plan, so it is not scored here.",
+          "3": "The Greens have published no 2026 position on ICBC or no-fault insurance, so this quiz does not score them on this question.",
+          "5": "No ICBC or car insurance commitment appears on the Green plan page, in the party's economic vision or in BC Ballot's list of its commitments, so this question is left out of the Green score."
+        },
+        "basis": "platform",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "BC Ballot: BC Green commitments (no ICBC item)",
+            "url": "https://bcballot.ca/platforms/bc-green-party/"
+          },
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan/"
+          }
+        ],
+        "no_position": true
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party would keep public insurance and set care payments, limit price rises, and pay more to people with the worst injuries.",
+          "3": "CentreBC's October 10 platform keeps ICBC public, freezes basic rates to spring 2027 and then holds them at or below inflation to 2030, and gives pain-and-suffering awards to people with catastrophic injuries from 2031. It otherwise keeps Enhanced Care, will act on the legislative committee's review, and allows no private competition.",
+          "5": "The platform says 'BC Hydro and ICBC stay public'. Basic rates stay frozen until spring 2027, then rise at or below inflation through 2030. From 2031, people with catastrophic brain and spinal cord injuries get pain-and-suffering awards, built into rates once the cap ends. The party will 'act on the legislative committee's review of Enhanced Care' and set ICBC efficiency targets. It does not restore lawsuits in general or allow competition. Calling this a partial step back from no-fault is this quiz's reading, not the platform's wording."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 6, 13)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "Canadian Press via Medicine Hat News: Sturko asks for the full Conservative ICBC proposal (Oct 8)",
+            "url": "https://medicinehatnews.com/news/national-news/2026/10/08/b-c-campaign-trail-conservatives-promise-1000-tax-cut-by-boosting-exemption-level/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party would let private companies sell car insurance and let people hurt in crashes sue.",
+          "3": "OneBC would phase out ICBC's monopoly and end no-fault insurance, letting private insurers compete and injured people sue.",
+          "5": "OneBC's priorities include phasing out the ICBC monopoly and ending no-fault insurance. It has published no transition plan or costing."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "a = OneBC (4); Conservative 2 (letter keeps private competition 'on the table' but the page keeps ICBC as the public option); CentreBC 0. b = Conservative (4); OneBC 3; CentreBC 2 (keeps ICBC public and adds an award for catastrophic injuries, but no general right to sue and no competition); NDP 0. c = NDP record and pledge (4); CentreBC 3 (same model and monopoly; a cap at inflation after 2027 rather than a freeze to 2030); Conservative and OneBC 0. d = CentreBC's platform (4): Enhanced Care kept, rate cap, catastrophic-injury awards; NDP 3 (same model, its freeze goes further than the cap, no award commitment while the committee reviews); Conservative 2 (public insurer and serious-injury recovery overlap, but it wants court access and competition); OneBC 0. Option d was added on October 10 when CentreBC published an ICBC position; before that it was no_position here. The Greens have no published ICBC position and are excluded (no_position). Four options: no-fault, no-fault with a catastrophic carve-out, a tort hybrid, and privatization."
+  }
+]

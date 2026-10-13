@@ -1,0 +1,27 @@
+{
+  "metro": [
+    "q_local_metro_translink",
+    "q_local_metro_title_homes",
+    "q_local_metro_density"
+  ],
+  "fraser_valley": [
+    "q_local_fraser_valley_farmland",
+    "q_local_fraser_valley_highway1",
+    "q_local_fraser_valley_er"
+  ],
+  "island_coast": [
+    "q_local_island_coast_ferries",
+    "q_local_island_coast_oldgrowth",
+    "q_local_island_coast_seniors"
+  ],
+  "interior": [
+    "q_local_interior_wildfire",
+    "q_local_interior_downtown",
+    "q_local_interior_ltc"
+  ],
+  "north": [
+    "q_local_north_forestry",
+    "q_local_north_resources",
+    "q_local_north_er"
+  ]
+}

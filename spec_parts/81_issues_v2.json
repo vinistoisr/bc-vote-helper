@@ -1,0 +1,137 @@
+[
+  {
+    "id": "metro_transit",
+    "label": {
+      "1": "Buses and trains in Metro Vancouver",
+      "3": "TransLink funding",
+      "5": "TransLink's 2028 revenue gap and the vehicle levy"
+    },
+    "icon_hint": "bus"
+  },
+  {
+    "id": "metro_title",
+    "label": {
+      "1": "Homes on land a court says a First Nation owns",
+      "3": "Richmond homes and the Cowichan title ruling",
+      "5": "Cowichan title ruling, homeowner protection and treaty settlement"
+    },
+    "icon_hint": "home"
+  },
+  {
+    "id": "metro_density",
+    "label": {
+      "1": "Who decides how many homes fit on a lot",
+      "3": "Provincial density rules versus city councils",
+      "5": "Bills 44 and 47, target orders and municipal zoning"
+    },
+    "icon_hint": "building"
+  },
+  {
+    "id": "fv_farmland",
+    "label": {
+      "1": "Factories on farmland",
+      "3": "Food processing on farmland (ALR)",
+      "5": "Agricultural Land Reserve food-processing proposal"
+    },
+    "icon_hint": "tractor"
+  },
+  {
+    "id": "fv_highway1",
+    "label": {
+      "1": "The valley highway, buses and trains",
+      "3": "Highway 1 widening and valley transit",
+      "5": "Highway 1 Phase 4, valley rail and transit funding"
+    },
+    "icon_hint": "road"
+  },
+  {
+    "id": "fv_er",
+    "label": {
+      "1": "Mission's emergency room",
+      "3": "Mission ER closures",
+      "5": "Fraser Valley emergency department closures and staffing"
+    },
+    "icon_hint": "hospital"
+  },
+  {
+    "id": "island_ferries",
+    "label": {
+      "1": "Ferries",
+      "3": "BC Ferries",
+      "5": "BC Ferries reliability, governance and shipbuilding"
+    },
+    "icon_hint": "ferry"
+  },
+  {
+    "id": "island_forests",
+    "label": {
+      "1": "Old forests and mills on the Island",
+      "3": "Old growth and Island mills",
+      "5": "Old-growth deferrals, Crofton and the Working Forest model"
+    },
+    "icon_hint": "tree"
+  },
+  {
+    "id": "island_seniors",
+    "label": {
+      "1": "Island hospitals and care homes",
+      "3": "Island hospitals and seniors' care",
+      "5": "Nanaimo tower, paused care homes and seniors' care delivery"
+    },
+    "icon_hint": "hospital"
+  },
+  {
+    "id": "interior_wildfire",
+    "label": {
+      "1": "Wildfires",
+      "3": "Wildfire prevention and recovery",
+      "5": "Bald Range fire, FireSmart funding and wildfire aircraft"
+    },
+    "icon_hint": "flame"
+  },
+  {
+    "id": "interior_downtown",
+    "label": {
+      "1": "Kelowna's downtown and forced treatment",
+      "3": "Okanagan street disorder and mandatory care",
+      "5": "Regional involuntary care facility and the Kelowna consumption site"
+    },
+    "icon_hint": "city"
+  },
+  {
+    "id": "interior_ltc",
+    "label": {
+      "1": "Care homes for seniors",
+      "3": "Long-term care beds in the Okanagan",
+      "5": "Paused long-term care projects and the Vernon cancellation"
+    },
+    "icon_hint": "bed"
+  },
+  {
+    "id": "north_forestry",
+    "label": {
+      "1": "Mills and how much forest to cut",
+      "3": "Timber supply and mill closures",
+      "5": "Working Forest model, 45 million cubic metre target and Northwood"
+    },
+    "icon_hint": "tree"
+  },
+  {
+    "id": "north_resources",
+    "label": {
+      "1": "Gas plants, mines and the power line",
+      "3": "Northern LNG, mines and the power line",
+      "5": "LNG Canada Phase 2, Ksi Lisims, mine permitting and the North Coast line"
+    },
+    "icon_hint": "factory"
+  },
+  {
+    "id": "north_er",
+    "label": {
+      "1": "Emergency rooms in northern towns",
+      "3": "Northern ER closures",
+      "5": "Northern Health emergency department closures and staffing"
+    },
+    "icon_hint": "hospital"
+  }
+]

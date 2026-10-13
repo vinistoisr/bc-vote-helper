@@ -1,0 +1,1456 @@
+{
+ "group": "interior",
+ "as_of": "2026-10-12",
+ "sources_checked": [
+  {
+   "label": "Elections BC 2026 candidate list (CSV, official ballot list)",
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+  },
+  {
+   "label": "Elections BC 2026 candidate list page",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+  },
+  {
+   "label": "Elections BC Statement of Votes 2024 (PDF)",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+  },
+  {
+   "label": "Wikipedia: 43rd Parliament of British Columbia (membership changes)",
+   "url": "https://en.wikipedia.org/wiki/43rd_Parliament_of_British_Columbia"
+  },
+  {
+   "label": "Wikipedia: Candidates of the 2026 BC general election",
+   "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia riding pages (2024 results, communities)",
+   "url": "https://en.wikipedia.org/wiki/Kelowna_Centre"
+  },
+  {
+   "label": "BC Greens candidate pages",
+   "url": "https://bcgreens.ca/candidates/"
+  },
+  {
+   "label": "BC NDP candidate releases",
+   "url": "https://www.bcndp.ca/releases"
+  },
+  {
+   "label": "Conservative Party of BC candidate pages",
+   "url": "https://conservativebc.ca/candidate/pete-davis/"
+  },
+  {
+   "label": "OneBC candidate pages",
+   "url": "https://1bc.ca/candidates"
+  },
+  {
+   "label": "CFJC Today Kamloops candidate coverage",
+   "url": "https://cfjctoday.com/2026/10/07/candidate-list-kamloops-and-area-candidates-for-the-2026-bc-election/"
+  },
+  {
+   "label": "Castanet Kelowna: Central Okanagan candidate lists",
+   "url": "https://www.castanet.net/news/Kelowna/633388/Limited-candidates-in-some-Central-Okanagan-ridings-this-provincial-election"
+  },
+  {
+   "label": "Castanet Vernon: North Okanagan candidate lists",
+   "url": "https://www.castanet.net/news/Vernon/633376/Candidate-lists-finalized-across-three-North-Okanagan-ridings-ahead-of-Oct-24-vote"
+  },
+  {
+   "label": "Similkameen Spotlight (Black Press) candidate coverage",
+   "url": "https://similkameenspotlight.com/2026/10/03/b-c-election-2026-heres-whos-running-in-boundary-similkameen/"
+  },
+  {
+   "label": "My Kootenay Now candidate coverage",
+   "url": "https://www.mykootenaynow.com/77147/news/elections/2026-bc-election/warren-mirko-running-for-bc-conservatives-in-kootenay-monashee/"
+  }
+ ],
+ "notes": "Candidate names and parties come from the Elections BC CSV (353 candidates province-wide; press reports cite 355 total). Candidates with an empty bio string had no biography in any source checked. 2024 vote counts come from the Elections BC Statement of Votes, with party labels cross-checked on Wikipedia. Shares are fractions of total valid votes; independent covers all independent and unaffiliated candidates.",
+ "ridings": [
+  {
+   "code": "BDS",
+   "name": "Boundary-Similkameen",
+   "communities": "Grand Forks, Greenwood, Midway, Rock Creek, Keremeos, Cawston, Princeton, Okanagan Falls, Oliver, Osoyoos",
+   "result_2024": {
+    "winner": "Donegal Wilson",
+    "party": "conservative",
+    "margin_votes": 1438,
+    "total_valid_votes": 24665,
+    "votes": {
+     "conservative": 11935,
+     "ndp": 10497,
+     "green": 1454,
+     "independent": 779
+    },
+    "shares": {
+     "conservative": 0.4839,
+     "ndp": 0.4256,
+     "green": 0.0589,
+     "independent": 0.0316
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": "Wilson left the Conservative caucus on Sept 2, 2026 to sit as an independent, joined CentreBC on Sept 18, and returned to the Conservatives after the Sept 22 election call. She is on the ballot as a Conservative.",
+   "candidates": [
+    {
+     "name": "Keith Pomeroy",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Retired oil and gas supervisor after 35 years; now runs a ranch, gravel pit and small construction business. Raised in the Peace Country.",
+     "sources": [
+      {
+       "label": "Similkameen Spotlight candidate profile",
+       "url": "https://similkameenspotlight.com/2026/10/10/meet-boundary-similkameen-mla-candidate-keith-pomeroy/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Roly Russell",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Farmer near Grand Forks with a PhD in ecology; Boundary-Similkameen MLA from 2020 to 2024 and former Regional District of Kootenay Boundary chair.",
+     "sources": [
+      {
+       "label": "Similkameen Spotlight candidate profile",
+       "url": "https://similkameenspotlight.com/2026/10/09/meet-boundary-similkameen-mla-candidate-roly-russell"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Donegal Wilson",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024 and former executive director of the BC Snowmobile Federation; raised near Tulameen, lives in Keremeos and runs a small engine business with her husband.",
+     "sources": [
+      {
+       "label": "Wikipedia: Donegal Wilson",
+       "url": "https://en.wikipedia.org/wiki/Donegal_Wilson"
+      },
+      {
+       "label": "Similkameen Spotlight: who is running",
+       "url": "https://similkameenspotlight.com/2026/10/03/b-c-election-2026-heres-whos-running-in-boundary-similkameen/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No Green candidate on the ballot."
+  },
+  {
+   "code": "CLR",
+   "name": "Columbia River-Revelstoke",
+   "communities": "Revelstoke, Golden, Invermere, Radium Hot Springs, Canal Flats, Kimberley",
+   "result_2024": {
+    "winner": "Scott McInnis",
+    "party": "conservative",
+    "margin_votes": 670,
+    "total_valid_votes": 18296,
+    "votes": {
+     "conservative": 8768,
+     "ndp": 8098,
+     "green": 1430
+    },
+    "shares": {
+     "conservative": 0.4792,
+     "ndp": 0.4426,
+     "green": 0.0782
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": "McInnis left the Conservative caucus on Sept 2, 2026 and sat as an independent for 19 days, returning to the Conservative caucus on Sept 21.",
+   "candidates": [
+    {
+     "name": "Andrea Dunlop",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Taught high school for 30 years, co-runs an electrical company with her husband, and served ten years on the Windermere Community Association board. Ran in this riding in 2024.",
+     "sources": [
+      {
+       "label": "Cranbrook Townsman",
+       "url": "https://cranbrooktownsman.com/2026/09/28/dunlop-running-for-bc-ndp-in-columbia-river-revelstoke/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Scott McInnis",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024; former teacher and principal who moved to Kimberley in 2010 and coaches basketball.",
+     "sources": [
+      {
+       "label": "Wikipedia: Scott McInnis (Canadian politician)",
+       "url": "https://en.wikipedia.org/wiki/Scott_McInnis_(Canadian_politician)"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Rana Nelson",
+     "party": "green",
+     "incumbent": false,
+     "bio": "High school teacher in Revelstoke, writer and editor; ran for the federal Greens in Kootenay-Columbia in 2021.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/rana-nelson/"
+      },
+      {
+       "label": "Revelstoke Review",
+       "url": "https://revelstokereview.com/2026/10/09/rana-nelson-running-for-columbia-river-revelstoke-with-bc-greens/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "FRN",
+   "name": "Fraser-Nicola",
+   "communities": "Merritt, Hope, Lillooet, Logan Lake, Lytton, Ashcroft, Cache Creek",
+   "result_2024": {
+    "winner": "Tony Luck",
+    "party": "conservative",
+    "margin_votes": 3409,
+    "total_valid_votes": 19004,
+    "votes": {
+     "conservative": 10326,
+     "ndp": 6917,
+     "green": 1761
+    },
+    "shares": {
+     "conservative": 0.5434,
+     "ndp": 0.364,
+     "green": 0.0927
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Jason Leboe",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Utilities operator for the District of Hope and secretary-treasurer of the Fraser Valley Labour Council; CUPE BC member.",
+     "sources": [
+      {
+       "label": "BC NDP release: six more candidates",
+       "url": "https://www.bcndp.ca/releases/bc-ndp-announces-six-more-candidates-stand-british-columbians"
+      },
+      {
+       "label": "Agassiz-Harrison Observer",
+       "url": "https://agassizharrisonobserver.com/2026/10/02/b-c-ndp-taps-jason-leboe-as-fraser-nicola-candidate/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Tony Luck",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024; former city councillor in Merritt and earlier in Mission.",
+     "sources": [
+      {
+       "label": "Wikipedia: Tony Luck",
+       "url": "https://en.wikipedia.org/wiki/Tony_Luck"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Patrick Michell",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Retired lawyer and former Chief of Kanaka Bar Indian Band (2015 to 2022); lifelong Fraser Canyon resident working in renewable energy and climate resilience.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/chief-patrick-michell/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Some outlets spell the Green candidate Mitchell; the Elections BC ballot name is Patrick Michell."
+  },
+  {
+   "code": "KAC",
+   "name": "Kamloops Centre",
+   "communities": "Downtown Kamloops, Aberdeen, Brocklehurst, Tranquille, Thompson Rivers University area (boundary detail not checked against the 2023 map)",
+   "result_2024": {
+    "winner": "Peter Milobar",
+    "party": "conservative",
+    "margin_votes": 2003,
+    "total_valid_votes": 25338,
+    "votes": {
+     "conservative": 12372,
+     "ndp": 10369,
+     "green": 2597
+    },
+    "shares": {
+     "conservative": 0.4883,
+     "ndp": 0.4092,
+     "green": 0.1025
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": "Milobar left the Conservative caucus on Aug 14, 2026, sat as an independent, led CentreBC from Sept 18, and rejoined the Conservatives on Sept 22. He is on the ballot as a Conservative.",
+   "candidates": [
+    {
+     "name": "Annelise Beach",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Social worker and health care professional with about ten years in social services; grew up in Burns Lake and moved to Kamloops in 2013.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/annelise-beach/"
+      },
+      {
+       "label": "CFJC",
+       "url": "https://cfjctoday.com/2026/10/07/beach-to-carry-green-party-banner-in-kamloops-centre/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Rocky McAfee",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Long-time tattoo artist who says he has long thought about seeking office.",
+     "sources": [
+      {
+       "label": "CFJC",
+       "url": "https://cfjctoday.com/2026/10/09/tattoo-artist-mcafee-hopes-to-represent-onebc-in-kamloops-centre/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Peter Milobar",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2017 and former Kamloops mayor and councillor; left the Conservative caucus in August 2026 and rejoined on September 22.",
+     "sources": [
+      {
+       "label": "Wikipedia: Peter Milobar",
+       "url": "https://en.wikipedia.org/wiki/Peter_Milobar"
+      },
+      {
+       "label": "CFJC: Milobar rejoins BC Conservatives",
+       "url": "https://cfjctoday.com/2026/09/22/kamloops-centre-mla-milobar-rejoins-bc-conservatives/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Thaelo Proctor",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Carpenter and contractor running unaffiliated; says existing parties do not represent working-class people.",
+     "sources": [
+      {
+       "label": "CFJC",
+       "url": "https://cfjctoday.com/2026/10/06/contractor-proctor-enters-kamloops-centre-mla-race-as-independent/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Mike Wisla",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Longtime teacher, now a senior labour relations officer with the Health Sciences Association; former paramedic and Sea Cadet officer.",
+     "sources": [
+      {
+       "label": "BC NDP release: Penticton-Summerland and Kamloops candidates",
+       "url": "https://www.bcndp.ca/releases/bc-ndp-announces-candidates-penticton-summerland-and-kamloops"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Wikipedia's 43rd Parliament page lists Milobar and Donegal Wilson (BDS) as CentreBC members at the time of the writ; both appear as Conservatives on the Elections BC list."
+  },
+  {
+   "code": "KAN",
+   "name": "Kamloops-North Thompson",
+   "communities": "North Kamloops (north of the Thompson River), Barriere, Clearwater",
+   "result_2024": {
+    "winner": "Ward Stamer",
+    "party": "conservative",
+    "margin_votes": 8056,
+    "total_valid_votes": 30013,
+    "votes": {
+     "conservative": 17930,
+     "ndp": 9874,
+     "green": 2209
+    },
+    "shares": {
+     "conservative": 0.5974,
+     "ndp": 0.329,
+     "green": 0.0736
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Kory Clark",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Community support worker in health care for seven years; grew up in Cache Creek, member of the Michel Band, volunteers with Interior Health and Bonaparte First Nation.",
+     "sources": [
+      {
+       "label": "BC NDP release: Penticton-Summerland and Kamloops candidates",
+       "url": "https://www.bcndp.ca/releases/bc-ndp-announces-candidates-penticton-summerland-and-kamloops"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Deborah Friesen",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Ward Stamer",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024 and mayor of Barriere from 2018 to 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia: Ward Stamer",
+       "url": "https://en.wikipedia.org/wiki/Ward_Stamer"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No biography found for Deborah Friesen (OneBC). No Green or CentreBC candidate."
+  },
+  {
+   "code": "KEC",
+   "name": "Kelowna Centre",
+   "communities": "Downtown Kelowna, Glenmore and inland parts of Kelowna",
+   "result_2024": {
+    "winner": "Kristina Loewen",
+    "party": "conservative",
+    "margin_votes": 40,
+    "total_valid_votes": 25750,
+    "votes": {
+     "conservative": 11033,
+     "ndp": 10993,
+     "green": 1111,
+     "independent": 2613
+    },
+    "shares": {
+     "conservative": 0.4285,
+     "ndp": 0.4269,
+     "green": 0.0431,
+     "independent": 0.1015
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Bill Desrosiers",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Kristina Loewen",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024; Kelowna resident for over 25 years, former care aide and doula, then a real estate professional for five years.",
+     "sources": [
+      {
+       "label": "Wikipedia: Kristina Loewen",
+       "url": "https://en.wikipedia.org/wiki/Kristina_Loewen"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Loyal Wooldridge",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Two-term Kelowna city councillor first elected in 2018; lost this seat to Kristina Loewen by 40 votes in 2024.",
+     "sources": [
+      {
+       "label": "Castanet Kamloops",
+       "url": "https://www.castanetkamloops.net/news/Kelowna/632584/Outgoing-Kelowna-city-councillor-Loyal-Wooldridge-running-for-MLA"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2024 margin was 40 votes (judicial recount confirmed). Bill Desrosiers was added by OneBC late; no biography found. Michael Humer ran unaffiliated in 2024."
+  },
+  {
+   "code": "KLC",
+   "name": "Kelowna-Lake Country-Coldstream",
+   "communities": "Lake Country, Coldstream, north Rutland and the northern lakeside areas of Kelowna, part of Vernon",
+   "result_2024": {
+    "winner": "Tara Armstrong",
+    "party": "conservative",
+    "margin_votes": 4953,
+    "total_valid_votes": 26528,
+    "votes": {
+     "conservative": 14303,
+     "ndp": 9350,
+     "green": 1151,
+     "independent": 1724
+    },
+    "shares": {
+     "conservative": 0.5392,
+     "ndp": 0.3525,
+     "green": 0.0434,
+     "independent": 0.065
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": "Tara Armstrong left the Conservative caucus on Mar 7, 2025, co-founded OneBC in June 2025, left OneBC on Dec 16, 2025 and sat as an independent. She is not running; no incumbent is on the ballot.",
+   "candidates": [
+    {
+     "name": "Binny Boparai",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Co-founder and president of Farming Karma, a Kelowna beverage company; served on the Kelowna Chamber of Commerce board and the city's agricultural advisory committee.",
+     "sources": [
+      {
+       "label": "BC NDP release: more candidates",
+       "url": "https://www.bcndp.ca/releases/more-bc-ndp-candidates-ready-fight-their-communities"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Carter Mochinski",
+     "party": "green",
+     "incumbent": false,
+     "bio": "UBC Okanagan student and youth climate advocate; research director with the BC Youth Council and a Canadian delegate at COP30. Grew up in Lake Country.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/carter-mochinski/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Pavneet Singh",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Okanagan entrepreneur and vice-president of the Conservative Party of BC; stepped aside as the BC United nominee in this riding in 2024.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://conservativebc.ca/candidate/pavneet-singh/"
+      },
+      {
+       "label": "Castanet Vernon: North Okanagan candidate lists",
+       "url": "https://www.castanet.net/news/Vernon/633376/Candidate-lists-finalized-across-three-North-Okanagan-ridings-ahead-of-Oct-24-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Alexandra Wright",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Lawyer and legal advisor in the energy sector; was the Conservative nominee in Kelowna-Mission in 2024 until the party removed her, then sued the party.",
+     "sources": [
+      {
+       "label": "Kelowna Capital News",
+       "url": "https://kelownacapnews.com/2026/10/01/former-controversial-conservative-selected-by-onebc-for-kelowna-lake-country-coldstream-riding/"
+      },
+      {
+       "label": "Castanet Vernon: North Okanagan candidate lists",
+       "url": "https://www.castanet.net/news/Vernon/633376/Candidate-lists-finalized-across-three-North-Okanagan-ridings-ahead-of-Oct-24-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Four candidates on the ballot; no CentreBC candidate."
+  },
+  {
+   "code": "KLM",
+   "name": "Kelowna-Mission",
+   "communities": "Mission, Lower Mission, Upper Mission and southeast Kelowna",
+   "result_2024": {
+    "winner": "Gavin Dew",
+    "party": "conservative",
+    "margin_votes": 5158,
+    "total_valid_votes": 27329,
+    "votes": {
+     "conservative": 14071,
+     "ndp": 8913,
+     "green": 1349,
+     "independent": 2996
+    },
+    "shares": {
+     "conservative": 0.5149,
+     "ndp": 0.3261,
+     "green": 0.0494,
+     "independent": 0.1096
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Gavin Dew",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024; Kelowna childcare operator with an Oxford MBA and former director of external relations at Great Canadian Gaming.",
+     "sources": [
+      {
+       "label": "Wikipedia: Gavin Dew",
+       "url": "https://en.wikipedia.org/wiki/Gavin_Dew"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Saoirse MacKinnon",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Environmental geoscientist and lab program manager at UBC Okanagan; former middle and high school science and math teacher; Kelowna resident for most of two decades.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/saoirse-mackinnon/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Abraham Nordine",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Miriam Rycroft",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No biography found for Miriam Rycroft (NDP) or Abraham Nordine (OneBC) in sources checked."
+  },
+  {
+   "code": "KOC",
+   "name": "Kootenay Central",
+   "communities": "Nelson, Creston, Kaslo, Salmo",
+   "result_2024": {
+    "winner": "Brittny Anderson",
+    "party": "ndp",
+    "margin_votes": 1749,
+    "total_valid_votes": 21996,
+    "votes": {
+     "ndp": 8716,
+     "conservative": 6967,
+     "green": 4123,
+     "independent": 2190
+    },
+    "shares": {
+     "ndp": 0.3963,
+     "conservative": 0.3167,
+     "green": 0.1874,
+     "independent": 0.0996
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Brittny Anderson",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2020 and Minister of State for Local Governments and Rural Communities; former special advisor to the premier on youth.",
+     "sources": [
+      {
+       "label": "Wikipedia: Brittny Anderson",
+       "url": "https://en.wikipedia.org/wiki/Brittny_Anderson"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Nicole Charlwood",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Former Nelson city councillor (2021 to 2022) and community organizer; Blewett resident for 25 years and former Elections Canada senior financial officer.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/nicole-charlwood/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Hunter Corrigal",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Owns an exploration logistics and hardscape company; background in BC Sheriff Service, mining and wildfire response; OneBC Kootenay coordinator who lives in Cranbrook, outside the riding.",
+     "sources": [
+      {
+       "label": "My Nelson Now",
+       "url": "https://www.mynelsonnow.com/80656/news/elections/2026-bc-election/onebcs-hunter-corrigal-makes-tax-relief-key-focus-in-kootenay-central-race/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Gordon Skulnec",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Retired RCMP officer with 17 years in Cranbrook and Kimberley; medical radiographer and Salmo business owner who coaches youth baseball.",
+     "sources": [
+      {
+       "label": "Nelson Star",
+       "url": "https://nelsonstar.com/2026/10/05/bc-conservative-candidate-for-kootenay-central-is-gordon-skulnec/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2024 independent was Corinne Mori (2,190)."
+  },
+  {
+   "code": "KOM",
+   "name": "Kootenay-Monashee",
+   "communities": "Castlegar, Trail, Rossland, Fruitvale, Nakusp",
+   "result_2024": {
+    "winner": "Steve Morissette",
+    "party": "ndp",
+    "margin_votes": 2586,
+    "total_valid_votes": 19603,
+    "votes": {
+     "ndp": 10202,
+     "conservative": 7616,
+     "green": 1785
+    },
+    "shares": {
+     "ndp": 0.5204,
+     "conservative": 0.3885,
+     "green": 0.0911
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Stephen Hill",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Retired financial planner from Castlegar who says he founded the local Conservative riding association.",
+     "sources": [
+      {
+       "label": "My Kootenay Now",
+       "url": "https://www.mykootenaynow.com/77165/news/elections/2026-bc-election/stephen-hill-running-for-onebc-in-kootenay-monashee/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Connie Larochelle",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Retired provincial public servant and former senior research advisor; lives in Trail and has volunteered for the federal Greens.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/connie-larochelle/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Warren Mirko",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Worked at Crown corporations for most of his career, 15 years in communications; executive director of the Public Land Use Society and newly acclaimed to Warfield council.",
+     "sources": [
+      {
+       "label": "My Kootenay Now",
+       "url": "https://www.mykootenaynow.com/77147/news/elections/2026-bc-election/warren-mirko-running-for-bc-conservatives-in-kootenay-monashee/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Steve Morissette",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2024 and mayor of Fruitvale from 2018 to 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia: Steve Morissette",
+       "url": "https://en.wikipedia.org/wiki/Steve_Morissette"
+      },
+      {
+       "label": "Trail Times",
+       "url": "https://trailtimes.ca/2026/09/28/kootenay-monashee-candidate-confident-in-ndp-direction/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "KOR",
+   "name": "Kootenay-Rockies",
+   "communities": "Cranbrook, Fernie, Sparwood, Elkford",
+   "result_2024": {
+    "winner": "Pete Davis",
+    "party": "conservative",
+    "margin_votes": 2373,
+    "total_valid_votes": 19241,
+    "votes": {
+     "conservative": 8217,
+     "ndp": 4184,
+     "green": 996,
+     "independent": 5844
+    },
+    "shares": {
+     "conservative": 0.4271,
+     "ndp": 0.2175,
+     "green": 0.0518,
+     "independent": 0.3037
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Norma Blissett",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Retired teacher and forester; Cranbrook city councillor since 2014 and a candidate in this riding in 2013.",
+     "sources": [
+      {
+       "label": "Cranbrook Townsman",
+       "url": "https://cranbrooktownsman.com/2026/09/29/blissett-running-for-bc-ndp-in-kootenay-rockies/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Pete Davis",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024; raised in Cranbrook, business professional in the logging, forestry and mining sectors, with seven years in the Kootenay-Columbia federal Conservative riding association.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://conservativebc.ca/candidate/pete-davis/"
+      },
+      {
+       "label": "Wikipedia: Pete Davis (politician)",
+       "url": "https://en.wikipedia.org/wiki/Pete_Davis_(politician)"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Keenan Dennehy",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Tradesperson and wilderness guide who built a homestead in the Kootenays; trained in heavy mechanical work at Selkirk College.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/keenan-dennehy/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Paul Heywood",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "AJ Wolfe",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Born in Fernie and lives in Jaffray; more than 25 years in construction as a tradesperson, superintendent and project manager.",
+     "sources": [
+      {
+       "label": "OneBC candidate page",
+       "url": "https://1bc.ca/candidates/awolfe"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "No biography found for Paul Heywood (CentreBC)."
+  },
+  {
+   "code": "PES",
+   "name": "Penticton-Summerland",
+   "communities": "Penticton, Summerland, Naramata",
+   "result_2024": {
+    "winner": "Amelia Boultbee",
+    "party": "conservative",
+    "margin_votes": 317,
+    "total_valid_votes": 28076,
+    "votes": {
+     "conservative": 11615,
+     "ndp": 11298,
+     "green": 1472,
+     "independent": 3691
+    },
+    "shares": {
+     "conservative": 0.4137,
+     "ndp": 0.4024,
+     "green": 0.0524,
+     "independent": 0.1315
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": "Amelia Boultbee left the Conservative caucus on Oct 20, 2025 to sit as an independent and crossed to the NDP caucus on Jul 3, 2026. She is not seeking re-election; no incumbent is on the ballot.",
+   "candidates": [
+    {
+     "name": "Bradley Sean Bartsch",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Nonprofit and education worker who moved to Penticton in 2021; BC Greens provincial council regional representative and board member of Penticton Academy of Music and Dramatic Arts.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/bradley-bartsch/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Warren Hamm",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Contractor and licensed aircraft maintenance engineer; sought the BC Conservative leadership before joining OneBC; lived more than 25 years in the West Kootenay.",
+     "sources": [
+      {
+       "label": "OneBC candidate page",
+       "url": "https://1bc.ca/candidates/whamm"
+      },
+      {
+       "label": "Castanet Kamloops",
+       "url": "https://www.castanetkamloops.net/news/Penticton/631470/Unoffocial-political-party-OneBC-eyes-Penticton-Summerland-seat-by-naming-former-Conservative-would-be-leader"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Tina Lee",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Human rights advocate and former City of Penticton executive; worked for the Ministry of Forests and MP Richard Cannings; ran here in 2024.",
+     "sources": [
+      {
+       "label": "BC NDP release: Penticton-Summerland and Kamloops candidates",
+       "url": "https://www.bcndp.ca/releases/bc-ndp-announces-candidates-penticton-summerland-and-kamloops"
+      },
+      {
+       "label": "Summerland Review",
+       "url": "https://summerlandreview.com/2026/10/01/tina-lee-to-take-second-shot-at-penticton-summerland-for-bc-ndp/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Tracy St Claire",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Executive director of the South Okanagan Similkameen Division of Family Practice for nine years and former school trustee; ran here as unaffiliated in 2024.",
+     "sources": [
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://conservativebc.ca/candidate/tracy-st-claire/"
+      },
+      {
+       "label": "Castanet",
+       "url": "https://www.castanet.net/news/Penticton/632836/Tracy-St-Claire-announced-as-Conservative-candidate-for-Penticton-Summerland-riding"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Tracy St Claire, Roger Harrington and Anna Paddon ran as independent or unaffiliated in 2024 (combined 3,691 votes in the independent share). No incumbent on the ballot."
+  },
+  {
+   "code": "SHU",
+   "name": "Salmon Arm-Shuswap",
+   "communities": "Salmon Arm, Armstrong, Enderby, Sicamous, Spallumcheen",
+   "result_2024": {
+    "winner": "David L. Williams",
+    "party": "conservative",
+    "margin_votes": 6889,
+    "total_valid_votes": 31788,
+    "votes": {
+     "conservative": 16566,
+     "ndp": 9677,
+     "green": 2250,
+     "independent": 3295
+    },
+    "shares": {
+     "conservative": 0.5211,
+     "ndp": 0.3044,
+     "green": 0.0708,
+     "independent": 0.1037
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Gloria Morgan",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Lawyer, former RCMP officer (11 years) and former chief of Splatsin First Nation; ran federally in 2025 in Similkameen-South Okanagan-West Kootenay.",
+     "sources": [
+      {
+       "label": "BC NDP release: more candidates",
+       "url": "https://www.bcndp.ca/releases/more-bc-ndp-candidates-ready-fight-their-communities"
+      },
+      {
+       "label": "Castanet: Salmon Arm-Shuswap candidates",
+       "url": "https://www.castanet.net/news/Salmon-Arm/633350/Four-challengers-up-against-B-C-Conservative-incumbent-in-provincial-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Barbara Presch",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Respiratory therapist with 24 years in health care, currently at Shuswap Lake Hospital; first run for office.",
+     "sources": [
+      {
+       "label": "Salmon Arm Observer",
+       "url": "https://saobserver.net/2026/10/05/five-running-to-represent-salmon-arm-shuswap-riding/"
+      },
+      {
+       "label": "Castanet: Salmon Arm-Shuswap candidates",
+       "url": "https://www.castanet.net/news/Salmon-Arm/633350/Four-challengers-up-against-B-C-Conservative-incumbent-in-provincial-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Denise Reimer",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Former Salmon Arm city councillor and BC Emergency Health Services paramedic and operational leader; received the Governor General's EMS Exemplary Service Medal in 2025.",
+     "sources": [
+      {
+       "label": "Castanet: Salmon Arm-Shuswap candidates",
+       "url": "https://www.castanet.net/news/Salmon-Arm/633350/Four-challengers-up-against-B-C-Conservative-incumbent-in-provincial-vote"
+      },
+      {
+       "label": "Castanet Vernon: North Okanagan candidate lists",
+       "url": "https://www.castanet.net/news/Vernon/633376/Candidate-lists-finalized-across-three-North-Okanagan-ridings-ahead-of-Oct-24-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Jed Wiebe",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Co-owner of Elderberry Grove, an organic elderberry farm in Salmon Arm; lifelong Shuswap resident and the Green candidate here in 2024.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/jed-wiebe/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "David L Williams",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024; former HVAC business owner, real estate professional, BC Assessment employee and insurance appraiser.",
+     "sources": [
+      {
+       "label": "Wikipedia: David Williams (Canadian politician)",
+       "url": "https://en.wikipedia.org/wiki/David_Williams_(Canadian_politician)"
+      },
+      {
+       "label": "Castanet Vernon: North Okanagan candidate lists",
+       "url": "https://www.castanet.net/news/Vernon/633376/Candidate-lists-finalized-across-three-North-Okanagan-ridings-ahead-of-Oct-24-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2024 independents were Greg McCune (2,922) and Sherry Roy (373)."
+  },
+  {
+   "code": "VRL",
+   "name": "Vernon-Lumby",
+   "communities": "Vernon, Lumby",
+   "result_2024": {
+    "winner": "Harwinder Sandhu",
+    "party": "ndp",
+    "margin_votes": 476,
+    "total_valid_votes": 27729,
+    "votes": {
+     "ndp": 11837,
+     "conservative": 11361,
+     "independent": 4266,
+     "libertarian": 265
+    },
+    "shares": {
+     "ndp": 0.4269,
+     "conservative": 0.4097,
+     "independent": 0.1538,
+     "libertarian": 0.0096
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Kevin Acton",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Mayor of Lumby since 2009 and also seeking re-election as mayor; ran as an independent here in 2024 and took 15.4 per cent.",
+     "sources": [
+      {
+       "label": "Vernon Morning Star",
+       "url": "https://vernonmorningstar.com/2026/09/27/kevin-acton-announced-as-conservative-candidate-for-vernon-lumby/"
+      },
+      {
+       "label": "Castanet Vernon: North Okanagan candidate lists",
+       "url": "https://www.castanet.net/news/Vernon/633376/Candidate-lists-finalized-across-three-North-Okanagan-ridings-ahead-of-Oct-24-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Chantel Gibbs",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Owner of Tax Informed Financial Planning with business and chemistry degrees; returned to Vernon in 2024 and volunteers as a director of the Canadian National Christian Foundation.",
+     "sources": [
+      {
+       "label": "Vernon Morning Star",
+       "url": "https://vernonmorningstar.com/2026/09/28/onebc-nominates-vernon-woman-for-b-c-vote/"
+      },
+      {
+       "label": "Castanet Vernon: North Okanagan candidate lists",
+       "url": "https://www.castanet.net/news/Vernon/633376/Candidate-lists-finalized-across-three-North-Okanagan-ridings-ahead-of-Oct-24-vote"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Harwinder Sandhu",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2020 and Parliamentary Secretary for Agriculture; first person of colour and first NDP member elected to the Vernon seat.",
+     "sources": [
+      {
+       "label": "Wikipedia: Harwinder Sandhu",
+       "url": "https://en.wikipedia.org/wiki/Harwinder_Sandhu"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Blair Visscher",
+     "party": "green",
+     "incumbent": false,
+     "bio": "PhD researcher at UBC Okanagan and teacher on call in School District 22; ran federally for the Greens in 2025.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/blair-visscher/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Kevin Acton also stands for re-election as Lumby mayor in the Oct 17 municipal vote. In 2024 he ran unaffiliated after BC United folded."
+  },
+  {
+   "code": "WKP",
+   "name": "West Kelowna-Peachland",
+   "communities": "West Kelowna (including Westbank), Peachland",
+   "result_2024": {
+    "winner": "Macklin McCall",
+    "party": "conservative",
+    "margin_votes": 6081,
+    "total_valid_votes": 26499,
+    "votes": {
+     "conservative": 13475,
+     "ndp": 7394,
+     "independent": 5630
+    },
+    "shares": {
+     "conservative": 0.5085,
+     "ndp": 0.279,
+     "independent": 0.2125
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (names and party labels cross-checked on Wikipedia riding pages)"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Adam Frank",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Red Seal electrician on solar projects; co-founder and coach with Kelowna Water Polo Club; organized Kelowna's 2019 climate strike.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/adam-frank/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "Macklin McCall",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "MLA since 2024 and Official Opposition chief whip; RCMP constable for 19 years in the Central Okanagan.",
+     "sources": [
+      {
+       "label": "Wikipedia: Macklin McCall",
+       "url": "https://en.wikipedia.org/wiki/Macklin_McCall"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    },
+    {
+     "name": "George Morgan",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "West Kelowna resident and UBC Okanagan master's student in mechanical engineering; Rotary member, swimming instructor and Regional Crime Stoppers director.",
+     "sources": [
+      {
+       "label": "BC NDP release: six more candidates",
+       "url": "https://www.bcndp.ca/releases/bc-ndp-announces-six-more-candidates-stand-british-columbians"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (CSV)",
+       "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  }
+ ]
+}

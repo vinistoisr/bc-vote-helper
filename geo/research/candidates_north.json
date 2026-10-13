@@ -1,0 +1,806 @@
+{
+ "group": "north",
+ "as_of": "2026-10-12",
+ "shares_note": "All shares are percent of valid votes (52.31 means 52.31 percent).",
+ "sources_checked": [
+  {
+   "label": "Elections BC candidate list (web page, parsed Oct 12, 2026)",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+  },
+  {
+   "label": "Elections BC candidate report PDF, generated Oct 12, 2026 09:00",
+   "url": "https://www.elections.bc.ca/docs/fin/GE-2026-10-24-Candidate-Website-Report.PDF"
+  },
+  {
+   "label": "Elections BC candidate CSV (older snapshot, omits Clint Lambert)",
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+  },
+  {
+   "label": "Elections BC Statement of Votes, 2024",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+  },
+  {
+   "label": "Wikipedia: 2026 British Columbia general election",
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia: Candidates of the 2026 British Columbia general election",
+   "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia: 2024 riding results",
+   "url": "https://en.wikipedia.org/wiki/Results_of_the_2024_British_Columbia_general_election_by_riding"
+  },
+  {
+   "label": "BC Ballot (cross-check of margins and communities)",
+   "url": "https://bcballot.ca/"
+  },
+  {
+   "label": "BC NDP candidate sites",
+   "url": "https://www.bcndp.ca/team"
+  },
+  {
+   "label": "BC Conservatives candidate pages",
+   "url": "https://conservativebc.ca/"
+  },
+  {
+   "label": "BC Greens candidates 2026",
+   "url": "https://bcgreens.ca/candidates-2026/"
+  },
+  {
+   "label": "OneBC candidates",
+   "url": "https://1bc.ca/candidates"
+  },
+  {
+   "label": "CKPG candidates announced",
+   "url": "https://ckpgtoday.ca/2026/10/03/prince-george-area-candidates-announced-for-2026-provincial-election/"
+  },
+  {
+   "label": "Energeticcity candidates finalized",
+   "url": "https://energeticcity.ca/2026/10/05/2026-provincial-election-candidates-finalized/"
+  },
+  {
+   "label": "Interior News (Smithers)",
+   "url": "https://interior-news.com/"
+  },
+  {
+   "label": "Caledonia Courier",
+   "url": "https://caledoniacourier.com/2026/10/06/clint-lambert-enters-nechako-lakes-mla-race-as-a-blue-independent/"
+  },
+  {
+   "label": "CTV, Rustad not seeking re-election",
+   "url": "https://www.ctvnews.ca/vancouver/article/former-bc-conservative-leader-john-rustad-not-seeking-re-election/"
+  }
+ ],
+ "ridings": [
+  {
+   "code": "BLS",
+   "name": "Bulkley Valley-Stikine",
+   "communities": "Smithers, Telkwa, Hazelton, New Hazelton, Stewart, Dease Lake, Atlin, Kispiox, Kitwanga, Gitanyow, Moricetown",
+   "result_2024": {
+    "winner": "Sharon Hartwell",
+    "party": "conservative",
+    "margin_votes": 1283,
+    "shares": {
+     "conservative": 52.31,
+     "ndp": 38.86,
+     "green": 6.33,
+     "christian_heritage": 2.5
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/bulkley-valley-stikine/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Frankie Abel",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Gitxsan mother and advisor who grew up in northern B.C. Has worked in cultural safety, Indigenous governance and public policy, most recently for a provincial Crown corporation. First-time candidate.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://frankieabel.bcndp.ca/"
+      },
+      {
+       "label": "Interior News",
+       "url": "https://interior-news.com/2026/10/05/bc-ndp-selects-political-newcomer-as-bulkley-valley-stikine-candidate/"
+      }
+     ]
+    },
+    {
+     "name": "Ed Ewald",
+     "party": "christian_heritage",
+     "incumbent": false,
+     "bio": "Works in retail at a local hardware store after farm and sawmill jobs and over 20 years on a dairy farm. President of CHP-BC. Replaces Rod Taylor as candidate.",
+     "sources": [
+      {
+       "label": "Interior News",
+       "url": "https://interior-news.com/2026/10/05/christian-heritage-partys-ed-ewald-steps-up-to-replace-rod-taylor/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Sharon Hartwell",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Born and raised in the Bulkley Valley. Telkwa councillor, then mayor from 1995 to 2009. MLA since 2024. Lived in Alberta for eight years before her 2023 nomination.",
+     "sources": [
+      {
+       "label": "Wikipedia: Sharon Hartwell",
+       "url": "https://en.wikipedia.org/wiki/Sharon_Hartwell"
+      },
+      {
+       "label": "Interior News",
+       "url": "https://interior-news.com/2026/10/05/bc-conservatives-hartwell-to-run-again-in-bulkley-valley-stikine/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "3 candidates on Elections BC list as of Oct 12, 2026. No Green, CentreBC or OneBC candidate. Hartwell won the seat from Nathan Cullen (NDP) in 2024. Rod Taylor (CHP, 2024) is not on the ballot."
+  },
+  {
+   "code": "CBC",
+   "name": "Cariboo-Chilcotin",
+   "communities": "Williams Lake, 100 Mile House, Clinton, Ashcroft, Cache Creek, Anahim Lake, Alexis Creek, Canim Lake, Lac la Hache, Forest Grove, Horsefly area",
+   "result_2024": {
+    "winner": "Lorne Doerkson",
+    "party": "conservative",
+    "margin_votes": 7722,
+    "shares": {
+     "conservative": 69.59,
+     "ndp": 30.41
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/cariboo-chilcotin/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": "No party change by the MLA since the 2024 election. Lorne Doerkson (elected 2020 as BC Liberal/BC United, joined the Conservatives in 2024 before the election) became interim leader of the Conservative Party and Leader of the Opposition in September 2026 after Kerry-Lynne Findlay resigned on Sept 20, 2026.",
+   "candidates": [
+    {
+     "name": "Kathryn Askew",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Retired teacher with 32 years in education and past local president and bargaining chair of her teachers' union. Lives at Canim Lake; volunteers with the Hawkins Lake fire department.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://kathrynaskew.bcndp.ca/"
+      },
+      {
+       "label": "Williams Lake Tribune",
+       "url": "https://wltribune.com/2026/10/01/retired-school-teacher-named-bc-ndp-candidate-for-cariboo-chilcoin/"
+      }
+     ]
+    },
+    {
+     "name": "Lorne Doerkson",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Interim Conservative leader and riding MLA since 2020. Former Black Press publisher and Investors Group financial consultant; has lived in the Cariboo-Chilcotin for nearly three decades.",
+     "sources": [
+      {
+       "label": "Wikipedia: Lorne Doerkson",
+       "url": "https://en.wikipedia.org/wiki/Lorne_Doerkson"
+      },
+      {
+       "label": "Wikipedia: 2026 British Columbia general election",
+       "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"
+      }
+     ]
+    },
+    {
+     "name": "Douglas Gook",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Ran for the BC Greens in Cariboo North in 2020 and in Nechako Lakes in 2024 (5.3 percent). The party has not published a 2026 biography for him.",
+     "sources": [
+      {
+       "label": "VoteMate 2020 profile",
+       "url": "https://votemate.org/c/4179"
+      },
+      {
+       "label": "Wikipedia: Nechako Lakes",
+       "url": "https://en.wikipedia.org/wiki/Nechako_Lakes_(provincial_electoral_district)"
+      }
+     ],
+     "note": "No bio on bcgreens.ca/candidates-2026 (listed without a profile link). Bio built from past candidacies only."
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "3 candidates on Elections BC list. Doerkson is confirmed as MLA for Cariboo-Chilcotin and interim Conservative leader (Wikipedia, Doerkson page)."
+  },
+  {
+   "code": "NEC",
+   "name": "Nechako Lakes",
+   "communities": "Vanderhoof, Fort St. James, Burns Lake, Houston, Fraser Lake, Granisle, Endako, Fort Fraser, Southside (Francois and Ootsa lakes)",
+   "result_2024": {
+    "winner": "John Rustad",
+    "party": "conservative",
+    "margin_votes": 4684,
+    "shares": {
+     "conservative": 67.45,
+     "ndp": 27.21,
+     "green": 5.34
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/nechako-lakes/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": "John Rustad (MLA, Conservative) was removed as party leader on Dec 3, 2025, was removed from the Conservative caucus on Sept 18, 2026 and rejoined on Sept 21, 2026. He announced he will not run again; the seat is open and no sitting MLA is on the ballot.",
+   "candidates": [
+    {
+     "name": "Diane Black",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Vanderhoof-born accountant with an MBA, from a multi-generation farm family. Has held a senior finance role at Nicola Valley Institute of Technology. No prior elected office.",
+     "sources": [
+      {
+       "label": "The Northern View",
+       "url": "https://thenorthernview.com/2026/10/02/nechako-lakes-conservative-candidate-diane-black-is-ready-to-fight-for-the-north/"
+      },
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/diane-black/"
+      }
+     ]
+    },
+    {
+     "name": "Jesse Gervais",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Fraser Lake municipal administrator (community services, deputy corporate officer). Sits on the UNBC board of governors and the Fraser Lake Community Foundation; has held Metis Nation elected office.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://jessegervais.bcndp.ca/"
+      },
+      {
+       "label": "Omineca Express",
+       "url": "https://ominecaexpress.com/2026/09/28/fraser-lake-official-jesse-gervais-named-bc-ndp-candidate-in-nechako-lakes/"
+      }
+     ]
+    },
+    {
+     "name": "Clint Lambert",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Burns Lake Southside rancher and business owner. Regional District of Bulkley-Nechako director for Electoral Area E since 2018; president of the Lakes District Cattlemen's Association.",
+     "sources": [
+      {
+       "label": "Caledonia Courier",
+       "url": "https://caledoniacourier.com/2026/10/06/clint-lambert-enters-nechako-lakes-mla-race-as-a-blue-independent/"
+      },
+      {
+       "label": "Elections BC candidate report PDF (Oct 12, 2026)",
+       "url": "https://www.elections.bc.ca/docs/fin/GE-2026-10-24-Candidate-Website-Report.PDF"
+      }
+     ],
+     "ballot_affiliation": "Unaffiliated",
+     "note": "Runs as a self-described 'blue independent'. Absent from the older Elections BC CSV snapshot (and the coordinator's candidates_min.json) but present on the Elections BC web list and PDF of Oct 12, 2026."
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "3 candidates on the current Elections BC list (the CSV snapshot shows only 2). Rustad's non-running is reported by CTV (https://www.ctvnews.ca/vancouver/article/former-bc-conservative-leader-john-rustad-not-seeking-re-election/); the Wikipedia incumbents table gives Dec 4, 2025 as the date, which conflicts with local reports of Sept 23, 2026. No Green, CentreBC or OneBC candidate."
+  },
+  {
+   "code": "NOH",
+   "name": "North Coast-Haida Gwaii",
+   "communities": "Prince Rupert, Port Edward, Haida Gwaii (Masset, Daajing Giids, Port Clements, Sandspit), Lax Kw'alaams, Metlakatla, Bella Bella, Bella Coola, Klemtu, Hartley Bay",
+   "result_2024": {
+    "winner": "Tamara Davidson",
+    "party": "ndp",
+    "margin_votes": 2235,
+    "shares": {
+     "ndp": 64.92,
+     "conservative": 35.08
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/north-coast-haida-gwaii/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Tamara Davidson",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2024 and former Minister of Environment and Parks. Haida name Laanas. Previously on the Council of the Haida Nation and a federal public servant.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://tamaradavidson.bcndp.ca/"
+      },
+      {
+       "label": "Wikipedia: Tamara Davidson",
+       "url": "https://en.wikipedia.org/wiki/Tamara_Davidson"
+      }
+     ]
+    },
+    {
+     "name": "Rodney Proskiw",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Prince Rupert small business owner who has lived there 20 years. Past president of the Prince Rupert Lions Club and longest-serving former director of Tourism Prince Rupert.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/rodney-proskiw/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Francis Racy",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Leads mental health education programming for educators across the northwest. Past health care assistant and early childhood educator; chairs the Powell River BCSPCA Community Council.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/francis-racy/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "3 candidates on Elections BC list. No OneBC or CentreBC candidate. The former MLA before 2024 was Jennifer Rice (NDP), who did not run in 2024."
+  },
+  {
+   "code": "PCN",
+   "name": "Peace River North",
+   "communities": "Fort St. John, Fort Nelson, Hudson's Hope, Taylor, Northern Rockies, Charlie Lake, Wonowon, Pink Mountain",
+   "result_2024": {
+    "winner": "Jordan Kealy",
+    "party": "conservative",
+    "margin_votes": 8175,
+    "shares": {
+     "conservative": 74.36,
+     "independent": 20.15,
+     "ndp": 5.49
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/peace-river-north/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": "Jordan Kealy (elected as a Conservative in 2024) left the Conservative caucus on March 7, 2025 and has sat as an independent since. He was charged with one count of sexual assault on June 3, 2026 and has said he is innocent (Energeticcity, June 4, 2026).",
+   "candidates": [
+    {
+     "name": "Jordan Kealy",
+     "party": "independent",
+     "incumbent": true,
+     "bio": "Farmer and mechanic. Peace River Regional District director 2022 to 2024. Elected MLA in 2024 as a Conservative, left that caucus in March 2025 and sits as an independent.",
+     "sources": [
+      {
+       "label": "Wikipedia: Jordan Kealy",
+       "url": "https://en.wikipedia.org/wiki/Jordan_Kealy"
+      },
+      {
+       "label": "Energeticcity: charged",
+       "url": "https://energeticcity.ca/2026/06/04/independent-b-c-legislator-jordan-kealy-charged-with-sexual-assault/"
+      }
+     ],
+     "ballot_affiliation": "Independent",
+     "note": "Faces one count of sexual assault (charged June 3, 2026; headed to a jury trial). He has said he is innocent. The charge is unproven."
+    },
+    {
+     "name": "Curtis Whitford",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Fort St. John area resident with 36 years in oil and gas, from oilfield construction to regional manager. Joined a local co-operative board; coached and served on minor hockey boards.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/curtis-whitford/"
+      },
+      {
+       "label": "Energeticcity candidates finalized",
+       "url": "https://energeticcity.ca/2026/10/05/2026-provincial-election-candidates-finalized/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "2 candidates on Elections BC list. The BC NDP did not nominate a candidate (reported incomplete paperwork, per Wikipedia and Daily Hive). Dan Davies (2024 independent) is not running."
+  },
+  {
+   "code": "PCS",
+   "name": "Peace River South",
+   "communities": "Dawson Creek, Chetwynd, Tumbler Ridge, Pouce Coupe, Moberly Lake, Groundbirch, Tomslake",
+   "result_2024": {
+    "winner": "Larry Neufeld",
+    "party": "conservative",
+    "margin_votes": 4657,
+    "shares": {
+     "conservative": 69.84,
+     "independent": 24.56,
+     "ndp": 5.6
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/peace-river-south/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Marsha Rose Dufresne",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Longtime Indigenous education support worker. Past director of Tumbler Ridge Community Forests and the Tumbler Ridge UNESCO Global Geopark. Volunteer and grandmother.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://marshadufresne.bcndp.ca/"
+      },
+      {
+       "label": "BC NDP release, Oct 3, 2026",
+       "url": "https://www.bcndp.ca/releases/more-bc-ndp-candidates-ready-fight-their-communities"
+      }
+     ]
+    },
+    {
+     "name": "Larry Neufeld",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Engineer who founded his own company in 2006 and is a former reserve infantry platoon commander. Raised in northern Saskatchewan. MLA since 2024; Conservative natural gas and LNG critic.",
+     "sources": [
+      {
+       "label": "Wikipedia: Larry Neufeld",
+       "url": "https://en.wikipedia.org/wiki/Larry_Neufeld"
+      },
+      {
+       "label": "Energeticcity candidates finalized",
+       "url": "https://energeticcity.ca/2026/10/05/2026-provincial-election-candidates-finalized/"
+      }
+     ]
+    },
+    {
+     "name": "Helen Scott",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Unaffiliated candidate. Elections BC lists a Tumbler Ridge mailing address for her. No further biography found.",
+     "sources": [
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "Energeticcity candidates finalized",
+       "url": "https://energeticcity.ca/2026/10/05/2026-provincial-election-candidates-finalized/"
+      }
+     ],
+     "ballot_affiliation": "Unaffiliated",
+     "note": "No biographical source found. Bio limited to what Elections BC and Energeticcity state."
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "3 candidates on Elections BC list. The older CSV labelled Scott 'Other'; the web list says Unaffiliated. 2024 independent Mike Bernier is not running."
+  },
+  {
+   "code": "PRM",
+   "name": "Prince George-Mackenzie",
+   "communities": "Prince George (College Heights, Hart Highlands, University Heights, Pinewood area), Mackenzie, McLeod Lake, Bear Lake, Summit Lake",
+   "result_2024": {
+    "winner": "Kiel Giddens",
+    "party": "conservative",
+    "margin_votes": 6065,
+    "shares": {
+     "conservative": 60.92,
+     "ndp": 28.24,
+     "green": 8.49,
+     "independent": 2.34
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/prince-george-mackenzie/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Kiel Giddens",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Prince George resident. Former Coastal GasLink public affairs manager, past president of the Prince George Chamber of Commerce and former ministerial chief of staff. MLA since 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia: Kiel Giddens",
+       "url": "https://en.wikipedia.org/wiki/Kiel_Giddens"
+      },
+      {
+       "label": "CKPG candidates announced",
+       "url": "https://ckpgtoday.ca/2026/10/03/prince-george-area-candidates-announced-for-2026-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Ian McMahon",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Public servant with three decades in B.C. government, Parliament Hill and the Canadian Embassy in Washington. Has taught political science. NDP candidate in Peace River North in 2024.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://ianmcmahon.bcndp.ca/"
+      },
+      {
+       "label": "Wikipedia: Results of the 2024 British Columbia general election by riding",
+       "url": "https://en.wikipedia.org/wiki/Results_of_the_2024_British_Columbia_general_election_by_riding"
+      }
+     ]
+    },
+    {
+     "name": "Teri Young",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Retired teacher who taught in New Aiyansh and ran a software distribution company for over 30 years until 2018. Volunteers with Cowichan Hospice and a watershed group.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/teri-young/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ],
+     "note": "Green bio mentions Cowichan volunteer work. A Teri Young also ran for the Greens in Skeena in 2024; identity not confirmed."
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "3 candidates on Elections BC list. McMahon's 2024 candidacy is per Wikipedia's 2024 candidate table."
+  },
+  {
+   "code": "PRO",
+   "name": "Prince George-North Cariboo",
+   "communities": "Prince George (north and west parts), Quesnel, Wells, Barkerville, Bouchie Lake, Nazko, Likely, Horsefly, Blackwater",
+   "result_2024": {
+    "winner": "Sheldon Clare",
+    "party": "conservative",
+    "margin_votes": 7036,
+    "shares": {
+     "conservative": 56.82,
+     "independent": 21.84,
+     "ndp": 17.03,
+     "green": 4.31
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/prince-george-north-cariboo/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": "No party change. Sheldon Clare became Opposition House Leader in 2026.",
+   "candidates": [
+    {
+     "name": "Denice Bardua",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Quesnel resident since 1997 who works in education. Active in the Bouchie Lake community and in her union. NDP candidate in this riding in 2024.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://denicebardua.bcndp.ca/"
+      },
+      {
+       "label": "Wikipedia: Results of the 2024 British Columbia general election by riding",
+       "url": "https://en.wikipedia.org/wiki/Results_of_the_2024_British_Columbia_general_election_by_riding"
+      }
+     ],
+     "note": "Spelled 'Denice' by Elections BC and the NDP; some media print 'Denise'."
+    },
+    {
+     "name": "Sheldon Clare",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Born and raised in Prince George. College of New Caledonia history instructor since 1993, past national president of the National Firearms Association, Legion Branch 43 president. MLA since 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia: Sheldon Clare",
+       "url": "https://en.wikipedia.org/wiki/Sheldon_Clare"
+      },
+      {
+       "label": "CKPG candidates announced",
+       "url": "https://ckpgtoday.ca/2026/10/03/prince-george-area-candidates-announced-for-2026-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Randy Thompson",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Quesnel farmer and small-business owner (Oddball Garlic Company) who works for the City of Quesnel. Green candidate here in 2024; served two years on the party's Provincial Council.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/randy-thompson/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "3 candidates on Elections BC list. Independent Coralee Oakes (2024, 21.8 percent) is not running."
+  },
+  {
+   "code": "PRV",
+   "name": "Prince George-Valemount",
+   "communities": "Prince George (south and east parts), Valemount, McBride, Dunster, Tete Jaune Cache, Blue River, Giscome, Willow River",
+   "result_2024": {
+    "winner": "Rosalyn Bird",
+    "party": "conservative",
+    "margin_votes": 3309,
+    "shares": {
+     "conservative": 55.19,
+     "ndp": 34.94,
+     "green": 9.87
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; https://bcballot.ca/ridings/prince-george-valemount/ ; Wikipedia 2024 riding result template"
+   },
+   "mla_changes_since_2024": "Rosalyn Bird (elected as a Conservative in 2024) left the Conservative caucus on Aug 25, 2026 and sat as an independent, joined CentreBC on Sept 18, 2026, and rejoined the Conservatives about four days later (around the election call on Sept 22). She is running as a Conservative.",
+   "candidates": [
+    {
+     "name": "Rosalyn Bird",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Former Canadian Armed Forces naval logistics officer (service from 1990) with NATO and Afghanistan-related deployments. MLA since 2024 and Conservative critic for Citizens' Services.",
+     "sources": [
+      {
+       "label": "Wikipedia: Rosalyn Bird",
+       "url": "https://en.wikipedia.org/wiki/Rosalyn_Bird"
+      },
+      {
+       "label": "CKPG candidates announced",
+       "url": "https://ckpgtoday.ca/2026/10/03/prince-george-area-candidates-announced-for-2026-provincial-election/"
+      }
+     ]
+    },
+    {
+     "name": "Carol Bourque",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Public-sector professional with over 30 years of service, including 14 years in health information management with Northern Health. Born and raised in Prince George; Indigenous woman.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://carolbourque.bcndp.ca/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Jodie Capling",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Grew up in the Cariboo-Chilcotin and now lives in Williams Lake. Background in environmental management and energy efficiency; teaches yoga. Previously ran for the Greens federally.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/jodie-capling/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ],
+     "note": "Green bio places her in Williams Lake, outside this riding."
+    },
+    {
+     "name": "Mitchell Lukoni",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Born and raised in Prince George. Works as a business, communications and policy strategist. Athabasca University degree; past UNBC student senator and hospice grief-support volunteer.",
+     "sources": [
+      {
+       "label": "OneBC candidate page",
+       "url": "https://1bc.ca/candidates/mlukoni"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "4 candidates on Elections BC list; the only 4-way race in the Prince George area."
+  },
+  {
+   "code": "SKE",
+   "name": "Skeena",
+   "communities": "Terrace, Kitimat, Thornhill, Kitselas, Kitsumkalum, Kitamaat Village, New Aiyansh, Gingolx, Lakelse Lake, Rosswood",
+   "result_2024": {
+    "winner": "Claire Rattée",
+    "party": "conservative",
+    "margin_votes": 824,
+    "shares": {
+     "conservative": 51.2,
+     "ndp": 44.44,
+     "green": 3.33,
+     "christian_heritage": 1.03
+    },
+    "shares_unit": "percent of valid votes",
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf (Skeena page: 6,243 / 5,419 / 406 / 126 votes)"
+   },
+   "mla_changes_since_2024": "Claire Rattée (Conservative) was removed from the Conservative caucus on Sept 18, 2026 and rejoined on Sept 21, 2026. She is running as a Conservative.",
+   "candidates": [
+    {
+     "name": "Nick Gottlieb",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Writer, researcher and community organizer completing a PhD at Simon Fraser University on Canada's LNG industry. Has lived in Terrace about five years; helped found the Skeena Local Action Network.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/nick-gottlieb/"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Claire Rattée",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Kitimat tattoo artist and co-owner of Arcane Arts for over 13 years. Kitimat councillor 2014 to 2018; federal Conservative candidate in 2019 and 2021. MLA since 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia: Claire Ratt%C3%A9e",
+       "url": "https://en.wikipedia.org/wiki/Claire_Ratt%C3%A9e"
+      },
+      {
+       "label": "Today in BC",
+       "url": "https://todayinbc.com/2026/09/24/rattee-poised-to-seek-re-election-in-skeena-as-b-c-conservatives-regroup/"
+      }
+     ]
+    },
+    {
+     "name": "Larry Eugene Taylor",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Born and raised in Terrace. Heavy duty mechanic for over 42 years and a Terrace volunteer firefighter for 13 years. Married with five children.",
+     "sources": [
+      {
+       "label": "OneBC candidate page",
+       "url": "https://1bc.ca/candidates/ltaylor"
+      },
+      {
+       "label": "Elections BC candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ],
+     "note": "OneBC site lists him as 'Larry Taylor'; the Elections BC ballot name is Larry Eugene Taylor."
+    },
+    {
+     "name": "Sarah Zimmerman",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Elected Terrace city councillor, former journalist and senior communications leader. Volunteers with Terrace Rotary Club and My Mountain Co-op. NDP candidate in Skeena in 2024.",
+     "sources": [
+      {
+       "label": "BC NDP candidate page",
+       "url": "https://sarahzimmerman.bcndp.ca/"
+      },
+      {
+       "label": "Wikipedia: Skeena (provincial electoral district)",
+       "url": "https://en.wikipedia.org/wiki/Skeena_(provincial_electoral_district)"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "4 candidates on Elections BC list. The 2024 Skeena CHP count is 126 per the Elections BC Statement of Votes (Wikipedia shows 125)."
+  }
+ ]
+}

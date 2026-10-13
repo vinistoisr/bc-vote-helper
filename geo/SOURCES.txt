@@ -1,0 +1,20 @@
+Riding lookup data (built by build_geo.py)
+
+1. Riding boundaries: British Columbia electoral districts, 2023 redistribution (93 districts).
+   Downloaded from Represent by Open North: https://represent.opennorth.ca/boundary-sets/british-columbia-electoral-districts-2023-redistribution/
+   (full shapes: /boundaries/british-columbia-electoral-districts-2023-redistribution/<slug>/shape, simplified: ?format=json simple_shape).
+   Represent republishes the Elections BC boundary data; see the boundary set's source and licence fields on that page.
+   Fetched 2026-10-12. Used for: geo/eds.json ("Use my location") and placing postal code points in ridings.
+
+2. Postal code points: GeoNames postal code dump for Canada, CA_full.csv.zip, https://download.geonames.org/export/zip/
+   Licence: Creative Commons Attribution 4.0 (credit: GeoNames, https://www.geonames.org/). Fetched 2026-10-12 (file dated 2026-10-12).
+   122,424 BC postal codes (starting with V), one point each. Kept as geo/postal/geonames_bc_postal.tsv.
+
+3. Live postal code lookup on the website: Represent by Open North, https://represent.opennorth.ca/api/
+   (free up to 60 requests per minute). The Worker asks Represent first and caches each answer for 30 days;
+   when Represent is slow or busy it answers from the GeoNames-based table instead.
+
+Method: each postal code point is placed in the riding that contains it (BC Albers projection, EPSG:3005).
+A point within 150 m (urban codes) or 5 km (rural codes, second character 0) of another riding also lists that riding.
+For a postal code the table does not know, the page offers the ridings of its first 3 characters (forward sortation area)
+that hold at least 2% of that area's postal codes. Check: 40 of 40 random BC postal codes matched Represent (2026-10-12).

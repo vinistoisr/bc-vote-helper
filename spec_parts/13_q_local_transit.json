@@ -1,0 +1,206 @@
+[
+  {
+    "id": "q_local_skytrain",
+    "issue_id": "surrey_transit",
+    "scope": "local",
+    "prompt": {
+      "1": "SkyTrain is being extended to Fleetwood. What should happen with trains and buses?",
+      "2": "SkyTrain reaches Fleetwood in 2029, and the regional transit system needs new money from 2028. What should the province do?",
+      "3": "How should the province finish the SkyTrain line and fund TransLink, the regional transit agency, after 2028?",
+      "4": "How should the province finish the Surrey-Langley SkyTrain and close TransLink's funding gap from 2028?",
+      "5": "The Surrey-Langley SkyTrain costs $5.996 billion and opens in late 2029, and TransLink faces a gap of at least $112 million a year from 2028. Which approach?"
+    },
+    "context": {
+      "1": "A new SkyTrain line through Fleetwood is set to open in 2029. TransLink, which runs buses and trains in the region, will be short of money from 2028. Parties disagree on how to pay for transit, and on whether some people should ride free.",
+      "2": "The federal and provincial governments are paying for the SkyTrain line to Fleetwood and Langley, which should open in late 2029. TransLink, the regional transit agency, will be short at least $112 million a year from 2028. Both main parties have ruled out a yearly fee on vehicles. Parties disagree on who should pay, and on free fares.",
+      "3": "The NDP government is building the line, rules out a yearly vehicle fee and promises a 2027 law to find new money for TransLink, without saying what it would be. The Conservatives criticized the cost in 2024 but made no 2026 pledge. The Greens want free transit for people under 25 and over 65. CentreBC calls the line a priority and adds rapid buses and a transit pass credit, but says nothing on the funding gap. OneBC has no position.",
+      "4": "The line now costs $5.996 billion, up from $4 billion in the 2022 business case. TransLink needs at least $112 million a year more from 2028. The NDP and the Conservatives both rule out a vehicle levy. The other ways to close the gap are fuel or sales taxes, tolls, a provincial subsidy or service cuts, and no party has said which it would choose.",
+      "5": "The Surrey-Langley SkyTrain will run 16 km with eight stations, three of them in or near the riding. It is budgeted at $5.996 billion, against $4.01 billion in the 2022 business case, and $2.508 billion had been spent by April 2026. The province gave TransLink $479 million in 2024 and $312 million for 2025 to 2027, but a gap of at least $112 million a year remains from 2028. On October 2 the NDP ruled out a vehicle levy of about $150 per vehicle and promised a revenue law in 2027."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Finish the SkyTrain line, and find new transit money without a yearly car fee.",
+          "2": "Finish SkyTrain as planned, and pass a law in 2027 to find transit money, without a yearly car fee.",
+          "3": "Finish SkyTrain and pass a new law to fund TransLink from 2028, with no vehicle levy.",
+          "4": "Finish SkyTrain on schedule, keep temporary TransLink funding, rule out a vehicle levy, and pass a law in 2027 creating a new revenue source.",
+          "5": "Deliver the line at $5.996 billion for late 2029, support TransLink to 2027, rule out a vehicle levy, and pass a 2027 law for new revenue from 2028."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 2,
+          "green": 3,
+          "centrebc": 2,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Finish the SkyTrain line, keep costs down, and add no new taxes.",
+          "2": "Finish SkyTrain, control costs, add no new taxes or fees, and shrink the regional government.",
+          "3": "Finish SkyTrain with tight cost control, add no new taxes, and shrink Metro Vancouver's regional government.",
+          "4": "Finish the line affordably, add no new taxes or levy, cut Metro Vancouver back to utilities, and cover TransLink's gap within existing budgets.",
+          "5": "Add no new taxes or levies this term, finish the line with close cost scrutiny, cut Metro Vancouver to utilities only, and cover the 2028 gap within existing budgets."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 2,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Make transit free for young people and seniors, paid for by taxing the richest.",
+          "2": "Make transit free for people under 25 and over 65, add more rail, and tax the richest to pay.",
+          "3": "Start with free transit for people under 25 and over 65, add more rail, and fund it with a wealth tax.",
+          "4": "Use a wealth tax to fund free passes for people under 25 and over 65, then wider free transit, regional rail and more rapid transit.",
+          "5": "Phase in fare-free transit starting with people under 25 and over 65, add regional rail including Squamish to 100 Mile House, expand rapid transit, and fund it with a wealth tax."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 2,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Finish the SkyTrain line, add fast buses, and give riders money back on passes.",
+          "2": "Make SkyTrain a top project, add six rapid bus lines and 15% more service, and give 15% back on passes.",
+          "3": "Make SkyTrain a priority, add six rapid bus lines and 15% more service, offer a 15% transit pass credit, and study more rapid transit.",
+          "4": "Include the Surrey-Langley SkyTrain in a $15 billion three-year transportation plan, add about six rapid bus lines and 15% more service by 2030, and offer a refundable 15% transit pass credit.",
+          "5": "Make the line a priority within $15 billion over three years ($3.5 billion added, borrowed), add six rapid bus lines and 15% more service by 2030, and offer a refundable 15% credit on passes."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 1,
+          "green": 3,
+          "centrebc": 4,
+          "onebc": 2
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party is building the SkyTrain line and promises to finish it, with no yearly car fee.",
+          "3": "The NDP is building the SkyTrain for late 2029. The cost rose from $4 billion to $6 billion and the opening slipped a year. It has ruled out a vehicle levy and promises a 2027 law for new revenue, without saying where the money would come from.",
+          "5": "The line costs $5.996 billion, opens in late 2029 and has three stations in the Fleetwood area; $2.508 billion had been spent by April 2026. The NDP gave TransLink $479 million in 2024 and $312 million to the end of 2027, ruled out a vehicle levy on October 2, 2026, and promises a 2027 law for a 2028 revenue source. The cost rose in August 2024. Candidate Jagrup Brar lists 'extending SkyTrain' with no timeline."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "Surrey-Langley SkyTrain monthly status report (April 2026)",
+            "url": "https://surreylangleyskytrain.gov.bc.ca/app/uploads/sites/938/2026/06/SLS_Monthly-Status-Report_April_2026.pdf"
+          },
+          {
+            "label": "Daily Hive: Eby rules out TransLink vehicle levy (Oct 2, 2026)",
+            "url": "https://dailyhive.com/vancouver/bc-ndp-david-eby-translink-vehicle-levy"
+          },
+          {
+            "label": "Connect FM: NDP promises to fully complete Surrey-Langley SkyTrain",
+            "url": "https://connectfm.ca/en/news/post/bc-ndp-promises-to-fully-complete-surrey-langley-skytrain"
+          },
+          {
+            "label": "Jagrup Brar campaign page (party-authored)",
+            "url": "https://jagrupbrar.bcndp.ca"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party made no SkyTrain promise this time. In 2024 it said it would finish the line for less.",
+          "3": "The Conservatives have no 2026 transit commitment. In 2024 they called the $6 billion cost a 'debacle' and said they would 'get it done in an affordable way', but never pledged to cancel it. Their pledge of no new taxes affects how TransLink's gap could be closed.",
+          "5": "BC Ballot lists no Conservative transportation commitment. In August 2024 Rustad and Sturko called the line a '$6 billion Surrey Langley SkyTrain debacle' and promised to 'get it done in an affordable way'. The NDP claim that Rustad would cancel it is unconfirmed. For 2026 the party pledges no new taxes and would cut Metro Vancouver to utilities, and advocates say it has ruled out a vehicle levy. Candidate Purewal has published only party themes."
+        },
+        "basis": "both",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "Global News: Surrey-Langley SkyTrain cost rises to $6B (Aug 2024)",
+            "url": "https://globalnews.ca/news/10701039/surrey-langley-skytrain-cost"
+          },
+          {
+            "label": "BC Ballot: Conservative commitments (no transportation item)",
+            "url": "https://bcballot.ca/platforms/conservative-party/"
+          },
+          {
+            "label": "Daily Hive: Metro Vancouver rollback",
+            "url": "https://dailyhive.com/vancouver/bc-conservatives-metro-vancouver-regional-district-reform-platform-promise"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party wants free buses and trains for young people and seniors, and more train lines.",
+          "3": "The Greens promise 'fast, frequent and free' transit, starting with free passes for people under 25 and over 65, plus regional passenger rail, paid for by their wealth tax. They have no position on the SkyTrain line itself but support expanding transit.",
+          "5": "On October 9, 2026, the Greens promised free transit for people under 25 and over 65, with a wider fare-free goal, more regional passenger rail and ferries, and rail from Squamish to 100 Mile House. They have no position on the SkyTrain line itself. The plan would be funded through their proposed Fair Share Act. Candidate Binnema has no published transit position."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "Global News: Green free transit pledge (Oct 9, 2026)",
+            "url": "https://globalnews.ca/news/12097726/bc-leaders-campaign-trail-health-care-supporting-seniors-october-9"
+          },
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan/"
+          },
+          {
+            "label": "BC Greens: Tim Binnema candidate page",
+            "url": "https://bcgreens.ca/candidates/tim-binnema/"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party wants to finish the SkyTrain line, add fast buses, and give riders money back on passes.",
+          "3": "CentreBC's October 10 platform makes the Surrey-Langley SkyTrain a priority in a $15 billion transportation plan, with about six rapid bus lines, 15% more transit service by 2030, a 15% tax credit on transit passes and a study of more rapid transit south of the Fraser. It says nothing about TransLink's funding gap or a vehicle levy.",
+          "5": "The platform names the line alongside the Fraser River Tunnel and Highway 1 widening in a $15 billion three-year plan, with $3.5 billion added through borrowing. It adds about six rapid bus lines, 15% more service by 2030, a refundable 15% BC Commuter Credit on transit passes and ferry fares, and a study of rapid transit south of the Fraser. It gives no dollar figure for the line and no position on the 2028 TransLink gap or a vehicle levy. Candidate Paul Brar has published no positions."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 11, 13)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "CentreBC: Paul Brar candidate page",
+            "url": "https://centrebc.ca/candidates/paul-brar/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party has said nothing about trains or buses, so it is not scored here.",
+          "3": "OneBC has no transit position, so it is not scored on this question.",
+          "5": "OneBC has no transportation commitment on its priorities page or on BC Ballot, so this question is left out of its score. Candidate Hofbauer has published no positions."
+        },
+        "basis": "platform",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "OneBC: Carolyn Hofbauer candidate page",
+            "url": "https://1bc.ca/candidates/chofbauer"
+          }
+        ],
+        "no_position": true
+      }
+    },
+    "scoring_rationale": "a = NDP (4); Green 3 (finish and expand, no levy objection); Conservative 2 (would finish the line, no commitment to a new revenue law); CentreBC 2 (finishes the line and funds more service, silent on a levy or a revenue law). b = Conservative (4), built from the 2024 cost attack, the no-new-taxes pledge and the Metro Vancouver rollback; CentreBC 2 (independent cost reviews over $100M and no new broad taxes, but it adds transit spending and has no Metro Vancouver position); NDP 1; Green 0. c = Green (4); NDP 2 (expands transit, no free fares); CentreBC 2 (a 15% pass credit is partial fare relief; rapid bus and rail expansion overlap; no wealth tax); Conservative 0. d = CentreBC's platform (4): SLS as a priority, rapid bus, 15% more service, commuter credit; Green 3 (expansion and fare relief in its direction, short of free transit); NDP 2 (is building the line and funding interim service, no credit or rapid bus pledge); Conservative 1 (no 2026 transit commitment). Option d was added on October 10 when CentreBC published a transit position; before that it was no_position here. OneBC has no transit position and is excluded from this question (no_position) rather than placed by fiscal inference. Candidates carry party scores; none has a local transit position."
+  }
+]

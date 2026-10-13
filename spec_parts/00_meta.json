@@ -1,0 +1,437 @@
+{
+ "meta": {
+  "title": "BC Vote Helper 2026",
+  "election_date": "2026-10-24",
+  "data_as_of": "2026-10-12",
+  "jurisdiction": "British Columbia provincial general election",
+  "default_riding": null,
+  "disclaimer": {
+   "1": "This tool helps you compare. It shows which party's ideas are closest to yours. It does not tell you how to vote. You decide.",
+   "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 10, so check for updates. Party names and logos belong to the parties.",
+   "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 10, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC released a full platform on October 10 with its own costing, not independently checked; the Greens' full platform was still pending; the other parties campaign on rolling announcements without a complete costed platform. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
+  },
+  "method_summary": {
+   "1": "You pick answers. Each answer is close to some groups and far from others. We add it up and show the closest group.",
+   "3": "Each option scores 0 (opposite) to 4 (match) for every party. Your match is the percentage of the maximum you could score. Important questions count more; skips and 'not sure' do not count. Questions where a party has no published position are left out of its score. Partly agreeing with everyone tends to favour centrist parties. Near ties show as close. Where record and words conflict, the record decides.",
+   "5": "Alignment(P) = sum(w_q x s_q(P)) / sum(w_q x 4) over answered questions, where s_q(P) is the chosen option's 0-4 score for P and w_q the importance weight (low 0.5, medium 1, high 2). Skipped questions (including 'not sure') leave both sums. Questions where P has no published position leave both sums for P only. Inferred positions use an adjacent stated policy. Close: top two whole-number percentages within 3 points. Family score: mean of members' percentages per party, plus an adults-only mean (levels 3 to 5). For candidates, local questions count double on top of importance; no candidate-specific adjustment. Scores were set from the cited sources with an AI assistant (Claude) and checked by separate review passes; every score, rationale and source is public at github.com/vinistoisr/bc-vote-helper. Reading level changes wording only."
+  },
+  "language_rules": [
+   "no em dashes",
+   "no superlatives",
+   "plain words",
+   "all money in CAD"
+  ],
+  "display_rules": {
+   "option_order": "Shuffle the display order of options for every respondent and every family member. Option ids and scores never change. Store the order shown with the answers so a result can be audited. If a fixed order is needed for print, alternate the direction of the spectrum from one question to the next so no side is first more often.",
+   "not_sure": "Every question carries an 'I'm not sure / skip' choice. It counts as a skip: the question leaves both the numerator and the denominator for every party.",
+   "no_position": "When party_positions[party].no_position is true, the party has no published position on that question. Leave the question out of that party's numerator and denominator and show 'No published position' in the per-issue view. The option scores for that cell are placeholders (2) only.",
+   "inferred": "When party_positions[party].basis is 'inferred', the score comes from an adjacent stated policy, not a statement on the question. Tag it 'inferred' in the per-issue view.",
+   "ties": "When the first and second party are within 3 points, present the result as close rather than naming a single match.",
+   "drivers": "On the results page, list the three questions that contributed most to the top party's lead so users can see what decided the match.",
+   "family": "Family score is the mean of members' percentages. Show an adults-only mean (members who answered at levels 3 to 5) beside the all-members mean and label both.",
+   "party_positions_levels": "Party position text exists at levels 1, 3 and 5. Show level 1 text at level 2 and level 5 text at level 4.",
+   "importance_default": "Default importance is medium for every question; users change it per question."
+  }
+ },
+ "levels": [
+  {
+   "id": 1,
+   "label": "Simplest",
+   "experience": "New to politics",
+   "hint": "Short sentences and everyday words. No names of laws, no numbers."
+  },
+  {
+   "id": 2,
+   "label": "Simple",
+   "experience": "Know the basics",
+   "hint": "Plain words with a few real examples. Terms explained as they come up."
+  },
+  {
+   "id": 3,
+   "label": "Plain language",
+   "experience": "Follow the news a bit",
+   "hint": "The real issues in everyday words. Some policy names, few numbers."
+  },
+  {
+   "id": 4,
+   "label": "Informed",
+   "experience": "Follow politics",
+   "hint": "Specific promises, key figures and the main trade-offs."
+  },
+  {
+   "id": 5,
+   "label": "Expert",
+   "experience": "Want every detail",
+   "hint": "Bill numbers, rates, dollar figures, court rulings and vote counts."
+  }
+ ],
+ "parties": [
+  {
+   "id": "ndp",
+   "name": "BC New Democratic Party",
+   "short_name": "BC NDP",
+   "ballot_name": "BC NDP",
+   "leader": "David Eby",
+   "leader_note": "Premier since November 2022; former Attorney General and housing minister.",
+   "color": "#EC5C34",
+   "color_dark_safe": "#F2825F",
+   "text_on_color": "#111111",
+   "logo_file": "logo_ndp.svg",
+   "seats_at_dissolution": 47,
+   "candidates_running": 92,
+   "one_liner": {
+    "1": "The party that has run the government since 2017. It wants government to run more programs and set rules to help people.",
+    "3": "In government since 2017. Uses provincial power actively (housing taxes, zoning rules, big projects) and asks higher earners to pay more, but has reversed several policies under pressure.",
+    "5": "Governing since 2017. Record: speculation and vacancy tax (2018), Bills 44 and 47 density mandates (2023), Bill 36 Surrey police transition (2023), consumer carbon tax repeal (2025), decriminalization ended (2026), Budget 2026 deficit $13.3B (revised $13.8B). 2026: +2 points on brackets above $190,405, 24.5% above $1M, 10 c/L fuel tax cut, grocery margin caps, ICBC freeze to 2030, 20 clinics."
+   },
+   "record_summary": {
+    "3": "The NDP has governed for nine years. It is building the Surrey-Langley SkyTrain and a new Surrey hospital, and it brought in $10-a-day child care, then froze new spaces. It taxed empty homes, ordered Surrey's switch to a city police force and passed the law on Indigenous rights (DRIPA). It later ended the drug decriminalization trial, scrapped the carbon tax on fuel and paused a promised $1,000 rebate. The deficit reached its highest dollar amount ever, and credit agencies lowered BC's rating in 2026.",
+    "5": "Party-line votes: Bill 45 (43-39, 2018), Bill 36 (56-27, 2023), Bills 44 and 46 (2023), Bill 7 (48-44), Bills 14 and 15 (46-46, Speaker's vote, 2025), Bill 3 budget measures (46-42). Reversals: Bill 7 Part 4 withdrawn, $1,000 rebate paused, carbon tax to $0, decriminalization not renewed, witnessed-only safer supply, EV mandate dropped, DRIPA suspension bill withdrawn, vehicle levy ruled out. Budget 2026: lowest bracket 5.06% to 5.60%, indexation frozen 2027-2030. Four downgrades in 2026."
+   },
+   "sources": [
+    {
+     "label": "BC NDP releases (party)",
+     "url": "https://www.bcndp.ca/releases"
+    },
+    {
+     "label": "BC Budget 2026 and Fiscal Plan",
+     "url": "https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf"
+    },
+    {
+     "label": "BC Ballot tracker, BC NDP commitments",
+     "url": "https://bcballot.ca/platforms/bc-ndp/"
+    },
+    {
+     "label": "Votes and Proceedings, May 28, 2025 (Bills 7, 14, 15)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
+    }
+   ]
+  },
+  {
+   "id": "conservative",
+   "name": "Conservative Party of British Columbia",
+   "short_name": "BC Conservatives",
+   "ballot_name": "Conservative Party",
+   "leader": "Lorne Doerkson (interim)",
+   "leader_note": "Interim leader since September 20, 2026, after Kerry-Lynne Findlay resigned; party rules bar an interim leader from seeking the permanent job.",
+   "color": "#2C4494",
+   "color_dark_safe": "#7D95E3",
+   "text_on_color": "#FFFFFF",
+   "logo_file": "logo_conservative.png",
+   "seats_at_dissolution": 28,
+   "seats_note": "28 at dissolution on September 22, 2026 per Wikipedia (secondary; CP24 reported 24 on September 20); 36 after seven CentreBC MLAs and one independent returned when the writ dropped. Won 44 in 2024.",
+   "candidates_running": 93,
+   "one_liner": {
+    "1": "The main party trying to replace the government. It wants lower taxes, fewer rules for business and more gas and mining jobs.",
+    "3": "Opposition since 2024. Promises a $1,000 income tax cut and no new taxes; would repeal DRIPA and SOGI 123, end safe supply, expand mandatory treatment and double gas production. Four leaders in a year; no costed plan.",
+    "5": "Opposition since 2024 (44 seats). 2026: basic personal amount to $32,000 (about $1,050 each; uncosted; outside estimate $2.5B a year), no new taxes, repeal DRIPA and SOGI 123, end safe supply, mandatory treatment, 250 police, 500 RCMP, 50 prosecutors, double gas output by 2032, 120 Day Permitting Act, ICBC hybrid tort, portable LTC funding. No deficit target or balance date."
+   },
+   "record_summary": {
+    "3": "Its 2024 calls to end the carbon tax and for mandatory treatment and bail reform preceded NDP action. Opposed nearly all NDP bills. Most MLAs backed first reading of gender identity and Human Rights Code repeal bills, citing courtesy. Many backed DRIPA as BC Liberals. Four leaders since December 2025.",
+    "5": "Nay on Bills 7, 14, 15, 32 (Mental Health Amendment), the Supply Act 2025 and Bill 3 (2026); non-confidence amendment lost 44-48. Yea at first reading on independents' property rights (40-48), gender identity (38-49) and Human Rights Code repeal (37-50) bills. BC Liberals, including Rustad, backed DRIPA (82-0 in committee, 2019). Rustad removed December 2025, then Halford (interim), Findlay (113 days), Doerkson (interim). 2024 pledges (rent rebate, Bill 44 repeal, balance in two terms) dropped."
+   },
+   "sources": [
+    {
+     "label": "Conservative Party of BC plan hub",
+     "url": "https://conservativebc.ca/plan/"
+    },
+    {
+     "label": "BC Ballot tracker, Conservative commitments",
+     "url": "https://bcballot.ca/platforms/conservative-party/"
+    },
+    {
+     "label": "Votes and Proceedings, February 26, 2026 (Human Rights Code Repeal Act first reading)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260226.htm"
+    },
+    {
+     "label": "CP24: Findlay resigns as BC Conservative leader",
+     "url": "https://www.cp24.com/politics/2026/09/20/kerry-lynne-findlay-resigns-as-bc-conservative-leader/"
+    },
+    {
+     "label": "Global News: who are the BC party leaders (Doerkson interim, constitution bars interim leader from permanent post)",
+     "url": "https://globalnews.ca/news/12068973/who-are-bc-party-leaders-2026-election/"
+    }
+   ]
+  },
+  {
+   "id": "green",
+   "name": "BC Green Party",
+   "short_name": "BC Greens",
+   "ballot_name": "BC Green Party",
+   "leader": "Emily Lowan",
+   "leader_note": "Leader since September 2025; does not hold a seat. Two MLAs at dissolution.",
+   "color": "#12B259",
+   "color_dark_safe": "#3FD37D",
+   "text_on_color": "#111111",
+   "logo_file": "logo_green.svg",
+   "seats_at_dissolution": 2,
+   "candidates_running": 74,
+   "candidates_note": "Sources give 73 or 74.",
+   "one_liner": {
+    "1": "A smaller party. It wants to protect nature, tax the richest people more, and spend more on child care, transit and homes.",
+    "3": "Two seats. A wealth tax on fortunes over $50 million would fund free child care, free youth and senior transit, and non-market housing. Would strengthen DRIPA and SOGI 123, restore decriminalization, stop new fossil fuel projects. Revenue estimate method unpublished.",
+    "5": "Two MLAs; 8.2% in 2024. Fair Share Act: one-time 5-20% levy on net wealth above $50M, then 2-5% yearly (party estimate $22.2B, then $5.4B; uncosted). 26,000 non-market homes yearly, vacancy control, free child care by 2031, free transit under 25 and over 65, health centre per riding, PR bill within 100 days, decriminalization, no new fossil fuel development. Platform pending."
+   },
+   "record_summary": {
+    "3": "Backed NDP confidence votes under written deals (2017-2020, 2024-2026), gaining the corporate and union donation ban and the 2018 voting referendum. Opposed the fast-track laws and the carbon tax repeal. Voted for the 2026 budget at second reading, against at third. Left the deal in February 2026, citing stalled promises.",
+    "5": "CASA 2017-2020: Bill 3 donation ban and 2018 PR referendum (lost 61.3 to 38.7). Yea on Bill 45 spec tax (2018) after amendments; nay on Bills 44 and 46 (2023); yea on Supply Act 2025; nay on Bills 14 and 15 (2025), the carbon tax repeal and Bill 3 at third reading (2026); nay on Armstrong's gender identity, Human Rights Code repeal and drug recovery bills. NDP accord (December 2024) not renewed February 9, 2026."
+   },
+   "sources": [
+    {
+     "label": "BC Greens: Our Plan",
+     "url": "https://bcgreens.ca/our-plan/"
+    },
+    {
+     "label": "BC Greens Fair Share Act release",
+     "url": "https://bcgreens.ca/fair-share-act-would-unlock-22-2b-for-childcare-transit-and-housing/"
+    },
+    {
+     "label": "BC Greens Toxic Drugs Policy Brief 2026 (PDF)",
+     "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf"
+    },
+    {
+     "label": "CP24: Greens will not renew accord with NDP",
+     "url": "https://www.cp24.com/news/canada/2026/02/09/bc-greens-wont-renew-accord-with-ndp-citing-stalled-undelivered-promises/"
+    }
+   ]
+  },
+  {
+   "id": "centrebc",
+   "name": "CentreBC",
+   "short_name": "CentreBC",
+   "ballot_name": "CentreBC",
+   "leader": "Elenore Sturko",
+   "leader_note": "Named leader September 22, 2026; the party's only incumbent MLA (Surrey-Cloverdale, running in Surrey South). Fourth leader since the party formed in March 2025.",
+   "color": "#EE2D30",
+   "color_dark_safe": "#FF6466",
+   "text_on_color": "#FFFFFF",
+   "logo_file": "logo_centrebc_site_horizontal.png",
+   "seats_at_dissolution": 8,
+   "seats_note": "8 at dissolution per Wikipedia (secondary); 7 returned to the Conservatives when the writ dropped, leaving 1.",
+   "candidates_running": 35,
+   "one_liner": {
+    "1": "A new party in the political centre. It wants a cost on every promise, a slow return to a balanced budget, and to replace the law on Indigenous rights with treaty deals.",
+    "3": "New centre-right party, 35 candidates. Its October 10 platform, costed by the party, cuts the bottom tax rate, balances the budget by 2034-35 with 10,000 fewer public jobs by attrition, keeps ICBC and health care public, adds 650 treatment beds and 500 RCMP, and would repeal DRIPA for a treaty-based law. Seven of its eight MLAs rejoined the Conservatives at the election call.",
+    "5": "Registered March 2025; leaders Kirkpatrick, Bernier, Milobar, Sturko (September 2026). Platform October 10 ($13.7B over four years, party costing): first bracket 5.06%, renter's credit $600, balance 2034/35 in law, Independent Budget Officer, 10,000 positions by attrition; repeal DRIPA and s. 8.1 for a treaty law (reverses its August stance); industrial carbon pricing kept, 2030 target reset to 20%; 650 treatment beds, involuntary assessments; 500 RCMP, 60 Crown; ICBC public, rate cap; 20,000 child care spaces, 25,000 seats; Surrey Memorial tower. Silent on SOGI 123, zoning law, safer supply, electoral reform."
+   },
+   "record_summary": {
+    "3": "No governing record. At the election call, then-leader Milobar and seven of eight MLAs rejoined the Conservatives. Sturko was elected in 2024 as a Conservative on a platform to repeal DRIPA and remove SOGI 123, left that caucus in 2025, and opposed gender identity and Human Rights Code repeal bills.",
+    "5": "Sturko (elected 2022 as BC Liberal; Conservative 2024; removed from caucus September 22, 2025) voted nay at first reading on the Gender Ideology and Child Protection Act and the Human Rights Code Repeal Act (February 2026); chaired the police complaints committee. As MLA she introduced Mental Health Act amendments on family contact before involuntary admission and opposed non-medical safer supply. The October 10 platform supersedes statements by prior leaders Kirkpatrick and Bernier; on DRIPA it reverses Bernier's August 2026 'no repeal' position."
+   },
+   "sources": [
+    {
+     "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, Oct 10, 2026)",
+     "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+    },
+    {
+     "label": "CentreBC: platform landing page",
+     "url": "https://www.centrebc.ca/platform/"
+    },
+    {
+     "label": "CentreBC news",
+     "url": "https://www.centrebc.ca/news/"
+    },
+    {
+     "label": "CentreBC: Reconciliation, Certainty and Prosperity statement (Aug 13, 2026, superseded)",
+     "url": "https://www.centrebc.ca/news/statement-reconciliation-certainty-and-prosperity/"
+    },
+    {
+     "label": "Surrey Now-Leader: Sturko promises manufacturing boost (Oct 9, 2026)",
+     "url": "https://surreynowleader.com/2026/10/09/centrebc-leader-promisesmanufacturing-boost"
+    }
+   ]
+  },
+  {
+   "id": "onebc",
+   "name": "OneBC",
+   "short_name": "OneBC",
+   "ballot_name": "OneBC",
+   "leader": "Dallas Brodie (interim)",
+   "leader_note": "Co-founded the party in June 2025 after being removed from the Conservative caucus in March 2025 over posts about residential school burial claims; removed and reinstated as leader by the party board in December 2025.",
+   "color": "#D2A65C",
+   "color_dark_safe": "#E6C27E",
+   "text_on_color": "#111111",
+   "logo_file": "logo_onebc.svg",
+   "seats_at_dissolution": 2,
+   "candidates_running": 34,
+   "candidates_note": "Sources give 33 or 34.",
+   "one_liner": {
+    "1": "A small new party. It wants much lower taxes, fewer rules, and to end some laws it sees as unfair.",
+    "3": "New right-wing party, about 34 candidates. Would cut every tax rate by 25%, balance in four years, repeal DRIPA and SOGI 123, end safe supply and consumption sites, allow private care alongside public, open car insurance to competition. All uncosted.",
+    "5": "Founded 2025 (Brodie, Armstrong). Repeal DRIPA, void UNDRIP, end voluntary land transfers, seek Indian Act repeal; 25% cut to every bracket including corporate; PST down 2 points; balance in four years; end safe supply, consumption sites; involuntary rehab; private care, HPOA repeal; end ICBC monopoly, no-fault; repeal SOGI 123; Parental Bill of Rights; end mail-in and early voting. All uncosted."
+   },
+   "record_summary": {
+    "3": "No governing record. Its MLAs' bills to restrict youth gender transition, ban land acknowledgements and protect property rights were all defeated. Its board removed and reinstated leader Brodie in December 2025. It is standing aside for eight Conservatives who share its SOGI views.",
+    "5": "Private members' bills: puberty blocker and pronoun bill defeated 48-40 before first reading (October 2025); Land Acknowledgement Prohibition Act 88-5 (October 2025); Property Rights Protection Act 40-48 (October 2025); DRIPA repeal bill 44-47 (April 2026, unverified against Hansard). Board removed Brodie December 13, 2025, reinstated December 21. Brent Chapman crossed from the Conservatives September 22, 2026; sources conflict on whether that restored official party status; he is not running. Not running against eight named Conservatives."
+   },
+   "sources": [
+    {
+     "label": "OneBC priorities (party)",
+     "url": "https://1bc.ca/priorities"
+    },
+    {
+     "label": "Wikipedia: OneBC (secondary)",
+     "url": "https://en.wikipedia.org/wiki/OneBC_(political_party)"
+    },
+    {
+     "label": "CTV: OneBC will not run against eight Conservative candidates",
+     "url": "https://www.ctvnews.ca/vancouver/article/onebc-pledges-not-to-run-against-eight-principled-bc-conservative-candidates/"
+    },
+    {
+     "label": "Votes and Proceedings, October 29, 2025 (Property Rights Protection Act)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251029.htm"
+    }
+   ]
+  }
+ ],
+ "other_parties_note": {
+  "3": "Not scored, because they have not published platforms to compare: BC Libertarian (4 candidates), Communist (4), Christian Heritage (3), CanWest (2), Freedom (1), and 14 independent or unaffiliated candidates. They are listed with your riding's candidates when they are on your ballot. BC United is not running.",
+  "5": "Not scored, because no platforms were found: BC Libertarian (4 candidates), Communist Party of BC (4), Christian Heritage Party of BC (3), CanWest Party (2), Freedom Party of BC (1), plus 7 independent and 7 unaffiliated candidates, per the Elections BC candidate list. They appear in the riding section when they are on the voter's ballot. BC United ran no candidates."
+ },
+ "issues": [
+  {
+   "id": "cost_of_living",
+   "label": {
+    "1": "Prices and money at home",
+    "3": "Cost of living",
+    "5": "Cost of living and price measures"
+   },
+   "icon_hint": "cart"
+  },
+  {
+   "id": "taxes_fiscal",
+   "label": {
+    "1": "Who pays, and spending wisely",
+    "3": "Taxes, wealth and the deficit",
+    "5": "Taxation, inequality and fiscal path"
+   },
+   "icon_hint": "scale"
+  },
+  {
+   "id": "housing",
+   "label": {
+    "1": "Homes",
+    "3": "Housing",
+    "5": "Housing supply, demand-side taxes and tenancy"
+   },
+   "icon_hint": "house"
+  },
+  {
+   "id": "health",
+   "label": {
+    "1": "Doctors and hospitals",
+    "3": "Health care",
+    "5": "Health care access and delivery model"
+   },
+   "icon_hint": "heart"
+  },
+  {
+   "id": "dripa",
+   "label": {
+    "1": "First Nations and decisions about the land",
+    "3": "Indigenous rights law (DRIPA)",
+    "5": "DRIPA, Gitxaala and Aboriginal title"
+   },
+   "icon_hint": "feather"
+  },
+  {
+   "id": "sogi",
+   "label": {
+    "1": "School lessons about different kinds of families and people",
+    "3": "SOGI 123 in schools",
+    "5": "SOGI 123, Human Rights Code and parental rights"
+   },
+   "icon_hint": "school"
+  },
+  {
+   "id": "drugs",
+   "label": {
+    "1": "Helping people who are very sick",
+    "3": "Toxic drugs and addiction",
+    "5": "Drug policy: decriminalization, safer supply, involuntary care"
+   },
+   "icon_hint": "medkit"
+  },
+  {
+   "id": "safety",
+   "label": {
+    "1": "Keeping people safe",
+    "3": "Public safety and policing",
+    "5": "Policing, prosecution and repeat offending"
+   },
+   "icon_hint": "shield"
+  },
+  {
+   "id": "economy",
+   "label": {
+    "1": "Jobs and trading with other countries",
+    "3": "Economy and US tariffs",
+    "5": "Economy, trade war response and resource development"
+   },
+   "icon_hint": "briefcase"
+  },
+  {
+   "id": "climate",
+   "label": {
+    "1": "Clean air and energy",
+    "3": "Climate and energy",
+    "5": "Climate targets, carbon pricing and LNG"
+   },
+   "icon_hint": "leaf"
+  },
+  {
+   "id": "education_childcare",
+   "label": {
+    "1": "School and daycare",
+    "3": "Education and child care",
+    "5": "K-12 priorities and $10-a-day child care"
+   },
+   "icon_hint": "book"
+  },
+  {
+   "id": "icbc",
+   "label": {
+    "1": "Car insurance",
+    "3": "Car insurance (ICBC)",
+    "5": "ICBC: no-fault versus tort hybrid"
+   },
+   "icon_hint": "car"
+  },
+  {
+   "id": "democracy",
+   "label": {
+    "1": "How decisions get made",
+    "3": "Government power and democracy",
+    "5": "Executive power, oversight and electoral reform"
+   },
+   "icon_hint": "ballot"
+  },
+  {
+   "id": "surrey_transit",
+   "label": {
+    "1": "Trains and buses in Surrey",
+    "3": "SkyTrain and transit in Surrey",
+    "5": "Surrey-Langley SkyTrain and TransLink funding"
+   },
+   "icon_hint": "train"
+  },
+  {
+   "id": "surrey_safety",
+   "label": {
+    "1": "Keeping Surrey shops safe",
+    "3": "Extortion and policing in Surrey",
+    "5": "Surrey extortion, SPS transition and bail"
+   },
+   "icon_hint": "store"
+  },
+  {
+   "id": "surrey_growth",
+   "label": {
+    "1": "Surrey's hospital and schools",
+    "3": "Surrey's hospital, ER and schools",
+    "5": "Surrey health and school capacity"
+   },
+   "icon_hint": "hospital"
+  }
+ ]
+}

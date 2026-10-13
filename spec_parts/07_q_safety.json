@@ -1,0 +1,210 @@
+[
+  {
+    "id": "q_public_safety",
+    "issue_id": "safety",
+    "scope": "provincial",
+    "prompt": {
+      "1": "What should the government do about crime and safety?",
+      "2": "People worry about break-ins, threats against shop owners and people who keep breaking the law. What should the province do?",
+      "3": "What should the province do about crime and public safety?",
+      "4": "The federal government sets bail law, while the province pays for police, prosecutors and courts. Which approach should BC take?",
+      "5": "The province controls police funding, prosecutor and court capacity and the Mental Health Act, and can lobby Ottawa on bail (Bill C-14). Which provincial approach do you prefer?"
+    },
+    "context": {
+      "1": "The province pays for police and courts. Parties disagree on what to do about crime. One party wants to keep today's programs. Others want many more police, a special unit against threats to businesses, or a crackdown on people who keep committing violent crimes.",
+      "2": "The province pays for police, prosecutors (the lawyers who charge people with crimes) and courts. The federal government sets the bail rules that decide who is released before trial, so BC parties can only ask for changes. Parties differ on whether to hire many more police, add special units, or keep and grow current programs.",
+      "3": "Crime is a mid-level concern for voters. The Conservatives promise many more police, prosecutors and judges. The NDP government would keep current funding and expand a program aimed at people who commit many crimes. CentreBC promises 500 more Mounties, 60 more prosecutors and a permanent task force against extortion, which is when criminals threaten business owners for money. OneBC targets repeat violent offenders. The Greens have published no plan.",
+      "4": "The Crime Severity Index, a Statistics Canada measure of police-reported crime, fell from 104.6 in 2023 to 92.4 in 2025. Violent crime still rose 2.2% last year and about a third since 2017. Provincial figures show extortion fell 7% in 2025. Because bail law is federal, the province's main tools are funding for police, prosecutors and courts. The NDP has made no numeric police pledge. The Conservative plan for about 1,000 new positions has no published cost. CentreBC puts its plan at about $1.8 billion over four years.",
+      "5": "The Crime Severity Index fell from 104.6 in 2023 to 92.4 in 2025, but the violent crime index rose 2.2% in 2025 and 31.7% since 2017, according to a Fraser Institute analysis of Statistics Canada data. Extortion fell 7% province-wide in 2025. The NDP government funded police through the $230 million Safer Communities plan in 2022 and $560 million over three years in Budget 2025, but has made no numeric police pledge. The Conservative plan adds about 1,000 positions, has no published cost and does not mention extortion. CentreBC's plan adds 500 Royal Canadian Mounted Police (RCMP) officers and 60 Crown prosecutors for about $1.8 billion over four years, by the party's own costing. The Greens have published no plan. Bail and sentencing law are federal."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Hire many more police and court workers, and publish numbers on repeat crime.",
+          "2": "Hire hundreds more police, prosecutors and judges, and publish numbers on repeat crime and on who gets bail.",
+          "3": "Hire many more police, prosecutors and judges, and publish data on repeat offending and bail.",
+          "4": "Create about 1,000 new positions for police, rural RCMP, prosecutors, judges and sheriffs, plus public dashboards on repeat offending and bail.",
+          "5": "Add 250 police officers, 500 rural RCMP plus 150 civilian staff, 50 Crown prosecutors and 20 trial judges, with public reporting on repeat offending and bail."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 4,
+          "green": 2,
+          "centrebc": 3,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "Make the police unit against threats to businesses permanent, and add downtown safety teams.",
+          "2": "Make the unit fighting threats against businesses permanent, add a port crime unit and prosecutors, and fund downtown safety patrols.",
+          "3": "Make the extortion task force permanent, add a port police team and 60 prosecutors, double repeat-offender enforcement, review bail, and fund downtown safety teams.",
+          "4": "Make the extortion task force permanent with its own budget, create a 40-officer port team, add 60 Crown prosecutors, double repeat-offender enforcement, review bail independently, and fund safety teams in 20 downtowns.",
+          "5": "Make the extortion task force permanent, build a 40-officer port team with border services and the RCMP, hire 60 Crown prosecutors by 2030/31, double repeat-offender enforcement to $26 million a year, review bail before 2028, and fund 20 downtowns."
+        },
+        "scores": {
+          "ndp": 2,
+          "conservative": 2,
+          "green": 2,
+          "centrebc": 4,
+          "onebc": 1
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Keep today's police funding and programs, and ask the federal government for tougher bail.",
+          "2": "Keep current funding, expand the repeat-offender program, press the federal government on bail, and fund protection from hate crimes.",
+          "3": "Keep current funding, expand the repeat-offender program across BC, press the federal government on bail, and counter extremism.",
+          "4": "Keep current funding, expand the prolific offender program province-wide, lobby Ottawa for bail reform, and fund security against hate crimes.",
+          "5": "Maintain the $560 million in police funding, expand the prolific offender program province-wide, press Ottawa to pass Bill C-14 on bail, and fund security against hate crimes."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 1,
+          "green": 2,
+          "centrebc": 2,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Get tough on people who keep committing violent crimes, and ban masks at protests.",
+          "2": "Focus on repeat violent offenders, ban masks at protests, and refuse to take part in the federal gun buyback.",
+          "3": "Target repeat violent offenders, ban masks at protests, and keep BC out of the federal gun buyback.",
+          "4": "Target repeat violent offenders, pass a law banning masks at protests, and refuse the federal gun buyback, offering provincial gun storage instead.",
+          "5": "Focus on repeat violent offenders, ban protest masks by law, stay out of the federal firearms buyback with provincial storage instead, and make no new police, Crown or court commitments."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 2,
+          "green": 2,
+          "centrebc": 1,
+          "onebc": 4
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party would keep today's programs, grow the one for repeat offenders, and ask the federal government for tougher bail.",
+          "3": "The NDP government funded police through its Safer Communities plan, set up teams for repeat violent offenders and pushed Ottawa for bail reform. In this campaign it promises security funding for the Jewish community, a summit on extremism and a wider repeat-offender program. It makes no numeric police promise and says nothing about extortion.",
+          "5": "In government, the NDP put $230 million into Safer Communities in 2022, set up 12 hubs for repeat violent offenders and added $560 million over three years in Budget 2025. Its Bill 36 forced one city's switch to a municipal police force, funded at $30 million a year to 2029. It pressed Ottawa for the Bill C-14 bail reforms. In 2026 it promises $500,000 a year for Jewish community security, an extremism summit and a province-wide prolific offender program, but no numeric police pledge."
+        },
+        "basis": "both",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "BC NDP: Jewish community security and extremism summit (Oct 5, 2026)",
+            "url": "https://www.bcndp.ca/releases/bc-ndp-commits-jewish-community-security-investment-and-summit-confront-organized-hate"
+          },
+          {
+            "label": "Kelowna Capital News: Eby on repeat property offenders (Oct 2, 2026)",
+            "url": "https://kelownacapnews.com/2026/10/02/eby-announces-b-c-grocery-price-guard-social-disorder-during-kelowna-visit/"
+          },
+          {
+            "label": "BC Government: Crime Severity Index release (Jul 22, 2026)",
+            "url": "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026PSSG0064-000862.htm"
+          },
+          {
+            "label": "Votes and Proceedings, October 25, 2023 (Bill 36)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231025.htm"
+          },
+          {
+            "label": "Justice Canada: Eby and federal bail reform (Oct 2025)",
+            "url": "https://www.canada.ca/en/department-justice/news/2025/10/minister-fraser-premier-eby-and-attorney-general-sharma-underscore-collaboration-behind-canadas-new-bail-and-sentencing-reforms.html"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party would hire many more police and court workers and publish numbers on repeat crime.",
+          "3": "The Conservatives' Safe Streets plan adds 250 police officers, 500 rural Mounties plus 150 civilian staff, 50 prosecutors and help paying for 20 judges, and would report on repeat offending and bail. The plan has no published cost and does not mention extortion. Bail law is set by the federal government.",
+          "5": "The Safe Streets plan (October 2026) adds 250 police officers through the Justice Institute of British Columbia, 500 rural RCMP officers and 150 civilian staff over five years, 50 Crown prosecutors, 20 co-funded federal trial judges and more sheriffs, about 1,000 hires in all. It would report on repeat offending, bail and court delays. It has no published cost and does not mention extortion. BC Liberal members, the party's predecessors in opposition, voted against Bill 36."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "Conservative Party of BC: Safe Streets for BC",
+            "url": "https://conservativebc.ca/safe-streets-for-bc/"
+          },
+          {
+            "label": "Langley Advance Times: Conservative plan to hire more police (Oct 6, 2026)",
+            "url": "https://langleyadvancetimes.com/2026/10/06/b-c-conservatives-plan-to-hire-more-police-stop-illegal-drug-use-in-hospitals-shelters/"
+          },
+          {
+            "label": "Fraser Institute: violent crime index commentary",
+            "url": "https://www.fraserinstitute.org/commentary/crime-stats-belie-bc-governments-safer-province-claims"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party has no published safety plan, so it is not scored here. It says better housing and health care support public safety.",
+          "3": "The Greens have published no public safety or policing plan, so they are not scored here. Their drug policy paper says more supervised drug-use sites would reduce public drug use and 'support public safety'.",
+          "5": "The Greens have no public safety or policing commitment (BC Ballot, October 9), so this question leaves them out of the Green score. Their drug policy brief says supervised consumption and inhalation sites would 'support public safety', alongside supportive housing and voluntary care. They voted against Armstrong's Drug Recovery and Community Safety Act in a vote that ended 84-2. They take no position on police numbers, bail, extortion or courts."
+        },
+        "basis": "platform",
+        "confidence": "low",
+        "sources": [
+          {
+            "label": "BC Ballot: BC Green commitments (no public safety item)",
+            "url": "https://bcballot.ca/platforms/bc-green-party/"
+          },
+          {
+            "label": "BC Greens Toxic Drugs Policy Brief 2026 (PDF)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf"
+          }
+        ],
+        "no_position": true
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party wants more police and prosecutors, a permanent unit against threats to businesses, and safety teams downtown.",
+          "3": "CentreBC's October 10 platform adds 500 provincial Mounties over five years and 60 prosecutors, makes the extortion task force permanent, creates a port police team, doubles repeat-offender enforcement, orders an independent bail review with public data and funds safety teams in 20 downtowns. The party puts the cost at about $1.8 billion over four years.",
+          "5": "The platform (pages 26-29) adds 100 provincial RCMP officers a year for five years and 60 Crown prosecutors by 2030/31. It doubles repeat-offender enforcement to about $26 million a year, makes the extortion task force permanent, and creates a 40-officer port team with border services and the RCMP. A bail review would report before 2028 with quarterly data, and a Safe Downtowns Fund would reach 20 downtowns by 2028. The party puts the cost at about $1.8 billion plus $255 million in capital. Leader Sturko is a former RCMP officer."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 26-29)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "CentreBC: three-step anti-extortion plan (November 2025, not repeated in the platform)",
+            "url": "https://www.centrebc.ca/news/news-release/centrebc-unveils-3-step-plan-to-crush-transnational-extortion-terrorizing-surrey/"
+          },
+          {
+            "label": "CentreBC: leader biography",
+            "url": "https://www.centrebc.ca/leader/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party would get tough on people who keep committing violent crimes and ban masks at protests.",
+          "3": "OneBC would focus on repeat violent offenders, ban masks at protests, keep BC out of the federal firearms buyback and run a provincial gun storage program instead. It has no plan for police numbers, prosecutors or courts.",
+          "5": "OneBC's priorities are to crack down on repeat and violent offenders, ban masks at protests, keep the province out of the federal firearms buyback with a provincial storage program if needed, and 'end the importation of foreign grievances'. It has made no commitments on police numbers, Crown prosecutors, courts or extortion."
+        },
+        "basis": "platform",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "BC Ballot: platform comparison",
+            "url": "https://bcballot.ca/platforms/"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "Four options. a = Conservative (4); CentreBC 3 (500 RCMP, 60 Crown and public dashboards match most of the list; no municipal police or judges pledge); OneBC 2 (tough-on-crime direction, but no hiring, Crown or court pledge); NDP 1 (funds police but makes no numeric pledge and did not expand Crown capacity on this scale). b = CentreBC's targeted model from its platform (4): permanent task force, port team, prosecutors, doubled repeat-offender programs, bail review, downtown teams; the Surrey application is scored in the local extortion question; NDP 2 (it created the task force and the SITE and CSTEP programs, but has no permanent budget, port team or Crown numbers); Conservative 2 (50 prosecutors and bail reporting overlap; no extortion or port item); OneBC 1. Option b was rewritten on October 10 from the November 2025 Surrey plan; other parties' scores on it were kept. c = NDP record (4); CentreBC 2 (keeps and doubles the offender programs, but a bail review rather than continuity, and silent on the SPS); Conservative 1 (opposes continuity, calls the record a failure); OneBC 0. d = OneBC (4); Conservative 2 (repeat offender focus, no mask ban or buyback position); CentreBC 1 (repeat-offender enforcement, no mask ban or buyback stance). The Greens have no published safety position and are excluded from this question (no_position); the earlier prevention-first option that existed only to house an inferred Green score was removed. Symmetry: Conservative on d (2) and OneBC on a (2)."
+  }
+]

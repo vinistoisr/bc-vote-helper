@@ -1,0 +1,238 @@
+[
+  {
+    "id": "q_dripa",
+    "issue_id": "dripa",
+    "scope": "provincial",
+    "prompt": {
+      "1": "A BC law says provincial laws must respect Indigenous rights. What should happen to it?",
+      "2": "A 2019 law says BC's laws should match Indigenous peoples' rights. What should happen to it now?",
+      "3": "After a 2025 court ruling, what should BC do with the Declaration on the Rights of Indigenous Peoples Act?",
+      "4": "Should BC repeal, amend, replace, keep or strengthen the Declaration on the Rights of Indigenous Peoples Act (DRIPA)?",
+      "5": "Which legislative response to the Declaration on the Rights of Indigenous Peoples Act (DRIPA) do you support after the Gitxaala ruling?"
+    },
+    "context": {
+      "1": "In 2019, BC lawmakers passed a law, with no one voting against, saying BC's laws should respect Indigenous peoples' rights. In 2025, a court said judges can check BC's laws against it. Parties disagree on what to do. First Nations keep their rights either way.",
+      "2": "In 2019, BC passed a law promising to bring its laws in line with the United Nations declaration on Indigenous peoples' rights. In 2025, a court ruled that judges can check BC's laws against it. Supporters say the law builds fairness and trust. Critics say it leads to court cases and uncertainty. First Nations keep their rights either way.",
+      "3": "The Declaration on the Rights of Indigenous Peoples Act passed in 2019 with no votes against. It commits BC to bring its laws in line with the United Nations Declaration on the Rights of Indigenous Peoples. In 2025 the BC Court of Appeal ruled that this promise can be enforced in court. Repealing the law would not end the province's duty to consult First Nations or their land title cases, because those rest on section 35 of Canada's Constitution.",
+      "4": "The Declaration on the Rights of Indigenous Peoples Act (DRIPA) passed unanimously in 2019. In December 2025, in a case brought by the Gitxaala Nation, the BC Court of Appeal held that courts can assess whether provincial laws are consistent with it. The Premier then proposed suspending the law for three years, but withdrew the bill in April 2026. In an Angus Reid poll in May 2026, 47% supported repeal and 33% opposed it. Repeal would not end the duty to consult, which rests on section 35 of the Constitution.",
+      "5": "DRIPA (Bill 41) passed 82 to 0 in 2019. Under section 7 of the act, BC has signed consent agreements with First Nations, including the Tahltan in 2022 and one for Eskay Creek in January 2026. In Gitxaala v. British Columbia (2025 BCCA 430), the Court of Appeal ruled 2 to 1 that DRIPA duties can be enforced in court, and the Supreme Court of Canada agreed in May 2026 to hear an appeal. In Cowichan Tribes (2025 BCSC 1490), the BC Supreme Court found Aboriginal title under section 35 that includes privately owned land; that ruling is under appeal. The government withdrew its suspension bill on April 13, 2026. A petition to repeal DRIPA can be signed from October 26, 2026 to January 25, 2027."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "End the law, and stop new deals that give First Nations land or money.",
+          "2": "Cancel the law, declare that the United Nations declaration does not apply in BC, and stop land and money transfers.",
+          "3": "Repeal the law, declare the United Nations Declaration of no effect in BC, and stop voluntary land and money transfers.",
+          "4": "Repeal DRIPA, declare the UN Declaration (UNDRIP) of no force in BC, end voluntary cash, land and resource transfers, and seek repeal of the Indian Act.",
+          "5": "Repeal DRIPA and section 8.1 of the Interpretation Act, declare UNDRIP of no force in BC, freeze voluntary transfers, and repeal the Indian Act."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 2,
+          "green": 0,
+          "centrebc": 1,
+          "onebc": 4
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "End the law, but keep partnering with First Nations on projects and jobs.",
+          "2": "Cancel the law, but keep making project deals with First Nations that create jobs and shared ownership.",
+          "3": "Repeal the law and rely instead on project partnerships and First Nations ownership stakes, with no new law to replace it.",
+          "4": "Repeal DRIPA, pursue economic reconciliation through project partnerships and First Nations equity, and pass no replacement law.",
+          "5": "Repeal DRIPA and pursue economic reconciliation through LNG and project equity with First Nations, while section 35 duties continue."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 3,
+          "onebc": 3
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Keep the law, but stop judges from using it to strike down other laws.",
+          "2": "Keep the law, but change it, working with First Nations, so courts cannot strike down other laws.",
+          "3": "Amend the law, in talks with First Nations, so courts cannot use it to strike down other laws.",
+          "4": "Amend DRIPA so courts cannot enforce the duty to align laws, keep consent agreements, and negotiate the change with First Nations leaders.",
+          "5": "Amend the DRIPA alignment duty and the Interpretation Act provision so courts cannot enforce them, keep section 7 agreements, and negotiate with the First Nations Leadership Council."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 1,
+          "green": 1,
+          "centrebc": 2,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Replace the law with a new one based on treaties, and protect people's homes.",
+          "2": "Replace the law with one focused on reaching treaties, and promise no family loses their home over a land ruling.",
+          "3": "Repeal the law and replace it with a treaty-based law, protect private land and homeowners, and let the legislature, not courts, decide.",
+          "4": "Repeal DRIPA and replace it with a treaty-based law: $30 million a year for treaty talks, homeowner compensation after title rulings, no private land transferred without a willing owner, and deals published before signing.",
+          "5": "Repeal DRIPA and section 8.1 of the Interpretation Act, pass a treaty-based law funded at $30 million a year, treat UNDRIP 'as a guide', compensate homeowners up to assessed value, and publish agreements 60 days before signing."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 3,
+          "green": 0,
+          "centrebc": 4,
+          "onebc": 2
+        }
+      },
+      {
+        "id": "e",
+        "text": {
+          "1": "Make the law stronger, with a clear plan and public education about it.",
+          "2": "Make the law stronger, with a clear plan to carry it out, public education and expert advisers.",
+          "3": "Strengthen the law with a new law setting out how to carry it out, public education, and an expert advisory committee.",
+          "4": "Pass a law to carry out DRIPA, fund public education, create an expert advisory committee, and oppose any suspension or weakening.",
+          "5": "Pass a DRIPA Implementation Act that sets out alignment and reporting, fund public education, create an expert advisory committee, oppose suspension, and follow the First Nations Leadership Council proposal."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 0,
+          "onebc": 0
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party passed the law. It now wants to change it, working with First Nations, so courts cannot strike down other laws.",
+          "3": "The NDP passed the law in 2019. After a 2025 court ruling, it proposed suspending the law for three years, then dropped the idea when one of its own members of the legislature and First Nations leaders objected. It says it must amend the law so courts cannot strike down other laws, but has published no wording.",
+          "5": "The NDP passed Bill 41 in 2019 (82 to 0) and has signed section 7 consent agreements, including Eskay Creek in January 2026. After the Gitxaala ruling it warned of 'unlimited legal liability'. It tabled a suspension bill on April 2, framed as a confidence vote, and withdrew it on April 13. On April 20 it and the First Nations Leadership Council promised a solution 'before the fall legislative session'. Its platform has no Indigenous item. Its Bills 14 and 15 (2025) passed over First Nations objections."
+        },
+        "basis": "both",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "The Narwhal: DRIPA in the 2026 election (Oct 7, 2026)",
+            "url": "https://thenarwhal.ca/bc-election-2026-dripa/"
+          },
+          {
+            "label": "The Tyee: BC backs off DRIPA amendments (Apr 14, 2026)",
+            "url": "https://thetyee.ca/News/2026/04/14/BC-Backs-Off-DRIPA-Amendments/"
+          },
+          {
+            "label": "FNLC and Premier joint statement (Apr 2026)",
+            "url": "https://www.fnlc.ca/premiers-first-nations-leadership-council-statement-about-dripa/"
+          },
+          {
+            "label": "BC Government: Eskay Creek approved under first section 7 consent agreement",
+            "url": "https://news.gov.bc.ca/releases/2026MCM0008-000078"
+          },
+          {
+            "label": "Votes and Proceedings, November 26, 2019 (Bill 41, 82-0)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/41st4th/votes/v191126.htm"
+          },
+          {
+            "label": "The Narwhal: the rushed DRIPA amendments (April 2026 suspension bill)",
+            "url": "https://thenarwhal.ca/bc-declaration-act-rushed-amendments/"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party wants to end the law and work with First Nations on business projects instead.",
+          "3": "Interim leader Lorne Doerkson says, 'I will repeal DRIPA.' The party promises project partnerships with First Nations instead, with no replacement law. Many of its sitting members were BC Liberals who voted for the law in 2019.",
+          "5": "The Conservative plan page 'Repeal DRIPA, Promote Economic Reconciliation' (October 7) promises repeal with no replacement law, plus First Nations ownership stakes in LNG. It takes no position on section 7 agreements or private property. Its BC Liberal predecessors, including Rustad, did not oppose Bill 41, which passed 82 to 0; Rustad says he had 'no choice'. The 2024 platform also pledged repeal."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "Conservative Party of BC: Repeal DRIPA plan page",
+            "url": "https://conservativebc.ca/plan/first-nations-dripa/"
+          },
+          {
+            "label": "The Tyee: Rustad on his 2019 DRIPA vote (Feb 10, 2026)",
+            "url": "https://thetyee.ca/News/2026/02/10/First-Nations-Would-Not-Exist-Without-Canada-Rustad/"
+          },
+          {
+            "label": "Votes and Proceedings, October 29, 2025 (Property Rights Protection Act)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251029.htm"
+          },
+          {
+            "label": "The Narwhal: DRIPA explainer (repeal would not end duty to consult)",
+            "url": "https://thenarwhal.ca/bc-declaration-act-explainer/"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party wants to make the law stronger and teach the public about it.",
+          "3": "The Greens would pass a law setting out how to carry out the Declaration Act, fund public education and create an expert advisory committee. They opposed the NDP's suspension plan; leader Emily Lowan said a government weakening Indigenous rights 'cannot expect our support'.",
+          "5": "The Greens committed on September 30 and October 7 to implementation legislation, public education funding and an expert advisory committee. Botterell said a suspension would increase litigation and erode trust. The Greens backed Bill 41 in 2019 under their agreement with the NDP, voted against Bills 14 and 15 in 2025, partly over consultation, and named the DRIPA dispute as a reason for ending the NDP accord in February 2026."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "BC Ballot: DRIPA and Indigenous relations explainer",
+            "url": "https://bcballot.ca/platforms/issues/dripa-and-indigenous-relations/"
+          },
+          {
+            "label": "CP24: Lowan on weakening Indigenous rights (Feb 9, 2026)",
+            "url": "https://www.cp24.com/news/canada/2026/02/09/bc-greens-wont-renew-accord-with-ndp-citing-stalled-undelivered-promises/"
+          },
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan/"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party now wants to replace the law with one based on treaties, and to protect people's homes.",
+          "3": "CentreBC's platform would repeal the law and replace it with one built on negotiated treaties, with $30 million a year for treaty talks, compensation for homeowners hit by title rulings and no private land transferred without a willing owner. The legislature, not courts, would decide how laws reflect the United Nations Declaration. In August 2026 it called repeal 'political messaging'.",
+          "5": "A first-session bill would repeal DRIPA and section 8.1 of the Interpretation Act and pass a treaty-based law with $30 million a year for treaty and overlap talks and a yearly treaty report. UNDRIP would be 'a guide', and section 35 and the duty to consult stay. Homeowners get compensation up to assessed value after title rulings, with no private-land agreements until the Cowichan appeals end. Agreements are published 60 days before signing. On August 13 the party had rejected repeal as 'political messaging'."
+        },
+        "basis": "platform",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 8-9, 32, 35-36)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "CentreBC: Reconciliation, Certainty and Prosperity (Aug 13, 2026, superseded)",
+            "url": "https://www.centrebc.ca/news/statement-reconciliation-certainty-and-prosperity/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party would end the law and stop new land and money deals with First Nations.",
+          "3": "OneBC would repeal the law, declare the United Nations Declaration of no effect in BC, stop voluntary transfers of cash, land and resource control, end mandatory land acknowledgements, and seek to repeal the Indian Act.",
+          "5": "OneBC would repeal DRIPA, declare UNDRIP of no force in BC, end voluntary transfers, repeal the Indian Act and turn reserves into townships, and 'defund the reconciliation industry'. A ban on land acknowledgements was defeated 88 to 5, and its Property Rights Protection Act was defeated 40 to 48 in 2025. Brodie was removed from the Conservative caucus in 2025 over posts about residential school burial claims."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "Wikipedia: OneBC (secondary)",
+            "url": "https://en.wikipedia.org/wiki/OneBC_(political_party)"
+          },
+          {
+            "label": "Votes and Proceedings, October 29, 2025",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251029.htm"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "Four repeal-or-not positions plus a strengthen option. a = OneBC (4); Conservatives 2: they share repeal but have not endorsed declaring UNDRIP void, ending transfers or Indian Act repeal, and their first-reading yea on the property-rights bill is treated as procedural, the same rule applied to first-reading votes everywhere in this bank; CentreBC 1 (also repeals DRIPA and s. 8.1, but keeps UNDRIP as a guide and funds more treaties, the opposite of a transfer moratorium). b = Conservative (4); OneBC 3 (repeal, but it opposes voluntary transfers that partnerships may involve); CentreBC 3 (repeal plus economic reconciliation and equity financing, but with a replacement statute and treaty funding the Conservatives have not proposed). c = NDP (4), scored on its stated post-Gitxaala intent and April record rather than on the 2019 law; CentreBC 2 (shares the aim of taking courts out of alignment, but by repeal rather than amendment); Conservative 1 and Green 1 (both reject amendment as the answer, from opposite directions). d = CentreBC's platform (4): repeal and replace with a treaty-based law, homeowner compensation, publication rules; Conservative 3 (repeal and economic reconciliation overlap, no replacement law or compensation scheme); OneBC 2 (repeal and s. 8.1 match, private-land protection, but it opposes the treaty transfers the law would fund); NDP 1 (continues treaty talks and wants courts out of alignment, rejects repeal); Green 0. e = Green (4); NDP 1 (it built the consent-agreement practice but is moving the other way); CentreBC 0 (repeal is the opposite of strengthening). Option d was rewritten on October 10 when CentreBC reversed its August 'no repeal' stance, so every party was re-scored on it (NDP 2 to 1, Conservative 0 to 3, Green 2 to 0, OneBC 0 to 2). Confidence: NDP medium because the amendment text does not exist; CentreBC high (platform text)."
+  }
+]

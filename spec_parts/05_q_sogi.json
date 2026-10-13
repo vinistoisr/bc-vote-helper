@@ -1,0 +1,213 @@
+[
+  {
+    "id": "q_sogi",
+    "issue_id": "sogi",
+    "scope": "provincial",
+    "prompt": {
+      "1": "What should schools teach about gender and different kinds of families?",
+      "2": "Some BC schools use SOGI 123, teaching materials about sexual orientation, gender identity and families. What should the province do?",
+      "3": "Should the province repeal, step back from, keep or expand SOGI 123, optional school materials on sexual orientation and gender identity?",
+      "4": "SOGI 123 (sexual orientation and gender identity) is optional and chosen by each school district, and provincial funding for its creator ends in 2026-27. What should BC do?",
+      "5": "SOGI 123 is an optional, district-selected sexual orientation and gender identity (SOGI) resource from the ARC Foundation (2016). Choose the provincial stance you support."
+    },
+    "context": {
+      "1": "Some schools use lessons about gender and different kinds of families. Each school district decides whether to use them. The government is ending its funding for the group that made them. Everyone wants kids safe at school. People disagree on who should choose these lessons.",
+      "2": "SOGI 123 is a set of optional teaching materials about sexual orientation and gender identity. Each school district chooses whether to use it. Supporters say it reduces bullying. Critics say families should decide what children learn about gender. The province is ending its funding for the group that created it.",
+      "3": "SOGI 123 is an optional set of school materials on sexual orientation and gender identity, first released in 2016. The Conservatives and OneBC would repeal it. The NDP government is ending funding for the group that created it but keeps anti-bullying work. The Greens support it 'unequivocally'. CentreBC opposes repealing anti-discrimination protections but has not committed to SOGI 123.",
+      "4": "SOGI 123 is optional, and each district chooses whether to use it. The Conservatives would repeal it but have not said how they would end a resource that is not required. OneBC would also pass a Parental Bill of Rights. Premier Eby says 'it's up to the teachers'. The Greens would expand it. CentreBC opposes repealing rights protections. Pronoun rules and parental notification are not scored, because the parties have no 2026 positions on them.",
+      "5": "The Conservative plan says it would repeal SOGI but names no mechanism. Its 2024 platform promised to remove SOGI-derived lesson plans, a zero-tolerance anti-bullying policy and parental notification of suicidal intent. The NDP government cut ARC Foundation funding from $350,000 to $0 by 2026-27, and the ministry says the resources stay online. OneBC's bill on pronouns and puberty blockers was defeated 48 to 40. The Greens would expand SOGI 123 and fund one counsellor per 250 students. CentreBC would not repeal anti-discrimination law. The Human Rights Code has covered gender identity since 2016."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "1": "Remove all lessons on gender identity from schools, and pass a parents' rights law.",
+          "2": "Remove SOGI 123 and all lessons on gender identity, and pass a law on parents' rights.",
+          "3": "Repeal SOGI 123, remove all gender-identity content from schools, and pass a parental rights law.",
+          "4": "Repeal SOGI 123, remove all gender-identity content from curriculum and resources, and pass a Parental Bill of Rights.",
+          "5": "Repeal SOGI 123, remove all gender-identity content from kindergarten to Grade 12, and pass a Parental Bill of Rights."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 3,
+          "green": 0,
+          "centrebc": 0,
+          "onebc": 4
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "1": "End these lessons, focus on reading and math, and keep every student safe.",
+          "2": "End SOGI 123, focus on reading, writing and math, and keep every student safe from bullying.",
+          "3": "Repeal SOGI 123, refocus schools on reading, writing and math, and keep schools safe for all students.",
+          "4": "Repeal SOGI 123, replace it with general anti-bullying rules, and refocus on reading, writing and math.",
+          "5": "Repeal SOGI 123, remove derived lesson plans and policy guides, adopt zero-tolerance anti-bullying rules, and refocus on reading, writing and arithmetic."
+        },
+        "scores": {
+          "ndp": 0,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 0,
+          "onebc": 3
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "1": "Keep laws against discrimination, and let each school district choose its own lessons.",
+          "2": "Keep laws against discrimination, let districts and teachers choose materials, and have the province fund no specific program.",
+          "3": "Keep anti-discrimination protections, let districts and teachers choose resources, and fund no specific program.",
+          "4": "Keep the Human Rights Code and anti-bullying policies, leave SOGI 123 as an optional district resource without provincial funding, and let teachers lead.",
+          "5": "Leave the Human Rights Code unchanged, keep SOGI 123 available for districts to choose, give its creator no provincial funding, and add no new gender-identity policy."
+        },
+        "scores": {
+          "ndp": 4,
+          "conservative": 1,
+          "green": 2,
+          "centrebc": 4,
+          "onebc": 0
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "1": "Keep these lessons, use them in more schools, and hire more school counsellors.",
+          "2": "Keep SOGI 123, use it in more schools, and hire more school counsellors.",
+          "3": "Fully support and expand SOGI 123, and hire more school counsellors.",
+          "4": "Fully support and expand SOGI 123, and fund one school counsellor per 250 students.",
+          "5": "Continue and expand SOGI 123, fund one counsellor per 250 students, and close the inclusive education funding gap."
+        },
+        "scores": {
+          "ndp": 1,
+          "conservative": 0,
+          "green": 4,
+          "centrebc": 2,
+          "onebc": 0
+        }
+      }
+    ],
+    "party_positions": {
+      "ndp": {
+        "text": {
+          "1": "This party keeps the laws against discrimination but is ending funding for the group that made the lessons. Teachers choose.",
+          "3": "The NDP government is ending funding for the ARC Foundation, which created SOGI 123. It says the materials stay online, districts choose, and anti-bullying work continues. In 2024 it passed a law creating protest-free zones around schools. It has no 2026 platform item on SOGI.",
+          "5": "The NDP cut ARC Foundation funding from $350,000 (2024-25) to $200,000 (2025-26) to $0 (2026-27), citing 'expenditure management'; the ministry says SOGI 123 is 'not defunded' and stays online. Its Safe Access to Schools Act (2024) set protest-free zones around schools. Eby says it is 'up to the teachers'. It voted against the gender-identity and Human Rights Code repeal bills and has no position on pronouns, parental notification or athletes."
+        },
+        "basis": "both",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "CBC via Yahoo: where BC parties stand on SOGI 123 (Sept 28, 2026)",
+            "url": "https://ca.news.yahoo.com/where-b-c-provincial-political-130000614.html"
+          },
+          {
+            "label": "Castanet: province ends ARC Foundation funding",
+            "url": "https://www.castanetkamloops.net/news/Kamloops/627143/SD73-schools-wont-feel-change-as-province-ends-funding-for-ARC-Foundation-superintendent"
+          },
+          {
+            "label": "Votes and Proceedings, February 26, 2026",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260226.htm"
+          }
+        ]
+      },
+      "conservative": {
+        "text": {
+          "1": "This party would end these lessons, focus on reading and math, and keep students safe.",
+          "3": "The Conservatives would repeal SOGI 123 and refocus on 'arithmetic and reading', but have not said how they would end an optional resource. In 2026 most of their members voted to let bills on gender identity and on repealing the Human Rights Code be introduced, calling that a procedural step.",
+          "5": "The Safe Schools plan would repeal SOGI but names no mechanism. The 2024 platform promised to remove SOGI-derived lesson plans and policy guides, adopt zero-tolerance anti-bullying rules and notify parents of suicidal intent. Most Conservative MLAs voted to give first reading to a gender-identity bill (defeated 38 to 49) and the Human Rights Code Repeal Act (37 to 50), calling it caucus practice. SOGI 123 began under the BC Liberal government while Rustad was a minister."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "Conservative Party of BC: Safe Schools plan",
+            "url": "https://conservativebc.ca/plan/safe-schools/"
+          },
+          {
+            "label": "CBC via Yahoo: where BC parties stand on SOGI 123 (Doerkson on 'arithmetic and reading')",
+            "url": "https://ca.news.yahoo.com/where-b-c-provincial-political-130000614.html"
+          },
+          {
+            "label": "Global News: 2024 Conservative platform (SOGI pledges)",
+            "url": "https://globalnews.ca/news/10812384/affordability-safety-scrapping-carbon-price-bc-conservatives-full-platform"
+          },
+          {
+            "label": "Rocky Mountain Goat: Conservatives on the Human Rights Code Repeal Act first reading",
+            "url": "https://therockymountaingoat.com/2026/03/bird-conservatives-vote-to-give-first-reading-to-human-rights-code-repeal-act/"
+          },
+          {
+            "label": "Votes and Proceedings, February 19, 2026",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260219.htm"
+          }
+        ]
+      },
+      "green": {
+        "text": {
+          "1": "This party wants to keep these lessons, use them in more schools, and hire more school counsellors.",
+          "3": "The Greens support SOGI 123 'unequivocally' and would expand it and fund one counsellor per 250 students. Their members voted against every bill on gender identity and on repealing the Human Rights Code.",
+          "5": "The Greens 'unequivocally support SOGI 123' and would continue and expand it, fund one counsellor per 250 students and close the inclusive education funding gap. They voted against the Gender Ideology and Child Protection Act, the Human Rights Code Repeal Act and the October 2025 transition bill."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "CBC via Yahoo: parties on SOGI 123",
+            "url": "https://ca.news.yahoo.com/where-b-c-provincial-political-130000614.html"
+          },
+          {
+            "label": "BC Ballot: BC Green education commitments",
+            "url": "https://bcballot.ca/platforms/bc-green-party/"
+          }
+        ]
+      },
+      "centrebc": {
+        "text": {
+          "1": "This party supports laws against discrimination for every student but has not promised to fund these lessons.",
+          "3": "CentreBC's Elenore Sturko said on September 28 that she opposes repealing any anti-discrimination law. The October 10 platform does not mention SOGI 123, gender identity or parental rights, so that statement stands. The platform adds one counsellor per 400 students and a Children's Well-Being Act, with no commitment to fund or expand SOGI 123.",
+          "5": "Sturko told CBC on September 28, 2026 that she opposes repealing anti-discrimination law, and CentreBC voted against the Gender Ideology and Child Protection Act and the Human Rights Code Repeal Act. The platform (pages 20-24) says nothing on SOGI 123, gender identity, parental notification or pronouns. It promises one counsellor per 400 students by 2030, 1,500 education assistants and a Children's Well-Being Act. The party is scored on the September statement and the platform's silence."
+        },
+        "basis": "both",
+        "confidence": "medium",
+        "sources": [
+          {
+            "label": "CBC via Yahoo: parties on SOGI 123",
+            "url": "https://ca.news.yahoo.com/where-b-c-provincial-political-130000614.html"
+          },
+          {
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 20-24; no SOGI item)",
+            "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
+          },
+          {
+            "label": "Penticton Western News: Sturko on why she cannot return to the Conservatives",
+            "url": "https://pentictonwesternnews.com/2026/09/22/surreys-elenore-sturko-is-the-sole-incumbent-mla-for-centrebc-ahead-of-election/"
+          }
+        ]
+      },
+      "onebc": {
+        "text": {
+          "1": "This party wants all lessons on gender identity out of schools, with parents deciding at home.",
+          "3": "OneBC would repeal SOGI 123, 'remove all gender ideology content' from classrooms, and pass a Parental Bill of Rights. Its bill to stop puberty blockers for minors and to bar use of the 'wrong pronoun' in schools was defeated.",
+          "5": "OneBC would repeal SOGI 123, remove gender ideology content and pass a Parental Bill of Rights. Its October 2025 bill to stop puberty blockers for minors, bar wrong-pronoun use and ban public funds for transition was defeated 48 to 40, and the Gender Ideology and Child Protection Act was defeated 38 to 49. It is not running candidates against eight Conservatives who share its views on SOGI."
+        },
+        "basis": "both",
+        "confidence": "high",
+        "sources": [
+          {
+            "label": "OneBC priorities",
+            "url": "https://1bc.ca/priorities"
+          },
+          {
+            "label": "CTV: puberty blocker bill defeated",
+            "url": "https://www.ctvnews.ca/vancouver/article/bc-bill-that-would-have-stopped-doctors-from-providing-puberty-blockers-defeated/"
+          },
+          {
+            "label": "CTV: OneBC stands aside for eight Conservatives",
+            "url": "https://www.ctvnews.ca/vancouver/article/onebc-pledges-not-to-run-against-eight-principled-bc-conservative-candidates/"
+          }
+        ]
+      }
+    },
+    "scoring_rationale": "Four options. a = OneBC (4); Conservatives 3 given the 2024 pledge to strip SOGI-derived materials, short of a Parental Bill of Rights in 2026. b = Conservative 2026 text (4); OneBC 3. c = the keep-protections, districts-choose, no-provincial-program position: NDP 4 on its record (kept the Human Rights Code and anti-bullying policy, cut ARC funding to $0, left districts to choose) and CentreBC 4 on its stated stance (opposes repeal of any anti-discrimination law, affirms inclusion, platform silent on SOGI 123); the two differ in tone, not in stated policy, so they score alike. Green 2 (keeps protections, wants more); Conservative 1 (its plan keeps the Code and ends the program); OneBC 0. d = Green (4); CentreBC 2 (no commitment either way; its counsellor pledge is 1:400, not 1:250); NDP 1 because the budget cut the funding regardless of campaign framing (record over rhetoric). First-reading votes on the 2026 private members' bills are described in the party records and positions but are not scored, consistent with the DRIPA question."
+  }
+]

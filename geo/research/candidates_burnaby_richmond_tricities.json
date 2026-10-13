@@ -1,0 +1,1355 @@
+{
+ "group": "burnaby_richmond_tricities",
+ "as_of": "2026-10-12",
+ "sources_checked": [
+  {
+   "label": "Elections BC 2026 candidate list (page)",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+  },
+  {
+   "label": "Elections BC 2026 candidate list (CSV, last modified 2026-10-10)",
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv"
+  },
+  {
+   "label": "Elections BC, candidates finalized news release",
+   "url": "https://elections.bc.ca/news/candidates-finalized-for-british-columbias-44th-provincial-general-election/"
+  },
+  {
+   "label": "Elections BC, 2024 Statement of Votes (PDF; used for valid-vote totals)",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+  },
+  {
+   "label": "BC Ballot (bcballot.ca) riding pages: communities, 2024 results, incumbent status",
+   "url": "https://bcballot.ca/ridings/burnaby-centre/"
+  },
+  {
+   "label": "Wikipedia, 2026 British Columbia general election (caucus changes, retirements)",
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia, Candidates of the 2026 British Columbia general election",
+   "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+  },
+  {
+   "label": "Wikipedia riding pages for 2024 vote tables (example: Richmond-Steveston; same pattern for the other 15 ridings)",
+   "url": "https://en.wikipedia.org/wiki/Richmond-Steveston"
+  },
+  {
+   "label": "BC Conservatives candidate pages",
+   "url": "https://conservativebc.ca/our-team/"
+  },
+  {
+   "label": "BC Greens 2026 candidate pages",
+   "url": "https://www.bcgreens.ca/candidates"
+  },
+  {
+   "label": "CentreBC candidate pages",
+   "url": "https://www.centrebc.ca/our-team/"
+  },
+  {
+   "label": "OneBC candidates page",
+   "url": "https://1bc.ca/candidates"
+  },
+  {
+   "label": "BC NDP site (candidate search is script-driven and returned no data; used BC NDP 2024 releases and Wikipedia instead)",
+   "url": "https://www.bcndp.ca/candidates"
+  },
+  {
+   "label": "Burnaby Board of Trade, Burnaby candidates 2026 (candidate-supplied bios)",
+   "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+  },
+  {
+   "label": "My Cariboo Now, CentreBC MLAs defect back to the B.C. Conservatives after snap election call (cited by Wikipedia; not fetched directly)",
+   "url": "https://www.mycariboonow.com/316418/news/politics/centrebc-mlas-defect-back-to-the-b-c-conservatives-after-snap-election-call/"
+  },
+  {
+   "label": "CTV News, Teresa Wat quits B.C. Conservatives (cited by Wikipedia; seen in search results)",
+   "url": "https://www.ctvnews.ca/vancouver/article/teresa-wat-quits-bc-conservatives-after-unfounded-allegations/"
+  }
+ ],
+ "ridings": [
+  {
+   "code": "BNC",
+   "name": "Burnaby Centre",
+   "communities": "Ardingley-Sprott, Buckingham Heights, Cascade Heights, Cascade-Schou, Douglas-Gilpin, Garden Village, Kingsway-Beresford, Lakeview-Mayfield, Marlborough, Morley-Buckingham, Oakalla, Windsor (Burnaby; includes the BCIT campus)",
+   "result_2024": {
+    "winner": "Anne Kang",
+    "party": "ndp",
+    "margin_votes": 2486,
+    "shares": {
+     "ndp": 0.5728,
+     "conservative": 0.4272
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/burnaby-centre/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Joshua Domnich",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Community liaison officer for a federal Conservative MP and legislative assistant to the BC Conservative caucus; SFU criminology graduate; former landscaping operations manager.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/joshua-domnich/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    },
+    {
+     "name": "Vikas Gautam",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Community volunteer, communications and event organizer; volunteers with the Hindu Temple Burnaby; no prior elected office listed.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/vikas-gautam/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    },
+    {
+     "name": "Anne Kang",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Burnaby MLA since 2017; former Burnaby teacher and three-term city councillor; has lived in Burnaby over 40 years.",
+     "sources": [
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/burnaby-centre/"
+      }
+     ]
+    },
+    {
+     "name": "Shila Taheri",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Labour leader and legal researcher with an LL.M.; holds elected BCGEU Local 803 and Component 8 roles; no prior public office listed.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/shila-taheri/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "BNE",
+   "name": "Burnaby East",
+   "communities": "Barnet, Burnaby Lake, Burnaby Mountain, Cameron, Cariboo-Armstrong, Government Road, Lake City, Lochdale, Lougheed, Lyndhurst, Sperling-Broadway, Sullivan Heights, Westridge (Burnaby)",
+   "result_2024": {
+    "winner": "Rohini Reah Arora",
+    "party": "ndp",
+    "margin_votes": 2292,
+    "shares": {
+     "ndp": 0.5185,
+     "conservative": 0.4052,
+     "green": 0.0763
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/burnaby-east/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Rohini Reah Arora",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Elected in 2024; Deputy Chair of the BC Government Caucus; former Director of Organizing and Campaigns at the BC Federation of Labour; grew up in East Westridge.",
+     "sources": [
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/burnaby-east/"
+      }
+     ]
+    },
+    {
+     "name": "De Ding",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "No biography published; OneBC candidate with no previous election run on record.",
+     "sources": [
+      {
+       "label": "BC Ballot candidate page",
+       "url": "https://bcballot.ca/ridings/burnaby-east/de-ding/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    },
+    {
+     "name": "Javad Shushtarian",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Recent BCIT nursing graduate awaiting BC licence; SFU biology degree; Forest Grove resident for 23 years; volunteers with food and poverty-reduction groups.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/javad-shushtarian/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    },
+    {
+     "name": "Peter Si",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Conservative caucus staffer in Victoria for two years; Burnaby resident since age 12; president of the Richmond-Queensborough riding association; University of Alberta BA.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/peter-si/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Conservative runner-up in 2024 was Simon Chandler, who is now running in Burnaby North."
+  },
+  {
+   "code": "BNO",
+   "name": "Burnaby North",
+   "communities": "Brentwood, Brentwood Park, Burnaby Heights, Capitol Hill, Parkcrest-Aubrey, West Central Valley, Willingdon Heights (Burnaby)",
+   "result_2024": {
+    "winner": "Janet Routledge",
+    "party": "ndp",
+    "margin_votes": 2066,
+    "shares": {
+     "ndp": 0.5326,
+     "conservative": 0.43,
+     "independent": 0.0374
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/burnaby-north/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Simon Chandler",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Public practice accountant; North Burnaby resident about 15 years; former Community Police Volunteer and Army Reserve soldier; Conservative candidate in Burnaby East in 2024.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/simon-chandler/"
+      },
+      {
+       "label": "Wikipedia, Burnaby East",
+       "url": "https://en.wikipedia.org/wiki/Burnaby_East"
+      }
+     ]
+    },
+    {
+     "name": "Maddy Kennedy-Parrott",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Civil engineer and building-science specialist working on deep energy retrofits; renter and parent of two; member of the BC Green Party Provincial Council.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/maddy-kennedy-parrott/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    },
+    {
+     "name": "Janet Routledge",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Burnaby North MLA since 2017; three decades representing PSAC members; former Parliamentary Secretary for Labour.",
+     "sources": [
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/burnaby-north/"
+      }
+     ]
+    },
+    {
+     "name": "Jenny Yamagata",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "OneBC candidate added October 8 after Elections BC ruled her nomination should have been accepted on October 3; no biography published.",
+     "sources": [
+      {
+       "label": "Wikipedia, Candidates of the 2026 BC general election",
+       "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Jenny Yamagata (OneBC) was added to the ballot on October 8 after Elections BC said her nomination should have been accepted on October 3; she is in the Elections BC CSV of October 10."
+  },
+  {
+   "code": "BNS",
+   "name": "Burnaby South-Metrotown",
+   "communities": "Big Bend, Clinton-Glenwood, Maywood, Metrotown, South Slope, Stride Hill, Suncrest, Sussex-Nelson (Burnaby)",
+   "result_2024": {
+    "winner": "Paul Choi",
+    "party": "ndp",
+    "margin_votes": 1187,
+    "shares": {
+     "ndp": 0.4933,
+     "conservative": 0.4159,
+     "green": 0.0626,
+     "independent": 0.0282
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/burnaby-south-metrotown/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Paul Choi",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "Elected in 2024; former police officer, small business owner and lawyer; qualified mediator and arbitrator; former Parliamentary Secretary for Trade.",
+     "sources": [
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/burnaby-south-metrotown/"
+      }
+     ]
+    },
+    {
+     "name": "Bryan Fockler",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Project manager and workplace safety leader; Amazon delivery driver in South Burnaby; past work with Earthwatch and the International Organization for Migration.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/bryan-fockler/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    },
+    {
+     "name": "Andrew Rose",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Brock computer science graduate who worked at Amazon in Seattle until 2002; Burnaby South resident on his children's parent advisory council; works in business and systems design.",
+     "sources": [
+      {
+       "label": "OneBC candidate page",
+       "url": "https://1bc.ca/candidates/arose"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    },
+    {
+     "name": "David Xie",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Recruitment and talent acquisition professional for over a decade; UBC graduate; Burnaby resident for nearly a decade with his wife and son.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/david-xie/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "BNN",
+   "name": "Burnaby-New Westminster",
+   "communities": "Burnaby: Edmonds, Middlegate, Richmond Park, Stride Avenue. New Westminster: Connaught Heights, Eastburn, Glenbrooke North, Kelvin, Second Street, West End",
+   "result_2024": {
+    "winner": "Raj Chouhan",
+    "party": "ndp",
+    "margin_votes": 4486,
+    "shares": {
+     "ndp": 0.5999,
+     "conservative": 0.3471,
+     "independent": 0.053
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/burnaby-new-westminster/"
+   },
+   "mla_changes_since_2024": "Raj Chouhan is the Speaker of the Legislature; no change of MLA or party.",
+   "candidates": [
+    {
+     "name": "Raj Chouhan",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2005 and Speaker of the Legislature; first South Asian Speaker; founding president of the Canadian Farmworkers' Union.",
+     "sources": [
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/burnaby-new-westminster/"
+      }
+     ]
+    },
+    {
+     "name": "Joe Latam",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Has worked for the Legislative Assembly of BC for two years; UBC political science BA; Metis Nation BC member; early career in agriculture and manufacturing.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/joe-latam/"
+      },
+      {
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Elections BC lists 2 candidates. bcballot.ca reports a BC Green candidate, Greg DePaco, who withdrew after nominations closed and says his name stays on the printed ballot; he is not in the Elections BC CSV of October 10 and is not listed here. Check for a later Elections BC update."
+  },
+  {
+   "code": "CQB",
+   "name": "Coquitlam-Burke Mountain",
+   "communities": "City Centre (Coquitlam), Hockaday Nestor, Northeast Coquitlam, River Springs, Westwood Plateau (Coquitlam)",
+   "result_2024": {
+    "winner": "Jodie Wickens",
+    "party": "ndp",
+    "margin_votes": 368,
+    "shares": {
+     "ndp": 0.5085,
+     "conservative": 0.4915
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/coquitlam-burke-mountain/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Kaden Mann",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Born and raised in Coquitlam; background in psychology and criminology and in security and public safety work; no prior elected office listed.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/kaden-mann/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/coquitlam-burke-mountain/"
+      }
+     ]
+    },
+    {
+     "name": "Valerie Morrison",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Animator with over two decades in film, television and games; Tri-Cities resident for more than five years; vice-president of her townhouse strata council.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/valerie-morrison/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/coquitlam-burke-mountain/"
+      }
+     ]
+    },
+    {
+     "name": "Ryan Peterson",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Co-founded Finger Food Studios in Port Coquitlam; later led a global division at Unity Technologies; elected Business Council of BC chair in 2026; Tri-Cities resident since 2014.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/ryan-peterson/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/coquitlam-burke-mountain/"
+      }
+     ]
+    },
+    {
+     "name": "Jodie Wickens",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2024 and also 2016 to 2017; former executive director of the Autism Support Network; has held a child and family cabinet role since November 2024.",
+     "sources": [
+      {
+       "label": "Wikipedia, Jodie Wickens",
+       "url": "https://en.wikipedia.org/wiki/Jodie_Wickens"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/coquitlam-burke-mountain/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Closest 2024 margin in this group of ridings except Richmond-Steveston (484 votes)."
+  },
+  {
+   "code": "CQM",
+   "name": "Coquitlam-Maillardville",
+   "communities": "Austin Heights, Cape Horn, Cassin, Central Coquitlam, Chineside, Dartmoor, Eagle Ridge, Essondale, Fraser Mills, Harbour Chines, Harbour Village, Laurentian Belaire, Maillardville, Mayfair, Meadowbrook, Ranch Park, River Heights (Coquitlam)",
+   "result_2024": {
+    "winner": "Jennifer Blatherwick",
+    "party": "ndp",
+    "margin_votes": 2826,
+    "shares": {
+     "ndp": 0.518,
+     "conservative": 0.3957,
+     "green": 0.0632,
+     "independent": 0.0231
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/coquitlam-maillardville/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Jennifer Blatherwick",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2024; twice elected Coquitlam school trustee; Parliamentary Secretary for Gender Equity; lives in Coquitlam with her husband and five children.",
+     "sources": [
+      {
+       "label": "Wikipedia, Jennifer Blatherwick",
+       "url": "https://en.wikipedia.org/wiki/Jennifer_Blatherwick"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/coquitlam-maillardville/"
+      }
+     ]
+    },
+    {
+     "name": "Matt Liang",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Longtime public servant: former deputy sheriff, child care counsellor and health and safety facilitator; volunteers with Special Olympics BC and the Share Society food bank.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/matthew-liang/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/coquitlam-maillardville/"
+      }
+     ]
+    },
+    {
+     "name": "Nicola Spurling",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Renovation and construction business owner since 2011; founder of Tri-Cities Pride; ran provincially in 2017, 2020 and 2024 and in the 2018 Coquitlam municipal election.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/nicola-spurling/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/coquitlam-maillardville/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "DLN",
+   "name": "Delta North",
+   "communities": "North Delta and Sunshine Hills (Delta)",
+   "result_2024": {
+    "winner": "Ravi Kahlon",
+    "party": "ndp",
+    "margin_votes": 2607,
+    "shares": {
+     "ndp": 0.5273,
+     "conservative": 0.4022,
+     "green": 0.062,
+     "freedom": 0.0085
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/delta-north/"
+   },
+   "mla_changes_since_2024": "No change of MLA or party. Ravi Kahlon (BC NDP) announced on September 22, 2026 that he will not seek re-election, so no incumbent is running.",
+   "candidates": [
+    {
+     "name": "Monica Mohan",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Practising BC lawyer and North Delta resident; formerly a civilian employee with the Vancouver Police Department; worked as a victim advocate and sexual assault counsellor.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/monica-mohan/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/delta-north/"
+      }
+     ]
+    },
+    {
+     "name": "Kuldeep Rangi",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Owns a real estate marketing brokerage; nearly a decade in banking at Scotiabank and First West Credit Union; involved in Delta North community sports.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/kuldeep-rangi/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/delta-north/"
+      }
+     ]
+    },
+    {
+     "name": "Todd Schierling",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "No biography found in the sources checked; Elections BC lists him as the BC NDP candidate; no previous election run on record.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/delta-north/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Open seat: no candidate is the sitting MLA."
+  },
+  {
+   "code": "DLS",
+   "name": "Delta South",
+   "communities": "Beach Grove, Boundary Bay, Ladner, Parkdale Gardens, Port Guichon, Tsawwassen, Tsawwassen Beach (Delta)",
+   "result_2024": {
+    "winner": "Ian Paton",
+    "party": "conservative",
+    "margin_votes": 2669,
+    "shares": {
+     "ndp": 0.4493,
+     "conservative": 0.5507
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/delta-south/"
+   },
+   "mla_changes_since_2024": "Ian Paton (elected 2024 as a Conservative) left the Conservative caucus on August 24, 2026 and sat as an independent, joined CentreBC on September 18, and rejoined the Conservatives about four days later after the election call (Wikipedia, citing CBC and My Cariboo Now). Elections BC and conservativebc.ca list him as the Conservative candidate. bcballot.ca still describes him as an independent, which looks out of date.",
+   "candidates": [
+    {
+     "name": "Skadi Green",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Canada Post letter carrier in South Vancouver for almost five years; former UPS package driver; CUPW steward and organizer; renter who has lived in Metro Vancouver since 2010.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/skadi-green/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/delta-south/"
+      }
+     ]
+    },
+    {
+     "name": "Jason McCormick",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "TransLink driver and community leader, per a 2024 Delta Optimist report; was the BC NDP candidate in Delta South in 2024.",
+     "sources": [
+      {
+       "label": "Delta Optimist, NDP candidate announced for Delta South (2024; seen via search snippet only)",
+       "url": "https://delta-optimist.com/local-news/ndp-candidate-announced-for-delta-south-9331350"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/delta-south/"
+      }
+     ]
+    },
+    {
+     "name": "Jim McMurtry",
+     "party": "onebc",
+     "incumbent": false,
+     "bio": "Teacher, principal and college lecturer for about four decades with a PhD in educational theory; fired by the Abbotsford School District in 2023; South Delta resident.",
+     "sources": [
+      {
+       "label": "OneBC candidate page",
+       "url": "https://1bc.ca/candidates/jmcmurtry"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/delta-south/"
+      }
+     ]
+    },
+    {
+     "name": "Ian Paton",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Dairy farmer and farm auction owner; Delta councillor from 2010; Delta South MLA since 2017; left Conservative caucus in August 2026, joined CentreBC, then returned to the Conservatives.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/ian-paton/"
+      },
+      {
+       "label": "Wikipedia, Ian Paton",
+       "url": "https://en.wikipedia.org/wiki/Ian_Paton_(politician)"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Paton is flagged incumbent: he was the sitting MLA at dissolution on September 22, 2026."
+  },
+  {
+   "code": "NMC",
+   "name": "New Westminster-Coquitlam",
+   "communities": "New Westminster (Brunette Creek, Queens Park, Sapperton, Mayfair/Pacific Reach) and Cariboo/Burquitlam in Coquitlam",
+   "result_2024": {
+    "winner": "Jennifer Whiteside",
+    "party": "ndp",
+    "margin_votes": 6319,
+    "shares": {
+     "ndp": 0.5913,
+     "conservative": 0.2984,
+     "green": 0.1103
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/new-westminster-coquitlam/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Maureen Curran",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Science and math teacher in Coquitlam for 25 years; New Westminster resident; helped found the Climate Safe Cities Coalition; Green candidate in this riding in 2024.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/maureen-curran/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Michele Lau",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Financial services executive and entrepreneur with over 20 years in banking and corporate finance; co-founder of World Trade Centre Okanagan; Vancouver College Parent Association board member.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/michele-lau/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Gerry Lenoski",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "No biography found; Elections BC lists him as unaffiliated (shown as Other in the CSV); one previous run on record.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Jennifer Whiteside",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2020 and Minister of Labour; former Education and Mental Health and Addictions minister; former Hospital Employees' Union secretary-business manager; raised in New Westminster.",
+     "sources": [
+      {
+       "label": "Wikipedia, Jennifer Whiteside",
+       "url": "https://en.wikipedia.org/wiki/Jennifer_Whiteside"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Gerry Lenoski is shown as Other in the Elections BC CSV and as Unaffiliated on the Elections BC page; recorded here as independent."
+  },
+  {
+   "code": "POC",
+   "name": "Port Coquitlam",
+   "communities": "Birchland Manor, Lincoln Park, Mary Hill, Oxford Heights, Sun Valley (Port Coquitlam; the riding is the whole city)",
+   "result_2024": {
+    "winner": "Mike Farnworth",
+    "party": "ndp",
+    "margin_votes": 3876,
+    "shares": {
+     "ndp": 0.5387,
+     "conservative": 0.3879,
+     "green": 0.064,
+     "libertarian": 0.0095
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/port-coquitlam/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Keenan Adams",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Locomotive engineer and president of Teamsters Canada Rail Conference Local 320; Port Coquitlam resident since 2010; Conservative candidate in this riding in 2024.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/keenan-adams/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-coquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Lee-Ann Bates",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Listed as unaffiliated; OneBC lists her as an endorsed candidate; no previous run on record; no other biography found.",
+     "sources": [
+      {
+       "label": "OneBC candidates page",
+       "url": "https://1bc.ca/candidates"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-coquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Lewis C. Dahlby",
+     "party": "libertarian",
+     "incumbent": false,
+     "bio": "Libertarian candidate with 10 previous runs on record, including Port Coquitlam in 2024 (0.95 percent); no other biography found.",
+     "sources": [
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-coquitlam/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Mike Farnworth",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA first elected 1991, out of office 2001 to 2005; Minister of Transportation and Transit and Government House Leader; former Port Coquitlam city councillor.",
+     "sources": [
+      {
+       "label": "Wikipedia, Mike Farnworth",
+       "url": "https://en.wikipedia.org/wiki/Mike_Farnworth"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-coquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Stephanie Hendy",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Clinical exercise professional and disability-management specialist with over 17 years in health and rehabilitation; ran for the Greens in Vancouver-Langara in 2020 and for Vernon council.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/stephanie-hendy/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-coquitlam/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Lee-Ann Bates is shown as Other (CSV) or Unaffiliated (page) by Elections BC; OneBC lists her as an endorsed candidate. Recorded as independent."
+  },
+  {
+   "code": "POM",
+   "name": "Port Moody-Burquitlam",
+   "communities": "Port Moody, Anmore, Belcarra, and Burquitlam, Cariboo, Coombe, Eagle Ridge, Ioco, Pleasantside, Woodhaven (Coquitlam and Port Moody)",
+   "result_2024": {
+    "winner": "Rick Glumac",
+    "party": "ndp",
+    "margin_votes": 2995,
+    "shares": {
+     "ndp": 0.5206,
+     "conservative": 0.405,
+     "green": 0.0744
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/port-moody-burquitlam/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Wei Chou",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Entrepreneur and supply chain professional who founded a Vancouver tech startup in 2019; mentors founders through UBC programs; grew up in Port Moody after immigrating in 1997.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/wei-chou/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-moody-burquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Rick Glumac",
+     "party": "ndp",
+     "incumbent": true,
+     "bio": "MLA since 2017 and Minister of State for Artificial Intelligence and New Technologies; former Port Moody councillor and computer graphics supervisor in film and animation.",
+     "sources": [
+      {
+       "label": "Wikipedia, Rick Glumac",
+       "url": "https://en.wikipedia.org/wiki/Rick_Glumac"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-moody-burquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "John McEwen",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Councillor and mayor of Anmore for 18 years, 12 as mayor; Metro Vancouver Board vice-chair; owned and sold two small businesses.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/john-mcewen/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-moody-burquitlam/"
+      }
+     ]
+    },
+    {
+     "name": "Freddy Rawji",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Founded technology recruitment firm Torus Talent in 2020; previously at RAM Consulting; born and raised in Port Moody; University of Victoria economics degree.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/freddy-rawji/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/port-moody-burquitlam/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": ""
+  },
+  {
+   "code": "RCC",
+   "name": "Richmond Centre",
+   "communities": "Brighouse and Richmond City Centre",
+   "result_2024": {
+    "winner": "Hon Chan",
+    "party": "conservative",
+    "margin_votes": 2465,
+    "shares": {
+     "ndp": 0.3678,
+     "conservative": 0.5199,
+     "independent": 0.1123
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/richmond-centre/"
+   },
+   "mla_changes_since_2024": "Hon Chan (elected 2024 as a Conservative) was removed from the Conservative caucus on March 26, 2026, sat as an independent, and announced on October 2, 2026 that he will not seek re-election. No incumbent is running.",
+   "candidates": [
+    {
+     "name": "Lawrence Chen",
+     "party": "other:CanWest Party",
+     "incumbent": false,
+     "bio": "CanWest Party candidate with four previous runs on record; no other biography found.",
+     "sources": [
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-centre/"
+      },
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      }
+     ]
+    },
+    {
+     "name": "Calvin Dang",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Owner of Richmond food-processing businesses since 2014; leads a non-profit Asian Canadian basketball organization of about 1,000 members; University of Manitoba economics degree.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/calvin-dang/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-centre/"
+      }
+     ]
+    },
+    {
+     "name": "Sacha Peter",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Chartered Professional Accountant in corporate tax; writes at Divestor.com; born and raised in Richmond; six years on the Cultus Lake Park Board, three as chair.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/sacha-peter/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-centre/"
+      }
+     ]
+    },
+    {
+     "name": "Henry Yao",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Elected MLA for Richmond South Centre in 2020; lost Richmond Centre in 2024; community volunteer who co-founded Dialogue Richmond Society.",
+     "sources": [
+      {
+       "label": "BC NDP nomination release (2024)",
+       "url": "https://www.bcndp.ca/releases/bc-ndp-nominates-mla-and-community-advocate-henry-yao-richmond-centre-stand-you"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-centre/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Open seat. CWP on the Elections BC list is the CanWest Party."
+  },
+  {
+   "code": "RCB",
+   "name": "Richmond-Bridgeport",
+   "communities": "Burkeville, East Cambie, Sea Island (including Vancouver International Airport), Thompson, West Cambie (Richmond)",
+   "result_2024": {
+    "winner": "Teresa Wat",
+    "party": "conservative",
+    "margin_votes": 3987,
+    "shares": {
+     "ndp": 0.3477,
+     "conservative": 0.5819,
+     "green": 0.0321,
+     "independent": 0.0383
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/richmond-bridgeport/"
+   },
+   "mla_changes_since_2024": "Teresa Wat (elected 2024 as a Conservative) left the Conservative caucus on August 26, 2026 and sat as an independent, joined CentreBC on September 18, and rejoined the Conservatives about September 22 after the election call (Wikipedia, citing CTV, CBC and My Cariboo Now). Elections BC and conservativebc.ca list her as the Conservative candidate. bcballot.ca still calls her an independent, which looks out of date.",
+   "candidates": [
+    {
+     "name": "Linda Li",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "Managing broker at Metrohome Realty; active with the Richmond Chinese Community Society and Richmond Hospital Foundation; BC NDP candidate in this riding in 2024.",
+     "sources": [
+      {
+       "label": "BC NDP release (2024)",
+       "url": "https://www.bcndp.ca/releases/business-and-community-leader-linda-li-run-bc-ndp-richmond-bridgeport"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-bridgeport/"
+      }
+     ]
+    },
+    {
+     "name": "Teresa Wat",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Richmond MLA since 2013 and former Minister of International Trade; former broadcast executive; left Conservative caucus in August 2026, joined CentreBC, then returned to the Conservatives.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/teresa-wat/"
+      },
+      {
+       "label": "Wikipedia, Teresa Wat",
+       "url": "https://en.wikipedia.org/wiki/Teresa_Wat"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Wat is flagged incumbent: she was the sitting MLA at dissolution on September 22, 2026. Only two candidates are on the ballot."
+  },
+  {
+   "code": "RCQ",
+   "name": "Richmond-Queensborough",
+   "communities": "Bridgeport, East Richmond, Gilmore, Hamilton, Queensborough (New Westminster), Shellmont, Southarm (Richmond)",
+   "result_2024": {
+    "winner": "Steve Kooner",
+    "party": "conservative",
+    "margin_votes": 1339,
+    "shares": {
+     "ndp": 0.4413,
+     "conservative": 0.5091,
+     "independent": 0.0496
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/richmond-queensborough/"
+   },
+   "mla_changes_since_2024": null,
+   "candidates": [
+    {
+     "name": "Luc Burns",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Materials engineer and quality assurance professional in Richmond; UBC engineering graduate; union job steward; secretary of his strata council.",
+     "sources": [
+      {
+       "label": "BC Greens candidate page",
+       "url": "https://bcgreens.ca/candidates-2026/luc-burns/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-queensborough/"
+      }
+     ]
+    },
+    {
+     "name": "Dhar Grewal",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "No biography found in the sources checked; Elections BC lists the candidate as BC NDP; no previous election run on record.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-queensborough/"
+      }
+     ]
+    },
+    {
+     "name": "Steve Kooner",
+     "party": "conservative",
+     "incumbent": true,
+     "bio": "Richmond-Queensborough MLA since 2024; lawyer who has owned his own firm for over 17 years; shadow attorney general; briefly ran for Conservative leader in 2026.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/steve-kooner/"
+      },
+      {
+       "label": "Wikipedia, Steve Kooner",
+       "url": "https://en.wikipedia.org/wiki/Steve_Kooner"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Kooner briefly ran for the BC Conservative leadership in 2026 (Wikipedia)."
+  },
+  {
+   "code": "RCS",
+   "name": "Richmond-Steveston",
+   "communities": "Blundell, Broadmoor, Seafair, Steveston (Richmond)",
+   "result_2024": {
+    "winner": "Kelly Greene",
+    "party": "ndp",
+    "margin_votes": 484,
+    "shares": {
+     "ndp": 0.4427,
+     "conservative": 0.422,
+     "independent": 0.1009,
+     "green": 0.0344
+    },
+    "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/richmond-steveston/"
+   },
+   "mla_changes_since_2024": "No change of MLA or party. Kelly Greene (BC NDP) announced on September 22, 2026 that she will not seek re-election, so no incumbent is running.",
+   "candidates": [
+    {
+     "name": "Robert Evans",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Richmond resident running as an independent; no previous run on record; no other biography found.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-steveston/"
+      }
+     ]
+    },
+    {
+     "name": "Bruce Kong",
+     "party": "ndp",
+     "incumbent": false,
+     "bio": "No biography found in the sources checked; Elections BC lists him as the BC NDP candidate; no previous election run on record.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-steveston/"
+      }
+     ]
+    },
+    {
+     "name": "Barry Wosk",
+     "party": "centrebc",
+     "incumbent": false,
+     "bio": "Entrepreneur who has run a Richmond small business for over three decades; lifelong Richmond resident; recent director of the Richmond Chamber of Commerce; UBC commerce degree.",
+     "sources": [
+      {
+       "label": "CentreBC candidate page",
+       "url": "https://www.centrebc.ca/candidates/barry-wosk/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-steveston/"
+      }
+     ]
+    },
+    {
+     "name": "Keenan Yang",
+     "party": "other:CanWest Party",
+     "incumbent": false,
+     "bio": "CanWest Party candidate; no previous run on record; no other biography found.",
+     "sources": [
+      {
+       "label": "Elections BC 2026 candidate list (page)",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-steveston/"
+      }
+     ]
+    },
+    {
+     "name": "Gordon Zhang",
+     "party": "conservative",
+     "incumbent": false,
+     "bio": "Has taught business at Kwantlen Polytechnic University in Richmond for over 17 years; entrepreneur who helped set up a domestic N95 respirator line in Richmond during COVID-19.",
+     "sources": [
+      {
+       "label": "BC Conservatives candidate page",
+       "url": "https://conservativebc.ca/candidate/gordon-zhang/"
+      },
+      {
+       "label": "BC Ballot riding page",
+       "url": "https://bcballot.ca/ridings/richmond-steveston/"
+      }
+     ]
+    }
+   ],
+   "candidate_list_status": "official",
+   "notes": "Open seat. CWP on the Elections BC list is the CanWest Party."
+  }
+ ]
+}

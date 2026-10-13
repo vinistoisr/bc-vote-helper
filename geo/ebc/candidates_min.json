@@ -1,0 +1,2132 @@
+[
+{
+"ED Code": "ABS",
+"Electoral District": "Abbotsford South",
+"Candidate Ballot Name": "Leah Ballantyne",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "ABS",
+"Electoral District": "Abbotsford South",
+"Candidate Ballot Name": "Bruce Banman",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "ABS",
+"Electoral District": "Abbotsford South",
+"Candidate Ballot Name": "Robin Roy",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "ABW",
+"Electoral District": "Abbotsford West",
+"Candidate Ballot Name": "Gurpreet Chahal",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "ABW",
+"Electoral District": "Abbotsford West",
+"Candidate Ballot Name": "Jules Côté",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "ABW",
+"Electoral District": "Abbotsford West",
+"Candidate Ballot Name": "Korky Neufeld",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "ABM",
+"Electoral District": "Abbotsford-Mission",
+"Candidate Ballot Name": "Pam Alexis",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "ABM",
+"Electoral District": "Abbotsford-Mission",
+"Candidate Ballot Name": "Virender Dass",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "ABM",
+"Electoral District": "Abbotsford-Mission",
+"Candidate Ballot Name": "Lakhwinder Jhaj",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "ABM",
+"Electoral District": "Abbotsford-Mission",
+"Candidate Ballot Name": "Darryl Kropp",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "ABM",
+"Electoral District": "Abbotsford-Mission",
+"Candidate Ballot Name": "Jeff Monds",
+"Affiliation": "Libertarian"
+},
+{
+"ED Code": "BDS",
+"Electoral District": "Boundary-Similkameen",
+"Candidate Ballot Name": "Keith Pomeroy",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "BDS",
+"Electoral District": "Boundary-Similkameen",
+"Candidate Ballot Name": "Roly Russell",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "BDS",
+"Electoral District": "Boundary-Similkameen",
+"Candidate Ballot Name": "Donegal Wilson",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "BLS",
+"Electoral District": "Bulkley Valley-Stikine",
+"Candidate Ballot Name": "Frankie Abel",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "BLS",
+"Electoral District": "Bulkley Valley-Stikine",
+"Candidate Ballot Name": "Ed Ewald",
+"Affiliation": "Christian Heritage Party of BC"
+},
+{
+"ED Code": "BLS",
+"Electoral District": "Bulkley Valley-Stikine",
+"Candidate Ballot Name": "Sharon Hartwell",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "BNC",
+"Electoral District": "Burnaby Centre",
+"Candidate Ballot Name": "Joshua Domnich",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "BNC",
+"Electoral District": "Burnaby Centre",
+"Candidate Ballot Name": "Vikas Gautam",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "BNC",
+"Electoral District": "Burnaby Centre",
+"Candidate Ballot Name": "Anne Kang",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "BNC",
+"Electoral District": "Burnaby Centre",
+"Candidate Ballot Name": "Shila Taheri",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "BNE",
+"Electoral District": "Burnaby East",
+"Candidate Ballot Name": "Rohini Reah Arora",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "BNE",
+"Electoral District": "Burnaby East",
+"Candidate Ballot Name": "De Ding",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "BNE",
+"Electoral District": "Burnaby East",
+"Candidate Ballot Name": "Javad Shushtarian",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "BNE",
+"Electoral District": "Burnaby East",
+"Candidate Ballot Name": "Peter Si",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "BNO",
+"Electoral District": "Burnaby North",
+"Candidate Ballot Name": "Simon Chandler",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "BNO",
+"Electoral District": "Burnaby North",
+"Candidate Ballot Name": "Maddy Kennedy-Parrott",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "BNO",
+"Electoral District": "Burnaby North",
+"Candidate Ballot Name": "Janet Routledge",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "BNO",
+"Electoral District": "Burnaby North",
+"Candidate Ballot Name": "Jenny Yamagata",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "BNS",
+"Electoral District": "Burnaby South-Metrotown",
+"Candidate Ballot Name": "Paul Choi",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "BNS",
+"Electoral District": "Burnaby South-Metrotown",
+"Candidate Ballot Name": "Bryan Fockler",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "BNS",
+"Electoral District": "Burnaby South-Metrotown",
+"Candidate Ballot Name": "Andrew Rose",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "BNS",
+"Electoral District": "Burnaby South-Metrotown",
+"Candidate Ballot Name": "David Xie",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "BNN",
+"Electoral District": "Burnaby-New Westminster",
+"Candidate Ballot Name": "Raj Chouhan",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "BNN",
+"Electoral District": "Burnaby-New Westminster",
+"Candidate Ballot Name": "Joe Latam",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CBC",
+"Electoral District": "Cariboo-Chilcotin",
+"Candidate Ballot Name": "Kathryn Askew",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "CBC",
+"Electoral District": "Cariboo-Chilcotin",
+"Candidate Ballot Name": "Lorne Doerkson",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CBC",
+"Electoral District": "Cariboo-Chilcotin",
+"Candidate Ballot Name": "Douglas Gook",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "CHN",
+"Electoral District": "Chilliwack North",
+"Candidate Ballot Name": "Dan Grice",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "CHN",
+"Electoral District": "Chilliwack North",
+"Candidate Ballot Name": "Heather Maahs",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CHN",
+"Electoral District": "Chilliwack North",
+"Candidate Ballot Name": "Adila Shaukat",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "CHC",
+"Electoral District": "Chilliwack-Cultus Lake",
+"Candidate Ballot Name": "Kelli Paddon",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "CHC",
+"Electoral District": "Chilliwack-Cultus Lake",
+"Candidate Ballot Name": "A'aliya Warbus",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CLR",
+"Electoral District": "Columbia River-Revelstoke",
+"Candidate Ballot Name": "Andrea Dunlop",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "CLR",
+"Electoral District": "Columbia River-Revelstoke",
+"Candidate Ballot Name": "Scott McInnis",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CLR",
+"Electoral District": "Columbia River-Revelstoke",
+"Candidate Ballot Name": "Rana Nelson",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "CQB",
+"Electoral District": "Coquitlam-Burke Mountain",
+"Candidate Ballot Name": "Kaden Mann",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "CQB",
+"Electoral District": "Coquitlam-Burke Mountain",
+"Candidate Ballot Name": "Valerie Morrison",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "CQB",
+"Electoral District": "Coquitlam-Burke Mountain",
+"Candidate Ballot Name": "Ryan Peterson",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CQB",
+"Electoral District": "Coquitlam-Burke Mountain",
+"Candidate Ballot Name": "Jodie Wickens",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "CQM",
+"Electoral District": "Coquitlam-Maillardville",
+"Candidate Ballot Name": "Jennifer Blatherwick",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "CQM",
+"Electoral District": "Coquitlam-Maillardville",
+"Candidate Ballot Name": "Matt Liang",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CQM",
+"Electoral District": "Coquitlam-Maillardville",
+"Candidate Ballot Name": "Nicola Spurling",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "CRC",
+"Electoral District": "Courtenay-Comox",
+"Candidate Ballot Name": "Will Cole-Hamilton",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "CRC",
+"Electoral District": "Courtenay-Comox",
+"Candidate Ballot Name": "Jason Cook",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "CRC",
+"Electoral District": "Courtenay-Comox",
+"Candidate Ballot Name": "Brennan Day",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CRC",
+"Electoral District": "Courtenay-Comox",
+"Candidate Ballot Name": "Jay Van Oostdam",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "CWV",
+"Electoral District": "Cowichan Valley",
+"Candidate Ballot Name": "Bert Chen",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "CWV",
+"Electoral District": "Cowichan Valley",
+"Candidate Ballot Name": "James Chumsa",
+"Affiliation": "Communist Party of BC"
+},
+{
+"ED Code": "CWV",
+"Electoral District": "Cowichan Valley",
+"Candidate Ballot Name": "Justin Douglas",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "CWV",
+"Electoral District": "Cowichan Valley",
+"Candidate Ballot Name": "Debra Toporowski",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "DLN",
+"Electoral District": "Delta North",
+"Candidate Ballot Name": "Monica Mohan",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "DLN",
+"Electoral District": "Delta North",
+"Candidate Ballot Name": "Kuldeep Rangi",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "DLN",
+"Electoral District": "Delta North",
+"Candidate Ballot Name": "Todd Schierling",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "DLS",
+"Electoral District": "Delta South",
+"Candidate Ballot Name": "Skadi Green",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "DLS",
+"Electoral District": "Delta South",
+"Candidate Ballot Name": "Jason McCormick",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "DLS",
+"Electoral District": "Delta South",
+"Candidate Ballot Name": "Jim McMurtry",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "DLS",
+"Electoral District": "Delta South",
+"Candidate Ballot Name": "Ian Paton",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "ESC",
+"Electoral District": "Esquimalt-Colwood",
+"Candidate Ballot Name": "Sidney Coles",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "ESC",
+"Electoral District": "Esquimalt-Colwood",
+"Candidate Ballot Name": "Dave Johnston",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "ESC",
+"Electoral District": "Esquimalt-Colwood",
+"Candidate Ballot Name": "Darlene Rotchford",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "ESC",
+"Electoral District": "Esquimalt-Colwood",
+"Candidate Ballot Name": "Sid Tobias",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "FRN",
+"Electoral District": "Fraser-Nicola",
+"Candidate Ballot Name": "Jason Leboe",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "FRN",
+"Electoral District": "Fraser-Nicola",
+"Candidate Ballot Name": "Tony Luck",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "FRN",
+"Electoral District": "Fraser-Nicola",
+"Candidate Ballot Name": "Patrick Michell",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "JFM",
+"Electoral District": "Juan de Fuca-Malahat",
+"Candidate Ballot Name": "Jeff Brown",
+"Affiliation": "Christian Heritage Party of BC"
+},
+{
+"ED Code": "JFM",
+"Electoral District": "Juan de Fuca-Malahat",
+"Candidate Ballot Name": "David Evans",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "JFM",
+"Electoral District": "Juan de Fuca-Malahat",
+"Candidate Ballot Name": "Shane Friesen",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "JFM",
+"Electoral District": "Juan de Fuca-Malahat",
+"Candidate Ballot Name": "Mike Hicks",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "JFM",
+"Electoral District": "Juan de Fuca-Malahat",
+"Candidate Ballot Name": "Dana Lajeunesse",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KAC",
+"Electoral District": "Kamloops Centre",
+"Candidate Ballot Name": "Annelise Beach",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "KAC",
+"Electoral District": "Kamloops Centre",
+"Candidate Ballot Name": "Rocky McAfee",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "KAC",
+"Electoral District": "Kamloops Centre",
+"Candidate Ballot Name": "Peter Milobar",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KAC",
+"Electoral District": "Kamloops Centre",
+"Candidate Ballot Name": "Thaelo Proctor",
+"Affiliation": "Independent"
+},
+{
+"ED Code": "KAC",
+"Electoral District": "Kamloops Centre",
+"Candidate Ballot Name": "Mike Wisla",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KAN",
+"Electoral District": "Kamloops-North Thompson",
+"Candidate Ballot Name": "Kory Clark",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KAN",
+"Electoral District": "Kamloops-North Thompson",
+"Candidate Ballot Name": "Deborah Friesen",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "KAN",
+"Electoral District": "Kamloops-North Thompson",
+"Candidate Ballot Name": "Ward Stamer",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KEC",
+"Electoral District": "Kelowna Centre",
+"Candidate Ballot Name": "Bill Desrosiers",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "KEC",
+"Electoral District": "Kelowna Centre",
+"Candidate Ballot Name": "Kristina Loewen",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KEC",
+"Electoral District": "Kelowna Centre",
+"Candidate Ballot Name": "Loyal Wooldridge",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KLC",
+"Electoral District": "Kelowna-Lake Country-Coldstream",
+"Candidate Ballot Name": "Binny Boparai",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KLC",
+"Electoral District": "Kelowna-Lake Country-Coldstream",
+"Candidate Ballot Name": "Carter Mochinski",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "KLC",
+"Electoral District": "Kelowna-Lake Country-Coldstream",
+"Candidate Ballot Name": "Pavneet Singh",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KLC",
+"Electoral District": "Kelowna-Lake Country-Coldstream",
+"Candidate Ballot Name": "Alexandra Wright",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "KLM",
+"Electoral District": "Kelowna-Mission",
+"Candidate Ballot Name": "Gavin Dew",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KLM",
+"Electoral District": "Kelowna-Mission",
+"Candidate Ballot Name": "Saoirse MacKinnon",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "KLM",
+"Electoral District": "Kelowna-Mission",
+"Candidate Ballot Name": "Abraham Nordine",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "KLM",
+"Electoral District": "Kelowna-Mission",
+"Candidate Ballot Name": "Miriam Rycroft",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KOC",
+"Electoral District": "Kootenay Central",
+"Candidate Ballot Name": "Brittny Anderson",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KOC",
+"Electoral District": "Kootenay Central",
+"Candidate Ballot Name": "Nicole Charlwood",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "KOC",
+"Electoral District": "Kootenay Central",
+"Candidate Ballot Name": "Hunter Corrigal",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "KOC",
+"Electoral District": "Kootenay Central",
+"Candidate Ballot Name": "Gordon Skulnec",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KOM",
+"Electoral District": "Kootenay-Monashee",
+"Candidate Ballot Name": "Stephen Hill",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "KOM",
+"Electoral District": "Kootenay-Monashee",
+"Candidate Ballot Name": "Connie Larochelle",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "KOM",
+"Electoral District": "Kootenay-Monashee",
+"Candidate Ballot Name": "Warren Mirko",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KOM",
+"Electoral District": "Kootenay-Monashee",
+"Candidate Ballot Name": "Steve Morissette",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KOR",
+"Electoral District": "Kootenay-Rockies",
+"Candidate Ballot Name": "Norma Blissett",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "KOR",
+"Electoral District": "Kootenay-Rockies",
+"Candidate Ballot Name": "Pete Davis",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "KOR",
+"Electoral District": "Kootenay-Rockies",
+"Candidate Ballot Name": "Keenan Dennehy",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "KOR",
+"Electoral District": "Kootenay-Rockies",
+"Candidate Ballot Name": "Paul Heywood",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "KOR",
+"Electoral District": "Kootenay-Rockies",
+"Candidate Ballot Name": "AJ Wolfe",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "LAO",
+"Electoral District": "Ladysmith-Oceanside",
+"Candidate Ballot Name": "Stephanie Higginson",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "LAO",
+"Electoral District": "Ladysmith-Oceanside",
+"Candidate Ballot Name": "Kris McNichol",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "LAO",
+"Electoral District": "Ladysmith-Oceanside",
+"Candidate Ballot Name": "Charlene Smylie",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "LFH",
+"Electoral District": "Langford-Highlands",
+"Candidate Ballot Name": "Sean Flynn",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "LFH",
+"Electoral District": "Langford-Highlands",
+"Candidate Ballot Name": "Christian McCay",
+"Affiliation": "Christian Heritage Party of BC"
+},
+{
+"ED Code": "LFH",
+"Electoral District": "Langford-Highlands",
+"Candidate Ballot Name": "Christopher Moon",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "LFH",
+"Electoral District": "Langford-Highlands",
+"Candidate Ballot Name": "Ravi Parmar",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "LFH",
+"Electoral District": "Langford-Highlands",
+"Candidate Ballot Name": "Cindy Scott",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "LFH",
+"Electoral District": "Langford-Highlands",
+"Candidate Ballot Name": "Alex Thurlborn",
+"Affiliation": "Independent"
+},
+{
+"ED Code": "LLA",
+"Electoral District": "Langley-Abbotsford",
+"Candidate Ballot Name": "Harman Bhangu",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "LLA",
+"Electoral District": "Langley-Abbotsford",
+"Candidate Ballot Name": "Shelly Jan",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "LLA",
+"Electoral District": "Langley-Abbotsford",
+"Candidate Ballot Name": "Alex Joehl",
+"Affiliation": "Libertarian"
+},
+{
+"ED Code": "LLA",
+"Electoral District": "Langley-Abbotsford",
+"Candidate Ballot Name": "Erin Osborne",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "LLA",
+"Electoral District": "Langley-Abbotsford",
+"Candidate Ballot Name": "Melissa Snazell",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "LWG",
+"Electoral District": "Langley-Walnut Grove",
+"Candidate Ballot Name": "Holly Isaac",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "LWG",
+"Electoral District": "Langley-Walnut Grove",
+"Candidate Ballot Name": "Sam Meyer",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "LWG",
+"Electoral District": "Langley-Walnut Grove",
+"Candidate Ballot Name": "Kyle Stevenson",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "LWG",
+"Electoral District": "Langley-Walnut Grove",
+"Candidate Ballot Name": "Misty Van Popta",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "LWI",
+"Electoral District": "Langley-Willowbrook",
+"Candidate Ballot Name": "Shubham Joshi",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "LWI",
+"Electoral District": "Langley-Willowbrook",
+"Candidate Ballot Name": "Andrew Mercier",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "LWI",
+"Electoral District": "Langley-Willowbrook",
+"Candidate Ballot Name": "Anisha Sandhu",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "LWI",
+"Electoral District": "Langley-Willowbrook",
+"Candidate Ballot Name": "Jody Toor",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "MAE",
+"Electoral District": "Maple Ridge East",
+"Candidate Ballot Name": "Hudson Campbell",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "MAE",
+"Electoral District": "Maple Ridge East",
+"Candidate Ballot Name": "Chris Hatchwell",
+"Affiliation": "Independent"
+},
+{
+"ED Code": "MAE",
+"Electoral District": "Maple Ridge East",
+"Candidate Ballot Name": "Daniel Kite",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "MAE",
+"Electoral District": "Maple Ridge East",
+"Candidate Ballot Name": "Lawrence Mok",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "MAP",
+"Electoral District": "Maple Ridge-Pitt Meadows",
+"Candidate Ballot Name": "Lisa Beare",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "MAP",
+"Electoral District": "Maple Ridge-Pitt Meadows",
+"Candidate Ballot Name": "Susan Einarsson",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "MAP",
+"Electoral District": "Maple Ridge-Pitt Meadows",
+"Candidate Ballot Name": "Doug Morneau",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "MAP",
+"Electoral District": "Maple Ridge-Pitt Meadows",
+"Candidate Ballot Name": "Jordan Simmons",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "MPR",
+"Electoral District": "Mid Island-Pacific Rim",
+"Candidate Ballot Name": "Joshua Dahling",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "MPR",
+"Electoral District": "Mid Island-Pacific Rim",
+"Candidate Ballot Name": "Gracie MacDonald",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "MPR",
+"Electoral District": "Mid Island-Pacific Rim",
+"Candidate Ballot Name": "Josie Osborne",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NAI",
+"Electoral District": "Nanaimo-Gabriola Island",
+"Candidate Ballot Name": "Mark MacDonald",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NAI",
+"Electoral District": "Nanaimo-Gabriola Island",
+"Candidate Ballot Name": "Sheila Malcolmson",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NAI",
+"Electoral District": "Nanaimo-Gabriola Island",
+"Candidate Ballot Name": "Anna Mary McKenzie",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "NAL",
+"Electoral District": "Nanaimo-Lantzville",
+"Candidate Ballot Name": "George Anderson",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NAL",
+"Electoral District": "Nanaimo-Lantzville",
+"Candidate Ballot Name": "Kelsey Pringle",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NAL",
+"Electoral District": "Nanaimo-Lantzville",
+"Candidate Ballot Name": "Pepper Saltman",
+"Affiliation": "Communist Party of BC"
+},
+{
+"ED Code": "NAL",
+"Electoral District": "Nanaimo-Lantzville",
+"Candidate Ballot Name": "Sharleen Weatherley",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "NEC",
+"Electoral District": "Nechako Lakes",
+"Candidate Ballot Name": "Diane Black",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NEC",
+"Electoral District": "Nechako Lakes",
+"Candidate Ballot Name": "Jesse Gervais",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NEC",
+"Electoral District": "Nechako Lakes",
+"Candidate Ballot Name": "Clint Lambert",
+"Affiliation": "Unaffiliated"
+},
+{
+"ED Code": "NMC",
+"Electoral District": "New Westminster-Coquitlam",
+"Candidate Ballot Name": "Maureen Curran",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "NMC",
+"Electoral District": "New Westminster-Coquitlam",
+"Candidate Ballot Name": "Michele Lau",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NMC",
+"Electoral District": "New Westminster-Coquitlam",
+"Candidate Ballot Name": "Gerry Lenoski",
+"Affiliation": "Unaffiliated"
+},
+{
+"ED Code": "NMC",
+"Electoral District": "New Westminster-Coquitlam",
+"Candidate Ballot Name": "Jennifer Whiteside",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NOH",
+"Electoral District": "North Coast-Haida Gwaii",
+"Candidate Ballot Name": "Tamara Davidson",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NOH",
+"Electoral District": "North Coast-Haida Gwaii",
+"Candidate Ballot Name": "Rodney Proskiw",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NOH",
+"Electoral District": "North Coast-Haida Gwaii",
+"Candidate Ballot Name": "Francis Racy",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "NOI",
+"Electoral District": "North Island",
+"Candidate Ballot Name": "Anna Kindy",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NOI",
+"Electoral District": "North Island",
+"Candidate Ballot Name": "Richard Lambert",
+"Affiliation": "Independent"
+},
+{
+"ED Code": "NOI",
+"Electoral District": "North Island",
+"Candidate Ballot Name": "Sara Lopez",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NOI",
+"Electoral District": "North Island",
+"Candidate Ballot Name": "Benjamin Olsson",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "NVL",
+"Electoral District": "North Vancouver-Lonsdale",
+"Candidate Ballot Name": "Joshua A Singer Johnson",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "NVL",
+"Electoral District": "North Vancouver-Lonsdale",
+"Candidate Ballot Name": "Bowinn Ma",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NVL",
+"Electoral District": "North Vancouver-Lonsdale",
+"Candidate Ballot Name": "Trevor Withers",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NVS",
+"Electoral District": "North Vancouver-Seymour",
+"Candidate Ballot Name": "Lynne Block",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "NVS",
+"Electoral District": "North Vancouver-Seymour",
+"Candidate Ballot Name": "Susie Chant",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "NVS",
+"Electoral District": "North Vancouver-Seymour",
+"Candidate Ballot Name": "Lori Climenhaga",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "NVS",
+"Electoral District": "North Vancouver-Seymour",
+"Candidate Ballot Name": "Ben Holt",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "NVS",
+"Electoral District": "North Vancouver-Seymour",
+"Candidate Ballot Name": "Frederick Thiele",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "OBG",
+"Electoral District": "Oak Bay-Gordon Head",
+"Candidate Ballot Name": "Andrew Appleton",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "OBG",
+"Electoral District": "Oak Bay-Gordon Head",
+"Candidate Ballot Name": "Diana Gibson",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "OBG",
+"Electoral District": "Oak Bay-Gordon Head",
+"Candidate Ballot Name": "Stan Sipos",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "OBG",
+"Electoral District": "Oak Bay-Gordon Head",
+"Candidate Ballot Name": "Andrew Weaver",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "PCN",
+"Electoral District": "Peace River North",
+"Candidate Ballot Name": "Jordan Kealy",
+"Affiliation": "Independent"
+},
+{
+"ED Code": "PCN",
+"Electoral District": "Peace River North",
+"Candidate Ballot Name": "Curtis Whitford",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "PCS",
+"Electoral District": "Peace River South",
+"Candidate Ballot Name": "Marsha Rose Dufresne",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "PCS",
+"Electoral District": "Peace River South",
+"Candidate Ballot Name": "Larry Neufeld",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "PCS",
+"Electoral District": "Peace River South",
+"Candidate Ballot Name": "Helen Scott",
+"Affiliation": "Unaffiliated"
+},
+{
+"ED Code": "PES",
+"Electoral District": "Penticton-Summerland",
+"Candidate Ballot Name": "Bradley Sean Bartsch",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "PES",
+"Electoral District": "Penticton-Summerland",
+"Candidate Ballot Name": "Warren Hamm",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "PES",
+"Electoral District": "Penticton-Summerland",
+"Candidate Ballot Name": "Tina Lee",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "PES",
+"Electoral District": "Penticton-Summerland",
+"Candidate Ballot Name": "Tracy St Claire",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "POC",
+"Electoral District": "Port Coquitlam",
+"Candidate Ballot Name": "Keenan Adams",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "POC",
+"Electoral District": "Port Coquitlam",
+"Candidate Ballot Name": "Lee-Ann Bates",
+"Affiliation": "Unaffiliated"
+},
+{
+"ED Code": "POC",
+"Electoral District": "Port Coquitlam",
+"Candidate Ballot Name": "Lewis C. Dahlby",
+"Affiliation": "Libertarian"
+},
+{
+"ED Code": "POC",
+"Electoral District": "Port Coquitlam",
+"Candidate Ballot Name": "Mike Farnworth",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "POC",
+"Electoral District": "Port Coquitlam",
+"Candidate Ballot Name": "Stephanie Hendy",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "POM",
+"Electoral District": "Port Moody-Burquitlam",
+"Candidate Ballot Name": "Wei Chou",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "POM",
+"Electoral District": "Port Moody-Burquitlam",
+"Candidate Ballot Name": "Rick Glumac",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "POM",
+"Electoral District": "Port Moody-Burquitlam",
+"Candidate Ballot Name": "John McEwen",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "POM",
+"Electoral District": "Port Moody-Burquitlam",
+"Candidate Ballot Name": "Freddy Rawji",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "POR",
+"Electoral District": "Powell River-Sunshine Coast",
+"Candidate Ballot Name": "John Henderson",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "POR",
+"Electoral District": "Powell River-Sunshine Coast",
+"Candidate Ballot Name": "Griffin Leonard Lea",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "POR",
+"Electoral District": "Powell River-Sunshine Coast",
+"Candidate Ballot Name": "Randene Neill",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "PRM",
+"Electoral District": "Prince George-Mackenzie",
+"Candidate Ballot Name": "Kiel Giddens",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "PRM",
+"Electoral District": "Prince George-Mackenzie",
+"Candidate Ballot Name": "Ian McMahon",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "PRM",
+"Electoral District": "Prince George-Mackenzie",
+"Candidate Ballot Name": "Teri Young",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "PRO",
+"Electoral District": "Prince George-North Cariboo",
+"Candidate Ballot Name": "Denice Bardua",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "PRO",
+"Electoral District": "Prince George-North Cariboo",
+"Candidate Ballot Name": "Sheldon Clare",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "PRO",
+"Electoral District": "Prince George-North Cariboo",
+"Candidate Ballot Name": "Randy Thompson",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "PRV",
+"Electoral District": "Prince George-Valemount",
+"Candidate Ballot Name": "Rosalyn Bird",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "PRV",
+"Electoral District": "Prince George-Valemount",
+"Candidate Ballot Name": "Carol Bourque",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "PRV",
+"Electoral District": "Prince George-Valemount",
+"Candidate Ballot Name": "Jodie Capling",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "PRV",
+"Electoral District": "Prince George-Valemount",
+"Candidate Ballot Name": "Mitchell Lukoni",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "RCC",
+"Electoral District": "Richmond Centre",
+"Candidate Ballot Name": "Lawrence Chen",
+"Affiliation": "CWP"
+},
+{
+"ED Code": "RCC",
+"Electoral District": "Richmond Centre",
+"Candidate Ballot Name": "Calvin Dang",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "RCC",
+"Electoral District": "Richmond Centre",
+"Candidate Ballot Name": "Sacha Peter",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "RCC",
+"Electoral District": "Richmond Centre",
+"Candidate Ballot Name": "Henry Yao",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "RCB",
+"Electoral District": "Richmond-Bridgeport",
+"Candidate Ballot Name": "Linda Li",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "RCB",
+"Electoral District": "Richmond-Bridgeport",
+"Candidate Ballot Name": "Teresa Wat",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "RCQ",
+"Electoral District": "Richmond-Queensborough",
+"Candidate Ballot Name": "Luc Burns",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "RCQ",
+"Electoral District": "Richmond-Queensborough",
+"Candidate Ballot Name": "Dhar Grewal",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "RCQ",
+"Electoral District": "Richmond-Queensborough",
+"Candidate Ballot Name": "Steve Kooner",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "RCS",
+"Electoral District": "Richmond-Steveston",
+"Candidate Ballot Name": "Robert Evans",
+"Affiliation": "Independent"
+},
+{
+"ED Code": "RCS",
+"Electoral District": "Richmond-Steveston",
+"Candidate Ballot Name": "Bruce Kong",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "RCS",
+"Electoral District": "Richmond-Steveston",
+"Candidate Ballot Name": "Barry Wosk",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "RCS",
+"Electoral District": "Richmond-Steveston",
+"Candidate Ballot Name": "Keenan Yang",
+"Affiliation": "CWP"
+},
+{
+"ED Code": "RCS",
+"Electoral District": "Richmond-Steveston",
+"Candidate Ballot Name": "Gordon Zhang",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SAN",
+"Electoral District": "Saanich North and the Islands",
+"Candidate Ballot Name": "Kala Bryson",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SAN",
+"Electoral District": "Saanich North and the Islands",
+"Candidate Ballot Name": "Emily Lowan",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SAN",
+"Electoral District": "Saanich North and the Islands",
+"Candidate Ballot Name": "Richard Smith",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SAN",
+"Electoral District": "Saanich North and the Islands",
+"Candidate Ballot Name": "Ryan Windsor",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SAS",
+"Electoral District": "Saanich South",
+"Candidate Ballot Name": "Lisa Lapointe",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SAS",
+"Electoral District": "Saanich South",
+"Candidate Ballot Name": "Cathie Ounsted",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SAS",
+"Electoral District": "Saanich South",
+"Candidate Ballot Name": "Richard Zussman",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SHU",
+"Electoral District": "Salmon Arm-Shuswap",
+"Candidate Ballot Name": "Gloria Morgan",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SHU",
+"Electoral District": "Salmon Arm-Shuswap",
+"Candidate Ballot Name": "Barbara Presch",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SHU",
+"Electoral District": "Salmon Arm-Shuswap",
+"Candidate Ballot Name": "Denise Reimer",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SHU",
+"Electoral District": "Salmon Arm-Shuswap",
+"Candidate Ballot Name": "Jed Wiebe",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SHU",
+"Electoral District": "Salmon Arm-Shuswap",
+"Candidate Ballot Name": "David L Williams",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SKE",
+"Electoral District": "Skeena",
+"Candidate Ballot Name": "Nick Gottlieb",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SKE",
+"Electoral District": "Skeena",
+"Candidate Ballot Name": "Claire Rattée",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SKE",
+"Electoral District": "Skeena",
+"Candidate Ballot Name": "Larry Eugene Taylor",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SKE",
+"Electoral District": "Skeena",
+"Candidate Ballot Name": "Sarah Zimmerman",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SRC",
+"Electoral District": "Surrey City Centre",
+"Candidate Ballot Name": "Amna Shah",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SRC",
+"Electoral District": "Surrey City Centre",
+"Candidate Ballot Name": "Raman Sharma",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SRC",
+"Electoral District": "Surrey City Centre",
+"Candidate Ballot Name": "Zeeshan Wahla",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SRC",
+"Electoral District": "Surrey City Centre",
+"Candidate Ballot Name": "Oliver Wildfong",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SUN",
+"Electoral District": "Surrey North",
+"Candidate Ballot Name": "Jag Bhandari",
+"Affiliation": "Unaffiliated"
+},
+{
+"ED Code": "SUN",
+"Electoral District": "Surrey North",
+"Candidate Ballot Name": "Parm Bhandol",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SUN",
+"Electoral District": "Surrey North",
+"Candidate Ballot Name": "Mandeep Singh Dhaliwal",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SUN",
+"Electoral District": "Surrey North",
+"Candidate Ballot Name": "Yudhbir Gill",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SUN",
+"Electoral District": "Surrey North",
+"Candidate Ballot Name": "Tanya Gupta",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SUN",
+"Electoral District": "Surrey North",
+"Candidate Ballot Name": "Sahib Thind",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SUS",
+"Electoral District": "Surrey South",
+"Candidate Ballot Name": "Denis R Hurtubise",
+"Affiliation": "Unaffiliated"
+},
+{
+"ED Code": "SUS",
+"Electoral District": "Surrey South",
+"Candidate Ballot Name": "Megan Knight",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SUS",
+"Electoral District": "Surrey South",
+"Candidate Ballot Name": "Bill McConnell",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SUS",
+"Electoral District": "Surrey South",
+"Candidate Ballot Name": "Elenore Sturko",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SUS",
+"Electoral District": "Surrey South",
+"Candidate Ballot Name": "Parik Tahlan",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SRD",
+"Electoral District": "Surrey-Cloverdale",
+"Candidate Ballot Name": "Nicholas Cartmell",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SRD",
+"Electoral District": "Surrey-Cloverdale",
+"Candidate Ballot Name": "Sargy Chima",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SRD",
+"Electoral District": "Surrey-Cloverdale",
+"Candidate Ballot Name": "Stephen Dooley",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SRD",
+"Electoral District": "Surrey-Cloverdale",
+"Candidate Ballot Name": "Travis Marchenski",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SRD",
+"Electoral District": "Surrey-Cloverdale",
+"Candidate Ballot Name": "Pat McCutcheon",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SRF",
+"Electoral District": "Surrey-Fleetwood",
+"Candidate Ballot Name": "Tim Binnema",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SRF",
+"Electoral District": "Surrey-Fleetwood",
+"Candidate Ballot Name": "Jagrup Brar",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SRF",
+"Electoral District": "Surrey-Fleetwood",
+"Candidate Ballot Name": "Paul Brar",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SRF",
+"Electoral District": "Surrey-Fleetwood",
+"Candidate Ballot Name": "Carolyn Hofbauer",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SRF",
+"Electoral District": "Surrey-Fleetwood",
+"Candidate Ballot Name": "Garry Purewal",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SRG",
+"Electoral District": "Surrey-Guildford",
+"Candidate Ballot Name": "Garry Begg",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SRG",
+"Electoral District": "Surrey-Guildford",
+"Candidate Ballot Name": "Jodi Murphy",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SRG",
+"Electoral District": "Surrey-Guildford",
+"Candidate Ballot Name": "Garry Thind",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SRG",
+"Electoral District": "Surrey-Guildford",
+"Candidate Ballot Name": "James Yaroshuk",
+"Affiliation": "Unaffiliated"
+},
+{
+"ED Code": "SRN",
+"Electoral District": "Surrey-Newton",
+"Candidate Ballot Name": "Harj Dhaliwal",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SRN",
+"Electoral District": "Surrey-Newton",
+"Candidate Ballot Name": "Harman Preet Singh",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SRN",
+"Electoral District": "Surrey-Newton",
+"Candidate Ballot Name": "Jessie Sunner",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SUP",
+"Electoral District": "Surrey-Panorama",
+"Candidate Ballot Name": "Manav Manro",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SUP",
+"Electoral District": "Surrey-Panorama",
+"Candidate Ballot Name": "Nolen Scott",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SUP",
+"Electoral District": "Surrey-Panorama",
+"Candidate Ballot Name": "Jinny Sims",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SUP",
+"Electoral District": "Surrey-Panorama",
+"Candidate Ballot Name": "Bryan Tepper",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SUR",
+"Electoral District": "Surrey-Serpentine River",
+"Candidate Ballot Name": "Judy Higginbotham",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SUR",
+"Electoral District": "Surrey-Serpentine River",
+"Candidate Ballot Name": "Todd Holowchak",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SUR",
+"Electoral District": "Surrey-Serpentine River",
+"Candidate Ballot Name": "Sikander Kang",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "SUR",
+"Electoral District": "Surrey-Serpentine River",
+"Candidate Ballot Name": "Errol Povah",
+"Affiliation": "Freedom Party of BC"
+},
+{
+"ED Code": "SUR",
+"Electoral District": "Surrey-Serpentine River",
+"Candidate Ballot Name": "Jessy Sahota",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SWR",
+"Electoral District": "Surrey-White Rock",
+"Candidate Ballot Name": "Kevin Diakiw",
+"Affiliation": "Independent"
+},
+{
+"ED Code": "SWR",
+"Electoral District": "Surrey-White Rock",
+"Candidate Ballot Name": "Trevor Halford",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "SWR",
+"Electoral District": "Surrey-White Rock",
+"Candidate Ballot Name": "Amanda James",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "SWR",
+"Electoral District": "Surrey-White Rock",
+"Candidate Ballot Name": "Christine Kinnie",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "SWR",
+"Electoral District": "Surrey-White Rock",
+"Candidate Ballot Name": "Waqas Rana",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "SWR",
+"Electoral District": "Surrey-White Rock",
+"Candidate Ballot Name": "Darryl Walker",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VFV",
+"Electoral District": "Vancouver-Fraserview",
+"Candidate Ballot Name": "Francoise Raunet",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VFV",
+"Electoral District": "Vancouver-Fraserview",
+"Candidate Ballot Name": "Deep Sandhu",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VFV",
+"Electoral District": "Vancouver-Fraserview",
+"Candidate Ballot Name": "Aman Singh",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VHA",
+"Electoral District": "Vancouver-Hastings",
+"Candidate Ballot Name": "Christian Bosio",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "VHA",
+"Electoral District": "Vancouver-Hastings",
+"Candidate Ballot Name": "Kimball Cariou",
+"Affiliation": "Communist Party of BC"
+},
+{
+"ED Code": "VHA",
+"Electoral District": "Vancouver-Hastings",
+"Candidate Ballot Name": "Kyra Philbert",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VHA",
+"Electoral District": "Vancouver-Hastings",
+"Candidate Ballot Name": "Niki Sharma",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VHA",
+"Electoral District": "Vancouver-Hastings",
+"Candidate Ballot Name": "Phyllis Tang",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VHA",
+"Electoral District": "Vancouver-Hastings",
+"Candidate Ballot Name": "Phil Webb",
+"Affiliation": "Libertarian"
+},
+{
+"ED Code": "VKE",
+"Electoral District": "Vancouver-Kensington",
+"Candidate Ballot Name": "Mable Elmore",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VKE",
+"Electoral District": "Vancouver-Kensington",
+"Candidate Ballot Name": "Adam Hawk",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VKE",
+"Electoral District": "Vancouver-Kensington",
+"Candidate Ballot Name": "Aron Lageri",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VLA",
+"Electoral District": "Vancouver-Langara",
+"Candidate Ballot Name": "John Atoyebi",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VLA",
+"Electoral District": "Vancouver-Langara",
+"Candidate Ballot Name": "Alan Beesley",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "VLA",
+"Electoral District": "Vancouver-Langara",
+"Candidate Ballot Name": "Sunita Dhir",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VLA",
+"Electoral District": "Vancouver-Langara",
+"Candidate Ballot Name": "Jaime Stein",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VLM",
+"Electoral District": "Vancouver-Little Mountain",
+"Candidate Ballot Name": "Christine Boyle",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VLM",
+"Electoral District": "Vancouver-Little Mountain",
+"Candidate Ballot Name": "Sarah MacLeod",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VLM",
+"Electoral District": "Vancouver-Little Mountain",
+"Candidate Ballot Name": "Alex Muir",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNP",
+"Electoral District": "Vancouver-Point Grey",
+"Candidate Ballot Name": "Michael Davis",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "VNP",
+"Electoral District": "Vancouver-Point Grey",
+"Candidate Ballot Name": "David Eby",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VNP",
+"Electoral District": "Vancouver-Point Grey",
+"Candidate Ballot Name": "Alex McMillan",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNP",
+"Electoral District": "Vancouver-Point Grey",
+"Candidate Ballot Name": "Beatrice Sharpe",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNQ",
+"Electoral District": "Vancouver-Quilchena",
+"Candidate Ballot Name": "Carson Binda",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNQ",
+"Electoral District": "Vancouver-Quilchena",
+"Candidate Ballot Name": "Dallas Brodie",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "VNQ",
+"Electoral District": "Vancouver-Quilchena",
+"Candidate Ballot Name": "Douglas Courtemanche",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNQ",
+"Electoral District": "Vancouver-Quilchena",
+"Candidate Ballot Name": "Petra Kuret",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "VNQ",
+"Electoral District": "Vancouver-Quilchena",
+"Candidate Ballot Name": "Callista Ryan",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VNR",
+"Electoral District": "Vancouver-Renfrew",
+"Candidate Ballot Name": "Adrian Dix",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VNR",
+"Electoral District": "Vancouver-Renfrew",
+"Candidate Ballot Name": "Rebecca Haber",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNR",
+"Electoral District": "Vancouver-Renfrew",
+"Candidate Ballot Name": "Tom Ikonomou",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNR",
+"Electoral District": "Vancouver-Renfrew",
+"Candidate Ballot Name": "Lisa Prescott",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "VNS",
+"Electoral District": "Vancouver-South Granville",
+"Candidate Ballot Name": "Maria J Cruz",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNS",
+"Electoral District": "Vancouver-South Granville",
+"Candidate Ballot Name": "Lara Honrado",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VNS",
+"Electoral District": "Vancouver-South Granville",
+"Candidate Ballot Name": "Lisa Phillips",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNS",
+"Electoral District": "Vancouver-South Granville",
+"Candidate Ballot Name": "Colin Smith",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "VNS",
+"Electoral District": "Vancouver-South Granville",
+"Candidate Ballot Name": "Salvatore Vetro",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "VNT",
+"Electoral District": "Vancouver-Strathcona",
+"Candidate Ballot Name": "Amanda Burrows",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VNT",
+"Electoral District": "Vancouver-Strathcona",
+"Candidate Ballot Name": "Robert Crooks",
+"Affiliation": "Communist Party of BC"
+},
+{
+"ED Code": "VNT",
+"Electoral District": "Vancouver-Strathcona",
+"Candidate Ballot Name": "Jordan Zheng McIntosh",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNT",
+"Electoral District": "Vancouver-Strathcona",
+"Candidate Ballot Name": "Tanya Webking",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNW",
+"Electoral District": "Vancouver-West End",
+"Candidate Ballot Name": "Spencer Chandra Herbert",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VNW",
+"Electoral District": "Vancouver-West End",
+"Candidate Ballot Name": "Scott MacDonald",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNW",
+"Electoral District": "Vancouver-West End",
+"Candidate Ballot Name": "Dion Weisner",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNY",
+"Electoral District": "Vancouver-Yaletown",
+"Candidate Ballot Name": "Sam Chandola",
+"Affiliation": "CentreBC"
+},
+{
+"ED Code": "VNY",
+"Electoral District": "Vancouver-Yaletown",
+"Candidate Ballot Name": "Margareta Dovgal",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VNY",
+"Electoral District": "Vancouver-Yaletown",
+"Candidate Ballot Name": "Priyan Samarakoone",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNY",
+"Electoral District": "Vancouver-Yaletown",
+"Candidate Ballot Name": "Terry Yung",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VRL",
+"Electoral District": "Vernon-Lumby",
+"Candidate Ballot Name": "Kevin Acton",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VRL",
+"Electoral District": "Vernon-Lumby",
+"Candidate Ballot Name": "Chantel Gibbs",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "VRL",
+"Electoral District": "Vernon-Lumby",
+"Candidate Ballot Name": "Harwinder Sandhu",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VRL",
+"Electoral District": "Vernon-Lumby",
+"Candidate Ballot Name": "Blair Visscher",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VTB",
+"Electoral District": "Victoria-Beacon Hill",
+"Candidate Ballot Name": "Joachim Agou",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "VTB",
+"Electoral District": "Victoria-Beacon Hill",
+"Candidate Ballot Name": "Grace Lore",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VTB",
+"Electoral District": "Victoria-Beacon Hill",
+"Candidate Ballot Name": "Rajinder S. Sahota",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VTS",
+"Electoral District": "Victoria-Swan Lake",
+"Candidate Ballot Name": "Carolyn Howe",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VTS",
+"Electoral District": "Victoria-Swan Lake",
+"Candidate Ballot Name": "Nina Krieger",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "VTS",
+"Electoral District": "Victoria-Swan Lake",
+"Candidate Ballot Name": "Tim Taylor",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "WKP",
+"Electoral District": "West Kelowna-Peachland",
+"Candidate Ballot Name": "Adam Frank",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "WKP",
+"Electoral District": "West Kelowna-Peachland",
+"Candidate Ballot Name": "Macklin McCall",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "WKP",
+"Electoral District": "West Kelowna-Peachland",
+"Candidate Ballot Name": "George Morgan",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "WVC",
+"Electoral District": "West Vancouver-Capilano",
+"Candidate Ballot Name": "Honieh Barzegari",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "WVC",
+"Electoral District": "West Vancouver-Capilano",
+"Candidate Ballot Name": "Naomi Chocyk",
+"Affiliation": "OneBC"
+},
+{
+"ED Code": "WVC",
+"Electoral District": "West Vancouver-Capilano",
+"Candidate Ballot Name": "Caroline Elliott",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "WVC",
+"Electoral District": "West Vancouver-Capilano",
+"Candidate Ballot Name": "Arwa Shurab",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "WVS",
+"Electoral District": "West Vancouver-Sea to Sky",
+"Candidate Ballot Name": "Ayla Dumais",
+"Affiliation": "Conservative Party"
+},
+{
+"ED Code": "WVS",
+"Electoral District": "West Vancouver-Sea to Sky",
+"Candidate Ballot Name": "Michelle Livaja",
+"Affiliation": "BC NDP"
+},
+{
+"ED Code": "WVS",
+"Electoral District": "West Vancouver-Sea to Sky",
+"Candidate Ballot Name": "Jeremy Valeriote",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "WVS",
+"Electoral District": "West Vancouver-Sea to Sky",
+"Candidate Ballot Name": "Dan Wood",
+"Affiliation": "CentreBC"
+}
+]

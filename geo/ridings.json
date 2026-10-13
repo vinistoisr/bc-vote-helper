@@ -1,0 +1,467 @@
+[
+ {
+  "code": "ABS",
+  "name": "Abbotsford South",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "ABW",
+  "name": "Abbotsford West",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "ABM",
+  "name": "Abbotsford-Mission",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "BDS",
+  "name": "Boundary-Similkameen",
+  "group": "interior"
+ },
+ {
+  "code": "BLS",
+  "name": "Bulkley Valley-Stikine",
+  "group": "north"
+ },
+ {
+  "code": "BNC",
+  "name": "Burnaby Centre",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "BNE",
+  "name": "Burnaby East",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "BNO",
+  "name": "Burnaby North",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "BNS",
+  "name": "Burnaby South-Metrotown",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "BNN",
+  "name": "Burnaby-New Westminster",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "CBC",
+  "name": "Cariboo-Chilcotin",
+  "group": "north"
+ },
+ {
+  "code": "CHN",
+  "name": "Chilliwack North",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "CHC",
+  "name": "Chilliwack-Cultus Lake",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "CLR",
+  "name": "Columbia River-Revelstoke",
+  "group": "interior"
+ },
+ {
+  "code": "CQB",
+  "name": "Coquitlam-Burke Mountain",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "CQM",
+  "name": "Coquitlam-Maillardville",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "CRC",
+  "name": "Courtenay-Comox",
+  "group": "island_coast"
+ },
+ {
+  "code": "CWV",
+  "name": "Cowichan Valley",
+  "group": "island_coast"
+ },
+ {
+  "code": "DLN",
+  "name": "Delta North",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "DLS",
+  "name": "Delta South",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "ESC",
+  "name": "Esquimalt-Colwood",
+  "group": "island_coast"
+ },
+ {
+  "code": "FRN",
+  "name": "Fraser-Nicola",
+  "group": "interior"
+ },
+ {
+  "code": "JFM",
+  "name": "Juan de Fuca-Malahat",
+  "group": "island_coast"
+ },
+ {
+  "code": "KAC",
+  "name": "Kamloops Centre",
+  "group": "interior"
+ },
+ {
+  "code": "KAN",
+  "name": "Kamloops-North Thompson",
+  "group": "interior"
+ },
+ {
+  "code": "KEC",
+  "name": "Kelowna Centre",
+  "group": "interior"
+ },
+ {
+  "code": "KLC",
+  "name": "Kelowna-Lake Country-Coldstream",
+  "group": "interior"
+ },
+ {
+  "code": "KLM",
+  "name": "Kelowna-Mission",
+  "group": "interior"
+ },
+ {
+  "code": "KOC",
+  "name": "Kootenay Central",
+  "group": "interior"
+ },
+ {
+  "code": "KOM",
+  "name": "Kootenay-Monashee",
+  "group": "interior"
+ },
+ {
+  "code": "KOR",
+  "name": "Kootenay-Rockies",
+  "group": "interior"
+ },
+ {
+  "code": "LAO",
+  "name": "Ladysmith-Oceanside",
+  "group": "island_coast"
+ },
+ {
+  "code": "LFH",
+  "name": "Langford-Highlands",
+  "group": "island_coast"
+ },
+ {
+  "code": "LLA",
+  "name": "Langley-Abbotsford",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "LWG",
+  "name": "Langley-Walnut Grove",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "LWI",
+  "name": "Langley-Willowbrook",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "MAE",
+  "name": "Maple Ridge East",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "MAP",
+  "name": "Maple Ridge-Pitt Meadows",
+  "group": "fraser_valley"
+ },
+ {
+  "code": "MPR",
+  "name": "Mid Island-Pacific Rim",
+  "group": "island_coast"
+ },
+ {
+  "code": "NAI",
+  "name": "Nanaimo-Gabriola Island",
+  "group": "island_coast"
+ },
+ {
+  "code": "NAL",
+  "name": "Nanaimo-Lantzville",
+  "group": "island_coast"
+ },
+ {
+  "code": "NEC",
+  "name": "Nechako Lakes",
+  "group": "north"
+ },
+ {
+  "code": "NMC",
+  "name": "New Westminster-Coquitlam",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "NOH",
+  "name": "North Coast-Haida Gwaii",
+  "group": "north"
+ },
+ {
+  "code": "NOI",
+  "name": "North Island",
+  "group": "island_coast"
+ },
+ {
+  "code": "NVL",
+  "name": "North Vancouver-Lonsdale",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "NVS",
+  "name": "North Vancouver-Seymour",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "OBG",
+  "name": "Oak Bay-Gordon Head",
+  "group": "island_coast"
+ },
+ {
+  "code": "PCN",
+  "name": "Peace River North",
+  "group": "north"
+ },
+ {
+  "code": "PCS",
+  "name": "Peace River South",
+  "group": "north"
+ },
+ {
+  "code": "PES",
+  "name": "Penticton-Summerland",
+  "group": "interior"
+ },
+ {
+  "code": "POC",
+  "name": "Port Coquitlam",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "POM",
+  "name": "Port Moody-Burquitlam",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "POR",
+  "name": "Powell River-Sunshine Coast",
+  "group": "island_coast"
+ },
+ {
+  "code": "PRM",
+  "name": "Prince George-Mackenzie",
+  "group": "north"
+ },
+ {
+  "code": "PRO",
+  "name": "Prince George-North Cariboo",
+  "group": "north"
+ },
+ {
+  "code": "PRV",
+  "name": "Prince George-Valemount",
+  "group": "north"
+ },
+ {
+  "code": "RCC",
+  "name": "Richmond Centre",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "RCB",
+  "name": "Richmond-Bridgeport",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "RCQ",
+  "name": "Richmond-Queensborough",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "RCS",
+  "name": "Richmond-Steveston",
+  "group": "burnaby_richmond_tricities"
+ },
+ {
+  "code": "SAN",
+  "name": "Saanich North and the Islands",
+  "group": "island_coast"
+ },
+ {
+  "code": "SAS",
+  "name": "Saanich South",
+  "group": "island_coast"
+ },
+ {
+  "code": "SHU",
+  "name": "Salmon Arm-Shuswap",
+  "group": "interior"
+ },
+ {
+  "code": "SKE",
+  "name": "Skeena",
+  "group": "north"
+ },
+ {
+  "code": "SRC",
+  "name": "Surrey City Centre",
+  "group": "surrey"
+ },
+ {
+  "code": "SUN",
+  "name": "Surrey North",
+  "group": "surrey"
+ },
+ {
+  "code": "SUS",
+  "name": "Surrey South",
+  "group": "surrey"
+ },
+ {
+  "code": "SRD",
+  "name": "Surrey-Cloverdale",
+  "group": "surrey"
+ },
+ {
+  "code": "SRF",
+  "name": "Surrey-Fleetwood",
+  "group": "surrey"
+ },
+ {
+  "code": "SRG",
+  "name": "Surrey-Guildford",
+  "group": "surrey"
+ },
+ {
+  "code": "SRN",
+  "name": "Surrey-Newton",
+  "group": "surrey"
+ },
+ {
+  "code": "SUP",
+  "name": "Surrey-Panorama",
+  "group": "surrey"
+ },
+ {
+  "code": "SUR",
+  "name": "Surrey-Serpentine River",
+  "group": "surrey"
+ },
+ {
+  "code": "SWR",
+  "name": "Surrey-White Rock",
+  "group": "surrey"
+ },
+ {
+  "code": "VFV",
+  "name": "Vancouver-Fraserview",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VHA",
+  "name": "Vancouver-Hastings",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VKE",
+  "name": "Vancouver-Kensington",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VLA",
+  "name": "Vancouver-Langara",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VLM",
+  "name": "Vancouver-Little Mountain",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VNP",
+  "name": "Vancouver-Point Grey",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VNQ",
+  "name": "Vancouver-Quilchena",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VNR",
+  "name": "Vancouver-Renfrew",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VNS",
+  "name": "Vancouver-South Granville",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VNT",
+  "name": "Vancouver-Strathcona",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VNW",
+  "name": "Vancouver-West End",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VNY",
+  "name": "Vancouver-Yaletown",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "VRL",
+  "name": "Vernon-Lumby",
+  "group": "interior"
+ },
+ {
+  "code": "VTB",
+  "name": "Victoria-Beacon Hill",
+  "group": "island_coast"
+ },
+ {
+  "code": "VTS",
+  "name": "Victoria-Swan Lake",
+  "group": "island_coast"
+ },
+ {
+  "code": "WKP",
+  "name": "West Kelowna-Peachland",
+  "group": "interior"
+ },
+ {
+  "code": "WVC",
+  "name": "West Vancouver-Capilano",
+  "group": "vancouver_northshore"
+ },
+ {
+  "code": "WVS",
+  "name": "West Vancouver-Sea to Sky",
+  "group": "vancouver_northshore"
+ }
+]

@@ -1,0 +1,13 @@
+__pycache__/
+node_modules/
+.wrangler/
+backups/
+site/wrangler.toml
+site/wrangler.live.toml
+site/public/
+site/src/spec_valid.json
+index.html
+*.zip
+.env*
+tests/.tmp/
+.dev.vars*
