@@ -1705,9 +1705,12 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       '<div class="people">' + persons + "</div>" +
       (COLLECT ? '<label class="share-opt"><input type="checkbox" id="share-chk"' + (S.share ? " checked" : "") + '> <span>Add my answers to the anonymous totals. Names are never sent; only answers, reading level, your riding and rough location (city).</span></label>' : "") +
       '<div class="row"><button type="button" class="btn btn-primary" id="start-btn">' + esc(startLabel()) + "</button>" +
-      '<span class="small muted">' + (tog ? "About 10 minutes. Skip anything." : "About 5 minutes each. Skip anything.") + "</span></div>" +
+      '<span class="small muted">' + (tog ? "About 45 minutes to an hour for a group. Skip anything." : "About 20 minutes each, longer with the background notes. Skip anything.") + "</span></div>" +
+      '<p class="small">' + (anyProgress ? "<strong>Welcome back.</strong> Your answers so far are saved. " : "") +
+      "Your answers save in this browser as you go. Close the tab whenever you like and come back on this device to pick up where you left off.</p>" +
       "</div>" +
       '<p class="small muted">' + esc(pick(SPEC.meta.disclaimer, 3)) + "</p>" +
+      '<details class="more"><summary>Privacy</summary>' + privacyHtml() + "</details>" +
       "</section>";
 
     bindRidingPicker();
@@ -2399,6 +2402,25 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       }).join("") + '</div><p class="small">' + esc(pick(SPEC.other_parties_note, level)) + "</p>");
   }
 
+  /** Privacy facts, shown on the start screen and with the results. */
+  function privacyHtml() {
+    var items = [
+      "Your names, reading levels and answers are saved only in this browser, on this device. \"Clear all and restart\" erases them.",
+      SITE ? "Your postal code goes to this site's server to find your riding, then is discarded. It is never stored or logged."
+           : "Your postal code goes to Open North's Represent service to find your riding. This page does not store it.",
+    ];
+    if (COLLECT) {
+      items.push("If you tick the share box, your answers, reading levels, riding and city are added to anonymous totals when you finish. Names and IP addresses are never sent or stored. All shared answers are deleted on November 23, 2026.");
+      items.push("No accounts and no tracking cookies. Visits are counted with Cloudflare Web Analytics, which uses no cookies.");
+    }
+    items.push('The code and every source are public at <a href="https://github.com/vinistoisr/bc-vote-helper" target="_blank" rel="noopener">github.com/vinistoisr/bc-vote-helper</a>.');
+    return '<ul class="prose small">' + items.map(function (t) { return "<li>" + t + "</li>"; }).join("") + "</ul>";
+  }
+
+  function privacySection() {
+    return foldSection("privacy", "privacy-title", "Your data", "Privacy", privacyHtml());
+  }
+
   function methodSection(level) {
     var src = SPEC.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + "</a>" + (s.used_for ? ' <span class="muted">' + esc(s.used_for) + "</span>" : "") + "</li>"; }).join("");
     /* The disclaimer stays outside the fold so it is always visible */
@@ -2555,6 +2577,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       howToVoteSection(level) +
       partiesSection(level, order) +
       methodSection(level) +
+      privacySection() +
       shareSection();
 
     app.querySelectorAll('input[name="rl"]').forEach(function (r) {

@@ -7,8 +7,8 @@
     "default_riding": null,
     "disclaimer": {
       "1": "This tool helps you compare. It shows which party's ideas are closest to yours. It does not tell you how to vote. You decide.",
-      "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 10, so check for updates. Party names and logos belong to the parties.",
-      "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 10, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC released a full platform on October 10 with its own costing, not independently checked; the Greens' full platform was still pending; the other parties campaign on rolling announcements without a complete costed platform. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
+      "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 12, so check for updates. Party names and logos belong to the parties.",
+      "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 12, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC released a full platform on October 10 with its own costing, not independently checked; the Greens' full platform was still pending; the other parties campaign on rolling announcements without a complete costed platform. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
     },
     "method_summary": {
       "1": "You pick answers. Each answer is close to some groups and far from others. We add it up and show the closest group.",
