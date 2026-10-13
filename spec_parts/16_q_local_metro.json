@@ -15,7 +15,7 @@
       "2": "TransLink, the regional transit agency, gets a provincial top-up that ends in 2027. From 2028 it needs at least $112 million a year more. In October the government ruled out a yearly fee on vehicles and a charge for using roads. Parties disagree on where the money should come from, and on free fares for young people and seniors.",
       "3": "The province's $312 million subsidy carries TransLink to the end of 2027. From 2028 the agency needs at least $112 million a year more. In October the NDP government ruled out a vehicle levy and road pricing and promised a law in 2027 to find another source, without naming one. The Conservatives oppose any new tax or levy. The Greens want free fares for riders under 25 and over 65. CentreBC promises more service and a pass credit.",
       "4": "The province gave TransLink $312 million in 2025, about half of its shortfall to the end of 2027. TransLink needs at least $112 million a year in new revenue from 2028 and says the province chooses the tool. Fuel use per vehicle has fallen about 45% since 2002, which erodes the fuel tax that funds transit. On October 2 the NDP ruled out a vehicle levy and road pricing and promised a 2027 revenue law. The Conservatives oppose any new tax. The Greens and CentreBC would spend more on service but name no new regional revenue source.",
-      "5": "TransLink received $479 million from the province in 2024 and $312 million for 2025 to 2027, and needs at least $112 million a year from 2028. A reported $100 to $150 yearly vehicle levy, collected at ICBC renewal, was never confirmed. On October 2, 2026 Eby said a vehicle levy or road pricing 'are not options we would proceed with' and promised legislation in 2027 for a 2028 revenue source, unnamed. The same week the NDP pledged a 10 cent a litre fuel tax cut, which the Greens say undercuts transit funding. The Conservatives' October 2 release opposed the levy and proposed no alternative. CentreBC's October 10 platform funds 15% more service inside a $15 billion three-year plan. OneBC has no transit position."
+      "5": "TransLink received $479 million from the province in March 2023 and $312 million for 2025 to 2027, and needs at least $112 million a year from 2028. A reported $100 to $150 yearly vehicle levy, collected at ICBC renewal, was never confirmed. On October 2, 2026 Eby said a vehicle levy or road pricing 'are not options we would proceed with' and promised legislation in 2027 for a 2028 revenue source, unnamed. The same week the NDP pledged a 10 cent a litre fuel tax cut, which the Greens say undercuts transit funding. The Conservatives' October 2 release opposed the levy and proposed no alternative. CentreBC's October 10 platform funds 15% more service inside a $15 billion three-year plan. OneBC has no transit position."
     },
     "options": [
       {
@@ -109,7 +109,7 @@
         "text": {
           "1": "This party gives transit extra money now, rules out a yearly car fee, and promises a new money plan in two years.",
           "3": "The NDP government gave TransLink $312 million in 2025, enough to the end of 2027. On October 2 it ruled out a vehicle levy and road pricing and promised a 2027 law to create a new revenue source, without saying what. It also promises a 10 cent a litre fuel tax cut.",
-          "5": "Record: $479 million to TransLink in 2024 and $312 million for 2025 to 2027, about half the shortfall. On October 2, 2026 Eby said 'a vehicle levy or road pricing are not options we would proceed with' and promised 2027 legislation for a 2028 revenue source, unnamed. The NDP also pledges a 10 cent a litre fuel tax cut and a price cap through the Utilities Commission; the Greens say that erodes the fuel tax that funds TransLink."
+          "5": "Record: $479 million to TransLink in March 2023 and $312 million for 2025 to 2027, about half the shortfall. On October 2, 2026 Eby said 'a vehicle levy or road pricing are not options we would proceed with' and promised 2027 legislation for a 2028 revenue source, unnamed. The NDP also pledges a 10 cent a litre fuel tax cut and a price cap through the Utilities Commission; the Greens say that erodes the fuel tax that funds TransLink."
         },
         "basis": "both",
         "confidence": "high",
@@ -125,6 +125,10 @@
           {
             "label": "Daily Hive: NDP fuel tax cut pledge (Oct 1, 2026)",
             "url": "https://dailyhive.com/vancouver/bc-gas-prices-david-eby-election-2026"
+          },
+          {
+            "label": "Global News: TransLink gets $479 million in surplus money (March 15, 2023)",
+            "url": "https://globalnews.ca/news/9553930/translink-funding-bc-government"
           }
         ]
       },
@@ -132,7 +136,7 @@
         "text": {
           "1": "This party says no new taxes or fees, and wants to cut waste in the regional government.",
           "3": "The Conservatives attacked the reported vehicle levy as a 'secret vehicle tax plan' and promise no new or higher taxes. They have published no TransLink funding plan. Their October 5 plan would audit and shrink the Metro Vancouver regional district. They would grow HandyDART where demand is highest.",
-          "5": "The October 2 release 'Eby Must Answer on Secret Vehicle Tax Plan' opposes a levy and proposes no alternative revenue. The party pledges no new or increased taxes (September 28). Its October 5 Metro Vancouver plan would audit the North Shore wastewater plant, replace the board and return housing, economic development and climate functions to cities and the province. Its October 9 seniors plan expands HandyDART. No 2026 commitment on TransLink's 2028 gap or on SkyTrain to UBC."
+          "5": "The October 2 release 'Eby Must Answer on Secret Vehicle Tax Plan' opposes a levy and proposes no alternative revenue. On September 27 Doerkson promised not to raise existing taxes or introduce new ones. Its October 5 Metro Vancouver plan would audit the North Shore wastewater plant, create 'a smaller, professional board' and return housing, economic development and climate functions to cities and the province. Its October 9 seniors plan expands HandyDART. No 2026 commitment on TransLink's 2028 gap or on SkyTrain to UBC."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -159,7 +163,7 @@
         "text": {
           "1": "This party wants free rides for young people and seniors, many more buses, and oil companies to pay for it.",
           "3": "The Greens' October 9 transit brief promises to fully fund transit, double the bus fleet in a first term, phase in free fares starting under 25 and over 65, extend SkyTrain to UBC and have an all-party committee set long-term funding. They oppose the fuel tax cut and want a windfall tax on fossil fuel companies.",
-          "5": "Transit and Transportation Policy Brief (October 9, 2026): fully fund TransLink and BC Transit, double the bus fleet within the first term, phase in fare-free transit starting with riders under 25 and over 65, SkyTrain to UBC, end outsourcing, and an all-party legislature committee on a long-term funding model. No dollar costing. Lowan called the NDP fuel tax cut wrong because fuel tax funds transit and proposed a windfall tax on fossil fuel profits instead."
+          "5": "Transit and Transportation Policy Brief (October 9, 2026): fully fund TransLink and BC Transit, double the bus fleet within the first term, phase in fare-free transit starting with riders under 25 and over 65, SkyTrain to UBC, end outsourcing, and an all-party legislature committee on a long-term funding model. No dollar costing. In a statement on the NDP fuel tax cut, the party said relief should come 'without decreasing our revenue and undercutting the services those people depend on', and called for 'taxing the enormous windfalls fossil fuel companies are making right now'."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -182,13 +186,13 @@
         "text": {
           "1": "This party would add fast bus lines and more service, and give riders some money back on passes.",
           "3": "CentreBC's platform funds 15% more transit service by 2030 and about six rapid bus lines inside a $15 billion three-year transportation plan, and gives a refundable 15% credit on monthly and annual passes. It says nothing about a vehicle levy or how to close TransLink's 2028 gap.",
-          "5": "Platform (October 10, pages 10 and 13): with TransLink and BC Transit, fund a 15% service increase by 2030; about six new rapid bus lines; a refundable BC Commuter Credit returning 15% on passes and ferry multi-trip fares; $15 billion over three years with $3.5 billion more borrowed; the Surrey-Langley SkyTrain and the Fraser River Tunnel as priorities. No position on a vehicle levy, road pricing or a new TransLink revenue source."
+          "5": "Platform (October 10, pages 11 and 13): with TransLink and BC Transit, fund a 15% service increase by 2030; about six new rapid bus lines; a refundable BC Commuter Credit returning 15% on passes and ferry multi-trip fares; $15 billion over three years with $3.5 billion more borrowed; the Surrey-Langley SkyTrain and the Fraser River Tunnel as priorities. No position on a vehicle levy, road pricing or a new TransLink revenue source."
         },
         "basis": "platform",
         "confidence": "medium",
         "sources": [
           {
-            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 10, 13)",
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 11, 13)",
             "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
           }
         ]
@@ -197,7 +201,7 @@
         "text": {
           "1": "This party has said nothing about buses or trains, so it is not scored here.",
           "3": "OneBC has no transit or transportation position, so it is not scored on this question.",
-          "5": "OneBC's priorities page and the BC Ballot tracker list no transportation commitment, so this question is left out of its score."
+          "5": "OneBC's priorities page lists no transportation commitment, so this question is left out of its score."
         },
         "basis": "platform",
         "confidence": "low",
@@ -205,16 +209,12 @@
           {
             "label": "OneBC priorities",
             "url": "https://1bc.ca/priorities"
-          },
-          {
-            "label": "BC Ballot: OneBC commitments (no transportation item)",
-            "url": "https://bcballot.ca/platforms/onebc/"
           }
         ],
         "no_position": true
       }
     },
-    "scoring_rationale": "a = NDP (4): the October 2 levy ruling-out, the 2027 revenue law and the fuel tax cut are all its own; Conservative 2 (shares the no-levy stance and funds TransLink today, but has no revenue law and attacks the fuel tax cut as a reversal); CentreBC 2 (no levy position, no revenue law, funds service instead); Green 1 (opposes the fuel tax cut and wants far more funding). b = Conservative (4): no new taxes, Metro Vancouver rollback, HandyDART; CentreBC 2 (no new broad taxes and cost reviews, but it adds transit spending and has no regional district position); NDP 1 (also rules out a levy but keeps subsidies and plans a revenue law); Green 0. c = Green (4); Green scores 3 on d because CentreBC's service increase and pass credit move in its direction; CentreBC 2 on c (expansion overlaps, no free fares or windfall tax); NDP 1; Conservative 0. d = CentreBC (4); NDP 2 (funds interim service, no credit or rapid bus pledge); Conservative 1 (no 2026 transit commitment, opposes new borrowing). e has no home: no party proposes a levy or road pricing; Green 2 because its all-party committee could choose one and it opposes drivers-first framing; CentreBC 1 (silent); NDP and Conservative 0 (both ruled it out). OneBC has no transit position and is no_position. Balance: the three Metro questions give every scored party one home each; the Conservatives' Metro homes rest on fiscal and process stances rather than transit or zoning proposals, which is noted as low to medium confidence rather than corrected by score."
+    "scoring_rationale": "a = NDP (4): the October 2 levy ruling-out, the 2027 revenue law and the fuel tax cut are all its own; Conservative 2 (shares the no-levy stance and funds TransLink today, but has no revenue law and attacks the fuel tax cut as a reversal); CentreBC 2 (no levy position, no revenue law, funds service instead); Green 1 (opposes the fuel tax cut and wants far more funding). b = Conservative (4): no new taxes, Metro Vancouver rollback, HandyDART; CentreBC 2 (no new broad taxes and cost reviews, but it adds transit spending and has no regional district position); NDP 1 (also rules out a levy but keeps subsidies and plans a revenue law); Green 0. c = Green (4); Green scores 3 on d because CentreBC's service increase and pass credit move in its direction; CentreBC 2 on c (expansion overlaps, no free fares or windfall tax); NDP 1; Conservative 0. d = CentreBC (4); NDP 2 (funds interim service, no credit or rapid bus pledge); Conservative 1 (no 2026 transit commitment). e has no home: no party proposes a levy or road pricing; Green 2 because its all-party committee could choose one and it opposes drivers-first framing; CentreBC 1 (silent); NDP and Conservative 0 (both ruled it out). OneBC has no transit position and is no_position. Balance: the three Metro questions give every scored party one home each; the Conservatives' Metro homes rest on fiscal and process stances rather than transit or zoning proposals, which is noted as low to medium confidence rather than corrected by score."
   },
   {
     "id": "q_local_metro_title_homes",
@@ -275,8 +275,8 @@
           "1": "Scrap the Indigenous rights law, put property rights first, and let elected people decide.",
           "2": "Repeal the Indigenous rights law, put property rights first in provincial law, and let the elected legislature decide, not courts.",
           "3": "Repeal the Indigenous rights law, put property rights first in statute, let the legislature, not courts, decide how title applies, and keep resource partnerships.",
-          "4": "Repeal the Indigenous rights law, put property rights in statute, let legislators, not courts, decide how title applies, and honour existing First Nations resource deals.",
-          "5": "Repeal the Declaration Act, enact statutory protection for private property rights, return decisions on how title applies to the elected legislature rather than the courts, and honour existing First Nations agreements on resources, pipelines and transmission, with expanded loan guarantees."
+          "4": "Repeal the Indigenous rights law, put property rights in statute, let legislators, not courts, decide how title applies, and build resource projects in partnership with First Nations.",
+          "5": "Repeal the Declaration Act, enact statutory protection for private property rights, return decisions on how title applies to the elected legislature rather than the courts, and build resource projects in partnership with First Nations."
         },
         "scores": {
           "ndp": 0,
@@ -291,9 +291,9 @@
         "text": {
           "1": "Scrap the Indigenous rights law, stop giving land and money to First Nations governments.",
           "2": "Repeal the Indigenous rights law, void the UN declaration in BC, and stop land and money transfers to band governments.",
-          "3": "Repeal the Indigenous rights law, void the UN declaration, halt land and money transfers to band governments, and pass a property rights law.",
-          "4": "Repeal the Indigenous rights law, void the UN declaration in BC, halt transfers of cash, land and resource control to band governments, and pass a property rights law.",
-          "5": "Repeal the Declaration Act, declare UNDRIP of no force and effect in BC, halt voluntary transfers of cash, land and control over public resources to band governments, re-introduce the Property Rights Protection Act, and seek repeal of the Indian Act."
+          "3": "Repeal the Indigenous rights law, void the UN declaration, halt land and money transfers to band governments, and seek repeal of the Indian Act.",
+          "4": "Repeal the Indigenous rights law, void the UN declaration in BC, halt transfers of cash, land and resource control to band governments, and seek repeal of the Indian Act.",
+          "5": "Repeal the Declaration Act, declare UNDRIP of no force and effect in BC, halt voluntary transfers of cash, land and control over public resources to band governments, and seek repeal of the Indian Act through constitutional reform."
         },
         "scores": {
           "ndp": 0,
@@ -326,7 +326,7 @@
         "text": {
           "1": "This party is fighting the ruling in a higher court and promises to protect homeowners, but offers no payment law.",
           "3": "The NDP government appealed the Cowichan ruling. Eby calls the Cowichan and Gitxaala decisions 'dramatic, overreaching and unhelpful', says the government will 'go to the wall' for private property owners, and says it must respond by amending the law. It proposes no compensation law and no repeal.",
-          "5": "Record: the province appealed Cowichan; in April 2026 Eby and the First Nations Leadership Council agreed to no Declaration Act amendments in the spring session, after a withdrawn suspension bill. On September 25, 2026 Eby said responding to the court decision 'is not up for debate' and promised to 'go to the wall' for private owners. No 2026 platform commitment, no compensation guarantee, no repeal. The province-wide question scores the amendment pledge; this one scores the homeowner response."
+          "5": "Record: the province appealed Cowichan; in April 2026 Eby and the First Nations Leadership Council agreed to no Declaration Act amendments in the spring session, after a withdrawn suspension bill. On September 25, 2026 Eby said responding to the court decision 'is not up for debate'; he has also promised to 'go to the wall' for private owners. No 2026 platform commitment, no compensation guarantee, no repeal. The province-wide question scores the amendment pledge; this one scores the homeowner response."
         },
         "basis": "record",
         "confidence": "medium",
@@ -344,14 +344,14 @@
       "conservative": {
         "text": {
           "1": "This party would scrap the Indigenous rights law and put property rights first, with elected people deciding.",
-          "3": "The Conservatives promise to repeal DRIPA, 'protect property rights, and put important decisions back in the hands of elected representatives', while honouring existing First Nations agreements on resources. They voted for OneBC's property rights bill at first reading. They have no statement on the Cowichan ruling or on compensation.",
-          "5": "Plan page 'First Nations and DRIPA' (October 7): repeal DRIPA, honour existing agreements on resources, pipelines and transmission, expand loan guarantees. Doerkson on X, October 7: 'Repeal DRIPA, protect property rights, and put important decisions back in the hands of elected representatives.' On October 29, 2025 the caucus voted yea at first reading on the Property Rights Protection Act (lost 40 to 48). No published position on the Cowichan appeal, a compensation guarantee or a treaty replacement law."
+          "3": "The Conservatives promise to repeal DRIPA, 'protect property rights, and put important decisions back in the hands of elected representatives', and say they want to build projects in partnership with First Nations. They voted for OneBC's property rights bill at first reading. They have no statement on the Cowichan ruling or on compensation.",
+          "5": "Plan page 'Repeal DRIPA, Promote Economic Reconciliation' (October 7): Doerkson says DRIPA 'has to be repealed' and that he wants 'partnerships with First Nations' on projects. Doerkson on X, October 7: 'Repeal DRIPA, protect property rights, and put important decisions back in the hands of elected representatives.' On October 29, 2025 the caucus voted yea at first reading on the Property Rights Protection Act (lost 40 to 48). No published position on the Cowichan appeal, a compensation guarantee or a treaty replacement law."
         },
         "basis": "both",
         "confidence": "medium",
         "sources": [
           {
-            "label": "Conservative Party of BC: First Nations and DRIPA (Oct 7, 2026)",
+            "label": "Conservative Party of BC: Repeal DRIPA, Promote Economic Reconciliation (Oct 7, 2026)",
             "url": "https://conservativebc.ca/plan/first-nations-dripa/"
           },
           {
@@ -401,8 +401,8 @@
       "onebc": {
         "text": {
           "1": "This party would scrap the Indigenous rights law and stop transfers of land and money to First Nations governments.",
-          "3": "OneBC would repeal DRIPA and declare the UN declaration of 'no force and effect in BC', halt voluntary transfers of cash, land and resource control to band governments, and 'defend private and public property from the reconciliation industry'. Its MLAs introduced a property rights protection bill in 2025, which was defeated.",
-          "5": "Priorities page: repeal DRIPA and declare UNDRIP of no force and effect; halt voluntary transfers of cash, land and control over public resources to band governments; seek Indian Act repeal through constitutional reform; end mandatory land acknowledgements. X, September 26, 2026: defend private and public property 'from the reconciliation industry'. The Property Rights Protection Act (October 2025) lost 40 to 48. No Cowichan-specific statement and no compensation proposal."
+          "3": "OneBC would repeal DRIPA and declare the UN declaration of 'no force and effect in BC', halt voluntary transfers of cash, land and resource control to band governments, and 'defund the Reconciliation Industry'. Its MLAs introduced a property rights protection bill in 2025, which was defeated.",
+          "5": "Priorities page: repeal DRIPA and declare UNDRIP of no force and effect; halt voluntary transfers of cash, land and control over public resources to band governments; seek Indian Act repeal through constitutional reform; end mandatory land acknowledgements. X, September 26, 2026: repeal DRIPA and 'defund the Reconciliation Industry'. The Property Rights Protection Act (October 2025) lost 40 to 48. No Cowichan-specific statement and no compensation proposal."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -412,7 +412,7 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "OneBC on X: property and the reconciliation industry (Sept 26, 2026)",
+            "label": "OneBC on X: repeal DRIPA, defund the reconciliation industry (Sept 26, 2026)",
             "url": "https://x.com/One_BCHQ/status/2103913099086684163"
           },
           {
@@ -438,9 +438,9 @@
     "context": {
       "1": "The province recently made cities allow more homes on each lot and taller buildings near train stations. City councils used to decide this alone. Many mayors want that power back. Parties disagree on who should decide, and on what the province should do instead.",
       "2": "In 2023 the province passed laws making cities allow three or four homes on most lots and tall buildings near transit, and set housing targets for cities. Sixteen Metro Vancouver mayors have asked the province to repeal or change those laws. A recent poll found slightly more people back the province than councils. Parties disagree on who should decide.",
-      "3": "The province's 2023 laws require three or four homes on most lots, higher density near transit and housing targets for named cities. Sixteen Metro Vancouver mayors asked in November 2025 to repeal or revise them. The NDP government has kept the laws. CentreBC would keep the transit rules and add provincial approval deadlines. The Conservatives promised in 2024 to scrap the lot rule, then softened that, and have no 2026 position. The Greens voted against the lot law.",
-      "4": "Bill 44 (small-scale multi-unit housing) and Bill 47 (transit-oriented areas) passed in November 2023, with housing target orders for named cities. In late November 2025 sixteen Metro Vancouver mayors asked Premier Eby to repeal and revise all three. A Liaison Strategies poll (September 26 to 27, 2026, n=1,000) found 43% would give the province the final say over minimum housing allowances and 37% the council. The NDP has kept the laws. CentreBC keeps transit-area density and adds a provincial approval standard. The Conservatives' 2024 platform first pledged to scrap Bill 44, then softened to a fund for willing cities; nothing in 2026. The Greens voted against Bills 44 and 46.",
-      "5": "Bill 44 passed third reading 45 to 29 on November 29, 2023, with Furstenau, Olsen, Rustad and Banman among the nays; Bill 47 passed 65 to 0 on November 30, 2023. Housing Supply Act target orders cover named Metro municipalities. On or about November 28, 2025, sixteen mayors (including Burnaby, Richmond, Coquitlam and Delta) wrote to Eby seeking repeal and revision of all three. Liaison Strategies, September 26 to 27, 2026 (n=1,000, plus or minus 3.1): province 43%, council 37% on final say; 56% support more homes nearby. The NDP has no 2026 change; its housing pledges are tax measures. CentreBC's platform sets six-month rezoning and eight-week permit standards with one rulebook by January 1, 2028, a $125 million a year performance fund and a $240 million growth fund. OneBC has no density position."
+      "3": "The province's 2023 laws require three or four homes on most lots, higher density near transit and housing targets for named cities. Sixteen Metro Vancouver mayors asked in November 2025 to repeal or revise them. The NDP government has kept the laws. CentreBC would keep the transit rules and add provincial approval deadlines. The Conservatives promised in 2024 to scrap the lot rule and pay cities that allow more homes instead, and have no 2026 position. The Greens voted against the lot law.",
+      "4": "Bill 44 (small-scale multi-unit housing) and Bill 47 (transit-oriented areas) passed in November 2023, with housing target orders for named cities. In late November 2025 sixteen Metro Vancouver mayors asked Premier Eby to repeal and revise all three. A Liaison Strategies poll (September 26 to 27, 2026, n=1,000) found 43% would give the province the final say over minimum housing allowances and 37% the council. The NDP has kept the laws. CentreBC keeps transit-area density and adds a provincial approval standard. The Conservatives' 2024 platform pledged to scrap Bill 44 and fund cities that allow multi-unit housing; nothing in 2026. The Greens voted against Bills 44 and 46.",
+      "5": "Bill 44 passed third reading 45 to 29 on November 29, 2023, with Furstenau, Olsen, Rustad and Banman among the nays; Bill 47 passed 65 to 0 on November 30, 2023. Housing Supply Act target orders cover named Metro municipalities. In late November 2025, sixteen mayors (including Burnaby, Richmond, Coquitlam and Delta) wrote to Eby seeking repeal and revision of all three. Liaison Strategies, September 26 to 27, 2026 (n=1,000, plus or minus 3.1): province 43%, council 37% on final say; 56% support more homes nearby. The NDP has no 2026 change; its housing pledges are tax measures. CentreBC's platform sets six-month rezoning and eight-week permit standards with one rulebook by January 1, 2028, a $125 million a year performance fund and a $240 million growth fund. OneBC has no density position."
     },
     "options": [
       {
@@ -538,19 +538,15 @@
       },
       "conservative": {
         "text": {
-          "1": "This party once promised to scrap the lot rule, then softened that. It has said nothing about it this time.",
-          "3": "In 2024 the Conservatives first pledged to scrap the homes-per-lot law, then proposed a $1 billion a year fund for cities that allow such housing and pre-zoning instead, plus changes to the transit-area law. They have published no 2026 position on the density laws, so option c is inferred from 2024 and is low confidence.",
-          "5": "2024 platform: initial pledge to repeal Bill 44, then a Civic Infrastructure Renewal Fund of $1 billion a year for municipalities allowing small-scale multi-unit housing on at least two-thirds of residential land, pre-zoning with cities, and amending Bill 47 to require shops and services within walking distance. The repeal pledge was later dropped. 2026: only 'bring down the cost of building and buying a home' and a Metro Vancouver plan returning housing functions from the regional district to cities and the province. Inferred, low confidence."
+          "1": "This party promised in 2024 to scrap the lot rule and pay cities that allow more homes. It has said nothing about it this time.",
+          "3": "In 2024 the Conservatives pledged to scrap the homes-per-lot law and replace it with a $1 billion a year fund for cities that allow such housing, pre-zoning with cities and changes to the transit-area law. They have published no 2026 position on the density laws, so option c is inferred from 2024 and is low confidence.",
+          "5": "2024 platform (Global News, September 27, 2024): repeal Bill 44 and create a $1 billion a year fund for municipalities allowing small-scale multi-unit housing on at least two-thirds of residential land, pre-zoning with cities, and amending Bill 47 to require shops and services within walking distance. 2026: only 'bring down the cost of building and buying a home' and a Metro Vancouver plan returning housing functions from the regional district to cities and the province. Inferred, low confidence."
         },
         "basis": "inferred",
         "confidence": "low",
         "sources": [
           {
-            "label": "Storeys: BC Conservatives' housing plan, 2024 election (Oct 1, 2024)",
-            "url": "https://storeys.com/bc-conservatives-housing-plan-election-2024/"
-          },
-          {
-            "label": "Global News: Rustad housing policy (2024)",
+            "label": "Global News: Conservative housing plan would scrap density rules (Sept 27, 2024)",
             "url": "https://globalnews.ca/news/10779404/bc-election-conservative-rustad-housing-policy"
           },
           {
@@ -590,13 +586,13 @@
         "text": {
           "1": "This party would keep the rules near transit and make cities approve homes faster, with one rulebook.",
           "3": "CentreBC's platform builds on 'provincial rules that allow more homes near transit' and adds a provincial standard of six months for rezonings and eight weeks for building permits, with one set of rules across municipalities by 2028 and fees refunded if missed, plus a $125 million a year fund for cities that meet timelines and targets.",
-          "5": "Platform (October 10, pages 6, 10 and 13): provincial approval standard of six months for rezonings and eight weeks for building permits, one set of rules across municipalities by January 1, 2028, fees refunded when missed; a $125 million a year housing performance fund for cities meeting timelines and targets; a $240 million a year growth fund; buying land near new transit stations before announcement. It keeps transit-area density rules and does not mention repealing the small-scale multi-unit mandate or the mayors' letter."
+          "5": "Platform (October 10, pages 7, 11 and 13): provincial approval standard of six months for rezonings and eight weeks for building permits, one set of rules across municipalities by January 1, 2028, fees refunded when missed; a $125 million a year housing performance fund for cities meeting timelines and targets; a $240 million a year growth fund; buying land near new transit stations before announcement. It keeps transit-area density rules and does not mention repealing the small-scale multi-unit mandate or the mayors' letter."
         },
         "basis": "platform",
         "confidence": "medium",
         "sources": [
           {
-            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 6, 10, 13)",
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 7, 11, 13)",
             "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
           }
         ]
@@ -622,6 +618,6 @@
         "no_position": true
       }
     },
-    "scoring_rationale": "a = NDP record (4); CentreBC 3 (keeps transit-area rules and targets, adds rather than removes provincial control, but does not restate the lot mandate); Green 2 (voted against Bill 44 but is not asking for repeal and wants faster building); Conservative 1 (2024 pledge to scrap the lot rule, later softened). b = CentreBC (4); NDP 2 and Conservative 2 (the NDP already enforces targets and timelines in a different form; the 2024 Conservative plan also paid cities for allowing housing); Green 1 (its process pledge is general and it opposed the 2023 approach). c = Conservative (4), inferred from the 2024 platform's fund, pre-zoning and Bill 47 amendment; Green 2 (opposed the mandate in 2023, but has no incentive-fund model); CentreBC 2 (pays cities that perform, but keeps provincial rules); NDP 0 (would not unwind its laws). d = Green (4), inferred from the 2023 vote plus 2026 non-market priorities; NDP 2 (also funds non-market housing and tenancy rules, keeps mandates); Conservative 1 and CentreBC 1 (neither funds 26,000 non-market homes or vacancy control). Two cells are inferred and low confidence (Conservative, Green) because neither party has published a 2026 position on the density laws; the interface tags them. OneBC is no_position."
+    "scoring_rationale": "a = NDP record (4); CentreBC 3 (keeps transit-area rules and targets, adds rather than removes provincial control, but does not restate the lot mandate); Green 2 (voted against Bill 44 but is not asking for repeal and wants faster building); Conservative 1 (2024 pledge to scrap the lot rule). b = CentreBC (4); NDP 2 and Conservative 2 (the NDP already enforces targets and timelines in a different form; the 2024 Conservative plan also paid cities for allowing housing); Green 1 (its process pledge is general and it opposed the 2023 approach). c = Conservative (4), inferred from the 2024 platform's fund, pre-zoning and Bill 47 amendment; Green 2 (opposed the mandate in 2023, but has no incentive-fund model); CentreBC 2 (pays cities that perform, but keeps provincial rules); NDP 0 (would not unwind its laws). d = Green (4), inferred from the 2023 vote plus 2026 non-market priorities; NDP 2 (also funds non-market housing and tenancy rules, keeps mandates); Conservative 1 and CentreBC 1 (neither funds 26,000 non-market homes or vacancy control). Two cells are inferred and low confidence (Conservative, Green) because neither party has published a 2026 position on the density laws; the interface tags them. OneBC is no_position."
   }
 ]

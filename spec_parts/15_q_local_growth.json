@@ -8,14 +8,14 @@
       "2": "Surrey's new hospital opens in 2030, its emergency room is busy and schools keep growing. What should the province focus on?",
       "3": "How should the province handle Surrey's half-built hospital, overloaded emergency room and crowded schools?",
       "4": "How should the province handle Surrey's hospital, emergency room and school space as the city grows?",
-      "5": "The Cloverdale hospital (about $2.88 billion) opens in 2030, 8.4% of Surrey Memorial emergency patients leave without being seen, and the school district expects 97,069 students by 2033. Choose the approach."
+      "5": "The Cloverdale hospital (about $2.88 billion) opens in 2030, 8.4% of Surrey Memorial emergency patients left without being seen in 2024, and the school district expects 700 to 800 more students a year. Choose the approach."
     },
     "context": {
       "1": "A new hospital is being built in Cloverdale, but it will not open until 2030. More patients now leave the busy Surrey Memorial emergency room before a doctor sees them. Many students learn in portable classrooms. Parties disagree on how to pay for more.",
-      "2": "The province pays to build hospitals and schools. The new Cloverdale hospital will open in 2030, three years later than first planned. At Surrey Memorial, more emergency patients now leave before being seen. Surrey schools use more than 300 portables. The province is borrowing heavily, and parties disagree on how fast to build and how to pay.",
+      "2": "The province pays to build hospitals and schools. The new Cloverdale hospital will open in 2030, three years later than first planned. At Surrey Memorial, more emergency patients now leave before being seen. Surrey schools had 361 portables in 2023. The province is borrowing heavily, and parties disagree on how fast to build and how to pay.",
       "3": "The NDP government is building the Cloverdale hospital and new school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The Conservatives say they are 'contemplating' the hospital and offer emergency room funding and a wait-time commission. The Greens want a health centre in every riding. CentreBC would build a new tower at Surrey Memorial, plan a children's hospital and add 25,000 school seats across BC. OneBC would allow private clinics.",
-      "4": "The Cloverdale hospital's cost rose from $1.72 billion to about $2.88 billion, and its opening slipped from 2027 to 2030. At Surrey Memorial, 8.4% of emergency patients leave without being seen. The Surrey school district has asked for $5.49 billion and uses more than 300 portables. In 2017 the NDP pledged to remove Surrey's portables by 2020, and that pledge was not met.",
-      "5": "The Cloverdale hospital was half built in March 2026, with completion in August 2029, patients in 2030 and a cost of about $2.88 billion, up from $1.72 billion. At Surrey Memorial, 8.4% of emergency patients leave without being seen, up from 2.9%. The Surrey school district expects enrolment to grow from 75,069 to 97,069 by 2033, has asked for $5.49 billion and uses more than 300 portables. About 2,300 seats are under construction, including an 800-seat expansion at Fleetwood Park Secondary. Budget 2026 set provincial capital spending at $18.7 billion, below the $20.4 billion forecast."
+      "4": "The Cloverdale hospital's cost rose from $1.72 billion to about $2.88 billion, and its opening slipped from 2027 to 2030. In 2024, Surrey Memorial's emergency doctors said 8.4% of patients leave without being seen. The Surrey school district has asked for $5.49 billion and had 361 portables in 2023. In 2016 the NDP promised to remove all of Surrey's portables within four years of taking office, and that pledge was not met.",
+      "5": "The Cloverdale hospital was half built in March 2026, with completion in August 2029, patients in 2030 and a cost of about $2.88 billion, up from $1.72 billion. In a September 2024 letter, Surrey Memorial emergency doctors said 8.4% of patients leave without being seen, up from 2.9% in 2020-21. Surrey enrolment passed 83,000 in 2024-25; the district expects 700 to 800 more students a year and about 87,000 by 2035, has asked for $5.49 billion for 76 projects, and had 361 portables in 2023. About 2,300 seats were under construction in August 2025; an 800-seat addition at Fleetwood Park Secondary is in design, with building due to start in winter 2027. Budget 2026 set provincial capital spending at $18.7 billion, below the $20.4 billion forecast."
     },
     "options": [
       {
@@ -42,7 +42,7 @@
           "2": "Fund emergency rooms, let seniors choose their care home, focus schools on basics, and raise no taxes.",
           "3": "Fund emergency rooms, set up a wait-time commission, let care funding follow the senior, and focus schools on basics.",
           "4": "Add no new taxes, fund emergency rooms, run a 100-day wait-time commission, review care-home design rules, let funding follow seniors to non-government providers, and focus schools on basics.",
-          "5": "Create a $50 million emergency room fund and a 100-day commission, review long-term care design rules, let care funding follow the senior, make no health cuts, and raise no new taxes."
+          "5": "Create a $50 million emergency fund and a 100-day commission, review long-term care design rules, let care funding follow the senior, make no health cuts, and raise no new taxes."
         },
         "scores": {
           "ndp": 1,
@@ -76,7 +76,7 @@
           "2": "Build a Surrey Memorial tower, plan a children's hospital, add school seats, and give everyone a regular doctor or nurse.",
           "3": "Build a Surrey Memorial tower, plan a children's hospital, add 25,000 school seats, and give everyone a regular doctor or nurse.",
           "4": "Start building a Surrey Memorial acute-care tower by 2030, plan a Surrey-Langley children's hospital, add 25,000 school seats by 2031, give everyone primary care by 2031, and pay with administrative savings.",
-          "5": "Publish a budget for the Surrey Memorial tower and open it about 2035, start a children's hospital in 2031, add 25,000 seats and 2,500 long-term care beds by 2031, and pay with administrative savings."
+          "5": "Publish a budget for the Surrey Memorial tower and open it about 2035, start a children's hospital in 2031, add 25,000 seats and have 2,500 long-term care beds under construction by 2031, and pay with administrative savings."
         },
         "scores": {
           "ndp": 2,
@@ -108,8 +108,8 @@
       "ndp": {
         "text": {
           "1": "This party is building the new hospital and new classrooms, and wants more clinics.",
-          "3": "The NDP is building the Cloverdale hospital and new Surrey school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The hospital's cost rose about $1 billion and its opening slipped three years. It missed a 2017 pledge to end Surrey's portables by 2020.",
-          "5": "The Cloverdale hospital now costs about $2.88 billion, up from $1.72 billion, with completion in August 2029 instead of 2027. The NDP backs a medical school at Simon Fraser University and plans 60 involuntary care beds. About 2,300 school seats are under construction and 19 of 40 modular buildings replaced portables, but the district reports a $16 million shortfall. For 2026 it promises 20 clinics, help for foreign-trained doctors, 1,000 training seats and new scanners. Candidate Brar promises 'a new hospital' with no timeline."
+          "3": "The NDP is building the Cloverdale hospital and new Surrey school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The hospital's cost rose about $1 billion and its opening slipped three years. It did not meet its 2016 promise to end Surrey's portables within four years.",
+          "5": "The Cloverdale hospital now costs about $2.88 billion, up from $1.72 billion, with completion in August 2029 instead of 2027. The NDP is building a medical school at Simon Fraser University in Surrey and 60 mental health beds in Surrey, including involuntary care, due in spring 2028. About 2,300 school seats are under construction and 19 of 40 modular buildings replaced portables, but the district had a $16 million budget shortfall in 2025-26. For 2026 it promises 20 clinics, help for foreign-trained doctors, 1,000 training seats, and eight MRI machines and 10 CT scanners across BC. Candidate Brar promises 'a new hospital' with no timeline."
         },
         "basis": "both",
         "confidence": "high",
@@ -133,14 +133,38 @@
           {
             "label": "Jagrup Brar campaign page (party-authored)",
             "url": "https://jagrupbrar.bcndp.ca"
+          },
+          {
+            "label": "Fraser Health: second Surrey hospital breaks ground, $2.88 billion, open 2030 (Sept 12, 2023)",
+            "url": "https://www.fraserhealth.ca/news/2023/Sep/second-hospital-new-cancer-centre-breaks-ground-in-surrey"
+          },
+          {
+            "label": "CFJC Today (Canadian Press): Eby promises 20 clinics and 1,000 training seats (Oct 9, 2026)",
+            "url": "https://cfjctoday.com/?p=1128165"
+          },
+          {
+            "label": "Daily Hive: NDP promises eight MRI machines and 10 CT scanners (Oct 6, 2026)",
+            "url": "https://dailyhive.com/vancouver/bc-ndp-surgery-medical-wait-times"
+          },
+          {
+            "label": "BC Gov News: 60 mental health beds with involuntary capacity in Surrey (Sept 4, 2026)",
+            "url": "https://news.gov.bc.ca/releases/2026HLTH0034-001028"
+          },
+          {
+            "label": "CBC: Horgan promises to rid Surrey schools of portables within four years (Aug 31, 2016)",
+            "url": "https://www.cbc.ca/lite/story/1.3742047"
+          },
+          {
+            "label": "CBC: B.C. school portables survey, Surrey has 361 (Sept 16, 2023)",
+            "url": "https://www.cbc.ca/lite/story/1.6967543"
           }
         ]
       },
       "conservative": {
         "text": {
           "1": "This party wants to keep emergency rooms open and is still deciding about the new hospital.",
-          "3": "Asked about the hospital on October 7, Doerkson said the party is 'contemplating all of that'. Its health plan offers emergency room funding, a 100-day wait-time commission, no cuts, and long-term care funding that follows the senior. It has no Surrey school pledge.",
-          "5": "Asked about the hospital on October 7, Doerkson said the party is 'contemplating all of that'. Its Keep Emergency Rooms Open plan (October 5) offers a $50 million rural fund, a 100-day commission and funding held at 2026 levels. Its seniors plan (October 9) reviews long-term care design rules, lets care funding follow the senior and offers a choice of home care provider. It has no position on school capital or Surrey Memorial. Candidate Purewal has published only party themes."
+          "3": "Asked about the hospital on October 7, Doerkson said 'we're contemplating all of that for our platform rollout'. Its health plan offers emergency room funding, a 100-day wait-time commission, no cuts, and long-term care funding that follows the senior. It has no Surrey school pledge.",
+          "5": "Asked about the hospital on October 7, Doerkson said 'we're contemplating all of that for our platform rollout'. Its Keep Emergency Rooms Open plan (October 5) offers a $50 million emergency fund, a 100-day expert commission and a promise to keep current health care spending in place; on October 12 the party restated that care would stay universal and publicly funded. Its seniors plan (October 9) reviews long-term care design rules, lets care funding follow the senior and offers a choice of home care provider. It has no position on school capital or Surrey Memorial. Candidate Purewal has published only party themes."
         },
         "basis": "platform",
         "confidence": "low",
@@ -160,29 +184,41 @@
           {
             "label": "Conservative Party of BC: Garry Purewal candidate page",
             "url": "https://conservativebc.ca/candidate/garry-purewal/"
+          },
+          {
+            "label": "Conservative Party of BC: response on health care (Oct 12, 2026)",
+            "url": "https://conservativebc.ca/conservative-party-of-bc-responds-to-the-ndps-tired-health-care-fearmongering/"
           }
         ]
       },
       "green": {
         "text": {
           "1": "This party wants a local health centre, food for every student, and full support for students with extra needs.",
-          "3": "The Greens would put a community health centre in every riding, including Fleetwood, close the funding gap for inclusive education, add counsellors and feed every student, paid for by their wealth tax. They have no position on the hospital itself.",
+          "3": "The Greens would put a community health centre in every riding, including Fleetwood, close the funding gap for inclusive education, add counsellors and feed every student. They say their wealth tax would help fund schools. They have no position on the hospital itself.",
           "5": "The Greens would open an integrated community health centre in every riding, close the inclusive education funding gap, fund a counsellor per 250 students and provide school food and supplies for all. They have no position on the hospital or on the pace of building. Candidate Binnema has published no local position."
         },
         "basis": "platform",
         "confidence": "medium",
         "sources": [
           {
-            "label": "BC Ballot: BC Green health and education commitments",
-            "url": "https://bcballot.ca/platforms/bc-green-party/"
-          },
-          {
             "label": "BC Greens: Tim Binnema candidate page",
             "url": "https://bcgreens.ca/candidates/tim-binnema/"
           },
           {
-            "label": "BC Ballot: Tim Binnema, Surrey-Fleetwood",
-            "url": "https://bcballot.ca/ridings/surrey-fleetwood/tim-binnema/"
+            "label": "BC Greens: Community Health Centres in every riding (Oct 6, 2026)",
+            "url": "https://bcgreens.ca/pledge-funding-for-community-health-centres-in-every-riding-support-for-healthcare-workers/"
+          },
+          {
+            "label": "BC Greens: close the inclusive education funding gap (Oct 8, 2026)",
+            "url": "https://bcgreens.ca/pledge-to-close-the-inclusive-education-funding-gap-so-every-student-gets-the-support-they-need/"
+          },
+          {
+            "label": "BC Greens: child care plan with an early childhood educator wage grid",
+            "url": "https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/"
+          },
+          {
+            "label": "BC Greens: Our Plan (Fair Share Act for public schools)",
+            "url": "https://bcgreens.ca/our-plan/"
           }
         ]
       },
@@ -190,13 +226,13 @@
         "text": {
           "1": "This party would build a hospital tower and a children's hospital, add classrooms, and give everyone a regular doctor or nurse.",
           "3": "CentreBC's October 10 platform builds the Surrey Memorial acute-care tower with a published budget, starting by 2030 and opening about 2035. It plans a Surrey-Langley children's hospital, adds 25,000 school seats by 2031 and promises everyone a regular doctor or nurse. It pays through attrition and administrative cuts, not new taxes, and does not mention the Cloverdale hospital.",
-          "5": "The platform builds the Surrey Memorial tower announced in 2024, with new operating rooms and cardiac intensive care. It completes the business case, site and design for a children's hospital south of the Fraser in its first term, with construction in 2031. It adds 25,000 school seats by 2031 with $750 million and promises primary care for all by 2031 with 600 nurse practitioners. It plans 2,500 long-term care beds and $3.2 billion in health capital over four years. It does not name the Cloverdale hospital or Surrey's school district."
+          "5": "The platform builds the Surrey Memorial tower announced in 2024, with new operating rooms and cardiac intensive care. It completes the business case, site and design for a children's hospital south of the Fraser in its first term, with construction in 2031. It adds 25,000 school seats by 2031 with $750 million and promises primary care for all by 2031 with 600 nurse practitioners. It would have 2,500 long-term care beds under construction and 1,000 open by March 2031, and plans $3.2 billion in health capital over four years. It does not name the Cloverdale hospital or Surrey's school district."
         },
         "basis": "platform",
         "confidence": "medium",
         "sources": [
           {
-            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 16-17, 21)",
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 17-19, 21, 24)",
             "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
           },
           {
@@ -209,7 +245,7 @@
         "text": {
           "1": "This party would allow private clinics next to public hospitals, and more testing in schools.",
           "3": "OneBC would allow private health care alongside the public system, repeal the Health Professions and Occupations Act and bring in standardized testing. It has no position on building hospitals or schools.",
-          "5": "OneBC would allow private care alongside the public system, repeal the Health Professions and Occupations Act, bring in standardized testing and ban teacher strikes. It has made no commitments on building hospitals or schools. Candidate Hofbauer has published no positions."
+          "5": "OneBC would allow private care alongside the public system, repeal the Health Professions and Occupations Act and bring in standardized testing. It has made no commitments on building hospitals or schools. Candidate Hofbauer has published no positions."
         },
         "basis": "platform",
         "confidence": "medium",

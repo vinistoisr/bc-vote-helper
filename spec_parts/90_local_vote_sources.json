@@ -2,7 +2,7 @@
  "local": {
   "riding": "Surrey-Fleetwood",
   "riding_note": {
-   "3": "About 60,700 people on 15 square kilometres along Fraser Highway, around Fleetwood Town Centre and 160 Street. NDP-held since 2017; 2024 margin 751 votes.",
+   "3": "About 60,700 people on 15 square kilometres along Fraser Highway, around Fleetwood Town Centre and 160 Street. NDP-held since 2017; 2024 margin 753 votes.",
    "5": "2023 Boundaries Commission district: 60,668 people (2021 census), 12.8% above quota, 15 sq km; minor change along Mahood Creek. Contested since 2009. Candidates per Elections BC (nominations closed October 3, 2026)."
   },
   "candidates": [
@@ -14,20 +14,20 @@
     "bio": {
      "1": "He has long been the local member, is a minister, and played basketball for India.",
      "3": "MLA for Surrey-Fleetwood since 2017 (also 2009-2013; Surrey-Panorama Ridge 2004-2009). Minister of Mining and Critical Minerals since November 2024. Former India national basketball player, public administration master's, ex-director of SEEDS. Lives in Surrey with family.",
-     "5": "Born Bathinda, Punjab; MPA (University of Manitoba); SEEDS executive director; MLA Surrey-Panorama Ridge (2004 by-election), Surrey-Fleetwood 2009-2013 (lost 2013 by about 200 votes) and 2017 on; caucus chair (2021); Minister of State for Trade (2022-2024); Mining and Critical Minerals minister (November 2024 on). Salary $183,064; 2024 campaign raised $105,649."
+     "5": "Born in India; former India national basketball player; MPA; SEEDS executive director; MLA Surrey-Panorama Ridge (2004 by-election), Surrey-Fleetwood 2009-2013 (lost in 2013) and 2017 on; Minister of State for Trade, then Mining and Critical Minerals minister (November 2024 on)."
     },
     "record_note": {
      "3": "Voted with his party on every recorded vote checked. As minister, approved the Eskay Creek mine under DRIPA's first consent agreement. Local pledges: hospital, SkyTrain, jobs, housing; no timelines.",
-     "5": "Yea on Bills 36, 44, 46, 7, 14, 15, 32, 24, 3; nay at first reading on property rights, gender identity and Human Rights Code repeal bills. Attended all 105 divisions; never broke ranks. Approved Eskay Creek under DRIPA. No Gitxaala or extortion statement found."
+     "5": "Yea on Bills 36, 44, 46, 7, 14, 15, 32, 24, 3; nay at first reading on property rights, gender identity and Human Rights Code repeal bills. Voted with his party on every recorded vote checked. Approved Eskay Creek under DRIPA. No Gitxaala or extortion statement found."
     },
     "sources": [
      {
-      "label": "BC Ballot: Jagrup Brar",
-      "url": "https://bcballot.ca/mlas/jagrup-brar/"
+      "label": "BC Government: Minister of Mining and Critical Minerals biography",
+      "url": "https://news.gov.bc.ca/ministries/mining-and-critical-minerals/biography"
      },
      {
-      "label": "Wikipedia: Jagrup Brar (secondary)",
-      "url": "https://en.wikipedia.org/wiki/Jagrup_Brar"
+      "label": "Jagrup Brar campaign page (party-authored)",
+      "url": "https://jagrupbrar.bcndp.ca"
      },
      {
       "label": "Votes and Proceedings, May 28, 2025",
@@ -36,10 +36,6 @@
      {
       "label": "BC Government: Eskay Creek approval",
       "url": "https://news.gov.bc.ca/releases/2026MCM0008-000078"
-     },
-     {
-      "label": "Jagrup Brar campaign page (party-authored)",
-      "url": "https://jagrupbrar.bcndp.ca"
      }
     ]
    },
@@ -51,7 +47,7 @@
     "bio": {
      "1": "He owns a business, was a military police officer, and helps run kids' sports.",
      "3": "Business owner with more than 20 years in business, public service and community work; former Canadian Armed Forces military police member; owned companies including a property restoration business; youth sports leader. First run for office.",
-     "5": "Party page (party-authored): 20-plus years in business leadership, public service and community work; former CAF Military Police; property restoration business owner; youth sports leader; listed commitments are party themes. No previous run (BC Ballot). Financial agent Harvinder Sidhu (Delta). No source links him to Shinder Purewal (2019 federal candidate)."
+     "5": "Party page (party-authored): 20-plus years in business leadership, public service and community work; former CAF Military Police; property restoration business owner; youth sports leader; listed commitments are party themes. No previous run found. Financial agent Harvinder Sidhu (Delta). No source links him to Shinder Purewal (2019 federal candidate)."
     },
     "record_note": {
      "3": "No voting record or published local positions beyond party themes. Scored on the Conservative platform.",
@@ -61,10 +57,6 @@
      {
       "label": "Conservative Party of BC: Garry Purewal candidate page",
       "url": "https://conservativebc.ca/candidate/garry-purewal/"
-     },
-     {
-      "label": "BC Ballot: Garry Purewal, Surrey-Fleetwood",
-      "url": "https://bcballot.ca/ridings/surrey-fleetwood/garry-purewal/"
      },
      {
       "label": "Conservative Party of BC: Surrey candidates (Sept 29, 2026)",
@@ -79,8 +71,8 @@
     "incumbent": false,
     "bio": {
      "1": "He is an engineer who fights pollution and has long lived in Fleetwood.",
-     "3": "Engineering and business leader with 25-plus years at a BC pollution-control and energy-optimization firm. Fleetwood resident since 2000; four children, six grandchildren. Fourth Green run here (third in 2013, 2017 and 2024).",
-     "5": "25-plus years senior leadership at a BC engineering and equipment supply firm (pollution control, energy optimization); Fleetwood resident since 2000; priorities 'affordability, housing, tax fairness and environmental sustainability'; results: 2013 1,147 (5.8%), 2017 2,004 (9.7%), 2024 1,321 (6.5%); 2024 campaign raised $225, spent $476."
+     "3": "Engineering and business leader with 25-plus years at a BC pollution-control and energy-optimization firm. Fleetwood resident since 2000; four children, six grandchildren. Green candidate here in 2013, 2017 and 2024; this is his fourth run.",
+     "5": "25-plus years senior leadership at a BC engineering and equipment supply firm (pollution control, energy optimization); Fleetwood resident since 2000; priorities 'affordability, housing, tax fairness and environmental sustainability'; results: 2013 1,147 (5.8%), 2017 2,004 (9.7%), 2024 1,321 (6.5%)."
     },
     "record_note": {
      "3": "No voting record. Stated priorities match the Green platform; no local statements on SkyTrain, extortion or the hospital found. Scored on the Green platform.",
@@ -92,8 +84,8 @@
       "url": "https://bcgreens.ca/candidates/tim-binnema/"
      },
      {
-      "label": "BC Ballot: Tim Binnema, Surrey-Fleetwood",
-      "url": "https://bcballot.ca/ridings/surrey-fleetwood/tim-binnema/"
+      "label": "Elections BC: Statement of Votes, 2024 Provincial General Election (PDF)",
+      "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
      }
     ]
    },
@@ -103,9 +95,9 @@
     "party_id": "centrebc",
     "incumbent": false,
     "bio": {
-     "1": "He has sold homes in Surrey for decades and raised four kids here.",
+     "1": "He has worked in real estate for decades and raised four children in Surrey.",
      "3": "Realtor since 1988, Surrey resident 30-plus years. Arrived 1983, started as a shingle sawyer; UBC Urban Land Economics diploma; raised four children here; campaign volunteer. First run. No source links him to the incumbent.",
-     "5": "Party page (party-authored): arrived 1983, shingle sawyer in Mission, four decades in real estate, UBC Urban Land Economics diploma, raised four children in Surrey, campaign volunteer. First run (BC Ballot). BCFSA licensee 'Sukhpal Paul Singh Brar' unconfirmed as the candidate; not used. No source claims a link to Jagrup Brar."
+     "5": "Party page (party-authored): arrived 1983, shingle sawyer in Mission, four decades in real estate, UBC Urban Land Economics diploma, raised four children in Surrey, campaign volunteer. No previous run found. BCFSA licensee 'Sukhpal Paul Singh Brar' unconfirmed as the candidate; not used. No source claims a link to Jagrup Brar."
     },
     "record_note": {
      "3": "No voting record or published positions. Scored on CentreBC's October 10 platform.",
@@ -119,10 +111,6 @@
      {
       "label": "Surrey Now-Leader: who is running in Surrey ridings (Sept 28, 2026)",
       "url": "https://surreynowleader.com/2026/09/28/b-c-votes-whos-running-in-surrey-ridings-oct-24-and-what-happened-last-election/"
-     },
-     {
-      "label": "BC Ballot: Paul Brar, Surrey-Fleetwood",
-      "url": "https://bcballot.ca/ridings/surrey-fleetwood/paul-brar/"
      }
     ]
    },
@@ -134,7 +122,7 @@
     "bio": {
      "1": "She has always lived in Surrey, was a chef, and helps run a gun-safety school.",
      "3": "Lifelong Surrey resident and mother. Co-manages BC Firearms Academy, a Surrey firearms licensing and hunter education school, with her husband; previously head chef at The Vault in Cloverdale for nearly a decade. First run.",
-     "5": "Party page (party-authored): co-manages BC Firearms Academy (PAL, RPAL, CORE courses); former head chef (The Vault, Cloverdale; Fresgo Inn); substitute teacher during college; lifelong Surrey resident; campaign volunteer. No previous run (BC Ballot). The official agent's Vancouver address is the agent's, not hers."
+     "5": "Party page (party-authored): co-manages BC Firearms Academy (PAL, RPAL, CORE courses); former head chef (The Vault, Cloverdale; Fresgo Inn); substitute teacher during college; lifelong Surrey resident; campaign volunteer. No previous run found. The official agent's Vancouver address is the agent's, not hers."
     },
     "record_note": {
      "3": "No voting record or published positions. Scored on OneBC's priorities.",
@@ -144,17 +132,13 @@
      {
       "label": "OneBC: Carolyn Hofbauer candidate page",
       "url": "https://1bc.ca/candidates/chofbauer"
-     },
-     {
-      "label": "BC Ballot: Carolyn Hofbauer, Surrey-Fleetwood",
-      "url": "https://bcballot.ca/ridings/surrey-fleetwood/carolyn-hofbauer/"
      }
     ]
    }
   ],
   "scoring_method": {
    "3": "Your candidate match is your party match, recalculated with the three Surrey-Fleetwood questions counting double. There is no separate candidate score; no evidence exists to build one.",
-   "5": "Candidate alignment reuses party scores. The three Surrey-Fleetwood questions count double on top of the importance weight; provincial questions count once. Questions without a published party position are left out for that candidate. No candidate-specific adjustment: Brar never broke ranks in 105 divisions; the challengers have no record or local positions. CentreBC scores follow its October 10 platform."
+   "5": "Candidate alignment reuses party scores. The three Surrey-Fleetwood questions count double on top of the importance weight; provincial questions count once. Questions without a published party position are left out for that candidate. No candidate-specific adjustment: Brar voted with his party on every recorded vote checked; the challengers have no record or local positions. CentreBC scores follow its October 10 platform."
   },
   "formula": "local_alignment(c) = sum over answered questions q of ( w_q * m_q * s_q(party(c)) ) / sum over answered questions q of ( w_q * m_q * 4 ). w_q = importance weight (low 0.5, medium 1, high 2). m_q = 2 if q.scope == 'local' else 1. s_q(P) = scores[P] of the chosen option. Skipped questions are excluded from both sums. Questions where party_positions[party(c)].no_position is true are excluded from both sums for that candidate only (no published position), so denominators differ by candidate. candidate_adjustment = 0 for all five candidates. Family local score = mean of members' local_alignment per candidate.",
   "context": {
@@ -163,14 +147,14 @@
      "year": 2024,
      "winner": "Jagrup Brar",
      "party": "ndp",
-     "margin_votes": 751,
+     "margin_votes": 753,
      "margin_pct": 3.7,
      "shares": {
       "ndp": 48.6,
       "conservative": 44.9,
       "green": 6.5
      },
-     "note": "Margin is 751 per the Elections BC figures as reported by Wikipedia (Gill 9,172), which reconcile with the 20,416 valid votes; Stephen Taylor's site shows Gill at 9,170 (753). BC United ran no candidate."
+     "note": "Brar 9,923, Gill (Conservative) 9,170, Binnema (Green) 1,321; 20,414 valid votes; margin 753, per the Elections BC Statement of Votes. BC United ran no candidate."
     },
     {
      "year": 2020,
@@ -200,8 +184,8 @@
     }
    ],
    "competitiveness": {
-    "3": "NDP-held since 2017. Its margin fell from 30 points in 2020 to under 4 (751 votes) in 2024, as the Conservatives took most former BC Liberal votes. Five parties are on the 2026 ballot, up from three.",
-    "5": "2013: Fassbender (Liberal) 45.4%, Brar 44.4%. 2017: Brar +16.9. 2020: Brar +30.2 (60.9%). 2024: Brar +3.7 (9,923 to 9,172; one secondary site shows 9,170). 2026 ballot: five parties (three in 2024). No riding poll exists. The 2023 boundary change was minor, so results are broadly comparable."
+    "3": "NDP-held since 2017. Its margin fell from 30 points in 2020 to under 4 (753 votes) in 2024, as the Conservatives took most former BC Liberal votes. Five parties are on the 2026 ballot, up from three.",
+    "5": "2013: Fassbender (Liberal) 45.4%, Brar 44.4%. 2017: Brar +16.9. 2020: Brar +30.2 (60.9%). 2024: Brar +3.7 (9,923 to 9,170, margin 753; Elections BC Statement of Votes). 2026 ballot: five parties (three in 2024). No riding poll exists. The 2023 boundary change was minor, so results are broadly comparable."
    },
    "polls_projection": {
     "3": "No riding poll exists. 338Canada's model (October 9) rates it a toss-up: Conservatives 45%, NDP 42%, Greens 9%, with 8-point error margins on both leaders. That projects from province-wide polls, which disagree (Conservatives up 8 to NDP up 2).",
@@ -221,7 +205,15 @@
      "url": "https://www.elections.bc.ca/docs/fin/GE-2026-10-24-Candidate-Website-Report.PDF"
     },
     {
-     "label": "Wikipedia: Surrey-Fleetwood results (citing Elections BC)",
+     "label": "Elections BC: Statement of Votes, 2024 Provincial General Election (PDF)",
+     "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+    },
+    {
+     "label": "Elections BC: Statement of Votes, 2020 Provincial General Election (PDF)",
+     "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf"
+    },
+    {
+     "label": "Wikipedia: Surrey-Fleetwood results, 2013 and 2017 (secondary)",
      "url": "https://en.wikipedia.org/wiki/Surrey-Fleetwood"
     },
     {
@@ -262,15 +254,23 @@
  "how_to_vote": {
   "voting_day": "Saturday, October 24, 2026, 8 a.m. to 8 p.m. Pacific time.",
   "advance_voting": "Friday October 16 to Wednesday October 21, 2026, 8 a.m. to 8 p.m. local time. Not every location is open every day; check yours.",
-  "mail_in": "Request a vote-by-mail package online or by phone by October 18. Elections BC must receive it by 8 p.m. Pacific time on October 24; mailing it that day is too late. Unregistered voters must include ID copies.",
+  "mail_in": "Request a vote-by-mail package online or by phone (1-800-661-8683) by October 18. Elections BC must receive it by 8 p.m. Pacific time on October 24 for it to be counted. If you are not registered or your voter information is out of date, prove your identity and address by uploading ID to Elections BC's ID upload system or by including photocopies of your ID with the returned package.",
   "eligibility": "Canadian citizen, 18 or older on October 24, 2026, and a BC resident since April 23, 2026.",
-  "id_rules": "Prove identity and address one of three ways: (1) one government photo ID with your name and address (BC driver's licence, BCID, BC Services Card with photo, Certificate of Indian Status, or another government card with name, photo and address); (2) two documents with your name, at least one with your current address (electronic accepted, handwritten generally not); (3) a registered voter from your district or a close relative vouches for you.",
+  "id_rules": "Prove identity and address one of three ways: (1) one government photo ID with your name and address (BC driver's licence, BCID, BC Services Card with photo, Certificate of Indian Status, or another government card with name, photo and address); (2) two documents with your name, at least one with your current address (electronic accepted, handwritten generally not); (3) someone vouches for you: a registered voter in your electoral district, a spouse, parent, grandparent, adult child, adult grandchild or adult sibling, or a person with authority to make personal care decisions for you. A voucher who is not a relative or personal care authority can vouch for only one voter, and you and the voucher each make a solemn declaration.",
   "where": "Find advance and election-day locations with the voting-place lookup on elections.bc.ca. District electoral offices also take voters until 4 p.m. on October 24. The October 17 municipal election is a separate vote with its own locations.",
-  "other_dates": "Municipal elections October 17, 2026. Televised leaders' debate October 14 (Eby, Doerkson, Lowan). Final count November 6 to 10.",
+  "other_dates": "Municipal elections October 17, 2026. Televised leaders' debate October 14 (Eby, Doerkson, Lowan). Final count November 6 to 10 (planned).",
   "links": [
    {
     "label": "Elections BC: ways to vote",
     "url": "https://elections.bc.ca/voting/ways-to-vote/"
+   },
+   {
+    "label": "Elections BC: vote by mail",
+    "url": "https://elections.bc.ca/voting/ways-to-vote/vote-by-mail/"
+   },
+   {
+    "label": "Elections BC: 2026 provincial election key dates",
+    "url": "https://elections.bc.ca/2026-provincial-election/"
    },
    {
     "label": "Elections BC: who can vote",
@@ -308,6 +308,36 @@
    "label": "Elections BC: voter ID",
    "url": "https://elections.bc.ca/2026-provincial-election/voter-id/",
    "used_for": "ID rules"
+  },
+  {
+   "label": "Elections BC: vote by mail",
+   "url": "https://elections.bc.ca/voting/ways-to-vote/vote-by-mail/",
+   "used_for": "vote-by-mail ID and receipt deadline"
+  },
+  {
+   "label": "Elections BC: 2026 provincial election",
+   "url": "https://elections.bc.ca/2026-provincial-election/",
+   "used_for": "key dates, final count"
+  },
+  {
+   "label": "Elections BC: 2026 candidate list",
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/",
+   "used_for": "candidate totals by party and riding"
+  },
+  {
+   "label": "Elections BC: registered political parties (PDF)",
+   "url": "https://elections.bc.ca/docs/fin/Registered-Political-Parties-Information.pdf",
+   "used_for": "party names and ballot names (CanWest Party, CWP)"
+  },
+  {
+   "label": "Elections BC: Statement of Votes, 2024 (PDF)",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf",
+   "used_for": "2024 riding results"
+  },
+  {
+   "label": "CFJC / Canadian Press: leaders' debate date set (Oct 6, 2026)",
+   "url": "https://cfjctoday.com/2026/10/06/b-c-campaign-trail-date-for-leaders-debate-is-set/",
+   "used_for": "October 14 debate"
   },
   {
    "label": "Elections BC: candidate nomination report (PDF)",
@@ -371,7 +401,7 @@
   },
   {
    "label": "Angus Reid: BC election polling and DRIPA opinion",
-   "url": "https://angusreid.org/85168-2/",
+   "url": "https://angusreid.org/ballot-backlash-bc-conservatives-open-8-point-lead-after-snap-election-call-but-electorate-far-from-locked-in/",
    "used_for": "polls, repeal support, snap election opinion"
   },
   {
@@ -635,19 +665,34 @@
    "used_for": "all OneBC positions"
   },
   {
-   "label": "Wikipedia: OneBC (secondary)",
-   "url": "https://en.wikipedia.org/wiki/OneBC_(political_party)",
-   "used_for": "OneBC record"
+   "label": "National Newswatch / Canadian Press: Brodie reinstated as OneBC leader (Dec 21, 2025)",
+   "url": "https://nationalnewswatch.com/2025/12/22/dallas-brodie-reinstated-as-leader-of-onebc-party-after-abrupt-removal-this-month",
+   "used_for": "OneBC leadership"
   },
   {
-   "label": "Wikipedia: 2026 BC general election (secondary)",
-   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election",
-   "used_for": "polls, seat counts, candidate totals"
+   "label": "Narcity / Canadian Press: OneBC fails to gain party status before the vote (Sept 24, 2026)",
+   "url": "https://www.narcity.com/onebc-overwhelmed-with-candidate-applications",
+   "used_for": "OneBC seats at dissolution, Chapman"
   },
   {
-   "label": "BC Ballot: platform comparison",
-   "url": "https://bcballot.ca/platforms/",
-   "used_for": "commitment tracking across parties (third-party aggregator)"
+   "label": "Castanet / Canadian Press: five return to Conservative caucus (Sept 21, 2026)",
+   "url": "https://www.castanetkamloops.net/news/BC/631916/Five-return-to-B-C-Conservative-caucus-as-early-election-looms",
+   "used_for": "seat counts before the election call"
+  },
+  {
+   "label": "Votes and Proceedings, November 19, 2025",
+   "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251119.htm",
+   "used_for": "DRIPA Statute Repeal Act 43-48"
+  },
+  {
+   "label": "Votes and Proceedings, April 22, 2026",
+   "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm",
+   "used_for": "DRIPA Repeal Act 44-47"
+  },
+  {
+   "label": "Votes and Proceedings, October 23, 2025",
+   "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251023.htm",
+   "used_for": "Land Acknowledgement Prohibition Act 85-5"
   },
   {
    "label": "The Tyee: family doctor crisis",
@@ -708,11 +753,6 @@
    "label": "City of Surrey: Fleetwood neighbourhood profile",
    "url": "https://www.surrey.ca/sites/default/files/media/documents/Neighbourhood-Profile-Fleetwood.pdf",
    "used_for": "demographics proxy"
-  },
-  {
-   "label": "BC Ballot: Jagrup Brar",
-   "url": "https://bcballot.ca/mlas/jagrup-brar/",
-   "used_for": "incumbent voting record"
   },
   {
    "label": "BC NDP logos page",

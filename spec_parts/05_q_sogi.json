@@ -91,8 +91,8 @@
       "ndp": {
         "text": {
           "1": "This party keeps the laws against discrimination but is ending funding for the group that made the lessons. Teachers choose.",
-          "3": "The NDP government is ending funding for the ARC Foundation, which created SOGI 123. It says the materials stay online, districts choose, and anti-bullying work continues. In 2024 it passed a law creating protest-free zones around schools. It has no 2026 platform item on SOGI.",
-          "5": "The NDP cut ARC Foundation funding from $350,000 (2024-25) to $200,000 (2025-26) to $0 (2026-27), citing 'expenditure management'; the ministry says SOGI 123 is 'not defunded' and stays online. Its Safe Access to Schools Act (2024) set protest-free zones around schools. Eby says it is 'up to the teachers'. It voted against the gender-identity and Human Rights Code repeal bills and has no position on pronouns, parental notification or athletes."
+          "3": "The NDP government is ending funding for the ARC Foundation, which created SOGI 123. It says the materials stay online, districts choose, and anti-bullying work continues. In 2024 it passed a law creating zones around schools where disruptive protest is an offence. It has no 2026 platform item on SOGI.",
+          "5": "The NDP cut ARC Foundation funding from $350,000 (2024-25) to $200,000 (2025-26) to $0 (2026-27), citing 'expenditure management'; the ministry says SOGI 123 is 'not defunded' and stays online. Its Safe Access to Schools Act (2024) created access zones within 20 metres of schools where disrupting or intimidating students and staff is an offence. Eby says it is 'up to the teachers'. It voted against the gender-identity and Human Rights Code repeal bills and has no position on pronouns, parental notification or athletes."
         },
         "basis": "both",
         "confidence": "medium",
@@ -108,6 +108,10 @@
           {
             "label": "Votes and Proceedings, February 26, 2026",
             "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260226.htm"
+          },
+          {
+            "label": "BC Government: access zones in place around schools (May 31, 2024)",
+            "url": "https://news.gov.bc.ca/releases/2024ECC0028-000850"
           }
         ]
       },
@@ -115,7 +119,7 @@
         "text": {
           "1": "This party would end these lessons, focus on reading and math, and keep students safe.",
           "3": "The Conservatives would repeal SOGI 123 and refocus on 'arithmetic and reading', but have not said how they would end an optional resource. In 2026 most of their members voted to let bills on gender identity and on repealing the Human Rights Code be introduced, calling that a procedural step.",
-          "5": "The Safe Schools plan would repeal SOGI but names no mechanism. The 2024 platform promised to remove SOGI-derived lesson plans and policy guides, adopt zero-tolerance anti-bullying rules and notify parents of suicidal intent. Most Conservative MLAs voted to give first reading to a gender-identity bill (defeated 38 to 49) and the Human Rights Code Repeal Act (37 to 50), calling it caucus practice. SOGI 123 began under the BC Liberal government while Rustad was a minister."
+          "5": "The Safe Schools plan would repeal SOGI but names no mechanism. The 2024 platform promised to remove SOGI-derived lesson plans and policy guides, adopt zero-tolerance anti-bullying rules and notify parents of suicidal intent. Most Conservative MLAs voted to give first reading to a gender-identity bill (defeated 38 to 49) and the Human Rights Code Repeal Act (37 to 50), saying all bills should get first reading without opposition. SOGI 123 began under the BC Liberal government while Rustad was a minister."
         },
         "basis": "both",
         "confidence": "high",
@@ -139,6 +143,10 @@
           {
             "label": "Votes and Proceedings, February 19, 2026",
             "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260219.htm"
+          },
+          {
+            "label": "Maple Ridge News: Conservatives on letting bills pass first reading (Mar 5, 2026)",
+            "url": "https://mapleridgenews.com/2026/03/05/b-c-ndp-allow-armstrong-bill-on-closing-all-consumption-sites-to-pass-1st-reading/"
           }
         ]
       },
@@ -156,8 +164,20 @@
             "url": "https://ca.news.yahoo.com/where-b-c-provincial-political-130000614.html"
           },
           {
-            "label": "BC Ballot: BC Green education commitments",
-            "url": "https://bcballot.ca/platforms/bc-green-party/"
+            "label": "BC Greens: plan to close the inclusive education funding gap (Oct 8, 2026)",
+            "url": "https://bcgreens.ca/pledge-to-close-the-inclusive-education-funding-gap-so-every-student-gets-the-support-they-need/"
+          },
+          {
+            "label": "BC Greens: Education Policy Brief 2026 (PDF)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Education-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "Votes and Proceedings, October 8, 2025 (Protecting Minors from Gender Transition Act, 40-48)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251008.htm"
+          },
+          {
+            "label": "Votes and Proceedings, February 19, 2026 (Gender Ideology and Child Protection Act, 38-49)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260219.htm"
           }
         ]
       },
@@ -188,7 +208,7 @@
         "text": {
           "1": "This party wants all lessons on gender identity out of schools, with parents deciding at home.",
           "3": "OneBC would repeal SOGI 123, 'remove all gender ideology content' from classrooms, and pass a Parental Bill of Rights. Its bill to stop puberty blockers for minors and to bar use of the 'wrong pronoun' in schools was defeated.",
-          "5": "OneBC would repeal SOGI 123, remove gender ideology content and pass a Parental Bill of Rights. Its October 2025 bill to stop puberty blockers for minors, bar wrong-pronoun use and ban public funds for transition was defeated 48 to 40, and the Gender Ideology and Child Protection Act was defeated 38 to 49. It is not running candidates against eight Conservatives who share its views on SOGI."
+          "5": "OneBC would repeal SOGI 123, remove gender ideology content and pass a Parental Bill of Rights. Its October 2025 bill, Tara Armstrong's Protecting Minors from Gender Transition Act, to stop puberty blockers for minors, bar wrong-pronoun use and ban public funds for transition was defeated 48 to 40. Armstrong left OneBC in December 2025; her February 2026 Gender Ideology and Child Protection Act, which Brodie voted for, was defeated 38 to 49. It is not running candidates against eight Conservatives who share its views on SOGI."
         },
         "basis": "both",
         "confidence": "high",
@@ -204,6 +224,18 @@
           {
             "label": "CTV: OneBC stands aside for eight Conservatives",
             "url": "https://www.ctvnews.ca/vancouver/article/onebc-pledges-not-to-run-against-eight-principled-bc-conservative-candidates/"
+          },
+          {
+            "label": "Votes and Proceedings, October 8, 2025 (Protecting Minors from Gender Transition Act, 40-48)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251008.htm"
+          },
+          {
+            "label": "Votes and Proceedings, February 19, 2026 (Gender Ideology and Child Protection Act, 38-49)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260219.htm"
+          },
+          {
+            "label": "CP24 / CP: Armstrong left OneBC in December 2025 (Oct 4, 2026)",
+            "url": "https://www.cp24.com/news/canada/2026/10/04/bc-legislator-who-sought-to-repeal-the-human-rights-code-wont-seek-re-election/"
           }
         ]
       }

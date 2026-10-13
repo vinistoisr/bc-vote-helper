@@ -15,7 +15,7 @@
       "2": "Canfor announced in July that it will close its Northwood pulp mill in Prince George by the end of 2026, blaming losses and a shortage of wood fibre. The province owns most forest land and sets how much can be cut. The government wants to raise the harvest with a new zoning plan. Parties disagree on how much to cut.",
       "3": "Canfor announced on July 14, 2026 that its Northwood pulp mill in Prince George will close, citing pulp losses and limited fibre supply. The province's Working Forest plan would split public forest into timber, multiple-use and conservation zones with a goal of 45 million cubic metres a year, up from about 30 million. The Greens reject the plan, CentreBC would write it into law, OneBC would raise the cut, and the Conservatives have published no 2026 forestry policy.",
       "4": "Canfor announced on July 14, 2026 the permanent closure of the Northwood pulp mill in Prince George in the fourth quarter, about 300 direct jobs, citing pulp losses and limited BC fibre supply; West Fraser closed its 100 Mile House mill in late 2025. The Council of Forest Industries counts about 15,000 forestry jobs lost since 2022. The government's Working Forest Landscape Model would zone public forest into Working Forest, Multiple Use and Conservation areas with a 'no net loss' rule and a 45 million cubic metre annual harvest objective; the 2025 harvest was about 29 million. The first candidate area, near Campbell River, was announced September 15.",
-      "5": "Canfor announced on July 14, 2026 that the Northwood pulp mill in Prince George will close late this year, affecting about 300 employees, citing pulp losses and limited fibre supply. The Council of Forest Industries counts about 15,000 forestry jobs lost since 2022. The Working Forest Landscape Model would zone public forest into Working Forest, Multiple Use and Conservation areas, with a 'no net loss' provision, 'to stabilize an economic land base that contributes to an annual harvest of 45 million cubic metres'; CentreBC puts the 2025 harvest at 29 million and the Ancient Forest Alliance at roughly 30 million. The first candidate area, near Campbell River, was announced September 15. Party harvest claims (a 'traditional' 60 million; 45 million as a 50% increase) conflict and are not used here."
+      "5": "Canfor announced on July 14, 2026 that the Northwood pulp mill in Prince George will close late this year, affecting about 300 employees, citing pulp losses and limited fibre supply. The Council of Forest Industries counts about 15,000 forestry jobs lost since 2022. The Working Forest Landscape Model would zone public forest into Working Forest, Multiple Use and Conservation areas, with a 'no net loss' provision, 'to stabilize an economic land base that contributes to an annual harvest of 45 million cubic metres'; CentreBC's platform puts the 2025 harvest at 29 million. The first candidate area, near Campbell River, was announced September 15. Party harvest claims (a 'traditional' 60 million; 45 million as a 50% increase) conflict and are not used here."
     },
     "options": [
       {
@@ -24,8 +24,8 @@
           "1": "Plan cuts by region, protect big old trees, make more from less wood.",
           "2": "Plan cuts region by region with no provincial target, protect big old trees, end clearcutting, and make more local products.",
           "3": "Set the harvest through regional area-based planning with no provincial target, permanently protect big-treed old growth, end clearcutting, and direct fibre to value-added products.",
-          "4": "Plan harvest by region with no volume target, protect big old trees, end clearcuts and raw-log exports, give community forests 20% of the cut, and fund worker transition.",
-          "5": "Reject the Working Forest model and its 45 million cubic metre objective; set harvest by regional area-based planning; permanently protect big-treed old growth; end conventional clearcutting and raw-log exports; 20% of the cut to community forests; fund worker transition."
+          "4": "Plan harvest by region with no volume target, protect big old trees, end clearcuts and raw-log exports, work toward 20% of the cut for community forests, and fund worker transition.",
+          "5": "Reject the Working Forest model and its 45 million cubic metre objective; set harvest by regional area-based planning; permanently protect big-treed old growth; end conventional clearcutting and raw-log exports; work toward 20% of the allowable cut for community forests; fund worker transition."
         },
         "scores": {
           "ndp": 1,
@@ -42,7 +42,7 @@
           "2": "Zone forests for timber and conservation with a 45 million cubic metre goal, protect rarest old growth, help mills retool.",
           "3": "Zone forest into timber and conservation with a 45 million cubic metre goal, make rarest old-growth deferrals permanent, and help mills retrofit.",
           "4": "Adopt the Working Forest model: zones, no net loss and a 45 million cubic metre objective, $50 million to make rarest old-growth deferrals permanent, and mill retrofits.",
-          "5": "Implement the Working Forest Landscape Model: three zones with a 'no net loss' rule and a 45 million cubic metre objective, operational-plan permitting, $50 million to convert rarest old-growth deferrals to permanent protection, mill retrofit support for value-added second growth."
+          "5": "Implement the Working Forest Landscape Model: three zones with a 'no net loss' rule and a 45 million cubic metre objective, fewer case-by-case permits, $50 million to convert rarest old-growth deferrals to permanent protection, mill retrofit support for value-added second growth."
         },
         "scores": {
           "ndp": 4,
@@ -92,7 +92,7 @@
         "text": {
           "1": "This party, in charge now, wants to zone the forest and cut more, while protecting the rarest old trees.",
           "3": "The NDP government's Working Forest model would zone public forest and aims at 45 million cubic metres a year with 'no net loss' of timber land. On October 10 it pledged $50 million to make the rarest old-growth deferrals permanent and to help mills retrofit for second growth. Campaign releases do not restate the 45 million target.",
-          "5": "Record: Working Forest Landscape Model (zones, 'no net loss', 45 million cubic metre objective, permitting moved to operational plans), first candidate area near Campbell River announced September 15, 2026; Pledges: $50 million to convert deferrals of the rarest old growth to permanent protection while helping mills retrofit for value-added second growth (October 10); US alcohol off shelves until forest workers get a fair trade deal (September 22). The NDP has no platform and its releases do not mention the 45 million figure. No response to Unifor's bridging-to-retirement request."
+          "5": "Record: Working Forest Landscape Model (zones, 'no net loss', 45 million cubic metre objective, fewer case-by-case permits), first candidate area near Campbell River announced September 15, 2026; Pledges: $50 million to convert deferrals of the rarest old growth to permanent protection while helping mills retrofit for value-added second growth (October 10). The NDP has no platform and its releases do not mention the 45 million figure. No response to Unifor's bridging-to-retirement request."
         },
         "basis": "both",
         "confidence": "medium",
@@ -112,6 +112,10 @@
           {
             "label": "CKPG: Canfor announces permanent closure of Northwood pulp mill (July 14, 2026)",
             "url": "https://ckpgtoday.ca/2026/07/14/canfor-announces-permanent-closure-of-northwood-pulp-mill/"
+          },
+          {
+            "label": "BC Gov News: Campbell River first candidate area for the Working Forest Landscape Model (Sept 15, 2026)",
+            "url": "https://news.gov.bc.ca/releases/2026FOR0034-001069"
           }
         ]
       },
@@ -119,7 +123,7 @@
         "text": {
           "1": "This party has not published a forestry plan this election, so it is not scored here.",
           "3": "The Conservatives' site shows a 'Forestry for the Future' heading with no text. Campaign material says it will 'revive' forestry and pass a 120-day permitting law; the forestry critic blamed government policy and permitting delays for mill closures in 2025. With no published policy on harvest levels or the zoning model, the party is not scored here.",
-          "5": "conservativebc.ca (checked October 12) lists 'Forestry for the Future' as a heading with no content. 'Supercharge' release (October 7): 120 Day Permitting Act for projects over $250 million, red tape to 2017 levels. Critic Ward Stamer (November 2025) called the 'Path to 45' 'a path to collapse' and blamed restrictive policy and permitting; Doerkson (November 2025) asked for 'a harvest level that can sustain mills'. No stated position on the Working Forest model, the 45 million objective, stumpage or old growth. No_position; recheck if a platform appears."
+          "5": "conservativebc.ca (checked October 12) lists 'Forestry for the Future' as a heading with no content. 'Supercharge' release (October 7): 120 Day Permitting Act for projects over $250 million, red tape to 2017 levels. Critic Ward Stamer (November 2025) called the 'Path to 45' 'a path to collapse' and blamed restrictive policy and permitting; Doerkson (November 2025) called for 'an appropriate harvest that can sustain mills across the province'. No stated position on the Working Forest model, the 45 million objective, stumpage or old growth. No_position; recheck if a platform appears."
         },
         "basis": "platform",
         "confidence": "low",
@@ -146,8 +150,8 @@
       "green": {
         "text": {
           "1": "This party would plan logging region by region with no provincial target, and protect big old trees.",
-          "3": "The Greens' October 4 forestry plan rejects the Working Forest model 'including the 45 million cubic metre harvest objective', sets harvest by regional area-based planning, ends conventional clearcutting and raw-log exports, permanently protects big-treed old growth, puts 20% of the cut into community forests and funds worker transition where harvest falls.",
-          "5": "Forestry Policy Brief (October 4, 2026): reject the Working Forest Model including the 45 million objective and 'no net loss'; harvest set by regional area-based planning; end conventional clearcutting; permanently protect big-treed old growth and implement all Old Growth Strategic Review recommendations; end raw-log exports; 20% of the allowable cut to community forests; 30 to 50% of available fibre to value-added; diversification and transition funding. Economic Direction (October 7): rule out 'working backwards from a provincial harvest target'. Claim: forest revenue of $397 million in 2025/26 was below ministry costs."
+          "3": "The Greens' October 4 forestry plan rejects the Working Forest model 'including the 45 million cubic metre harvest objective', sets harvest by regional area-based planning, ends conventional clearcutting and raw-log exports, permanently protects big-treed old growth, works toward 20% of the allowable cut for community forests and funds worker transition where harvest falls.",
+          "5": "Forestry Policy Brief (October 4, 2026): reject the Working Forest Model including the 45 million objective and 'no net loss'; harvest set by regional area-based planning; end conventional clearcutting; permanently protect big-treed old growth and implement all Old Growth Strategic Review recommendations; end raw-log exports; work toward 20% of the allowable cut for community forests; 30 to 50% of available fibre to value-added; diversification and transition funding. Economic Direction (October 7): rule out 'working backwards from a provincial harvest target'. Claim: forest revenue of $397 million in 2025/26 was below ministry costs."
         },
         "basis": "platform",
         "confidence": "high",
@@ -191,13 +195,13 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "BC Ballot: OneBC commitments",
-            "url": "https://bcballot.ca/platforms/onebc/"
+            "label": "OneBC on X: Our Plan summary (Oct 5, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2107175484186624143"
           }
         ]
       }
     },
-    "scoring_rationale": "a = Green (4); NDP 1 (protects the rarest old growth and funds value-added, but keeps a provincial volume target); CentreBC 0 and OneBC 0 (both want more cut). b = NDP record (4); CentreBC 3 (same zones and 45 million goal, but legislated and pushed harder); OneBC 1 (more cut, no zoning or protection); Green 0. c = CentreBC (4); NDP 3 (its own model, without legislation, timber sales target or task force); OneBC 2 (shares faster permits and more supply, not zones or worker funding); Green 0. d = OneBC (4); CentreBC 1 (aims at 45 million, not above it, and keeps consultation); NDP 1; Green 0. The Conservatives have published no 2026 forestry policy (their site shows an empty heading) and are no_position rather than inferred, because their statements point in two directions (faster permits and 'a harvest level that can sustain mills' versus silence on the model and stumpage). The Island's old-growth question uses the same party mapping with Island facts."
+    "scoring_rationale": "a = Green (4); NDP 1 (protects the rarest old growth and funds value-added, but keeps a provincial volume target); CentreBC 0 and OneBC 0 (both want more cut). b = NDP record (4); CentreBC 3 (same zones and 45 million goal, but legislated and pushed harder); OneBC 1 (more cut, no zoning or protection); Green 0. c = CentreBC (4); NDP 3 (its own model, without legislation, timber sales target or task force); OneBC 2 (shares faster permits and more supply, not zones or worker funding); Green 0. d = OneBC (4); CentreBC 1 (aims at 45 million, not above it, and keeps consultation); NDP 1; Green 0. The Conservatives have published no 2026 forestry policy (their site shows an empty heading) and are no_position rather than inferred, because their statements point in two directions (faster permits and 'an appropriate harvest that can sustain mills' versus silence on the model and stumpage). The Island's old-growth question uses the same party mapping with Island facts."
   },
   {
     "id": "q_local_north_resources",
@@ -207,13 +211,13 @@
       "1": "Gas plants, mines and a power line are planned up north. How should they be approved?",
       "2": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. How should the province handle them?",
       "3": "Kitimat's gas export plant is doubling, and more plants, mines and a power line are proposed. What conditions should apply?",
-      "4": "LNG Canada is doubling; Ksi Lisims LNG, new mines and the North Coast power line await approval. What conditions should apply?",
-      "5": "LNG Canada Phase 2 took its final investment decision September 29, 2026, doubling capacity; Ksi Lisims LNG, critical mineral mines and the North Coast Transmission Line await provincial decisions. Which approval approach?"
+      "4": "LNG Canada is doubling; Ksi Lisims LNG is permitted, new mines await permits and the North Coast power line is being built. What conditions should apply?",
+      "5": "LNG Canada Phase 2 took its final investment decision September 29, 2026, doubling capacity; Ksi Lisims LNG is permitted and heading toward a final investment decision, critical mineral mines await permits, and the North Coast Transmission Line's first phase is under construction. Which approval approach?"
     },
     "context": {
       "1": "The north has big projects waiting: gas export plants, new mines, and a long power line to run them. The province decides whether and how fast to approve them, and what pollution and First Nations rules apply. Parties disagree on speed and conditions.",
-      "2": "In September the companies behind the Kitimat gas export plant agreed to build a second phase. Another gas plant near Prince Rupert, new mines, and a north coast power line are waiting on provincial decisions. The province sets approval timelines, pollution rules, the carbon price for industry, and First Nations partnership rules. Parties disagree on speed and conditions.",
-      "3": "The Kitimat gas export plant's owners are doubling it after a September decision. The Ksi Lisims plant near Prince Rupert awaits a decision, mine proposals are in the permit queue, and the North Coast power line would supply them. The NDP requires new plants to be net-zero ready by 2030. The Conservatives would legislate 120-day approvals and drop emissions limits. CentreBC would set a one-year legal deadline. The Greens would approve no new gas plants.",
+      "2": "In September the companies behind the Kitimat gas export plant agreed to build a second phase. Another gas plant near Prince Rupert has its permits but no final go-ahead, new mines are waiting on permits, and construction has started on a north coast power line. The province sets approval timelines, pollution rules, the carbon price for industry, and First Nations partnership rules. Parties disagree on speed and conditions.",
+      "3": "The Kitimat gas export plant's owners are doubling it after a September decision. The Ksi Lisims plant near Prince Rupert is permitted but awaits its investment decision, mine proposals are in the permit queue, and the first phase of the North Coast power line is under construction. The NDP requires new plants to be net-zero ready by 2030. The Conservatives would legislate 120-day approvals and drop emissions limits. CentreBC would set a one-year legal deadline. The Greens would approve no new gas plants.",
       "4": "LNG Canada announced its Phase 2 final investment decision on September 29, doubling Kitimat capacity to 28 million tonnes. The NDP requires new projects to be net-zero ready by 2030, would run assessments and permits at the same time, double mineral exports and fast-track the North Coast line with Canadian steel. The Conservatives' plan doubles gas production by 2032, ends emissions limits, legislates 120-day permits and sets a fixed deadline for the line. CentreBC backs LNG with First Nations partners and net-zero plans, a 12-month decision deadline and ten mine decisions by 2030. The Greens would end approvals for new LNG and pipelines.",
       "5": "LNG Canada's Phase 2 final investment decision (September 29, 2026) doubles Kitimat capacity to 28 million tonnes. On the NDP's own numbers, capacity reaches nearly 48 million tonnes by 2035, above the Conservatives' 'triple by 2035' target, so the real dispute is conditions and process. The NDP pledges to double critical mineral exports in five years, run permits concurrently, build the North Coast Transmission Line with Canadian steel, and keep the net-zero-ready requirement. The Conservatives would double gas by 2032 and triple by 2035, end emissions limits, pass a 120 Day Permitting Act and fix a line deadline. CentreBC requires First Nations partners and credible net-zero plans, keeps industrial carbon pricing, sets a 12-month provincial deadline and promises decisions on 10 mines by 2030. The Greens would approve no new LNG or pipelines."
     },
@@ -221,11 +225,11 @@
       {
         "id": "a",
         "text": {
-          "1": "No new gas plants or pipelines; mines only with First Nations partners and rules.",
-          "2": "Stop approving new gas plants, pipelines and fracking expansion, and back mines only with First Nations partners and pollution rules.",
-          "3": "End approvals for new gas export plants, pipelines and fracking expansion, raise royalties, and support mines only with First Nations participation and pollution standards.",
-          "4": "Approve no new fracking, LNG terminals or pipelines, manage a production decline, take 50% of net profits in royalties, and back mines only with First Nations involved.",
-          "5": "End approvals for new fracking expansion, LNG terminals and pipelines; managed decline of existing production; end subsidies and collect 50% of net profits in royalties; mines only with First Nations participation, a long-term economic case and pollution standards."
+          "1": "No new gas plants or pipelines; mines only under strict rules that respect First Nations.",
+          "2": "Stop approving new gas plants, pipelines and fracking expansion, and allow mines only within ecological limits and strict pollution rules.",
+          "3": "End approvals for new gas export plants, pipelines and fracking expansion, raise royalties, and allow mines only within ecological limits, to strict standards and respecting First Nations' rights.",
+          "4": "Approve no new fracking, LNG terminals or pipelines, manage a production decline, take 50% of net profits in royalties, and allow mining only within ecological limits.",
+          "5": "End approvals for new fracking expansion, LNG terminals and pipelines; managed decline of existing production; end subsidies and collect 50% of net profits in royalties; mining only within ecological limits and to world-leading standards, with public support for mineral processing only with First Nations participation, a long-term economic case and pollution standards."
         },
         "scores": {
           "ndp": 0,
@@ -259,7 +263,7 @@
           "2": "One-year deadline for decisions, gas plants only with First Nations partners and a net-zero plan, ten mine decisions by 2030.",
           "3": "Legislate a 12-month decision deadline, back gas plants with First Nations partners and net-zero plans, keep industrial carbon pricing, and decide on ten mines.",
           "4": "Decide in 12 months, back LNG only with First Nations partners and a net-zero-ready plan, keep industrial carbon pricing, rule on ten mines by 2030, and fund port access.",
-          "5": "One coordinated review with a 12-month provincial decision deadline; LNG backed only with First Nations partners and a credible net-zero-ready plan; industrial carbon pricing kept; permitting decisions on ten mines by 2030; $750 million for port road and rail."
+          "5": "One coordinated review with a 12-month provincial decision deadline; LNG backed only with First Nations partners and a credible net-zero-ready plan; industrial carbon pricing kept; permitting decisions on ten mines by 2030; $750 million in provincial road and rail links to match a $1.5 billion federal port request."
         },
         "scores": {
           "ndp": 3,
@@ -308,7 +312,7 @@
       "ndp": {
         "text": {
           "1": "This party, in charge now, backs more gas plants and mines if they can reach zero emissions, with faster permits and a new power line.",
-          "3": "The NDP government permitted LNG Canada Phase 2 and Ksi Lisims and requires new plants to be net-zero ready by 2030. It pledges to double critical mineral exports in five years, run assessments and permits at the same time, fast-track the North Coast Transmission Line with Canadian steel, and start a fund from new gas revenue.",
+          "3": "The NDP government permitted LNG Canada Phase 2 and Ksi Lisims and requires new plants to be net-zero ready by 2030. It pledges to double critical mineral exports in five years, run assessments and permits at the same time, fast-track the North Coast Transmission Line with Canadian steel, and start a fund from new oil and gas revenue.",
           "5": "Record and pledges: LNG Canada Phase 1 operating, Cedar and Woodfibre under construction, Phase 2, Tilbury Phase 2 and Ksi Lisims permitted, nearly 48 million tonnes of capacity by 2035, net-zero-ready by 2030 required (September 28 release); double critical mineral exports within five years with concurrent assessment and permitting and fixed exploration timelines, North Coast Transmission Line fast-tracked and Prince Rupert port expanded (September 28); 70% then 100% Canadian steel for the line (September 24); $50 million Clean Futures Fund from new oil and gas revenue (October 10)."
         },
         "basis": "both",
@@ -329,6 +333,10 @@
           {
             "label": "BNN Bloomberg: LNG Canada to go ahead with Phase 2 (Sept 29, 2026)",
             "url": "https://www.bnnbloomberg.ca/business/company-news/2026/09/29/lng-canada-to-go-ahead-with-phase-2-expansion-project-in-kitimat-bc/"
+          },
+          {
+            "label": "BC NDP: new Built in BC and Canada buying rules, Canadian steel for the North Coast line (Sept 24, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-pledges-new-built-bc-and-canada-buying-rules"
           }
         ]
       },
@@ -352,14 +360,18 @@
           {
             "label": "Conservative Party of BC: welcome LNG Canada Phase 2 (Sept 29, 2026)",
             "url": "https://conservativebc.ca/bc-conservatives-welcome-lng-canada-phase-2-we-will-treat-energy-as-an-urgent-mission/"
+          },
+          {
+            "label": "Conservative Party of BC: Supercharge British Columbia's economy, 120 Day Permitting Act over $250 million (Oct 7, 2026)",
+            "url": "https://conservativebc.ca/supercharge-british-columbias-economy/"
           }
         ]
       },
       "green": {
         "text": {
-          "1": "This party would approve no new gas plants or pipelines, and back mines only with First Nations partners and strict rules.",
-          "3": "The Greens would end approvals for new fracking expansion, LNG terminals and pipelines, manage a decline of existing production, end subsidies and collect 50% of net profits in royalties. Lowan called Phase 2 'deeply disappointing'. Public support for mines would require First Nations participation, a long-term economic case and strong pollution standards.",
-          "5": "Climate, LNG and Royalties Policy Brief (October 10, 2026): end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines; managed decline; end provincial subsidies; royalties reformed to 50% of net profits; independent health impact assessment of LNG and fracking. Statement on Phase 2 (September 29): 'deeply disappointed', at most 150 permanent jobs. Economic Vision (October 7): critical minerals recycling, a value chain plan, public support only with First Nations participation, a long-term economic case and strong pollution standards; no new large dams."
+          "1": "This party would approve no new gas plants or pipelines, and allow mines only within ecological limits and strict rules.",
+          "3": "The Greens would end approvals for new fracking expansion, LNG terminals and pipelines, manage a decline of existing production, end subsidies and collect 50% of net profits in royalties. Lowan said she was 'deeply disappointed' to see Phase 2 go ahead. The Greens would set ecological limits on where mining can happen and world-leading mining standards; public support for mineral processing would require First Nations participation, a long-term economic case and strong pollution standards.",
+          "5": "Climate, LNG and Royalties Policy Brief (October 10, 2026): end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines; managed decline; end provincial subsidies; royalties reformed to 50% of net profits. Healthcare Policy Brief: an independent health impact assessment of LNG and fracking. Statement on Phase 2 (September 29): 'deeply disappointed to see LNG Canada Phase 2 move ahead', at most 150 permanent jobs. Economic Vision (October 7): ecological limits set before deciding where mining can occur, world-leading mining standards, critical minerals recycling, a value chain plan, and public support for processing and refining only with First Nations participation, a long-term economic case and strong pollution standards; no new large dams."
         },
         "basis": "platform",
         "confidence": "high",
@@ -375,6 +387,10 @@
           {
             "label": "BC Greens: A New Economic Direction for British Columbia (PDF, Oct 7, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf"
+          },
+          {
+            "label": "BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"
           }
         ]
       },
@@ -407,8 +423,12 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "BC Ballot: OneBC commitments (Sept 26 post)",
-            "url": "https://bcballot.ca/platforms/onebc/"
+            "label": "OneBC on X: major projects without veto consultations (Sept 26, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2103913099086684163"
+          },
+          {
+            "label": "OneBC on X: Our Plan summary (Oct 5, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2107175484186624143"
           }
         ]
       }
@@ -421,17 +441,17 @@
     "scope": "local",
     "prompt": {
       "1": "Emergency rooms in northern towns keep closing for lack of staff. What would help most?",
-      "2": "Emergency rooms in Fort St. James, Mackenzie and Hudson's Hope keep closing for lack of staff. What would help most?",
-      "3": "Emergency rooms in Fort St. James, Mackenzie, Hudson's Hope and 100 Mile House keep closing for lack of staff. What comes first?",
-      "4": "Northeast BC had 115 hours of emergency and maternity closures in March 2026; 100 Mile House announced 39. What comes first?",
-      "5": "Northern Health recorded 115 hours of emergency or maternity closures in the northeast in March 2026; Fort St. James and Mackenzie closed in May; 100 Mile House announced 39 closures. Which approach?"
+      "2": "Emergency rooms in Fort St. James, Chetwynd and Hudson's Hope keep closing for lack of staff. What would help most?",
+      "3": "Emergency rooms in Fort St. James, Chetwynd, Hudson's Hope and 100 Mile House keep closing for lack of staff. What comes first?",
+      "4": "Northeast BC had 115 hours of emergency and maternity closures in March 2026; 100 Mile House's emergency room closed 38 times by August. What comes first?",
+      "5": "Northern Health recorded 115 hours of emergency or maternity closures in the northeast in March 2026; Fort St. James closed again in May; Interior Health's 100 Mile House emergency room had closed 38 times by August 24. Which approach?"
     },
     "context": {
       "1": "In many northern towns the hospital emergency room shuts for hours or days because no doctor or nurse can staff it. People drive long distances for help. The province pays for hospitals and decides how to attract staff. Parties disagree on what would work fastest.",
-      "2": "Small northern hospitals closed their emergency rooms repeatedly in 2026 because of staff shortages, including Fort St. James, Mackenzie, Hudson's Hope, Chetwynd and 100 Mile House. In March the northeast lost 115 hours of emergency and maternity care. The province has opened hospitals in Terrace and Fort St. James, but staffing them is the problem. Parties disagree on the fix.",
-      "3": "Northern Health reported 115 hours of emergency or maternity closures in northeast BC in March 2026, including 60 hours at Hudson's Hope, citing staffing. Fort St. James and Mackenzie both closed on May 26, and 100 Mile House has announced 39 closures this year. The Conservatives launched a $50 million rural fund in 100 Mile House on October 5. CentreBC promises a closure-reporting law and a yearly fund. The NDP offers tuition and moving help for rural work.",
-      "4": "Northern Health logged 115 hours of emergency or related closures in northeast BC in March 2026 (Hudson's Hope 60), citing staffing. Fort St. James and Mackenzie closed on May 26; 100 Mile House has announced 39 closures in 2026. New hospitals opened in Terrace (2024), Fort St. James (2025) and Prince Rupert (2025), but staffing drives the closures. The Conservatives launched a $50 million rural practice fund with flexible staffing in 100 Mile House on October 5. CentreBC promises an accountability law and a $25 million a year fund. The NDP offers rural tuition, loan forgiveness and moving support. The Greens want community health centres; OneBC private care alongside public.",
-      "5": "Northern Health reported 115 hours of emergency or related closures in northeast BC in March 2026, including 60 at Hudson's Hope, with staffing the stated cause. Fort St. James and Mackenzie closed on May 26, and 100 Mile House has announced 39 closures in 2026. The Conservatives pledge a $50 million rural practice fund, flexible staffing, automatic credential recognition and an expert commission (October 5, 100 Mile House); CentreBC an Emergency Room Accountability Act, halved unplanned closure hours by 2029/30, a $25 million a year fund and a permanent retention bonus; the NDP rural tuition discounts, loan forgiveness, moving costs and 1,000 seats (October 9); the Greens a community health centre per riding and a single authority; OneBC private care alongside public."
+      "2": "Small northern hospitals closed their emergency rooms repeatedly in 2026 because of staff shortages, including Fort St. James, Hudson's Hope, Chetwynd and 100 Mile House. In March the northeast lost 115 hours of emergency and maternity care. The province has opened hospitals in Terrace and Fort St. James, but staffing them is the problem. Parties disagree on the fix.",
+      "3": "Northern Health reported 115 hours of emergency or maternity closures in northeast BC in March 2026, including 60 hours at Hudson's Hope, citing staffing. Fort St. James closed again on May 26, and 100 Mile House, in Interior Health, had closed 38 times by late August. The Conservatives launched a $50 million rural fund in 100 Mile House on October 5. CentreBC promises a closure-reporting law and a yearly fund. The NDP offers tuition and moving help for rural work and would phase out private agency nurses.",
+      "4": "Northern Health logged 115 hours of emergency or related closures in northeast BC in March 2026 (Hudson's Hope 60), citing staffing. Fort St. James closed again on May 26; Interior Health's 100 Mile House emergency room had closed 38 times by August 24. New hospitals opened in Terrace (2024), Fort St. James (2025) and Prince Rupert (2025), but staffing drives the closures. The Conservatives launched a $50 million rural practice fund with flexible staffing in 100 Mile House on October 5. CentreBC promises an accountability law and a $25 million a year fund. The NDP offers rural tuition, loan forgiveness and moving support, and would phase out private agency nurses (October 12). The Greens want community health centres; OneBC private care alongside public.",
+      "5": "Northern Health reported 115 hours of emergency or related closures in northeast BC in March 2026, including 60 at Hudson's Hope, with staffing the stated cause. Fort St. James closed again on May 26, and Interior Health's 100 Mile House emergency room had closed 38 times by August 24. The Conservatives pledge a $50 million rural practice fund, flexible staffing, automatic credential recognition and an expert commission (October 5, 100 Mile House); CentreBC an Emergency Room Accountability Act, halved unplanned closure hours by 2029/30, a $25 million a year fund and a permanent retention bonus; the NDP rural tuition discounts, loan forgiveness, moving costs and 1,000 nursing and care training seats (October 9) and a three-year phase-out of private agency nurses with savings to rural travel nurses (October 12); the Greens a community health centre per riding and a review toward a single authority; OneBC private care alongside public."
     },
     "options": [
       {
@@ -458,7 +478,7 @@
           "2": "Create a $50 million emergency fund for rural practices at risk of closing, loosen staffing rules, and fast-track foreign-trained doctors.",
           "3": "Create a $50 million emergency fund for rural practices at risk of closing, allow flexible staffing, fast-track credentials, and appoint an expert commission.",
           "4": "Put $50 million into rural practices at risk of closing, allow flexible staffing, accept other provinces' credentials, hold health spending, and form an expert panel.",
-          "5": "Create a $50 million emergency fund for rural medical practices at risk of closing, flexible staffing to prevent closures, automatic recognition of other provinces' credentials, an expert commission within 100 days, and no cuts to the 2026 health budget."
+          "5": "Create a $50 million emergency fund for rural medical practices at risk of closing, flexible staffing to prevent closures, automatic recognition of other provinces' credentials and faster recognition for Canadian doctors trained abroad, an expert commission within 100 days, and no cuts to the 2026 health budget."
         },
         "scores": {
           "ndp": 2,
@@ -473,9 +493,9 @@
         "text": {
           "1": "Recruit more doctors with cheaper tuition, loan help and moving money for rural jobs.",
           "2": "Recruit: tuition discounts, loan forgiveness and moving costs for rural posts, more training seats, and a bridge for foreign-trained doctors.",
-          "3": "Recruit staff through tuition discounts, loan forgiveness and moving costs for rural areas, 1,000 more training seats, and a bridging program for international graduates.",
-          "4": "Give rural health workers tuition discounts, loan forgiveness and moving costs, add 1,000 training seats, help foreign-trained doctors qualify, and open 20 team clinics.",
-          "5": "Recruit through discounted tuition, loan forgiveness and moving expenses for health workers taking rural and emergency posts, 1,000 added training seats, a bridging-to-practice program for internationally trained doctors, 20 team-based primary care clinics, and eight MRI and ten CT scanners."
+          "3": "Recruit staff through tuition discounts, loan forgiveness and moving costs for rural areas, 1,000 more nursing and care training seats, and a bridging program for international graduates.",
+          "4": "Give rural health workers tuition discounts, loan forgiveness and moving costs, add 1,000 nursing and care seats, help foreign-trained doctors qualify, and open 20 team clinics.",
+          "5": "Recruit through discounted tuition, loan forgiveness and moving expenses for health workers taking rural and emergency posts, 1,000 added training seats for nurses, nurse practitioners, allied health workers and care aides, a bridging-to-practice program for internationally trained doctors, 20 team-based primary care clinics, and eight MRI and ten CT scanners."
         },
         "scores": {
           "ndp": 4,
@@ -489,10 +509,10 @@
         "id": "d",
         "text": {
           "1": "Open a public health centre in every area so fewer people need emergency rooms.",
-          "2": "Open a community health centre in every riding, set nurse-to-patient limits, stop using private agency nurses, and keep care public.",
-          "3": "Change the model: a community health centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, one provincial health authority.",
-          "4": "Fund a community health centre in every riding, legislate nurse-to-patient ratios, phase out agency nurses, move toward one health authority, and keep health dollars public.",
-          "5": "Fund a Community Health Centre in every riding, legislate safe nurse-to-patient ratios, phase out private agency nurses and for-profit staffing agencies, consolidate the health authorities into one provincial authority, and keep every public health dollar in public care."
+          "2": "Open a community health centre in every riding, fund safe nurse-to-patient ratios, phase out private agency nurses, and keep care public.",
+          "3": "Change the model: a community health centre in every riding, funding for safe nurse-to-patient ratios, an end to private agency nurses, a review toward one provincial health authority.",
+          "4": "Fund a community health centre in every riding, fund nurse-to-patient ratios, phase out agency nurses, review a move to one health authority, and keep health dollars public.",
+          "5": "Fund a Community Health Centre in every riding, increase funding for nurses to support safe nurse-to-patient ratios, phase out private agency nurses and for-profit staffing agencies, review the health authority model with a focus on one consolidated provincial authority, and keep every public health dollar in public care."
         },
         "scores": {
           "ndp": 2,
@@ -524,8 +544,8 @@
       "ndp": {
         "text": {
           "1": "This party is in charge now. It offers cheaper tuition and moving money to bring doctors to rural areas.",
-          "3": "The NDP government opened new hospitals in Terrace, Fort St. James and Prince Rupert, but the closures happened under it. Its October 9 plan offers discounted tuition, loan forgiveness and moving costs for health workers in underserved rural areas, a bridging program for international graduates, 1,000 training seats and 20 team-based clinics. No rural emergency fund or reporting law.",
-          "5": "Record: Ksyen Regional Hospital (Terrace, November 2024), Stuart Lake Hospital (Fort St. James, January 2025), Prince Rupert emergency redevelopment (September 2025), the Prince George tower and Peace Villa under way; the 2026 closures occurred under its government. Pledges (October 9, 2026): discounted tuition, loan forgiveness and moving expenses for rural and emergency posts, bridging to practice for international graduates in BC, 1,000 added training seats, 20 team-based primary care clinics, extended-hours clinics, eight MRI and ten CT scanners. No dedicated rural emergency fund and no closure-reporting law."
+          "3": "The NDP government opened new hospitals in Terrace, Fort St. James and Prince Rupert, but the closures happened under it. Its October 9 plan offers discounted tuition, loan forgiveness and moving costs for health workers in underserved rural areas, a bridging program for international graduates, 1,000 nursing and care training seats and 20 team-based clinics. On October 12 it pledged to phase out hospitals' reliance on private agency nurses over three years and put the savings into Go Health BC travel nurses for rural emergency rooms. No rural emergency fund or reporting law.",
+          "5": "Record: Ksyen Regional Hospital (Terrace, November 2024), Stuart Lake Hospital (Fort St. James, January 2025), Prince Rupert emergency redevelopment (September 2025), the Prince George tower and Peace Villa under way; the 2026 closures occurred under its government. Pledges (October 9, 2026): discounted tuition, loan forgiveness and moving expenses for health workers in underserved rural areas, bridging to practice for international medical graduates, 1,000 added training seats for nurses, nurse practitioners, allied health workers and care aides, 20 team-based primary care clinics, more evening and weekend care. October 6: eight MRI and ten CT scanners. October 12: phase out hospitals' reliance on private agency nurses over three years by capping fees and hours, with the savings going to Go Health BC travel nurses for rural emergency rooms. No dedicated rural emergency fund and no closure-reporting law."
         },
         "basis": "both",
         "confidence": "high",
@@ -545,14 +565,26 @@
           {
             "label": "Energeticcity: Northern Health clocks more than 100 hours of closures in March (Apr 10, 2026)",
             "url": "https://energeticcity.ca/2026/04/10/northern-health-clocks-in-more-than-100-hours-in-closures-in-march/"
+          },
+          {
+            "label": "BC NDP: more doctors and nurses, fast-tracking international graduates (Oct 9, 2026)",
+            "url": "https://www.bcndp.ca/releases/ebys-plan-includes-more-doctors-and-nurses-fast-tracking-international-graduates"
+          },
+          {
+            "label": "BC NDP: getting care sooner, new diagnostic equipment (Oct 6, 2026)",
+            "url": "https://www.bcndp.ca/releases/getting-care-sooner-eby-will-cut-wait-times-add-new-diagnostic-equipment"
+          },
+          {
+            "label": "BC NDP: protect public health care from US-style privatization, phase out agency nurses (Oct 12, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-will-protect-public-health-care-us-style-privatization"
           }
         ]
       },
       "conservative": {
         "text": {
           "1": "This party would set up an emergency fund to stop small-town emergency rooms from closing.",
-          "3": "In 100 Mile House on October 5 the Conservatives pledged a $50 million emergency fund for rural medical practices at risk of closing, flexible staffing to avoid emergency and maternity closures, automatic recognition of other provinces' credentials, an expert commission within 100 days and no health cuts. They did not say whether the fund is one-time or yearly.",
-          "5": "'Keep Emergency Rooms Open' (October 5, 2026, launched in 100 Mile House): $50 million emergency fund for rural practices at risk of closing (one-time or recurring not stated), flexible staffing to prevent emergency and maternity closures, automatic recognition of other provinces' credentials, priority for BC students in medical training, an expert commission within 100 days, the system kept universal and publicly funded, no cuts to the 2026 health budget. Former caucus member Kealy's call to replace Northern Health with local boards is his own, not party policy."
+          "3": "In 100 Mile House on October 5 the Conservatives pledged a $50 million emergency fund for rural medical practices at risk of closing, flexible staffing to avoid emergency and maternity closures, automatic recognition of other provinces' credentials, faster recognition for Canadian doctors trained abroad, priority for BC students in medical training, an expert commission within 100 days and no health cuts. They did not say whether the fund is one-time or yearly.",
+          "5": "'Keep Emergency Rooms Open' (October 5, 2026, launched in 100 Mile House; release plus Doerkson's speech as reported by the 100 Mile Free Press): $50 million emergency fund for rural practices at risk of closing (one-time or recurring not stated), flexible staffing to prevent emergency and maternity closures, automatic recognition of other provinces' credentials and faster recognition for Canadian doctors trained abroad, priority for BC students in medical training, an expert commission within 100 days, the system kept universal and publicly funded, no cuts to the 2026 health budget. Former caucus member Kealy's call to replace Northern Health with local boards is his own, not party policy."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -575,7 +607,7 @@
         "text": {
           "1": "This party would open a public health centre in every area so fewer people need emergency rooms.",
           "3": "The Greens promise a Community Health Centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a review toward one provincial health authority and 'every public health dollar in public care', plus a rural seniors strategy. They have no emergency room specific commitment; option d is their care model applied to the closures.",
-          "5": "Community health centre pledge (October 6, 2026) and Healthcare Policy Brief: Community Health Centre in every riding, legislated safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, review of the health authority model 'with a focus on creating a consolidated health authority for the whole province', halt growth of private health care, rural seniors strategy. Skeena candidate Gottlieb raised emergency closures at the Kitimat forum. No rural emergency fund or reporting commitment."
+          "5": "Community health centre pledge (October 6, 2026) and Healthcare Policy Brief: Community Health Centre in every riding, more funding for nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, review of the health authority model 'with a focus on creating a consolidated health authority for the whole province', push back on 'the creeping privatization of healthcare', 'keep every public health dollar in public care', rural seniors strategy (October 4). Skeena candidate Gottlieb raised emergency closures at the Kitimat forum. No rural emergency fund or reporting commitment."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -587,6 +619,14 @@
           {
             "label": "BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan"
+          },
+          {
+            "label": "BC Greens: Supporting Seniors Policy Brief 2026 (PDF, Oct 4, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Supporting-Seniors-Policy-Brief-2026.pdf"
           }
         ]
       },
@@ -609,7 +649,7 @@
         "text": {
           "1": "This party would allow private clinics beside public care and rehire workers who left over vaccine rules.",
           "3": "OneBC would allow private health care alongside fully funded public care, reinstate nurses it says were removed under COVID-era mandates with back pay, move administration spending to the front line and 'attract medical professionals'. It has no rural emergency room commitment.",
-          "5": "Priorities page: private health care alongside fully funded public care, shift administration and human resources spending to front-line staff, repeal the Health Professions and Occupations Act. October 11 video (via BC Ballot): reinstate nurses removed under COVID-era mandates with back pay. October 5 post: reduce wait times, grow services and attract medical professionals. No rural or northern emergency room item; option e is the party's health model applied to the closures."
+          "5": "Priorities page: private health care alongside fully funded public care, shift administration and human resources spending to front-line staff, repeal the Health Professions and Occupations Act. October 11 post and video: reinstate, with back pay, nurses and front-line health workers still out of work over COVID-era mandates. October 5 platform summary: reduce wait times, grow services and attract medical professionals. No rural or northern emergency room item; option e is the party's health model applied to the closures."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -619,12 +659,16 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "BC Ballot: OneBC commitments",
-            "url": "https://bcballot.ca/platforms/onebc/"
+            "label": "OneBC on X: reinstate nurses with back pay (Oct 11, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2109406941118079436"
+          },
+          {
+            "label": "OneBC on X: Our Plan summary (Oct 5, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2107175484186624143"
           }
         ]
       }
     },
-    "scoring_rationale": "a = CentreBC (4): accountability law, halved closure hours, $25 million a year fund, permanent retention bonus; Conservative 3 (its $50 million fund does the same job without the reporting law or targets); NDP 2 (runs a rural retention incentive and built northern hospitals, but no dedicated fund or law); Green 1; OneBC 1. b = Conservative (4); CentreBC 3 (a yearly fund and faster credentials, no expert commission or staffing-rule change); NDP 2 (no fund, but fast-tracks credentials and holds the budget); Green 1; OneBC 2. c = NDP (4); Conservative 3 and CentreBC 3 (both fast-track credentials and add training; neither offers tuition or moving incentives); Green 2; OneBC 1. d = Green (4); NDP 2 and CentreBC 2 (team-based clinics and limits on agency nurses, no single authority); Conservative 0; OneBC 0. e = OneBC (4); Conservative 1 (expert commission may study other systems but keeps the system public); others 0. The Fraser Valley question on Mission's emergency room uses the same options and scores; emergency room closures ranked second in both regions' research and no region sees both questions."
+    "scoring_rationale": "a = CentreBC (4): accountability law, halved closure hours, $25 million a year fund, permanent retention bonus; Conservative 3 (its $50 million fund does the same job without the reporting law or targets); NDP 2 (runs a rural retention incentive and built northern hospitals, but no dedicated fund or law); Green 1; OneBC 1. b = Conservative (4); CentreBC 3 (a yearly fund and faster credentials, no expert commission or staffing-rule change); NDP 2 (no fund, but fast-tracks credentials and holds the budget); Green 1; OneBC 2. c = NDP (4); Conservative 3 and CentreBC 3 (both fast-track credentials and add training; neither offers tuition or moving incentives); Green 2; OneBC 1. d = Green (4); NDP 2 (team-based clinics and, since October 12, a three-year phase-out of private agency nurses, but no clinic in every riding or single authority) and CentreBC 2 (team-based clinics and limits on agency nurses, no single authority); Conservative 0; OneBC 0. e = OneBC (4); Conservative 1 (expert commission may study other systems but keeps the system public); others 0. The Fraser Valley question on Mission's emergency room uses the same options and scores; emergency room closures ranked second in both regions' research and no region sees both questions."
   }
 ]

@@ -215,6 +215,32 @@ def main():
             ui, ui_stale = ui_overlay(en, load_ui(lang))
             ui_ok = sum(1 for k in ui if k in en)
             print(f"{'':8} ui   translated {ui_ok:5}  stale {ui_stale:4}  missing {len(en) - ui_ok - ui_stale:5}  of {len(en)}")
+    elif cmd == "todo":
+        # After an English change: put every spec string that is stale or missing in any language into one new
+        # chunk (i18n/chunks/9N.en.json), so translators, i18n_check.py, i18n_review.py and i18n_merge.py
+        # handle it like any other chunk. Run `extract` first.
+        todo = {}
+        for lang in LANGS:
+            entries = load_lang(lang)
+            for k, text in src.items():
+                e = entries.get(k)
+                if not e or e[0] != h(text):
+                    todo[k] = text
+        if not todo:
+            print("nothing to translate: every language is current")
+            return
+        chunks = I18N / "chunks"
+        free = [i for i in range(90, 100) if not (chunks / f"{i}.en.json").exists()]
+        if not free:  # earlier update chunks are merged already; start the numbering again
+            for i in range(90, 100):
+                (chunks / f"{i}.en.json").unlink(missing_ok=True)
+            free = [90]
+        n = free[0]
+        (chunks / f"{n}.en.json").write_text(json.dumps(todo, ensure_ascii=False, indent=1), encoding="utf-8")
+        for lang in LANGS:  # a chunk number may have been used before: clear old translator output and reviews
+            for d in (I18N / "out" / lang, I18N / "review" / lang):
+                (d / f"{n}.json").unlink(missing_ok=True)
+        print(f"{len(todo)} strings ({sum(map(len, todo.values()))} characters) -> i18n/chunks/{n}.en.json; translate it as chunk {n} in every language")
     elif cmd == "merge-ui":
         for lang in sys.argv[2:] or LANGS:
             if (I18N / "out" / lang / "ui.json").exists():

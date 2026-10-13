@@ -30,7 +30,7 @@
         "scores": {
           "ndp": 4,
           "conservative": 1,
-          "green": 0,
+          "green": 1,
           "centrebc": 1,
           "onebc": 1
         }
@@ -76,7 +76,7 @@
           "2": "Change the voting system so each party wins seats in line with its share of the vote.",
           "3": "Switch to proportional representation, so seats match votes and parties must work together.",
           "4": "Pass proportional representation into law within 100 days so seats track votes, despite the 2018 referendum result.",
-          "5": "Pass proportional representation within the first 100 days, preferably with regional ridings and without a new referendum, although 61.3% voted against it in 2018."
+          "5": "Pass proportional representation legislation within the first 100 days, although 61.3% voted to keep first-past-the-post in 2018."
         },
         "scores": {
           "ndp": 1,
@@ -89,11 +89,11 @@
       {
         "id": "e",
         "text": {
-          "1": "Vote only in person on election day, and count every vote by hand.",
-          "2": "End voting by mail and early voting, and count every ballot by hand.",
-          "3": "End mail-in and early voting, and count all ballots by hand.",
-          "4": "Allow voting only in person on election day by ending mail-in and advance voting, and require hand counts, citing election integrity.",
-          "5": "End mail-in and early voting, count ballots by hand, reject proportional representation, and leave cabinet powers unchanged (June 2025 position)."
+          "1": "End voting by mail and early voting, so people vote in person on election day.",
+          "2": "End voting by mail and early voting, so everyone votes in person on election day.",
+          "3": "End mail-in and early voting, so all ballots are cast in person on election day.",
+          "4": "Allow voting only in person on election day by ending mail-in and advance voting.",
+          "5": "End mail-in and early voting so that all ballots are cast in person on election day (a June 2025 position)."
         },
         "scores": {
           "ndp": 0,
@@ -109,7 +109,7 @@
         "text": {
           "1": "This party used strong powers to act fast and called an early election. It has changed course when people pushed back.",
           "3": "The NDP used cabinet fast-tracking, tariff rules made by regulation and overrides of local zoning, and called the election two years early. It dropped a clause letting cabinet rewrite laws after criticism. In 2017 it banned corporate and union donations. It has no 2026 reform pledge.",
-          "5": "The NDP banned corporate and union donations with Bill 3 in 2017. In 2023 it passed Bill 36 and the Bill 44 zoning law, the latter under time allocation. In 2025 it passed Bill 7 after withdrawing Part 4, and Bills 14 and 15 on the Speaker's vote, later extending Bill 14 by order. It exempted the north coast transmission line from environmental assessment and utilities commission review. A Leger poll found 57% disapproved of the snap election. It has made no 2026 reform commitment."
+          "5": "The NDP banned corporate and union donations with the Election Amendment Act in 2017. In 2023 it passed the Bill 44 zoning law under time allocation, which limits debate. In 2025 it passed Bill 7 after withdrawing Part 4, and Bills 14 and 15 on the Speaker's vote, later extending Bill 14 by order. It exempted the north coast transmission line from environmental assessment and utilities commission review. A Leger poll found 57% disapproved of the snap election. It has made no 2026 reform commitment."
         },
         "basis": "record",
         "confidence": "high",
@@ -123,24 +123,40 @@
             "url": "https://www.biv.com/news/rob-shaw-ndp-weighs-changes-amid-backlash-to-ebys-emergency-powers-bill-10419547"
           },
           {
-            "label": "Boundary Creek Times: cabinet order expands Bill 14 scope",
-            "url": "https://www.boundarycreektimes.com/news/bc-quietly-expands-scope-of-bill-14-to-include-all-future-wind-and-solar-8131910"
-          },
-          {
-            "label": "Angus Reid: two-thirds say the election came too soon",
-            "url": "https://angusreid.org/85168-2/"
-          },
-          {
             "label": "BC Government: 2017 donation ban release",
             "url": "https://news.gov.bc.ca/releases/2017PREM0084-001592"
+          },
+          {
+            "label": "BC Government: Order in Council 321/2025, Bill 14 regulation adds all wind and solar projects (June 27, 2025)",
+            "url": "https://www.alc.gov.bc.ca/assets/alc/assets/legislation-and-regulation/the-act-and-regulation/oic_321_2025_bill_14_regulation.pdf"
+          },
+          {
+            "label": "Global News: Angus Reid, two-thirds say the election is 'too soon' (Sept 25, 2026)",
+            "url": "https://globalnews.ca/news/12073073/bc-conservatives-ahead-ndp-snap-election-poll/"
+          },
+          {
+            "label": "Daily Hive: Leger, 57% disapprove of the early election (Sept 2026)",
+            "url": "https://dailyhive.com/vancouver/bc-election-ndp-conservatives-survey-september-2026-leger"
+          },
+          {
+            "label": "The Tyee: north coast line exempted from environmental assessment and BCUC review (Sept 4, 2026)",
+            "url": "https://thetyee.ca/News/2026/09/04/Old-Growth-Chopping-Block-North-Coast-Transmission-Line/"
+          },
+          {
+            "label": "Votes and Proceedings, Nov 29, 2023 (time allocation on Bill 44)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231129.htm"
+          },
+          {
+            "label": "Votes and Proceedings, May 28, 2025 (Bills 7, 14, 15)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
           }
         ]
       },
       "conservative": {
         "text": {
           "1": "This party wants firm deadlines for big projects and more say for cities, towns and families.",
-          "3": "The Conservatives voted against the NDP's fast-track and tariff laws as 'undemocratic', but promise their own 120-day permitting law and a rule to remove two regulations for each new one. They would cut Metro Vancouver back to water and sewer. They have no voting-system proposal.",
-          "5": "The Conservatives voted against Bills 7, 14 and 15, which Rustad called 'undemocratic processes' that pick winners and losers. The party promises a 120 Day Permitting Act, alignment with federal Bill C-39, a one-in, two-out regulation law and a rollback of Metro Vancouver tested against subsidiarity, the idea that decisions belong at the most local level that can handle them. In 2024 it promised voter approval for any new tax, but has not repeated that."
+          "3": "The Conservatives voted against the NDP's fast-track and tariff laws and called the tariff law 'undemocratic', but promise their own 120-day permitting law and a rule to remove two regulations for each new one. They would cut Metro Vancouver back to water and sewer. They have no voting-system proposal.",
+          "5": "The Conservatives voted against Bills 7, 14 and 15. The party called Bill 7 'the most undemocratic, power-grabbing legislation in history', and Rustad said it gave cabinet 'almost unlimited powers with zero oversight'. The party promises a 120 Day Permitting Act for projects over $250 million, a one-in, two-out regulation law, and cutting Metro Vancouver back to drinking water and sewage treatment. In 2024 it promised voter approval for any new tax, but has not repeated that."
         },
         "basis": "both",
         "confidence": "medium",
@@ -156,6 +172,14 @@
           {
             "label": "Daily Hive: Metro Vancouver rollback",
             "url": "https://dailyhive.com/vancouver/bc-conservatives-metro-vancouver-regional-district-reform-platform-promise"
+          },
+          {
+            "label": "CFJC Today / Canadian Press: Rustad and the party on Bill 7 (Mar 28, 2025)",
+            "url": "https://cfjctoday.com/2025/03/28/b-c-premier-david-eby-walking-back-tariff-bill-after-anxiety-from-stakeholders/"
+          },
+          {
+            "label": "Global News: 2024 Conservative platform (voter approval for new taxes)",
+            "url": "https://globalnews.ca/news/10812384/affordability-safety-scrapping-carbon-price-bc-conservatives-full-platform"
           }
         ]
       },
@@ -163,7 +187,7 @@
         "text": {
           "1": "This party wants each party's seats to match its share of the votes.",
           "3": "The Greens would bring in proportional representation within their first 100 days so seats match votes, although voters rejected it in 2018. They helped win the 2017 donation ban and voted against the NDP's fast-track laws, citing weak oversight.",
-          "5": "The Greens would pass a proportional representation bill in their first 100 days, and Lowan favours a regional-riding model. Their 2017 Confidence and Supply Agreement with the NDP brought the donation ban and the 2018 referendum, which lost 61.3% to 38.7%. They voted against Bills 14 and 15 and the final Bill 7 over oversight. Their accord with the NDP lapsed on February 9, 2026, with the Greens citing commitments not delivered."
+          "5": "The Greens would pass proportional representation legislation in their first 100 days. Their 2017 Confidence and Supply Agreement with the NDP brought the donation ban and the 2018 referendum, which lost 61.3% to 38.7%. They voted against Bills 14 and 15 over oversight, and voted for the final Bill 7 after its cabinet override part was withdrawn. On February 9, 2026 they said they would not renew their accord with the NDP, citing 'stalled or undelivered' commitments."
         },
         "basis": "both",
         "confidence": "high",
@@ -179,6 +203,14 @@
           {
             "label": "Castanet: Greens will not back vague infrastructure bill",
             "url": "https://www.castanetkamloops.net/news/BC/549318/B-C-Greens-wont-back-governments-vague-infrastructure-bill"
+          },
+          {
+            "label": "Votes and Proceedings, May 28, 2025 (Bills 7, 14, 15)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
+          },
+          {
+            "label": "National Newswatch / Canadian Press: Greens won't renew accord with NDP (Feb 9, 2026)",
+            "url": "https://nationalnewswatch.com/2026/02/09/bc-greens-wont-renew-accord-with-ndp-citing-stalled-or-undelivered-commitments"
           }
         ]
       },
@@ -186,7 +218,7 @@
         "text": {
           "1": "This party wants a budget watchdog, public report cards, and big deals shown to the public before signing.",
           "3": "CentreBC's October 10 platform creates an Independent Budget Officer and a balanced-budget law that docks ministers' pay, publishes a scorecard checked by the Auditor General, scraps the $10 freedom-of-information fee, publishes contracts over $10 million and posts draft First Nations agreements 60 days before signing. It takes no position on proportional representation.",
-          "5": "The platform passes a Balanced Budget and Spending Control Act, creates an Independent Budget Officer and cuts ministers' pay if targets are missed. A scorecard would appear within 100 days, then quarterly with a yearly audit, and cabinet decision summaries within 30 working days. It scraps freedom-of-information fees, aims for 90% on-time responses, publishes contracts over $10 million and tables agreements 60 days before signing. It does not mention electoral reform, recall or free votes. Sturko called the snap election 'quite insulting'."
+          "5": "The platform passes a Balanced Budget and Spending Control Act, creates an Independent Budget Officer and cuts ministers' pay if targets are missed. A scorecard would appear within 100 days, then quarterly with a yearly audit, and cabinet decision summaries within 30 working days. It scraps freedom-of-information fees, aims for 90% on-time responses, publishes contracts over $10 million in full, posts draft First Nations agreements at least 60 days before signing, and tables title and land agreements in the legislature before they are signed. It does not mention electoral reform, recall or free votes. Sturko called the snap election 'quite insulting'."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -203,16 +235,16 @@
       },
       "onebc": {
         "text": {
-          "1": "This party wants everyone to vote in person on election day, with votes counted by hand.",
-          "3": "In June 2025 OneBC called for ending mail-in and early voting and counting ballots by hand, but this is not in its 2026 materials. It wants to audit all provincial regulations. It has no position on proportional representation.",
-          "5": "A June 2025 OneBC release called for ending mail-in and early voting and counting ballots by hand, but this is not on its 2026 priorities page. It would audit 176,000 regulations and ban masks at protests. It has no position on proportional representation."
+          "1": "This party has called for everyone to vote in person on election day.",
+          "3": "In June 2025 OneBC called for ending mail-in and early voting, but this is not in its 2026 materials. It wants to audit all provincial regulations. It has no position on proportional representation.",
+          "5": "In June 2025 OneBC's leader pledged to 'end mail-in and early voting', but this is not on its 2026 priorities page. It would audit 176,000 regulations and ban masks at protests. It has no position on proportional representation."
         },
         "basis": "platform",
         "confidence": "low",
         "sources": [
           {
-            "label": "Wikipedia: OneBC (secondary, June 2025 release)",
-            "url": "https://en.wikipedia.org/wiki/OneBC_(political_party)"
+            "label": "Global News: Brodie pledges to end mail-in and early voting (June 12, 2025)",
+            "url": "https://globalnews.ca/news/11238390/dallas-brodie-onebc/"
           },
           {
             "label": "OneBC priorities",
@@ -221,6 +253,6 @@
         ]
       }
     },
-    "scoring_rationale": "This question scores the NDP on its record of using power (a = 4), phrased as its supporters would ('get things done'). Conservative 1 on a (opposed the specific bills, but wants speed); CentreBC 1 (would impose approval deadlines on cities, but puts major agreements and the budget path before the legislature); OneBC 1. b = Conservative (4); CentreBC 2 (12-month review deadline, deemed approvals and one-in one-out, but its housing deadlines add provincial override of cities rather than less, and no Metro Vancouver position); OneBC 2 (shares deregulation but has no permitting-law or Metro Vancouver position); NDP 2 (also wants fast approvals and cut permit times, but through discretion rather than fixed statutory deadlines). c = CentreBC's platform (4): Independent Budget Officer, balanced-budget law, scorecards, FOI and contract disclosure, agreements tabled; Green 2 (shares the oversight element through its votes against the fast-track bills, but has no costing or scorecard pledge of its own); Conservative 2 (opposition rhetoric on oversight, uncosted platform); NDP 2 (publishes costed budgets and service plans, but expanded cabinet powers and has not costed its 2026 promises); OneBC 1. Option c was rewritten on October 10 to the platform's accountability items; other parties' scores on it were kept. d = Green (4); NDP 1 (campaigned for PR in 2018, nothing since); CentreBC 1 (no electoral reform position either way). e = OneBC (4, a 2025 position not repeated in 2026, low confidence); Conservative 1; others 0. Evidence is thinner than on other questions; weight is left to the user's importance rating. Leadership turnover inside parties is described in the party records, not scored here."
+    "scoring_rationale": "This question scores the NDP on its record of using power (a = 4), phrased as its supporters would ('get things done'). Conservative 1 on a (opposed the specific bills, but wants speed); Green 1 on a (voted for the final Bill 7 trade powers after Part 4 was withdrawn, but against Bills 14 and 15; score changed Oct 13 after source check); CentreBC 1 (would impose approval deadlines on cities, but puts major agreements and the budget path before the legislature); OneBC 1. b = Conservative (4); CentreBC 2 (12-month review deadline, deemed approvals and one-in one-out, but its housing deadlines add provincial override of cities rather than less, and no Metro Vancouver position); OneBC 2 (shares deregulation but has no permitting-law or Metro Vancouver position); NDP 2 (also wants fast approvals and cut permit times, but through discretion rather than fixed statutory deadlines). c = CentreBC's platform (4): Independent Budget Officer, balanced-budget law, scorecards, FOI and contract disclosure, agreements tabled; Green 2 (shares the oversight element through its votes against the fast-track bills, but has no costing or scorecard pledge of its own); Conservative 2 (opposition rhetoric on oversight, uncosted platform); NDP 2 (publishes costed budgets and service plans, but expanded cabinet powers and has not costed its 2026 promises); OneBC 1. Option c was rewritten on October 10 to the platform's accountability items; other parties' scores on it were kept. d = Green (4); NDP 1 (campaigned for PR in 2018, nothing since); CentreBC 1 (no electoral reform position either way). e = OneBC (4, its June 2025 call to end mail-in and early voting, not repeated in 2026, low confidence; hand counting was removed from option e on October 13 because no party or news source for it was found); Conservative 1; others 0. Evidence is thinner than on other questions; weight is left to the user's importance rating. Leadership turnover inside parties is described in the party records, not scored here."
   }
 ]

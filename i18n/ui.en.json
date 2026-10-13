@@ -487,5 +487,15 @@
   "pdf_htv_id": "ID",
   "pdf_sources_note": "Sources for every party position are listed in the online helper. Elections BC: elections.bc.ca",
   "pdf_footer": "A starting point, not a recommendation. Independent tool, not connected to any party. Not an endorsement. Scores reflect published 2026 commitments and records as of {date}. Party names and logos belong to the parties.",
-  "pdf_page": "Page {n} of {total}"
+  "pdf_page": "Page {n} of {total}",
+
+  "party_liberal": "BC Liberal",
+  "party_united": "BC United",
+  "party_christian_heritage": "Christian Heritage",
+  "party_freedom": "Freedom Party",
+  "party_libertarian": "BC Libertarian",
+  "party_communist": "Communist",
+  "party_other": "Other",
+  "party_unaffiliated": "Unaffiliated",
+  "month_names": "January,February,March,April,May,June,July,August,September,October,November,December"
 }

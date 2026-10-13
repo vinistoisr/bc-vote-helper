@@ -205,7 +205,7 @@
 ],
 "cand_lead_kid": [
 "6fe5520089",
-"Aucun candidat d'ici n'a dit quelque chose de différent de son parti."
+"Aucun candidat d'ici n'a dit quelque chose de différent de ce que dit son parti."
 ],
 "cand_lead_kid_inc": [
 "6291705a83",
@@ -955,6 +955,10 @@
 "92adf70d5a",
 "Un seul écran. Tout le monde répond à chaque question."
 ],
+"month_names": [
+"6ab4d1b05f",
+"janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre"
+],
 "name_party": [
 "cf84cf0b34",
 "{name} ({party})"
@@ -1023,6 +1027,18 @@
 "e082504349",
 "Les {count} partis"
 ],
+"party_christian_heritage": [
+"fd3de66c2c",
+"Parti de l'héritage chrétien"
+],
+"party_communist": [
+"c7c41d4170",
+"Parti communiste"
+],
+"party_freedom": [
+"862b58255c",
+"Freedom Party"
+],
 "party_incumbent": [
 "f9bdd6e82a",
 "{party}, titulaire du siège"
@@ -1031,9 +1047,29 @@
 "834ee945d7",
 "{party}, siège actuellement à l'Assemblée"
 ],
+"party_liberal": [
+"caed0cfb85",
+"Parti libéral de la C.-B."
+],
+"party_libertarian": [
+"af24b58669",
+"Parti libertarien de la C.-B."
+],
 "party_meta": [
 "235fb1b0c6",
 "Chef : {leader}. {candidates} candidats. {seats} sièges à la dissolution."
+],
+"party_other": [
+"6e6a6f2086",
+"Autre"
+],
+"party_unaffiliated": [
+"a30b02930e",
+"Sans affiliation"
+],
+"party_united": [
+"e9d9681a54",
+"BC United"
 ],
 "past_results": [
 "860762937d",
@@ -1301,7 +1337,7 @@
 ],
 "quiz_imp_label_kid": [
 "802317e300",
-"Ça compte combien pour vous?"
+"À quel point est-ce important pour vous?"
 ],
 "quiz_imp_legend": [
 "84ade0a753",
@@ -1309,7 +1345,7 @@
 ],
 "quiz_imp_legend_kid": [
 "6be145f244",
-"Ce sujet compte combien pour vous?"
+"À quel point ce sujet est-il important pour vous?"
 ],
 "quiz_opts_legend": [
 "6143161b8b",
@@ -1457,7 +1493,7 @@
 ],
 "riding_choose": [
 "0db4abd414",
-"Choisissez votre circonscription"
+"Votre circonscription"
 ],
 "riding_find": [
 "df251b06ee",

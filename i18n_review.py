@@ -63,6 +63,7 @@ Read these files (paths relative to the working folder):
 - i18n/glossary.{lang}.json: the agreed terms. A translation that follows the glossary is correct even if you would choose differently.
 - {review_file}: items, each with a key, the English (EN) and the translation (TR).
 Keys ending /1 are the simplest reading level and /5 the most detailed.
+If the file is the page text (keys without slashes), i18n/ui.notes.json says where each string appears and what each {{placeholder}} holds; every {{placeholder}} must stay exactly as in the English, and buttons and chips must stay short.
 
 Report only real problems:
 (1) meaning changed, added or dropped, including hedges ("says", "promises", "would", "rather than", "about");
@@ -77,7 +78,14 @@ Severity: high = changes what a voter would understand about a party, candidate 
 Do not modify any files."""
 
 
+def src_path(n):
+    """English source of a chunk: i18n/chunks/NN.en.json, or i18n/ui.en.json for the page text ("ui")."""
+    return I18N / "ui.en.json" if n == "ui" else I18N / "chunks" / f"{n}.en.json"
+
+
 def chunk_ids(spec):
+    if spec == "ui":
+        return ["ui"]
     if not spec:
         return [f"{i:02d}" for i in range(38)]
     a, b = spec.split("-")
@@ -93,7 +101,7 @@ def review_one(lang, n):
         return f"{lang} {n}: no translation yet"
     if res.exists() and res.stat().st_mtime > out_file.stat().st_mtime:
         return f"{lang} {n}: already reviewed"
-    src = json.loads((I18N / "chunks" / f"{n}.en.json").read_text(encoding="utf-8"))
+    src = json.loads(src_path(n).read_text(encoding="utf-8"))
     tr = json.loads(out_file.read_text(encoding="utf-8"))
     errs, _ = i18n_check.check_pair(lang, src, tr, n)
     if errs:
@@ -124,10 +132,10 @@ def apply(lang):
     rev_dir = I18N / "review" / lang
     log = rev_dir / "applied.jsonl"
     done = applied = rejected = 0
-    for res in sorted(rev_dir.glob("[0-9][0-9].json")):
+    for res in sorted(list(rev_dir.glob("[0-9][0-9].json")) + list(rev_dir.glob("ui.json"))):
         n = res.stem
         out_file = I18N / "out" / lang / f"{n}.json"
-        src = json.loads((I18N / "chunks" / f"{n}.en.json").read_text(encoding="utf-8"))
+        src = json.loads(src_path(n).read_text(encoding="utf-8"))
         tr = json.loads(out_file.read_text(encoding="utf-8"))
         data = json.loads(res.read_text(encoding="utf-8"))
         changed = False
@@ -160,9 +168,10 @@ def apply(lang):
 def report(lang):
     c = {"high": 0, "medium": 0, "low": 0}
     n = items = 0
-    for res in sorted((I18N / "review" / lang).glob("[0-9][0-9].json")):
+    rev = I18N / "review" / lang
+    for res in sorted(list(rev.glob("[0-9][0-9].json")) + list(rev.glob("ui.json"))):
         n += 1
-        items += len(json.loads((I18N / "chunks" / f"{res.stem}.en.json").read_text(encoding="utf-8")))
+        items += len(json.loads(src_path(res.stem).read_text(encoding="utf-8")))
         for f in json.loads(res.read_text(encoding="utf-8"))["fixes"]:
             c[f["severity"]] += 1
     print(f"{lang}: {n} chunks, {items} items reviewed; high {c['high']}, medium {c['medium']}, low {c['low']}")

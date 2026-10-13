@@ -13,6 +13,7 @@
  */
 import VALID from "./spec_valid.json";
 import NAMES from "./riding_names.json";
+import META_I18N from "./meta_i18n.json";
 
 const IMPORTANCE = new Set(["low", "medium", "high"]);
 /* Page languages (template.html LANGS); anything else is rejected */
@@ -84,7 +85,8 @@ export default {
       /* Translation bundles change with each deploy; the page asks for them with ?v=<content hash> */
       if (path.startsWith("/i18n/") && res.ok) return withHeaders(res, { "Cache-Control": "public, max-age=300" });
       const type = res.headers.get("Content-Type") || "";
-      return withHeaders(res, type.includes("text/html") ? { "Content-Security-Policy": PAGE_CSP, "Cache-Control": "public, max-age=300" } : {});
+      if (!type.includes("text/html")) return withHeaders(res, {});
+      return withHeaders(localizeHead(res, url), { "Content-Security-Policy": PAGE_CSP, "Cache-Control": "public, max-age=300" });
     } catch (err) {
       console.error("unhandled", err && err.stack ? err.stack : err);
       return text("Something went wrong", 500);
@@ -142,10 +144,36 @@ async function previewStub(request, env) {
   const meta = await pageMeta(request, env);
   const html = `<!doctype html><html lang="en-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${meta}</head>
 <body><p>BC Vote Helper 2026 is open to people in Canada.</p></body></html>`;
-  return new Response(request.method === "HEAD" ? null : html, {
+  const res = new Response(request.method === "HEAD" ? null : html, {
     status: 200,
     headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=3600", ...SECURITY_HEADERS },
   });
+  return request.method === "HEAD" ? res : localizeHead(res, new URL(request.url));
+}
+
+/**
+ * Shared ?lang= links: title, description, locale, canonical URL and text direction in that language, so link
+ * previews (WhatsApp, Facebook, iMessage) and search results match the page the reader will see.
+ * The page itself still picks the language in the browser; this only changes the <head> and <html> attributes.
+ */
+function localizeHead(res, url) {
+  const lang = url.searchParams.get("lang") || "";
+  const m = Object.prototype.hasOwnProperty.call(META_I18N, lang) ? META_I18N[lang] : null;
+  if (!m) return res;
+  const self = `${url.origin}/?lang=${encodeURIComponent(lang)}`;
+  const setContent = (value) => ({ element(el) { el.setAttribute("content", value); } });
+  return new HTMLRewriter()
+    .on("html", { element(el) { el.setAttribute("lang", lang); el.setAttribute("dir", m.dir); } })
+    .on("title", { element(el) { el.setInnerContent(m.title); } })
+    .on('meta[name="description"]', setContent(m.desc))
+    .on('meta[property="og:title"]', setContent(m.title))
+    .on('meta[property="og:description"]', setContent(m.desc))
+    .on('meta[name="twitter:title"]', setContent(m.title))
+    .on('meta[name="twitter:description"]', setContent(m.desc))
+    .on('meta[property="og:locale"]', setContent(m.locale || "en_CA"))
+    .on('meta[property="og:url"]', setContent(self))
+    .on('link[rel="canonical"]', { element(el) { el.setAttribute("href", self); } })
+    .transform(res);
 }
 
 async function geoBlocked(request, env) {

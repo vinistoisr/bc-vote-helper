@@ -137,6 +137,8 @@ def main():
                 label = None if pid else EBC_OTHER.get(aff, aff)
                 found = [c for c in research if same_person(c.get("name") or "", name)]
                 c = found[0] if found else {}
+                if c.get("unscored_label"):  # on the ballot under a party that has dropped them: list, but do not score
+                    pid, label = None, c["unscored_label"]
                 if not found:
                     problems.append(f"{code}: no research entry for {name} ({aff})")
                 bio = (c.get("bio") or "").strip()

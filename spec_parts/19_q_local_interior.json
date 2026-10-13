@@ -7,15 +7,15 @@
       "1": "After this summer's big fire near Summerland, what should the province do first about wildfires?",
       "2": "After the Bald Range fire emptied Summerland and part of Peachland, where should the province put its wildfire effort first?",
       "3": "After the Bald Range fire near Summerland, where should the province put its main wildfire money and effort before next summer?",
-      "4": "The Bald Range fire emptied Summerland and part of Peachland in August 2026 and destroyed about 150 structures. What comes first?",
-      "5": "The Bald Range fire (August 7 to 28, 2026, about 25,000 hectares) emptied Summerland and part of Peachland, killed one person and destroyed about 150 structures. Which wildfire approach should the province take first?"
+      "4": "The Bald Range fire emptied Summerland and part of Peachland in August 2026 and damaged or destroyed about 150 structures. What comes first?",
+      "5": "The Bald Range fire (August 7 to 27, 2026, about 25,000 hectares) emptied Summerland and part of Peachland, killed one person and damaged or destroyed about 150 structures. Which wildfire approach should the province take first?"
     },
     "context": {
-      "1": "A huge fire near Summerland this summer forced thousands of people from their homes and destroyed many houses. The province fights fires, pays for prevention work around towns, and helps people rebuild. Parties disagree on what to spend the next money on.",
-      "2": "The Bald Range fire started near Summerland on August 7. About 20,000 people were ordered out of Summerland and Peachland, one person died, and about 150 buildings were damaged or destroyed, many of them uninsured. Earlier this year the province's community fire-prevention grants ran out of money. Parties disagree on what to fund first.",
-      "3": "The Bald Range fire began northwest of Summerland on August 7, 2026; all of Summerland and part of Peachland were evacuated, one woman died and about 150 structures were lost before it was held on August 28. In January the FireSmart community grant program closed its intake for lack of money; the 2026 budget later added $15 million. The NDP offers rebuilding help, the Conservatives aircraft, CentreBC guaranteed grants, the Greens long-term restoration funding. OneBC has no position.",
-      "4": "The Bald Range fire (August 7 to 28, 2026) burned about 25,000 hectares northwest of Summerland; a provincial state of emergency on August 8 ordered about 20,000 residents of Summerland and Peachland out, one 80-year-old woman died, and about 150 structures were damaged or destroyed, many uninsured. The FireSmart Community Funding program closed its 2026 intake on January 30 for lack of funds; Budget 2026 then added $15 million and the 2027 intake opened October 1. Fire management was budgeted at $235.7 million for 2026/27 with spending forecast at $850 million by September. Prevention, aircraft, grants and recovery compete for the next dollar.",
-      "5": "The Bald Range fire started August 7, 2026 about 15 km northwest of Summerland; a provincial state of emergency followed on August 8 with evacuation orders for about 20,000 people in Summerland and the Peachland area. One 80-year-old woman died while evacuating, about 150 structures were damaged or destroyed, and the fire was held on August 28 at about 25,000 hectares. Many owners were uninsured or underinsured. The Union of BC Municipalities reported in January 2026 that the FireSmart Community Funding intake closed on January 30 for lack of funds; Budget 2026 added $15 million for core FireSmart. Fire management: $235.7 million voted for 2026/27, $850 million forecast as of September 14. On October 2 the Conservatives released a wildfire plan in the Okanagan and Eby announced recovery support in Summerland."
+      "1": "A huge fire near Summerland this summer forced thousands of people from their homes and damaged or destroyed many buildings. The province fights fires, pays for prevention work around towns, and helps people rebuild. Parties disagree on what to spend the next money on.",
+      "2": "The Bald Range fire started near Summerland on August 7. About 20,000 people were ordered out of Summerland and Peachland, one person died, and about 150 buildings were damaged or destroyed. Earlier this year the province's community fire-prevention grants ran out of money. Parties disagree on what to fund first.",
+      "3": "The Bald Range fire began northwest of Summerland on August 7, 2026; all of Summerland and part of Peachland were evacuated, one woman died and about 150 structures were damaged or destroyed before it was held on August 27. In January the FireSmart community grant program closed its intake for lack of money; the 2026 budget later added $15 million. The NDP offers rebuilding help, the Conservatives aircraft, CentreBC guaranteed grants, the Greens long-term restoration funding. OneBC has no position.",
+      "4": "The Bald Range fire (August 7 to 27, 2026) burned about 25,000 hectares northwest of Summerland; a provincial state of emergency on August 8 ordered about 20,000 residents of Summerland and Peachland out, one 80-year-old woman died, and about 150 structures were damaged or destroyed. The FireSmart Community Funding program closed its 2026 intake on January 30 for lack of funds; Budget 2026 then added $15 million and the 2027 intake opened October 1. Fire management was budgeted at $235.7 million for 2026/27 with spending forecast at $850 million by September. Prevention, aircraft, grants and recovery compete for the next dollar.",
+      "5": "The Bald Range fire started August 7, 2026 about 15 km northwest of Summerland; a provincial state of emergency followed on August 8 with evacuation orders for about 20,000 people in Summerland and the Peachland area. One 80-year-old woman died while evacuating, about 150 structures were damaged or destroyed, and the fire was declared held on August 27 at about 25,000 hectares. The Union of BC Municipalities reported in January 2026 that the FireSmart Community Funding intake closed on January 30 for lack of funds; Budget 2026 added $15 million for core FireSmart. Fire management: $235.7 million voted for 2026/27, $850 million forecast as of September 14. On October 2 the Conservatives released a wildfire plan in the Okanagan and Eby announced recovery support in Summerland aimed especially at uninsured and underinsured owners."
     },
     "options": [
       {
@@ -59,7 +59,7 @@
           "2": "Match donations for this summer's fire victims, help the uninsured rebuild, repair public works, and keep the current prevention budget.",
           "3": "Match Red Cross donations up to $20 million for this summer's victims, especially the uninsured, rebuild public infrastructure, and keep the current prevention budget.",
           "4": "Match Red Cross donations for fire victims up to $20 million, fund road repair and debris removal, lend to small businesses interest-free, and keep the prevention budget.",
-          "5": "Match Red Cross donations up to $20 million for 2026 wildfire victims, prioritizing uninsured owners; fund road repairs, debris removal and soil remediation; interest-free loans up to $1 million from a $500 million fund; keep the current prevention budget."
+          "5": "Match Red Cross donations up to $20 million for 2026 wildfire victims, prioritizing uninsured owners; fund road repairs, debris removal and soil remediation; interest-free loans up to $1 million from a $500 million fund shared with tariff-hit businesses; keep the current prevention budget."
         },
         "scores": {
           "ndp": 4,
@@ -91,7 +91,7 @@
       "ndp": {
         "text": {
           "1": "This party, in charge now, promises money to help fire victims rebuild, especially people without insurance.",
-          "3": "In Summerland on October 2, Eby promised to match Red Cross donations up to $20 million for this summer's fire victims, especially the uninsured, and to fund rebuilding of public infrastructure. A $500 million fund offers small businesses interest-free loans. The government let FireSmart grants run out in January, then added $15 million. No aircraft or new prevention pledge.",
+          "3": "In Summerland on October 2, Eby promised to match Red Cross donations up to $20 million for this summer's fire victims, especially the uninsured, and to fund rebuilding of public infrastructure. A $500 million fund for small businesses hit by the wildfires or US tariffs offers interest-free loans. The government let FireSmart grants run out in January, then added $15 million. No aircraft or new prevention pledge.",
           "5": "Pledges: match Canadian Red Cross donations up to $20 million for 2026 wildfire victims, prioritizing uninsured and underinsured owners, and fund road repairs, debris removal and soil remediation (October 2, announced in Summerland with candidate Tina Lee); a $500 million Small Business Tariff and Wildfire Relief Fund with interest-free loans up to $1 million for 72 months (October 7). Record: FireSmart intake closed January 30, 2026 for lack of funds; Budget 2026 added $15 million; the 2027 intake opened October 1. No aircraft, detection or guaranteed-grant pledge."
         },
         "basis": "both",
@@ -118,8 +118,8 @@
       "conservative": {
         "text": {
           "1": "This party would buy water bombers, fund fire-spotting technology, and log more forest near towns.",
-          "3": "The Conservatives' October 2 plan would buy firefighting aircraft including water bombers, reduce forest fuels around communities, make prescribed burns easier, let qualified crews deploy faster, and create a detection-technology fund. News reports put the aircraft at $400 million and the fund at $100 million; the release gives no figures. Doerkson says timber sales would largely pay for it.",
-          "5": "'Fighting Wildfires, Protecting Communities' (October 2, 2026): implement a Protect Communities from Wildfire Action Plan immediately, buy aircraft including water bombers, reduce fuels around communities, easier prescribed fire without lowering safety standards, faster deployment of qualified resources, a dedicated early-detection fund, a wildfire cabinet committee chaired by the leader. AM 1150 reports $400 million for aircraft and a $100 million fund; Today in BC reports more logging in high-risk areas with sale revenue funding prevention and 'more predictable FireSmart funding'. Doerkson said the plan 'would largely pay for itself'."
+          "3": "The Conservatives' October 2 plan would buy firefighting aircraft including water bombers, reduce forest fuels around communities, make prescribed burns easier, let qualified crews deploy faster, and create a detection-technology fund. News reports put the aircraft at $400 million and the fund at $100 million; the release gives no figures. News reports say the plan would largely pay for itself, through sales of timber logged near communities and by renting the planes to other jurisdictions.",
+          "5": "'Fighting Wildfires, Protecting Communities' (October 2, 2026): implement a Protect Communities from Wildfire Action Plan immediately, buy aircraft including water bombers, reduce fuels around communities, easier prescribed fire without lowering safety standards, faster deployment of qualified resources, a dedicated early-detection fund, a wildfire cabinet committee chaired by the leader. AM 1150 reports $400 million for aircraft and a $100 million fund; Today in BC reports more logging in high-risk areas with sale revenue funding prevention and 'more predictable FireSmart funding'. Today in BC reported the plan would largely pay for itself; the Canadian Press reported the province could help pay for the planes by renting them to other jurisdictions."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -139,6 +139,10 @@
           {
             "label": "Global News: NDP and Conservative leaders campaign in the Okanagan (Oct 2, 2026)",
             "url": "https://globalnews.ca/news/12086166/bc-ndp-conservative-leaders-campaign-okanagan/"
+          },
+          {
+            "label": "CFJC Today (Canadian Press): Doerkson promises to buy firefighting water bombers (Oct 2, 2026)",
+            "url": "https://cfjctoday.com/2026/10/02/b-c-conservative-interim-leader-doerkson-promises-to-buy-firefighting-water-bombers/"
           }
         ]
       },
@@ -158,10 +162,6 @@
           {
             "label": "BC Greens: A New Economic Direction for British Columbia (PDF, Oct 7, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf"
-          },
-          {
-            "label": "BC Ballot: wildfire commitments by party",
-            "url": "https://bcballot.ca/platforms/issues/wildfires/"
           }
         ]
       },
@@ -184,7 +184,7 @@
         "text": {
           "1": "This party has said nothing about wildfires, so it is not scored here.",
           "3": "OneBC has no wildfire position, so it is not scored on this question.",
-          "5": "OneBC's priorities page has no wildfire or fire text and the BC Ballot wildfire page lists no OneBC commitment (checked October 11), so this question is left out of its score."
+          "5": "OneBC's priorities page and its October 5 platform summary have no wildfire or fire item (checked October 12), so this question is left out of its score."
         },
         "basis": "platform",
         "confidence": "low",
@@ -194,8 +194,8 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "BC Ballot: wildfire commitments by party (no OneBC item)",
-            "url": "https://bcballot.ca/platforms/issues/wildfires/"
+            "label": "OneBC on X: Our Plan summary (Oct 5, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2107175484186624143"
           }
         ],
         "no_position": true
@@ -216,10 +216,10 @@
     },
     "context": {
       "1": "Kelowna's downtown has people living on the street with addiction and mental illness. The city wants a regional centre where the sickest can be made to get care, and wants a downtown supervised drug-use site closed. Parties disagree on what the province should pay for.",
-      "2": "In September Kelowna's council asked Ottawa not to renew a downtown site where people use drugs under supervision, citing thousands of police calls. It also asked the province for a regional facility where the sickest people could be treated against their will. The province decides where such facilities go and how police and hospitals are funded. Parties differ widely.",
-      "3": "On September 1 Kelowna council asked Health Canada not to renew the downtown supervised consumption site in 2027, citing 3,466 police calls since 2021, and repeated its request to the province for a regional mandatory care facility. Eby said on October 2 he is looking for a site that can open at once; the Conservatives would expand police powers; CentreBC would fund downtown safety teams; the Greens would expand supervised sites; OneBC would close them.",
-      "4": "Kelowna council's September 1 letter asked Health Canada to deny the 2027 renewal of the Pandosy Street supervised consumption site, citing 3,466 RCMP calls since 2021, and repeated its request to the province for 'a regional mandatory care facility within the Okanagan'. The province's involuntary care beds are in Surrey and Maple Ridge, none in the Okanagan. Site licences are federal; the provincial decisions are where a regional facility goes, Mental Health Act changes, and health and policing funding. Eby said in Kelowna on October 2 the province is seeking a site 'that can be used immediately', with staffing the limit.",
-      "5": "Kelowna council's September 1, 2026 letter asked Health Canada to deny the 2027 renewal of the Outreach Urban Health supervised consumption site, citing 3,466 RCMP calls since it opened in 2021, and repeated the request for a regional mandatory care facility in the Okanagan; Okanagan mayors have asked that the Oliver Correctional Centre be used to capacity. The BC Coroners Service reported 132 toxic drug deaths in Interior Health in 2026 to June, 70 of them in the Okanagan. The federal decriminalization exemption expired January 31, 2026. Involuntary care beds opened at Surrey Pretrial (10, April 2025) and Alouette Homes in Maple Ridge (18, June 2025); none are in the Okanagan. On October 2 Eby said sites have been identified that could be used immediately, staffing permitting, and that consumption sites 'save lives' if well run."
+      "2": "In a letter made public September 1, Kelowna's council asked Ottawa not to renew a downtown site where people use drugs under supervision, citing thousands of police calls. It also asked the province for a regional facility where the sickest people could be treated against their will. The province decides where such facilities go and how police and hospitals are funded. Parties differ widely.",
+      "3": "In a letter made public September 1, Kelowna council asked Health Canada not to renew the downtown supervised consumption site in 2027, citing 3,466 police calls since 2021, and repeated its request to the province for a regional mandatory care facility. Eby said on October 2 the province is looking for a site that could be used right away; the Conservatives would expand police powers; CentreBC would fund downtown safety teams; the Greens would expand supervised sites; OneBC would close them.",
+      "4": "Kelowna council's letter (dated August 26, made public September 1) asked Health Canada to deny the 2027 renewal of the Pandosy Street supervised consumption site, citing 3,466 RCMP calls since 2021, and repeated its request to the province for 'a regional mandatory care facility within the Okanagan'. The province's involuntary care beds are in Surrey and Maple Ridge, none in the Okanagan. Site licences are federal; the provincial decisions are where a regional facility goes, Mental Health Act changes, and health and policing funding. Eby said in Kelowna on October 2 the province is seeking a site 'that can be used immediately', with staffing a possible limit.",
+      "5": "Kelowna council's August 26, 2026 letter (made public September 1) asked Health Canada to deny the 2027 renewal of the Outreach Urban Health supervised consumption site, citing 3,466 RCMP calls since it opened in 2021, and repeated the request for a regional mandatory care facility in the Okanagan; On September 4 Interior mayors and the Osoyoos Indian Band asked that the Okanagan Correctional Centre in Oliver be used for secure and mandatory care. The BC Coroners Service reported 132 toxic drug deaths in Interior Health in the first six months of 2026. The federal decriminalization exemption expired January 31, 2026. Involuntary care beds opened at Surrey Pretrial (10, April 2025) and Alouette Homes in Maple Ridge (18, June 2025); none are in the Okanagan. On October 2 Eby said the province is looking for a site 'that can be used immediately', that potential sites have been identified, that staffing could be a limiting factor, and that consumption sites 'save lives' if well run."
     },
     "options": [
       {
@@ -246,7 +246,7 @@
           "2": "More police in the hardest-hit areas, change the mental health law so police can start mandatory treatment, end safe supply.",
           "3": "Put more police in the hardest-hit neighbourhoods, amend the Mental Health Act so officers can connect people to mandatory treatment, and end safe supply.",
           "4": "Add 250 police and 500 RCMP for the hardest-hit areas, let police connect people to mandatory treatment, end safe supply, and expand residential treatment.",
-          "5": "Deploy officers to the hardest-hit neighbourhoods, add 250 municipal police and 500 RCMP over five years, amend the Mental Health Act so police can connect people to mandatory treatment, 'compassionate intervention' for severe addiction, end safe supply, expand residential treatment."
+          "5": "Deploy officers to the hardest-hit neighbourhoods, add 250 police officers and 500 RCMP over five years, amend the Mental Health Act so police can connect people to mandatory treatment, 'compassionate intervention' for severe addiction, end safe supply, expand residential treatment."
         },
         "scores": {
           "ndp": 1,
@@ -263,7 +263,7 @@
           "2": "Fund downtown safety teams, add treatment beds, back city rules on drug use, with forced care only for the sickest.",
           "3": "Fund safety teams in 20 downtowns, add 500 treatment beds, back municipal rules on public drug use, with involuntary care only for the sickest.",
           "4": "Fund police and outreach in 20 downtowns, add 500 treatment beds, have police steer public users to treatment, and use involuntary care only for those too ill to decide.",
-          "5": "Safe Downtowns Fund for police and outreach teams in 20 downtowns by 2028; 500 treatment beds by 2030; municipal public-use rules with a police steer to treatment; involuntary care only for people too ill to keep safe; prosecute public possession."
+          "5": "Safe Downtowns Fund for police and outreach teams in 20 downtowns by 2028; 500 treatment and recovery beds and 150 detox beds by 2030; municipal public-use rules with a police steer to treatment; involuntary care only for people too ill to keep safe; ask Ottawa to charge public and repeat possession."
         },
         "scores": {
           "ndp": 2,
@@ -311,9 +311,9 @@
     "party_positions": {
       "ndp": {
         "text": {
-          "1": "This party says it is finding an Okanagan building for forced care that can open at once, and keeps supervised sites open.",
-          "3": "In Kelowna on October 2 Eby said the province is working with local governments on an involuntary care site in the region 'that can be used immediately', with staffing the limit; said supervised consumption sites 'save lives' if well run; and promised to expand the RCMP repeat-offender program. The government ended decriminalization in January 2026.",
-          "5": "Kelowna Capital News (October 2, 2026): Eby said involuntary care 'here in the region' is one piece, that sites have been identified that could be used immediately, with staffing a limiting factor; that consumption sites 'save lives' and must be 'well run and well operated'; and that the repeat property offender initiative should expand province-wide with jail 'if necessary'. Record: no renewal of the federal decriminalization exemption (January 14, 2026); involuntary care beds in Surrey and Maple Ridge, none in the Okanagan; no Mental Health Act amendment pledge found."
+          "1": "This party says it is looking for an Okanagan building for forced care that could be used right away, and keeps supervised sites open.",
+          "3": "In Kelowna on October 2 Eby said the province is working with local governments to find an involuntary care site in the region 'that can be used immediately', that potential sites have been identified, and that staffing could be a limiting factor; said supervised consumption sites 'save lives' if well run; and promised to expand the RCMP repeat-offender program. The government ended decriminalization in January 2026.",
+          "5": "Kelowna Capital News (October 2, 2026): Eby said involuntary care 'here in the region' is one piece, that the search is for a location 'that can be used immediately', that sites 'have been identified as potential facilities', and that staffing could be a limiting factor; that consumption sites 'save lives' and must be 'well run and well operated'; and that the repeat property offender initiative should expand province-wide with jail 'if necessary'. Record: the federal decriminalization exemption was not renewed and expired January 31, 2026; involuntary care beds in Surrey and Maple Ridge, none in the Okanagan; no Mental Health Act amendment pledge found."
         },
         "basis": "both",
         "confidence": "medium",
@@ -327,8 +327,8 @@
             "url": "https://kelownacapnews.com/2026/09/01/kelowna-council-pushing-to-close-downtown-supervised-consumption-site/"
           },
           {
-            "label": "BC Ballot: drugs and addiction (record and commitments)",
-            "url": "https://bcballot.ca/platforms/issues/drugs-and-addiction/"
+            "label": "BCCDC: decriminalization in BC (exemption expired January 31, 2026)",
+            "url": "https://www.bccdc.ca/health-info/prevention-public-health/decriminalization-in-bc"
           }
         ]
       },
@@ -365,8 +365,8 @@
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf"
           },
           {
-            "label": "BC Ballot: drugs and addiction commitments",
-            "url": "https://bcballot.ca/platforms/issues/drugs-and-addiction/"
+            "label": "BC Greens: toxic drugs policy announced with Lisa Lapointe (Oct 2, 2026)",
+            "url": "https://bcgreens.ca/announce-toxic-drugs-policy-alongside-former-chief-coroner-and-candidate-for-saanich-south-lisa-lapointe/"
           }
         ]
       },
@@ -399,13 +399,17 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "OneBC on X: street patrols and Riverview (Sept 29, 2026)",
+            "label": "OneBC on X: drugs and addiction, including reopening Riverview (Sept 29, 2026)",
             "url": "https://x.com/One_BCHQ/status/2105036887736058203"
+          },
+          {
+            "label": "OneBC on X: Our Plan summary, including street patrols and no charge downgrades (Oct 5, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2107175484186624143"
           }
         ]
       }
     },
-    "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 commitment to an immediate regional site, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, opposes involuntary care); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment, silent on closing sites); CentreBC 1 (seeks charges for public possession); NDP 0; Green 0."
+    "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 search for a regional site that can be used immediately, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, opposes involuntary care); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment, silent on closing sites); CentreBC 1 (asks Ottawa to charge public and repeat possession); NDP 0; Green 0."
   },
   {
     "id": "q_local_interior_ltc",
@@ -415,25 +419,25 @@
       "1": "Kelowna's new care home is on hold and Vernon's was cancelled. What should the province do?",
       "2": "The province paused Kelowna's new care home in February, and a private 250-bed Vernon project was cancelled in October. What now?",
       "3": "Budget 2026 paused seven care home builds including Kelowna's, and a private 250-bed Vernon project was pulled. What now?",
-      "4": "Budget 2026 paused seven care builds at up to $1.8 million a bed, and a private 250-bed Vernon project was cancelled. What now?",
-      "5": "Budget 2026 (February 17) paused seven long-term care projects (Kelowna, Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Squamish; about $1.4 billion); Park Place pulled its 250-bed Vernon project on October 7. Which approach?"
+      "4": "Budget 2026 paused seven care builds at about $1.8 million a bed, and a private 250-bed Vernon project was cancelled. What now?",
+      "5": "Budget 2026 (February 17) paused seven long-term care projects (Kelowna, Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Squamish; about $1.4 billion); Park Place's cancellation of a 250-bed Vernon project was reported October 6. Which approach?"
     },
     "context": {
       "1": "Many Okanagan seniors wait for a place in a care home. The province put a new Kelowna care home on hold, and a company gave up on a big Vernon project over funding worries. Parties disagree on how to build more beds.",
       "2": "In February 2026 the provincial budget paused seven planned long-term care homes, including the replacement for Cottonwoods in Kelowna. In October a private company cancelled a 250-bed Vernon project, blaming uncertainty about operating costs and funding. Parties disagree on whether to restart the public projects, let funding follow seniors to private providers, or both.",
-      "3": "Budget 2026 paused seven long-term care projects, including the Cottonwoods replacement in Kelowna. On October 7 Park Place Seniors Living pulled its 250-bed Vernon project, citing uncertainty about operating costs and funding; the care providers' association says the government has 'no discernable plan for seniors care'. On October 5 the NDP promised to resume the seven projects. The Conservatives would let funding follow seniors to any qualified provider. CentreBC would restart all seven with a factory-built design.",
-      "4": "Budget 2026 paused seven long-term care projects: Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Kelowna (the Cottonwoods replacement) and Squamish, about $1.4 billion to complete, citing costs up to $1.8 million a bed. On October 7 Park Place cancelled its 250-bed Vernon project, citing uncertainty about operating costs and funding; the BC Care Providers Association says 20,000 beds are needed by 2035. The NDP (October 5) would resume the seven with the July 2026 Canada-BC agreement. The Conservatives (October 9) would cut design rules and give waiting seniors portable funding usable at non-government providers. CentreBC would restart all seven with a prefabricated design and bed targets.",
-      "5": "Budget 2026 paused seven long-term care projects: Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Kelowna (the Cottonwoods replacement) and Squamish, about $1.4 billion; the province cited per-bed costs up to $1.8 million and a move to a lower-cost uniform design. On October 7, 2026 Park Place confirmed it had pulled a 250-bed Vernon project, citing uncertainty about operating costs and funding; the BC Care Providers Association said the government has 'no discernable plan for seniors care' and 20,000 new beds are needed by 2035. The NDP would resume all seven with July 2026 Canada-BC agreement money (October 5). The Conservatives would cut design rules and give waiting seniors portable public funding usable at non-government providers (October 9). CentreBC would restart all seven with a pre-fabricated design, 2,500 beds under construction by March 2031."
+      "3": "Budget 2026 paused seven long-term care projects, including the Cottonwoods replacement in Kelowna. On October 6 it was reported that Park Place Seniors Living had cancelled its 250-bed Vernon project, citing uncertainty about operating costs and funding; the care providers' association says the government has 'no discernable plan for seniors care'. On October 5 the NDP promised to resume the seven projects. The Conservatives would let funding follow seniors to any qualified provider. CentreBC would restart all seven with a factory-built design.",
+      "4": "Budget 2026 paused seven long-term care projects: Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Kelowna (the Cottonwoods replacement) and Squamish, about $1.4 billion to complete, citing costs of $1.8 million a bed. On October 6 it was reported that Park Place had cancelled its 250-bed Vernon project, citing uncertainty about operating costs and funding; the BC Care Providers Association says 20,000 beds are needed by 2035. The NDP (October 5) would resume the seven with the July 2026 Canada-BC agreement. The Conservatives (October 9) would cut design rules and give waiting seniors portable funding usable at non-government providers. CentreBC would restart all seven with a prefabricated design and bed targets.",
+      "5": "Budget 2026 paused seven long-term care projects: Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Kelowna (the Cottonwoods replacement) and Squamish, about $1.4 billion; the province said beds cost $1.8 million each and it was looking for ways to build them for less. On October 6, 2026 it was reported that Park Place had cancelled a 250-bed Vernon project, citing uncertainty about operating costs and funding; the BC Care Providers Association said the government has 'no discernable plan for seniors care' and 20,000 new beds are needed by 2035. The NDP would resume all seven with July 2026 Canada-BC agreement money (October 5). The Conservatives would cut design rules and give waiting seniors portable public funding usable at non-government providers (October 9). CentreBC would restart all seven with a pre-fabricated design, 2,500 beds under construction by March 2031."
     },
     "options": [
       {
         "id": "a",
         "text": {
           "1": "Restart the paused public care homes, including Kelowna's, with a cheaper design.",
-          "2": "Restart the seven paused public care homes, including Kelowna's, using federal partnership money and a cheaper standard design.",
+          "2": "Restart the seven paused public care homes, including Kelowna's, using federal partnership money and a cheaper building model.",
           "3": "Resume the seven paused public care home projects, including the Cottonwoods replacement, funded by the July Canada-BC agreement on a lower-cost model.",
           "4": "Resume all seven paused projects, including Kelowna's, under the July 2026 Canada-BC deal, at lower cost per bed, with faster timelines and public ownership.",
-          "5": "Resume all seven paused long-term care projects (about $1.4 billion), including Kelowna's Cottonwoods replacement, funded through the July 2026 Canada-BC partnership agreement on a lower-cost design with faster timelines, as publicly owned facilities with no portable funding to private operators."
+          "5": "Resume all seven paused long-term care projects (about $1.4 billion), including Kelowna's Cottonwoods replacement, funded through the BC-Canada Prosperity agreement (July 2026) on a new model with lower per-bed costs and faster construction, as publicly owned facilities with no portable funding to private operators."
         },
         "scores": {
           "ndp": 4,
@@ -480,11 +484,11 @@
       {
         "id": "d",
         "text": {
-          "1": "Build only public care homes, and keep public money away from for-profit homes.",
-          "2": "Expand publicly funded, publicly run care homes, add a rural seniors strategy, and keep public money out of for-profit operators.",
-          "3": "Expand publicly funded long-term care, adopt a rural seniors strategy, legislate safe staffing ratios, and keep every public health dollar in public care.",
-          "4": "Expand public long-term care, adopt a rural seniors strategy, legislate nurse-to-patient ratios, keep health dollars public, and give no portable funding to for-profits.",
-          "5": "Increase publicly funded long-term care capacity, adopt a rural seniors strategy, legislate safe nurse-to-patient ratios, phase out private agency nurses, and keep every public health dollar in public care, with no portable funding to for-profit operators and no private pay."
+          "1": "Build more public care homes, and keep public health money in public care.",
+          "2": "Expand publicly funded care homes, add a rural seniors strategy, and keep public health money in public care, not private care.",
+          "3": "Expand publicly funded long-term care, adopt a rural seniors strategy, fund safe nurse-to-patient ratios, and keep every public health dollar in public care.",
+          "4": "Expand public long-term care, adopt a rural seniors strategy, fund nurse-to-patient ratios, phase out agency nurses, and keep health dollars public.",
+          "5": "Increase publicly funded long-term care capacity, adopt a rural seniors strategy, fund safe nurse-to-patient ratios, phase out private agency nurses, push back on the growth of private health care, and keep every public health dollar in public care."
         },
         "scores": {
           "ndp": 3,
@@ -516,8 +520,8 @@
       "ndp": {
         "text": {
           "1": "This party paused the care homes in its budget, and now promises to restart them with federal money.",
-          "3": "The NDP government's Budget 2026 paused seven long-term care projects including Kelowna's Cottonwoods replacement, citing costs up to $1.8 million a bed. On October 5 Eby promised to resume all seven using money from the July 2026 Canada-BC agreement, on a lower-cost model with faster timelines. No response to the Vernon cancellation was published.",
-          "5": "Record: Budget 2026 (February 17) paused seven projects (Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Kelowna, Squamish; about $1.4 billion) to adopt a lower-cost uniform design. Pledge (October 5, 2026, Victoria): resume all seven with July 2026 Canada-BC partnership money; also $90 million for an Oak Bay Lodge campus of care and a free shingles vaccine for people 50 and over. No restart date, no per-bed cost target, no portable funding, and no published response to Park Place's Vernon cancellation."
+          "3": "The NDP government's Budget 2026 paused seven long-term care projects including Kelowna's Cottonwoods replacement, citing costs of $1.8 million a bed. On October 5 Eby promised to resume all seven using money from the BC-Canada Prosperity agreement (July 2026), on a new model with lower per-bed costs and shorter construction timelines. No response to the Vernon cancellation was published.",
+          "5": "Record: Budget 2026 (February 17) paused seven projects (Abbotsford, Campbell River, Chilliwack, Delta, Fort St. John, Kelowna, Squamish; about $1.4 billion) while the province looked for ways to build beds for less than $1.8 million each. Pledge (October 5, 2026, Victoria): resume all seven with funding from the BC-Canada Prosperity agreement (July 2026), using a new model that lowers per-bed costs and shortens construction timelines; also $90 million toward redeveloping the former Oak Bay Lodge site as a health and seniors' care hub and a free shingles vaccine for people 50 and over. No restart date, no per-bed cost target, no portable funding, and no published response to Park Place's Vernon cancellation."
         },
         "basis": "both",
         "confidence": "medium",
@@ -529,6 +533,18 @@
           {
             "label": "My South Okanagan Now: NDP plans to resume seven paused long-term care projects (Oct 5, 2026)",
             "url": "https://www.mysouthokanagannow.com/8300/news/elections/2026-bc-election/b-c-ndp-plans-to-resume-seven-paused-long-term-care-projects-if-re-elected/"
+          },
+          {
+            "label": "BC NDP: seniors health care plan, seven long-term care projects resumed (Oct 5, 2026)",
+            "url": "https://www.bcndp.ca/releases/bc-ndp-seniors-healthcare-plan-free-vaccines-home-care-long-term-care-david-eby"
+          },
+          {
+            "label": "BC NDP: $90 million to redevelop the former Oak Bay Lodge site (Oct 5, 2026)",
+            "url": "https://www.bcndp.ca/releases/bc-ndp-commits-90-million-redevelop-former-oak-bay-lodge-site-deliver-new-health-and"
+          },
+          {
+            "label": "The Tyee: BC halts construction of seven long-term care facilities (Feb 20, 2026)",
+            "url": "https://thetyee.ca/News/2026/02/20/BC-Halts-Construction-Seven-Long-Term-Care-Facilities/"
           }
         ]
       },
@@ -544,14 +560,18 @@
           {
             "label": "Conservative Party of BC: build the long-term care beds the NDP shelved (Oct 9, 2026)",
             "url": "https://conservativebc.ca/conservatives-will-build-the-long-term-care-beds-the-ndp-shelved/"
+          },
+          {
+            "label": "Conservative Party of BC: Keep emergency rooms open, health spending kept (Oct 5, 2026)",
+            "url": "https://conservativebc.ca/keep-emergency-rooms-open/"
           }
         ]
       },
       "green": {
         "text": {
-          "1": "This party would build only public care homes and keep public money away from for-profit homes.",
-          "3": "The Greens plan to increase publicly funded long-term care facilities and adopt a rural seniors strategy (October 4), within a health platform that legislates nurse-to-patient ratios, phases out private staffing agencies and keeps 'every public health dollar in public care'. They have no statement on the paused projects or the Vernon cancellation.",
-          "5": "Healthcare Policy Brief (October 6, 2026) and BC Ballot entries (October 4): increase publicly funded long-term care facilities, a rural seniors strategy, legislated safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, publicly covered mental health care, and no growth of private health care. No position on the seven paused projects, the Vernon project or portable funding; option d applies the public-only stance to long-term care."
+          "1": "This party would build more public care homes and keep public health money in public care.",
+          "3": "The Greens plan to increase publicly funded long-term care facilities and adopt a rural seniors strategy (October 4), within a health platform that funds safe nurse-to-patient ratios, phases out private staffing agencies, pushes back on private health care and keeps 'every public health dollar in public care'. They have no statement on the paused projects or the Vernon cancellation.",
+          "5": "Supporting Seniors Policy Brief (October 4, 2026): a plan to increase publicly funded long-term care facilities and a rural seniors strategy. Healthcare Policy Brief (October 6) and Our Plan: more funding for nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, mental health care covered through the public system, push back on 'the creeping privatization of healthcare', and 'keep every public health dollar in public care'. No position on the seven paused projects, the Vernon project or portable funding; option d applies the public-care stance to long-term care."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -561,8 +581,16 @@
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"
           },
           {
-            "label": "BC Ballot: health care commitments by party",
-            "url": "https://bcballot.ca/platforms/issues/health-care/"
+            "label": "BC Greens: plan to support seniors (Oct 4, 2026)",
+            "url": "https://bcgreens.ca/announce-plan-to-support-seniors/"
+          },
+          {
+            "label": "BC Greens: Supporting Seniors Policy Brief 2026 (PDF, Oct 4, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Supporting-Seniors-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: Our Plan",
+            "url": "https://bcgreens.ca/our-plan"
           }
         ]
       },
@@ -585,7 +613,7 @@
         "text": {
           "1": "This party wants private, paid-for care allowed beside public care. It has no care-home plan.",
           "3": "OneBC would allow private health care alongside fully funded public care, move administration spending to the front line and reinstate nurses removed under vaccine mandates. It has no long-term care commitment, so option e applies its general health stance to seniors' care; inferred, low confidence.",
-          "5": "Priorities page: 'Private Healthcare alongside fully-funded public healthcare'; shift administration and human resources spending to front-line staff; repeal the Health Professions and Occupations Act. October 11 video: reinstate nurses removed under COVID-era mandates with back pay. No long-term care, seniors' care or Vernon item. Option e is inferred from the private-care stance; low confidence."
+          "5": "Priorities page: 'Private Healthcare alongside fully-funded public healthcare'; shift administration and human resources spending to front-line staff; repeal the Health Professions and Occupations Act. October 11 post and video: reinstate, with back pay, nurses and front-line health workers still out of work over COVID-era mandates. No long-term care, seniors' care or Vernon item. Option e is inferred from the private-care stance; low confidence."
         },
         "basis": "inferred",
         "confidence": "low",
@@ -595,12 +623,12 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "BC Ballot: OneBC commitments",
-            "url": "https://bcballot.ca/platforms/onebc/"
+            "label": "OneBC on X: reinstate nurses with back pay (Oct 11, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2109406941118079436"
           }
         ]
       }
     },
-    "scoring_rationale": "a = NDP (4): resume the seven as public projects with federal money on a cheaper model; CentreBC 3 (restarts the same seven, with its own design and targets); Green 3 (public expansion, no specific project pledge); Conservative 1 (would build the shelved beds but through portable funding and non-government providers); OneBC 0. b = CentreBC (4); NDP 3 (same projects, no prefabrication pledge or bed targets); Conservative 2 (faster building and fewer design rules overlap; rejects public-only delivery); Green 2 (public delivery overlaps; no targets); OneBC 1. c = Conservative (4); OneBC 3 (private providers welcome, no portable funding pledge); CentreBC 2 (cuts build cost with prefabrication but keeps care public); NDP 1 (cheaper design only); Green 0. d = Green (4); NDP 3 (public projects and expansion, but no ban on for-profit operators, which already run many homes); CentreBC 2 (public, no private pay, but no ratio or agency pledge); Conservative 0; OneBC 0. e = OneBC (4), inferred from its private-care stance; Conservative 2 (non-government providers and a review of other systems, but public funding); others 0. The Island question on seniors' care uses the same party mapping with Island projects; the two regions never see each other's question."
+    "scoring_rationale": "a = NDP (4): resume the seven as public projects with federal money on a cheaper model; CentreBC 3 (restarts the same seven, with its own design and targets); Green 3 (public expansion, no specific project pledge); Conservative 1 (would build the shelved beds but through portable funding and non-government providers); OneBC 0. b = CentreBC (4); NDP 3 (same projects, no prefabrication pledge or bed targets); Conservative 2 (faster building and fewer design rules overlap; rejects public-only delivery); Green 2 (public delivery overlaps; no targets); OneBC 1. c = Conservative (4); OneBC 3 (private providers welcome, no portable funding pledge); CentreBC 2 (cuts build cost with prefabrication but keeps care public); NDP 1 (cheaper design only); Green 0. d = Green (4); NDP 3 (public projects and expansion, but no pledge to keep every public health dollar in public care; for-profit operators already run many homes); CentreBC 2 (public, no private pay, but no ratio or agency pledge); Conservative 0; OneBC 0. e = OneBC (4), inferred from its private-care stance; Conservative 2 (non-government providers and a review of other systems, but public funding); others 0. The Island question on seniors' care uses the same party mapping with Island projects; the two regions never see each other's question."
   }
 ]

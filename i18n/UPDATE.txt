@@ -1,0 +1,21 @@
+Translating after an English change (spec edit, vote-watch update)
+
+Changed English strings show in English in every language until this is done. Do it before the live deploy.
+
+1. python -I build_spec.py && python -I i18n_strings.py extract
+2. python -I i18n_strings.py todo
+   Writes i18n/chunks/9N.en.json with every string that is new or changed (prints N), or says nothing to do.
+3. Translate chunk 9N into all 8 languages (pa zh-Hans zh-Hant tl fr ru ko fa): one translator agent per
+   language, each told to read i18n/BRIEF.txt (all of it, including the GENDER rule) and
+   i18n/glossary.<lang>.json, write i18n/out/<lang>/9N.json with exactly the same keys, and run
+   `python -I i18n_check.py <lang> 9N` until it reports 0 errors. Natural number forms are fine
+   (10月24日, 13.3億, 133억, Persian digits for fa); the checker compares values.
+4. Second-model review (Codex CLI, no Claude usage):
+   python -I i18n_review.py run pa,zh-Hans,zh-Hant,tl,fr,ru,ko,fa --chunks 9N-9N --jobs 8
+   python -I i18n_review.py apply <lang>     (for each language; applies high and medium fixes that pass the checker)
+5. python -I i18n_merge.py all
+6. python -I i18n_strings.py status          (every language: stale 0, missing 0)
+7. python -I build_page.py                   (prints coverage per language; expect 100%)
+
+Page text (ui.en.json) changes: translate only the changed keys into i18n/out/<lang>/ui.json (keep all other
+keys), check with `python -I i18n_check.py <lang> ui`, review with `--chunks ui`, then steps 5 to 7.

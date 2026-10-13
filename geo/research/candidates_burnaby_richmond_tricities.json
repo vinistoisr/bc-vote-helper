@@ -120,15 +120,15 @@
      "name": "Anne Kang",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Burnaby MLA since 2017; former Burnaby teacher and three-term city councillor; has lived in Burnaby over 40 years.",
+     "bio": "Burnaby MLA since 2017 and Minister of Tourism, Arts, Culture and Sport since July 2025; former Burnaby music teacher and three-term city councillor; has lived in Burnaby over 40 years.",
      "sources": [
+      {
+       "label": "BC Government: Minister Anne Kang biography",
+       "url": "https://news.gov.bc.ca/ministries/tourism-arts-culture-and-sport/biography"
+      },
       {
        "label": "Burnaby Board of Trade",
        "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/burnaby-centre/"
       }
      ]
     },
@@ -173,15 +173,15 @@
      "name": "Rohini Reah Arora",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Elected in 2024; Deputy Chair of the BC Government Caucus; former Director of Organizing and Campaigns at the BC Federation of Labour; grew up in East Westridge.",
+     "bio": "Elected in 2024; Deputy Chair of the BC Government Caucus; former Director of Organizing and Campaigns at the BC Federation of Labour; grew up in Westridge, where her family ran a small business.",
      "sources": [
+      {
+       "label": "BC NDP: our eighteen newest MLAs (party)",
+       "url": "https://www.bcndp.ca/latest/our-eighteen-newest-mlas-standing-strong-bc-you-every-day"
+      },
       {
        "label": "Burnaby Board of Trade",
        "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/burnaby-east/"
       }
      ]
     },
@@ -192,8 +192,12 @@
      "bio": "No biography published; OneBC candidate with no previous election run on record.",
      "sources": [
       {
-       "label": "BC Ballot candidate page",
-       "url": "https://bcballot.ca/ridings/burnaby-east/de-ding/"
+       "label": "Elections BC: 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "OneBC: candidates",
+       "url": "https://1bc.ca/candidates"
       },
       {
        "label": "Burnaby Board of Trade",
@@ -293,12 +297,12 @@
      "bio": "Burnaby North MLA since 2017; three decades representing PSAC members; former Parliamentary Secretary for Labour.",
      "sources": [
       {
-       "label": "Burnaby Board of Trade",
-       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
+       "label": "Janet Routledge campaign page (party)",
+       "url": "https://janetroutledge.bcndp.ca"
       },
       {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/burnaby-north/"
+       "label": "Burnaby Board of Trade",
+       "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
       }
      ]
     },
@@ -309,8 +313,12 @@
      "bio": "OneBC candidate added October 8 after Elections BC ruled her nomination should have been accepted on October 3; no biography published.",
      "sources": [
       {
-       "label": "Wikipedia, Candidates of the 2026 BC general election",
-       "url": "https://en.wikipedia.org/wiki/Candidates_of_the_2026_British_Columbia_general_election"
+       "label": "Elections BC: 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "OneBC: candidates",
+       "url": "https://1bc.ca/candidates"
       },
       {
        "label": "Burnaby Board of Trade",
@@ -344,15 +352,15 @@
      "name": "Paul Choi",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Elected in 2024; former police officer, small business owner and lawyer; qualified mediator and arbitrator; former Parliamentary Secretary for Trade.",
+     "bio": "Elected in 2024; former police officer, small business owner and lawyer; qualified mediator and arbitrator; has served as Parliamentary Secretary for Trade since July 2025.",
      "sources": [
+      {
+       "label": "BC Government: Parliamentary Secretary for Trade (Paul Choi)",
+       "url": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/cabinet/cabinet-ministers/parliamentary-secretary-for-asia-pacific-trade"
+      },
       {
        "label": "Burnaby Board of Trade",
        "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/burnaby-south-metrotown/"
       }
      ]
     },
@@ -429,15 +437,15 @@
      "name": "Raj Chouhan",
      "party": "ndp",
      "incumbent": true,
-     "bio": "MLA since 2005 and Speaker of the Legislature; first South Asian Speaker; founding president of the Canadian Farmworkers' Union.",
+     "bio": "MLA since 2005 and Speaker of the Legislature since 2020, the first South Asian Speaker in Canada; helped found the Canadian Farmworkers' Union in 1980.",
      "sources": [
+      {
+       "label": "Global News: Raj Chouhan becomes first South Asian Speaker (Dec 7, 2020)",
+       "url": "https://globalnews.ca/news/7506336/mla-raj-chouhan-becomes-b-c-s-first-south-asian-speaker-of-the-house/"
+      },
       {
        "label": "Burnaby Board of Trade",
        "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/burnaby-new-westminster/"
       }
      ]
     },
@@ -529,15 +537,11 @@
      "name": "Jodie Wickens",
      "party": "ndp",
      "incumbent": true,
-     "bio": "MLA since 2024 and also 2016 to 2017; former executive director of the Autism Support Network; has held a child and family cabinet role since November 2024.",
+     "bio": "MLA for Coquitlam-Burke Mountain 2016 to 2017 and since 2024; Minister of Children and Family Development; former Director of Programs and Services at SHARE Society, a Tri-Cities non-profit.",
      "sources": [
       {
-       "label": "Wikipedia, Jodie Wickens",
-       "url": "https://en.wikipedia.org/wiki/Jodie_Wickens"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/coquitlam-burke-mountain/"
+       "label": "BC Government: Minister Jodie Wickens biography",
+       "url": "https://news.gov.bc.ca/ministries/children-and-family-development/biography"
       }
      ]
     }
@@ -567,15 +571,15 @@
      "name": "Jennifer Blatherwick",
      "party": "ndp",
      "incumbent": true,
-     "bio": "MLA since 2024; twice elected Coquitlam school trustee; Parliamentary Secretary for Gender Equity; lives in Coquitlam with her husband and five children.",
+     "bio": "MLA since 2024; two-term Coquitlam school trustee; former executive director of Access Youth Outreach Services Society; Parliamentary Secretary for Gender Equity; raised five children in Coquitlam.",
      "sources": [
       {
-       "label": "Wikipedia, Jennifer Blatherwick",
-       "url": "https://en.wikipedia.org/wiki/Jennifer_Blatherwick"
+       "label": "BC Government: Parliamentary Secretary for Gender Equity (Jennifer Blatherwick)",
+       "url": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/cabinet/cabinet-ministers/parliamentary-secretary-gender-equity"
       },
       {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/coquitlam-maillardville/"
+       "label": "BC NDP: our eighteen newest MLAs (party)",
+       "url": "https://www.bcndp.ca/latest/our-eighteen-newest-mlas-standing-strong-bc-you-every-day"
       }
      ]
     },
@@ -838,15 +842,11 @@
      "name": "Jennifer Whiteside",
      "party": "ndp",
      "incumbent": true,
-     "bio": "MLA since 2020 and Minister of Labour; former Education and Mental Health and Addictions minister; former Hospital Employees' Union secretary-business manager; raised in New Westminster.",
+     "bio": "MLA since 2020 and Minister of Labour since November 2024; former Education and Mental Health and Addictions minister; former chief spokesperson and lead negotiator for the Hospital Employees' Union; born and raised in New Westminster.",
      "sources": [
       {
-       "label": "Wikipedia, Jennifer Whiteside",
-       "url": "https://en.wikipedia.org/wiki/Jennifer_Whiteside"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
+       "label": "BC Government: Minister Jennifer Whiteside biography",
+       "url": "https://news.gov.bc.ca/ministries/labour/biography"
       }
      ]
     }
@@ -927,12 +927,8 @@
      "bio": "MLA first elected 1991, out of office 2001 to 2005; Minister of Transportation and Transit and Government House Leader; former Port Coquitlam city councillor.",
      "sources": [
       {
-       "label": "Wikipedia, Mike Farnworth",
-       "url": "https://en.wikipedia.org/wiki/Mike_Farnworth"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/port-coquitlam/"
+       "label": "BC Government: Minister Mike Farnworth biography",
+       "url": "https://news.gov.bc.ca/ministries/transportation-and-transit/biography"
       }
      ]
     },
@@ -993,15 +989,11 @@
      "name": "Rick Glumac",
      "party": "ndp",
      "incumbent": true,
-     "bio": "MLA since 2017 and Minister of State for Artificial Intelligence and New Technologies; former Port Moody councillor and computer graphics supervisor in film and animation.",
+     "bio": "MLA since 2017 and Minister of State for Artificial Intelligence and New Technologies since July 2025; electronics engineering graduate who worked in film animation, video games and mobile apps.",
      "sources": [
       {
-       "label": "Wikipedia, Rick Glumac",
-       "url": "https://en.wikipedia.org/wiki/Rick_Glumac"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/port-moody-burquitlam/"
+       "label": "BC Government: Minister of State Rick Glumac biography",
+       "url": "https://news.gov.bc.ca/ministries/ai-and-new-technologies/biography"
       }
      ]
     },

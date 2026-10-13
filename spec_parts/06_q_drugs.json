@@ -13,9 +13,9 @@
     "context": {
       "1": "Toxic street drugs kill many people in BC. Some parties want places where people can use drugs with staff nearby, and doctor-prescribed drugs to replace street drugs. Others want people with the worst addictions to be required to get treatment. Some want both.",
       "2": "BC runs sites where people use drugs with staff on hand. Doctors can prescribe drugs to replace street drugs, and some people are required to get treatment. From 2023 to early 2026, carrying small amounts was not a crime, but that has ended. Deaths have fallen since 2023, but the coroner has not linked the drop to any one cause.",
-      "3": "The NDP government let its decriminalization pilot, under which people were not charged for carrying small amounts, end in 2026. It now requires people on prescribed safer supply to take each dose in front of a health worker, and it is expanding involuntary care. The Conservatives would end safer supply and expand required treatment. OneBC would also close supervised sites. The Greens would bring decriminalization back. CentreBC puts treatment first, with 650 more beds.",
-      "4": "Drug deaths fell from 2,511 in 2023 to 1,826 in 2025, but the coroner has not linked the drop to any one cause. Researchers estimate supervised consumption sites prevented about 3,945 deaths in 2023, while police chiefs point to public disorder and prescribed drugs being passed on to others. In July 2026 the BC Supreme Court struck down the parts of the Mental Health Act used for involuntary treatment and gave the government six months to amend the law.",
-      "5": "Drug deaths were 2,511 in 2023 and 1,826 in 2025 (preliminary), and the coroner does not attribute the decline to any one cause. Requiring witnessed dosing cut the prescribed alternatives program from over 5,000 people to about 2,200. The province has 132 involuntary care beds in progress. In July 2026 the BC Supreme Court ruled the Mental Health Act's treatment provisions unconstitutional and gave the government six months to amend them. Researchers estimate supervised sites prevented 3,945 deaths in 2023. A federal study found decriminalization was not a factor in the 2024 national decline in deaths."
+      "3": "The NDP government let its decriminalization pilot, under which people were not charged for carrying small amounts, end in 2026. It now requires most people on prescribed safer supply to take their doses in front of a health worker, and it is expanding involuntary care. The Conservatives would end safer supply and expand required treatment. OneBC would also close supervised sites. The Greens would bring decriminalization back. CentreBC puts treatment first, with 650 more beds.",
+      "4": "Drug deaths fell from 2,511 in 2023 to 1,826 in 2025, but the coroner has not linked the drop to any one cause. Supporters say supervised consumption sites prevent overdose deaths, while police chiefs point to public disorder and prescribed drugs being passed on to others. In July 2026 the BC Supreme Court struck down the parts of the Mental Health Act used for involuntary treatment and gave the government six months to amend the law.",
+      "5": "Drug deaths were 2,511 in 2023 and 1,826 in 2025 (preliminary), and the coroner does not attribute the decline to any one cause. The prescribed alternatives program fell from about 5,200 people at its March 2023 peak to about 3,900 in early 2025, when the province began requiring witnessed dosing. The province has announced 132 involuntary care beds in Prince George and Surrey. In July 2026 the BC Supreme Court ruled the Mental Health Act's treatment provisions unconstitutional and gave the government six months to amend them."
     },
     "options": [
       {
@@ -59,7 +59,7 @@
           "2": "Keep well-run sites and supervised replacement drugs, expand required treatment, and keep possession illegal.",
           "3": "Keep well-run supervised sites and witnessed dosing of prescribed drugs, expand involuntary care, and do not bring back decriminalization.",
           "4": "Keep supervised sites if well run, allow prescribed alternatives only when a health worker watches, expand involuntary care within court limits, and do not restore decriminalization.",
-          "5": "Keep supervised sites with operating conditions, require witnessed dosing for all prescribed alternatives, amend the Mental Health Act by January 2027, open 132 involuntary beds, and do not restore decriminalization."
+          "5": "Keep supervised sites with operating conditions, require witnessed dosing for prescribed alternatives, keep involuntary care within the limits the court sets, open 132 involuntary beds, and do not restore decriminalization."
         },
         "scores": {
           "ndp": 4,
@@ -108,8 +108,8 @@
       "ndp": {
         "text": {
           "1": "This party ended its test of not charging people for small amounts. It keeps drug-use sites and requires treatment for some people.",
-          "3": "The NDP started decriminalization in 2023 and let it expire in 2026, saying 'it didn't work'. It required witnessed dosing for prescribed alternatives, which cut the program from over 5,000 people to about 2,200, and expanded involuntary care. It says supervised sites 'save lives' if well run.",
-          "5": "Decriminalization began in 2023, was narrowed in 2024 and expired in January 2026; Eby said 'it didn't work'. Witnessed dosing became mandatory for all clients in December 2025. Involuntary care has 28 beds open and 132 in progress (up to $92 million). In July 2026 the BC Supreme Court found the Mental Health Act's treatment provisions breach the Charter, and the government has announced no response. On the campaign trail it says sites 'save lives' if 'well run'."
+          "3": "The NDP started decriminalization in 2023 and let it expire in 2026, saying it 'hasn't delivered the results' it hoped for. It now requires most people on prescribed alternatives to take their doses in front of a nurse or pharmacist, and it is expanding involuntary care. It says supervised sites 'save lives' if well run.",
+          "5": "Decriminalization began in 2023, was narrowed in 2024 to exclude public use and expired on January 31, 2026; Health Minister Josie Osborne said it 'hasn't delivered the results' hoped for, and Eby said of decriminalized public drug use, 'It didn't work.' In December 2025 it moved to require most prescribed-alternatives clients to take doses in front of a nurse or pharmacist. It has announced 132 involuntary care beds in Prince George (up to $92 million) and Surrey (up to $57 million); the first 24 are due by December 2027. In July 2026 the BC Supreme Court found the Mental Health Act's treatment provisions breach the Charter; the Attorney General's office said it is reviewing the decision. On the campaign trail it says sites 'save lives' if 'well run'."
         },
         "basis": "record",
         "confidence": "high",
@@ -131,8 +131,20 @@
             "url": "https://kelownacapnews.com/2026/10/02/eby-announces-b-c-grocery-price-guard-social-disorder-during-kelowna-visit/"
           },
           {
-            "label": "CKPG: 132 involuntary care beds including 60 in Surrey",
+            "label": "CKPG: Prince George involuntary care facility, first 24 beds by December 2027 (Jul 10, 2026)",
             "url": "https://ckpgtoday.ca/2026/07/10/premier-announces-location-of-prince-george-involuntary-care-facility/"
+          },
+          {
+            "label": "BC Government: two facilities to add 132 involuntary care beds (Jul 10, 2026)",
+            "url": "https://news.gov.bc.ca/releases/2026HLTH0029-000808"
+          },
+          {
+            "label": "Global News: Eby, 'not returning to decriminalized public drug use' (Jan 6, 2026)",
+            "url": "https://globalnews.ca/news/11601344/bc-decriminalized-public-drug-use-premier"
+          },
+          {
+            "label": "The Tyee: witnessed dosing and safer supply enrolment (Feb 21, 2025)",
+            "url": "https://thetyee.ca/News/2025/02/21/BC-Restricts-Safer-Supply-Pharmacy-Crackdown/"
           }
         ]
       },
@@ -140,7 +152,7 @@
         "text": {
           "1": "This party would end prescribed replacement drugs, require treatment for severe addiction, and ban drug use in shelters.",
           "3": "The Conservative plan would end safer supply, amend the Mental Health Act so police can start mandatory treatment, and ban drug use in hospitals, shelters and supportive housing. It is silent on supervised sites; the 2024 platform promised to close them.",
-          "5": "Safe Streets for BC (October 2026) would end 'safe supply', bring in compassionate intervention, amend the Mental Health Act for officer-connected mandatory treatment, ban drug use in hospitals, shelters and supportive housing, and add residential treatment. The 2024 platform promised to close all consumption sites. The party voted against the NDP's Bill 32. It has not stated costs or bed numbers."
+          "5": "Safe Streets for BC (October 2026) would end 'safe supply', bring in compassionate intervention, amend the Mental Health Act for officer-connected mandatory treatment, ban drug use in hospitals, shelters and supportive housing, and add residential treatment. The 2024 platform promised to close all consumption sites. The party voted against the NDP's Bill 32, the Mental Health Amendment Act (No. 2), 2025, which passed 45 to 41. It has not stated costs or bed numbers."
         },
         "basis": "both",
         "confidence": "high",
@@ -156,6 +168,10 @@
           {
             "label": "Langley Advance Times: Conservative plan on police and drug use in hospitals",
             "url": "https://langleyadvancetimes.com/2026/10/06/b-c-conservatives-plan-to-hire-more-police-stop-illegal-drug-use-in-hospitals-shelters/"
+          },
+          {
+            "label": "Votes and Proceedings, December 2, 2025 (Bill 32, third reading 45-41)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251202.htm"
           }
         ]
       },
@@ -163,7 +179,7 @@
         "text": {
           "1": "This party would not charge people for carrying small amounts. It wants safer prescribed drugs and voluntary treatment.",
           "3": "The Greens are the only party that would bring back decriminalization, which would need a federal exemption. Their plan, written with former chief coroner Lisa Lapointe, adds regulated pharmaceutical alternatives, more supervised and inhalation sites, and voluntary rather than involuntary care.",
-          "5": "The Greens' Toxic Drugs Policy Brief (October 2, 2026) would decriminalize personal possession and offer regulated pharmaceutical alternatives, more supervised consumption sites with inhalation, mobile and 24-hour service, yearly drug-checking funding, housing with harm reduction and voluntary care. It cites the court ruling in the Drug User Liberation Front (DULF) case. The Greens voted against Armstrong's Drug Recovery and Community Safety Act (84 to 2) and Bill 32."
+          "5": "The Greens' Toxic Drugs Policy Brief (October 2, 2026) would decriminalize personal possession and offer regulated pharmaceutical alternatives, more supervised consumption sites with inhalation, mobile and 24-hour service, yearly drug-checking funding, housing with harm reduction and voluntary care. It cites the court ruling in the Drug User Liberation Front (DULF) case. The two Green MLAs cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which would close all provincially funded consumption sites; it passed first reading 84 to 2 in March 2026. Green MLA Rob Botterell also voted against Bill 32 in 2025."
         },
         "basis": "platform",
         "confidence": "high",
@@ -177,8 +193,16 @@
             "url": "https://bcgreens.ca/announce-toxic-drugs-policy-alongside-former-chief-coroner-and-candidate-for-saanich-south-lisa-lapointe/"
           },
           {
-            "label": "BCCSU: estimate of deaths prevented by supervised sites",
-            "url": "https://www.bccsu.ca/blog/news/b-c-conservatives-vow-to-shut-down-safe-consumption-sites/"
+            "label": "Votes and Proceedings, March 5, 2026 (Drug Recovery and Community Safety Act, first reading 84-2)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260305.htm"
+          },
+          {
+            "label": "Maple Ridge News: only Greens oppose first reading of consumption site bill (Mar 5, 2026)",
+            "url": "https://mapleridgenews.com/2026/03/05/b-c-ndp-allow-armstrong-bill-on-closing-all-consumption-sites-to-pass-1st-reading/"
+          },
+          {
+            "label": "Votes and Proceedings, December 2, 2025 (Bill 32, third reading 45-41)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251202.htm"
           }
         ]
       },
@@ -194,10 +218,6 @@
           {
             "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, pp 18-19, 25-27)",
             "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
-          },
-          {
-            "label": "Cloverdale Reporter: Sturko's Mental Health Act bill",
-            "url": "https://www.cloverdalereporter.com/news/surrey-south-mla-elenore-sturko-introduces-bill-aimed-at-helping-prevent-suicides/"
           }
         ]
       },
@@ -205,7 +225,7 @@
         "text": {
           "1": "This party would turn drug-use sites into recovery centres and require treatment for severe addiction.",
           "3": "OneBC would end safer supply and consumption programs, turn the sites into recovery centres, use involuntary treatment and housing for people with severe addiction, and roll back decriminalization.",
-          "5": "OneBC would end safe supply and consumption programs, convert sites to recovery centres, use involuntary rehabilitation and housing for people with severe addiction, and roll back decriminalization. Its caucus funded a documentary, 'Making a Killing' (December 2025). It has published no bed numbers or costs."
+          "5": "OneBC would end safe supply and consumption programs, convert sites to recovery centres, use involuntary rehabilitation and housing for people with severe addiction, and roll back decriminalization. It has published no bed numbers or costs."
         },
         "basis": "platform",
         "confidence": "high",
@@ -213,10 +233,6 @@
           {
             "label": "OneBC priorities",
             "url": "https://1bc.ca/priorities"
-          },
-          {
-            "label": "Wikipedia: OneBC (secondary)",
-            "url": "https://en.wikipedia.org/wiki/OneBC_(political_party)"
           }
         ]
       }

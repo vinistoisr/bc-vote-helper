@@ -15,7 +15,7 @@
       "2": "Since 2018 the province has taxed some homes left empty, and since 2023 it has made cities allow more homes on each lot. Rents in the Vancouver area are falling, but prices are still high and homelessness is up. Parties disagree on whether to cut builder costs, raise taxes on empty homes, or build more non-profit homes.",
       "3": "Housing ranks third among BC voters' concerns. The NDP government added a tax on homes left empty (the speculation and vacancy tax) in 2018 and a tax on homes resold quickly (the flipping tax) in 2025. A 2023 law makes cities allow up to four homes on most lots. Rents in the Vancouver area are easing, but homelessness is up. The parties disagree on whether to add more taxes and rules or remove them.",
       "4": "Metro Vancouver rents are falling and the rental vacancy rate is at a 30-year high, but prices are about 20% above 2016 levels and homelessness is up. The NDP government brought in the speculation and vacancy tax (SVT) on empty homes in 2018 and a flipping tax on quick resales in 2025. A 2023 law requires cities to allow up to four homes on most lots. In 2026 the NDP proposed doubling the SVT and taxing condos left unsold for over a year.",
-      "5": "In Metro Vancouver, 3.7% of purpose-built rentals were vacant in 2025, and the benchmark home price was about $1.08 million in September 2026, down 5.5% from a year earlier. BC started 44,193 homes in 2025, and Canada Mortgage and Housing Corporation (CMHC) forecasts fewer starts each year to 2028. The 2025 count found 5,232 homeless people, up 9%. The 2018 law creating the speculation and vacancy tax (Bill 45) passed 43 to 39, with the Greens for it and the BC Liberals against. The 2023 law letting up to four homes be built on most city lots (Bill 44) passed 45 to 29; BC United and the Greens voted against it. The 2023 law requiring more homes near transit (Bill 47) passed unanimously."
+      "5": "In Metro Vancouver, 3.7% of purpose-built rentals were vacant in 2025, and the benchmark home price was about $1.08 million in September 2026, down 5.5% from a year earlier. Metro Vancouver started 27,185 homes in 2025, and Canada Mortgage and Housing Corporation (CMHC) forecasts fewer starts each year to 2028. The 2025 count found 5,232 homeless people, up 9%. The 2018 law creating the speculation and vacancy tax (Bill 45) passed 43 to 39, with the Greens for it and the BC Liberals against. The 2023 law letting up to four homes be built on most city lots (Bill 44) passed 45 to 29; BC United and the Greens voted against it. The 2023 law requiring more homes near transit (Bill 47) passed unanimously."
     },
     "options": [
       {
@@ -133,6 +133,10 @@
           {
             "label": "Global News: Metro Vancouver 2025 homeless count",
             "url": "https://globalnews.ca/news/11311816/metro-vancouver-2025-homeless-count"
+          },
+          {
+            "label": "The Tyee: Budget 2026 cancels the 2025 Community Housing Fund call (July 7, 2026)",
+            "url": "https://thetyee.ca/News/2026/07/07/BC-Affordable-Homes-Budget-Cuts/"
           }
         ]
       },
@@ -140,7 +144,7 @@
         "text": {
           "1": "This party says taxes and rules make homes cost too much, and wants building to be cheaper.",
           "3": "The Conservatives promise lower building and buying costs, no new housing taxes, and taking housing away from Metro Vancouver's regional government. They have taken no 2026 position on the speculation tax or the density law and have not repeated their 2024 rebate and repeal ideas.",
-          "5": "In 2026 the Conservatives oppose the Unsold Condo Tax and the higher speculation tax, would return Metro Vancouver's housing and climate roles to the province and cities, and promise no new taxes. They have not said whether they would repeal the speculation tax, change Bills 44 or 47, touch rent control or revive the 2024 rebate. MLAs of the parties before them voted against the speculation tax in 2018 and Bills 44 and 46, and for Bill 47."
+          "5": "In 2026 the Conservatives reject the NDP's housing tax plan (the Unsold Condo Tax and a higher speculation tax), saying 'every new tax on housing ends up in the price a family pays', pledge no new taxes, and would return Metro Vancouver's housing and climate roles to the province and cities. They have not said whether they would repeal the speculation tax, change Bills 44 or 47, touch rent control or revive the 2024 rebate. MLAs of the parties before them voted against the speculation tax in 2018 and Bills 44 and 46, and for Bill 47."
         },
         "basis": "both",
         "confidence": "medium",
@@ -154,8 +158,12 @@
             "url": "https://dailyhive.com/vancouver/bc-conservatives-metro-vancouver-regional-district-reform-platform-promise"
           },
           {
-            "label": "BC Ballot: Conservative commitments (single housing item)",
-            "url": "https://bcballot.ca/platforms/conservative-party/"
+            "label": "Conservative Party of BC: no new taxes pledge (Sept 27, 2026)",
+            "url": "https://conservativebc.ca/conservative-party-of-bc-pledges-no-new-taxes-on-british-columbians/"
+          },
+          {
+            "label": "Votes and Proceedings, November 30, 2023 (Bill 47 third reading, unanimous)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231130.htm"
           }
         ]
       },
@@ -179,14 +187,22 @@
           {
             "label": "BC Greens: Our Plan",
             "url": "https://bcgreens.ca/our-plan/"
+          },
+          {
+            "label": "BC Greens: Rights for Renters policy brief (PDF, Sept 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Rights-for-Renters-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: Economic Vision (PDF, Oct 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf"
           }
         ]
       },
       "centrebc": {
         "text": {
           "1": "This party wants cities to approve homes faster, lower fees on rentals, and more factory-built homes.",
-          "3": "CentreBC's platform sets provincial approval deadlines for cities, halves development charges on rentals, and plans 5,000 factory-built homes a year, a doubled BC Builds program and 1,000 supportive homes. It adds no new housing taxes. It is silent on the speculation tax, the four-home zoning law and rent control, and keeps the rules for homes near transit.",
-          "5": "By 2028 the platform requires six-month rezonings and eight-week permits, with refunds if missed, backed by a $125 million a year performance fund. It halves development charges on rental and below-market homes and adds a $240 million a year growth fund. It plans 5,000 prefab and mass-timber homes a year by 2030, BC Builds at 20,000 homes by 2031, a 2027-2032 PST rebate on rental building materials and 1,000 supportive homes. It does not mention the speculation tax, Unsold Condo Tax, flipping tax, foreign buyer tax or rent control."
+          "3": "CentreBC's platform sets provincial approval deadlines for cities, halves development charges on rentals, and plans 5,000 factory-built homes a year, a doubled BC Builds program and 1,000 supportive homes. It adds no new housing taxes. It proposes no change to the speculation tax beyond stronger audits, is silent on the four-home zoning law and rent control, and keeps the rules for homes near transit.",
+          "5": "By 2028 the platform requires six-month rezonings and eight-week permits, with refunds if missed, backed by a $125 million a year performance fund. It halves development charges on rental and below-market homes and adds a $240 million a year growth fund. It plans 5,000 prefab and mass-timber homes a year by 2030, BC Builds at 20,000 homes by 2031, a 2027-2032 PST rebate on rental building materials and 1,000 supportive homes. It does not mention the Unsold Condo Tax, flipping tax, foreign buyer tax or rent control, and mentions the speculation tax only to add audit teams to collect it."
         },
         "basis": "platform",
         "confidence": "high",
@@ -213,14 +229,10 @@
           {
             "label": "OneBC priorities",
             "url": "https://1bc.ca/priorities"
-          },
-          {
-            "label": "BC Ballot: platform comparison",
-            "url": "https://bcballot.ca/platforms/"
           }
         ]
       }
     },
-    "scoring_rationale": "a is the 2026 Conservative message (4). OneBC shares deregulation (3) but its signature items are in e. CentreBC 3 (deadlines, fee cuts and PST relief for builders, no new taxes; but it adds public funds and keeps the transit-area rules). NDP 1: it did clear permit backlogs and cut approval times (record), but its policy is taxes plus mandates. Green 0. b is the NDP record and 2026 pledge (4); Greens backed the 2018 SVT and favour taxing speculation but oppose top-down zoning (2); CentreBC 2 (keeps municipal targets and doubles BC Builds, silent on the taxes and the zoning law); Conservatives 0 (opposed SVT, Bill 44 and the 2026 taxes); OneBC 0. c is the Green plan (4); NDP 2 for BC Builds and the Community Housing Fund it created, then paused; CentreBC 1 (20,000 below-market homes by 2031 is about a sixth of the Green pace; no vacancy control); Conservative and OneBC 0 (OneBC would ban rent control). d is CentreBC's platform (4): approval deadlines, halved DCCs on rentals, prefab supply, BC Builds doubled; Conservatives 2 and OneBC 2 share the fee and permit side but not the funds or the non-market program; NDP 2 (it signed the DCC agreement and created BC Builds, two of the option's four items, but its 2026 plan leads with taxes plus mandates, which the option leaves out); Green 1. Option d was rewritten on October 10 from the earlier outcomes framing; other parties' scores on it were kept. e is OneBC (4); Conservatives 2 (deregulation sympathy, but no 2026 Step Code or rent-control position and a 2024 record of not touching rent caps formally); CentreBC 1; NDP and Green 0 (NDP wrote the Step Code timeline; Greens want vacancy control)."
+    "scoring_rationale": "a is the 2026 Conservative message (4). OneBC shares deregulation (3) but its signature items are in e. CentreBC 3 (deadlines, fee cuts and PST relief for builders, no new taxes; but it adds public funds and keeps the transit-area rules). NDP 1: it did clear permit backlogs and cut approval times (record), but its policy is taxes plus mandates. Green 0. b is the NDP record and 2026 pledge (4); Greens backed the 2018 SVT and favour taxing speculation but oppose top-down zoning (2); CentreBC 2 (keeps municipal targets and doubles BC Builds, proposes no change to the taxes beyond speculation tax audits, silent on the zoning law); Conservatives 0 (opposed SVT, Bill 44 and the 2026 taxes); OneBC 0. c is the Green plan (4); NDP 2 for BC Builds and the Community Housing Fund it created, then paused; CentreBC 1 (20,000 below-market homes by 2031 is about a sixth of the Green pace; no vacancy control); Conservative and OneBC 0 (OneBC would ban rent control). d is CentreBC's platform (4): approval deadlines, halved DCCs on rentals, prefab supply, BC Builds doubled; Conservatives 2 and OneBC 2 share the fee and permit side but not the funds or the non-market program; NDP 2 (it signed the DCC agreement and created BC Builds, two of the option's four items, but its 2026 plan leads with taxes plus mandates, which the option leaves out); Green 1. Option d was rewritten on October 10 from the earlier outcomes framing; other parties' scores on it were kept. e is OneBC (4); Conservatives 2 (deregulation sympathy, but no 2026 Step Code or rent-control position and a 2024 record of not touching rent caps formally); CentreBC 1; NDP and Green 0 (NDP wrote the Step Code timeline; Greens want vacancy control)."
   }
 ]

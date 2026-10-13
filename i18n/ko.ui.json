@@ -955,6 +955,10 @@
 "92adf70d5a",
 "한 화면에서 모두가 각 질문에 답합니다."
 ],
+"month_names": [
+"6ab4d1b05f",
+"1월,2월,3월,4월,5월,6월,7월,8월,9월,10월,11월,12월"
+],
 "name_party": [
 "cf84cf0b34",
 "{name} ({party})"
@@ -1023,6 +1027,18 @@
 "e082504349",
 "{count}개 정당"
 ],
+"party_christian_heritage": [
+"fd3de66c2c",
+"BC기독교유산당"
+],
+"party_communist": [
+"c7c41d4170",
+"BC공산당"
+],
+"party_freedom": [
+"862b58255c",
+"Freedom Party"
+],
 "party_incumbent": [
 "f9bdd6e82a",
 "{party}, 현역 의원"
@@ -1031,9 +1047,29 @@
 "834ee945d7",
 "{party}, 현역 주의원"
 ],
+"party_liberal": [
+"caed0cfb85",
+"BC자유당"
+],
+"party_libertarian": [
+"af24b58669",
+"BC자유지상당"
+],
 "party_meta": [
 "235fb1b0c6",
 "당대표: {leader}. 후보 {candidates}명. 의회 해산 시 의석 {seats}석."
+],
+"party_other": [
+"6e6a6f2086",
+"기타"
+],
+"party_unaffiliated": [
+"a30b02930e",
+"당적 미표기"
+],
+"party_united": [
+"e9d9681a54",
+"BC연합당"
 ],
 "past_results": [
 "860762937d",

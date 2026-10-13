@@ -70,7 +70,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Bowinn Ma has been NDP MLA since 2017; Wikipedia lists her as Minister of Infrastructure (earlier Emergency Management).",
+   "mla_changes_since_2024": "None found. Bowinn Ma is the NDP MLA and Minister of Infrastructure, earlier Minister of Emergency Management and Climate Readiness (gov.bc.ca).",
    "candidates": [
     {
      "name": "Joshua A Singer Johnson",
@@ -88,11 +88,11 @@
      "name": "Bowinn Ma",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Engineer and project manager at Vancouver airport before politics; MLA since 2017. Wikipedia lists her as Minister of Infrastructure, after serving as Minister of Emergency Management.",
+     "bio": "Professional engineer and project management professional who managed expansion and redevelopment projects at Vancouver International Airport; Minister of Infrastructure, previously Minister of Emergency Management and Climate Readiness.",
      "sources": [
       {
-       "label": "Wikipedia: Bowinn Ma",
-       "url": "https://en.wikipedia.org/wiki/Bowinn_Ma"
+       "label": "BC Government: Minister Bowinn Ma biography",
+       "url": "https://news.gov.bc.ca/ministries/infrastructure/biography"
       }
      ]
     },
@@ -128,7 +128,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Susie Chant is a Parliamentary Secretary (Seniors' Services and Long-Term Care) per Wikipedia. Conservative Lynne Block, the sitting West Vancouver-Capilano MLA, was moved here to run against her.",
+   "mla_changes_since_2024": "None found. Susie Chant is Parliamentary Secretary for Seniors' Services and Long-Term Care (gov.bc.ca). Conservative Lynne Block, the sitting West Vancouver-Capilano MLA, was moved here to run against her.",
    "candidates": [
     {
      "name": "Lynne Block",
@@ -153,8 +153,8 @@
      "bio": "Registered nurse and long-serving Royal Canadian Navy Reserve member; NDP MLA since 2020 and Parliamentary Secretary for Seniors' Services and Long-Term Care.",
      "sources": [
       {
-       "label": "Wikipedia: Susie Chant",
-       "url": "https://en.wikipedia.org/wiki/Susie_Chant"
+       "label": "BC Government: Parliamentary Secretary for Seniors' Services and Long-Term Care (Susie Chant)",
+       "url": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/cabinet/cabinet-ministers/parliamentary-secretary-seniors-services-long-term-care"
       }
      ]
     },
@@ -186,15 +186,11 @@
      "name": "Frederick Thiele",
      "party": "onebc",
      "incumbent": false,
-     "bio": "Born and raised in North Vancouver; local business owner with over 25 years in technology, per the preview of his VoteMate profile..",
+     "bio": "Born and raised in North Vancouver; has owned and run his own computer consulting business for more than 25 years; lives there with his wife and two children.",
      "sources": [
       {
-       "label": "VoteMate 2026 riding page",
-       "url": "https://votemate.org/bc2026provincial/candidates/?riding=2165"
-      },
-      {
-       "label": "BC Ballot profile",
-       "url": "https://bcballot.ca/ridings/north-vancouver-seymour/frederick-thiele/"
+       "label": "OneBC: Fred Thiele candidate page",
+       "url": "https://1bc.ca/candidates/fthiele"
       }
      ]
     }
@@ -217,7 +213,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "Incumbent George Chow (NDP, former Minister of Citizens' Services) is not seeking re-election (announced Sept 27, 2026, per Wikipedia). Aman Singh replaced him as NDP candidate.",
+   "mla_changes_since_2024": "Incumbent George Chow (NDP), a former cabinet minister, is not on the 2026 ballot. The NDP named Aman Singh, former Richmond-Queensborough MLA and BC NDP president, as its candidate (Canadian Press, Sept 28, 2026).",
    "candidates": [
     {
      "name": "Francoise Raunet",
@@ -247,11 +243,15 @@
      "name": "Aman Singh",
      "party": "ndp",
      "incumbent": false,
-     "bio": "Lawyer; NDP MLA for Richmond-Queensborough 2020 to 2024, lost that seat in 2024; BC NDP president since November 2025.",
+     "bio": "NDP MLA for Richmond-Queensborough from 2020 until he lost the seat to Conservative Steve Kooner in 2024; BC NDP president.",
      "sources": [
       {
-       "label": "Wikipedia: Aman Singh",
-       "url": "https://en.wikipedia.org/wiki/Aman_Singh"
+       "label": "Castanet / Canadian Press: Aman Singh to run in Vancouver-Fraserview (Sept 28, 2026)",
+       "url": "https://www.castanetkamloops.net/edition/news-story-632623-3-.htm"
+      },
+      {
+       "label": "Elections BC: Statement of Votes, 2020 (PDF)",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf"
       }
      ]
     }
@@ -275,7 +275,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Niki Sharma is Deputy Premier and Attorney General per Wikipedia.",
+   "mla_changes_since_2024": "None found. Niki Sharma is Deputy Premier and Attorney General (gov.bc.ca).",
    "candidates": [
     {
      "name": "Christian Bosio",
@@ -293,15 +293,15 @@
      "name": "Kimball Cariou",
      "party": "communist",
      "incumbent": false,
-     "bio": "Longtime Communist candidate and BC party leader from December 2020 to 2025; ran in Vancouver-Strathcona in 2024 and Vancouver-Hastings in 2017 and 2020.",
+     "bio": "Longtime Communist Party candidate; ran in Vancouver-Strathcona in 2024 and Vancouver-Hastings in 2020, per Elections BC results.",
      "sources": [
       {
-       "label": "BC Ballot profile",
-       "url": "https://bcballot.ca/ridings/vancouver-hastings/kimball-cariou/"
+       "label": "Elections BC: Statement of Votes, 2024 (PDF)",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
       },
       {
-       "label": "Wikipedia: Communist Party of British Columbia",
-       "url": "https://en.wikipedia.org/wiki/Communist_Party_of_British_Columbia"
+       "label": "Elections BC: Statement of Votes, 2020 (PDF)",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf"
       }
      ]
     },
@@ -321,11 +321,11 @@
      "name": "Niki Sharma",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Lawyer and former Stand.earth campaigner; Vancouver-Hastings MLA, now Deputy Premier and Attorney General.",
+     "bio": "Lawyer whose practice represented Indigenous people, including residential school survivors; Vancouver-Hastings MLA since 2020; Deputy Premier and Attorney General.",
      "sources": [
       {
-       "label": "Wikipedia: Niki Sharma",
-       "url": "https://en.wikipedia.org/wiki/Niki_Sharma"
+       "label": "BC Government: Attorney General Niki Sharma biography",
+       "url": "https://news.gov.bc.ca/ministries/attorney-general/biography"
       }
      ]
     },
@@ -345,11 +345,11 @@
      "name": "Phil Webb",
      "party": "libertarian",
      "incumbent": false,
-     "bio": "No biography found. Elections BC lists him as the Libertarian candidate; BC Ballot shows no earlier run on record.",
+     "bio": "No biography found. Elections BC lists him as the Libertarian candidate.",
      "sources": [
       {
-       "label": "BC Ballot profile",
-       "url": "https://bcballot.ca/ridings/vancouver-hastings/phil-webb/"
+       "label": "Elections BC: 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
       }
      ]
     }
@@ -372,17 +372,17 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Mable Elmore was a parliamentary secretary until November 2024; no current cabinet role per Wikipedia.",
+   "mla_changes_since_2024": "None found. Mable Elmore is a former parliamentary secretary and is not on the government's September 8, 2026 list of ministers and parliamentary secretaries (gov.bc.ca).",
    "candidates": [
     {
      "name": "Mable Elmore",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Former Coast Mountain bus driver; NDP MLA for Vancouver-Kensington since 2009 and parliamentary secretary until November 2024.",
+     "bio": "Transit operator for 10 years; NDP MLA for Vancouver-Kensington since 2009, the first person of Filipino heritage elected to the Legislature; former parliamentary secretary.",
      "sources": [
       {
-       "label": "Wikipedia: Mable Elmore",
-       "url": "https://en.wikipedia.org/wiki/Mable_Elmore"
+       "label": "Legislative Assembly of BC: Mable Elmore",
+       "url": "https://www.leg.bc.ca/node/138"
       }
      ]
     },
@@ -437,7 +437,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Sunita Dhir is Parliamentary Secretary for International Credentials per Wikipedia.",
+   "mla_changes_since_2024": "None found. Sunita Dhir is Parliamentary Secretary for International Credentials (gov.bc.ca).",
    "candidates": [
     {
      "name": "John Atoyebi",
@@ -470,8 +470,8 @@
      "bio": "Former S.U.C.C.E.S.S. language instructor; NDP MLA for Vancouver-Langara and Parliamentary Secretary for International Credentials.",
      "sources": [
       {
-       "label": "Wikipedia: Sunita Dhir",
-       "url": "https://en.wikipedia.org/wiki/Sunita_Dhir"
+       "label": "BC Government: Parliamentary Secretary for International Credentials (Sunita Dhir)",
+       "url": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/cabinet/cabinet-ministers/parliamentary-secretary-for-international-credentials"
       }
      ]
     },
@@ -506,17 +506,17 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Christine Boyle is Minister of Housing and Municipal Affairs since July 2025 (earlier Indigenous Relations and Reconciliation), per Wikipedia.",
+   "mla_changes_since_2024": "None found. Christine Boyle is Minister of Housing and Municipal Affairs since July 2025, earlier Indigenous Relations and Reconciliation (gov.bc.ca).",
    "candidates": [
     {
      "name": "Christine Boyle",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Climate activist and ordained United Church minister; Vancouver city councillor 2018 to 2024; MLA since 2024 and Minister of Housing and Municipal Affairs since July 2025.",
+     "bio": "Led national multi-faith climate justice advocacy; Vancouver city councillor 2018 to 2024; MLA since 2024 and Minister of Housing and Municipal Affairs since July 2025.",
      "sources": [
       {
-       "label": "Wikipedia: Christine Boyle",
-       "url": "https://en.wikipedia.org/wiki/Christine_Boyle"
+       "label": "BC Government: Minister Christine Boyle biography",
+       "url": "https://news.gov.bc.ca/ministries/housing-and-municipal-affairs/biography"
       }
      ]
     },
@@ -581,11 +581,15 @@
      "name": "David Eby",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Premier of British Columbia since November 2022; Point Grey MLA since 2013; former Attorney General and housing minister.",
+     "bio": "Premier of British Columbia since November 2022 and MLA for Vancouver-Point Grey; former Attorney General and housing minister; ran the BC Civil Liberties Association from 2009 to 2013.",
      "sources": [
       {
-       "label": "Wikipedia: David Eby",
-       "url": "https://en.wikipedia.org/wiki/David_Eby"
+       "label": "BC Government: Premier David Eby biography",
+       "url": "https://news.gov.bc.ca/ministries/office-of-the-premier/biography"
+      },
+      {
+       "label": "Daily Hive: Eby sworn in as premier (Nov 18, 2022)",
+       "url": "https://dailyhive.com/vancouver/david-eby-sworn-in"
       }
      ]
     },
@@ -633,7 +637,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "Dallas Brodie was elected as a Conservative, removed from the Conservative caucus March 7, 2025, co-founded OneBC June 9, 2025, and sits as OneBC. Wikipedia notes she was removed as OneBC interim leader Dec 13, 2025 and reinstated Dec 21. A 2026 recall bid against her failed.",
+   "mla_changes_since_2024": "Dallas Brodie was elected as a Conservative, removed from the Conservative caucus in March 2025 (CBC) and co-founded OneBC; the party board removed her as leader in December 2025 and she was reinstated December 21 (Canadian Press).",
    "candidates": [
     {
      "name": "Carson Binda",
@@ -651,11 +655,15 @@
      "name": "Dallas Brodie",
      "party": "onebc",
      "incumbent": true,
-     "bio": "Lawyer and broadcaster; elected as a Conservative in 2024, removed from caucus in March 2025, co-founded OneBC in June 2025. Sitting MLA for this riding.",
+     "bio": "Lawyer and broadcaster; elected as a Conservative in 2024, removed from caucus in March 2025 over comments on residential school survivors' testimony, then co-founded OneBC. MLA for this riding since 2024.",
      "sources": [
       {
-       "label": "Wikipedia: Dallas Brodie",
-       "url": "https://en.wikipedia.org/wiki/Dallas_Brodie"
+       "label": "CBC: Brodie removed from Conservative caucus (Mar 7, 2025)",
+       "url": "https://www.cbc.ca/1.7478162"
+      },
+      {
+       "label": "National Newswatch / Canadian Press: Brodie reinstated as OneBC leader (Dec 21, 2025)",
+       "url": "https://nationalnewswatch.com/2025/12/22/dallas-brodie-reinstated-as-leader-of-onebc-party-after-abrupt-removal-this-month"
       }
      ]
     },
@@ -714,17 +722,17 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Adrian Dix is Minister of Energy and Climate Solutions per Wikipedia.",
+   "mla_changes_since_2024": "None found. Adrian Dix is Minister of Energy and Climate Solutions (gov.bc.ca).",
    "candidates": [
     {
      "name": "Adrian Dix",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Former BC NDP leader and Health Minister, earlier a political aide and commentator; now Minister of Energy and Climate Solutions per Wikipedia.",
+     "bio": "MLA since 2005; Minister of Energy and Climate Solutions since November 2024; Minister of Health 2017 to 2024; Leader of the Official Opposition 2011 to 2014.",
      "sources": [
       {
-       "label": "Wikipedia: Adrian Dix",
-       "url": "https://en.wikipedia.org/wiki/Adrian_Dix"
+       "label": "BC Government: Minister Adrian Dix biography",
+       "url": "https://news.gov.bc.ca/ministries/energy-and-climate-solutions/biography"
       }
      ]
     },
@@ -783,7 +791,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "Incumbent Brenda Bailey (NDP, former finance minister per Wikipedia) is not seeking re-election (announced Sept 23, 2026). Lara Honrado is the NDP candidate.",
+   "mla_changes_since_2024": "Incumbent Brenda Bailey (NDP), a former finance minister and Minister of Jobs and Economic Growth (gov.bc.ca), is not seeking re-election (announced Sept 23, 2026). Lara Honrado is the NDP candidate.",
    "candidates": [
     {
      "name": "Maria J Cruz",
@@ -837,11 +845,15 @@
      "name": "Salvatore Vetro",
      "party": "onebc",
      "incumbent": false,
-     "bio": "No 2026 biography found. Ran as an Independent in Vancouver-Kensington in 2020, finishing fourth with 202 votes.",
+     "bio": "Drove a HandyDART van for people with disabilities for 25 years; helped found the Kitsilano Showers Program for homeless neighbours; helped lead the 2011 Fight HST campaign; ran a small business supporting local artists. Ran as an Independent in Vancouver-Kensington in 2020, finishing fourth with 202 votes.",
      "sources": [
       {
-       "label": "BC Ballot profile",
-       "url": "https://bcballot.ca/ridings/vancouver-south-granville/salvatore-vetro/"
+       "label": "OneBC: Salvatore Vetro candidate page",
+       "url": "https://1bc.ca/candidates/svetro"
+      },
+      {
+       "label": "Elections BC: Statement of Votes, 2020 (PDF)",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf"
       }
      ]
     }
@@ -939,17 +951,17 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Spencer Chandra Herbert is Minister of Indigenous Relations and Reconciliation since July 2025 and deputy speaker since 2020, per Wikipedia.",
+   "mla_changes_since_2024": "None found. Spencer Chandra Herbert is Minister of Indigenous Relations and Reconciliation since July 2025 and was deputy speaker in the previous parliament (gov.bc.ca).",
    "candidates": [
     {
      "name": "Spencer Chandra Herbert",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Former arts manager and Vancouver park commissioner; MLA since 2008, deputy speaker since 2020 and Minister of Indigenous Relations and Reconciliation since July 2025.",
+     "bio": "Artist and performing arts producer; Vancouver Park Board commissioner 2005 to 2008; MLA since 2008; deputy speaker in the previous parliament; Minister of Indigenous Relations and Reconciliation since July 2025.",
      "sources": [
       {
-       "label": "Wikipedia: Spencer Chandra Herbert",
-       "url": "https://en.wikipedia.org/wiki/Spencer_Chandra_Herbert"
+       "label": "BC Government: Minister Spencer Chandra Herbert biography",
+       "url": "https://news.gov.bc.ca/ministries/indigenous-relations-and-reconciliation/biography"
       }
      ]
     },
@@ -996,7 +1008,7 @@
     },
     "source": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
    },
-   "mla_changes_since_2024": "None found. Terry Yung is Minister of State for Community Safety and Integrated Services since November 2024 per Wikipedia.",
+   "mla_changes_since_2024": "None found. Terry Yung is Minister of State for Community Safety and Integrated Services since November 2024 (gov.bc.ca).",
    "candidates": [
     {
      "name": "Sam Chandola",
@@ -1042,11 +1054,15 @@
      "name": "Terry Yung",
      "party": "ndp",
      "incumbent": true,
-     "bio": "Retired Vancouver police inspector with thirty years of service; Vancouver-Yaletown MLA since 2024 and Minister of State for Community Safety and Integrated Services.",
+     "bio": "Vancouver Police Department veteran who served as an inspector; Vancouver-Yaletown MLA since 2024 and Minister of State for Community Safety and Integrated Services.",
      "sources": [
       {
-       "label": "Wikipedia: Terry Yung",
-       "url": "https://en.wikipedia.org/wiki/Terry_Yung"
+       "label": "BC Government: Minister of State Terry Yung biography",
+       "url": "https://news.gov.bc.ca/ministries/community-safety-and-integrated-services/biography"
+      },
+      {
+       "label": "BC NDP: our eighteen newest MLAs (party)",
+       "url": "https://www.bcndp.ca/latest/our-eighteen-newest-mlas-standing-strong-bc-you-every-day"
       }
      ]
     }
@@ -1088,11 +1104,15 @@
      "name": "Naomi Chocyk",
      "party": "onebc",
      "incumbent": false,
-     "bio": "No biography found. Elections BC lists her as the OneBC candidate; BC Ballot shows no earlier run on record.",
+     "bio": "No biography found. Elections BC lists her as the OneBC candidate.",
      "sources": [
       {
-       "label": "BC Ballot profile",
-       "url": "https://bcballot.ca/ridings/west-vancouver-capilano/naomi-chocyk/"
+       "label": "Elections BC: 2026 candidate list",
+       "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
+      },
+      {
+       "label": "OneBC: candidates",
+       "url": "https://1bc.ca/candidates"
       }
      ]
     },

@@ -955,6 +955,10 @@
 "92adf70d5a",
 "同一个屏幕，每个人回答每一题。"
 ],
+"month_names": [
+"6ab4d1b05f",
+"1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+],
 "name_party": [
 "cf84cf0b34",
 "{name}（{party}）"
@@ -1023,6 +1027,18 @@
 "e082504349",
 "{count}个政党"
 ],
+"party_christian_heritage": [
+"fd3de66c2c",
+"卑诗基督教传统党"
+],
+"party_communist": [
+"c7c41d4170",
+"卑诗共产党"
+],
+"party_freedom": [
+"862b58255c",
+"Freedom Party"
+],
 "party_incumbent": [
 "f9bdd6e82a",
 "{party}，现任议员"
@@ -1031,9 +1047,29 @@
 "834ee945d7",
 "{party}，现任省议员"
 ],
+"party_liberal": [
+"caed0cfb85",
+"卑诗自由党"
+],
+"party_libertarian": [
+"af24b58669",
+"卑诗自由意志党"
+],
 "party_meta": [
 "235fb1b0c6",
 "党领：{leader}。{candidates}名候选人。解散议会时有{seats}个议席。"
+],
+"party_other": [
+"6e6a6f2086",
+"其他"
+],
+"party_unaffiliated": [
+"a30b02930e",
+"无党派"
+],
+"party_united": [
+"e9d9681a54",
+"卑诗联合党"
 ],
 "past_results": [
 "860762937d",

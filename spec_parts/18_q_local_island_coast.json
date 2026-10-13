@@ -108,6 +108,10 @@
           {
             "label": "Nanaimo News Bulletin: Greens release transportation plans, note on Chinese-built vessels (Oct 9, 2026)",
             "url": "https://nanaimobulletin.com/2026/10/09/b-c-greens-release-transportation-plans-includes-free-transit-for-youth-seniors/"
+          },
+          {
+            "label": "Victoria News: Eby pledges future ferries to be built locally (Sept 18, 2026)",
+            "url": "https://vicnews.com/2026/09/18/eby-suspends-planned-b-c-pst-expansion-pledges-future-ferries-to-be-built-locally/"
           }
         ]
       },
@@ -134,7 +138,7 @@
         "text": {
           "1": "This party wants the same federal money east coast ferries get, a rethink of how ferries are run, and electric ships built here.",
           "3": "The Greens' October 9 plan would work with Ottawa for ferry funding parity with Atlantic Canada, review BC Ferries' governance and long-term funding, expand terminal and dock infrastructure, plan for electric ferries, and build and maintain ships locally with union labour. They would also work with First Nations and the Island Corridor Foundation on Island rail.",
-          "5": "Release (October 9, 2026): federal funding parity with Atlantic Canada; review of governance and long-term funding; expanded terminal and dock infrastructure and planning for electric ferries; ships built and maintained locally with union labour; next steps for Vancouver Island rail with First Nations and the Island Corridor Foundation (October 7 and 9). Within the same plan: free transit for riders under 25 and over 65 and province-wide passenger rail. No fare, reservation or charter item. The Greens are the only party with an Island rail position."
+          "5": "Release (October 9, 2026): federal funding parity with Atlantic Canada; review of governance and long-term funding; expanded terminal and dock infrastructure and planning for electric ferries; ships built and maintained locally with union labour; next steps for Vancouver Island rail with First Nations and the Island Corridor Foundation (October 9). Within the same plan: free transit for riders under 25 and over 65 and province-wide passenger rail. No fare, reservation or charter item. The Greens are the only party with an Island rail position."
         },
         "basis": "platform",
         "confidence": "high",
@@ -144,8 +148,8 @@
             "url": "https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/"
           },
           {
-            "label": "Parksville Qualicum Beach News: Lowan launches Greens' economic vision (Oct 7, 2026)",
-            "url": "https://pqbnews.com/2026/10/07/lowan-launches-greens-economic-vision-for-b-c/"
+            "label": "BC Greens: Transit and Transportation Policy Brief 2026 (PDF, Oct 9, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf"
           }
         ]
       },
@@ -172,7 +176,7 @@
         "text": {
           "1": "This party has said nothing about ferries, so it is not scored here.",
           "3": "OneBC has no ferries or transportation position, so it is not scored on this question.",
-          "5": "OneBC's priorities page and the BC Ballot tracker list no ferries or transportation commitment, and its only Island candidate (Juan de Fuca-Malahat) has published none, so this question is left out of its score."
+          "5": "OneBC's priorities page lists no ferries or transportation commitment, and its only Island candidate (Juan de Fuca-Malahat) has published none, so this question is left out of its score."
         },
         "basis": "platform",
         "confidence": "low",
@@ -182,8 +186,8 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "BC Ballot: OneBC commitments (no transportation item)",
-            "url": "https://bcballot.ca/platforms/onebc/"
+            "label": "CHEK News: all Vancouver Island candidates for the 2026 election",
+            "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
           }
         ],
         "no_position": true
@@ -304,6 +308,10 @@
           {
             "label": "BC Gov: Working Forest Landscape Model",
             "url": "https://www2.gov.bc.ca/gov/content/industry/natural-resource-use/working-forest-landscape-model"
+          },
+          {
+            "label": "Canadian Press via Castanet: Campbell River area first to test new forest management model (Sept 15, 2026)",
+            "url": "https://castanet.net/edition/news-story-631385-3-.htm"
           }
         ]
       },
@@ -323,10 +331,6 @@
           {
             "label": "Westk News: Conservative forestry critic on the 100 Mile House closure (Nov 7, 2025)",
             "url": "https://westknews.com/2025/11/07/conservative-forestry-critic-calls-closure-of-100-mile-west-fraser-mill-devastating/"
-          },
-          {
-            "label": "Armchair Mayor: Stamer op-ed on 45 million cubic metres (May 27, 2025)",
-            "url": "https://armchairmayor.ca/2025/05/27/stamer-how-long-will-it-take-to-get-45-million-cubic-metres-of-viable-fibre/"
           }
         ],
         "no_position": true
@@ -335,7 +339,7 @@
         "text": {
           "1": "This party would protect big old trees for good, stop clearcutting, and plan logging region by region.",
           "3": "The Greens' October 4 forestry plan rejects the Working Forest model, sets harvest by regional area-based planning, ends raw-log exports, permanently protects big-treed old growth and large second growth, implements all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations, and shifts to partial harvesting and longer rotations. Lowan criticized Domtar over Crofton.",
-          "5": "Forestry plan (October 4, 2026): reject the Working Forest model and its 45 million cubic metre objective; regional area-based planning; end raw-log exports; permanently protect big-treed old growth and large second growth; implement all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations; partial harvesting, selective logging, longer rotations; 20% of the cut to community forests; worker transition. Economic vision (October 7): phase out industrial clear-cutting; criticism of Domtar for closing mills including Crofton. Claim: forest revenue of $397 million in 2025/26 was below ministry costs."
+          "5": "Forestry plan (October 4, 2026): reject the Working Forest model and its 45 million cubic metre objective; regional area-based planning; end raw-log exports; permanently protect big-treed old growth and large second growth; implement all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations; partial harvesting, selective logging, longer rotations; work toward 20% of the allowable cut for community forests; retraining, upskilling and employment supports for forestry workers. Economic vision (October 7): phase out industrial clear-cutting; criticism of Domtar for closing mills including Crofton. The forestry brief says forest revenue of $397 million in 2025/26 fell short of the Ministry of Forests operating cost."
         },
         "basis": "platform",
         "confidence": "high",
@@ -347,6 +351,10 @@
           {
             "label": "Parksville Qualicum Beach News: Lowan launches Greens' economic vision (Oct 7, 2026)",
             "url": "https://pqbnews.com/2026/10/07/lowan-launches-greens-economic-vision-for-b-c/"
+          },
+          {
+            "label": "BC Greens: Forestry Policy Brief 2026 (PDF, Oct 4, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Forestry-Policy-Brief-2026.pdf"
           }
         ]
       },
@@ -369,7 +377,7 @@
         "text": {
           "1": "This party would allow more cutting, charge companies less for wood, and shorten permits and consultations.",
           "3": "OneBC would increase the allowable annual cut so the sector has more fibre, reduce stumpage fees for lumber companies, and speed up permit approvals and consultations. It gives no volume target and has no old-growth or zoning position; its only Island candidate has published none.",
-          "5": "Priorities page: 'Increase the allowable yearly cut to ensure our forest sector has the available wood fibre to grow and thrive'; 'Reduce stumpage fees for lumber companies to make the market more competitive'; 'Speed up permit approval times and consultations'. October 5 post: make forestry and mining competitive with lower fees and faster approvals. No volume target, no old-growth or Working Forest position; one Island candidate (Juan de Fuca-Malahat) with no published positions."
+          "5": "Priorities page: 'Increase the allowable yearly cut to ensure our forest sector has the available wood fibre to grow and thrive'; 'Reduce stumpage fees for lumber companies to make the market more competitive'; 'Speed up permit approval times and consultations'. October 5 plan graphic: 'Make the forestry and mining sectors competitive - reduce fees, faster approvals'. No volume target, no old-growth or Working Forest position; one Island candidate (Juan de Fuca-Malahat) with no published positions."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -379,8 +387,8 @@
             "url": "https://1bc.ca/priorities"
           },
           {
-            "label": "BC Ballot: OneBC commitments",
-            "url": "https://bcballot.ca/platforms/onebc/"
+            "label": "OneBC on X: Our Plan graphic (Oct 5, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2107175484186624143"
           }
         ]
       }
@@ -401,9 +409,9 @@
     "context": {
       "1": "The Island has the oldest population in the province. Nanaimo has waited years for a bigger hospital. A care home in Campbell River was put on hold, and seniors wait in hospital beds for a care home place. Parties disagree on what to build first.",
       "2": "The government promised Nanaimo a new hospital tower and heart lab in 2024, but the 2026 budget paid only for planning. The same budget paused seven care-home projects, including a 153-bed home in Campbell River. In October the government promised to restart them. Parties disagree on what comes first.",
-      "3": "The NDP's 2024 pledge of a tower and cardiac lab at Nanaimo's hospital got only planning money in Budget 2026. The same budget paused seven long-term care builds, including a 153-bed facility in Campbell River. In October the NDP promised to restart the seven and put $90 million into a campus of care at the former Oak Bay Lodge. The Conservatives would let care funding follow seniors to private providers; CentreBC would cut seniors stuck in hospital.",
-      "4": "The NDP's 2024 pledge of a patient tower and cardiac catheterization lab at Nanaimo Regional General Hospital was absent from the 2025 budget; Budget 2026 funds only initial planning. Budget 2026 also paused seven long-term care builds including a 153-bed Campbell River facility. The NDP (October 5 to 6) would restart the seven and spend $90 million on an Oak Bay Lodge campus of care. The Conservatives (October 9) would give waiting seniors portable public funding usable at non-government providers. CentreBC would cut patients stuck in hospital awaiting care from about 1,600 to 1,000 by 2030. No party has a 2026 commitment on the Nanaimo tower.",
-      "5": "The NDP's 2024 pledge of a patient tower and cardiac catheterization lab at Nanaimo Regional General Hospital was not in the 2025 budget; Budget 2026 funds initial planning only, the ministry says concept planning takes up to 18 months, and the Nanaimo Regional Hospital District agreed to front $50 million. Budget 2026 paused seven long-term care projects including a 153-bed Campbell River facility, to adopt a lower-cost uniform design. The NDP pledges to restart the seven, $90 million toward an Oak Bay Lodge campus of care, scanners and rural recruitment incentives. The Conservatives (October 9) would give waiting seniors portable public funding at any qualified provider and cut design rules. CentreBC would cut patients awaiting long-term care in hospital from about 1,600 to 1,000 by 2030. The Greens want community health centres and public-only funding."
+      "3": "The NDP's 2024 pledge of a tower and cardiac lab at Nanaimo's hospital got only planning money in Budget 2026. The same budget paused seven long-term care builds, including a 153-bed facility in Campbell River. In October the NDP promised to restart the seven and put $90 million into a campus of care at the former Oak Bay Lodge. The Conservatives would let care funding follow seniors to qualified providers, including non-government ones; CentreBC would cut seniors stuck in hospital.",
+      "4": "The NDP's 2024 pledge of a patient tower and cardiac catheterization lab at Nanaimo Regional General Hospital was absent from the 2025 budget; Budget 2026 funds only initial planning. Budget 2026 also paused seven long-term care builds including a 153-bed Campbell River facility. The NDP (October 5 to 6) would restart the seven and spend $90 million on an Oak Bay Lodge campus of care. The Conservatives (October 9) would give waiting seniors portable public funding with a choice of qualified providers, including non-government ones. CentreBC would cut patients stuck in hospital awaiting care from about 1,600 to 1,000 by 2030. No party has a 2026 commitment on the Nanaimo tower.",
+      "5": "The NDP's 2024 pledge of a patient tower and cardiac catheterization lab at Nanaimo Regional General Hospital was not in the 2025 budget; Budget 2026 funds initial planning only, the ministry says concept planning takes up to 18 months, and the Nanaimo Regional Hospital District agreed to put $50 million up front for concept and business planning of the cath lab. Budget 2026 paused seven long-term care projects including a 153-bed Campbell River facility, while the province looks for ways to cut building costs. The NDP pledges to restart the seven, $90 million toward an Oak Bay Lodge campus of care, scanners and rural recruitment incentives. The Conservatives (October 9) would give waiting seniors portable public funding with a choice of qualified providers, including non-government ones, and cut design rules. CentreBC would cut patients awaiting long-term care in hospital from about 1,600 to 1,000 by 2030. The Greens want community health centres and public-only funding."
     },
     "options": [
       {
@@ -426,11 +434,11 @@
       {
         "id": "b",
         "text": {
-          "1": "Let money follow seniors to any approved home, public or private; fund small-town clinics.",
-          "2": "Let public funding follow seniors to any qualified provider, including private, cut building rules, and create a rural practice fund.",
-          "3": "Give seniors portable public funding usable at any qualified provider, cut design rules, and create a $50 million rural practice fund.",
-          "4": "Give seniors awaiting care portable public funding for any qualified provider, including non-government ones, cut design rules, and add a $50 million rural practice fund.",
-          "5": "Portable public funding for seniors waiting for long-term care, usable at any qualified provider including non-government operators with performance safeguards; cut design rules; a $50 million emergency fund for rural practices; an expert commission; the 2026 health budget held."
+          "1": "Let money follow seniors to an approved home, public or private; fund small-town clinics.",
+          "2": "Let public funding follow seniors to qualified providers, including private ones, cut building rules, and create a rural practice fund.",
+          "3": "Give seniors portable public funding with a choice of qualified providers, cut design rules, and create a $50 million rural practice fund.",
+          "4": "Give seniors awaiting care portable public funding with a choice of qualified providers, including non-government ones, cut design rules, and add a $50 million rural practice fund.",
+          "5": "Portable public funding for seniors waiting for long-term care, with a choice of qualified providers, including non-government options with strong performance safeguards; cut design rules; a $50 million emergency fund for rural practices; an expert commission; the 2026 health budget held."
         },
         "scores": {
           "ndp": 1,
@@ -461,10 +469,10 @@
         "id": "d",
         "text": {
           "1": "A public health centre in every area, safe nurse staffing, all care kept public.",
-          "2": "Open a community health centre in every riding, set nurse-to-patient limits, plan for rural seniors, and keep all care public.",
-          "3": "Fund a community health centre in every riding, legislate safe nurse-to-patient ratios, adopt a rural seniors strategy, and keep all care public.",
-          "4": "Fund a community health centre per riding, legislate nurse-to-patient ratios, adopt a rural seniors strategy, expand public care homes, and keep health dollars public.",
-          "5": "Fund a Community Health Centre in every riding, legislate safe nurse-to-patient ratios, phase out private agency nurses, adopt a rural seniors strategy, expand publicly funded long-term care, and keep every public health dollar in public care."
+          "2": "Open a community health centre in every riding, fund safe nurse staffing, plan for rural seniors, and keep all care public.",
+          "3": "Fund a community health centre in every riding, fund safe nurse-to-patient ratios, adopt a rural seniors strategy, and keep all care public.",
+          "4": "Fund a community health centre per riding, fund safe nurse-to-patient ratios, adopt a rural seniors strategy, expand public care homes, and keep health dollars public.",
+          "5": "Fund a Community Health Centre in every riding, fund nurses in the public system to support safe nurse-to-patient ratios, phase out private agency nurses, adopt a rural seniors strategy, expand publicly funded long-term care, and keep every public health dollar in public care."
         },
         "scores": {
           "ndp": 2,
@@ -480,8 +488,8 @@
           "1": "Allow private paid care beside public care, rehire workers who left over vaccine rules.",
           "2": "Allow private-pay care alongside the publicly funded system, and reinstate nurses who lost jobs over vaccine mandates, with back pay.",
           "3": "Allow private health care alongside public care, reinstate nurses removed under vaccine mandates with back pay, and shift administration spending to the front line.",
-          "4": "Allow private care, including private-pay seniors' care, beside fully funded public care, rehire nurses removed under vaccine mandates, and move admin money to staff.",
-          "5": "Allow private health care, including private-pay long-term care, alongside fully funded public care; reinstate nurses removed under vaccine mandates with back pay; shift administration and human resources spending to front-line staff; repeal the Health Professions and Occupations Act."
+          "4": "Allow private care beside fully funded public care, rehire nurses removed under vaccine mandates, and move admin money to staff.",
+          "5": "Allow private health care alongside fully funded public care; reinstate nurses removed under vaccine mandates with back pay; shift administration and human resources spending to front-line staff; repeal the Health Professions and Occupations Act."
         },
         "scores": {
           "ndp": 0,
@@ -517,14 +525,26 @@
           {
             "label": "Nanaimo News Bulletin: NDP promises faster health care with new diagnostic equipment (Oct 6, 2026)",
             "url": "https://nanaimobulletin.com/2026/10/06/b-c-ndp-promises-faster-health-care-with-new-diagnostic-equipment/"
+          },
+          {
+            "label": "My Cariboo Now: NDP plans to resume seven paused long-term care projects (Oct 5, 2026)",
+            "url": "https://mycariboonow.com/316576/news/elections/2026-bc-election/b-c-ndp-plans-to-resume-seven-paused-long-term-care-projects-if-re-elected"
+          },
+          {
+            "label": "Victoria News: NDP commits $90M to redevelop former Oak Bay Lodge site (Oct 5, 2026)",
+            "url": "https://vicnews.com/2026/10/05/bc-ndp-commits-90m-to-redevelop-former-oak-bay-lodge-site/"
+          },
+          {
+            "label": "The Tyee: BC halts construction on seven long-term care facilities (Feb 20, 2026)",
+            "url": "https://thetyee.ca/News/2026/02/20/BC-Halts-Construction-Seven-Long-Term-Care-Facilities/"
           }
         ]
       },
       "conservative": {
         "text": {
-          "1": "This party would let the money follow each senior to any approved home, public or private, and fund small-town clinics.",
-          "3": "On October 9 the Conservatives promised portable public funding for seniors waiting for long-term care, usable at 'any qualified provider, public or non-government', and faster builds by cutting design rules. On October 5 they pledged a $50 million rural practice fund, an expert commission and no health cuts. No 2026 commitment on the Nanaimo tower.",
-          "5": "October 9, 2026 release: portable public funding for seniors waiting for a bed, usable at any qualified provider including non-government operators with performance safeguards; build beds faster by cutting unnecessary design rules; claims of 7,200 waiting and $1.8 million beds. October 5 (100 Mile House): $50 million rural practice fund, flexible staffing, automatic credential recognition, expert commission within 100 days, 2026 health budget kept. Nanaimo-Lantzville candidate Pringle wants cardiac care closer to home; no party commitment on the tower or cath lab was found for 2026."
+          "1": "This party would let the money follow each senior to an approved home, public or private, and fund small-town clinics.",
+          "3": "On October 9 the Conservatives promised portable public funding for seniors waiting for long-term care, giving 'a real choice among qualified providers, including non-government options with strong performance safeguards', and faster builds by cutting design rules. On October 5 they pledged a $50 million rural practice fund, an expert commission and no health cuts. No 2026 commitment on the Nanaimo tower.",
+          "5": "October 9, 2026 release: portable public funding for seniors waiting for a bed, with 'a real choice among qualified providers, including non-government options with strong performance safeguards'; build beds faster by cutting unnecessary design rules; says 7,200 British Columbians are waiting for a long-term-care bed and that design rules pushed some proposed beds to $1.8 million each. October 5 (100 Mile House): $50 million rural practice fund, flexible staffing, automatic credential recognition, expert commission within 100 days, 2026 health budget kept. Nanaimo-Lantzville candidate Pringle wants cardiac care closer to home; no party commitment on the tower or cath lab was found for 2026."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -547,7 +567,7 @@
         "text": {
           "1": "This party would open a public health centre in every area, set safe nurse staffing, and keep all care public.",
           "3": "The Greens promise Community Health Centres in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a rural seniors strategy, more publicly funded long-term care and 'every public health dollar in public care'. They have no Island hospital or Nanaimo tower item; option d is their care model applied to the Island.",
-          "5": "Our Plan and Healthcare Policy Brief (October 6, 2026): Community Health Centres in every region, legislated safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, a consolidated provincial health authority, public coverage of mental health care, more publicly funded long-term care facilities and a rural seniors strategy (October 4), no growth of private care. No Nanaimo, Cowichan or Island Health item found. Option d is the model, not a project list."
+          "5": "Our Plan, Healthcare Policy Brief (October 6, 2026) and Supporting Seniors Policy Brief (October 4, 2026): Community Health Centres in every region, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, a review of the health authority model focused on one consolidated provincial authority, public coverage of mental health care, a plan to increase publicly funded long-term care facilities and a rural seniors strategy (October 4), no growth of private care. No Nanaimo, Cowichan or Island Health item found. Option d is the model, not a project list."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -559,6 +579,14 @@
           {
             "label": "BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: plan to support seniors (Oct 4, 2026)",
+            "url": "https://bcgreens.ca/announce-plan-to-support-seniors/"
+          },
+          {
+            "label": "BC Greens: Supporting Seniors Policy Brief 2026 (PDF, Oct 4, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Supporting-Seniors-Policy-Brief-2026.pdf"
           }
         ]
       },
@@ -572,7 +600,7 @@
         "confidence": "high",
         "sources": [
           {
-            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, Health Care)",
+            "label": "CentreBC: A Balanced Plan for British Columbia, 2026 Platform (PDF, Health Care, pp 16-18)",
             "url": "https://www.centrebc.ca/wp-content/uploads/2026/10/CentreBC-2026-Platform-Web.pdf"
           }
         ]
@@ -581,7 +609,7 @@
         "text": {
           "1": "This party wants private, paid-for care allowed beside public care. It has no hospital or care-home plan.",
           "3": "OneBC would allow private health care alongside fully funded public care, move administration spending to the front line and reinstate nurses removed under vaccine mandates. Its leader said 'people are dying in waiting rooms' but offered no policy, so option e applies the general stance to seniors' care; inferred, low confidence.",
-          "5": "Priorities page: 'Private Healthcare alongside fully-funded public healthcare'; shift administration and human resources spending to front-line staff; repeal the Health Professions and Occupations Act. October 11 video: reinstate nurses removed under COVID-era mandates with back pay. CBC Q&A (October 3): 'people are dying in waiting rooms', no policy. No hospital, long-term care or Island item; one Island candidate (Juan de Fuca-Malahat) with no published positions. Option e is inferred; low confidence."
+          "5": "Priorities page: 'Private Healthcare alongside fully-funded public healthcare'; shift administration and human resources spending to front-line staff; repeal the Health Professions and Occupations Act. October 11 post and video: reinstate, with back pay, nurses and front-line health workers still out of work over COVID-era mandates. CBC Q&A (October 3): 'people are dying in waiting rooms', no policy. No hospital, long-term care or Island item; one Island candidate (Juan de Fuca-Malahat) with no published positions. Option e is inferred; low confidence."
         },
         "basis": "inferred",
         "confidence": "low",
@@ -593,6 +621,14 @@
           {
             "label": "CBC: Dallas Brodie OneBC Q&A (Oct 3, 2026)",
             "url": "https://www.cbc.ca/news/canada/british-columbia/dallas-brodie-onebc-q-a-2026-election-9.7366117"
+          },
+          {
+            "label": "OneBC on X: reinstate nurses with back pay (Oct 11, 2026)",
+            "url": "https://x.com/One_BCHQ/status/2109406941118079436"
+          },
+          {
+            "label": "OneBC on YouTube: OneBC will bring nurses back to work (Oct 11, 2026)",
+            "url": "https://www.youtube.com/watch?v=WQk8R4dwmsI"
           }
         ]
       }

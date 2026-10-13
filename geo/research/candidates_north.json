@@ -181,15 +181,19 @@
      "name": "Lorne Doerkson",
      "party": "conservative",
      "incumbent": true,
-     "bio": "Interim Conservative leader and riding MLA since 2020. Former Black Press publisher and Investors Group financial consultant; has lived in the Cariboo-Chilcotin for nearly three decades.",
+     "bio": "Interim Conservative leader and Cariboo-Chilcotin MLA since 2020. Spent 20 years as a Black Press newspaper publisher, then worked in financial planning; has lived in the Cariboo for close to 30 years.",
      "sources": [
       {
-       "label": "Wikipedia: Lorne Doerkson",
-       "url": "https://en.wikipedia.org/wiki/Lorne_Doerkson"
+       "label": "Conservative Party of BC: Lorne Doerkson",
+       "url": "https://conservativebc.ca/mla/lorne-doerkson/"
       },
       {
-       "label": "Wikipedia: 2026 British Columbia general election",
-       "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"
+       "label": "Elections BC: Statement of Votes, 2020 (PDF)",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf"
+      },
+      {
+       "label": "Global News: who are the BC party leaders (2026)",
+       "url": "https://globalnews.ca/news/12068973/who-are-bc-party-leaders-2026-election/"
       }
      ]
     },
@@ -197,15 +201,19 @@
      "name": "Douglas Gook",
      "party": "green",
      "incumbent": false,
-     "bio": "Ran for the BC Greens in Cariboo North in 2020 and in Nechako Lakes in 2024 (5.3 percent). The party has not published a 2026 biography for him.",
+     "bio": "Ran for the BC Greens in Cariboo North in 2020 (707 votes, 6.4 percent) and in Nechako Lakes in 2024 (622 votes, 5.3 percent), per Elections BC. The party lists him as its 2026 candidate without a biography.",
      "sources": [
       {
-       "label": "VoteMate 2020 profile",
-       "url": "https://votemate.org/c/4179"
+       "label": "BC Greens: 2026 candidates",
+       "url": "https://bcgreens.ca/candidates-2026/"
       },
       {
-       "label": "Wikipedia: Nechako Lakes",
-       "url": "https://en.wikipedia.org/wiki/Nechako_Lakes_(provincial_electoral_district)"
+       "label": "Elections BC: Statement of Votes, 2024 (PDF)",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
+      },
+      {
+       "label": "Elections BC: Statement of Votes, 2020 (PDF)",
+       "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf"
       }
      ],
      "note": "No bio on bcgreens.ca/candidates-2026 (listed without a profile link). Bio built from past candidacies only."

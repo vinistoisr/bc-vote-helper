@@ -102,7 +102,12 @@ html[lang="zh-Hans"] { --f-script: "PingFang SC", "Hiragino Sans GB", "Microsoft
 html[lang="zh-Hant"] { --f-script: "PingFang HK", "PingFang TC", "Microsoft JhengHei", "Noto Sans HK", "Noto Sans TC", "Noto Sans CJK TC"; }
 html[lang="ru"] { --f-script: "Segoe UI", Roboto, "Helvetica Neue", Arial; }
 html[lang="ko"] { --f-script: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR"; }
-html[lang="fa"] { --f-script: "Segoe UI", Tahoma, "Noto Sans Arabic", "Vazirmatn", "Geeza Pro"; }
+html[lang="fa"] { --f-script: "Segoe UI", -apple-system, "SF Arabic", "Noto Sans Arabic", "Noto Naskh Arabic", "Vazirmatn", Tahoma, "Geeza Pro"; }
+/* Arial has Arabic letters on Windows, so Farsi headings would mix Arial and Segoe UI: the script font comes first after Archivo */
+html[lang="fa"] { --f-display: "Archivo", var(--f-script), sans-serif; }
+/* Labels set in the monospace font: Latin-only monospace fonts give these scripts very wide word spaces, so they use the body font */
+html[lang="pa"], html[lang^="zh"], html[lang="ko"], html[lang="fa"] { --f-mono: var(--f-body); }
+html[lang^="zh"] body { line-break: strict; }
 html[lang="ko"] body { line-height: 1.65; word-break: keep-all; overflow-wrap: anywhere; }
 html[lang="fa"] body { line-height: 1.8; }
 html[lang="fa"] :is(h1, h2, h3, h4, .prompt, .prompt.long, .lvl-name, .riding-name, .mode-t, .tg-lvl-now, .bar-label, .who, .sum-title, .hl-unit, .opt-text, .tg-text) { line-height: 1.5; }
@@ -122,6 +127,12 @@ html[lang="pa"] .opt:has(input:checked) .opt-text::after, html[lang^="zh"] .opt:
 html[lang="pa"] body *, html[lang^="zh"] body *, html[lang="fa"] body *, html[lang="ko"] body * { letter-spacing: normal !important; }
 /* Translated labels can be longer than the English: let the small radio labels wrap instead of pushing the row wider */
 html:not([lang^="en"]) .tg-r label { white-space: normal; overflow-wrap: anywhere; line-height: 1.15; text-align: center; }
+/* First visit in another language: the text stays hidden until that language is applied (a script before the masthead sets the class; 2.5 s at most) */
+html.lang-wait .mast-in, html.lang-wait #lang-note, html.lang-wait #app, html.lang-wait footer.foot { visibility: hidden; }
+/* Offer of the browser's language on an English page: globe and the language's own name */
+.lang-offer { display: inline-flex; align-items: center; gap: 6px; }
+.lang-offer svg { width: 16px; height: 16px; flex: none; }
+.lang-offer span { text-decoration: underline; text-underline-offset: 3px; }
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -517,6 +528,9 @@ details.lvl-fold > summary { min-height: 38px; }
   html.quiz-mode footer.foot { display: none; }
   .qhead { grid-template-columns: auto auto minmax(60px, 1fr) auto; grid-template-areas: "who count ticks lvl"; column-gap: 18px; }
   .qhead .qcount { text-align: start; }
+  /* Long reading-level readouts (set by fitLvlNow): the level control gets its own row under the progress ticks */
+  .qhead.lvl-row { grid-template-columns: auto auto minmax(60px, 1fr); grid-template-areas: "who count ticks" "lvl lvl lvl"; }
+  .qhead.lvl-row > .lvl-c { justify-self: start; }
   .lvl-c .range { flex: 0 0 auto; width: clamp(150px, 15vw, 240px); }
   .qscreen .opt:has(input:checked) .opt-text::after { content: none; }
 
@@ -565,6 +579,8 @@ details.lvl-fold > summary { min-height: 38px; }
   .tg-many .tg-r.skip label { padding-inline: 6px; }
   .tg-many .tg-name { flex-basis: 34px; }
 }
+/* Longer translations of "Not sure" wrap inside their button, so the letters stay on the name's row */
+@media (min-width: 1024px) { html:not([lang^="en"]) .qscreen .tg-pick .tg-r.skip label { max-width: 5.9em; overflow-wrap: break-word; } }
 /* The header line already says "how much it matters", so narrow side panels drop the repeat label and the dots */
 @media (min-width: 1024px) and (max-width: 1599px) { .qscreen .tg-imp .w, .qscreen .tg-imp-l { display: none; } }
 @media (min-width: 1024px) and (max-height: 760px) {
@@ -591,7 +607,9 @@ details.lvl-fold > summary { min-height: 38px; }
 .handoff { text-align: start; display: grid; gap: 18px; min-height: min(70vh, 640px); align-content: center; }
 .handoff-title { display: grid; gap: 4px; }
 .handoff-pass { display: block; font-family: var(--f-body); font-size: var(--t-m); font-weight: 700; color: var(--ink-2); }
-.handoff .big-name { display: block; font-size: var(--t-xxl); font-stretch: 116%; font-weight: 900; }
+.handoff .big-name { display: block; font-size: var(--t-xxl); font-stretch: 116%; font-weight: 900; line-height: 1.3; }
+/* Names can be in any script: room for tall Gurmukhi or Farsi marks so they do not touch the line above */
+html[lang="pa"] .handoff .big-name, html[lang="fa"] .handoff .big-name { line-height: 1.5; }
 .done-row { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: var(--t-s); }
 .done-row svg { width: 26px; height: 26px; flex: none; }
 .shield { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 14px; align-items: center; background: var(--surface-2); border: 1px dashed var(--line-strong); border-radius: var(--r-m); padding: 14px 16px; }
@@ -670,7 +688,17 @@ details.lvl-fold > summary { min-height: 38px; }
 .bars.fam .bar-row { grid-template-columns: auto minmax(0, 1fr) 3.6em 3.6em; }
 .bars-head { display: grid; grid-template-columns: minmax(0, 1fr) 3.6em 3.6em; gap: 12px; font-family: var(--f-mono); font-size: var(--t-xs); letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; text-align: end; line-height: 1.25; }
 .bars-head span:first-child { text-align: start; }
-@media (max-width: 480px) { .bars.fam .bar-row { gap: 8px; grid-template-columns: auto minmax(0, 1fr) 2.9em 2.9em; } .bars-head { gap: 8px; grid-template-columns: minmax(0, 1fr) 2.9em 2.9em; } }
+@media (max-width: 480px) {
+  .bars.fam .bar-row { gap: 8px; grid-template-columns: auto minmax(0, 1fr) 2.9em 2.9em; } .bars-head { gap: 8px; grid-template-columns: minmax(0, 1fr) 2.9em 2.9em; }
+  /* Phones: name beside the logo, then the bar and both numbers on a full-width row (two number columns left names a few letters per line) */
+  .bars.fam .bar-row { row-gap: 6px; }
+  .bars.fam .bar-main { display: contents; }
+  .bars.fam .bar-row > .plate { grid-column: 1; grid-row: 1; }
+  .bars.fam .bar-label { grid-column: 2 / -1; grid-row: 1; align-self: center; }
+  .bars.fam .bar-track { grid-column: 1 / 3; grid-row: 2; }
+  .bars.fam .bar-pct { grid-column: 3; grid-row: 2; }
+  .bars.fam .bar-pct2 { grid-column: 4; grid-row: 2; }
+}
 
 .two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 @media (max-width: 860px) { .two-col { grid-template-columns: 1fr; } }
@@ -818,6 +846,18 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 </style>
+<script>
+/* Before the first paint: when the page will open in another language (?lang=, saved choice or browser language, the same order as
+   initialLang below), its text stays hidden until that language is applied, so English never flashes. The app removes the class; 2.5 s at most. */
+(function () {
+  var c = "", d = document.documentElement;
+  function n(s) { s = String(s || "").toLowerCase().replace(/_/g, "-"); if (/^en(-|$)/.test(s)) return "en"; return /^(pa(?!-(arab|pk))|zh|tl|fil|fr|ru|ko|fa|prs)(-|$)/.test(s) ? "x" : ""; }
+  try { c = n(new URLSearchParams(window.location.search).get("lang")); } catch (e) { c = ""; }
+  if (!c) { try { c = n(window.localStorage.getItem("bcvh2026:lang")); } catch (e) { c = ""; } }
+  if (!c) { try { var l = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language]; for (var i = 0; i < l.length && !c; i++) c = n(l[i]); } catch (e) { c = ""; } }
+  if (c === "x") { d.classList.add("lang-wait"); setTimeout(function () { d.classList.remove("lang-wait"); }, 2500); }
+})();
+</script>
 
 <div class="mastwrap">
   <header class="mast" id="top">
@@ -912,13 +952,22 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     return "en-CA";
   }
   var FSI = "\u2068", PDI = "\u2069";
+  /** Western digits to Persian digits (and a decimal point between digits to the Persian decimal separator). */
+  function faDigits(s) {
+    return String(s).replace(/[0-9]/g, function (d) { return String.fromCharCode(0x06f0 + Number(d)); }).replace(/([\u06f0-\u06f9])\.(?=[\u06f0-\u06f9])/g, "$1\u066b");
+  }
+  /** Digits in the page language's style (Persian digits in Farsi). */
+  function locDigits(s) { return LANG === "fa" ? faDigits(s) : String(s); }
+  /** Percent sign in the page language's style. */
+  function PCT() { return LANG === "fa" ? "\u066a" : "%"; }
   /** Fills {name} placeholders. In right-to-left text each value is isolated so Latin names and numbers keep their order. */
   function fillT(s, vars, en) {
     if (!vars) return s;
     var iso = !en && isRtl();
     return s.replace(/\{([a-z0-9_]+)\}('s)?/g, function (m, k, ps) {
       if (vars[k] == null) return m;
-      var v = String(vars[k]);
+      /* Farsi: numbers inserted into a translated string use Persian digits, like the translated text around them */
+      var v = typeof vars[k] === "number" && !en && LANG === "fa" ? faDigits(String(vars[k])) : String(vars[k]);
       /* English possessive where the old code used poss(): "BC Greens'" and "BC NDP's" */
       if (ps && en && vars._poss && /s$/.test(v)) return v + "'";
       return (iso ? FSI + v + PDI : v) + (ps || "");
@@ -1080,7 +1129,11 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   var WEIGHTS = { low: 0.5, medium: 1, high: 2 };
   var CLOSE_POINTS = 3;
   var LS_KEY = "bcvh2026:v1";
-  var EXTRA_NAMES = { liberal: "BC Liberal" };
+  /* Parties that are not scored (past results, small parties): UI keys, so each language names them */
+  var EXTRA_KEYS = { independent: "independent", ind: "independent", liberal: "party_liberal", bc_liberal: "party_liberal", united: "party_united", bc_united: "party_united",
+    christian_heritage: "party_christian_heritage", christian_heritage_party_of_bc: "party_christian_heritage", freedom: "party_freedom", freedom_party_of_bc: "party_freedom",
+    libertarian: "party_libertarian", bc_libertarian: "party_libertarian", communist: "party_communist", communist_party_of_bc: "party_communist",
+    other: "party_other", others: "party_other", unaffiliated: "party_unaffiliated" };
 
   /* Level fallback order. Party positions exist at 1, 3, 5: level 2 shows 1, level 4 shows 5. */
   var LEVEL_PREF = { 1: [1, 2, 3, 4, 5], 2: [2, 1, 3, 4, 5], 3: [3, 2, 4, 1, 5], 4: [4, 5, 3, 2, 1], 5: [5, 4, 3, 2, 1] };
@@ -1102,7 +1155,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   function levelLong(L) { var e = expText(L); return e ? t("level_long", { label: L.label, experience: e.charAt(0).toLowerCase() + e.slice(1) }) : L.label; }
   var NUM_WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
   /** English writes small counts as words ("the three local questions"); other languages use digits. */
-  function numWord(n) { return LANG === "en" ? NUM_WORDS[n] || String(n) : String(n); }
+  function numWord(n) { return LANG === "en" ? NUM_WORDS[n] || String(n) : locDigits(n); }
   /** Joins whole sentences: with a space, or directly for Chinese. */
   function joinSent(list) { return list.filter(function (x) { return !!x; }).join(LANG.indexOf("zh") === 0 ? "" : " "); }
 
@@ -1121,7 +1174,15 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   function regionName() { return REGION ? REGION.name : ""; }
   function ridingName() { return RIDING ? RIDING.name : ""; }
   function hasCands() { return CANDS.length > 0; }
-  function partyShort(pid) { return PBY[pid] ? PBY[pid].short_name : EXTRA_NAMES[pid] || pid; }
+  /** Short party name; unscored ids ("independent", "liberal", "other:freedom_party_of_bc") through UI keys, otherwise the id as words. */
+  function partyShort(pid) {
+    if (PBY[pid]) return PBY[pid].short_name;
+    var id = String(pid || "").toLowerCase(), slug = id.replace(/^other:/, "");
+    var key = EXTRA_KEYS[id] || EXTRA_KEYS[slug];
+    if (key) return t(key);
+    if (!slug) return t("party_other");
+    return slug.split(/[_\s]+/).map(function (w) { return w === "bc" ? "BC" : w.charAt(0).toUpperCase() + w.slice(1); }).join(" ");
+  }
   function regionRidingCount(rid) { return RIDINGS.filter(function (r) { return r.region === rid; }).length; }
   /** Changes since the 2024 election, without a bare leading "None." */
   function mlaText(s) { s = String(s || "").replace(/^\s*None[.;:,]?\s*/i, "").trim(); return s || null; }
@@ -1558,7 +1619,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; });
   }
-  function fmtPct(v) { return v == null ? "-" : String(Math.round(v)); }
+  function fmtPct(v) { return v == null ? "-" : locDigits(String(Math.round(v))); }
   function el(id) { return document.getElementById(id); }
   var app = el("app");
   function words(s) { return String(s || "").split(/\s+/).filter(Boolean).length; }
@@ -1592,8 +1653,14 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var opts = { year: "numeric", month: "long", day: "numeric" };
     try {
       var out = d.toLocaleDateString(LANG === "en" ? "en-CA" : intlLoc(), opts);
-      /* Browsers without month names for the language return a bare pattern like "2026 M10 12": use English then */
-      return /\bM\d/.test(out) ? d.toLocaleDateString("en-CA", opts) : out;
+      /* Browsers without month names for the language (Chrome has none for Punjabi) return "2026 M10 12" or English month
+         names: then "<day> <month> <year>" with the language's own month names from month_names */
+      if (LANG !== "en" && (/\bM\d/.test(out) || (!/^(fr|tl)$/.test(LANG) && /[A-Za-z]/.test(out)))) {
+        var months = t("month_names").split(/\s*,\s*/);
+        if (months.length === 12) return locDigits(d.getDate()) + " " + months[d.getMonth()] + " " + locDigits(d.getFullYear());
+        return d.toLocaleDateString("en-CA", opts);
+      }
+      return out;
     } catch (e) { return d.toDateString(); }
   }
   function todayLong() { return dateLong(null); }
@@ -1602,6 +1669,68 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   function confLabel(k) { return ["high", "medium", "low"].indexOf(k) >= 0 ? t("conf_" + k) : k; }
   /** Slider readout: level name with who it suits beside it. */
   function lvlNow(L) { var e = expText(L); return esc(L.label) + (e ? '<span class="lvl-exp">' + esc(e) + "</span>" : ""); }
+  /**
+   * Slider readout sized for the longest of the five labels in the current language, so neither the slider nor the
+   * lines below move while it changes. One line when that fits in about 24em; otherwise it wraps at a fixed width.
+   * The height is held at the tallest label (phones, where the readout has its own row and wraps).
+   */
+  function fitLvlNow(id) {
+    var span = el(id);
+    if (!span || !span.parentNode) return;
+    var q = span.closest(".qhead");
+    if (q) q.classList.remove("lvl-row");
+    span.style.width = ""; span.style.minHeight = ""; span.style.whiteSpace = "";
+    if (!span.getClientRects().length) return; /* folded away; fitted again when opened */
+    var probe = span.cloneNode(false);
+    probe.removeAttribute("id");
+    probe.setAttribute("aria-hidden", "true");
+    probe.style.cssText = "position:absolute;visibility:hidden;pointer-events:none;top:0;left:0;width:auto;min-width:0;max-width:none;flex:none;overflow:visible;white-space:nowrap";
+    span.parentNode.appendChild(probe);
+    var i, w = 0, h = 0, cs = window.getComputedStyle(span), fs = parseFloat(cs.fontSize) || 15;
+    for (i = 1; i <= 5; i++) { probe.innerHTML = lvlNow(levelInfo(i)); w = Math.max(w, probe.getBoundingClientRect().width); }
+    /* Room for the readout: the level row minus its label and slider; where the header is one row (wide screens), also
+       minus the name, the count and at least 100px of progress ticks */
+    function room() {
+      span.style.width = "0px";
+      var box = span.parentNode, bcs = window.getComputedStyle(box), gap = parseFloat(bcs.columnGap) || 10;
+      var lab = box.querySelector("label"), rng = box.querySelector(".range"), rcs = window.getComputedStyle(rng);
+      var rngNeed = rcs.flexGrow === "0" ? rng.getBoundingClientRect().width : Math.max(parseFloat(rcs.minWidth) || 0, 140);
+      var pad = (parseFloat(bcs.paddingLeft) || 0) + (parseFloat(bcs.paddingRight) || 0) + (parseFloat(bcs.borderLeftWidth) || 0) + (parseFloat(bcs.borderRightWidth) || 0);
+      var r = (q && q.classList.contains("lvl-row") ? q.clientWidth : box.getBoundingClientRect().width) - pad;
+      if (q && (window.getComputedStyle(q).gridTemplateAreas.match(/"/g) || []).length === 2) {
+        var qg = parseFloat(window.getComputedStyle(q).columnGap) || 18;
+        var who = q.querySelector(".who"), cnt = q.querySelector(".qcount");
+        r = q.clientWidth - (who ? who.getBoundingClientRect().width : 0) - (cnt ? cnt.getBoundingClientRect().width : 0) - 100 - 3 * qg - pad;
+      }
+      return Math.min(fs * 24, r - (lab ? lab.getBoundingClientRect().width : 0) - rngNeed - 2 * gap - 2);
+    }
+    var rngEl = span.parentNode.querySelector(".range");
+    if (rngEl) rngEl.style.width = "";
+    if (cs.whiteSpace === "nowrap") {
+      var cap = room();
+      /* A little short: a narrower slider (not under 150px) before the readout wraps */
+      if (w > cap && rngEl && window.getComputedStyle(rngEl).flexGrow === "0") {
+        var rw = rngEl.getBoundingClientRect().width, nw = Math.max(150, rw - (w - cap));
+        if (nw < rw) { rngEl.style.width = Math.floor(nw) + "px"; cap = room(); }
+      }
+      /* Too little room beside the progress ticks: the reading level takes its own row under them */
+      if (w > cap && cap < fs * 14 && q && (window.getComputedStyle(q).gridTemplateAreas.match(/"/g) || []).length === 2) { q.classList.add("lvl-row"); cap = room(); }
+      if (w <= cap) span.style.width = Math.ceil(w + 1) + "px";
+      else { span.style.width = Math.floor(Math.max(cap, fs * 8)) + "px"; span.style.whiteSpace = "normal"; }
+    }
+    probe.style.whiteSpace = window.getComputedStyle(span).whiteSpace;
+    probe.style.width = span.getBoundingClientRect().width + "px";
+    for (i = 1; i <= 5; i++) { probe.innerHTML = lvlNow(levelInfo(i)); h = Math.max(h, probe.getBoundingClientRect().height); }
+    probe.parentNode.removeChild(probe);
+    if (h) span.style.minHeight = Math.ceil(h) + "px";
+  }
+  function fitLvlAll() { fitLvlNow("quiz-level-now"); fitLvlNow("tg-level-now"); }
+  (function () {
+    var tm = null;
+    window.addEventListener("resize", function () { clearTimeout(tm); tm = setTimeout(fitLvlAll, 120); });
+    /* Webfonts change the widths once they arrive */
+    try { if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitLvlAll); } catch (e) { /* old browser */ }
+  })();
   function impLabels(level) {
     var k = isKid(level) ? "_kid" : "";
     return { low: t("imp_low" + k), medium: t("imp_medium" + k), high: t("imp_high" + k) };
@@ -2100,7 +2229,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var ql = el("quiz-level");
     rangeFill(ql);
     var lf = el("lvl-fold");
-    if (lf) lf.addEventListener("toggle", function () { lvlFoldOpen = lf.open; });
+    fitLvlNow("quiz-level-now");
+    if (lf) lf.addEventListener("toggle", function () { lvlFoldOpen = lf.open; if (lf.open) fitLvlNow("quiz-level-now"); });
     ql.addEventListener("change", function () { p.level = Number(ql.value); lvlLayout = lf ? "fold" : "inline"; if (lf) lvlFoldOpen = true; save(); render(null); var x = el("quiz-level"); if (x) x.focus(); });
     ql.addEventListener("input", function () { var info = levelInfo(Number(ql.value)); el("quiz-level-now").innerHTML = lvlNow(info); ql.setAttribute("aria-valuetext", levelLong(info)); rangeFill(ql); });
     el("back-btn").addEventListener("click", function () {
@@ -2219,6 +2349,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     if (bg) bg.addEventListener("toggle", function () { tgCtxOpen = bg.open; });
     var rg = el("tg-level");
     rangeFill(rg);
+    fitLvlNow("tg-level-now");
     rg.addEventListener("input", function () {
       var lv = Number(rg.value);
       var info = levelInfo(lv);
@@ -2315,7 +2446,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       '<div class="bar-main"><span class="bar-label">' + barLabel(id, isCand) + "</span>" +
       '<div class="bar-track" role="img" aria-label="' + esc(pct == null ? t("bar_aria_none", { name: isCand ? CBY[id].name : p.short_name }) : t("bar_aria", { name: isCand ? CBY[id].name : p.short_name, pct: Math.round(pct) })) + '"><div class="bar-fill" style="width:' + w.toFixed(1) + '%"></div></div>' +
       (note ? '<span class="bar-note">' + esc(note) + "</span>" : "") + "</div>" +
-      '<span class="bar-pct">' + (pct == null ? esc(t("no_score")) : fmtPct(pct) + "%") + "</span></div>";
+      '<span class="bar-pct">' + (pct == null ? esc(t("no_score")) : fmtPct(pct) + PCT()) + "</span></div>";
   }
   /** bars(ranked, isCand, member?, kid?): with a member, each row notes when a party was scored on fewer of their answers. */
   function bars(ranked, isCand, m, kid) {
@@ -2336,8 +2467,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       return '<div class="bar-row' + (r.pct == null ? " na" : "") + '" style="' + partyVars(pid) + '">' + plate(pid, "s") +
         '<div class="bar-main"><span class="bar-label">' + barLabel(r.id, isCand) + "</span>" +
         '<div class="bar-track" role="img" aria-label="' + esc(r.pct == null ? t("fam_bar_aria_none", { name: nm }) : t("fam_bar_aria", { name: nm, pct: Math.round(r.pct) })) + '"><div class="bar-fill" style="width:' + w.toFixed(1) + '%"></div></div></div>' +
-        '<span class="bar-pct"><span class="sr">' + esc(t("fam_sr_all")) + " </span>" + (r.pct == null ? "-" : fmtPct(r.pct) + "%") + "</span>" +
-        '<span class="bar-pct2"><span class="sr">' + esc(t("fam_sr_adults")) + " </span>" + (!adultsCount || a == null ? "-" : fmtPct(a) + "%") + "</span></div>";
+        '<span class="bar-pct"><span class="sr">' + esc(t("fam_sr_all")) + " </span>" + (r.pct == null ? "-" : fmtPct(r.pct) + PCT()) + "</span>" +
+        '<span class="bar-pct2"><span class="sr">' + esc(t("fam_sr_adults")) + " </span>" + (!adultsCount || a == null ? "-" : fmtPct(a) + PCT()) + "</span></div>";
     }).join("") + "</div>";
   }
 
@@ -2362,7 +2493,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var note = opts.member ? scoredNote(opts.member.n[pid], opts.member.answered, kid, true) : "";
     var noteLine = note ? '<p class="hl-next">' + esc(note) + "</p>" : "";
     return '<article class="hl-card' + (isCand ? " hl-local" : "") + (opts.soft ? " soft" : "") + '" style="' + partyVars(pid) + '">' +
-      '<div class="hl-band">' + plate(pid, isCand || multi || opts.soft ? "m" : "") + '<p class="hl-pct">' + fmtPct(entry.pct) + '<small>%</small><span class="hl-unit">' + esc(t("hl_match")) + "</span></p></div>" +
+      '<div class="hl-band">' + plate(pid, isCand || multi || opts.soft ? "m" : "") + '<p class="hl-pct">' + fmtPct(entry.pct) + '<small>' + PCT() + '</small><span class="hl-unit">' + esc(t("hl_match")) + "</span></p></div>" +
       '<div class="hl-body"><p class="eyebrow">' + esc(eyebrow) + "</p>" +
       '<h3 class="hl-name">' + esc(name) + "</h3><p class=\"hl-sub\">" + esc(sub) + "</p>" + nextLine + noteLine + "</div></article>";
   }
@@ -2380,7 +2511,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var items = R.members.map(function (m) {
       if (!m.answered) return '<li><span class="who-n">' + esc(m.name) + '</span><span class="muted">' + esc(t("skipped_every_lc")) + "</span></li>";
       return '<li><span class="who-n">' + esc(m.name) + "</span>" + m.close.map(function (c) {
-        return plate(c.id, "xs") + "<bdi>" + esc(PBY[c.id].short_name) + " " + fmtPct(c.pct) + "%</bdi>";
+        return plate(c.id, "xs") + "<bdi>" + esc(PBY[c.id].short_name) + " " + fmtPct(c.pct) + PCT() + "</bdi>";
       }).join('<span class="muted">' + esc(t("and_word")) + "</span>") + (m.close.length > 1 ? '<span class="tag">' + esc(t("close_tag")) + "</span>" : "") + "</li>";
     }).join("");
     var same = R.agreeCounts.agree;
@@ -2556,14 +2687,14 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var keys = Object.keys(r.shares || {});
     var segs = keys.map(function (k) {
       var style = PBY[k] ? partyVars(k) : "--pf:var(--p-" + k + ", var(--p-liberal))";
-      return '<span style="' + style + ";width:" + r.shares[k] + '%" title="' + esc(partyShort(k) + " " + r.shares[k] + "%") + '"></span>';
+      return '<span style="' + style + ";width:" + r.shares[k] + '%" title="' + esc(partyShort(k) + " " + locDigits(r.shares[k]) + PCT()) + '"></span>';
     }).join("");
     var legend = keys.map(function (k) {
       var style = PBY[k] ? partyVars(k) : "--pf:var(--p-liberal)";
-      return '<span style="' + style + '"><i></i>' + esc(partyShort(k)) + " " + r.shares[k] + "%</span>";
+      return '<span style="' + style + '"><i></i>' + esc(partyShort(k)) + " " + locDigits(r.shares[k]) + PCT() + "</span>";
     }).join("");
     return '<div class="hist-row"><span class="hist-year">' + esc(r.year || 2024) + "</span><div>" +
-      '<div class="stackbar" role="img" aria-label="' + esc(t("hist_aria", { year: r.year || 2024, shares: commaList(keys.map(function (k) { return partyShort(k) + " " + r.shares[k] + "%"; })) })) + '">' + segs + "</div>" +
+      '<div class="stackbar" role="img" aria-label="' + esc(t("hist_aria", { year: r.year || 2024, shares: commaList(keys.map(function (k) { return partyShort(k) + " " + locDigits(r.shares[k]) + PCT(); })) })) + '">' + segs + "</div>" +
       '<div class="hist-legend">' + legend + "</div>" +
       '<p class="small" style="margin-top:6px"><strong>' + esc(tn("hist_won", Number(r.margin_votes), { winner: r.winner, party: partyShort(r.party), votes: fmtNum(r.margin_votes), points: r.margin_pct })) + "</strong>" + (level >= 4 && r.note ? (LANG.indexOf("zh") === 0 ? "" : " ") + esc(r.note) : "") + "</p></div></div>";
   }
@@ -2756,7 +2887,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
           var L = levelInfo(m.level);
           if (!m.answered) return '<article class="pcard"><div class="pcard-head"><h3 class="pcard-name">' + esc(m.name) + '</h3><span class="tag">' + esc(L.label) + '</span></div><p class="muted">' + esc(t("skipped_every")) + "</p></article>";
           var top = m.close;
-          var topHtml = top.map(function (tp) { return '<span class="row" style="gap:8px">' + plate(tp.id, "xs") + "<strong><bdi>" + esc(PBY[tp.id].short_name) + " " + fmtPct(tp.pct) + "%</bdi></strong></span>"; }).join("");
+          var topHtml = top.map(function (tp) { return '<span class="row" style="gap:8px">' + plate(tp.id, "xs") + "<strong><bdi>" + esc(PBY[tp.id].short_name) + " " + fmtPct(tp.pct) + PCT() + "</bdi></strong></span>"; }).join("");
           var lt = m.rankedLocal[0];
           return '<article class="pcard"><div class="pcard-head"><h3 class="pcard-name">' + esc(m.name) + '</h3><span class="tag">' + esc(L.label) + "</span></div>" +
             '<div class="pcard-top">' + (top.length > 1 ? '<span class="tag tag-solid">' + esc(t("close_tag")) + "</span>" : '<span class="small muted">' + esc(t("closest")) + "</span>") + topHtml + "</div>" +
@@ -2772,7 +2903,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     function adultsTop(rankedAd, isCand) {
       if (!rankedAd || !rankedAd.length || rankedAd[0].pct == null) return "";
       var tp = rankedAd[0];
-      return '<p class="small">' + th("adults_top", { match: "<strong>" + esc((isCand ? t("name_party", { name: CBY[tp.id].name, party: PBY[CBY[tp.id].party_id].short_name }) : PBY[tp.id].short_name) + " " + fmtPct(tp.pct) + "%") + "</strong>" }) + "</p>";
+      return '<p class="small">' + th("adults_top", { match: "<strong>" + esc((isCand ? t("name_party", { name: CBY[tp.id].name, party: PBY[CBY[tp.id].party_id].short_name }) : PBY[tp.id].short_name) + " " + fmtPct(tp.pct) + PCT()) + "</strong>" }) + "</p>";
     }
     var rankedParties = R.isFamily ? '<div class="panel">' + famKey + famBars(R.rankedP, R.fam.adults, false, nAd) + adultsTop(R.rankedPAdults, false) + "</div>" : '<div class="panel">' + bars(R.rankedP, false, solo, kid) + "</div>";
     var rankedCands = !hasCands() ? "" : R.isFamily ? '<div class="panel">' + famBars(R.rankedC, R.fam.localAdults, true, nAd) + adultsTop(R.rankedCAdults, true) + "</div>" : '<div class="panel">' + bars(R.rankedC, true, solo, kid) + "</div>";
@@ -2891,8 +3022,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var R = computeResults(st || S);
     var lv = Math.max(3, R.level);
     var out = [];
-    function pp(pid, pct) { return PBY[pid].short_name + " " + fmtPct(pct) + "%"; }
-    function cp(cid, pct) { var c = CBY[cid]; return t("name_party", { name: c.name, party: PBY[c.party_id].short_name }) + " " + fmtPct(pct) + "%"; }
+    function pp(pid, pct) { return PBY[pid].short_name + " " + fmtPct(pct) + PCT(); }
+    function cp(cid, pct) { var c = CBY[cid]; return t("name_party", { name: c.name, party: PBY[c.party_id].short_name }) + " " + fmtPct(pct) + PCT(); }
     out.push(t("text_title"));
     out.push(t("text_meta", { riding: ridingName() || t("no_riding_picked"), today: todayLong(), date: dateLong(SPEC.meta.data_as_of) }));
     out.push("");
@@ -3032,7 +3163,9 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var cx = cv ? cv.getContext("2d") : null;
     var seen = {};
     function canvasFor(s) { return !!cx && NOT_LATIN1.test(s); }
-    function cssFont(px) { return (st.style === "italic" ? "italic " : "") + (st.style === "bold" ? "700 " : "400 ") + px + "px " + family; }
+    /* Gurmukhi, Chinese, Korean and Farsi have no italics (the browser would slant the glyphs): plain text there */
+    var noItalic = /^(pa|zh|ko|fa)/.test(LANG);
+    function cssFont(px) { return (st.style === "italic" && !noItalic ? "italic " : "") + (st.style === "bold" ? "700 " : "400 ") + px + "px " + family; }
     function measure(s) { cx.font = cssFont(st.size * SC); return cx.measureText(s).width / SC; }
     function width(s) { s = String(s); return canvasFor(s) ? measure(s) : doc.getTextWidth(pdfSafe(s)); }
     function graphemes(s) {
@@ -3122,6 +3255,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     R.members.forEach(function (m) { m.pname = pdfName(m, !!family); });
     var doc = new JS({ unit: "pt", format: "letter", compress: true });
     var TX = pdfText(doc, family, isRtl());
+    /* Line height: Gurmukhi and Farsi marks reach above and below the line, Chinese and Korean need air between lines */
+    var LH = { pa: 1.55, fa: 1.6, "zh-Hans": 1.45, "zh-Hant": 1.45, ko: 1.45 }[LANG] || 1.32;
     var PW = 612, PH = 792, M = 44, CW = PW - 2 * M, FOOT = 46;
     var y = M;
     var INK = [18, 26, 31], MUTED = [74, 86, 97], LINE = [199, 207, 210], TRACK = [223, 229, 231], FOG = [236, 239, 238];
@@ -3129,6 +3264,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     function fill(c) { doc.setFillColor(c[0], c[1], c[2]); }
     function draw(c) { doc.setDrawColor(c[0], c[1], c[2]); }
     function font(style, size) { TX.font(style, size); }
+    /** Sets the largest size from size down to min at which s fits in w (table cells with longer translations). */
+    function fitFont(style, size, min, s, w) { font(style, size); var tw = TX.width(s); if (tw > w) font(style, Math.max(min, Math.floor(size * w / tw * 10) / 10)); }
     function newPage() { doc.addPage(); y = M; }
     function ensure(h) { if (y + h > PH - FOOT - 10) newPage(); }
     function para(text, size, style, c, width, x, lh) {
@@ -3136,7 +3273,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       color(c || INK);
       var w = width || CW;
       var lines = TX.split(text, w);
-      var step = (lh || 1.32) * size;
+      var step = (lh || LH) * size;
       lines.forEach(function (ln) { ensure(step); TX.text(ln, x == null ? M : x, y + size * 0.8, { box: w }); y += step; });
     }
     function heading(text, size) { ensure(size * 2.4); y += 8; para(text, size || 15, "bold", INK); y += 4; }
@@ -3172,7 +3309,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       var pw = narrow ? inner : Math.min(150, w * 0.42), ph = narrow ? 34 : Math.min(48, h * 0.4);
       plateAt(pid, x + pad, yy + pad, pw, ph);
       var size = narrow ? 26 : w > 300 ? 40 : 30;
-      var chip = narrow ? pctChip(fmtPct(entry.pct) + "%", size, x + pad, yy + pad + ph + 8, false) : pctChip(fmtPct(entry.pct) + "%", size, x + w - pad, yy + pad, true);
+      var chip = narrow ? pctChip(fmtPct(entry.pct) + PCT(), size, x + pad, yy + pad + ph + 8, false) : pctChip(fmtPct(entry.pct) + PCT(), size, x + w - pad, yy + pad, true);
       var name = isCand ? CBY[entry.id].name : p.name;
       var sub = isCand ? (CBY[entry.id].incumbent ? t("party_incumbent_mla", { party: p.short_name }) : p.short_name) : t("leader_line", { leader: p.leader });
       var nsz = narrow ? 12 : w > 300 ? 17 : 13, nlh = nsz * 1.15;
@@ -3219,7 +3356,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
         fill(TRACK); doc.roundedRect(bx, by, bw, 7, 3.5, 3.5, "F");
         if (r.pct != null && r.pct > 0) { fill(hexRgb(p.color)); doc.roundedRect(bx, by, Math.max(4, bw * r.pct / 100), 7, 3.5, 3.5, "F"); }
         font("bold", 11); color(INK);
-        TX.text(r.pct == null ? "-" : fmtPct(r.pct) + "%", x + width, y + 16, { align: "right" });
+        TX.text(r.pct == null ? "-" : fmtPct(r.pct) + PCT(), x + width, y + 16, { align: "right" });
         y += rowH;
       });
     }
@@ -3238,7 +3375,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     } else {
       var who = R.isFamily ? tn("fam_average_of", R.counted.length) : t("your_result");
       if (R.split) {
-        para(t("pdf_split", { list: R.counted.map(function (m) { return t("colon", { a: m.pname, b: joinAndAll(m.close.map(function (c) { return PBY[c.id].short_name + " " + fmtPct(c.pct) + "%"; })) }); }).join("; ") }), 10.5, "bold", INK);
+        para(t("pdf_split", { list: R.counted.map(function (m) { return t("colon", { a: m.pname, b: joinAndAll(m.close.map(function (c) { return PBY[c.id].short_name + " " + fmtPct(c.pct) + PCT(); })) }); }).join("; ") }), 10.5, "bold", INK);
         y += 8;
       }
       headlineGroup(R.closeP, false, t("who_province", { who: who }));
@@ -3274,7 +3411,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       }
 
       if (R.isFamily) {
-        ensure(R.members.length * 22 + 60);
+        ensure(R.members.length * 31 + 60);
         heading(t("each_person"), 14);
         var colX = [M, M + 150];
         var colw = (CW - 150) / PARTY_IDS.length;
@@ -3282,26 +3419,36 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
         TX.text(t("pdf_col_person"), colX[0], y + 8);
         PARTY_IDS.forEach(function (pid, k) {
           var lab = PBY[pid].short_name.replace(/^BC /, "").toUpperCase();
+          fitFont("bold", 7.5, 5.5, lab, colw - 6);
           if (TX.width(lab) > colw - 6) lab = lab.slice(0, Math.max(4, Math.floor(lab.length * (colw - 6) / TX.width(lab)) - 1)) + ".";
           TX.text(lab, colX[1] + k * colw, y + 8);
         });
         y += 14;
         R.members.forEach(function (m) {
-          ensure(22);
+          ensure(31);
           draw(LINE); doc.setLineWidth(0.5); doc.line(M, y, M + CW, y);
           font("bold", 10); color(INK);
           var nmLines = TX.split(m.pname, 76);
           TX.text(nmLines[0], colX[0], y + 14);
           font("normal", 8); color(MUTED);
           TX.text(levelInfo(m.level).label, colX[0] + 80, y + 14);
-          PARTY_IDS.forEach(function (pid, k) {
+          /* A cell that does not fit its column at 8pt (a longer "(top)" mark) wraps to two lines in a taller row */
+          var rowH = 22;
+          var cells = PARTY_IDS.map(function (pid) {
             var v = m.parties[pid];
             var isTop = m.answered && m.close.some(function (c) { return c.id === pid; });
-            font(isTop ? "bold" : "normal", 10); color(INK);
-            var cell = !m.answered ? "-" : v == null ? t("pdf_na") : isTop ? t(m.close.length > 1 ? "pdf_close_mark" : "pdf_top_mark", { pct: fmtPct(v) + "%" }) : fmtPct(v) + "%";
-            TX.text(cell, colX[1] + k * colw, y + 14);
+            var cell = !m.answered ? "-" : v == null ? t("pdf_na") : isTop ? t(m.close.length > 1 ? "pdf_close_mark" : "pdf_top_mark", { pct: fmtPct(v) + PCT() }) : fmtPct(v) + PCT();
+            var st = isTop ? "bold" : "normal";
+            fitFont(st, 10, 8, cell, colw - 4);
+            var lines = TX.width(cell) > colw - 4 ? TX.split(cell, colw - 4).slice(0, 2) : [cell];
+            if (lines.length > 1) rowH = 31;
+            return { st: st, cell: cell, lines: lines };
           });
-          y += 22;
+          cells.forEach(function (c, k) {
+            if (c.lines.length > 1) { font(c.st, 8); color(INK); c.lines.forEach(function (ln, j) { TX.text(ln, colX[1] + k * colw, y + 12 + j * 10); }); }
+            else { fitFont(c.st, 10, 8, c.cell, colw - 4); color(INK); TX.text(c.cell, colX[1] + k * colw, y + 14); }
+          });
+          y += rowH;
         });
       }
 
@@ -3328,6 +3475,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       para(t("pdf_issue_note"), 9.5, "normal", MUTED);
       y += 6;
       var il = impLabels(lv);
+      /* Answer lines are indented on the side where the party dots sit (the right in Farsi) */
+      var IX = isRtl() ? M : M + 12;
       QUESTIONS.forEach(function (q) {
         ensure(48);
         draw(LINE); doc.setLineWidth(0.5); doc.line(M, y, M + CW, y); y += 6;
@@ -3337,17 +3486,17 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
           var tx = a ? pickText(q, a.choice, lv) : null;
           var al = tx ? alignedParties(q, a.choice) : [];
           function pre(s) { return R.isFamily ? t("colon", { a: m.pname, b: s }) : s; }
-          if (!tx) { para(pre(t("text_not_sure")), 9.5, "italic", MUTED, CW - 12, M + 12); return; }
-          ensure(9.5 * 1.32 * 2 + 12);
+          if (!tx) { para(pre(t("text_not_sure")), 9.5, "italic", MUTED, CW - 12, IX); return; }
+          ensure(9.5 * LH * 2 + 12);
           var startY = y;
-          para(pre(a.importance !== "medium" ? t("pdf_imp", { text: tx, level: il[a.importance] }) : tx), 9.5, "normal", INK, CW - 12, M + 12);
+          para(pre(a.importance !== "medium" ? t("pdf_imp", { text: tx, level: il[a.importance] }) : tx), 9.5, "normal", INK, CW - 12, IX);
           var dotY = startY + 6;
-          var dotX = isRtl() ? M + CW + 3 : M + 3, dir = isRtl() ? -1 : 1;
+          var dotX = isRtl() ? M + CW - 3 : M + 3, dir = isRtl() ? -1 : 1;
           al.slice(0, 2).forEach(function (pid, k) { fill(hexRgb(PBY[pid].color)); doc.circle(dotX + dir * k * 5, dotY, 2.6, "F"); });
-          para(t("chip_closest", { parties: al.map(function (pid) { return PBY[pid].short_name; }).join(" / ") }), 8.5, "bold", MUTED, CW - 12, M + 12);
+          para(t("chip_closest", { parties: al.map(function (pid) { return PBY[pid].short_name; }).join(" / ") }), 8.5, "bold", MUTED, CW - 12, IX);
         });
         var np = PARTY_IDS.filter(function (pid) { return noPos(q, pid); }).map(function (pid) { return PBY[pid].short_name; });
-        if (np.length) para(t("no_position_list", { parties: commaList(np) }), 8.5, "normal", MUTED, CW - 12, M + 12);
+        if (np.length) para(t("no_position_list", { parties: commaList(np) }), 8.5, "normal", MUTED, CW - 12, IX);
         y += 4;
       });
     }
@@ -3543,10 +3692,29 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     if (sel) sel.value = LANG;
     var note = el("lang-note");
     if (note) {
-      note.hidden = LANG === "en";
+      var offer = LANG === "en" ? offerLang() : null, btn = el("lang-note-en");
+      note.hidden = LANG === "en" && !offer;
       el("lang-note-text").textContent = LANG === "en" ? "" : t("ai_notice");
-      el("lang-note-en").textContent = LANG === "en" ? "" : t("ai_notice_switch");
+      btn.setAttribute("data-go", offer || "en");
+      if (offer) {
+        /* English page, reader's browser prefers a language we have: one button in that language's own name */
+        var ol = LANG_BY[offer];
+        btn.innerHTML = '<span class="lang-offer"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.6" fill="none" stroke="currentColor" stroke-width="1.5"></circle><path d="M1.6 8h12.8M8 1.4c2 2.1 2.9 4.3 2.9 6.6S10 12.5 8 14.6M8 1.4C6 3.5 5.1 5.7 5.1 8S6 12.5 8 14.6" fill="none" stroke="currentColor" stroke-width="1.3"></path></svg>' +
+          '<span lang="' + esc(ol.html) + '"' + (ol.rtl ? ' dir="rtl"' : "") + ">" + esc(ol.name) + "</span></span>";
+      } else btn.textContent = LANG === "en" ? "" : t("ai_notice_switch");
     }
+  }
+  /** On an English page that the reader did not choose: the first language in the browser's list, when we have it and it is not English. */
+  function offerLang() {
+    if (lsLangGet()) return null;
+    var navs = [];
+    try { navs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language]) || []; } catch (e) { navs = []; }
+    for (var i = 0; i < navs.length; i++) {
+      var c = normLang(navs[i]);
+      if (c === "en") return null;
+      if (c && isAvail(c)) return c;
+    }
+    return null;
   }
   /** Applies a loaded language: UI strings, spec text in place, riding write-up, <html lang/dir>, static text. */
   function setLangNow(code) {
@@ -3586,7 +3754,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     }, function () { paintStatic(); return false; });
   }
   el("lang-note-en").addEventListener("click", function () {
-    switchLang("en").then(function () { var s = el("lang-select"); if (s) s.focus(); });
+    switchLang(el("lang-note-en").getAttribute("data-go") || "en").then(function () { var s = el("lang-select"); if (s) s.focus(); });
   });
 
   /* Start: English at once; another language once its strings are loaded (website: up to 4 seconds, then English) */
@@ -3598,6 +3766,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       started = true;
       setLangNow(code);
       render(null);
+      document.documentElement.classList.remove("lang-wait");
     }
     if (want === "en") { go("en"); return; }
     loadBundle(want).then(function () { go(want); }, function () { go("en"); });

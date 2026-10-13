@@ -145,6 +145,10 @@ FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox
            "%3Cpath d='M20 33l9 9 16-18' stroke='%23F7F9F9' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
 
 
+OG_LOCALES = {"pa": "pa_IN", "zh-Hans": "zh_CN", "zh-Hant": "zh_HK", "tl": "tl_PH", "fr": "fr_CA", "ru": "ru_RU", "ko": "ko_KR", "fa": "fa_IR"}
+RTL_LANGS = {"fa"}
+
+
 def build_site(template, spec, logos, build_info, en, bundles):
     """Write site/public/ for votebc.vinceroyer.ca: the same page in a full document, plus the admin dashboard."""
     import html
@@ -161,6 +165,21 @@ def build_site(template, spec, logos, build_info, en, bundles):
     for old in i18n_dir.glob("*.json"):
         if old.stem not in bundles:
             old.unlink()
+    # Link previews and search results per language: the Worker puts these into the page head for ?lang= links
+    n_per_voter = 16
+    meta_i18n = {}
+    for lang, b in bundles.items():
+        ui = b["ui"]
+        if not all(k in ui for k in ("setup_title", "setup_lede_cands", "setup_how")):
+            continue
+        n = str(n_per_voter).translate(str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")) if lang == "fa" else str(n_per_voter)
+        meta_i18n[lang] = {
+            "title": "BC Vote Helper 2026: " + ui["setup_title"],
+            "desc": ui["setup_lede_cands"].replace("{n}", n) + ("" if lang.startswith("zh") else " ") + ui["setup_how"],
+            "locale": OG_LOCALES.get(lang, ""),
+            "dir": "rtl" if lang in RTL_LANGS else "ltr",
+        }
+    (SITE_DIR / "src" / "meta_i18n.json").write_text(json.dumps(meta_i18n, ensure_ascii=False, indent=0), encoding="utf-8", newline="\n")
     info = dict(build_info, collect=True, langs=list(bundles), i18n_base="/i18n/", i18n_v=versions)
     party_ids = [p["id"] for p in spec["parties"]]
     body = fill(template, spec, logos, info, en, {}, noscript_html(en, bundles))
@@ -191,6 +210,8 @@ def build_site(template, spec, logos, build_info, en, bundles):
         '<meta property="og:type" content="website">'
         f'<meta property="og:url" content="{SITE_URL}">'
         f'<link rel="canonical" href="{SITE_URL}">'
+        + "".join(f'<link rel="alternate" hreflang="{l}" href="{SITE_URL}?lang={l}">' for l in ["en", *bundles])
+        + f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}">'
         '<meta property="og:site_name" content="BC Vote Helper">'
         '<meta property="og:locale" content="en_CA">'
         f'<meta property="og:image" content="{SITE_URL}og.png">'

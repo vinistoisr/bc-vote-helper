@@ -25,7 +25,7 @@
 ],
 "agree_kid_mostly": [
 "56a6fa8b54",
-"多數人同意"
+"多數人答案一樣"
 ],
 "agree_kid_na": [
 "7600f8c6fe",
@@ -37,7 +37,7 @@
 ],
 "agree_mostly": [
 "56a6fa8b54",
-"大多數同意"
+"多數人答案相同"
 ],
 "agree_na": [
 "7600f8c6fe",
@@ -73,11 +73,11 @@
 ],
 "agree_sum_mostly_one": [
 "b58ffa59c9",
-"{n}條問題大多數同意"
+"{n}條問題上多數人的答案相同"
 ],
 "agree_sum_mostly_other": [
 "27f2d49ce4",
-"{n}條問題大多數同意"
+"{n}條問題上多數人的答案相同"
 ],
 "agree_sum_na_one": [
 "6aa2b0a22e",
@@ -413,7 +413,7 @@
 ],
 "drv_intro_kid": [
 "0670d3ce81",
-"這些答案令你更接近{top}而不是{second}。"
+"這些答案讓你跟{top}的接近程度，比跟{second}更高。"
 ],
 "drv_line": [
 "06120bda56",
@@ -421,11 +421,11 @@
 ],
 "drv_line_kid_first": [
 "b8f6db202f",
-"這個答案令你最傾向{top}，並遠離{second}。"
+"這個答案讓你更接近{top}、更遠離{second}，影響比其他答案都大。"
 ],
 "drv_line_kid_more": [
 "ec212aab23",
-"這個答案也令你更接近{top}而不是{second}。"
+"這個答案也讓你跟{top}的接近程度，比跟{second}更高。"
 ],
 "drv_none": [
 "4b307306ac",
@@ -955,6 +955,10 @@
 "92adf70d5a",
 "同一畫面，每個人都回答每條問題。"
 ],
+"month_names": [
+"6ab4d1b05f",
+"1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+],
 "name_party": [
 "cf84cf0b34",
 "{name}（{party}）"
@@ -1023,6 +1027,18 @@
 "e082504349",
 "{count}個政黨"
 ],
+"party_christian_heritage": [
+"fd3de66c2c",
+"卑詩基督教傳統黨"
+],
+"party_communist": [
+"c7c41d4170",
+"卑詩共產黨"
+],
+"party_freedom": [
+"862b58255c",
+"Freedom Party"
+],
 "party_incumbent": [
 "f9bdd6e82a",
 "{party}，現任議員"
@@ -1031,9 +1047,29 @@
 "834ee945d7",
 "{party}，現任省議員"
 ],
+"party_liberal": [
+"caed0cfb85",
+"卑詩自由黨"
+],
+"party_libertarian": [
+"af24b58669",
+"卑詩自由意志黨"
+],
 "party_meta": [
 "235fb1b0c6",
 "黨魁：{leader}。{candidates}名候選人。解散議會時佔{seats}席。"
+],
+"party_other": [
+"6e6a6f2086",
+"其他"
+],
+"party_unaffiliated": [
+"a30b02930e",
+"無黨派"
+],
+"party_united": [
+"e9d9681a54",
+"卑詩聯合黨"
 ],
 "past_results": [
 "860762937d",

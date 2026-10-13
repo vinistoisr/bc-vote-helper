@@ -4,8 +4,8 @@
 
 Reads i18n/out/<lang>/NN.json (spec chunks) and i18n/out/<lang>/ui.json (UI strings), skips any file that
 fails i18n_check.py, and writes i18n/<lang>.spec.json and i18n/<lang>.ui.json as {key: [src_hash, text]}.
-The hash is taken from the CURRENT English, so run i18n_strings.py extract first and re-chunk only when the
-English changes. Existing entries for keys not in this run's files are kept.
+The hash is taken from the English in the chunk the translator worked from, so a translation of text that has
+changed since stays stale (and shows English) until it is translated again. Existing entries for keys not in this run's files are kept.
 """
 import json
 import pathlib
@@ -36,9 +36,12 @@ def merge(lang):
     for f in sorted(out.glob("[0-9][0-9].json")):
         if not ok(lang, f.stem):
             continue
+        # Fingerprint = the English the translator worked from (the chunk's own copy), not today's English:
+        # a translation of text that has since changed must stay stale until it is translated again.
+        chunk_en = json.loads((I18N / "chunks" / f"{f.stem}.en.json").read_text(encoding="utf-8"))
         for k, t in json.loads(f.read_text(encoding="utf-8")).items():
-            if k in src:
-                have[k] = [h(src[k]), t]
+            if k in src and k in chunk_en:
+                have[k] = [h(chunk_en[k]), t]
                 n += 1
     dest.write_text(json.dumps(have, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
     msg = f"{lang}: spec {n} merged, {len(have)}/{len(src)} in file"

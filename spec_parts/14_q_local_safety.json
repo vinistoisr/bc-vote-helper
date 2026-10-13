@@ -13,7 +13,7 @@
     "context": {
       "1": "Criminals in Surrey have been threatening business owners to get money, sometimes with shootings. The province pays for police and courts. Some parties want a permanent special police unit. Some want many more police across BC. Others want tougher action on repeat offenders.",
       "2": "Since 2025, criminals have threatened many Surrey business owners for money, sometimes with shootings. The province pays for police and courts, while the federal government sets bail rules. A 2023 provincial law made Surrey replace the Mounties with its own city police force, and that switch is still under way.",
-      "3": "Extortion means threatening someone to get money. CentreBC would make the police task force on extortion permanent and add 60 prosecutors and 500 Mounties. The Conservatives would add about 1,000 police and justice staff across BC, but their plan does not mention extortion. The NDP government set up the task force but has made no 2026 pledge. OneBC targets repeat offenders. The Greens have no plan.",
+      "3": "Extortion means threatening someone to get money. CentreBC would make the police task force on extortion permanent and add 60 prosecutors and 500 Mounties. The Conservatives would add nearly 1,000 police and justice staff across BC, but their plan does not mention extortion. The NDP government set up the task force but has made no 2026 pledge. OneBC targets repeat offenders. The Greens have no plan.",
       "4": "Surrey had 133 extortion cases and 49 shots-fired incidents in 2025, and 142 cases and 21 shots-fired incidents in 2026 up to September 28. Police credit steady enforcement for the drop in shootings, but no independent analysis exists. Bill 36, the 2023 law that made Surrey replace the Royal Canadian Mounted Police (RCMP) with its own police service, passed over the city's objection. BC Liberal members, including Doerkson and Sturko, voted against it.",
       "5": "Surrey Police Service (SPS) figures show 9 extortion cases and 2 shots-fired incidents in 2024; 133 cases, 49 shootings and 88 victims in 2025; and 142 cases, 21 shootings, 3 arsons and 76 victims in 2026 up to September 28. An RCMP-led task force of about 40 members has worked since September 2025, and Project E_Pursuance made arrests on October 2. Under Bill 36, the SPS became the police of jurisdiction on November 29, 2024. No completion date is published: the RCMP says November 2026 and the SPS says late 2027."
     },
@@ -59,7 +59,7 @@
           "2": "Keep the task force and community advisory group, finish the switch to Surrey's own police, and seek stricter bail.",
           "3": "Stay the course: keep the task force and advisory group, finish the police switch, and lobby for stricter bail.",
           "4": "Keep the task force, victim fund, advisory group and joint police board, fund the Surrey Police Service to 2029, expand repeat-offender programs, and seek bail reform.",
-          "5": "Keep the task force, victim support and advisory group, let the mayor and minister pick board members, fund the Surrey Police Service at $30 million a year to 2029, and back Bill C-14."
+          "5": "Keep the task force, victim support and advisory group, fill police board vacancies by agreement of the mayor and minister, fund the Surrey Police Service at $30 million a year to 2029, and back Bill C-14."
         },
         "scores": {
           "ndp": 4,
@@ -92,7 +92,7 @@
         "text": {
           "1": "This party set up the special police unit and passed a law making Surrey switch to its own police force.",
           "3": "The NDP passed a law ordering Surrey's police switch, created the task force and an advisory group, replaced its own police board appointees after criticism, and pressed Ottawa on bail. Eby said 'we need better results'. It has no 2026 extortion pledge.",
-          "5": "Bill 36 passed 56-27 in 2023, with Brar voting yes. The government funds the Surrey Police Service at $30 million a year to 2029. It created the Extortion Task Force in September 2025 and $1 million for victim support, replaced four board appointees with picks made by the mayor and minister, and pressed Ottawa for Bill C-14. Eby said 'we need to see more arrests'. It has no 2026 extortion or police commitment. Brar has never broken ranks and has made no extortion statement."
+          "5": "Bill 36 passed 56-27 in 2023, with Brar voting yes. The government funds the Surrey Police Service at $30 million a year to 2029. It created the Extortion Task Force in September 2025 and put $500,000 toward victim support, matched by Ottawa, in November 2025. It did not renew four provincial police board members, appointed five new ones in March 2026, agreed that future vacancies be filled by agreement of the mayor's office and the public safety minister, and pressed Ottawa for Bill C-14. Eby said 'we need to see more arrests'. It has no 2026 extortion or police commitment. Brar has never broken ranks and has made no extortion statement."
         },
         "basis": "record",
         "confidence": "medium",
@@ -116,14 +116,26 @@
           {
             "label": "BC Ballot: Jagrup Brar voting record",
             "url": "https://bcballot.ca/mlas/jagrup-brar/"
+          },
+          {
+            "label": "BC Gov News: five new members appointed to the Surrey Police Board (March 23, 2026)",
+            "url": "https://news.gov.bc.ca/releases/2026PSSG0023-000299"
+          },
+          {
+            "label": "Peace Arch News: five new Surrey police board appointees; vacancies by mayor and minister agreement (March 24, 2026)",
+            "url": "https://peacearchnews.com/2026/03/24/five-new-surrey-police-board-appointees-named/"
+          },
+          {
+            "label": "BC Gov News: trilateral summit, $1 million for extortion victims shared with Ottawa (Nov 28, 2025)",
+            "url": "https://news.gov.bc.ca/stories/trilateral-summit-brings-leaders-together-to-combat-extortion-and-organized-crime"
           }
         ]
       },
       "conservative": {
         "text": {
           "1": "This party wants many more police officers across BC.",
-          "3": "The Conservatives' province-wide plan adds about 1,000 police, prosecutors and court staff and targets the hardest-hit neighbourhoods, but does not mention extortion or the Surrey Police Service. At its Surrey candidate launch the party criticized the NDP on extortion.",
-          "5": "The Safe Streets for BC plan (October 6, 2026) has no extortion item. The party's September 29 Surrey candidate release criticized the NDP on 'extortion and violence against small businesses'. In 2025 it called for a provincial extortion tip line and work with Ottawa. It has no position on the Surrey Police Service. BC Liberal members, including Doerkson, voted against Bill 36. Candidate Purewal has published only party themes."
+          "3": "The Conservatives' province-wide plan adds nearly 1,000 police, prosecutors and court staff and targets the hardest-hit neighbourhoods, but does not mention extortion or the Surrey Police Service. At its Surrey candidate launch the party criticized the NDP on extortion.",
+          "5": "The Safe Streets for BC plan (October 6, 2026) has no extortion item. The party's September 29 Surrey candidate release said small business owners face 'a wave of extortion and violence that has left many afraid to open their doors'. It has no position on the Surrey Police Service. BC Liberal members, including Doerkson, voted against Bill 36. Candidate Purewal has published only party themes."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -139,10 +151,6 @@
           {
             "label": "Conservative Party of BC: Garry Purewal candidate page",
             "url": "https://conservativebc.ca/candidate/garry-purewal/"
-          },
-          {
-            "label": "Conservative Party of BC: 2025 extortion statement",
-            "url": "https://conservativebc.ca/extortion_shooting_in_surrey/"
           }
         ]
       },
@@ -150,18 +158,18 @@
         "text": {
           "1": "This party has no plan on this issue, so it is not scored here.",
           "3": "The Greens have no public safety or extortion position, so they are not scored on this question.",
-          "5": "BC Ballot lists no Green commitment on policing, extortion or the Surrey Police Service, so this question is left out of the Green score. Candidate Binnema has made no local safety statement."
+          "5": "The Greens' platform page lists no commitment on policing, extortion or the Surrey Police Service, so this question is left out of the Green score. Candidate Binnema has made no local safety statement."
         },
         "basis": "platform",
         "confidence": "low",
         "sources": [
           {
-            "label": "BC Ballot: BC Green commitments (no public safety item)",
-            "url": "https://bcballot.ca/platforms/bc-green-party/"
+            "label": "BC Greens: Our Plan (platform topics include no policing or public safety item)",
+            "url": "https://bcgreens.ca/our-plan/"
           },
           {
-            "label": "BC Ballot: Tim Binnema, Surrey-Fleetwood",
-            "url": "https://bcballot.ca/ridings/surrey-fleetwood/tim-binnema/"
+            "label": "BC Greens: Tim Binnema candidate page",
+            "url": "https://bcgreens.ca/candidates/tim-binnema/"
           }
         ],
         "no_position": true
@@ -170,7 +178,7 @@
         "text": {
           "1": "This party would make the special police unit permanent, and add a port crime unit and more prosecutors.",
           "3": "CentreBC's October 10 platform makes the extortion task force permanent with its own budget and adds a 40-officer port team, 60 more Crown prosecutors, doubled repeat-offender enforcement, 500 more provincial Mounties and a bail review with public data. Its 2025 Surrey-only ideas are not in the platform. It says nothing about the Surrey Police Service.",
-          "5": "The platform makes the extortion task force permanent 'so the capacity built in 2025-26 isn't lost'. It adds a 40-officer port team with border services and the RCMP by 2028, 60 Crown prosecutors by 2030/31, doubled repeat-offender enforcement and 100 provincial RCMP officers a year for five years, plus a bail review before 2028. Its November 2025 Surrey plan, with a federal financial crimes cell, small security grants and a 48-hour protection standard, is not repeated. It has no Surrey Police Service position. Sturko is running in Surrey South."
+          "5": "The platform makes the extortion task force permanent 'so the capacity built in 2025-26 isn't lost'. It adds a 40-officer port team with border services and the RCMP by 2028, 60 Crown prosecutors by 2030/31, doubled repeat-offender enforcement and 100 provincial RCMP officers a year for five years, plus a bail review before 2028. Its November 2025 Surrey plan, with a federal financial crimes cell, small security grants and a 48-hour protection standard, is not repeated. It has no Surrey Police Service position. Sturko, running in Surrey South, voted against Bill 36 in 2023."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -190,6 +198,10 @@
           {
             "label": "CentreBC: leader biography",
             "url": "https://www.centrebc.ca/leader/"
+          },
+          {
+            "label": "Votes and Proceedings, October 25, 2023 (Bill 36)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231025.htm"
           }
         ]
       },

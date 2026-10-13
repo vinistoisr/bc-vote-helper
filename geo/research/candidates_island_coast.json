@@ -1500,8 +1500,20 @@
      "name": "Joachim Agou",
      "party": "conservative",
      "incumbent": false,
-     "bio": "Professional engineer and small business owner in defence test and evaluation; interim vice-president of the Victoria Conservative Association. Dropped by the party on Oct. 8 over social media posts.",
+     "bio": "Professional engineer and small business owner in defence test and evaluation. The Conservatives dropped him as their candidate on October 8 over social media posts, and interim leader Lorne Doerkson said he would not sit in the Conservative caucus if elected. Agou says he is running as an independent; Elections BC says his name stays on the ballot as the Conservative candidate because ballots were already printed.",
      "sources": [
+      {
+       "label": "Times Colonist: turfed Conservative candidate to run as independent (Oct 9, 2026)",
+       "url": "https://www.timescolonist.com/2026-bc-votes/turfed-bc-conservative-candidate-to-run-as-independent-in-victoria-beacon-hill-12881081"
+      },
+      {
+       "label": "CBC: Conservatives drop Victoria-Beacon Hill candidate Joachim Agou (Oct 8, 2026)",
+       "url": "https://www.cbc.ca/news/canada/british-columbia/b-c-conservatives-drop-candidate-for-victoria-beacon-hill-after-offensive-social-media-posts-9.7374798"
+      },
+      {
+       "label": "CTV / CP24: Conservative candidate dropped over social media posts (Oct 8, 2026)",
+       "url": "https://www.cp24.com/news/canada/2026/10/08/horrific-racism-bc-conservative-candidate-dropped-over-social-media-posts/"
+      },
       {
        "label": "Elections BC candidate list (2026)",
        "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
@@ -1509,12 +1521,9 @@
       {
        "label": "CHEK News: All Vancouver Island candidates for the 2026 B.C. election",
        "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
-      },
-      {
-       "label": "Daily Hive: B.C. Conservative candidate says he's truly sorry after party removal",
-       "url": "https://dailyhive.com/vancouver/bc-conservative-agou-removal"
       }
-     ]
+     ],
+     "unscored_label": "Conservative on the ballot; dropped by the party Oct 8"
     },
     {
      "name": "Grace Lore",

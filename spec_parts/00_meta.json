@@ -2,13 +2,13 @@
  "meta": {
   "title": "BC Vote Helper 2026",
   "election_date": "2026-10-24",
-  "data_as_of": "2026-10-12",
+  "data_as_of": "2026-10-13",
   "jurisdiction": "British Columbia provincial general election",
   "default_riding": null,
   "disclaimer": {
    "1": "This tool helps you compare. It shows which party's ideas are closest to yours. It does not tell you how to vote. You decide.",
-   "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 12, so check for updates. Party names and logos belong to the parties.",
-   "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 12, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC released a full platform on October 10 with its own costing, not independently checked; the Greens' full platform was still pending; the other parties campaign on rolling announcements without a complete costed platform. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
+   "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 13, so check for updates. Party names and logos belong to the parties.",
+   "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 13, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC released a full platform on October 10 with its own costing, not independently checked; the Greens' full platform was still pending; the other parties campaign on rolling announcements without a complete costed platform. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
   },
   "method_summary": {
    "1": "You pick answers. Each answer is close to some groups and far from others. We add it up and show the closest group.",
@@ -86,7 +86,7 @@
    },
    "record_summary": {
     "3": "The NDP has governed for nine years. It is building the Surrey-Langley SkyTrain and a new Surrey hospital, and it brought in $10-a-day child care, then froze new spaces. It taxed empty homes, ordered Surrey's switch to a city police force and passed the law on Indigenous rights (DRIPA). It later ended the drug decriminalization trial, scrapped the carbon tax on fuel and paused a promised $1,000 rebate. The deficit reached its highest dollar amount ever, and credit agencies lowered BC's rating in 2026.",
-    "5": "Party-line votes: Bill 45 (43-39, 2018), Bill 36 (56-27, 2023), Bills 44 and 46 (2023), Bill 7 (48-44), Bills 14 and 15 (46-46, Speaker's vote, 2025), Bill 3 budget measures (46-42). Reversals: Bill 7 Part 4 withdrawn, $1,000 rebate paused, carbon tax to $0, decriminalization not renewed, witnessed-only safer supply, EV mandate dropped, DRIPA suspension bill withdrawn, vehicle levy ruled out. Budget 2026: lowest bracket 5.06% to 5.60%, indexation frozen 2027-2030. Four downgrades in 2026."
+    "5": "Party-line votes: Bill 45 (43-39, 2018), Bill 36 (56-27, 2023), Bills 44 (housing density) and 46 (development financing) (2023), Bill 7 (48-44), Bills 14 and 15 (46-46, Speaker's vote, 2025), Bill 3 budget measures (46-42). Reversals: Bill 7 Part 4 withdrawn, $1,000 rebate paused, carbon tax to $0, decriminalization not renewed, witnessed-only safer supply, EV mandate dropped, DRIPA suspension bill withdrawn, vehicle levy ruled out. Budget 2026: lowest bracket 5.06% to 5.60%, indexation frozen 2027-2030. Four downgrades in 2026."
    },
    "sources": [
     {
@@ -98,12 +98,24 @@
      "url": "https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf"
     },
     {
-     "label": "BC Ballot tracker, BC NDP commitments",
-     "url": "https://bcballot.ca/platforms/bc-ndp/"
-    },
-    {
      "label": "Votes and Proceedings, May 28, 2025 (Bills 7, 14, 15)",
      "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
+    },
+    {
+     "label": "BC NDP: 20 team-based primary care clinics (Oct 9, 2026)",
+     "url": "https://www.bcndp.ca/releases/ebys-plan-includes-more-doctors-and-nurses-fast-tracking-international-graduates"
+    },
+    {
+     "label": "Daily Hive: Eby grocery price guard on staples (Oct 2, 2026)",
+     "url": "https://dailyhive.com/vancouver/david-eby-grocery-prices-bc"
+    },
+    {
+     "label": "Morningstar DBRS rating report, downgrade April 9, 2026 (gov.bc.ca copy)",
+     "url": "https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/dbrs-rating-report.pdf"
+    },
+    {
+     "label": "Fitch rating report, downgrade to AA- (April 24, 2026, gov.bc.ca copy)",
+     "url": "https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/fitch-rating-report.pdf"
     }
    ]
   },
@@ -118,8 +130,8 @@
    "color_dark_safe": "#7D95E3",
    "text_on_color": "#FFFFFF",
    "logo_file": "logo_conservative.png",
-   "seats_at_dissolution": 28,
-   "seats_note": "28 at dissolution on September 22, 2026 per Wikipedia (secondary; CP24 reported 24 on September 20); 36 after seven CentreBC MLAs and one independent returned when the writ dropped. Won 44 in 2024.",
+   "seats_at_dissolution": 29,
+   "seats_note": "29 in the Legislature's party standings on September 21, 2026, after five MLAs returned (Canadian Press); seven CentreBC MLAs rejoined on September 22, when the election was called. Won 44 in 2024.",
    "candidates_running": 93,
    "one_liner": {
     "1": "The main party trying to replace the government. It wants lower taxes, fewer rules for business and more gas and mining jobs.",
@@ -127,8 +139,8 @@
     "5": "Opposition since 2024 (44 seats). 2026: basic personal amount to $32,000 (about $1,050 each; uncosted; outside estimate $2.5B a year), no new taxes, repeal DRIPA and SOGI 123, end safe supply, mandatory treatment, 250 police, 500 RCMP, 50 prosecutors, double gas output by 2032, 120 Day Permitting Act, ICBC hybrid tort, portable LTC funding. No deficit target or balance date."
    },
    "record_summary": {
-    "3": "Its 2024 calls to end the carbon tax and for mandatory treatment and bail reform preceded NDP action. Opposed nearly all NDP bills. Most MLAs backed first reading of gender identity and Human Rights Code repeal bills, citing courtesy. Many backed DRIPA as BC Liberals. Four leaders since December 2025.",
-    "5": "Nay on Bills 7, 14, 15, 32 (Mental Health Amendment), the Supply Act 2025 and Bill 3 (2026); non-confidence amendment lost 44-48. Yea at first reading on independents' property rights (40-48), gender identity (38-49) and Human Rights Code repeal (37-50) bills. BC Liberals, including Rustad, backed DRIPA (82-0 in committee, 2019). Rustad removed December 2025, then Halford (interim), Findlay (113 days), Doerkson (interim). 2024 pledges (rent rebate, Bill 44 repeal, balance in two terms) dropped."
+    "3": "Its 2024 calls to end the carbon tax and for mandatory treatment and bail reform preceded NDP action. Opposed nearly all NDP bills. Most MLAs backed first reading of gender identity and Human Rights Code repeal bills, citing courtesy. Many backed DRIPA as BC Liberals, then voted for first reading of two bills to repeal it in 2025 and 2026; both were defeated. Three leaders since Rustad resigned in December 2025.",
+    "5": "Nay on Bills 7, 14, 15, 32 (Mental Health Amendment), the Supply Act 2025 and Bill 3 (2026); non-confidence amendment lost 44-48. Yea at first reading on independents' property rights (40-48), gender identity (38-49) and Human Rights Code repeal (37-50) bills. BC Liberals, including Rustad, backed DRIPA (82-0 in committee, 2019); as Conservatives, every Conservative MLA present, including Rustad, Halford and Doerkson, voted yea at first reading on independent Jordan Kealy's DRIPA Statute Repeal Act (lost 43-48, November 19, 2025) and on Halford's DRIPA Repeal Act (lost 44-47, April 22, 2026). Rustad resigned December 4, 2025 after the caucus moved against him, then Halford (interim), Findlay (113 days), Doerkson (interim). 2024 pledges (rent rebate, Bill 44 repeal, balance in two terms) dropped."
    },
    "sources": [
     {
@@ -136,8 +148,12 @@
      "url": "https://conservativebc.ca/plan/"
     },
     {
-     "label": "BC Ballot tracker, Conservative commitments",
-     "url": "https://bcballot.ca/platforms/conservative-party/"
+     "label": "Votes and Proceedings, November 19, 2025 (DRIPA Statute Repeal Act first reading, 43-48)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251119.htm"
+    },
+    {
+     "label": "Votes and Proceedings, April 22, 2026 (DRIPA Repeal Act first reading, 44-47)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm"
     },
     {
      "label": "Votes and Proceedings, February 26, 2026 (Human Rights Code Repeal Act first reading)",
@@ -150,6 +166,14 @@
     {
      "label": "Global News: who are the BC party leaders (Doerkson interim, constitution bars interim leader from permanent post)",
      "url": "https://globalnews.ca/news/12068973/who-are-bc-party-leaders-2026-election/"
+    },
+    {
+     "label": "CFJC / Canadian Press: John Rustad resigns as leader (Dec 4, 2025)",
+     "url": "https://cfjctoday.com/2025/12/04/john-rustad-resigns-as-leader-of-the-b-c-conservatives/"
+    },
+    {
+     "label": "Castanet / Canadian Press: five return to Conservative caucus, party standings (Sept 21, 2026)",
+     "url": "https://www.castanetkamloops.net/news/BC/631916/Five-return-to-B-C-Conservative-caucus-as-early-election-looms"
     }
    ]
   },
@@ -165,8 +189,8 @@
    "text_on_color": "#111111",
    "logo_file": "logo_green.svg",
    "seats_at_dissolution": 2,
-   "candidates_running": 74,
-   "candidates_note": "Sources give 73 or 74.",
+   "candidates_running": 73,
+   "candidates_note": "Elections BC candidate list, October 12, 2026.",
    "one_liner": {
     "1": "A smaller party. It wants to protect nature, tax the richest people more, and spend more on child care, transit and homes.",
     "3": "Two seats. A wealth tax on fortunes over $50 million would fund free child care, free youth and senior transit, and non-market housing. Would strengthen DRIPA and SOGI 123, restore decriminalization, stop new fossil fuel projects. Revenue estimate method unpublished.",
@@ -207,7 +231,7 @@
    "text_on_color": "#FFFFFF",
    "logo_file": "logo_centrebc_site_horizontal.png",
    "seats_at_dissolution": 8,
-   "seats_note": "8 at dissolution per Wikipedia (secondary); 7 returned to the Conservatives when the writ dropped, leaving 1.",
+   "seats_note": "8 when the election was called on September 22, 2026; 7 rejoined the Conservatives the same day, leaving 1 (Canadian Press).",
    "candidates_running": 35,
    "one_liner": {
     "1": "A new party in the political centre. It wants a cost on every promise, a slow return to a balanced budget, and to replace the law on Indigenous rights with treaty deals.",
@@ -215,8 +239,8 @@
     "5": "Registered March 2025; leaders Kirkpatrick, Bernier, Milobar, Sturko (September 2026). Platform October 10 ($13.7B over four years, party costing): first bracket 5.06%, renter's credit $600, balance 2034/35 in law, Independent Budget Officer, 10,000 positions by attrition; repeal DRIPA and s. 8.1 for a treaty law (reverses its August stance); industrial carbon pricing kept, 2030 target reset to 20%; 650 treatment beds, involuntary assessments; 500 RCMP, 60 Crown; ICBC public, rate cap; 20,000 child care spaces, 25,000 seats; Surrey Memorial tower. Silent on SOGI 123, zoning law, safer supply, electoral reform."
    },
    "record_summary": {
-    "3": "No governing record. At the election call, then-leader Milobar and seven of eight MLAs rejoined the Conservatives. Sturko was elected in 2024 as a Conservative on a platform to repeal DRIPA and remove SOGI 123, left that caucus in 2025, and opposed gender identity and Human Rights Code repeal bills.",
-    "5": "Sturko (elected 2022 as BC Liberal; Conservative 2024; removed from caucus September 22, 2025) voted nay at first reading on the Gender Ideology and Child Protection Act and the Human Rights Code Repeal Act (February 2026); chaired the police complaints committee. As MLA she introduced Mental Health Act amendments on family contact before involuntary admission and opposed non-medical safer supply. The October 10 platform supersedes statements by prior leaders Kirkpatrick and Bernier; on DRIPA it reverses Bernier's August 2026 'no repeal' position."
+    "3": "No governing record. At the election call, then-leader Milobar and seven of eight MLAs rejoined the Conservatives. Sturko was elected in 2024 as a Conservative on a platform to repeal DRIPA and remove SOGI 123, left that caucus in 2025, and voted against first reading of gender identity and Human Rights Code repeal bills but for first reading of two bills to repeal DRIPA.",
+    "5": "Sturko (elected 2022 as BC Liberal; Conservative 2024; removed from caucus September 22, 2025) voted nay at first reading on the Gender Ideology and Child Protection Act and the Human Rights Code Repeal Act (February 2026) and yea at first reading on the DRIPA repeal bills (43-48, November 19, 2025; 44-47, April 22, 2026); chaired the police complaints committee. As MLA she introduced Mental Health Act amendments on family contact before involuntary admission and opposed non-medical safer supply. The October 10 platform supersedes statements by prior leaders Kirkpatrick and Bernier; on DRIPA it reverses Bernier's August 2026 'no repeal' position."
    },
    "sources": [
     {
@@ -238,6 +262,14 @@
     {
      "label": "Surrey Now-Leader: Sturko promises manufacturing boost (Oct 9, 2026)",
      "url": "https://surreynowleader.com/2026/10/09/centrebc-leader-promisesmanufacturing-boost"
+    },
+    {
+     "label": "Votes and Proceedings, April 22, 2026 (DRIPA Repeal Act first reading, 44-47)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm"
+    },
+    {
+     "label": "Narcity / Canadian Press: Eby calls election; seven CentreBC MLAs rejoin Conservatives (Sept 22, 2026)",
+     "url": "https://www.narcity.com/b-c-s-eby-calls-provincial-election-for-oct-24"
     }
    ]
   },
@@ -252,17 +284,18 @@
    "color_dark_safe": "#E6C27E",
    "text_on_color": "#111111",
    "logo_file": "logo_onebc.svg",
-   "seats_at_dissolution": 2,
+   "seats_at_dissolution": 1,
+   "seats_note": "Brodie was its only MLA when the election was called; Brent Chapman's September 22 switch was not filed before dissolution, so party standings did not change (Canadian Press).",
    "candidates_running": 34,
-   "candidates_note": "Sources give 33 or 34.",
+   "candidates_note": "Elections BC candidate list, October 12, 2026; some news reports say 33.",
    "one_liner": {
     "1": "A small new party. It wants much lower taxes, fewer rules, and to end some laws it sees as unfair.",
-    "3": "New right-wing party, about 34 candidates. Would cut every tax rate by 25%, balance in four years, repeal DRIPA and SOGI 123, end safe supply and consumption sites, allow private care alongside public, open car insurance to competition. All uncosted.",
+    "3": "New right-wing party, 34 candidates. Would cut every tax rate by 25%, balance in four years, repeal DRIPA and SOGI 123, end safe supply and consumption sites, allow private care alongside public, open car insurance to competition. All uncosted.",
     "5": "Founded 2025 (Brodie, Armstrong). Repeal DRIPA, void UNDRIP, end voluntary land transfers, seek Indian Act repeal; 25% cut to every bracket including corporate; PST down 2 points; balance in four years; end safe supply, consumption sites; involuntary rehab; private care, HPOA repeal; end ICBC monopoly, no-fault; repeal SOGI 123; Parental Bill of Rights; end mail-in and early voting. All uncosted."
    },
    "record_summary": {
     "3": "No governing record. Its MLAs' bills to restrict youth gender transition, ban land acknowledgements and protect property rights were all defeated. Its board removed and reinstated leader Brodie in December 2025. It is standing aside for eight Conservatives who share its SOGI views.",
-    "5": "Private members' bills: puberty blocker and pronoun bill defeated 48-40 before first reading (October 2025); Land Acknowledgement Prohibition Act 88-5 (October 2025); Property Rights Protection Act 40-48 (October 2025); DRIPA repeal bill 44-47 (April 2026, unverified against Hansard). Board removed Brodie December 13, 2025, reinstated December 21. Brent Chapman crossed from the Conservatives September 22, 2026; sources conflict on whether that restored official party status; he is not running. Not running against eight named Conservatives."
+    "5": "Private members' bills by its MLAs: Protecting Minors from Gender Transition Act (Armstrong) defeated 48-40 at first reading (October 8, 2025); Land Acknowledgement Prohibition Act (Brodie) defeated 85-5 at first reading (October 23, 2025); Property Rights Protection Act (Brodie) 40-48 (October 29, 2025). Brodie voted yea on the DRIPA repeal bills moved by independent Jordan Kealy (lost 43-48, November 2025) and Conservative Trevor Halford (lost 44-47, April 2026). The board removed Brodie as leader in December 2025 and she was reinstated December 21. Brodie was its only MLA when the election was called; Brent Chapman announced a move to OneBC on September 22, 2026, but did not file it before dissolution, so party standings did not change (Canadian Press); he is not running. Not running against eight named Conservatives."
    },
    "sources": [
     {
@@ -270,8 +303,12 @@
      "url": "https://1bc.ca/priorities"
     },
     {
-     "label": "Wikipedia: OneBC (secondary)",
-     "url": "https://en.wikipedia.org/wiki/OneBC_(political_party)"
+     "label": "National Newswatch / Canadian Press: Brodie reinstated as OneBC leader (Dec 21, 2025)",
+     "url": "https://nationalnewswatch.com/2025/12/22/dallas-brodie-reinstated-as-leader-of-onebc-party-after-abrupt-removal-this-month"
+    },
+    {
+     "label": "Narcity / Canadian Press: OneBC fails to gain party status before the vote (Sept 24, 2026)",
+     "url": "https://www.narcity.com/onebc-overwhelmed-with-candidate-applications"
     },
     {
      "label": "CTV: OneBC will not run against eight Conservative candidates",
@@ -280,13 +317,25 @@
     {
      "label": "Votes and Proceedings, October 29, 2025 (Property Rights Protection Act)",
      "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251029.htm"
+    },
+    {
+     "label": "Votes and Proceedings, October 8, 2025 (Protecting Minors from Gender Transition Act, 48-40)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251008.htm"
+    },
+    {
+     "label": "Votes and Proceedings, October 23, 2025 (Land Acknowledgement Prohibition Act, 85-5)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251023.htm"
+    },
+    {
+     "label": "Votes and Proceedings, April 22, 2026 (DRIPA Repeal Act first reading, 44-47)",
+     "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm"
     }
    ]
   }
  ],
  "other_parties_note": {
   "3": "Not scored, because they have not published platforms to compare: BC Libertarian (4 candidates), Communist (4), Christian Heritage (3), CanWest (2), Freedom (1), and 14 independent or unaffiliated candidates. They are listed with your riding's candidates when they are on your ballot. BC United is not running.",
-  "5": "Not scored, because no platforms were found: BC Libertarian (4 candidates), Communist Party of BC (4), Christian Heritage Party of BC (3), CanWest Party (2), Freedom Party of BC (1), plus 7 independent and 7 unaffiliated candidates, per the Elections BC candidate list. They appear in the riding section when they are on the voter's ballot. BC United ran no candidates."
+  "5": "Not scored, because no platforms were found: BC Libertarian (4 candidates), Communist Party of BC (4), Christian Heritage Party of BC (3), CanWest Party (2), Freedom Party of BC (1), plus 7 independent and 7 unaffiliated candidates, per the Elections BC candidate list (October 12, 2026; 355 candidates in all). They appear in the riding section when they are on the voter's ballot. BC United ran no candidates."
  },
  "issues": [
   {

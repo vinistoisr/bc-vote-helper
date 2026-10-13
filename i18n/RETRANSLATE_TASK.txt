@@ -1,0 +1,10 @@
+RETRANSLATION TASK (English fixes after a source audit)
+Chunks 90 and 91 hold strings whose English changed (factual corrections) or is new. Translate your chunk
+into your language and write i18n/out/<lang>/NN.json with EXACTLY the same keys.
+- Read i18n/BRIEF.txt fully (including the GENDER rule) and i18n/glossary.<lang>.json first.
+- The previous translation of most keys is in i18n/<lang>.spec.json as {key: [hash, text]}. Use it as a
+  starting point for consistent wording, but the English changed: translate the CURRENT English exactly.
+  Facts, numbers, dates, seat counts and attributions must follow the new English, not the old translation.
+- Natural number forms are fine (10月24日, 13.3億, 133억, 1 050 $, Persian digits for fa); values must match.
+- Validate: python -I i18n_check.py <lang> NN   until 0 errors.
+- Keep helper scripts in your own folder; never a shared merge.py.

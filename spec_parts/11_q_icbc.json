@@ -12,10 +12,10 @@
     },
     "context": {
       "1": "In BC, people hurt in car crashes get set payments for care from ICBC, the public insurer. Most cannot sue in court, which keeps prices lower. Some parties want badly hurt people to be able to sue again. Some want private companies to compete.",
-      "2": "Since 2021, ICBC, the public car insurer, has paid set amounts for care and lost income instead of letting people sue after crashes. ICBC says this saves drivers about $490 a year. Critics say people with the most serious injuries get too little. Some parties want lawsuits back for serious injuries, which others fear would raise prices.",
-      "3": "In 2021 the NDP government brought in a no-fault system, which pays set care and income benefits instead of letting people sue. ICBC says drivers save about $490 a year, and basic rates are frozen. Critics say people with life-changing injuries get too little. No published estimate shows how bringing back lawsuits would change prices.",
-      "4": "Enhanced Care began in May 2021 and replaced most lawsuits with set care and income benefits. ICBC says drivers saved about $490 a year at first renewal, and basic rates are frozen until spring 2027. Critics say people with catastrophic injuries, such as brain and spinal cord injuries, are not supported well enough. No published estimate shows how restoring lawsuits would affect premiums.",
-      "5": "Enhanced Care, in place since May 2021, pays no-fault care-based benefits instead of court awards. ICBC reports an average saving of about $490 (28%) at first renewal and $2.7 billion in rebates, with about $5 billion in claims from before 2021 still to pay. Basic rates are frozen through spring 2027. Critics say support for catastrophic injuries is inadequate. The Conservatives' hybrid proposal is described differently in a September 29 letter and an October 7 party page, and neither gives a premium estimate. The NDP's claim that premiums would double has not been verified."
+      "2": "Since 2021, ICBC, the public car insurer, has paid set amounts for care and lost income instead of letting people sue after crashes. The province says this saves drivers about $500 a year. Critics say people with the most serious injuries get too little. Some parties want lawsuits back for serious injuries, which others fear would raise prices.",
+      "3": "In 2021 the NDP government brought in a no-fault system, which pays set care and income benefits instead of letting people sue. The province says drivers save about $500 a year, and basic rates are frozen. Critics say people with life-changing injuries get too little. No published estimate shows how bringing back lawsuits would change prices.",
+      "4": "Enhanced Care began in May 2021 and replaced most lawsuits with set care and income benefits. The province says basic rates fell by an average of $496, about 28%, and basic rates are frozen until spring 2027. Critics say people with catastrophic injuries, such as brain and spinal cord injuries, are not supported well enough. No published estimate shows how restoring lawsuits would affect premiums.",
+      "5": "Enhanced Care, in place since May 2021, pays no-fault care-based benefits instead of court awards. The province reports an average saving of $496 (about 28%) and about $2.7 billion in rebates, with about $5 billion in claims from before 2021 still to pay. Basic rates are frozen through spring 2027. Critics say support for catastrophic injuries is inadequate. The Conservatives' hybrid proposal is described differently in a September 29 letter and an October 7 party page, and neither gives a premium estimate. The NDP's claim that premiums would double has not been verified."
     },
     "options": [
       {
@@ -92,7 +92,7 @@
         "text": {
           "1": "This party set up care payments without lawsuits and wants to keep prices frozen longer.",
           "3": "The NDP brought in no-fault 'Enhanced Care' in 2021, says the average driver saves about $500 a year, and has frozen basic rates for seven years. It promises to extend the freeze to spring 2030 but has not said what that would cost.",
-          "5": "The NDP brought in Enhanced Care in May 2021 and froze basic rates for seven years through spring 2027. ICBC paid $2.7 billion in rebates and reports an average first-renewal saving of about $490, with about $5 billion in older claims still to pay. On October 8, 2026, the party promised to extend the freeze to spring 2030, with no cost stated. It says the Conservative plan would open private competition and double premiums, a claim that has not been verified."
+          "5": "The NDP brought in Enhanced Care in May 2021 and froze basic rates for seven years through spring 2027. ICBC paid about $2.7 billion in rebates and the province reports an average saving of $496 (about 28%), with about $5 billion in older claims still to pay. On October 8, 2026, the party promised to extend the freeze to spring 2030, with no cost stated. It says the Conservative plan would open private competition and double premiums, a claim that has not been verified."
         },
         "basis": "both",
         "confidence": "high",
@@ -102,11 +102,11 @@
             "url": "https://www.bcndp.ca/releases/eby-freeze-car-insurance-rates-another-three-years"
           },
           {
-            "label": "BC Government: ICBC rate freeze release (2025)",
+            "label": "BC Government: ICBC rate freeze to spring 2027, $496 average saving, $2.7B rebates (Oct 28, 2025)",
             "url": "https://news.gov.bc.ca/releases/2025AG0063-001064"
           },
           {
-            "label": "BC Budget 2025: ICBC service plan (legacy claims)",
+            "label": "ICBC 2025/26 Service Plan (about $5 billion in pre-2021 claims still to settle)",
             "url": "https://bcbudget.gov.bc.ca/2025/sp/pdf/agency/icbc.pdf"
           }
         ]
@@ -115,7 +115,7 @@
         "text": {
           "1": "This party would keep public insurance but let badly hurt people sue, and allow some private competition.",
           "3": "A leaked letter commits the Conservatives to a 'hybrid' law within a year that restores lawsuits for serious injuries. The party's web page keeps ICBC public and caps lawyer fees. The two describe the plan differently, and neither gives a premium estimate.",
-          "5": "A September 29, 2026 letter promised hybrid legislation within a year giving people the 'right to recover for their serious injuries', and CTV reported that private competition and limits on minor injuries were on the table. The October 7 party page caps fees under Law Society limits, says it 'eliminates the overwhelming majority of litigation' and keeps ICBC as a public option. Findlay's own site pledged to repeal no-fault. There is no premium estimate."
+          "5": "A September 29, 2026 letter promised hybrid legislation within a year giving people the 'right to recover for their serious injuries', and said 'everything's on the table', including limits on minor-injury claims, with private competition an option under consideration. The October 7 party page caps fees under Law Society limits, says it 'eliminates the overwhelming majority of litigation' and keeps ICBC as a public option. There is no premium estimate."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -131,6 +131,10 @@
           {
             "label": "Conservative Party of BC: Insurance plan page",
             "url": "https://conservativebc.ca/plan/insurance/"
+          },
+          {
+            "label": "Daily Hive: Conservative ICBC letter, minor-injury limits and private competition (Oct 6, 2026)",
+            "url": "https://dailyhive.com/vancouver/bc-conservatives-icbc-no-fault-insurance-system-changes-platform"
           }
         ]
       },

@@ -12,10 +12,10 @@
     },
     "context": {
       "1": "The United States now charges extra taxes on many goods from BC, and some people have lost their jobs. Parties disagree on how to respond. Ideas include selling more natural gas, buying Canadian-made goods, helping factories, logging more, or moving away from oil and gas.",
-      "2": "BC sells lumber, natural gas, metals and food to other countries, and American tariffs have made many of those sales harder. Sawmill jobs have fallen by about a third since 2017. Parties disagree on the answer: produce more gas and mine more, have government buy Canadian, support factories and trades, move to clean energy, or allow more logging.",
+      "2": "BC sells lumber, natural gas, metals and food to other countries, and American tariffs have made many of those sales harder. Parties disagree on the answer: produce more gas and mine more, have government buy Canadian, support factories and trades, move to clean energy, or allow more logging.",
       "3": "The NDP government would require Canadian-made materials in public projects, double mineral exports and lend money to businesses hurt by tariffs. The Conservatives would double natural gas production and approve big projects within 120 days. CentreBC would support factories and trades training, sell more to countries other than the United States and cut rules. The Greens would allow no new oil and gas projects and stop exports of unprocessed logs. OneBC wants an oil pipeline and more logging.",
       "4": "Employment in BC is down 0.6% so far this year, while exports to countries other than the United States rose 16%. In 2025 the NDP government passed laws to fast-track major projects. The vote was tied, and the Speaker broke the tie in the government's favour, over objections from First Nations. The Conservatives voted against those laws but now propose their own fast-track rules. Both parties take credit for Phase 2 of LNG Canada, a liquefied natural gas (LNG) export project that got the go-ahead in September 2026.",
-      "5": "Budget 2026 assumes US tariffs of 35% on goods not covered by the Canada-United States-Mexico Agreement (CUSMA), 50% on steel, aluminum and copper, and an extra 10% on softwood lumber. Real gross domestic product (GDP) growth of 0.9% is expected in 2026. Unemployment was 6.5% in August, and employment is down 0.6% so far this year. BC sawmill jobs have fallen 32% since 2017, while exports to countries other than the US rose 16%. In May 2025, Bills 14 and 15, which fast-track major projects, passed on a 46-46 tie broken by the Speaker. LNG Canada made its final investment decision on Phase 2 in September 2026, and both main parties claim credit for it."
+      "5": "Budget 2026 assumes US tariffs of 35% on goods not covered by the Canada-United States-Mexico Agreement (CUSMA), 50% on steel, aluminum and copper, and an extra 10% on softwood lumber. Real gross domestic product (GDP) growth of 0.9% is expected in 2026. Unemployment was 6.5% in August, and employment is down 0.6% so far this year. Exports to countries other than the US rose 16%. In May 2025, Bills 14 and 15, which fast-track energy and infrastructure projects, passed on a 46-46 tie broken by the Speaker. LNG Canada made its final investment decision on Phase 2 in September 2026, and both main parties claim credit for it."
     },
     "options": [
       {
@@ -109,7 +109,7 @@
         "text": {
           "1": "This party wants government to buy Canadian, sell more minerals abroad, and lend to businesses hurt by the American taxes.",
           "3": "The NDP promises buy-Canadian rules, doubled exports of critical minerals, more liquefied natural gas and $500 million in loans for small businesses. Its 2025 laws to fast-track projects passed over objections from First Nations and the opposition. Employment fell this year, while exports to countries other than the United States rose 16%.",
-          "5": "The NDP passed Bill 7, its tariff response law, 48-44 in 2025 after the cabinet override power was removed. Bills 14 and 15, which fast-track projects, passed 46-46 on the Speaker's vote; a minister later said the government 'made an error' on consultation. It approved Ksi Lisims. For 2026 it promises buy-Canadian purchasing, double mineral exports, parallel permitting, a $500 million relief fund and a $5,000 youth hiring credit. A gas royalty miscalculation cost the province $306 million."
+          "5": "The NDP passed Bill 7, its tariff response law, 48-44 in 2025 after the cabinet override power was removed. Bills 14 and 15, which fast-track projects, passed 46-46 on the Speaker's vote; a minister later said the government 'made an error' on consultation. It approved Ksi Lisims. For 2026 it promises buy-Canadian purchasing, double mineral exports, parallel permitting, a $500 million relief fund and a $5,000 youth hiring credit. Errors in the gas revenue forecast overstated this year's expected royalties by $306 million and about $1.46 billion over five years."
         },
         "basis": "both",
         "confidence": "high",
@@ -123,16 +123,32 @@
             "url": "https://www2.gov.bc.ca/gov/content/employment-business/look-west-strategy/delivering-major-projects-faster"
           },
           {
-            "label": "BC Ballot: BC NDP commitments (procurement, minerals, relief fund)",
-            "url": "https://bcballot.ca/platforms/bc-ndp/"
-          },
-          {
             "label": "Votes and Proceedings, May 28, 2025 (Bills 7, 14, 15)",
             "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
           },
           {
             "label": "CTV / CP: LNG Canada Phase 2 and the campaign",
             "url": "https://www.ctvnews.ca/vancouver/article/ebys-election-campaign-gets-lift-from-lng-canada-announcement/"
+          },
+          {
+            "label": "BC NDP: Small Business Tariff & Wildfire Relief Fund and Youth Hiring Tax Credit (Oct 7, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-support-small-businesses-through-trade-war"
+          },
+          {
+            "label": "BC NDP: Built-in-BC and Canada buying rules (Sept 24, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-pledges-new-built-bc-and-canada-buying-rules"
+          },
+          {
+            "label": "BC NDP: double critical mineral exports, concurrent permits (Sept 28, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-double-critical-mineral-exports-expand-port-prince-rupert"
+          },
+          {
+            "label": "BC Government: Ksi Lisims LNG environmental assessment certificate (Sept 15, 2025)",
+            "url": "https://news.gov.bc.ca/releases/2025ENV0032-000878"
+          },
+          {
+            "label": "CP24 / Canadian Press: $1.46B in gas revenue forecast errors (Sept 1, 2026)",
+            "url": "https://www.cp24.com/news/canada/2026/09/01/bc-confirms-146b-in-gas-revenue-forecast-errors/"
           }
         ]
       },
@@ -140,7 +156,7 @@
         "text": {
           "1": "This party would sell much more natural gas abroad and approve big projects faster with fewer rules.",
           "3": "The Conservatives would double gas production, approve projects over $250 million within 120 days, cut red tape and pause the provincial sales tax on business equipment. They voted against the NDP's fast-track laws but propose their own. They have no forestry plan.",
-          "5": "The October 2026 plan doubles gas production by 2032 and triples it by 2035. A 120 Day Permitting Act would cover projects over $250 million. Red tape would return to 2017 levels, with two rules removed for each new one, and equipment and software would be exempt from provincial sales tax for three years. The party welcomes the Pacific Link pipeline. It voted against Bills 7, 14 and 15, calling them 'undemocratic', and opposed the tanker ban."
+          "5": "The September 29, 2026 plan would more than double natural gas production by 2032 and more than triple it by 2035. A 120 Day Permitting Act would cover projects over $250 million. Red tape would return to 2017 levels by the end of a first term under a one-in, two-out law, and machinery, equipment and business software would be exempt from provincial sales tax for three years. On October 10 it proposed a First Job Tax Credit for businesses that hire young people, with no amount stated. The party welcomes the Pacific Link pipeline. It voted against Bills 7, 14 and 15, and called Bill 7 'the most undemocratic, power-grabbing legislation in history'."
         },
         "basis": "both",
         "confidence": "high",
@@ -154,8 +170,24 @@
             "url": "https://conservativebc.ca/supercharge-british-columbias-economy/"
           },
           {
-            "label": "Votes and Proceedings, May 28, 2025 (Conservative nay on Bills 14 and 15)",
+            "label": "Votes and Proceedings, May 28, 2025 (Conservative nay on Bills 7, 14 and 15)",
             "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
+          },
+          {
+            "label": "Conservative Party of BC: welcome LNG Canada Phase 2 (Sept 29, 2026)",
+            "url": "https://conservativebc.ca/bc-conservatives-welcome-lng-canada-phase-2-we-will-treat-energy-as-an-urgent-mission/"
+          },
+          {
+            "label": "Conservative Party of BC: First Job Tax Credit (Oct 10, 2026)",
+            "url": "https://conservativebc.ca/conservatives-will-give-young-british-columbians-a-reason-to-stay/"
+          },
+          {
+            "label": "BOE Report / Canadian Press: Doerkson welcomes Pacific Link pipeline (Oct 1, 2026)",
+            "url": "https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/"
+          },
+          {
+            "label": "CFJC Today / Canadian Press: Eby walks back tariff bill; Conservatives call it undemocratic (Mar 28, 2025)",
+            "url": "https://cfjctoday.com/2025/03/28/b-c-premier-david-eby-walking-back-tariff-bill-after-anxiety-from-stakeholders/"
           }
         ]
       },
@@ -163,7 +195,7 @@
         "text": {
           "1": "This party would stop new oil and gas projects, charge resource companies more, and grow clean energy.",
           "3": "The Greens would stop new fossil fuel development, end exports of unprocessed logs, take half of oil and gas profits in royalties and tax windfall profits. They call this their 'economic direction', not a full platform.",
-          "5": "The Greens' Economic Vision rejects the Working Forest Model's 45 million cubic metre harvest, ends raw log exports and sends 30 to 50% of wood fibre to value-added uses. It adds Buy BC purchasing, a single front door for approvals, a windfall tax, a minimum corporate tax, royalties of 50% of net profits and an end to fossil fuel subsidies. The Greens voted against Bills 14 and 15 and the final form of Bill 7."
+          "5": "The Greens' Economic Vision and October forestry brief reject the Working Forest Model's 45 million cubic metre harvest target, end raw log exports and aim to direct 30 to 50% of available wood to higher-value manufacturing. They add Buy BC purchasing, a single front door for approvals, a windfall tax, a minimum corporate tax, royalties of 50% of net profits and an end to fossil fuel subsidies. The Greens voted against Bills 14 and 15. Both Green MLAs voted for the final Bill 7 after its cabinet override part was withdrawn."
         },
         "basis": "platform",
         "confidence": "high",
@@ -179,6 +211,18 @@
           {
             "label": "BC Greens: support renewables, not Bill 14 as drafted",
             "url": "https://bcgreens.ca/bc-greens-support-renewable-energy-not-bill-14-as-currently-drafted/"
+          },
+          {
+            "label": "BC Greens: Forestry Policy Brief (Oct 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Forestry-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: Climate, LNG and Royalties Policy Brief (Oct 10, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "Votes and Proceedings, May 28, 2025 (Bills 7, 14, 15)",
+            "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm"
           }
         ]
       },
@@ -186,7 +230,7 @@
         "text": {
           "1": "This party wants to help factories and workers, sell to more countries, and cut rules.",
           "3": "CentreBC's October 10 platform doubles the Manufacturing Jobs Fund to $60 million, adds $60 million for trades training, aims to double exports outside the United States by 2033, halves the Employer Health Tax for tariff-hit sectors and cuts regulations 25%. If savings fall short, the fund stays at $30 million. It backs liquefied natural gas with First Nations partners.",
-          "5": "The platform sets one review per project with 12-month provincial decisions and 10 mine decisions by 2030. The Manufacturing Jobs Fund rises to $60 million a year, though a fallback list holds it at $30 million. It adds 3,500 trades seats, aims to double non-US exports to $62 billion by 2033, halves the Employer Health Tax for tariff-hit sectors and cuts regulations 25%. It backs net-zero-ready liquefied natural gas with First Nations partners, sets no gas target and supports a pipeline only under its July 2026 conditions."
+          "5": "The platform sets one review per project with 12-month provincial decisions and 10 mine decisions by 2030. The Manufacturing Jobs Fund rises to $60 million a year, though a fallback list holds it at $30 million. It adds 3,500 trades seats, aims to double non-US exports to $62 billion by 2033, halves the Employer Health Tax for tariff-hit sectors and cuts regulations 25%. It backs net-zero-ready liquefied natural gas with First Nations partners, and sets no gas target. Separately, it supports a pipeline only under five conditions it set in 2025, including Indigenous participation and safety and climate guardrails."
         },
         "basis": "platform",
         "confidence": "high",
@@ -198,6 +242,10 @@
           {
             "label": "Surrey Now-Leader: Sturko promises manufacturing boost (Oct 9, 2026)",
             "url": "https://surreynowleader.com/2026/10/09/centrebc-leader-promisesmanufacturing-boost"
+          },
+          {
+            "label": "CentreBC: pipeline conditions (Jul 7, 2026)",
+            "url": "https://www.centrebc.ca/news/ottawa-and-bc-just-moved-toward-centrebc-pipeline-conditions/"
           }
         ]
       },
@@ -205,7 +253,7 @@
         "text": {
           "1": "This party wants more logging, an oil pipeline, and closer ties with other western provinces.",
           "3": "OneBC would raise the allowable timber cut, lower stumpage fees (what companies pay to log public forests), approve an oil pipeline to Prince Rupert or Kitimat, audit 176,000 regulations and form a Western Canada alliance, along with 25% tax cuts. It has no plan to respond to tariffs.",
-          "5": "OneBC would raise the annual allowable cut, reduce stumpage fees, speed up forestry permits, back a pipeline to Prince Rupert or Kitimat, audit 176,000 regulations and form a Western Canada Alliance. It also wants Quebec-style immigration powers and to 'end mass immigration into BC' (June 2025 release), plus 25% income tax bracket cuts and a provincial sales tax 2 points lower. It has no tariff-response program and no costing."
+          "5": "OneBC would raise the annual allowable cut, reduce stumpage fees, speed up forestry permits, back a pipeline to Prince Rupert or Kitimat, audit 176,000 regulations and form a Western Canada Alliance. It also promises 25% tax cuts for every tax bracket, including corporate, and 2% off the provincial sales tax. It has no tariff-response program and no costing."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -213,14 +261,10 @@
           {
             "label": "OneBC priorities",
             "url": "https://1bc.ca/priorities"
-          },
-          {
-            "label": "Wikipedia: OneBC (secondary, 2025 releases)",
-            "url": "https://en.wikipedia.org/wiki/OneBC_(political_party)"
           }
         ]
       }
     },
-    "scoring_rationale": "a = Conservative (4); OneBC 3 (shares the resource-first stance, its own items are in e); CentreBC 2 (12-month review deadline, 25% fewer regulations and machinery PST relief, but no gas production target, the option's lead item); NDP 2 (its record is the same direction: LNG expansion toward about 48 Mtpa, fast-track Bills 14 and 15 and permit times cut over 60%, but through conditions and procurement rules the Conservatives reject, and no red-tape rollback). b = NDP (4), scored on both Bill 7 and the 2026 package; CentreBC 3 (buy-Canadian 60%, Canadian steel, 10 mines, net-zero-ready LNG, EHT relief for tariff-hit firms; no $500M loan fund); Green 1 (Buy BC yes, LNG and fast-track no); Conservative 1 (LNG yes, procurement penalties and Bill 7 no). c = CentreBC's platform (4): manufacturing fund, trades, export diversification, EHT relief, deregulation; NDP 2 (manufacturing tax credit, trades, trade diversification), Conservative 2 (deregulation and machinery PST), Green 2 (value-added wood, small business); OneBC 1. Option c was rewritten on October 10 to the platform text; other parties' scores on it were kept. d = Green alone (4); every other party supports LNG growth, and CentreBC's 45 Mm3 harvest goal, mines and conditional pipeline stance conflict directly with 'no new fossil fuel projects' (0), while the Greens share the value-added wood element of CentreBC's option (2); that asymmetry is deliberate. e = OneBC (4); Conservative 2 (pipeline support, no cut or stumpage pledge); CentreBC 2 (45 Mm3 harvest target and Working Forest zones; pipeline only with the tanker ban, no stumpage pledge). Costing note: the Manufacturing Jobs Fund is $60M in the pledge and $30M in the platform's savings-fallback list. Pipeline support itself is scored in the climate question, so it is not repeated in option a."
+    "scoring_rationale": "a = Conservative (4); OneBC 3 (shares the resource-first stance, its own items are in e); CentreBC 2 (12-month review deadline, 25% fewer regulations and machinery PST relief, but no gas production target, the option's lead item); NDP 2 (its record is the same direction: LNG expansion toward about 48 Mtpa, fast-track Bills 14 and 15 and permit times cut over 60%, but through conditions and procurement rules the Conservatives reject, and no red-tape rollback). b = NDP (4), scored on both Bill 7 and the 2026 package; CentreBC 3 (buy-Canadian 60%, Canadian steel, 10 mines, net-zero-ready LNG, EHT relief for tariff-hit firms; no $500M loan fund); Green 1 (Buy BC yes and voted for the final Bill 7, but LNG and fast-track no); Conservative 1 (LNG yes, procurement penalties and Bill 7 no). c = CentreBC's platform (4): manufacturing fund, trades, export diversification, EHT relief, deregulation; NDP 2 (manufacturing tax credit, trades, trade diversification), Conservative 2 (deregulation and machinery PST), Green 2 (value-added wood, small business); OneBC 1. Option c was rewritten on October 10 to the platform text; other parties' scores on it were kept. d = Green alone (4); every other party supports LNG growth, and CentreBC's 45 Mm3 harvest goal, mines and conditional pipeline stance conflict directly with 'no new fossil fuel projects' (0), while the Greens share the value-added wood element of CentreBC's option (2); that asymmetry is deliberate. e = OneBC (4); Conservative 2 (pipeline support, no cut or stumpage pledge); CentreBC 2 (45 Mm3 harvest target and Working Forest zones; pipeline only under its five conditions, no stumpage pledge). Costing note: the Manufacturing Jobs Fund is $60M in the pledge and $30M in the platform's savings-fallback list. Pipeline support itself is scored in the climate question, so it is not repeated in option a."
   }
 ]

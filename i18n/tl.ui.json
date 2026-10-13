@@ -197,11 +197,11 @@
 ],
 "cand_lead_generic": [
 "aaf83a8eba",
-"Binibigyan ng iskor ang mga kandidato batay sa mga posisyon ng kanilang partido, at doble ang bilang ng mga lokal na tanong para sa iyong rehiyon."
+"Binibigyan ng iskor ang mga kandidato batay sa mga posisyon ng kanilang partido, at doble ang bigat sa iskor ng mga lokal na tanong para sa iyong rehiyon."
 ],
 "cand_lead_inc": [
 "c6e90d8aad",
-"Walang kandidato sa {riding} na naglathala ng posisyong iba sa posisyon ng kanilang partido, at ang kasalukuyang nakaupo na si {name} ay bumoto kasama ng kanyang partido sa lahat ng 105 nakatalang botohan."
+"Walang kandidato sa {riding} na naglathala ng posisyong iba sa posisyon ng kanilang partido, at ang kasalukuyang nakaupo na si {name} ay bumoto nang kapareho ng kanyang partido sa lahat ng 105 botohang nakatala."
 ],
 "cand_lead_kid": [
 "6fe5520089",
@@ -209,7 +209,7 @@
 ],
 "cand_lead_kid_inc": [
 "6291705a83",
-"Laging bumoto ang kasalukuyang MLA na si {name} kasama ng kanyang partido."
+"Laging kapareho ng boto ng kanyang partido ang boto ng kasalukuyang MLA na si {name}."
 ],
 "cand_list_missing_long": [
 "e26233e19b",
@@ -225,11 +225,11 @@
 ],
 "cand_note_one": [
 "50d6580cf4",
-"Ginagamit ng mga kandidato ang mga posisyon ng kanilang partido, at doble ang bilang ng {count} lokal na tanong para sa {region}."
+"Ginagamit ng mga kandidato ang mga posisyon ng kanilang partido, at doble ang bigat sa iskor ng {count} lokal na tanong para sa {region}."
 ],
 "cand_note_other": [
 "7b5b531f9e",
-"Ginagamit ng mga kandidato ang mga posisyon ng kanilang partido, at doble ang bilang ng {count} lokal na tanong para sa {region}."
+"Ginagamit ng mga kandidato ang mga posisyon ng kanilang partido, at doble ang bigat sa iskor ng {count} lokal na tanong para sa {region}."
 ],
 "cand_same_as_party_kid": [
 "f49b646d28",
@@ -237,7 +237,7 @@
 ],
 "cand_scoring_generic": [
 "9748bd2f39",
-"Binibigyan ng iskor ang mga kandidato batay sa mga posisyon ng kanilang partido, at doble ang bilang ng mga lokal na tanong para sa iyong rehiyon. Nakalista ang mga independiyente at maliliit na partido pero walang iskor dahil wala silang inilathalang plataporma na maikukumpara namin."
+"Binibigyan ng iskor ang mga kandidato batay sa mga posisyon ng kanilang partido, at doble ang bigat sa iskor ng mga lokal na tanong para sa iyong rehiyon. Nakalista ang mga independiyente at maliliit na partido pero walang iskor dahil wala silang inilathalang plataporma na maikukumpara namin."
 ],
 "candidates": [
 "b5bf8067cf",
@@ -305,7 +305,7 @@
 ],
 "close_banner": [
 "e4c643e87d",
-"Nasa loob ng {points} puntos ang {names} sa isa't isa, kaya walang iisang malinaw na tugma."
+"Hindi lalampas sa {points} puntos ang agwat ng mga iskor ng {names}, kaya walang iisang malinaw na tugma."
 ],
 "close_banner_kid": [
 "89da102b6c",
@@ -401,11 +401,11 @@
 ],
 "drv_intro_close": [
 "4dc0d0e04a",
-"Nasa loob ng {points} puntos ang {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa."
+"Hindi lalampas sa {points} puntos ang agwat ng mga iskor ng {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa."
 ],
 "drv_intro_close_family": [
 "6350992e81",
-"Nasa loob ng {points} puntos ang {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa, batay sa average ng buong pamilya."
+"Hindi lalampas sa {points} puntos ang agwat ng mga iskor ng {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa, batay sa average ng buong pamilya."
 ],
 "drv_intro_family": [
 "01c9111322",
@@ -881,11 +881,11 @@
 ],
 "local_weight_one": [
 "dd171abee2",
-"Sa iskor ng lokal na kandidato, doble ang bilang ng {count} lokal na tanong para sa {region}."
+"Sa iskor ng lokal na kandidato, doble ang bigat ng {count} lokal na tanong para sa {region}."
 ],
 "local_weight_other": [
 "6f07f77710",
-"Sa iskor ng lokal na kandidato, doble ang bilang ng {count} lokal na tanong para sa {region}."
+"Sa iskor ng lokal na kandidato, doble ang bigat ng {count} lokal na tanong para sa {region}."
 ],
 "logo_alt": [
 "787f5ccbce",
@@ -955,6 +955,10 @@
 "92adf70d5a",
 "Iisang screen. Sasagutin ng lahat ang bawat tanong."
 ],
+"month_names": [
+"6ab4d1b05f",
+"Enero,Pebrero,Marso,Abril,Mayo,Hunyo,Hulyo,Agosto,Setyembre,Oktubre,Nobyembre,Disyembre"
+],
 "name_party": [
 "cf84cf0b34",
 "{name} ({party})"
@@ -1023,6 +1027,18 @@
 "e082504349",
 "Ang {count} partido"
 ],
+"party_christian_heritage": [
+"fd3de66c2c",
+"Christian Heritage"
+],
+"party_communist": [
+"c7c41d4170",
+"Communist"
+],
+"party_freedom": [
+"862b58255c",
+"Freedom Party"
+],
 "party_incumbent": [
 "f9bdd6e82a",
 "{party}, kasalukuyang nakaupo"
@@ -1031,9 +1047,29 @@
 "834ee945d7",
 "{party}, kasalukuyang nakaupong MLA"
 ],
+"party_liberal": [
+"caed0cfb85",
+"BC Liberal"
+],
+"party_libertarian": [
+"af24b58669",
+"BC Libertarian"
+],
 "party_meta": [
 "235fb1b0c6",
 "Lider: {leader}. {candidates} kandidato. {seats} puwesto noong pagbuwag ng Lehislatura."
+],
+"party_other": [
+"6e6a6f2086",
+"Iba pa"
+],
+"party_unaffiliated": [
+"a30b02930e",
+"Walang kaanib na partido"
+],
+"party_united": [
+"e9d9681a54",
+"BC United"
 ],
 "past_results": [
 "860762937d",
@@ -1085,7 +1121,7 @@
 ],
 "pdf_close_banner": [
 "b5f0b99fa7",
-"Dikit na resulta: nasa loob ng {points} puntos ang {names}, kaya walang iisang malinaw na tugma."
+"Dikit na resulta: hindi lalampas sa {points} puntos ang agwat ng mga iskor ng {names}, kaya walang iisang malinaw na tugma."
 ],
 "pdf_close_mark": [
 "93c66bbed1",
@@ -1117,11 +1153,11 @@
 ],
 "pdf_drv_close": [
 "8890a627e7",
-"Nasa loob ng {points} puntos ang {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa, sa percentage points."
+"Hindi lalampas sa {points} puntos ang agwat ng mga iskor ng {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa, sa percentage points."
 ],
 "pdf_drv_close_family": [
 "6f083fd400",
-"Nasa loob ng {points} puntos ang {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa, sa percentage points, batay sa average ng buong pamilya."
+"Hindi lalampas sa {points} puntos ang agwat ng mga iskor ng {top} at {second}. Ang tatlong tanong na ito ang pinakanaglayo sa kanila sa isa't isa, sa percentage points, batay sa average ng buong pamilya."
 ],
 "pdf_drv_line": [
 "1525711b4b",
@@ -1689,11 +1725,11 @@
 ],
 "text_cand_note_one": [
 "6d0c1879cd",
-"gamit ang mga posisyon ng kanilang partido, at doble ang bilang ng {count} lokal na tanong para sa {region}"
+"gamit ang mga posisyon ng kanilang partido, at doble ang bigat sa iskor ng {count} lokal na tanong para sa {region}"
 ],
 "text_cand_note_other": [
 "ba2f3e1e79",
-"gamit ang mga posisyon ng kanilang partido, at doble ang bilang ng {count} lokal na tanong para sa {region}"
+"gamit ang mga posisyon ng kanilang partido, at doble ang bigat sa iskor ng {count} lokal na tanong para sa {region}"
 ],
 "text_cands_head": [
 "ab04ddd64a",
@@ -1705,7 +1741,7 @@
 ],
 "text_close": [
 "9c8f4f2565",
-"{who}: dikit na resulta sa pagitan ng {list} (nasa loob ng {points} puntos)."
+"{who}: dikit na resulta sa pagitan ng {list} (hindi lalampas sa {points} puntos ang agwat ng mga iskor)."
 ],
 "text_close_cands": [
 "367e3e97e4",

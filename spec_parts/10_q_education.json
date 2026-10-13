@@ -14,18 +14,18 @@
       "1": "Child care costs families a lot. The province pays for some low-cost spots, but it has paused adding new ones to save money. Some parties want many more low-cost spots or free child care. Others want schools to focus on reading, math and testing.",
       "2": "Child care can cost families as much as rent. About one in ten licensed spaces costs $10 a day, and the province has paused new $10-a-day spaces for three years to save money. Some fast-growing school districts still rely on portable classrooms. Parties disagree on whether to expand child care, focus schools on basics, or hold spending.",
       "3": "About 10% of licensed child care spaces cost $10 a day. In 2026 the NDP government paused new $10-a-day spaces for three years. Some fast-growing school districts still use many portable classrooms. The Greens want free child care by 2031 and CentreBC wants 20,000 more $10-a-day spaces. The Conservatives and OneBC focus on testing, grades and the basics.",
-      "4": "About 10% of licensed child care spaces cost $10 a day. In February 2026 the NDP government paused new $10-a-day enrolment for three years to fix the program's funding model. The Affordable Child Care Benefit still helps families with incomes up to $111,000. Budget 2026 set school building spending at $18.7 billion, below the $20.4 billion forecast earlier, while fast-growing districts still use portable classrooms.",
-      "5": "New $10-a-day enrolment has been frozen for three years since February 2026, with $330 million to stabilize the program. There are about 14,000 to 17,500 such spaces against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 set school capital spending at $18.7 billion, below the $20.4 billion forecast. The Greens' expansion has no published cost. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
+      "4": "About 10% of licensed child care spaces cost $10 a day. In February 2026 the NDP government paused new $10-a-day enrolment for three years to fix the program's funding model. The Affordable Child Care Benefit still helps families with incomes up to $111,000. Fast-growing school districts still use portable classrooms.",
+      "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. The Greens' expansion has no published cost. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "1": "Test students, give parents more say, ban teacher strikes, and don't expand child care.",
-          "2": "Bring in province-wide tests, pass a parents' rights law, ban teacher strikes, and don't expand child care.",
-          "3": "Bring in standardized tests, a parental rights law and a teacher strike ban, with no child care expansion.",
-          "4": "Bring in province-wide standardized testing, a Parental Bill of Rights and a ban on teacher strikes, with no child care expansion.",
-          "5": "Bring in standardized provincial testing, a Parental Bill of Rights in law and a legal ban on teacher strikes, with no expansion of ChildCareBC."
+          "1": "Test students in reading, writing and math, give parents more say, and don't expand child care.",
+          "2": "Bring in province-wide tests in reading, writing and math, pass a parents' rights law, and don't expand child care.",
+          "3": "Bring in standardized tests in reading, writing and math and a parental rights law, with no child care expansion.",
+          "4": "Bring in province-wide standardized testing in reading, writing and math and a Parental Bill of Rights, with no child care expansion.",
+          "5": "Bring in standardized provincial testing focused on reading, writing and mathematics, a Parental Bill of Rights guaranteeing informed consent and classroom transparency, and no expansion of ChildCareBC."
         },
         "scores": {
           "ndp": 0,
@@ -59,7 +59,7 @@
           "2": "Keep existing $10-a-day spaces, pause new ones for three years, and keep building schools.",
           "3": "Protect existing $10-a-day spaces, pause new ones for three years, and keep building schools.",
           "4": "Protect families already in $10-a-day spaces, pause new enrolment for three years to fix funding, and build schools within a smaller budget.",
-          "5": "Stabilize ChildCareBC for three years with no new $10-a-day sites, keep the Affordable Child Care Benefit, keep school building within $18.7 billion, and make no new 2026 pledge."
+          "5": "Stabilize ChildCareBC for three years with no new $10-a-day sites, keep the Affordable Child Care Benefit, keep building schools within the current capital plan, and make no new 2026 pledge."
         },
         "scores": {
           "ndp": 4,
@@ -91,7 +91,7 @@
         "text": {
           "1": "Make child care free, pay child care workers more, and feed every student.",
           "2": "Lift the child care pause, make it free by 2031, raise child care workers' pay, and feed every student.",
-          "3": "Make child care free by 2031, raise educators' pay and provide school food, paid for with a wealth tax.",
+          "3": "Make child care free by 2031, raise educators' pay, provide school food, and add a wealth tax.",
           "4": "Make child care free for all by 2031, pay early childhood educators $35 to $45 an hour, feed every student, and move private school funding to public schools.",
           "5": "Make child care free by 2031, pay early childhood educators $35 to $45 an hour by 2028, fund school food and a counsellor per 250 students, move private school funding to public schools, and add a wealth tax."
         },
@@ -109,7 +109,7 @@
         "text": {
           "1": "This party made child care cheaper, then paused new low-cost spots. It has built schools, but some students still learn in portable classrooms.",
           "3": "The NDP created $10-a-day child care, then in 2026 froze new spaces for three years. It says it has built 250 schools, but some fast-growing districts still rely on portable classrooms. It made no new education or child care promise in 2026.",
-          "5": "The NDP launched ChildCareBC in 2018 and had 15,300 $10-a-day spaces by spring 2025, toward a goal of 20,000. Budget 2026 froze the program for three years with $330 million and no new providers, a freeze this quiz assumes lasts to about 2029. The party says it built 250 schools. School capital is $18.7 billion, below the $20.4 billion forecast. It made no education or child care commitment in 2026."
+          "5": "The NDP launched ChildCareBC in 2018 and had more than 16,000 $10-a-day spaces by March 2025, toward a goal of 20,000. In February 2026 it paused new enrolment and expansion, a freeze Global News reported as three years, and Budget 2026 adds $330 million over three years for child care. The party says it built 250 schools. Budget 2026 plans $3.9 billion over three years for school building and seismic upgrades. It made no education or child care commitment in 2026."
         },
         "basis": "record",
         "confidence": "high",
@@ -123,20 +123,24 @@
             "url": "https://globalnews.ca/news/11350841/surrey-schools-ndp-building"
           },
           {
-            "label": "BC Government: $10-a-day spaces (2025)",
+            "label": "BC Government: more than 16,000 $10-a-day spaces (Mar 24, 2025)",
             "url": "https://news.gov.bc.ca/releases/2025ECC0015-000242"
           },
           {
             "label": "BC Ballot: BC NDP commitments (no education item)",
             "url": "https://bcballot.ca/platforms/bc-ndp/"
+          },
+          {
+            "label": "BC Budget 2026: Budget and Fiscal Plan (child care $330 million, school capital)",
+            "url": "https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf"
           }
         ]
       },
       "conservative": {
         "text": {
-          "1": "This party wants schools to focus on reading and math. It has made no child care promises.",
-          "3": "The Conservatives' 2026 page calls for going back to basics ('arithmetic and reading'), with no child care or school building promise. They promised letter grades and provincial exams in 2024 but have not repeated that. Their pledge of no new taxes limits new spending.",
-          "5": "The 2026 Safe Schools page would repeal SOGI 123, a teaching resource on sexual orientation and gender identity, and go back to basics. It has no child care, school building or post-secondary commitment. The 2024 platform promised letter grades in Grades 4 to 9 and provincial exams in Grades 10 and 12. The no-new-taxes pledge suggests school capital would be held or cut. This quiz scores the party as basics-first, with low confidence on child care."
+          "1": "This party wants to remove a school resource on gender identity and, in 2024, promised letter grades and exams. It has made no child care promises.",
+          "3": "The Conservatives' 2026 Safe Schools page calls for repealing SOGI 123, with no child care or school building promise. They promised letter grades and provincial exams in 2024 but have not repeated that. Their pledge of no new taxes limits new spending.",
+          "5": "The 2026 Safe Schools page would repeal SOGI 123, a teaching resource on sexual orientation and gender identity. It has no child care, school building or post-secondary commitment. The 2024 platform promised letter grades in Grades 4 to 9 and provincial exams in Grades 10 and 12. The no-new-taxes pledge suggests school capital would be held or cut. This quiz scores the party as focused on grades and exams, with low confidence on child care."
         },
         "basis": "both",
         "confidence": "low",
@@ -146,20 +150,16 @@
             "url": "https://conservativebc.ca/plan/safe-schools/"
           },
           {
-            "label": "Global News: 2024 Conservative platform (letter grades, exams)",
-            "url": "https://globalnews.ca/news/10812384/affordability-safety-scrapping-carbon-price-bc-conservatives-full-platform"
-          },
-          {
-            "label": "BC Ballot: Conservative commitments",
-            "url": "https://bcballot.ca/platforms/conservative-party/"
+            "label": "Global News: 2024 Conservative education plan (letter grades Grades 4-9, exams Grades 10 and 12) (Oct 14, 2024)",
+            "url": "https://globalnews.ca/news/10810503/bc-election-conservative-education"
           }
         ]
       },
       "green": {
         "text": {
           "1": "This party wants free child care for all, better pay for child care workers, and food for every student.",
-          "3": "The Greens would lift the freeze now, make child care free for all by 2031, pay early childhood educators $35 to $45 an hour and feed every student. They have published no cost and rely on their wealth tax.",
-          "5": "On September 28, 2026, the Greens promised to lift the freeze 'immediately', make child care free for all by 2031 and pay early childhood educators $35 to $45 an hour by 2028. Their plan also includes single registration, inclusive education funding, a counsellor per 250 students, universal school food, moving private school funding into public schools and a moratorium on artificial intelligence in schools. The release has no cost and depends on wealth tax revenue."
+          "3": "The Greens would lift the freeze now, make child care free for all by 2031, pay early childhood educators $35 to $45 an hour and feed every student. They have published no cost for the plan.",
+          "5": "On September 28, 2026, the Greens promised to lift the freeze 'immediately', make child care free for all by 2031 and pay early childhood educators $35 to $45 an hour by 2028. Their plans also include one point of registration for $10-a-day spaces, closing the inclusive education funding gap, a counsellor per 250 students, universal school food, moving private school funding into public schools and a moratorium on artificial intelligence in schools. The releases give no cost."
         },
         "basis": "platform",
         "confidence": "high",
@@ -169,8 +169,16 @@
             "url": "https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/"
           },
           {
-            "label": "BC Ballot: BC Green education and child care commitments",
-            "url": "https://bcballot.ca/platforms/bc-green-party/"
+            "label": "BC Greens: Childcare Policy Brief (Sept 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Childcare-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: Education Policy Brief (Oct 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Education-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: close the inclusive education funding gap (Oct 8, 2026)",
+            "url": "https://bcgreens.ca/pledge-to-close-the-inclusive-education-funding-gap-so-every-student-gets-the-support-they-need/"
           }
         ]
       },
@@ -195,9 +203,9 @@
       },
       "onebc": {
         "text": {
-          "1": "This party wants student testing, more say for parents, no teacher strikes, and no new child care spending.",
-          "3": "OneBC would bring in standardized testing, a Parental Bill of Rights and a ban on teacher strikes, and would remove SOGI 123, a teaching resource on sexual orientation and gender identity. It has no child care plan.",
-          "5": "OneBC's priorities are standardized testing, a Parental Bill of Rights, a ban on teacher strikes, and repealing SOGI 123 (a sexual orientation and gender identity resource) and 'politicized content'. It has no child care, school building or post-secondary commitments, and its 25% tax cuts and four-year plan to balance the budget limit new spending."
+          "1": "This party wants student testing, more say for parents, and no new child care spending.",
+          "3": "OneBC would bring in standardized testing in reading, writing and math and a Parental Bill of Rights, and would remove SOGI 123, a teaching resource on sexual orientation and gender identity. It has no child care plan.",
+          "5": "OneBC's priorities are standardized testing focused on reading, writing and mathematics, a Parental Bill of Rights, and removing SOGI 123 (a sexual orientation and gender identity resource) and 'politicized content' from classrooms. It has no child care, school building or post-secondary commitments, and its 25% tax cuts and four-year plan to balance the budget limit new spending."
         },
         "basis": "platform",
         "confidence": "high",
@@ -205,14 +213,10 @@
           {
             "label": "OneBC priorities",
             "url": "https://1bc.ca/priorities"
-          },
-          {
-            "label": "BC Ballot: platform comparison",
-            "url": "https://bcballot.ca/platforms/"
           }
         ]
       }
     },
-    "scoring_rationale": "Five options. a = OneBC (4): standardized testing, Parental Bill of Rights, teacher strike ban, no child care spending; Conservative 3 (shares basics and no child care pledge, has not proposed a strike ban or a Parental Bill of Rights in 2026); CentreBC 1 (published FSA results by school, nothing else). b = Conservative (4): basics-first with the 2024 letter-grade and exam pledges and no child care commitment inside a no-new-taxes frame; OneBC 3; CentreBC 2 (the same letter grades Grades 4-9 and literacy and numeracy focus, but the opposite on child care); NDP 1 (its freeze matches the no-expansion element, nothing else). c = NDP record (4): it built $10-a-day and then froze it, so the freeze is the operative position regardless of 2024 rhetoric; Conservative 2 (no expansion fits its fiscal frame, but it would not defend the program); CentreBC 1 (would lift the freeze, keeps building); OneBC 1. d = CentreBC's platform (4): 20,000 spaces, 25,000 seats, counsellors, letter grades; Green 3 (goes further on child care, shares counsellors and food, differs on grades and AI); NDP 2 (created $10-a-day and builds seats, now paused); Conservative 1 (letter grades only; a symmetry fix from 0 now that the option carries a grading element); OneBC 0. e = Green (4); CentreBC 2 (expands spaces and school food, not free care or an ECE wage grid); NDP 1 (same goal in 2018, opposite action in 2026). SOGI 123 is scored only in its own question. Symmetry: Conservative on a (3) and OneBC on b (3); Conservative on d (1) and CentreBC on b (2)."
+    "scoring_rationale": "Five options. a = OneBC (4): standardized testing, Parental Bill of Rights, no child care spending; Conservative 3 (shares the testing focus and no child care pledge, has not proposed a Parental Bill of Rights in 2026). A teacher strike ban was removed from option a on October 13 because no party or news source for it was found; CentreBC 1 (published FSA results by school, nothing else). b = Conservative (4): basics-first with the 2024 letter-grade and exam pledges and no child care commitment inside a no-new-taxes frame; OneBC 3; CentreBC 2 (the same letter grades Grades 4-9 and literacy and numeracy focus, but the opposite on child care); NDP 1 (its freeze matches the no-expansion element, nothing else). c = NDP record (4): it built $10-a-day and then froze it, so the freeze is the operative position regardless of 2024 rhetoric; Conservative 2 (no expansion fits its fiscal frame, but it would not defend the program); CentreBC 1 (would lift the freeze, keeps building); OneBC 1. d = CentreBC's platform (4): 20,000 spaces, 25,000 seats, counsellors, letter grades; Green 3 (goes further on child care, shares counsellors and food, differs on grades and AI); NDP 2 (created $10-a-day and builds seats, now paused); Conservative 1 (letter grades only; a symmetry fix from 0 now that the option carries a grading element); OneBC 0. e = Green (4); CentreBC 2 (expands spaces and school food, not free care or an ECE wage grid); NDP 1 (same goal in 2018, opposite action in 2026). SOGI 123 is scored only in its own question. Symmetry: Conservative on a (3) and OneBC on b (3); Conservative on d (1) and CentreBC on b (2)."
   }
 ]

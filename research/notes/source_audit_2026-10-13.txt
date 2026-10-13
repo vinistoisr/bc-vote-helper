@@ -1,0 +1,272 @@
+Source audit, October 12-13, 2026: corrections to party positions, candidate bios and voting information.
+
+Method: nine checks compared every claim with the sources it cites; a second, independent pass re-read each source before any change. Only claims confirmed by a party's own site, government, Legislature or Elections BC records, or an established news outlet were kept. Claims no such source supports were removed.
+
+## A1: 34 applied, 7 not applied
+- q_cost_of_living/conservative/text.5,3 + option b ($2.5B attribution): 'outside estimate $2.5B' now attributed: NDP candidate says $2.5B hole, economist Ross Hickey about $2B; $1,050 replaced by the party's $1,000 figure
+- q_cost_of_living/conservative/text.5,3 + option b L4/L5 (PST pledges): alcohol PST cut marked temporary (until trade conflict ends); machinery pledge worded as business machinery, tools and software; 'no new taxes for four years' -> 'while in government'; Black Press sources added
+- q_cost_of_living/conservative/sources (vote claim): added Bill 2 third reading division (Apr 1, 2026); text now names Bill 2
+- q_cost_of_living/ndp/text.5 ($250M): cost attributed to Canadian Press report, release gives no cost; BOE source relabelled
+- q_cost_of_living/ndp/sources (grocery margins): added Daily Hive Oct 2 grocery price guard source
+- q_cost_of_living/green/text.5: added price/margin limits where excessive; 'no published method' replaced with 'has not shown how it modelled those figures' (FAQ gives figures only)
+- q_cost_of_living/scoring_rationale option c Green: wording 'not price caps' replaced (Greens would set limits where margins are excessive); score 2 kept
+- q_cost_of_living/green/sources: BC Ballot (T3) replaced by Oct 6 poverty release, Oct 9 transit release, Economic Vision
+- q_cost_of_living/onebc/sources + text: BC Ballot removed; 'end ICBC monopoly' -> 'phase out' (L3, L5)
+- q_cost_of_living/scoring_rationale option b CentreBC: dropped unsupported 'and no new taxes' from CentreBC 2 rationale; score kept
+- q_taxes_deficit/context.5,4,2 (deficit): Budget 2026 = $13.3B, Sept 14 Q1 update = $13.8B; 'taxpayer-supported' debt 37.4%
+- q_taxes_deficit/context.5 (CentreBC $13.7B): bracket cut now tied to $4.5B tax relief; $13.7B kept only as whole-platform cost (context.4, CentreBC text.3)
+- q_taxes_deficit/context.5,4 + option b L5 + conservative text.5 ($2.5B): Conservative cost now: not costed; Hickey about $2B, NDP candidate $2.5B
+- q_taxes_deficit/conservative/text.5 + sources (Bill 2 vs Bill 3): 'Bill 3' -> 'Bill 2', '2025 Supply Act' -> '2025-26 Supply Act'; v260305 source replaced with v260401 and v250529
+- q_taxes_deficit/green/text.5 + sources (Budget 2026 votes): 'voted for Budget 2026 at second reading' was wrong: both Green MLAs voted against Bill 2 at second (Mar 9) and third (Apr 1) reading; FAQ valuation bureau and 5-year deferral added; windfall/minimum tax/royalties described as separate plans; v260305 replaced by v260309, v260401, v250529, FAQ, Fair Share brief, Economic Vision
+- q_taxes_deficit/option d Green score + rationale: Green 3 -> 2; rationale and asymmetry note rewritten (see score_changes)
+- q_taxes_deficit/centrebc option c L4/L5 + text.1,3 + rationale b: removed 'no new taxes / no wealth tax' pledge not found in the platform PDF or news search; L4 now ends 'review all spending'
+- q_taxes_deficit/option b L4/L5 + conservative text.5: 'hold health funding at 2026 levels' -> 'protect current health funding' (release says 'protecting current health care funding'; self-found)
+- q_taxes_deficit/option d L5: added note that 2026-27 is now forecast at $13.8B
+- q_taxes_deficit/ndp/sources: added Fitch and Morningstar DBRS downgrade reports and Q1 release
+- q_taxes_deficit/onebc text.5 + option a L5 + sources: 'surpluses to debt' -> 'part of any surplus'; option a L5 'legislate' removed (OneBC says balanced budgets within 4 years, no law; self-found); BC Ballot removed
+- q_housing/context.5: unsourced 'BC started 44,193 homes' replaced by Metro Vancouver 27,185 starts in 2025 (CMHC)
+- q_housing/centrebc/text.5,3 + rationale b: speculation tax is mentioned (audit teams); text now says no change beyond stronger audits
+- q_housing/conservative/text.5 + sources: opposition to the two taxes now shown as derived from the statement on the NDP housing tax plan, with quote; BC Ballot (T3) replaced; Bill 47 unanimous vote (Nov 30, 2023) and no-new-taxes release added
+- q_housing/ndp/sources: added Tyee on cancelled 2025 Community Housing Fund call
+- q_housing/green/sources: added Rights for Renters brief and Economic Vision (land value tax pilot)
+- q_housing/onebc/sources: BC Ballot removed
+- q_health/context.5 (4,000 a week): now attributed to the Health Connect Registry
+- q_health/context.5 + ndp text.5 (73%): replaced with first phase 81% in place by March 2026 (BCNU corrected figure)
+- q_health/ndp/text.5,3 + sources (Oct 12): added Oct 12 pledge to phase out agency nurses over three years and close user-fee loopholes; added Oct 5 seniors release, CP/CFJC Oct 9 and Oct 12 release
+- q_health/option d NDP score + rationale d, e: NDP 2 -> 3 (see score_changes); 'keeps agency contracts' removed from e rationale
+- q_health/conservative/text.5,3 + option b L3-L5 + rationale a: '$50M rural fund' -> '$50M emergency fund' plus rural practice support; 'funding at 2026 levels' -> protect current funding; health-card pledge quoted; Oct 9 quote fixed; Oct 12 Kindy audio and party reply added; Oct 12 release, Voice and Bill 32 division added as sources
+- q_health/green/text.5 + sources: 'forgive student loans' -> 'review loan forgiveness and paid practicums'; BC Ballot replaced by Oct 6 CHC release and Healthcare brief
+- q_health/onebc/text.5 + sources: added admin/HR spending shift to frontline; BC Ballot removed
+- SCORE {'question': 'q_taxes_deficit', 'option': 'd', 'party': 'green', 'from': 3, 'to': 2, 'why': "Corrected vote record: both Green MLAs voted against the Budget 2026 bill (Bill 2) at second and third reading (spec said for at second), and the Oct 11 FAQ calls the NDP top-bracket tax 'not very effective', so 'supports top-bracket increases' was unsupported. Green 4 stays on e."}
+- SCORE {'question': 'q_health', 'option': 'd', 'party': 'ndp', 'from': 2, 'to': 3, 'why': "Oct 12 NDP release pledges to phase out agency nurses within three years and close clinic user-fee loopholes; the old rationale held NDP at 2 because it 'uses agency nurses'. NDP 4 stays on a."}
+
+## A2: 36 applied, 8 not applied
+- q_dripa/ndp/text.5 + context.4/5 (tabled, withdrew Apr 13): No bill was tabled: now 'announced Apr 2 ... on April 19 said no DRIPA bill would be introduced'; context.4 'dropped the plan before introducing a bill'; context.5 'dropped its plan on April 19, before any bill was introduced'; level 3 'up to three years'
+- q_dripa/ndp/text.5 'unlimited legal liability': Replaced with Eby's actual words 'serious legal liabilities'
+- q_dripa/ndp/text.5 + context.5 Eskay Creek: Now 'a 2022 Tahltan agreement under which the Eskay Creek mine was approved in January 2026' (one agreement, not two)
+- q_dripa/ndp/text.5 'platform has no Indigenous item' (T3 only): Replaced with Eby's Oct 2026 quote on working with First Nations 'to see if we can find a path forward that we all agree on'
+- q_dripa/ndp Bills 14 and 15: Kept; verified both passed May 28 2025 (46-46, Speaker's tie-break) over FNLC objections; added CP and LIMS sources
+- q_dripa/conservative 'First Nations ownership stakes in LNG': Removed; plan page has no LNG/equity/ownership; now 'Doerkson says he wants to build projects together with First Nations'; level 3 aligned; option b levels 2-5 reworded to project partnerships (no LNG, equity or ownership)
+- q_dripa/conservative voting record (S1): Added: MLAs incl. Rustad, Doerkson, Halford voted for first reading of Kealy's DRIPA Statute Repeal Act (lost 43-48, Nov 19 2025) and Halford's DRIPA Repeal Act (lost 44-47, Apr 22 2026); level 3 aligned; context.5 adds both failed votes; rationale notes these yeas fit the existing repeal score
+- q_dripa/conservative 2019 vote + 2024 pledge: 'did not oppose' -> 'voted for Bill 41'; '2024 platform pledged repeal' -> 'He also pledged repeal in 2024' (CHEK June 2024); dropped mis-cited v251029 (property rights vote) from Conservative sources, added v191126
+- q_dripa/onebc repeal bill attribution (S1): OneBC text does not credit OneBC with either repeal bill: says Brodie voted for first reading of the bills from independent Jordan Kealy (Nov 2025) and Conservative Trevor Halford (Apr 2026)
+- q_dripa/onebc land acknowledgement vote: Corrected '88 to 5' to '5 to 85' (LIMS); identified as Brodie's Oct 2025 bill; property rights bill identified as hers (40-48)
+- q_dripa/onebc 'defund the reconciliation industry' (Wikipedia only): Attributed to Brodie at the June 2025 launch with a CP source; Wikipedia dropped
+- q_dripa/onebc Brodie caucus removal: Now 'Rustad removed her in March 2025, saying she mocked residential school survivors' testimony'
+- q_dripa/onebc Indian Act: 'repeal the Indian Act' -> 'seek constitutional reform to repeal the Indian Act' per priorities page
+- q_dripa/green sources and unsupported claims: bcballot replaced by bcgreens.ca Sept 30 statement + Indigenous Rights Policy Brief; removed unsourced Botterell quote, 'partly over consultation' and the Oct 7 date; added Green nay votes on Bills 14/15 and both repeal bills; level 3 no longer ties the Feb 2026 Lowan quote to the April suspension plan
+- q_dripa/centrebc parity (S1): Added: Sturko voted for first reading of both DRIPA repeal bills (Nov 2025, Apr 2026)
+- q_sogi/onebc bill attribution: Oct 2025 bill named (Armstrong's Protecting Minors from Gender Transition Act, 48-40); Feb 2026 Gender Ideology bill now shown as Armstrong's after she left OneBC in Dec 2025, with Brodie voting for it
+- q_sogi/ndp Safe Access to Schools Act: Reworded to 'access zones within 20 metres of schools' (levels 3 and 5); added gov source
+- q_sogi/conservative 'caucus practice': Replaced with 'saying all bills should get first reading without opposition'; added Maple Ridge News
+- q_sogi/green bcballot source: Replaced with bcgreens.ca Oct 8 release + Education Policy Brief (1:250 counsellors, funding gap, expand SOGI 123); added LIMS for Green nays on the Oct 2025 and Feb 2026 bills
+- q_drugs/ndp treatment beds: Removed unsourced '28 beds open'; now 132 beds in Prince George (up to $92M) and Surrey (up to $57M), first 24 by Dec 2027; added gov release
+- q_drugs/ndp decriminalization quote: Eby's 'It didn't work' was about decriminalized public drug use; text now quotes Osborne ('hasn't delivered the results') for the pilot ending and attributes Eby's line to public use (levels 3 and 5)
+- q_drugs/ndp witnessed dosing 'all clients': 'all' -> 'most' in NDP text, context.3 and option c level 5
+- q_drugs/ndp Mental Health Act response: 'has announced no response' -> AG's office 'is reviewing the decision'
+- q_drugs/context 5,000 to 2,200: Replaced with verified 5,200 (Mar 2023 peak) to about 3,900 (early 2025); removed the same claim from NDP level 3
+- q_drugs/context 3,945 deaths prevented + federal study: Deleted (no T1/T2 source found); context.4 now 'Supporters say supervised consumption sites prevent overdose deaths'
+- q_drugs/conservative + green Bill 32: Bill 32 identified (Mental Health Amendment Act (No. 2), 2025, passed 45-41); Conservatives nay; only Green Botterell voted nay and the Green text now says so
+- q_drugs/green + q_public_safety/green '84 to 2': Now: the two Greens cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which passed first reading 84-2 (Mar 5 2026); dropped the bccsu 2024 Conservative page from Green drug sources
+- q_drugs/onebc 'Making a Killing': Sentence deleted; Wikipedia dropped (1bc.ca supports the rest)
+- q_drugs/centrebc Cloverdale source: Removed; URL redirects to a news index (dead); platform PDF remains
+- q_public_safety/centrebc $1.8 billion: Context.4/5 and CentreBC levels 3/5 now say $1.8B covers the whole safety chapter incl. housing, treatment and emergency preparedness (+$255M capital)
+- q_public_safety/ndp $560 million: Budget 2025 backgrounder gives $325M new over three years ($90M encampments + $235M justice and safety, incl. $171M policing); NDP text, context.5 and option c level 5 corrected
+- q_public_safety/ndp Bill 36, 12 hubs, $30M: Reworded: 'Bill 36 (2023) required Surrey to complete its switch... province pays Surrey $30M a year toward transition costs until 2029'; 12 hubs dated 2023; sources added
+- q_public_safety/option c level 5 Bill C-14: 'press Ottawa to pass Bill C-14' -> 'keep pressing Ottawa on bail after Bill C-14' (province says C-14 is now law)
+- q_public_safety/conservative + centrebc Bill 36 parity: Conservative: 'Several current Conservatives, including Rustad, Doerkson and Halford, voted against Bill 36 in 2023'; CentreBC: Sturko, then BC United, also voted against
+- q_public_safety/context CSI: Unverified '104.6 in 2023' replaced with 'nearly 12% below 2023' (province); 92.4 verified at StatCan; violent-index figures now attributed to the Fraser Institute in level 4 as in level 5 (Fraser page read, figures match); 'extortion fell 7%' verified
+- q_public_safety/onebc 'end the importation of foreign grievances': Not on 1bc.ca/priorities; replaced with its ports item (work with Ottawa against drug and firearm smuggling); bcballot source dropped
+
+## A3: 30 applied, 4 not applied
+- q_economy_tariffs/green/text.5 (HIGH, Bill 7): Now says Greens voted against Bills 14 and 15 and both Green MLAs voted for the final Bill 7 (48-44); LIMS source added
+- q_democracy_power/green/text.5 (HIGH, Bill 7): Same correction; voted for final Bill 7 after the cabinet override part was withdrawn; LIMS source added
+- q_economy_tariffs/green/sources: Added Forestry Policy Brief (raw logs, 30-50% value-added, 45 Mm3 target) and Climate/LNG/Royalties brief; L5 wording aligned to 'directing 30 to 50% of available wood'
+- q_climate_energy/green/text.5 stale + F1 Oct 10 royalties: Added Oct 10 brief items (end approvals for new fracking/LNG/pipelines, oppose Pacific Link, strengthen industrial carbon pricing, 50% royalties, oil and gas emissions cap); deleted unsourced 'health assessment of gas plants and fracking'; net metering kept (Economic Vision)
+- q_climate_energy/green/first-reading vote: L5 now names Botterell as the lone vote at first reading; L3 aligned; gov.bc.ca release (no Green mention) replaced with CP via National Newswatch
+- q_education_childcare/green/sources: BC Ballot replaced with Childcare brief (one point of registration), Education brief and Oct 8 pledge page; 'depends on wealth tax revenue' and L3 'rely on their wealth tax' removed; option e L3 'paid for with a wealth tax' changed to 'and add a wealth tax'
+- q_democracy_power/green/text.5 accord + regional ridings: Accord wording now 'said they would not renew ... stalled or undelivered'; 'Lowan favours a regional-riding model' deleted; option d L5 drops 'regional ridings' and 'without a new referendum' (not on Our Plan)
+- q_economy_tariffs/conservative Pacific Link source + wording: Added CP (BOE Report) source; 'more than double/triple'; red tape to 2017 'by the end of a first term'; PST on machinery, equipment and software; 'undemocratic' now attributed to the party on Bill 7 (CP); unsourced 'opposed the tanker ban' deleted
+- F1 q_economy_tariffs/conservative First Job Tax Credit: Added Oct 10 First Job Tax Credit, no amount stated, with party source
+- q_climate_energy/conservative Western Standard: Western Standard replaced with CP (CFJC): Rustad called the industrial carbon tax 'punishing' and asked if it would be dropped; L3 and scoring_rationale wording aligned
+- q_climate_energy/conservative 2024 platform source (found during check): Global 2024 article did not mention LCFS or CleanBC; replaced with CBC 2024 platform comparison (carbon tax and LCFS); unsourced CleanBC clause removed from party text; 'keeping environmental standards' quote corrected and Supercharge page added
+- q_icbc/conservative Findlay sentence and CTV attribution: Findlay sentence deleted; 'CTV reported' replaced with letter wording ('everything's on the table', minor-injury limits, private competition an option) and Daily Hive source added
+- q_education_childcare/conservative 'back to basics': Removed 'arithmetic and reading'/'back to basics' from L1/L3/L5 (not on Safe Schools page); 2024 letter grade and exam pledge now cited to Global Oct 14 2024 education article; Global 10812384 (no grades or exams in it) and BC Ballot removed
+- q_democracy_power/conservative C-39, subsidiarity, undemocratic: Deleted C-39 and subsidiarity framing; Metro Vancouver cut back to drinking water and sewage treatment; 'undemocratic' attributed to the party on Bill 7 plus Rustad's 'almost unlimited powers with zero oversight'; L3 aligned
+- q_economy_tariffs/ndp $306 million: Now a forecast error: overstated this year's expected royalties by $306 million and about $1.46 billion over five years; CP24 source added
+- q_economy_tariffs/context.5 tariffs and sawmill jobs: Tariff assumptions kept (verified in Budget and Fiscal Plan p.101); unsourced '32% sawmill jobs' (L5) and 'about a third' (L2) removed; Bills 14/15 described as energy and infrastructure
+- q_economy_tariffs/ndp sources (BC Ballot): BC Ballot replaced with NDP releases Oct 7, Sept 24, Sept 28 and gov.bc.ca Ksi Lisims certificate
+- q_climate_energy/ndp links + 'temporary': CTV link confirmed live (headline supports); CBC lite returns 200 to curl, kept; added gov.bc.ca carbon tax release and CP source; fuel tax cut now 'temporary'
+- q_climate_energy/context 2.3 Mt: Unsourced 2.3 Mt Phase 2 emissions removed from L4 and L5; replaced with the September 2026 Phase 2 investment decision
+- q_icbc/ndp $490 and $5 billion: $490 'first renewal' changed to $496 (about 28%) per gov release in L5 context and NDP text, 'about $500' in L2/L3, $496 in L4; $5 billion kept (ICBC 2025/26 Service Plan pp.6, 13) and source labels updated
+- q_democracy_power/ndp Bill 36, time allocation, sunset, Bill 3: 'Bill 36' deleted (it is a 2022 health professions law); Bill 44 time allocation verified on LIMS Nov 29 2023 and cited; 'Bill 3' renamed Election Amendment Act, 2017; one-year sunset kept (as enacted, s.22 repealed core parts May 28 2026); Tyee source added for transmission line exemptions
+- q_democracy_power/ndp dead links: Boundary Creek Times (404) replaced with OIC 321/2025 PDF (wind and solar prescribed); Angus Reid (404) replaced with Global News Sept 25 2026; Leger 57% now cited to Daily Hive
+- q_education_childcare/ndp figures: Removed $18.7B vs $20.4B (L4, L5 context, NDP text, option c L5) and '14,000 to 17,500'; replaced with Budget 2026 $3.9B over three years for schools and 'more than 16,000 spaces by March 2025' (NDP text said 15,300, which the cited gov release does not support); three-year freeze attributed to Global News
+- q_economy_tariffs/centrebc pipeline wording: 'July 2026 conditions' now 'five conditions it set in 2025'; CentreBC conditions page added; rationale no longer says pipeline 'only with the tanker ban'
+- q_climate_energy/centrebc tanker ban: 'backs the tanker ban' now 'would seek a written federal commitment to keep the northern tanker ban' (platform p.37) in L3 and L5
+- q_democracy_power/centrebc contracts and agreements: Split the merged claim: contracts over $10 million published in full (p.35), draft First Nations agreements at least 60 days before signing, title and land agreements tabled before signing (p.36)
+- q_education_childcare/onebc teacher strike ban: No T1/T2 source found (not on 1bc.ca/priorities, not in Global June 2025, searches empty); removed from OneBC L1/L3/L5, option a all levels and scoring_rationale; option a is now testing in reading, writing and math, Parental Bill of Rights, no child care expansion
+- q_democracy_power/onebc Wikipedia + hand counting: Wikipedia replaced with Global June 12 2025 ('end mail-in and early voting'); unsourced hand counting removed from OneBC text and option e all levels; option e L5 'reject PR' and 'leave cabinet powers unchanged' and L4 'citing election integrity' removed
+- q_economy_tariffs/onebc immigration + tax wording: Unsourced immigration clause deleted; taxes now '25% tax cuts for every tax bracket, including corporate, and 2% off the provincial sales tax'; Wikipedia removed
+- q_climate_energy/onebc BC Ballot: BC Ballot removed; Step Code is on 1bc.ca/priorities
+- SCORE {'question': 'q_democracy_power', 'option': 'a', 'party': 'green', 'from': 0, 'to': 1, 'why': "Option a names Bill 7 trade powers; LIMS shows both Green MLAs voted for the final Bill 7 (48-44) while voting against Bills 14 and 15. Rationale updated with 'score changed Oct 13 after source check'."}
+
+## A4: 34 applied, 6 not applied
+- q_local_hospital_schools/prompt.5 + context.5 (HIGH): Removed 97,069 / 75,069 enrolment figures; now 'enrolment passed 83,000 in 2024-25', '700 to 800 more students a year', 'about 87,000 by 2035', '$5.49 billion for 76 projects'
+- q_local_hospital_schools/context.2,4,5 portables: 'more than 300 portables' (no current source) replaced with 'had 361 portables in 2023'
+- q_local_hospital_schools/context.5 Fleetwood Park (found during check): 800-seat Fleetwood Park addition was listed as under construction; it is in design with construction starting winter 2027
+- q_local_hospital_schools/context + prompt.5 8.4% LWBS: Dated to the September 2024 physicians' letter, 2.9% baseline dated 2020-21
+- q_local_hospital_schools/ndp text.3,5 + context.4 portables pledge: '2017 pledge ... by 2020' corrected to the August 2016 Horgan promise to remove all Surrey portables within four years
+- q_local_hospital_schools/ndp text.5 unsupported items: Kept but sourced and made precise: $16M shortfall is 2025-26 (Global); 'new scanners' -> eight MRI and 10 CT scanners province-wide (Daily Hive Oct 6); '60 involuntary care beds' -> 60 mental health beds in Surrey incl. involuntary capacity, spring 2028 (BC Gov); SFU medical school 'being built' (Voice)
+- q_local_hospital_schools/ndp sources: Added Fraser Health ($2.88B, open 2030), CFJC/CP Oct 9, Daily Hive Oct 6, BC Gov beds release, CBC 2016 and 2023
+- q_local_hospital_schools/centrebc option d.5 + text.5: 2,500 LTC beds are 'under construction by 2031' (1,000 open by March 2031); source page refs corrected to pp 17-19, 21, 24
+- q_local_hospital_schools/onebc text.5: Deleted 'ban teacher strikes' (not on priorities page; no T1/T2 source found)
+- q_local_hospital_schools/conservative text.3,5 + option b.5: Full quote 'we're contemplating all of that for our platform rollout'; '$50 million rural fund' -> 'emergency fund'; 'funding held at 2026 levels' -> 'keep current health care spending in place'; added Oct 12 restatement of universal public care; option b.5 'emergency room fund' -> 'emergency fund'
+- q_local_hospital_schools/green sources + text.3: Replaced both bcballot.ca sources with Oct 6 health pledge, Oct 8 education pledge, ECE wage grid release and Our Plan; L3 funding line now 'They say their wealth tax would help fund schools' (Our Plan names 'properly funded public schools')
+- q_local_skytrain/context.5 + ndp text.5 and q_local_metro_translink/context.5 + ndp text.5: $479 million year corrected from 2024 to March 2023; Global source added to both NDP source lists
+- q_local_skytrain/ndp sources + text.1: Removed Connect FM (2020 Horgan pledge); added BC Gov May 8, 2026 release; L1 'promises to finish it' -> 'is building the line'; Brar quote corrected to 'a SkyTrain extension'
+- q_local_skytrain/conservative text.5: Quote reattributed to Rustad only (Sturko not named) with exact wording 'the $6 billion Surrey Skytrain debacle'; 'advocates say it has ruled out a vehicle levy' deleted; BC Ballot replaced by party site check and Oct 2 release
+- q_local_skytrain/context.2,4: 'Both main parties have ruled out a vehicle levy' -> NDP ruled it out, Conservatives oppose it (their release attacks it but does not rule it out)
+- q_local_skytrain/green text.5 + option c.5: Squamish-100 Mile House is support for the BC Rail Corridor Alliance's feasibility work and restoring the corridor, not a rail line pledge; Fair Share wording now 'would help pay for free transit'; added Green release and transit brief as sources
+- q_local_skytrain/centrebc text.1,5 + option d.5: L1 'wants to finish' -> 'treats as a priority'; $3.5B described as additional borrowing for transportation, rapid bus and port links, not inside the $15B
+- q_local_skytrain/onebc text.5: Dropped 'or on BC Ballot' (T3)
+- q_local_extortion/conservative dead link + text.5: Removed 404 source and deleted the 2025 'tip line and work with Ottawa' claim; replaced paraphrase in quote marks with the exact Sept 29 quote
+- q_local_extortion/conservative text.3 + context.3: 'about 1,000' -> 'nearly 1,000' (250+500+150+50+20 = 970)
+- q_local_extortion/green sources (bcballot only): Replaced both bcballot.ca sources with bcgreens.ca Our Plan (platform topics: no policing or public safety item) and Binnema's party page; text now cites the platform page
+- q_local_extortion/ndp text.5 + option c.5: Four board members not renewed, five appointed March 2026, future vacancies by mayor's office and minister agreement; $1M is $500,000 provincial matched by Ottawa (Nov 28, 2025); option c.5 'pick board members' -> 'fill police board vacancies by agreement of the mayor and minister'
+- q_local_extortion/centrebc text.5 (symmetry): Added 'Sturko ... voted against Bill 36 in 2023' with LIMS source
+- q_local_metro_title_homes/conservative text.3,5 + option c.4,5: Deleted 'honour existing agreements on resources, pipelines and transmission, expand loan guarantees' (not on the plan page; checked full page HTML and WP JSON); replaced with what the page says: DRIPA 'has to be repealed', 'partnerships with First Nations' on projects; source relabelled to the page's real title
+- q_local_metro_title_homes/onebc option d.3,4,5: Deleted 're-introduce the Property Rights Protection Act' / 'pass a property rights law' (no OneBC 2026 source); replaced with 'seek repeal of the Indian Act', which is on the priorities page
+- q_local_metro_title_homes/onebc text.3,5 (found during check): Misquote fixed: the Sept 26 X post says 'defund the Reconciliation Industry', not 'defend private and public property from the reconciliation industry'
+- q_local_metro_title_homes/ndp text.5 (low): Only 'not up for debate' dated Sept 25; 'go to the wall' now undated
+- q_local_metro_translink/conservative text.5 (low): No-new-taxes pledge dated Sunday Sept 27; 'replace the board' -> 'create a smaller, professional board'
+- q_local_metro_translink/scoring_rationale: Removed unsourced 'opposes new borrowing' from Conservative 1 on d (score unchanged)
+- q_local_metro_translink/green text.5 (low): Lowan attribution removed; now the party's emailed statement, quoted verbatim
+- q_local_metro_translink/onebc sources: Removed bcballot.ca source and mention; priorities page remains
+- q_local_metro_translink + q_local_metro_density centrebc page refs (low): pp 10,13 -> 11,13; pp 6,10,13 -> 7,11,13
+- q_local_metro_density/conservative text.1,3,5 + context.3,4 + rationale: Removed 'then softened' / 'later dropped' (Storeys inference only). Global Sept 27, 2024 reports repeal of Bill 44, the $1B fund, pre-zoning and the Bill 47 shops amendment together. Storeys (T3) source removed
+- q_local_metro_density/context.5 (low): 'On or about November 28, 2025' -> 'In late November 2025' (letter to Eby confirmed)
+
+## A5: 29 applied, 7 not applied
+- q_local_fraser_valley_er / green / option d + text.5 (HIGH): 'legislate safe nurse-to-patient ratios' -> fund nurses to support safe ratios; 'consolidate the health authorities' -> review the health authority model toward one consolidated authority, levels 2-5 and context.5
+- q_local_island_coast_seniors / green / option d + text.5 (HIGH): Same legislate->fund and consolidate->review fix across option d levels 2-5 and Green text.5
+- q_local_island_coast_seniors / green / sources: LTC plan and rural seniors strategy now cited to the Oct 4 release and the Supporting Seniors Policy Brief (rural strategy confirmed in the brief PDF)
+- q_local_fraser_valley_er / centrebc / text.3, text.5, source label: 30-day item reworded to licensing of doctors and nurses from other provinces, US, UK, Australia; dashboard split from the ER Act (real-time status by spring 2028); pages 16-17
+- q_local_fraser_valley_er / ndp / text.5: Removed unsourced 'recruiters focused on emergency and rural care (September 23)'; MRI/CT dated October 6; added Nanaimo Bulletin source
+- q_local_fraser_valley_er / context + prompt: 'spring 2026' -> 'earlier in 2026' in prompt 3-5 and context 2-5; prompt 3 and context 2 now say overnight hours were cut (source says reduced hours)
+- q_local_fraser_valley_er / onebc / sources + text: BC Ballot replaced by OneBC official X posts (Oct 11 nurses with back pay; Oct 5 plan graphic) and the @OneBC-HQ YouTube video; quote corrected to 'attract medical professions to B.C.'; 'and interest' NOT added (official post says back pay only)
+- q_local_island_coast_seniors / onebc / option e + sources: Removed 'including private-pay long-term care' (level 5) and 'private-pay seniors care' (level 4); added official X and YouTube sources for nurse reinstatement
+- q_local_island_coast_seniors / conservative / text.1,3,5 + option b + context 3-5: 'any qualified provider' -> 'a real choice among qualified providers, including non-government options with strong performance safeguards'; 7,200 and $1.8 million each stated as the release says
+- q_local_island_coast_seniors / context.5: $50M described as up-front money for cath lab concept and business planning; 'to adopt a lower-cost uniform design' -> 'while the province looks for ways to cut building costs'
+- q_local_island_coast_seniors / ndp / sources: Kept Times Colonist (loads with a browser user agent, 200); added My Cariboo Now (seven projects, July 2026 Canada-BC agreement, shingles over 50), Victoria News ($90M Oak Bay Lodge), Tyee (pause)
+- q_local_island_coast_seniors / centrebc / source label: Label now cites Health Care pp 16-18
+- q_local_fraser_valley_farmland / conservative / text.3, text.5: Non-answer attributed to Doerkson, not a spokesperson, with his verbatim quotes
+- q_local_fraser_valley_farmland / ndp / text.5 + sources: Food terminal KEPT (auditor wrong: Daily Hive Oct 2 confirms it); wording now 'price guard capping profit margins on grocery essentials and a Lower Mainland wholesale food terminal with Ottawa (October 2)'; 'no platform commitment' softened to 'no 2026 campaign commitment found'; BC Ballot replaced by Daily Hive
+- q_local_fraser_valley_farmland / green / sources + text.5 + option a.5: Added Agriculture and Food Policy Brief; ownership limit is to 'citizens and permanent residents of BC' (was 'Canadian'); unused-farmland tax is a power for municipalities
+- q_local_fraser_valley_farmland / context.5: Soil condition 'would exclude about 90%'; Agriculture Council supports processing but opposes the rule changes
+- q_local_fraser_valley_farmland, highway1 / onebc / sources: Dropped BC Ballot; 1bc.ca/priorities shows no agriculture or transportation item; level 5 text updated
+- q_local_fraser_valley_highway1 / context.4, context.5: $2.34B is Phase 3A only (approved fall 2023); Phase 2 is $345M; both under construction
+- q_local_fraser_valley_highway1 / ndp / text.3, text.5, context.4-5, sources: 2026 statement is the TransLink vehicle levy only; 'no mobility pricing' is from the NDP's Oct 13, 2024 release (added); 10 cent fuel tax cut cited to CP via BOE Report; Daily Hive label corrected. Option c 'rule out tolls and road pricing' kept: supported by the 2024 release and the 2017 toll removal
+- q_local_fraser_valley_highway1 / green / option d 2-5, text.5, rationale, sources: 'build no lanes beyond those funded' -> 'do not rely on new highway lanes to ease congestion'; 'doubled bus fleet' -> doubling buses in the first term; added Oct 9 release; rationale wording only
+- q_local_fraser_valley_highway1 / conservative / text.3, text.5, sources: Dropped BC Ballot, the unopened CBC summary and the unverified HandyDART mention
+- q_local_fraser_valley_highway1 / centrebc / text.5, option b.5, source label: Pages 11 and 13; $3.5B borrowed stated as a separate costing line, not as part of the $15B (option b parenthetical removed)
+- q_local_island_coast_ferries / ndp / sources: Added Victoria News for the Sept 18 build-in-BC pledge
+- q_local_island_coast_ferries / green / sources + text.5: PQB News (no ferry or Island rail content) replaced by the Transit and Transportation brief; Island rail dated October 9 only
+- q_local_island_coast_ferries / onebc / sources: Dropped BC Ballot; added CHEK candidate list
+- q_local_island_coast_oldgrowth / green / text.5 + sources: 20% is 'work toward'; worker supports spelled out; $397M claim now attributed to the brief (which states it); added Forestry brief
+- q_local_island_coast_oldgrowth / ndp / sources: Added CP via Castanet for Campbell River first candidate area (Sept 15)
+- q_local_island_coast_oldgrowth / conservative / sources: Removed Armchair Mayor op-ed (T3, May 2025, mismatched date); Westk Nov 7, 2025 carries the 'path to collapse' quote
+- q_local_island_coast_oldgrowth / onebc / sources + text.5: BC Ballot replaced by the official Oct 5 X plan graphic; quote made verbatim
+
+## A6: 36 applied, 6 not applied
+- q_local_north_er/green/option d + text.5: 'legislate ratios' -> 'increase funding for nurses to support safe nurse-to-patient ratios'; 'consolidate the health authorities' -> 'review the health authority model with a focus on one consolidated provincial authority' (L2-L5); text.5 'halt growth of private health care' -> 'push back on the creeping privatization of healthcare' + 'keep every public health dollar in public care'; added Our Plan and Seniors brief sources
+- q_local_interior_ltc/green/option d, text.1/3/5, sources: Option d L1-L5 rewritten: 'fund' not 'legislate' ratios; dropped 'only public', 'no portable funding to for-profit operators' and 'no private pay' (not in sources), now 'push back on the growth of private health care' and 'keep every public health dollar in public care'; text cites Supporting Seniors brief (Oct 4) and Healthcare brief; BC Ballot replaced by Green seniors release, seniors PDF and Our Plan; rationale d NDP wording adjusted (score unchanged)
+- q_local_north_er/conservative/option b + text.3/5 (HIGH finding, auditor partly wrong): Kept 'automatic recognition of other provinces' credentials' and 'priority for BC students' (both are direct Doerkson quotes in the 100 Mile Free Press); added the release's 'faster recognition for Canadian doctors trained abroad' to option b.5 and text.3/5; text.5 now attributes these to Doerkson's speech as reported by the Free Press
+- q_local_north_er/ndp/text.3/5, context.3/4/5, rationale d, sources: Added Oct 12 pledge: phase out hospital reliance on private agency nurses over three years by capping fees and hours, savings to Go Health BC rural travel nurses; MRI/CT moved to Oct 6; 1,000 seats specified as nurses, NPs, allied health and care aides (also option c L3-L5); added Oct 6, Oct 9 and Oct 12 NDP releases
+- q_local_north_er/prompt+context (Mackenzie, 100 Mile House): Removed Mackenzie May 26 closure (no 2026 source found); Fort St. James May 26 kept; '100 Mile House announced 39 closures' -> 'Interior Health's 100 Mile House emergency room had closed 38 times by August 24' (L2-L5 prompts and contexts); Chetwynd substituted in prompt L2/L3 (it is in the Northern Health March closures)
+- q_local_north_er/onebc/sources+text.5: BC Ballot replaced by OneBC's own X posts (Oct 11 back-pay post, Oct 5 'Our Plan' image with 'attract medical professions'); text says 'post and video' instead of 'via BC Ballot'
+- q_local_interior_wildfire/prompt.4/5, context.1-5: 'destroyed about 150 structures' -> 'damaged or destroyed'; fire held August 27 (not 28) in prompt.5 and context.3/4/5
+- q_local_interior_wildfire/context.2/4/5 uninsured: Removed unsourced 'many uninsured' claims; context.5 now says Eby's support is aimed especially at uninsured and underinsured owners
+- q_local_interior_wildfire/ndp/option c.5, text.3: $500 million fund described as shared with tariff-hit businesses
+- q_local_interior_wildfire/conservative/text.3/5, sources: 'Pays for itself' attributed to Today in BC reporting; added CP report that renting planes to other jurisdictions could help pay; added CFJC (CP) source
+- q_local_interior_wildfire/green/sources: Removed BC Ballot; Climate brief and Economic Vision PDFs confirmed to support the text
+- q_local_interior_wildfire/onebc/sources+text.5: BC Ballot replaced by OneBC Oct 5 X 'Our Plan' summary (no wildfire item); text updated
+- q_local_interior_downtown/context.2-5 letter date: Letter dated Aug 26, made public Sept 1
+- q_local_interior_downtown/context.5 Oliver: 'Oliver Correctional Centre be used to capacity' -> Sept 4 ask by Interior mayors and Osoyoos Indian Band to use the Okanagan Correctional Centre in Oliver for secure and mandatory care
+- q_local_interior_downtown/context.5 deaths: Kept 132 in first six months of 2026; dropped unsourced '70 in the Okanagan'
+- q_local_interior_downtown/ndp/text.1/3/5, context.3/5, rationale a: Eby described a search for a site 'that can be used immediately', potential sites identified, staffing a possible limit; not a firm site; exemption expiry set to Jan 31, 2026
+- q_local_interior_downtown/ndp/sources: BC Ballot replaced with BCCDC decriminalization page
+- q_local_interior_downtown/green/sources: BC Ballot replaced with Oct 2 Green toxic drugs release; brief PDF confirmed
+- q_local_interior_downtown/centrebc/option c.5, rationale e: 'prosecute public possession' -> 'ask Ottawa to charge public and repeat possession'; 500 treatment and recovery beds plus 150 detox beds
+- q_local_interior_downtown/conservative/option b.5: '250 municipal police' -> '250 police officers'
+- q_local_interior_downtown/onebc/sources: Sept 29 X post (Riverview) confirmed via its image; added Oct 5 X 'Our Plan' (street patrols, no charge downgrades)
+- q_local_interior_ltc/prompt.4/5, context.3/4/5 Park Place: Vernon cancellation 'reported October 6' (not Oct 7)
+- q_local_interior_ltc/context.5, ndp text.3/5, option a.2/5: Dropped 'uniform design' and 'up to $1.8 million'; now $1.8 million a bed and search for cheaper builds; NDP restart via BC-Canada Prosperity agreement on a new model lowering per-bed costs and construction time; Oak Bay Lodge $90M described as redevelopment of the former site as a health and seniors' care hub; added two NDP releases and The Tyee
+- q_local_interior_ltc/conservative/sources: Added Keep ER Open release for the health-budget line
+- q_local_interior_ltc/onebc/sources+text.5: BC Ballot replaced by OneBC Oct 11 X post (reinstate with back pay)
+- q_local_north_forestry/context.5: Dropped Ancient Forest Alliance figure; kept CentreBC's 29 million
+- q_local_north_forestry/ndp/text.5, option b.5, sources: Removed unsourced Sept 22 alcohol clause; 'permitting moved to operational plans' -> 'fewer case-by-case permits'; added Sept 15 gov release for Campbell River
+- q_local_north_forestry/green/option a.4/5, text.3/5: '20% of the cut' -> 'work toward 20% of the allowable cut for community forests'
+- q_local_north_forestry/conservative/text.5, rationale: Doerkson quote corrected to 'an appropriate harvest that can sustain mills across the province'
+- q_local_north_forestry/onebc/sources: BC Ballot replaced by Oct 5 X 'Our Plan'
+- q_local_north_resources/prompt.4/5, context.2/3: Ksi Lisims described as permitted and heading to FID; North Coast line Phase 1 under construction; mines await permits
+- q_local_north_resources/green/option a.1-5, text.1/3/5: Three-part test now applied to public support for mineral processing; mining limited by ecological limits and world-leading standards; Lowan quote exact; HIA attributed to Healthcare brief (source added)
+- q_local_north_resources/ndp/text.3, sources: 'new gas revenue' -> 'new oil and gas revenue'; added Sept 24 release for 70%/100% Canadian steel
+- q_local_north_resources/conservative/sources: Added Supercharge release for the $250 million threshold
+- q_local_north_resources/centrebc/option c.5: '$750 million for port road and rail' -> provincial road and rail match to a $1.5 billion federal port request
+- q_local_north_resources/onebc/sources: BC Ballot replaced by OneBC Sept 26 X post (full text read via fxtwitter) and Oct 5 'Our Plan'
+
+## A7: 43 applied, 11 not applied
+- local.context results_history[0] 2024 margin (S1): margin_votes 751 -> 753; note now cites Elections BC SoV (Brar 9,923, Gill 9,170, Binnema 1,321, 20,414 valid); no Wikipedia attribution
+- local riding_note.3, competitiveness.3/.5 (S1): 751 -> 753; 9,172 -> 9,170 with SoV attribution
+- local.context.sources (S1): Added Elections BC SoV 2024 and 2020 ahead of Wikipedia; Wikipedia relabelled as 2013/2017 only. 2020 numbers (11,457 / 5,776, 60.93%) confirmed in SoV 2020
+- geo/research/candidates_surrey.json SRF result_2024 note/source: Note no longer cites Wikipedia 9,172/751; source set to Elections BC SoV
+- how_to_vote.mail_in (S1, medium + low): Unregistered or out-of-date voters prove ID by ID upload system or photocopies; phone number added; 'mailing it that day is too late' replaced by 'must receive it by 8 p.m. ... for it to be counted'
+- how_to_vote.id_rules vouching (S1 low): Full voucher list, one-voter limit for non-relatives, solemn declaration
+- how_to_vote.other_dates (S1 low): Final count marked '(planned)'; added Elections BC vote-by-mail and key-dates links; CP debate article added to sources (Oct 14, Eby/Doerkson/Lowan confirmed)
+- parties.onebc.record_summary.5 DRIPA bill attribution (S1 high): DRIPA repeal bills attributed to independent Jordan Kealy (43-48, Nov 19 2025) and Conservative Trevor Halford (44-47, Apr 22 2026); Brodie voted yea; 'unverified' dropped
+- parties.onebc.record_summary.5 Land Acknowledgement / puberty bill (S1 medium): 88-5 -> defeated 85-5 at first reading (Oct 23, 2025); puberty bill named Protecting Minors from Gender Transition Act, 48-40 at first reading Oct 8, 2025
+- parties.onebc Chapman/status + Wikipedia source (S1 medium): Chapman switch not filed before dissolution, standings unchanged (CP); Wikipedia source replaced by NNW/CP, Narcity/CP and LIMS
+- parties.onebc.seats_at_dissolution (found during check): 2 -> 1 with new seats_note: CP says Brodie was the lone OneBC member before the election was called (Armstrong sat as independent)
+- parties.onebc candidates_note / one_liner.3: 'Sources give 33 or 34' -> Elections BC list Oct 12 shows 34; 'about 34' -> '34'
+- parties.conservative.record_summary.5/.3 (S1 high): Added: every Conservative MLA present incl. Rustad, Halford, Doerkson voted yea at first reading on the Nov 19 2025 (43-48) and Apr 22 2026 (44-47) DRIPA repeal bills; 'Rustad removed' -> 'Rustad resigned December 4, 2025 after the caucus moved against him'; '.3 Four leaders since December 2025' -> 'Three leaders since Rustad resigned'
+- parties.conservative seats_note/seats_at_dissolution (S1 medium): 28 (Wikipedia) -> 29 per the Legislature's standings reported by CP on Sept 21 after five MLAs returned; Chapman's move did not change standings; 7 CentreBC rejoined Sept 22
+- parties.conservative / parties.ndp sources bcballot.ca (S1 low): bcballot removed; NDP gets 20-clinic release, Daily Hive grocery price guard, DBRS (Apr 9) and Fitch (Apr 24) gov.bc.ca rating reports; Conservatives get LIMS, CP Rustad, CP standings
+- parties.ndp one_liner vs record_summary Bills 44/46/47 (S1 low): record_summary.5 names Bills 44 (housing density) and 46 (development financing)
+- parties.centrebc.record_summary.5/.3 (S1 medium): Added Sturko yea at first reading on both DRIPA repeal bills; level 3 aligned
+- parties.centrebc.seats_note (S1 sources medium): Wikipedia attribution replaced: 8 when the election was called, 7 rejoined Conservatives (CP)
+- parties.green candidates_running (S1 ok_note said 74): 74 -> 73; note 'Elections BC candidate list, October 12, 2026'. S1 miscounted: the Oct 12 11:01 PM Elections BC PDF and HTML list both show 73 BC Green
+- other_parties_note (S1 medium): Kept CanWest (2) and all counts (they match Elections BC: Lib 4, Comm 4, CH 3, CWP 2, Freedom 1, 7 Independent, 7 unaffiliated, 355 total); added date and total to level 5
+- top-level sources: Wikipedia OneBC, Wikipedia 2026 election, BC Ballot platforms, BC Ballot Jagrup Brar (S1 medium): Removed; added Elections BC candidate list, registered parties PDF, SoV 2024, vote-by-mail, key dates, CP debate, NNW/CP OneBC, Narcity/CP OneBC status, Castanet/CP standings, LIMS Nov 19 2025, Apr 22 2026, Oct 23 2025
+- Victoria-Beacon Hill / Joachim Agou (C1 high + caller decision): Bio: Conservatives dropped him Oct 8; Doerkson said he would not sit in caucus; he says he is running as an independent; Elections BC says he stays on the ballot as the Conservative candidate. Sources now TC, CBC, CTV/CP24 first. Added research field unscored_label='Conservative on the ballot; dropped by the party Oct 8' (merge_ridings.py needs a 2-line change to honour it, see report)
+- Paul Choi bio (C1 medium): 'former Parliamentary Secretary for Trade' -> 'has served as Parliamentary Secretary for Trade since July 2025'; gov.bc.ca source first
+- Anne Kang bio (C1 medium): Added Minister of Tourism, Arts, Culture and Sport since July 2025; 'music teacher'; gov source first
+- Jodie Wickens bio (C1 medium): Autism Support Network -> Director of Programs and Services at SHARE Society; Minister of Children and Family Development
+- Lorne Doerkson bio (C1 medium): Investors Group dropped; 20 years Black Press publisher then financial planning; close to 30 years in the Cariboo; party page + SoV 2020 sources replace Wikipedia
+- Frederick Thiele bio (C1 medium): Rewritten from OneBC page; VoteMate/BC Ballot text and sources removed
+- Salvatore Vetro bio (C1 medium): Rewritten from OneBC page (HandyDART 25 years, Kitsilano Showers Program, Fight HST 2011, small business); 2020 run (fourth, 202 votes) now cites SoV 2020
+- Spencer Chandra Herbert bio (C1 medium): 'deputy speaker since 2020' -> 'deputy speaker in the previous parliament'; artist and performing arts producer; Park Board 2005-2008
+- Christine Boyle bio (C1 low): 'ordained United Church minister' removed; 'led national multi-faith climate justice advocacy'
+- Jennifer Blatherwick bio (C1 low): Husband removed; two-term trustee, former ED of Access Youth Outreach Services Society, raised five children
+- Mable Elmore bio (C1 low): 'Coast Mountain bus driver' -> transit operator for 10 years; first person of Filipino heritage elected; former parliamentary secretary
+- Rohini Reah Arora bio (C1 low): 'grew up in East Westridge' -> grew up in Westridge, where her family ran a small business; BC NDP page first
+- Routledge / Chouhan sources (C1 low): bcballot dropped; Routledge campaign page first; Chouhan bio aligned with Global News (Speaker since 2020, helped found Canadian Farmworkers' Union in 1980)
+- Douglas Gook sources (C1 low): VoteMate/Wikipedia replaced by BC Greens list + SoV 2024 (622, 5.34%) and SoV 2020 (707, 6.38%)
+- Kimball Cariou bio (C1 low): Leadership dates (Wikipedia only) removed; riding history cites SoV 2024/2020
+- Vancouver-Fraserview mla_change + Aman Singh bio (C1 low): Wikipedia attribution and 'replaced him' removed; CP Sept 28 wording; Singh bio: MLA 2020 to 2024, lost to Kooner, BC NDP president ('lawyer', 'since November 2025' dropped)
+- Roles: Ma, Chant, Dhir, Sharma, Glumac, Yung, Dix, Eby, Whiteside, Farnworth (C1 low): Wikipedia sources replaced by gov.bc.ca bios; Yung '30 years' -> VPD veteran who served as an inspector; Glumac 'computer graphics supervisor' -> electronics engineering, film animation, games, apps; Sharma Stand.earth dropped; Dix 'political aide and commentator' dropped; Whiteside HEU role in gov wording; Ma 'per Wikipedia' removed
+- Dallas Brodie bio: Wikipedia replaced by CBC (Mar 7, 2025 caucus removal) and NNW/CP ('former lawyer and broadcaster'); 'June 2025' dropped
+- Pete Davis bio (C1 low): 'seven years in the Kootenay-Columbia federal riding association' (Wikipedia only) removed; bio rebuilt from party page; Wikipedia source replaced by SoV 2024
+- Vancouver/North Shore mla_change strings citing Wikipedia: Rewritten with gov.bc.ca attribution for Lonsdale, Seymour, Hastings, Kensington, Langara, Little Mountain, Renfrew, West End, Yaletown, South Granville (Bailey: former finance minister, now Jobs and Economic Growth per Sept 8 cabinet list); Quilchena rewritten with CBC/CP and unverified recall line dropped
+- De Ding, Jenny Yamagata, Phil Webb, Naomi Chocyk sources: bcballot/Wikipedia/bbot-only sources replaced by Elections BC list (+ OneBC candidates page); bios are no-bio placeholders
+- Surrey-Fleetwood local candidates (90 file; C1 low): Paul Brar level 1 'sold homes in Surrey' -> 'worked in real estate for decades and raised four children in Surrey'; Binnema level 3 run wording fixed; all BC Ballot sources and '(BC Ballot)' text removed; Jagrup Brar bio 5 now gov.bc.ca-based (Bathinda, Manitoba, caucus chair dropped) with gov bio replacing BC Ballot/Wikipedia; unverified salary, campaign finance and '105 divisions' removed (record_note.5 and scoring_method.5 now 'voted with his party on every recorded vote checked', checked against 9 LIMS divisions)
+## Final review
+- q_health / conservative: removed a sentence about opponent-released audio of a party critic; positions describe a party's own commitments, for every party.
+- q_local_fraser_valley_er and q_local_north_er: the two questions share options; wording synced so both read the same.
+- q_drugs option c: "amend the Mental Health Act by January 2027" replaced with "keep involuntary care within the limits the court sets" (no party commitment to that date found).
+- Victoria-Beacon Hill / Joachim Agou: listed but no longer scored as a Conservative (dropped by the party Oct 8; Conservative label stays on the ballot). merge_ridings.py supports an unscored_label for this case.
+- Surrey-Fleetwood candidate entries synced with the corrected local section (2024 margin 753 per the Elections BC Statement of Votes).
+- Dead Angus Reid link replaced with Angus Reid's own release.
+- q_sogi option d / centrebc 2 -> 1 (reader report, Oct 12, made separately).
+- Data date now October 13, 2026.
+- New: audit_sources.py (source tiers, link check) runs before each build; README explains the tiers.

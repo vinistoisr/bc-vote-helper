@@ -95,5 +95,15 @@
   "pdf_top_mark": "PDF table cell: {pct} is a percentage like 54%; '(top)' marks the person's closest party.",
   "pdf_participant_item": "{name} person's name, {level} reading level with who it suits, {n} answered of {total}.",
   "pdf_footer": "Footer on every PDF page; keep it to about three short lines.",
-  "pdf_page": "PDF page number."
+  "pdf_page": "PDF page number.",
+
+  "party_liberal": "Name of the former BC Liberal Party (renamed BC United), shown in past election results. Short label beside a percentage.",
+  "party_united": "Name of the BC United party (the former BC Liberals), shown in past election results.",
+  "party_christian_heritage": "Short name of the Christian Heritage Party of BC, shown in 2024 riding results beside a percentage.",
+  "party_freedom": "Short name of the Freedom Party of BC, shown in 2024 riding results beside a percentage.",
+  "party_libertarian": "Short name of the BC Libertarian Party, shown in 2024 riding results beside a percentage.",
+  "party_communist": "Short name of the Communist Party of BC, shown in 2024 riding results beside a percentage.",
+  "party_other": "Votes for other parties or candidates in past election results, beside a percentage.",
+  "party_unaffiliated": "A candidate with no party (Elections BC's term), shown in election results.",
+  "month_names": "The 12 month names in order, separated by commas (no spaces needed). Used only when the reader's browser has no month names for this language (Chrome has none for Punjabi): dates are then written '<day> <month> <year>'. Must have exactly 12 names."
 }

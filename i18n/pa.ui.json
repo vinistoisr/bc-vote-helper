@@ -845,7 +845,7 @@
 ],
 "listed_by_last_name": [
 "b5bc019a37",
-"ਗੋਤ (ਆਖ਼ਰੀ ਨਾਂ) ਮੁਤਾਬਕ ਸੂਚੀ।"
+"ਆਖ਼ਰੀ ਨਾਂ ਮੁਤਾਬਕ ਸੂਚੀ।"
 ],
 "local_note_communities": [
 "d2920c6b8b",
@@ -955,6 +955,10 @@
 "92adf70d5a",
 "ਇੱਕ ਸਕਰੀਨ। ਹਰ ਕੋਈ ਹਰ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦੇਵੇ।"
 ],
+"month_names": [
+"6ab4d1b05f",
+"ਜਨਵਰੀ,ਫ਼ਰਵਰੀ,ਮਾਰਚ,ਅਪ੍ਰੈਲ,ਮਈ,ਜੂਨ,ਜੁਲਾਈ,ਅਗਸਤ,ਸਤੰਬਰ,ਅਕਤੂਬਰ,ਨਵੰਬਰ,ਦਸੰਬਰ"
+],
 "name_party": [
 "cf84cf0b34",
 "{name} ({party})"
@@ -1023,6 +1027,18 @@
 "e082504349",
 "{count} ਪਾਰਟੀਆਂ"
 ],
+"party_christian_heritage": [
+"fd3de66c2c",
+"ਕ੍ਰਿਸਚੀਅਨ ਹੈਰੀਟੇਜ"
+],
+"party_communist": [
+"c7c41d4170",
+"ਕਮਿਊਨਿਸਟ"
+],
+"party_freedom": [
+"862b58255c",
+"ਫ੍ਰੀਡਮ ਪਾਰਟੀ"
+],
 "party_incumbent": [
 "f9bdd6e82a",
 "{party}, ਮੌਜੂਦਾ ਐਮ.ਐਲ.ਏ."
@@ -1031,9 +1047,29 @@
 "834ee945d7",
 "{party}, ਮੌਜੂਦਾ ਐਮ.ਐਲ.ਏ."
 ],
+"party_liberal": [
+"caed0cfb85",
+"ਬੀ.ਸੀ. ਲਿਬਰਲ"
+],
+"party_libertarian": [
+"af24b58669",
+"ਬੀ.ਸੀ. ਲਿਬਰਟੇਰੀਅਨ"
+],
 "party_meta": [
 "235fb1b0c6",
 "ਆਗੂ: {leader}। {candidates} ਉਮੀਦਵਾਰ। ਵਿਧਾਨ ਸਭਾ ਭੰਗ ਹੋਣ ਵੇਲੇ {seats} ਸੀਟਾਂ।"
+],
+"party_other": [
+"6e6a6f2086",
+"ਹੋਰ"
+],
+"party_unaffiliated": [
+"a30b02930e",
+"ਗ਼ੈਰ-ਸਬੰਧਤ"
+],
+"party_united": [
+"e9d9681a54",
+"BC United"
 ],
 "past_results": [
 "860762937d",

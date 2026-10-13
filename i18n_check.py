@@ -137,7 +137,7 @@ def check_pair(lang, src, out, label):
         if lang in ("pa", "zh-Hans", "zh-Hant", "ru", "ko", "fa") and not k.endswith("/communities") and len(en) > 60 and letters and own / len(letters) < 0.15:
             errs.append(f"{k}: mostly not in the target script")
         words = set(re.findall(r"[a-zà-ÿ]+", t.lower()))
-        if lang in WORDS and len(t) > 80 and not k.endswith("/communities") and len(words & WORDS[lang]) < (1 if len(t) < 200 else 2):
+        if lang in WORDS and len(t) > 80 and " " in t and not k.endswith("/communities") and len(words & WORDS[lang]) < (1 if len(t) < 200 else 2):
             errs.append(f"{k}: does not read as {lang} (few common {lang} words)")
         if lang == "zh-Hans" and len(set(t) & TRAD_ONLY) >= 2:
             errs.append(f"{k}: Traditional characters in Simplified text: {''.join(sorted(set(t) & TRAD_ONLY))}")

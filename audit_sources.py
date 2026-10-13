@@ -30,7 +30,7 @@ bcndp.ca conservativebc.ca bcgreens.ca centrebc.ca 1bc.ca
 gov.bc.ca news.gov.bc.ca archive.news.gov.bc.ca bcbudget.gov.bc.ca surreylangleyskytrain.gov.bc.ca
 leg.bc.ca lims.leg.bc.ca bclaws.gov.bc.ca elections.bc.ca votebymail.elections.bc.ca
 statcan.gc.ca www150.statcan.gc.ca canada.ca cmhc-schl.gc.ca
-surrey.ca surreypolice.ca ubcm.ca bccsu.ca
+surrey.ca surreypolice.ca ubcm.ca bccsu.ca bccdc.ca fraserhealth.ca
 ipsos.com angusreid.org legermarketing.com
 """.split()
 
@@ -47,13 +47,22 @@ castanet.net castanetkamloops.net cfjctoday.com ckpgtoday.ca energeticcity.ca si
 sitkamedia.ca fraservalleytoday.ca mykootenaynow.com nanaimonewsnow.com mysouthokanagannow.com mynelsonnow.com
 todayinbc.com am1150.ca connectfm.ca cjdctv.com nsnews.com delta-optimist.com prpeak.com piquenewsmagazine.com
 therockymountaingoat.com voiceonline.com fvcurrent.com medicinehatnews.com westknews.com
+mycariboonow.com peacearchnews.com vicnews.com narcity.com
 """.split()
 
 T3 = """
 wikipedia.org en.wikipedia.org upload.wikimedia.org bcballot.ca bcelectionguide.ca votemate.org poliwave.com 338canada.com
-x.com twitter.com facebook.com instagram.com stephentaylor.ca armchairmayor.ca westernstandard.news
+x.com twitter.com facebook.com instagram.com youtube.com youtu.be stephentaylor.ca armchairmayor.ca westernstandard.news
 fraserinstitute.org sogieducation.org bcnu.org fnlc.ca blakes.com blg.com treefrogcreative.ca swrbot.com
 victoriabuzz.com ufvcascade.ca bbot.ca
+""".split()
+
+# Official party accounts (as linked from the party's own website) count as primary (T1); every other
+# social post is T3, including leaders' personal accounts until checked.
+# YouTube videos are listed one by one after checking the channel (youtube.com/oembed?url=... gives author_url).
+OFFICIAL_SOCIAL = """
+x.com/One_BCHQ x.com/VoteCentreBC x.com/bcgreens x.com/bcndp
+youtube.com/watch?v=WQk8R4dwmsI
 """.split()
 
 URL_RE = re.compile(r"https?://[^\s;,\"'<>]+")
@@ -61,10 +70,21 @@ URL_RE = re.compile(r"https?://[^\s;,\"'<>]+")
 
 def tier(url):
     host = urllib.parse.urlparse(url).netloc.lower().removeprefix("www.")
+    bare = re.sub(r"^https?://(www\.)?", "", url).replace("twitter.com/", "x.com/").lower()
+    if any(bare == a.lower() or bare.startswith(a.lower() + "/") or bare.startswith(a.lower() + "&") for a in OFFICIAL_SOCIAL):
+        return "T1"
     for name, doms in (("T1", T1), ("T2", T2), ("T3", T3)):
         if any(host == d or host.endswith("." + d) for d in doms):
             return name
     return "?"
+
+
+def clean(u):
+    """Trim trailing punctuation, but keep a ')' that closes a '(' inside the URL (Wikipedia titles)."""
+    u = u.rstrip(".,")
+    while u.endswith(")") and u.count(")") > u.count("("):
+        u = u[:-1].rstrip(".,")
+    return u
 
 
 def urls_of(sources):
@@ -73,7 +93,7 @@ def urls_of(sources):
         u = s.get("url") if isinstance(s, dict) else s
         if isinstance(u, str):
             out += URL_RE.findall(u) or [u]
-    return [u.rstrip(".)") for u in out]
+    return [clean(u) for u in out]
 
 
 def holders(spec):
@@ -105,7 +125,7 @@ def all_urls(spec):
             for v in o:
                 walk(v)
         elif isinstance(o, str):
-            found.update(u.rstrip(".)") for u in URL_RE.findall(o))
+            found.update(clean(u) for u in URL_RE.findall(o))
 
     walk(spec)
     return sorted(found)
@@ -159,7 +179,7 @@ def main():
     if "--links" in sys.argv:
         with concurrent.futures.ThreadPoolExecutor(24) as ex:
             res = list(ex.map(fetch_status, urls))
-        dead = [(u, s) for u, s in res if s in (404, 410) or s == "URLError"]
+        dead = [(u, s) for u, s in res if s in (404, 410)]
         other = [(u, s) for u, s in res if s != 200 and (u, s) not in dead]
         print(f"\nLinks: {len(res) - len(dead) - len(other)} OK, {len(dead)} dead, {len(other)} blocked or flaky (403/429/5xx/timeout; check by hand)")
         for u, s in dead:
