@@ -61,9 +61,51 @@ th { color: var(--ink-2); font-weight: 600; }
 .scroll { overflow-x: auto; }
 .empty { padding: 30px 0; text-align: center; }
 .tag { font-size: 0.75rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-left: 6px; color: var(--ink-2); }
+/* Collapsible sections: a card whose heading is the summary */
+details.sec > summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+details.sec > summary::-webkit-details-marker, details.q > summary::-webkit-details-marker { display: none; }
+details.sec > summary h2 { margin: 0; }
+details.sec[open] > summary { margin-bottom: 12px; }
+.caret { display: inline-block; width: 0.8em; color: var(--ink-2); transition: transform 0.15s; }
+details[open] > summary .caret { transform: rotate(90deg); }
+summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 4px; }
+.sec-tools { margin-left: auto; display: flex; gap: 6px; }
+.sec-tools button { min-height: 30px; padding: 3px 10px; font-size: 0.85rem; }
+details.q > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1.2em minmax(0, 1fr) auto; gap: 8px; align-items: baseline; }
+details.q > summary h3 { margin: 0; }
+details.q[open] > summary { margin-bottom: 6px; }
+.q-sum { font-size: 0.82rem; color: var(--ink-2); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.more-rows tr.more { display: none; }
+.more-rows.show tr.more { display: table-row; }
+.linkish { border: 0; background: none; padding: 4px 0; min-height: 0; color: var(--bar); text-decoration: underline; }
+.linkish:hover { background: none; }
+/* Riding map: drawn from /geo/eds.json, pan and zoom by changing the SVG viewBox */
+.map-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 16px; align-items: start; }
+.map-box { position: relative; background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+#map-svg { display: block; width: 100%; height: auto; max-height: min(70vh, 620px); touch-action: none; cursor: grab; user-select: none; }
+#map-svg.dragging { cursor: grabbing; }
+#map-svg path { stroke: var(--surface); stroke-width: 0.7; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+#map-svg path.nodata { fill: var(--wash); }
+#map-svg path.hover { stroke: var(--ink-2); stroke-width: 1.5; }
+#map-svg path.sel { stroke: var(--ink); stroke-width: 2.5; }
+.map-zoom { position: absolute; top: 10px; left: 10px; display: grid; gap: 4px; }
+.map-zoom button { width: 34px; height: 34px; min-height: 0; padding: 0; justify-content: center; font-size: 1.1rem; line-height: 1; }
+.map-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+.map-side { display: grid; gap: 12px; min-width: 0; }
+.legend { display: grid; gap: 4px; font-size: 0.85rem; }
+.legend .sw { display: inline-block; width: 14px; height: 14px; border-radius: 3px; margin-right: 6px; vertical-align: -2px; border: 1px solid var(--line); }
+.legend .row { display: flex; justify-content: space-between; gap: 8px; }
+.legend .row span:last-child { font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.info { border-top: 1px solid var(--line); padding-top: 10px; min-height: 120px; }
+.info h3 { margin-bottom: 2px; }
+.info .bar-row { grid-template-columns: minmax(70px, 110px) 1fr 44px; gap: 6px; font-size: 0.85rem; }
+@media (max-width: 860px) { .map-wrap { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .caret { transition: none; } }
 @media (max-width: 560px) {
   .bar-row { grid-template-columns: 90px 1fr 52px; }
   .opt { grid-template-columns: 1fr 70px 46px; }
+  details.q > summary { grid-template-columns: 1.2em minmax(0, 1fr); }
+  .q-sum { grid-column: 2; text-align: left; white-space: normal; }
 }
 </style>
 </head>
@@ -193,15 +235,21 @@ th { color: var(--ink-2); font-weight: 600; }
     });
   }
 
-  function filtered() {
+  /* Period, people and location filters only. The map uses this set, so Region and Riding zoom it instead of emptying it. */
+  function baseFiltered() {
     var period = el("f-period").value, who = el("f-who").value, where = el("f-where").value;
-    var region = el("f-region").value, riding = el("f-riding").value;
     var cutoff = period === "all" ? 0 : Date.parse(DATA.generated_at) - Number(period) * 86400000;
-    var people = DATA.people.filter(function (p) {
+    return DATA.people.filter(function (p) {
       if (cutoff && Date.parse(p.sub.created_at) < cutoff) return false;
       if (who === "adults" && p.level < 3) return false;
       if (who === "kids" && p.level > 2) return false;
       if (where === "BC" && p.sub.region_code !== "BC") return false;
+      return true;
+    });
+  }
+  function filtered() {
+    var region = el("f-region").value, riding = el("f-riding").value;
+    var people = baseFiltered().filter(function (p) {
       if (region === NOT_GIVEN && p.region) return false;
       if (region !== "all" && region !== NOT_GIVEN && p.region !== region) return false;
       if (riding === NOT_GIVEN && p.riding) return false;
@@ -237,6 +285,8 @@ th { color: var(--ink-2); font-weight: 600; }
   }
 
   function render() {
+    /* the toggle event arrives a task after a click, so read open/closed straight from the page first */
+    Array.prototype.forEach.call(document.querySelectorAll("#out details[data-key]"), function (d) { OPEN[d.getAttribute("data-key")] = d.open; });
     var f = filtered(), P = f.people, n = P.length;
     el("stamp").textContent = "Updated " + new Date(DATA.generated_at).toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" }) +
       "; scores use the current quiz data (" + SPEC.meta.data_as_of + "). " + DATA.people.length + " people stored in total.";
@@ -272,6 +322,7 @@ th { color: var(--ink-2); font-weight: 600; }
       }), 100) + "</div>";
     html += candidatePanel(f, shareLocal, n);
     html += "</div><div style=\"height:16px\"></div>";
+    html += mapSection();
     html += byRidingTable(P, f);
 
     /* per day */
@@ -281,41 +332,45 @@ th { color: var(--ink-2); font-weight: 600; }
       var list = [], d0 = new Date(keys[0] + "T00:00:00Z"), d1 = new Date(keys[keys.length - 1] + "T00:00:00Z");
       for (var d = d0; d <= d1; d = new Date(d.getTime() + 86400000)) { var k = d.toISOString().slice(0, 10); list.push({ k: k, v: days[k] || 0 }); }
       var mx = Math.max.apply(null, list.map(function (x) { return x.v; }));
-      html += '<div class="card"><h2>People per day (UTC)</h2><div class="days">' + list.map(function (x) {
+      html += section("days", "People per day (UTC)", list.length + " days", '<div class="days">' + list.map(function (x) {
         return '<div class="day" title="' + x.k + ": " + x.v + '" style="height:' + (100 * x.v / mx).toFixed(1) + '%"></div>';
-      }).join("") + '</div><div class="days-x small muted"><span>' + list[0].k + "</span><span>" + list[list.length - 1].k + "</span></div></div>";
+      }).join("") + '</div><div class="days-x small muted"><span>' + list[0].k + "</span><span>" + list[list.length - 1].k + "</span></div>");
     }
 
-    /* questions */
-    html += '<div class="card"><h2>Answers by question</h2><p class="muted small">Share of people who picked each answer (skips left out). Chips show the parties whose position that answer matches best (score 4).</p>';
+    /* questions: each one collapses to a one-line summary */
     var showRegion = f.riding !== "all" && f.riding !== NOT_GIVEN && RIDBY[f.riding] ? RIDBY[f.riding].region : f.region !== "all" && f.region !== NOT_GIVEN ? f.region : null;
-    var qn = 0;
+    var qn = 0, qhtml = "";
     SPEC.questions.forEach(function (q) {
       if (showRegion && q.scope !== "provincial" && QREG[q.id] !== showRegion) return;
       var qi = qn++;
-      var counts = {}, given = 0, skips = 0, high = 0, seen = 0;
+      var counts = {}, given = 0, skips = 0, high = 0;
       P.forEach(function (p) {
         var a = p.answers && p.answers[q.id];
         if (!a) return;
-        seen += 1;
         if (a.c === "skip") { skips += 1; return; }
         counts[a.c] = (counts[a.c] || 0) + 1; given += 1;
         if (a.w === "high") high += 1;
       });
       var mx2 = Math.max.apply(null, q.options.map(function (o) { return counts[o.id] || 0; }).concat([1]));
-      html += '<div class="q"><h3>' + (qi + 1) + ". " + esc(issueLabel(q)) + (q.scope !== "provincial" ? '<span class="tag">' + esc(QREG[q.id] && REGBY[QREG[q.id]] ? REGBY[QREG[q.id]].name : "Local") + "</span>" : "") + "</h3>" +
+      var lead = q.options.slice().sort(function (a, b) { return (counts[b.id] || 0) - (counts[a.id] || 0); })[0];
+      var key = "q:" + q.id;
+      qhtml += '<details class="q" data-key="' + esc(key) + '"' + (isOpen(key, false) ? " open" : "") + "><summary>" +
+        '<span class="caret" aria-hidden="true">&#9656;</span><h3>' + (qi + 1) + ". " + esc(issueLabel(q)) + (q.scope !== "provincial" ? '<span class="tag">' + esc(QREG[q.id] && REGBY[QREG[q.id]] ? REGBY[QREG[q.id]].name : "Local") + "</span>" : "") + "</h3>" +
+        '<span class="q-sum">' + (given ? "Top answer " + String.fromCharCode(65 + q.options.indexOf(lead)) + " " + fmt(pct(counts[lead.id] || 0, given)) + " &middot; " : "") + given + " answered</span></summary>" +
         '<p class="small">' + esc(q.prompt) + "</p>";
-      q.options.forEach(function (o) {
+      q.options.forEach(function (o, oi) {
         var c = counts[o.id] || 0;
         var chips = PIDS.filter(function (pid) { return Number(o.scores[pid]) === 4 && (q.no_pos || []).indexOf(pid) < 0; }).map(function (pid) {
           return '<span class="chip" style="background:' + PBY[pid].color + '">' + esc(PBY[pid].short_name || PBY[pid].name) + "</span>";
         }).join("");
-        html += '<div class="opt"><span class="small">' + esc(o.text) + (chips ? '<span class="chips">' + chips + "</span>" : "") + "</span>" +
+        qhtml += '<div class="opt"><span class="small"><b>' + String.fromCharCode(65 + oi) + ".</b> " + esc(o.text) + (chips ? '<span class="chips">' + chips + "</span>" : "") + "</span>" +
           '<div class="track"><div class="fill" style="width:' + (100 * c / mx2).toFixed(1) + '%"></div></div><span class="val small">' + fmt(pct(c, given)) + "</span></div>";
       });
-      html += '<p class="muted small">' + given + " answered, " + skips + " skipped. " + fmt(pct(high, given)) + " marked it high importance.</p></div>";
+      qhtml += '<p class="muted small">' + given + " answered, " + skips + " skipped. " + fmt(pct(high, given)) + " marked it high importance.</p></details>";
     });
-    html += "</div>";
+    html += section("questions", "Answers by question", qn + " questions",
+      '<p class="muted small">Share of people who picked each answer (skips left out). Chips show the parties whose position that answer matches best (score 4). Open a question for its answers.</p>' + qhtml,
+      '<button type="button" data-qall="1">Open all</button><button type="button" data-qall="0">Close all</button>');
 
     /* levels and places */
     var lv = {}; P.forEach(function (p) { lv[p.level] = (lv[p.level] || 0) + 1; });
@@ -334,20 +389,351 @@ th { color: var(--ink-2); font-weight: 600; }
     html += '<div class="card"><h2>Top cities</h2><p class="muted small">From Cloudflare IP location, approximate.</p>' + barRows(topList(cities, 12), n) + "</div>";
     html += "</div><div style=\"height:16px\"></div>";
 
-    /* recent sessions */
+    /* recent sessions: the newest 10, the rest behind a toggle */
     var recent = f.subs.slice().sort(function (a, b) { return b.created_at < a.created_at ? -1 : 1; }).slice(0, 60);
     var pBySid = {}; P.forEach(function (p) { (pBySid[p.sid] = pBySid[p.sid] || []).push(p); });
-    html += '<div class="card"><h2>Recent sessions</h2><p class="muted small">Tick test runs or junk and delete them. This cannot be undone.</p><div class="scroll"><table><thead><tr><th></th><th>When</th><th>People</th><th>Where</th><th>Riding</th><th>Language</th><th>Best match per person</th></tr></thead><tbody>' +
-      recent.map(function (s) {
+    html += section("sessions", "Recent sessions", recent.length + " shown",
+      '<p class="muted small">Tick test runs or junk and delete them. This cannot be undone.</p>' +
+      moreTable("sessions", 10, recent.length, '<thead><tr><th></th><th>When</th><th>People</th><th>Where</th><th>Riding</th><th>Language</th><th>Best match per person</th></tr></thead><tbody>' +
+      recent.map(function (s, i) {
         var ppl = (pBySid[s.sid] || []).sort(function (a, b) { return a.idx - b.idx; });
-        return '<tr><td><input type="checkbox" class="del" value="' + esc(s.sid) + '" aria-label="Select session"></td><td>' +
+        return "<tr" + (i >= 10 ? ' class="more"' : "") + '><td><input type="checkbox" class="del" value="' + esc(s.sid) + '" aria-label="Select session"></td><td>' +
           esc(new Date(s.created_at).toLocaleString("en-CA", { dateStyle: "short", timeStyle: "short" })) + "</td><td>" + s.count + "</td><td>" +
           esc([s.city, s.region_code].filter(Boolean).join(", ") || "-") + "</td><td>" + esc(ridingLabel(s.riding)) + "</td><td>" + esc(langLabel(s.lang)) + "</td><td>" +
           ppl.map(function (p) { return "L" + p.level + ": " + p.top.map(function (id) { return esc(PBY[id].short_name || PBY[id].name); }).join(" / "); }).join("; ") + "</td></tr>";
-      }).join("") + '</tbody></table></div><p><button type="button" class="danger" id="del-btn">Delete selected</button> <span class="small muted" id="del-msg"></span></p></div>';
+      }).join("") + "</tbody>", "sessions") +
+      '<p><button type="button" class="danger" id="del-btn">Delete selected</button> <span class="small muted" id="del-msg"></span></p>');
 
     el("out").innerHTML = html;
     el("del-btn").addEventListener("click", delSelected);
+    wireCollapsibles();
+    mountMap(baseFiltered(), f);
+  }
+
+  /*
+   * Collapsible sections. Open/closed state survives re-renders (filters rebuild the page) and
+   * reloads (localStorage, optional: the page works without it).
+   */
+  var OPEN = {};
+  try { OPEN = JSON.parse(localStorage.getItem("bcvh-admin-open") || "{}") || {}; } catch (e) { OPEN = {}; }
+  function saveOpen() { try { localStorage.setItem("bcvh-admin-open", JSON.stringify(OPEN)); } catch (e) { /* storage blocked */ } }
+  function isOpen(key, dflt) { return OPEN[key] == null ? dflt : !!OPEN[key]; }
+  function section(key, title, meta, body, tools) {
+    return '<details class="card sec" data-key="' + esc(key) + '"' + (isOpen(key, true) ? " open" : "") + "><summary>" +
+      '<span class="caret" aria-hidden="true">&#9656;</span><h2>' + esc(title) + '</h2><span class="small muted">' + esc(meta || "") + "</span>" +
+      (tools ? '<span class="sec-tools">' + tools + "</span>" : "") + "</summary>" + body + "</details>";
+  }
+  /* A table that shows its first `shown` rows (rows past that carry class "more") with a toggle for the rest */
+  function moreTable(key, shown, total, inner, label) {
+    var k = "all:" + key, all = isOpen(k, false);
+    return '<div class="scroll more-rows' + (all ? " show" : "") + '" data-more="' + esc(k) + '"><table>' + inner + "</table></div>" +
+      (total > shown ? '<button type="button" class="linkish" data-more-btn="' + esc(k) + '" aria-expanded="' + all + '">' +
+        (all ? "Show the first " + shown + " only" : "Show all " + total + " " + label) + "</button>" : "");
+  }
+  function wireCollapsibles() {
+    Array.prototype.forEach.call(document.querySelectorAll("#out details[data-key]"), function (d) {
+      d.addEventListener("toggle", function () { OPEN[d.getAttribute("data-key")] = d.open; saveOpen(); });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("#out [data-qall]"), function (b) {
+      b.addEventListener("click", function (e) {
+        e.preventDefault(); e.stopPropagation(); /* the button sits in a summary: do not toggle the section */
+        var open = b.getAttribute("data-qall") === "1";
+        Array.prototype.forEach.call(document.querySelectorAll("#out details.q"), function (d) { d.open = open; OPEN[d.getAttribute("data-key")] = open; });
+        saveOpen();
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("#out [data-more-btn]"), function (b) {
+      b.addEventListener("click", function () {
+        var k = b.getAttribute("data-more-btn"), box = document.querySelector('#out [data-more="' + k + '"]');
+        var all = !box.classList.contains("show");
+        box.classList.toggle("show", all); OPEN[k] = all; saveOpen();
+        var shown = box.querySelectorAll("tbody tr:not(.more)").length, total = box.querySelectorAll("tbody tr").length;
+        b.setAttribute("aria-expanded", String(all));
+        b.textContent = all ? "Show the first " + shown + " only" : "Show all " + total + " " + (k === "all:sessions" ? "sessions" : "ridings");
+      });
+    });
+  }
+
+  /*
+   * Riding map. Shapes come from /geo/eds.json (the same file "Use my location" uses), projected
+   * with BC Albers (EPSG:3005, spherical) into kilometres. Pan and zoom change the SVG viewBox,
+   * so borders stay crisp at any zoom. Each riding takes the colour of the party that is the top
+   * match for the most people there (ties split per person, as in the table); a tie between
+   * parties is striped, and ridings with fewer than MAP_MIN people are drawn lighter.
+   */
+  var MAP_MIN = 5;
+  var MAP = null, GEO = null;
+  function albers(lon, lat) {
+    var rad = Math.PI / 180, p1 = 50 * rad, p2 = 58.5 * rad, p0 = 45 * rad, l0 = -126 * rad, R = 6371;
+    var n = (Math.sin(p1) + Math.sin(p2)) / 2, C = Math.cos(p1) * Math.cos(p1) + 2 * n * Math.sin(p1);
+    var r0 = Math.sqrt(C - 2 * n * Math.sin(p0)) / n, r = Math.sqrt(C - 2 * n * Math.sin(lat * rad)) / n, t = n * (lon * rad - l0);
+    return [R * r * Math.sin(t), -R * (r0 - r * Math.cos(t))];
+  }
+  function loadGeo() {
+    if (!GEO) GEO = fetch("/geo/eds.json", { credentials: "same-origin" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).catch(function (e) { GEO = null; throw e; });
+    return GEO;
+  }
+  function mapSection() {
+    var zoomOpts = '<option value="all">All of BC</option>' + REGIONS.map(function (r) { return '<option value="' + esc(r.id) + '">' + esc(r.name) + "</option>"; }).join("");
+    return section("map", "Map by riding", "colour = party that is the top match for the most people",
+      '<div class="map-tools"><label class="small">Zoom to <select id="map-zoomto">' + zoomOpts + "</select></label>" +
+      '<span class="small muted">Scroll or pinch to zoom, drag to move, click a riding for its numbers.</span></div>' +
+      '<div class="map-wrap"><div id="map-slot"><div class="map-box"><p class="empty muted">Loading map...</p></div></div>' +
+      '<div class="map-side"><div class="legend" id="map-legend"></div><div class="info" id="map-info"></div></div></div>' +
+      '<p class="muted small">Counts people who gave a riding, using the Period, People and Location filters. The Region and Riding filters zoom the map instead of hiding ridings.</p>');
+  }
+  function mapStats(people) {
+    var st = {};
+    people.forEach(function (p) {
+      if (!p.riding) return;
+      var s = st[p.riding] = st[p.riding] || { n: 0, sids: {}, share: {} };
+      s.n += 1; s.sids[p.sid] = true;
+      p.top.forEach(function (id) { s.share[id] = (s.share[id] || 0) + 1 / p.top.length; });
+    });
+    Object.keys(st).forEach(function (code) {
+      var s = st[code], best = -1;
+      PIDS.forEach(function (id) { var v = s.share[id] || 0; if (v > best + 1e-9) best = v; });
+      s.lead = PIDS.filter(function (id) { return best > 0 && Math.abs((s.share[id] || 0) - best) < 1e-9; });
+    });
+    return st;
+  }
+  function buildMap(geo) {
+    var NS = "http://www.w3.org/2000/svg";
+    var minx = Infinity, miny = Infinity, maxx = -Infinity, maxy = -Infinity;
+    var shapes = geo.r.filter(function (g) { return RIDBY[g.c]; }).map(function (g) {
+      var bx = [Infinity, Infinity, -Infinity, -Infinity], d = "";
+      g.p.forEach(function (poly) {
+        poly.forEach(function (ring) {
+          for (var i = 0; i < ring.length; i += 2) {
+            var xy = albers(ring[i], ring[i + 1]);
+            if (xy[0] < bx[0]) bx[0] = xy[0]; if (xy[1] < bx[1]) bx[1] = xy[1];
+            if (xy[0] > bx[2]) bx[2] = xy[0]; if (xy[1] > bx[3]) bx[3] = xy[1];
+            d += (i ? "L" : "M") + xy[0].toFixed(2) + " " + xy[1].toFixed(2);
+          }
+          d += "Z";
+        });
+      });
+      minx = Math.min(minx, bx[0]); miny = Math.min(miny, bx[1]); maxx = Math.max(maxx, bx[2]); maxy = Math.max(maxy, bx[3]);
+      return { code: g.c, d: d, box: bx };
+    });
+    var pad = 0.03 * (maxx - minx);
+    var full = { x: minx - pad, y: miny - pad, w: maxx - minx + 2 * pad, h: maxy - miny + 2 * pad };
+    var box = document.createElement("div");
+    box.className = "map-box";
+    box.innerHTML = '<svg id="map-svg" xmlns="' + NS + '" role="img" aria-label="Map of BC ridings coloured by the party that is the top match for the most people" preserveAspectRatio="xMidYMid meet"><defs id="map-defs"></defs><g id="map-g"></g></svg>' +
+      '<div class="map-zoom"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">&minus;</button><button type="button" data-z="fit" aria-label="Show all of BC" title="Show all of BC">&#8634;</button></div>';
+    var svg = box.querySelector("svg"), g = box.querySelector("#map-g"), paths = {}, boxes = {};
+    svg.style.aspectRatio = full.w.toFixed(1) + " / " + full.h.toFixed(1); /* the box takes BC's shape, so phones get no empty bands */
+    shapes.forEach(function (s) {
+      var p = document.createElementNS(NS, "path");
+      p.setAttribute("d", s.d); p.setAttribute("data-c", s.code); p.setAttribute("fill-rule", "evenodd");
+      g.appendChild(p); paths[s.code] = p; boxes[s.code] = s.box;
+    });
+    MAP = { box: box, svg: svg, g: g, paths: paths, boxes: boxes, full: full, vb: null, sel: null, hover: null, stats: {}, focus: "", anim: 0 };
+    setVB(full);
+    wireMap();
+  }
+  function setVB(v) {
+    var f = MAP.full, w = Math.max(f.w / 120, Math.min(f.w * 1.4, v.w)), h = w * (f.h / f.w);
+    var cx = v.x + v.w / 2, cy = v.y + v.h / 2;
+    cx = Math.max(f.x, Math.min(f.x + f.w, cx)); cy = Math.max(f.y, Math.min(f.y + f.h, cy));
+    MAP.vb = { x: cx - w / 2, y: cy - h / 2, w: w, h: h };
+    MAP.svg.setAttribute("viewBox", [MAP.vb.x, MAP.vb.y, MAP.vb.w, MAP.vb.h].map(function (n) { return n.toFixed(3); }).join(" "));
+    /* tie stripes keep the same on-screen width at every zoom */
+    Array.prototype.forEach.call(MAP.svg.querySelectorAll("pattern"), function (pt) {
+      var s = w / 110; pt.setAttribute("width", s); pt.setAttribute("height", s);
+      Array.prototype.forEach.call(pt.querySelectorAll("rect"), function (r, i) { r.setAttribute("x", (i * s) / 2); r.setAttribute("width", s / 2); r.setAttribute("height", s); });
+    });
+  }
+  function zoomAt(cx, cy, factor) {
+    var v = MAP.vb, w = v.w / factor, h = v.h / factor;
+    setVB({ x: cx - (cx - v.x) / factor, y: cy - (cy - v.y) / factor, w: w, h: h });
+  }
+  function zoomTo(b, pad) {
+    var f = MAP.full, w = Math.max(b[2] - b[0], 1), h = Math.max(b[3] - b[1], 1);
+    pad = pad == null ? 0.15 : pad;
+    w *= 1 + 2 * pad; h *= 1 + 2 * pad;
+    if (h / w > f.h / f.w) w = h * (f.w / f.h);
+    var to = { x: (b[0] + b[2]) / 2 - w / 2, y: (b[1] + b[3]) / 2 - w * (f.h / f.w) / 2, w: w, h: w * (f.h / f.w) };
+    var from = MAP.vb, t0 = performance.now(), dur = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 320, id = ++MAP.anim;
+    (function step(now) {
+      if (id !== MAP.anim) return;
+      var k = dur ? Math.min(1, (now - t0) / dur) : 1, e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+      setVB({ x: from.x + (to.x - from.x) * e, y: from.y + (to.y - from.y) * e, w: from.w + (to.w - from.w) * e, h: from.h + (to.h - from.h) * e });
+      if (k < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+  function unionBox(codes) {
+    var b = [Infinity, Infinity, -Infinity, -Infinity];
+    codes.forEach(function (c) { var x = MAP.boxes[c]; if (!x) return; b = [Math.min(b[0], x[0]), Math.min(b[1], x[1]), Math.max(b[2], x[2]), Math.max(b[3], x[3])]; });
+    return b[0] === Infinity ? null : b;
+  }
+  /* Frame a region on its typical ridings: a few huge rural ones (Sea to Sky in Metro) would otherwise shrink the city ones to dots */
+  function regionBox(rid) {
+    var codes = RIDINGS.filter(function (r) { return r.region === rid && MAP.boxes[r.code]; }).map(function (r) { return r.code; });
+    var area = function (c) { var b = MAP.boxes[c]; return (b[2] - b[0]) * (b[3] - b[1]); };
+    var sorted = codes.map(area).sort(function (a, b) { return a - b; }), med = sorted[Math.floor(sorted.length / 2)] || 0;
+    var core = codes.filter(function (c) { return area(c) <= 4 * med; });
+    return unionBox(core.length ? core : codes);
+  }
+  function svgPoint(cx, cy) {
+    var pt = MAP.svg.createSVGPoint(); pt.x = cx; pt.y = cy;
+    return pt.matrixTransform(MAP.svg.getScreenCTM().inverse());
+  }
+  function wireMap() {
+    var svg = MAP.svg, ptrs = {}, drag = null, pinch = null;
+    svg.addEventListener("wheel", function (e) {
+      e.preventDefault(); MAP.anim++;
+      var dy = e.deltaY * (e.deltaMode === 1 ? 40 : e.deltaMode === 2 ? 400 : 1), p = svgPoint(e.clientX, e.clientY);
+      zoomAt(p.x, p.y, Math.exp(-dy * 0.0018));
+    }, { passive: false });
+    svg.addEventListener("pointerdown", function (e) {
+      svg.setPointerCapture(e.pointerId); MAP.anim++;
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      var ids = Object.keys(ptrs);
+      if (ids.length === 1) drag = { x: e.clientX, y: e.clientY, vb: MAP.vb, moved: false, target: e.target };
+      else if (ids.length === 2) {
+        var a = ptrs[ids[0]], b = ptrs[ids[1]];
+        pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) }; if (drag) drag.moved = true;
+      }
+    });
+    svg.addEventListener("pointermove", function (e) {
+      if (!ptrs[e.pointerId]) { hoverAt(e.target); return; }
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      var ids = Object.keys(ptrs);
+      if (ids.length >= 2 && pinch) {
+        var a = ptrs[ids[0]], b = ptrs[ids[1]], d = Math.hypot(a.x - b.x, a.y - b.y);
+        var m = svgPoint((a.x + b.x) / 2, (a.y + b.y) / 2);
+        if (pinch.d > 0) zoomAt(m.x, m.y, d / pinch.d);
+        pinch.d = d;
+      } else if (drag) {
+        var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+        if (!drag.moved && Math.hypot(dx, dy) < 4) return;
+        drag.moved = true; svg.classList.add("dragging");
+        var s = svg.getScreenCTM().a;
+        setVB({ x: drag.vb.x - dx / s, y: drag.vb.y - dy / s, w: drag.vb.w, h: drag.vb.h });
+      }
+    });
+    function end(e) {
+      if (!ptrs[e.pointerId]) return;
+      delete ptrs[e.pointerId];
+      var left = Object.keys(ptrs).length;
+      if (left < 2) pinch = null;
+      if (!left) {
+        if (drag && !drag.moved && e.type === "pointerup") {
+          var c = drag.target && drag.target.getAttribute && drag.target.getAttribute("data-c");
+          selectRiding(c && c !== MAP.sel ? c : null);
+        }
+        drag = null; svg.classList.remove("dragging");
+      }
+    }
+    svg.addEventListener("pointerup", end);
+    svg.addEventListener("pointercancel", end);
+    svg.addEventListener("pointerleave", function () { if (!drag) hoverAt(null); });
+    svg.addEventListener("dblclick", function (e) { e.preventDefault(); var p = svgPoint(e.clientX, e.clientY); zoomAt(p.x, p.y, 2); });
+    MAP.box.querySelector(".map-zoom").addEventListener("click", function (e) {
+      var z = e.target.getAttribute && e.target.getAttribute("data-z");
+      if (!z) return;
+      var v = MAP.vb;
+      if (z === "fit") { var zt = el("map-zoomto"); if (zt) zt.value = "all"; zoomTo([MAP.full.x, MAP.full.y, MAP.full.x + MAP.full.w, MAP.full.y + MAP.full.h], 0); return; }
+      MAP.anim++; zoomAt(v.x + v.w / 2, v.y + v.h / 2, z === "in" ? 1.6 : 1 / 1.6);
+    });
+  }
+  function hoverAt(t) {
+    var c = t && t.getAttribute ? t.getAttribute("data-c") : null;
+    if (c === MAP.hover) return;
+    if (MAP.hover && MAP.paths[MAP.hover]) MAP.paths[MAP.hover].classList.remove("hover");
+    MAP.hover = c;
+    if (c) MAP.paths[c].classList.add("hover");
+    showInfo(c || MAP.sel);
+  }
+  function selectRiding(c) {
+    if (MAP.sel && MAP.paths[MAP.sel]) MAP.paths[MAP.sel].classList.remove("sel");
+    MAP.sel = c && MAP.paths[c] ? c : null;
+    if (MAP.sel) MAP.g.appendChild(MAP.paths[MAP.sel]).classList.add("sel"); /* draw on top so the outline is whole */
+    showInfo(MAP.sel);
+  }
+  function tieFill(ids) {
+    var id = "tie-" + ids.join("-"), defs = MAP.svg.querySelector("#map-defs");
+    if (!defs.querySelector("#" + id)) {
+      var NS = "http://www.w3.org/2000/svg", pt = document.createElementNS(NS, "pattern");
+      pt.setAttribute("id", id); pt.setAttribute("patternUnits", "userSpaceOnUse"); pt.setAttribute("patternTransform", "rotate(45)");
+      ids.slice(0, 2).forEach(function (pid) { var r = document.createElementNS(NS, "rect"); r.setAttribute("y", "0"); r.setAttribute("fill", PBY[pid].color); pt.appendChild(r); });
+      defs.appendChild(pt);
+      setVB(MAP.vb);
+    }
+    return "url(#" + id + ")";
+  }
+  function colorMap(people) {
+    var st = MAP.stats = mapStats(people), lead = {}, ties = 0, low = 0, none = 0;
+    Object.keys(MAP.paths).forEach(function (code) {
+      var p = MAP.paths[code], s = st[code];
+      if (!s || !s.lead.length) { p.setAttribute("class", "nodata" + (code === MAP.sel ? " sel" : "")); p.removeAttribute("fill"); p.removeAttribute("fill-opacity"); none++; return; }
+      p.setAttribute("class", code === MAP.sel ? "sel" : "");
+      if (s.lead.length === 1) { p.setAttribute("fill", PBY[s.lead[0]].color); lead[s.lead[0]] = (lead[s.lead[0]] || 0) + 1; }
+      else { p.setAttribute("fill", tieFill(s.lead)); ties++; }
+      p.setAttribute("fill-opacity", s.n < MAP_MIN ? "0.55" : "1");
+      if (s.n < MAP_MIN) low++;
+    });
+    var rows = PIDS.slice().sort(function (a, b) { return (lead[b] || 0) - (lead[a] || 0); }).map(function (id) {
+      return '<div class="row"><span><span class="sw" style="background:' + esc(PBY[id].color) + '"></span>' + esc(PBY[id].short_name || PBY[id].name) + "</span><span>" + (lead[id] || 0) + "</span></div>";
+    });
+    rows.push('<div class="row"><span><span class="sw" style="background:repeating-linear-gradient(45deg,' + esc(PBY[PIDS[0]].color) + " 0 4px," + esc(PBY[PIDS[1]].color) + ' 4px 8px)"></span>Tie (stripes)</span><span>' + ties + "</span></div>");
+    rows.push('<div class="row"><span><span class="sw" style="background:var(--wash)"></span>No responses yet</span><span>' + none + "</span></div>");
+    el("map-legend").innerHTML = '<div class="small muted">Ridings led</div>' + rows.join("") +
+      '<div class="small muted">Faded: fewer than ' + MAP_MIN + " people (" + low + " ridings).</div>";
+    showInfo(MAP.hover || MAP.sel);
+  }
+  function showInfo(code) {
+    var box = el("map-info");
+    if (!box) return;
+    if (!code || !RIDBY[code]) { box.innerHTML = '<p class="small muted">Point at or tap a riding to see its numbers.</p>'; return; }
+    var r = RIDBY[code], s = MAP.stats[code], reg = REGBY[r.region];
+    var head = "<h3>" + esc(r.name) + '</h3><p class="small muted">' + esc(reg ? reg.name : "") + "</p>";
+    var btn = el("f-riding").value === code ? "" : '<button type="button" class="linkish" id="map-filter">Filter the dashboard to this riding</button>';
+    if (!s) { box.innerHTML = head + '<p class="small">No responses yet.</p>' + btn; }
+    else {
+      box.innerHTML = head + '<p class="small">' + s.n + " " + (s.n === 1 ? "person" : "people") + " in " + Object.keys(s.sids).length + " " + (Object.keys(s.sids).length === 1 ? "session" : "sessions") +
+        (s.n < MAP_MIN ? ". Too few to read much into." : ".") + "</p>" +
+        barRows(PIDS.slice().sort(function (a, b) { return (s.share[b] || 0) - (s.share[a] || 0); }).map(function (id) {
+          return { label: PBY[id].short_name || PBY[id].name, v: s.share[id] || 0, color: PBY[id].color };
+        }), s.n) + btn;
+    }
+    var b = el("map-filter");
+    if (b) b.addEventListener("click", function () { el("f-riding").value = code; el("f-region").value = r.region; render(); });
+  }
+  function mountMap(people, f) {
+    var slot = el("map-slot");
+    if (!slot) return;
+    function place() {
+      slot.innerHTML = ""; slot.appendChild(MAP.box);
+      colorMap(people);
+      var zt = el("map-zoomto");
+      zt.addEventListener("change", function () {
+        var b = zt.value === "all" ? [MAP.full.x, MAP.full.y, MAP.full.x + MAP.full.w, MAP.full.y + MAP.full.h] : regionBox(zt.value);
+        if (b) zoomTo(b, zt.value === "all" ? 0 : 0.08);
+      });
+      /* Follow the Region and Riding filters, but only when they change, so a filter on Period keeps your zoom */
+      var focus = f.riding !== "all" && f.riding !== NOT_GIVEN && RIDBY[f.riding] ? "r:" + f.riding : f.region !== "all" && f.region !== NOT_GIVEN ? "g:" + f.region : "";
+      if (focus !== MAP.focus) {
+        MAP.focus = focus;
+        if (focus.slice(0, 2) === "r:") { selectRiding(f.riding); zt.value = RIDBY[f.riding].region; zoomTo(MAP.boxes[f.riding], 0.6); }
+        else if (focus) { selectRiding(null); zt.value = f.region; zoomTo(regionBox(f.region), 0.08); }
+        else { selectRiding(null); }
+      } else if (MAP.zoomRegion) zt.value = MAP.zoomRegion;
+      MAP.zoomRegion = zt.value;
+      zt.addEventListener("change", function () { MAP.zoomRegion = zt.value; });
+    }
+    if (MAP) { place(); return; }
+    loadGeo().then(function (geo) {
+      if (!MAP) buildMap(geo);
+      if (el("map-slot") === slot) place();
+    }).catch(function (e) {
+      slot.innerHTML = '<div class="map-box"><p class="empty muted">Could not load the riding shapes (' + esc(e.message) + ").</p></div>";
+    });
   }
   function kpi(v, label) { return '<div class="kpi"><b>' + esc(v) + '</b><span class="small muted">' + esc(label) + "</span></div>"; }
 
@@ -374,13 +760,16 @@ th { color: var(--ink-2); font-weight: 600; }
       p.top.forEach(function (id) { r.share[id] = (r.share[id] || 0) + 1 / p.top.length; });
     });
     var list = Object.keys(rows).map(function (k) { return rows[k]; }).sort(function (a, b) { return b.people - a.people || ridingLabel(a.code).localeCompare(ridingLabel(b.code)); });
-    return '<div class="card"><h2>By riding</h2><p class="muted small">Top party is the party most often first for people in that riding (ties split). Old rows and "parties only" sessions count as Not given.</p><div class="scroll"><table><thead><tr><th>Riding</th><th>Region</th><th>Sessions</th><th>People</th><th>Top party</th></tr></thead><tbody>' +
-      list.map(function (r) {
+    var SHOWN = 12;
+    return section("riding", "By riding", list.length + " rows",
+      '<p class="muted small">Top party is the party most often first for people in that riding (ties split). Old rows and "parties only" sessions count as Not given.</p>' +
+      moreTable("riding", SHOWN, list.length, "<thead><tr><th>Riding</th><th>Region</th><th>Sessions</th><th>People</th><th>Top party</th></tr></thead><tbody>" +
+      list.map(function (r, i) {
         var best = PIDS.slice().sort(function (a, b) { return (r.share[b] || 0) - (r.share[a] || 0); })[0];
         var reg = r.code !== NOT_GIVEN && RIDBY[r.code] ? REGBY[RIDBY[r.code].region] : null;
-        return "<tr><td>" + esc(ridingLabel(r.code === NOT_GIVEN ? null : r.code)) + "</td><td>" + esc(reg ? reg.name : "-") + "</td><td>" + Object.keys(r.sids).length + "</td><td>" + r.people + "</td><td>" +
+        return "<tr" + (i >= SHOWN ? ' class="more"' : "") + "><td>" + esc(ridingLabel(r.code === NOT_GIVEN ? null : r.code)) + "</td><td>" + esc(reg ? reg.name : "-") + "</td><td>" + Object.keys(r.sids).length + "</td><td>" + r.people + "</td><td>" +
           (r.share[best] ? '<span class="dot" style="background:' + esc(PBY[best].color) + '"></span>' + esc(PBY[best].short_name || PBY[best].name) + " " + fmt(pct(r.share[best], r.people)) : "-") + "</td></tr>";
-      }).join("") + "</tbody></table></div></div>";
+      }).join("") + "</tbody>", "ridings"));
   }
 
   var armed = false;
