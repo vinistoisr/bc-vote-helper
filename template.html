@@ -404,9 +404,11 @@ html.quiz-mode .mast.compact .mast-title { font-size: 1.25rem; }
 .lvl-c label { font-size: var(--t-s); font-weight: 700; white-space: nowrap; }
 .lvl-c .range { flex: 1 1 auto; width: auto; min-width: 90px; height: 36px; }
 .lvl-c .lvl-now { font-family: var(--f-display); font-weight: 800; font-stretch: 106%; font-size: var(--t-s); white-space: nowrap; min-width: 7.6em; text-align: left; color: var(--ink); }
+/* Fixed width (fits the longest label) so the slider never moves while the label changes */
+.lvl-c .lvl-now { flex: 0 0 auto; width: 16.8em; overflow: hidden; text-overflow: ellipsis; }
 .lvl-inline.lvl-c { display: flex; justify-content: flex-start; }
 .lvl-inline.lvl-c .lvl-now { grid-column: auto; text-align: left; font-size: var(--t-s); color: var(--ink); }
-@media (max-width: 600px) { .lvl-c { flex-wrap: wrap; row-gap: 0; } .lvl-c .lvl-now { flex: 1 1 100%; white-space: normal; min-width: 0; } .lvl-c .lvl-exp { margin-left: 8px; } .tg-lvl.lvl-c { border-radius: var(--r-m); padding-block: 4px 6px; } }
+@media (max-width: 600px) { .lvl-c { flex-wrap: wrap; row-gap: 0; } .lvl-c .lvl-now { flex: 1 1 100%; width: auto; white-space: normal; min-width: 0; } .lvl-c .lvl-exp { margin-left: 8px; } .tg-lvl.lvl-c { border-radius: var(--r-m); padding-block: 4px 6px; } }
 .tg-lvl.lvl-c { display: flex; gap: 10px; border: 2px solid var(--ink); border-radius: 999px; padding: 0 16px; background: var(--surface); }
 details.lvl-fold > summary { min-height: 38px; }
 
@@ -1773,6 +1775,8 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   /* Rendering: quiz                                                     */
   /* ------------------------------------------------------------------ */
   var lvlFoldOpen = false;
+  /* Layout of the reading-level control ("fold" or "inline"), held while someone is adjusting it so the slider never jumps */
+  var lvlLayout = null;
   function renderQuiz() {
     var p = S.people[S.cur];
     var q = QUESTIONS[S.qi];
@@ -1811,7 +1815,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var nextPerson = S.cur + 1 < S.count;
     var slider = '<div class="lvl-inline lvl-c"><label for="quiz-level">Reading level</label><input class="range" type="range" id="quiz-level" min="1" max="5" step="1" value="' + L + '" aria-valuetext="' + esc(levelLong(lvl)) + '"><span class="lvl-now" id="quiz-level-now">' + lvlNow(lvl) + "</span></div>";
     /* Early readers get the slider behind a button, so it is not changed by accident */
-    if (kid) slider = '<details class="lvl-fold" id="lvl-fold"' + (lvlFoldOpen ? " open" : "") + '><summary>Change reading level</summary>' + slider + "</details>";
+    if (lvlLayout ? lvlLayout === "fold" : kid) slider = '<details class="lvl-fold" id="lvl-fold"' + (lvlFoldOpen ? " open" : "") + '><summary>Change reading level</summary>' + slider + "</details>";
     app.className = "qwrap qwrap-solo";
     app.innerHTML =
       '<section class="qscreen solo" aria-labelledby="q-title" data-level="' + L + '">' +
@@ -1854,7 +1858,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     rangeFill(ql);
     var lf = el("lvl-fold");
     if (lf) lf.addEventListener("toggle", function () { lvlFoldOpen = lf.open; });
-    ql.addEventListener("change", function () { p.level = Number(ql.value); if (isKid(p.level)) lvlFoldOpen = true; save(); render(null); var x = el("quiz-level"); if (x) x.focus(); });
+    ql.addEventListener("change", function () { p.level = Number(ql.value); lvlLayout = lf ? "fold" : "inline"; if (lf) lvlFoldOpen = true; save(); render(null); var x = el("quiz-level"); if (x) x.focus(); });
     ql.addEventListener("input", function () { var info = levelInfo(Number(ql.value)); el("quiz-level-now").innerHTML = lvlNow(info); ql.setAttribute("aria-valuetext", levelLong(info)); rangeFill(ql); });
     el("back-btn").addEventListener("click", function () {
       if (S.qi > 0) { S.qi -= 1; save(); render("q-title"); return; }
@@ -1864,6 +1868,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     nb.addEventListener("click", function () {
       if (!p.answers[q.id] || !p.answers[q.id].choice) setAnswer(p, q, { choice: "skip" });
       lvlFoldOpen = false;
+      lvlLayout = null;
       if (!isLast) { S.qi += 1; save(); render("q-title"); return; }
       p.done = true;
       if (nextPerson) { S.cur += 1; S.qi = 0; S.phase = "handoff"; save(); render("handoff-title"); return; }
@@ -3114,6 +3119,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       ridingUi = { open: false, alts: [], choices: [], busy: false, status: "" };
       foldState = {};
       lvlFoldOpen = false;
+      lvlLayout = null;
       tgCtxOpen = false;
       render("setup-title");
       scrollTop();
