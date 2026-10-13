@@ -117,7 +117,7 @@ Data as of October 12, 2026. Parties are still announcing promises, and the tele
 - With the "share my answers anonymously" box ticked, the site stores your answers, reading level, riding, page language, and the city and province Cloudflare reports for the connection. No IP address is stored. The IP is used only as a counter key for rate limits.
 - Shared answers feed anonymous totals on a private dashboard that only the site owner can open (behind Cloudflare Access).
 - All shared answers are deleted automatically on November 23, 2026, 30 days after the election. The cutoff is `DELETE_AFTER` in the Worker config, and a daily scheduled job in [`site/src/worker.js`](site/src/worker.js) runs the delete.
-- The quiz is open to visitors connecting from Canada.
+- The quiz is open to visitors connecting from Canada. Search engine and AI crawlers may read the pages from anywhere so the site can show up in search; they cannot reach the answer or riding lookup endpoints. The plain riding and About pages (`/ridings/`, `/about/`, built by `build_seo.py`) are open to everyone.
 
 The server code is [`site/src/worker.js`](site/src/worker.js) and the database schema is [`site/schema.sql`](site/schema.sql).
 

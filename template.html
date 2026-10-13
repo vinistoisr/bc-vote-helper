@@ -849,6 +849,8 @@ details.fold:not([open]) > summary { padding-bottom: 10px; border-bottom: 1px so
 
 footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color: var(--ink-2); font-size: var(--t-s); }
 .foot-in { display: flex; flex-wrap: wrap; gap: 10px 20px; justify-content: space-between; align-items: center; }
+.foot-links { flex-basis: 100%; margin: 0; }
+.foot-links a { color: var(--ink-2); }
 
 /* Confirm dialog */
 .overlay { position: fixed; inset: 0; background: var(--scrim); display: grid; place-items: center; padding: 16px; z-index: 50; }
@@ -905,6 +907,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     <div class="wrap foot-in">
       <p id="foot-text">Independent and not connected to any party. Data as of <span id="asof">October 9, 2026</span>. Not an endorsement.</p>
       <button type="button" class="btn btn-quiet btn-s" id="foot-reset" data-t="reset_all">Clear all and restart</button>
+      <p class="foot-links" lang="en"><a href="/ridings/">Candidates in every riding</a> · <a href="/about/">About and method</a></p>
     </div>
   </footer>
 </div>

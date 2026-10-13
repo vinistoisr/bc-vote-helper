@@ -16,3 +16,4 @@ i18n/out/
 i18n/review/
 deploy/
 geo/basemap/raw/
+site/src/seo_urls.json

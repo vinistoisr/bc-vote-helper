@@ -1,7 +1,8 @@
 ﻿/*
  * BC Vote Helper 2026 - votebc.vinceroyer.ca
  *
- * - Serves the quiz (static assets) to visitors in Canada only.
+ * - Serves the quiz (static assets) to visitors in Canada; search and AI crawlers may read pages from anywhere.
+ * - /ridings/ and /about/: plain-HTML pages for search engines (build_seo.py), open to everyone.
  * - POST /api/response stores anonymous answers in D1 (no names, no IP), with the page language.
  * - /i18n/<lang>.json: translation bundles, fetched by the page when a reader picks a language.
  * - GET /api/riding?pc= finds the BC riding through Represent (Open North),
@@ -63,7 +64,7 @@ export default {
         return withHeaders(await env.ASSETS.fetch(request), { "Cache-Control": "public, max-age=86400" });
       }
 
-      if (!countryAllowed(request, env)) {
+      if (!countryAllowed(request, env) && !openOutsideCanada(request, path)) {
         if (isPreviewBot(request) && !path.startsWith("/api/") && (request.method === "GET" || request.method === "HEAD")) {
           return await previewStub(request, env);
         }
@@ -114,6 +115,20 @@ function countryAllowed(request, env) {
   const allowed = String(env.ALLOWED_COUNTRIES || "CA").split(",").map((s) => s.trim().toUpperCase()).filter(Boolean);
   const country = request.cf && request.cf.country ? String(request.cf.country).toUpperCase() : "";
   return allowed.includes(country);
+}
+
+/*
+ * Search engines and AI assistants crawl from outside Canada. They may read pages (never the API), so the site can
+ * appear in search results; the quiz still cannot save answers from outside Canada. The plain-HTML riding and About
+ * pages and the crawler files are open to everyone: they hold only public election facts.
+ */
+const SEARCH_BOTS = /googlebot|google-inspectiontool|googleother|storebot-google|adsbot-google|bingbot|bingpreview|msnbot|adidxbot|duckduckbot|duckassistbot|yandex(bot)?|baiduspider|applebot|gptbot|oai-searchbot|chatgpt-user|claudebot|claude-user|claude-searchbot|anthropic-ai|perplexitybot|perplexity-user|amazonbot|bravebot|ccbot|meta-externalagent|meta-externalfetcher|mistralai-user|youbot|kagibot|cohere-ai|petalbot|seznambot|naverbot|yeti\//i;
+const OPEN_FILES = new Set(["/robots.txt", "/sitemap.xml", "/llms.txt", "/7c1e4b9a2f6d48e3a05b9c8d1e2f3a47.txt"]);
+function openOutsideCanada(request, path) {
+  if (request.method !== "GET" && request.method !== "HEAD") return false;
+  if (path.startsWith("/api/")) return false;
+  if (OPEN_FILES.has(path) || path === "/about" || path.startsWith("/about/") || path === "/ridings" || path.startsWith("/ridings/") || path.startsWith("/fonts/")) return true;
+  return SEARCH_BOTS.test(request.headers.get("User-Agent") || "");
 }
 
 /* Link-preview crawlers (mostly outside Canada) get the page's title, description and image only */

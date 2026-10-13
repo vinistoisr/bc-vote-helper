@@ -26,6 +26,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 import i18n_strings  # noqa: E402  (same folder; python -I leaves it off sys.path)
+import build_seo  # noqa: E402
 
 TEMPLATE = ROOT / "template.html"
 SPEC = ROOT / "quiz_spec.json"
@@ -99,6 +100,10 @@ def load_i18n(spec):
 def noscript_html(en, bundles):
     """The no-JavaScript notice in English and every bundled language (the page cannot pick one without JavaScript)."""
     out = ['<p class="notice">' + htmllib.escape(en["noscript"]) + "</p>"]
+    # Crawlers that do not run scripts read this, so it says what the page is and links the plain-HTML pages
+    out.append('<p lang="en">BC Vote Helper 2026 is an independent quiz for the British Columbia provincial election on '
+               'October 24, 2026: answer 16 short questions and see which party, and which candidate in your riding, is closest '
+               'to your views. <a href="/ridings/">Candidates in all 93 ridings</a> · <a href="/about/">About and method</a></p>')
     for lang, b in bundles.items():
         msg = b["ui"].get("noscript")
         if msg:
@@ -222,6 +227,7 @@ def build_site(template, spec, logos, build_info, en, bundles):
         f'<meta name="twitter:description" content="{html.escape(desc)}">'
         f'<meta name="twitter:image" content="{SITE_URL}og.png">'
         f'<link rel="icon" href="{FAVICON}">'
+        f'<script type="application/ld+json">{json.dumps(build_seo.home_ld(spec), ensure_ascii=False)}</script>'
         "<style>*,*::before,*::after{box-sizing:border-box}html,body{margin:0;padding:0}</style>"
         "</head><body>"
     )
@@ -232,7 +238,9 @@ def build_site(template, spec, logos, build_info, en, bundles):
     (pub / "fonts" / "fonts.css").unlink(missing_ok=True)
     (pub / "vendor").mkdir(exist_ok=True)
     shutil.copyfile(ROOT / "assets" / "vendor" / "jspdf.umd.min.js", pub / "vendor" / "jspdf.umd.min.js")  # jsPDF 2.5.1, MIT
-    (pub / "robots.txt").write_text("User-agent: *\nAllow: /\nDisallow: /admin/\n", encoding="utf-8", newline="\n")
+    # Plain-HTML riding and About pages, sitemap.xml, llms.txt, robots.txt and the IndexNow key, for crawlers that do not run scripts
+    seo_urls = build_seo.write(pub, spec)
+    (SITE_DIR / "src" / "seo_urls.json").write_text(json.dumps(seo_urls, indent=0), encoding="utf-8", newline="\n")
 
     admin_tpl = (SITE_DIR / "admin_template.html").read_text(encoding="utf-8")
     if chr(0x2014) in admin_tpl:
