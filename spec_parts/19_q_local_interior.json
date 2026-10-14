@@ -30,7 +30,7 @@
         "scores": {
           "ndp": 1,
           "conservative": 4,
-          "green": 0,
+          "green": 1,
           "centrebc": 2,
           "onebc": 2
         }
@@ -64,7 +64,7 @@
         "scores": {
           "ndp": 4,
           "conservative": 1,
-          "green": 1,
+          "green": 2,
           "centrebc": 2,
           "onebc": 2
         }
@@ -148,13 +148,17 @@
       },
       "green": {
         "text": {
-          "1": "This party would give towns and First Nations steady money to prepare, and restore forests with careful burning.",
-          "3": "The Greens promise stable long-term funding for First Nations and local governments to prepare for wildfire, flood, drought and heat, and would expand restoration, prescribed and cultural burning, thinning and fuel management 'where ecologically appropriate', treating it as long-term skilled work. They oppose using higher harvest targets to pay for it and make no aircraft pledge.",
-          "5": "Climate, LNG and Royalties Policy Brief (October 10, 2026): stable long-term funding for First Nations and local governments to assess climate risks and prepare for wildfire and other hazards. A New Economic Direction (October 7): treat forest restoration, wildfire resilience and climate adaptation as long-term skilled work; expand ecosystem restoration, prescribed and cultural burning, thinning and fuel management where ecologically appropriate; develop markets for low-grade fibre where they improve risk reduction. Forestry plan (October 4) rejects a 45 million cubic metre harvest target. No aircraft or dollar figures."
+          "1": "This party would give towns and First Nations steady money to prepare, train local crews, and bring back careful burning.",
+          "3": "The Greens' platform promises stable multi-year FireSmart funding for First Nations and local governments, grants for homeowners to make homes more wildfire-resistant, more prescribed and cultural burning with funded crews, and training and equipment for local fire departments and community wildfire response. It adds a wildfire insurance pilot for homeowners who cannot get affordable cover and a standing disaster-recovery team, and promises stable long-term funding to prepare for wildfire, flood, drought and heat. It makes no aircraft pledge and rejects a 45 million cubic metre harvest target.",
+          "5": "Platform (October 13, 2026, Wildfires, Climate change and Costings): expand Cooperative Community Wildfire Response with provincial funding to train and equip local people under BC Wildfire Service command; 'stable, multi-year FireSmart funding for First Nations and local governments' plus expanded grants for homeowners; a rolling open competition for wildfire response technologies, including detection and mapping; expanded cultural burning and prescribed fire with investment in crews, planning and funding; more training and equipment for volunteer, First Nations and municipal fire departments; a wildfire insurance pilot (pooled insurer of last resort) for homeowners who cannot get affordable coverage; opt-in wildfire-resilient building standards; clean air centres in every community; a standing provincial disaster-recovery team. The platform says it will 'continue to provide and expand the resources needed for rapid detection, initial attack and community protection'. Costing: $40 million a year for the wildfires plank, excluding the insurance pilot. Climate section: stable long-term funding for First Nations and local governments to prepare for wildfire and other hazards. A New Economic Direction (October 7): treat forest restoration, wildfire resilience and climate adaptation as long-term skilled work; thinning and fuel management where ecologically appropriate. The forestry plan rejects a 45 million cubic metre harvest target. No aircraft purchase pledge; no Red Cross match or loan fund for 2026 victims."
         },
         "basis": "platform",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: Climate, LNG and Royalties Policy Brief 2026 (PDF, Oct 10, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf"
@@ -201,7 +205,7 @@
         "no_position": true
       }
     },
-    "scoring_rationale": "a = Conservative (4): aircraft, detection fund, easier prescribed fire and logging near communities with timber revenue are all in or reported around its October 2 plan; CentreBC 2 (funds detection drones and fuel work but no aircraft and no timber-revenue model); NDP 1 (no aircraft or prevention pledge; its Budget 2026 FireSmart money is small); Green 0 (opposes paying for prevention through more harvest). b = CentreBC (4); Green 3 (stable funding for local governments and First Nations and fuel work match, without the dollar figures or winter crews); NDP 2 and Conservative 2 (the NDP restored some FireSmart money; the Conservatives mention 'more predictable' FireSmart funding). c = NDP (4): the Red Cross match, infrastructure rebuild and loan fund are its only wildfire pledges, and 'keep the current prevention budget' is its record; CentreBC 2 (farm recovery program and faster disaster assistance); Conservative 1 and Green 1 (neither has a recovery pledge). d = Green (4); CentreBC 3 (thinning, prescribed and cultural burning with a First Nations share, closest to the Green approach); NDP 2 (funds some fuel management and 'active forest management'); Conservative 1 (burns and thinning, but tied to higher harvest). OneBC is no_position. Cross-scores on every pair of homes are within one point."
+    "scoring_rationale": "a = Conservative (4): aircraft, detection fund, easier prescribed fire and logging near communities with timber revenue are all in or reported around its October 2 plan; CentreBC 2 (funds detection drones and fuel work but no aircraft and no timber-revenue model); NDP 1 (no aircraft or prevention pledge; its Budget 2026 FireSmart money is small); Green 1 (expands prescribed fire with funded crews, runs a technology competition that includes detection and trains local crews, but buys no aircraft and rejects the 45 million cubic metre harvest target) (score changed Oct 13 after the Green platform). b = CentreBC (4); Green 3 (stable funding for local governments and First Nations and fuel work match, without the dollar figures or winter crews); NDP 2 and Conservative 2 (the NDP restored some FireSmart money; the Conservatives mention 'more predictable' FireSmart funding). c = NDP (4): the Red Cross match, infrastructure rebuild and loan fund are its only wildfire pledges, and 'keep the current prevention budget' is its record; CentreBC 2 (farm recovery program and faster disaster assistance); Green 2 (a standing disaster-recovery team and a wildfire insurance pilot support recovery, but no victim funding, Red Cross match or loan fund) (score changed Oct 13 after the Green platform); Conservative 1 (no recovery pledge). d = Green (4); CentreBC 3 (thinning, prescribed and cultural burning with a First Nations share, closest to the Green approach); NDP 2 (funds some fuel management and 'active forest management'); Conservative 1 (burns and thinning, but tied to higher harvest). OneBC is no_position. Cross-scores on every pair of homes are within one point."
   },
   {
     "id": "q_local_interior_downtown",
@@ -277,10 +281,10 @@
         "id": "d",
         "text": {
           "1": "Keep and add supervised drug sites, no charges for carrying drugs, fund voluntary care.",
-          "2": "Keep and expand supervised drug sites, decriminalize carrying small amounts again, and fund voluntary treatment and housing, not forced care.",
-          "3": "Expand supervised consumption and overdose prevention sites as doors to detox and housing, decriminalize personal possession, and fund voluntary treatment instead of mandatory care.",
-          "4": "Expand consumption sites as links to detox and housing, decriminalize possession, offer regulated alternatives to street drugs, and fund voluntary rather than mandatory care.",
-          "5": "Expand supervised consumption and overdose prevention sites as connection points to detox and housing; decriminalize personal possession; provide regulated pharmaceutical alternatives to the illicit supply; fund voluntary care, transitional housing and mental health services; no new involuntary care facility."
+          "2": "Keep and expand supervised drug sites, decriminalize carrying small amounts again, and fund voluntary treatment and housing, with no promise of a forced-care centre.",
+          "3": "Expand supervised consumption and overdose prevention sites as doors to detox and housing, decriminalize personal possession, and fund voluntary treatment, with no commitment to a mandatory care facility.",
+          "4": "Expand consumption sites as links to detox and housing, decriminalize possession, offer regulated alternatives to street drugs, and fund voluntary care, with no commitment to a mandatory care facility.",
+          "5": "Expand supervised consumption and overdose prevention sites as connection points to detox and housing; decriminalize personal possession; provide regulated pharmaceutical alternatives to the illicit supply; fund voluntary care, transitional housing and mental health services; no commitment to a new involuntary care facility."
         },
         "scores": {
           "ndp": 1,
@@ -353,13 +357,17 @@
       },
       "green": {
         "text": {
-          "1": "This party would keep and add supervised drug sites and pay for voluntary care, not forced care.",
-          "3": "The Greens' October 2 toxic drugs brief would expand supervised consumption and overdose prevention sites as connection points to detox and housing, decriminalize personal possession, provide regulated alternatives to the illicit supply, and fund voluntary care, housing and mental health support. No involuntary care pledge and no public safety commitment.",
-          "5": "Toxic Drugs Policy Brief (October 2, 2026, released with Saanich South candidate and former chief coroner Lisa Lapointe): decriminalize personal possession; regulated pharmaceutical alternatives; more supervised consumption and overdose prevention sites including inhalation spaces; voluntary care, transitional housing with wraparound support and mental health services. No involuntary care facility pledge, no Mental Health Act change, no public safety commitment published. Option d is the brief applied to Kelowna's request."
+          "1": "This party would keep and add supervised drug sites and pay for voluntary care. It does not promise a forced-care centre.",
+          "3": "The Greens' platform would expand supervised consumption and overdose prevention sites as connection points to detox and housing, decriminalize personal possession, provide regulated alternatives to the illicit supply, and fund voluntary care, housing and mental health support. They would also amend the Mental Health Act to meet the Charter and review it, and add oversight of involuntary treatment. They have no involuntary care facility pledge and no downtown policing commitment.",
+          "5": "Platform (October 13, 2026, Toxic drug crisis, Mental health, Justice) and Toxic Drugs Policy Brief (October 2, 2026, released with Saanich South candidate and former chief coroner Lisa Lapointe): decriminalize possession for personal use; regulated pharmaceutical alternatives; more supervised consumption and overdose prevention sites, with 'safe inhalation spaces to reduce harm and public drug use, and support public safety', as connection points for detox, recovery and housing; transitional and public housing with wrap-around support; community outpatient treatment matched to bed-based care; an accessible, voluntary system for mental health and substance use care. Mental Health Act: act immediately to bring the law into Charter compliance, including 'strengthening protections around consent, capacity, involuntary treatment, and independent oversight', then an independent review of the whole Act; independent oversight of involuntary treatment programs; an independent review of prison conditions including involuntary treatment programs. Costing: $50 million a year for toxic drugs. No involuntary care facility pledge and no downtown policing or Kelowna-specific commitment. Option d is the platform applied to Kelowna's request."
         },
         "basis": "platform",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: Toxic Drugs Policy Brief 2026 (PDF, Oct 2, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf"
@@ -409,7 +417,7 @@
         ]
       }
     },
-    "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 search for a regional site that can be used immediately, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, opposes involuntary care); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment, silent on closing sites); CentreBC 1 (asks Ottawa to charge public and repeat possession); NDP 0; Green 0."
+    "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 search for a regional site that can be used immediately, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, makes no involuntary care pledge); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment, silent on closing sites); CentreBC 1 (asks Ottawa to charge public and repeat possession); NDP 0; Green 0."
   },
   {
     "id": "q_local_interior_ltc",
@@ -570,12 +578,16 @@
       "green": {
         "text": {
           "1": "This party would build more public care homes and keep public health money in public care.",
-          "3": "The Greens plan to increase publicly funded long-term care facilities and adopt a rural seniors strategy (October 4), within a health platform that funds safe nurse-to-patient ratios, phases out private staffing agencies, pushes back on private health care and keeps 'every public health dollar in public care'. They have no statement on the paused projects or the Vernon cancellation.",
-          "5": "Supporting Seniors Policy Brief (October 4, 2026): a plan to increase publicly funded long-term care facilities and a rural seniors strategy. Healthcare Policy Brief (October 6) and Our Plan: more funding for nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, mental health care covered through the public system, push back on 'the creeping privatization of healthcare', and 'keep every public health dollar in public care'. No position on the seven paused projects, the Vernon project or portable funding; option d applies the public-care stance to long-term care."
+          "3": "The Greens plan to increase publicly funded long-term care facilities, adopt a rural seniors strategy, and expand home support and respite care, within a health platform that funds safe nurse-to-patient ratios, phases out reliance on private staffing agencies, pushes back on private health care and keeps public dollars focused on care. They criticize the delay of the seven paused projects but do not pledge to restart them, and say nothing on the Vernon cancellation.",
+          "5": "Platform (October 13, 2026, Seniors and Health), Supporting Seniors Policy Brief (October 4, 2026) and Healthcare Policy Brief (October 6): 'Develop and implement a detailed plan to increase the number of publicly-funded long-term care facilities' and a rural seniors strategy; better access to respite care and day programs and more home support; vacancy control on assisted living. The platform says 'The BC NDP's decision to delay construction of seven long-term care facilities has exacerbated this problem' but does not pledge to restart them or give bed targets. Health: more funding for nurses to support safe nurse-to-patient ratios, phase-out of reliance on private agency nurses and for-profit staffing agencies, push back on 'the creeping privatization of healthcare', 'Support effective triage in the ER with more long-term care beds'. Our Plan: 'keep every public health dollar in public care'. No position on the Vernon project or portable funding; option d applies the public-care stance to long-term care."
         },
         "basis": "platform",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"

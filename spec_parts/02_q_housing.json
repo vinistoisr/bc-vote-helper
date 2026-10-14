@@ -58,8 +58,8 @@
           "1": "Build many more non-profit homes. Limit rent increases when a new renter moves in.",
           "2": "Build thousands of non-profit homes a year, and keep rent limits when a new renter moves in.",
           "3": "Build or protect about 26,000 non-profit and public homes a year, and keep rent limits when a new renter moves in.",
-          "4": "Public and non-profit building of about 26,000 affordable homes a year, a restarted Community Housing Fund, and vacancy control so rent limits stay between tenants.",
-          "5": "Build 26,000 non-market homes a year, reinstate the Community and Indigenous Housing Funds, bring in vacancy control, and pay for it with a wealth levy and land tax."
+          "4": "Public and non-profit building and protection of about 26,000 affordable homes a year, a restarted Community Housing Fund, and vacancy control so rent limits stay between tenants.",
+          "5": "Set a goal of building and protecting 26,000 non-market homes a year, restart the Community and Indigenous Housing Funds, bring in vacancy control, and pay for it with a wealth levy and land tax."
         },
         "scores": {
           "ndp": 2,
@@ -171,7 +171,7 @@
         "text": {
           "1": "This party wants government to build homes rented at cost, and limits on rent increases when a new renter moves in.",
           "3": "The Greens would build or protect 26,000 non-market homes a year, restart the paused Community Housing Fund and bring in vacancy control, which keeps rent limits in place between tenants. They voted against the 2023 density laws, citing local control. Their 2025 vacancy-control bill was defeated.",
-          "5": "The Greens would build 26,000 non-market homes a year, reinstate the Community and Indigenous Housing Funds, protect 2,000 rental units a year through a Rental Protection Fund, bring in vacancy control and pilot a land value tax. They voted for the 2018 speculation tax after securing a 0.5% rate for domestic owners, voted against Bills 44 and 46 over local control, and saw their 2025 vacancy-control bill defeated."
+          "5": "The Greens would restart the Community Housing Fund and Indigenous Housing Fund with a goal of building and protecting 26,000 homes a year, protect 2,000 deeply affordable rentals a year through the Rental Protection Fund, bring in vacancy control (also in assisted living), let renters seek a rent review when market rents fall, ban blanket no-pets clauses and pilot a land value tax. They would raise Shelter Aid for Elderly Renters income limits to $48,000 for singles and $53,000 for couples, change how municipal housing targets are set and share some property transfer tax with communities that build. The platform puts housing costs at $1.8 billion a year. They voted for the 2018 speculation tax after securing a 0.5% rate for domestic owners, voted against Bills 44 and 46 over local control, and saw their 2025 vacancy-control bill defeated."
         },
         "basis": "both",
         "confidence": "high",
@@ -195,6 +195,10 @@
           {
             "label": "BC Greens: Economic Vision (PDF, Oct 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },

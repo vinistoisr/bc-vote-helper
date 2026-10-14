@@ -195,7 +195,7 @@
         "text": {
           "1": "This party wants to make the law stronger and teach the public about it.",
           "3": "The Greens would pass a law setting out how to carry out the Declaration Act, fund public education and create an expert advisory committee. They oppose weakening the law; in February 2026 leader Emily Lowan said a government weakening Indigenous rights 'cannot expect our support'.",
-          "5": "On September 30 the Greens pledged to implement the Declaration Act through legislation, fund public education on it and create an expert advisory committee on Indigenous rights, DRIPA and constitutional law. Green MLAs voted for Bill 41 in 2019, against Bills 14 and 15 in 2025 and against both DRIPA repeal bills. Ending the NDP accord in February 2026, Lowan said a government 'willing to weaken Indigenous rights for political expediency cannot expect our support'."
+          "5": "The Greens' platform would implement the Declaration Act through legislation, fund public education on it and create an expert advisory committee on Indigenous rights, DRIPA and constitutional law whose advice is made public. It would also improve the modern treaty process, co-develop a way to resolve Indigenous-Crown disputes before they reach court, and call on the Eby government to apologize to the Cowichan and Gitxaala for its handling of DRIPA. Green MLAs voted for Bill 41 in 2019, against Bills 14 and 15 in 2025 and against both DRIPA repeal bills. Ending the NDP accord in February 2026, Lowan said a government 'willing to weaken Indigenous rights for political expediency cannot expect our support'."
         },
         "basis": "both",
         "confidence": "high",
@@ -223,6 +223,10 @@
           {
             "label": "Votes and Proceedings, April 22, 2026 (DRIPA Repeal Act, first reading lost 44-47)",
             "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },

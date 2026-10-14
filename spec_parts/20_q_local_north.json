@@ -151,11 +151,15 @@
         "text": {
           "1": "This party would plan logging region by region with no provincial target, and protect big old trees.",
           "3": "The Greens' October 4 forestry plan rejects the Working Forest model 'including the 45 million cubic metre harvest objective', sets harvest by regional area-based planning, ends conventional clearcutting and raw-log exports, permanently protects big-treed old growth, works toward 20% of the allowable cut for community forests and funds worker transition where harvest falls.",
-          "5": "Forestry Policy Brief (October 4, 2026): reject the Working Forest Model including the 45 million objective and 'no net loss'; harvest set by regional area-based planning; end conventional clearcutting; permanently protect big-treed old growth and implement all Old Growth Strategic Review recommendations; end raw-log exports; work toward 20% of the allowable cut for community forests; 30 to 50% of available fibre to value-added; diversification and transition funding. Economic Direction (October 7): rule out 'working backwards from a provincial harvest target'. Claim: forest revenue of $397 million in 2025/26 was below ministry costs."
+          "5": "Platform (October 13, 2026, Forests) and Forestry Policy Brief (October 4, 2026): reject the Working Forest Model including the 45 million objective and 'no net loss'; harvest set by regional area-based planning; end conventional clearcutting; permanently protect big-treed old growth and large second growth and implement all Old Growth Strategic Review recommendations; end raw-log exports; work toward 20% of the allowable cut for community forests; 30 to 50% of available fibre to value-added; investment in facilities that can use smaller-diameter and lower-quality fibre; tenure reform toward First Nations, communities and smaller operators; a larger share of forest revenue to First Nations, municipalities and regional districts; retraining, upskilling and employment supports for forestry workers. Economic Direction (October 7): rule out 'working backwards from a provincial harvest target'. Claim: forest revenue of $397 million in 2025/26 was below ministry costs."
         },
         "basis": "platform",
         "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: Forestry Policy Brief 2026 (PDF, Oct 4, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Forestry-Policy-Brief-2026.pdf"
@@ -371,11 +375,15 @@
         "text": {
           "1": "This party would approve no new gas plants or pipelines, and allow mines only within ecological limits and strict rules.",
           "3": "The Greens would end approvals for new fracking expansion, LNG terminals and pipelines, manage a decline of existing production, end subsidies and collect 50% of net profits in royalties. Lowan said she was 'deeply disappointed' to see Phase 2 go ahead. The Greens would set ecological limits on where mining can happen and world-leading mining standards; public support for mineral processing would require First Nations participation, a long-term economic case and strong pollution standards.",
-          "5": "Climate, LNG and Royalties Policy Brief (October 10, 2026): end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines; managed decline; end provincial subsidies; royalties reformed to 50% of net profits. Healthcare Policy Brief: an independent health impact assessment of LNG and fracking. Statement on Phase 2 (September 29): 'deeply disappointed to see LNG Canada Phase 2 move ahead', at most 150 permanent jobs. Economic Vision (October 7): ecological limits set before deciding where mining can occur, world-leading mining standards, critical minerals recycling, a value chain plan, and public support for processing and refining only with First Nations participation, a long-term economic case and strong pollution standards; no new large dams."
+          "5": "Platform (October 13, 2026, Climate change, Economic vision and Health) and Climate, LNG and Royalties Policy Brief (October 10, 2026): end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines; end provincial subsidies, tax preferences and public financing for expanding production; managed decline of existing production, with regional transition plans for affected First Nations, workers and communities; royalties reformed to the 50% net-profit objective (platform estimate: about $4.09 billion against $1.14 billion forecast for 2027/28); stronger industrial carbon pricing and a binding sectoral emissions cap for oil and gas if existing rules do not deliver; a windfall profits tax. An independent health impact assessment of LNG and fracking. Statement on Phase 2 (September 29): 'deeply disappointed to see LNG Canada Phase 2 move ahead', at most 150 permanent jobs. Mining: a 'responsible critical-minerals strategy focused on high environmental standards, recycling and recovery, and more processing and value-added activity where it makes sense in BC'; Economic Vision (October 7): ecological limits set before deciding where mining can occur, world-leading mining standards, and public support for processing and refining only with First Nations participation, a long-term economic case and strong pollution standards. No new large dams."
         },
         "basis": "platform",
         "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: Climate, LNG and Royalties Policy Brief 2026 (PDF, Oct 10, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf"
@@ -606,12 +614,16 @@
       "green": {
         "text": {
           "1": "This party would open a public health centre in every area so fewer people need emergency rooms.",
-          "3": "The Greens promise a Community Health Centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a review toward one provincial health authority and 'every public health dollar in public care', plus a rural seniors strategy. They have no emergency room specific commitment; option d is their care model applied to the closures.",
-          "5": "Community health centre pledge (October 6, 2026) and Healthcare Policy Brief: Community Health Centre in every riding, more funding for nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, review of the health authority model 'with a focus on creating a consolidated health authority for the whole province', push back on 'the creeping privatization of healthcare', 'keep every public health dollar in public care', rural seniors strategy (October 4). Skeena candidate Gottlieb raised emergency closures at the Kitimat forum. No rural emergency fund or reporting commitment."
+          "3": "The Greens' platform promises a Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, an end to reliance on private agency nurses, a review of the health authority model toward one consolidated authority, more long-term care beds to help emergency room triage, and a rural seniors strategy. They have no emergency room closure commitment or rural emergency fund; option d is their care model applied to the closures.",
+          "5": "Platform (October 13, 2026, Health and Seniors), community health centre pledge (October 6, 2026) and Healthcare Policy Brief: Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of reliance on private agency nurses and for-profit staffing agencies, a review of the health authority model 'with a focus on creating a consolidated health authority with joint services and localized decision-making within communities', 'Support effective triage in the ER with more long-term care beds', review of loan forgiveness and paid practicums for all healthcare students, push back on 'the creeping privatization of healthcare', rural seniors strategy (October 4). Our Plan: 'keep every public health dollar in public care'. The platform says rural access is harder because of 'Transportation barriers and the distance to health-care services'. Skeena candidate Gottlieb raised emergency closures at the Kitimat forum. No rural emergency fund or reporting commitment."
         },
         "basis": "platform",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: community health centres in every riding, support for health workers (Oct 6, 2026)",
             "url": "https://bcgreens.ca/pledge-funding-for-community-health-centres-in-every-riding-support-for-healthcare-workers/"

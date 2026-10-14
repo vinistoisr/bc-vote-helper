@@ -14,8 +14,8 @@
       "1": "Oil and gas bring jobs and money to BC, but burning them adds to climate change. In 2025 the government stopped the carbon tax people paid on fuel. Big industry still pays a carbon charge. Parties disagree on gas exports, oil pipelines and climate goals.",
       "2": "In 2025 BC stopped charging the carbon tax on the fuel people buy, but large industries still pay a carbon price. The province is also allowing more plants that export natural gas. BC expects to cut its climate pollution by only half of what the law requires by 2030.",
       "3": "BC expects to cut its climate pollution 20% by 2030, which is half of the 40% target set in law. The carbon tax that people paid on fuel ended in 2025, but large industries still pay a carbon price. Parties disagree on growing natural gas exports, on oil pipelines and on whether to keep the carbon price for industry.",
-      "4": "BC's emissions are projected to be 20% below 2007 levels by 2030, while the law sets a 40% target. In 2025 the NDP government ended the consumer carbon tax, the rebates for electric vehicles and the rule that all new cars sold be zero-emission by 2035. Carbon pricing for large industry and clean fuel rules remain. LNG Canada, a liquefied natural gas (LNG) export project, approved its Phase 2 expansion in September 2026.",
-      "5": "BC law set targets of 16% below 2007 emissions by 2025 and 40% by 2030, but the 2025 accountability report projects cuts of only 2.6% and 20%. The consumer carbon tax has been zero since April 1, 2025. The Output-Based Pricing System, which charges large industrial emitters and tightens 1% a year, remains. So does the Low Carbon Fuel Standard, which requires a 30% cut in the carbon intensity of fuels by 2030. Electric vehicle rebates ended and the 2035 zero-emission vehicle mandate was dropped. LNG Canada made its final investment decision on Phase 2 in September 2026. An oil pipeline to the coast, called Pacific Link, has been proposed."
+      "4": "BC's emissions are projected to be 20% below 2007 levels by 2030, while the law sets a 40% target. In 2025 the NDP government ended the consumer carbon tax and the rebates for electric vehicles, and in 2026 it cut the 2035 target for zero-emission new car sales from 100% to 75%. Carbon pricing for large industry and clean fuel rules remain. LNG Canada, a liquefied natural gas (LNG) export project, approved its Phase 2 expansion in September 2026.",
+      "5": "BC law set targets of 16% below 2007 emissions by 2025 and 40% by 2030, but the 2025 accountability report projects cuts of only 2.6% and 20%. The consumer carbon tax has been zero since April 1, 2025. The Output-Based Pricing System, which charges large industrial emitters and tightens 1% a year, remains. So does the Low Carbon Fuel Standard, which requires a 30% cut in the carbon intensity of fuels by 2030. Electric vehicle rebates ended, and in April 2026 the 2035 zero-emission vehicle sales target was cut from 100% to 75%. LNG Canada made its final investment decision on Phase 2 in September 2026. An oil pipeline to the coast, called Pacific Link, has been proposed."
     },
     "options": [
       {
@@ -98,7 +98,7 @@
         "scores": {
           "ndp": 3,
           "conservative": 1,
-          "green": 1,
+          "green": 2,
           "centrebc": 4,
           "onebc": 0
         }
@@ -109,7 +109,7 @@
         "text": {
           "1": "This party ended the carbon tax on fuel people buy, but it keeps carbon charges on big industry and is growing gas exports.",
           "3": "In government, the NDP ended the consumer carbon tax and rebates for electric vehicles, approved more liquefied natural gas and kept carbon pricing for industry. It admits BC will miss its 2030 target by about half and has not said how it will respond.",
-          "5": "The NDP cut the consumer carbon tax to zero in April 2025 but kept the industrial carbon price and the Low Carbon Fuel Standard. It dropped electric vehicle rebates and the 2035 zero-emission vehicle target, and signed wind power contracts. BC is projected to reach 20% below 2007 by 2030, against 40% in law. For 2026 it promises more liquefied natural gas, a north coast transmission line and a temporary 10 cent per litre fuel tax cut. It would accept a pipeline only if the tanker ban stays."
+          "5": "The NDP cut the consumer carbon tax to zero in April 2025 but kept the industrial carbon price and the Low Carbon Fuel Standard. It ended electric vehicle rebates, cut the 2035 zero-emission vehicle sales target from 100% to 75%, and signed wind power contracts. BC is projected to reach 20% below 2007 by 2030, against 40% in law. For 2026 it promises more liquefied natural gas, a north coast transmission line and a temporary 10 cent per litre fuel tax cut. It would accept a pipeline only if the tanker ban stays."
         },
         "basis": "record",
         "confidence": "high",
@@ -123,7 +123,7 @@
             "url": "https://www.cbc.ca/lite/story/1.7493181"
           },
           {
-            "label": "National Newswatch: BC drops 2035 EV mandate (Nov 2025)",
+            "label": "National Newswatch: BC to redraw EV mandate, scrapping the 100% by 2035 goal (Nov 2025)",
             "url": "https://nationalnewswatch.com/2025/11/18/b-c-to-redraw-ev-sales-mandate-scrapping-goal-of-100-per-cent-by-2035"
           },
           {
@@ -141,6 +141,10 @@
           {
             "label": "BOE Report / Canadian Press: Eby promises temporary 10-cent fuel tax cut (Oct 1, 2026)",
             "url": "https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/"
+          },
+          {
+            "label": "BC Government: 2035 ZEV sales target cut from 100% to 75% (Apr 1, 2026)",
+            "url": "https://news.gov.bc.ca/releases/2026ECS0009-000355"
           }
         ]
       },
@@ -182,12 +186,16 @@
       "green": {
         "text": {
           "1": "This party wants to stop new oil and gas projects and spend on clean power.",
-          "3": "The Greens would stop new fossil fuel development, oppose the oil pipeline, make gas exporters pay for their own power, end fossil fuel subsidies and fund renewable power and home upgrades. A Green MLA cast the only vote against ending the carbon tax at first reading, and both voted against the fast-track project laws.",
-          "5": "The Greens would stop new fossil fuel development. Their October 10 climate brief would end approvals for new fracking expansion, LNG terminals and fossil fuel pipelines, oppose the Pacific Link pipeline, end fossil fuel subsidies, strengthen industrial carbon pricing, set gas royalties at 50% of net profits and cap oil and gas emissions if other rules fall short. They would make existing liquefied natural gas plants pay for their own power, restore net metering and raise electricity to 35% of energy use by 2035. In March 2025 Green MLA Rob Botterell cast the only vote against the carbon tax repeal bill at first reading, and the Greens voted against Bills 14 and 15, which fast-track projects."
+          "3": "The Greens would stop new fossil fuel development, oppose the oil pipeline, make gas exporters pay for their own power, end fossil fuel subsidies, bring back the rule that all new cars sold be zero-emission by 2035, and fund renewable power and home upgrades. A Green MLA cast the only vote against ending the carbon tax at first reading, and both voted against the fast-track project laws.",
+          "5": "The Greens would stop new fossil fuel development. Their platform and October 10 climate brief would end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines, end fossil fuel subsidies, strengthen industrial carbon pricing, set gas royalties at 50% of net profits, end routine methane venting and bring in a binding oil and gas emissions cap if other rules fall short. They oppose the Pacific Link pipeline and would make existing liquefied natural gas plants pay for their own power. They would keep BC's long-term climate targets and add interim ones, restore the rule that all new light-duty vehicles sold be zero-emission by 2035, ban gas hookups in new buildings, offer on-bill financing for home upgrades, restore net metering and aim for electricity to supply at least 35% of energy by 2035 without new large dams. In March 2025 Green MLA Rob Botterell cast the only vote against the carbon tax repeal bill at first reading, and the Greens voted against Bills 14 and 15, which fast-track projects."
         },
         "basis": "both",
         "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: Our Plan",
             "url": "https://bcgreens.ca/our-plan/"
@@ -249,6 +257,6 @@
         ]
       }
     },
-    "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 3 on the 2024 platform and Rustad's 2025 attack on the 'punishing' industrial carbon tax, discounted because 2026 is silent. b = Conservative 2026 text (4); OneBC 3; NDP 2 (also expands LNG and dropped the EV mandate, but keeps OBPS and conditions); CentreBC 1 (backs conditional LNG and a conditional pipeline, but commits to industrial pricing and a legislated target, which the option leaves open). c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 1 and Green 1 from opposite sides. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law and has no methane or retrofit-loan pledge); Conservative 1 (silent or hostile on industrial pricing and targets); Green 1 (keeps pricing and retrofits, rejects LNG and a lower target); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
+    "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 3 on the 2024 platform and Rustad's 2025 attack on the 'punishing' industrial carbon tax, discounted because 2026 is silent. b = Conservative 2026 text (4); OneBC 3; NDP 2 (also expands LNG and weakened the EV mandate, but keeps OBPS and conditions); CentreBC 1 (backs conditional LNG and a conditional pipeline, but commits to industrial pricing and a legislated target, which the option leaves open). c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 1 and Green 1 from opposite sides. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law and has no methane or retrofit-loan pledge); Conservative 1 (silent or hostile on industrial pricing and targets); Green 2 (keeps the 2040 and 2050 targets and industrial pricing, and adds interim targets, methane cuts and on-bill retrofit financing, but gives none of the option's numbers, no 20% milestone and no tanker-ban line, and rejects LNG; score changed Oct 13 after the Green platform); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
   }
 ]

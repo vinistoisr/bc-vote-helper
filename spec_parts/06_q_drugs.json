@@ -179,7 +179,7 @@
         "text": {
           "1": "This party would not charge people for carrying small amounts. It wants safer prescribed drugs and voluntary treatment.",
           "3": "The Greens are the only party that would bring back decriminalization, which would need a federal exemption. Their plan, written with former chief coroner Lisa Lapointe, adds regulated pharmaceutical alternatives, more supervised and inhalation sites, and voluntary rather than involuntary care.",
-          "5": "The Greens' Toxic Drugs Policy Brief (October 2, 2026) would decriminalize personal possession and offer regulated pharmaceutical alternatives, more supervised consumption sites with inhalation, mobile and 24-hour service, yearly drug-checking funding, housing with harm reduction and voluntary care. It cites the court ruling in the Drug User Liberation Front (DULF) case. The two Green MLAs cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which would close all provincially funded consumption sites; it passed first reading 84 to 2 in March 2026. Green MLA Rob Botterell also voted against Bill 32 in 2025."
+          "5": "The Greens' Toxic Drugs Policy Brief (October 2, 2026) would decriminalize personal possession and offer regulated pharmaceutical alternatives, more supervised consumption sites with inhalation, mobile and 24-hour service, yearly drug-checking funding, housing with harm reduction and voluntary care. It cites the court ruling in the Drug User Liberation Front (DULF) case. The October 13 platform puts the cost at $50 million a year, sets an evidence-based standard of care for all substance use treatment, and would bring the Mental Health Act in line with the court's Charter ruling, with an independent Office of the Mental Health Advocate. The two Green MLAs cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which would close all provincially funded consumption sites; it passed first reading 84 to 2 in March 2026. Green MLA Rob Botterell also voted against Bill 32 in 2025."
         },
         "basis": "platform",
         "confidence": "high",
@@ -203,6 +203,10 @@
           {
             "label": "Votes and Proceedings, December 2, 2025 (Bill 32, third reading 45-41)",
             "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251202.htm"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },

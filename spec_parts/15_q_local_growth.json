@@ -195,7 +195,7 @@
         "text": {
           "1": "This party wants a local health centre, food for every student, and full support for students with extra needs.",
           "3": "The Greens would put a community health centre in every riding, including Fleetwood, close the funding gap for inclusive education, add counsellors and feed every student. They say their wealth tax would help fund schools. They have no position on the hospital itself.",
-          "5": "The Greens would open an integrated community health centre in every riding, close the inclusive education funding gap, fund a counsellor per 250 students and provide school food and supplies for all. They have no position on the hospital or on the pace of building. Candidate Binnema has published no local position."
+          "5": "The Greens would open an integrated community health centre in every riding, close the inclusive education funding gap, fund a counsellor per 250 students and provide school food and supplies for all. Their October 13 platform adds a capital improvements plan for school facilities and a pledge to push back on 'the creeping privatization of healthcare'. It commits to reinstating a plan to build Burnaby Hospital, but has no position on the Surrey hospitals or on the pace of building. It costs health at $200 million a year and education at $587 million a year. Candidate Binnema has published no local position."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -219,6 +219,10 @@
           {
             "label": "BC Greens: Our Plan (Fair Share Act for public schools)",
             "url": "https://bcgreens.ca/our-plan/"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },

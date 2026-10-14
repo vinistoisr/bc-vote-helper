@@ -30,7 +30,7 @@
         "scores": {
           "ndp": 0,
           "conservative": 2,
-          "green": 2,
+          "green": 0,
           "centrebc": 0,
           "onebc": 4
         }
@@ -47,7 +47,7 @@
         "scores": {
           "ndp": 0,
           "conservative": 4,
-          "green": 2,
+          "green": 1,
           "centrebc": 2,
           "onebc": 3
         }
@@ -81,7 +81,7 @@
         "scores": {
           "ndp": 3,
           "conservative": 2,
-          "green": 2,
+          "green": 4,
           "centrebc": 4,
           "onebc": 0
         }
@@ -140,23 +140,18 @@
       },
       "green": {
         "text": {
-          "1": "This party has not shared a car insurance plan, so it is not scored here.",
-          "3": "The Greens have published no 2026 position on ICBC or no-fault insurance, so this quiz does not score them on this question.",
-          "5": "No ICBC or car insurance commitment appears on the Green plan page, in the party's economic vision or in BC Ballot's list of its commitments, so this question is left out of the Green score."
+          "1": "This party would keep no-fault car insurance but change the law so it covers all reasonable costs for people hurt in a crash.",
+          "3": "The Greens say Enhanced Care 'has not lived up to its promise', but they would keep the no-fault model. They would change the law so all reasonable costs of a crash are covered, and bring back the legislature's committee that reviews the car insurance law. They take no position on rates, lawsuits or private competition.",
+          "5": "The Greens' October 13, 2026 platform says the Enhanced Care model 'has not lived up to its promise'. They would support and continue the no-fault model, amend the law governing ICBC to make clear that all reasonable costs relating to a crash are covered, and re-establish the Special Committee to Review Provisions of the Insurance (Vehicle) Act so victims' voices are heard. The platform takes no position on rate freezes, premiums, awards for catastrophic injuries, lawsuits or ICBC's monopoly on basic insurance, and gives no separate cost."
         },
         "basis": "platform",
-        "confidence": "low",
+        "confidence": "medium",
         "sources": [
           {
-            "label": "BC Ballot: BC Green commitments (no ICBC item)",
-            "url": "https://bcballot.ca/platforms/bc-green-party/"
-          },
-          {
-            "label": "BC Greens: Our Plan",
-            "url": "https://bcgreens.ca/our-plan/"
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
-        ],
-        "no_position": true
+        ]
       },
       "centrebc": {
         "text": {
@@ -193,6 +188,6 @@
         ]
       }
     },
-    "scoring_rationale": "a = OneBC (4); Conservative 2 (letter keeps private competition 'on the table' but the page keeps ICBC as the public option); CentreBC 0. b = Conservative (4); OneBC 3; CentreBC 2 (keeps ICBC public and adds an award for catastrophic injuries, but no general right to sue and no competition); NDP 0. c = NDP record and pledge (4); CentreBC 3 (same model and monopoly; a cap at inflation after 2027 rather than a freeze to 2030); Conservative and OneBC 0. d = CentreBC's platform (4): Enhanced Care kept, rate cap, catastrophic-injury awards; NDP 3 (same model, its freeze goes further than the cap, no award commitment while the committee reviews); Conservative 2 (public insurer and serious-injury recovery overlap, but it wants court access and competition); OneBC 0. Option d was added on October 10 when CentreBC published an ICBC position; before that it was no_position here. The Greens have no published ICBC position and are excluded (no_position). Four options: no-fault, no-fault with a catastrophic carve-out, a tort hybrid, and privatization."
+    "scoring_rationale": "a = OneBC (4); Conservative 2 (letter keeps private competition 'on the table' but the page keeps ICBC as the public option); CentreBC 0. b = Conservative (4); OneBC 3; CentreBC 2 (keeps ICBC public and adds an award for catastrophic injuries, but no general right to sue and no competition); NDP 0. c = NDP record and pledge (4); CentreBC 3 (same model and monopoly; a cap at inflation after 2027 rather than a freeze to 2030); Conservative and OneBC 0. d = CentreBC's platform (4): Enhanced Care kept, rate cap, catastrophic-injury awards; NDP 3 (same model, its freeze goes further than the cap, no award commitment while the committee reviews); Conservative 2 (public insurer and serious-injury recovery overlap, but it wants court access and competition); OneBC 0. Option d was added on October 10 when CentreBC published an ICBC position; before that it was no_position here. Green, from its October 13 platform (score changed Oct 13 after the Green platform): d 4 (closest fit, so its home option; keeps Enhanced Care, wants all reasonable crash costs covered and would bring back the legislative committee review, but has no rate cap or catastrophic-injury award); c 2 (keeps no-fault, but says the model 'has not lived up to its promise' and takes no position on the monopoly or a rate freeze); b 1 (a tort hybrid runs against continuing no-fault; it shares only the criticism of the current model); a 0 (ends Enhanced Care and restores lawsuits). Four options: no-fault, no-fault with a catastrophic carve-out, a tort hybrid, and privatization."
   }
 ]

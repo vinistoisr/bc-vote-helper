@@ -166,7 +166,7 @@ To run your own copy on Cloudflare: copy `site/wrangler.example.toml` to `site/w
 Every link the tool uses, generated from `quiz_spec.json` by `gen_sources.py`. Click a section to expand it.
 
 <!-- SOURCES:START -->
-**709 unique links.**
+**712 unique links.**
 
 ### Party positions, question by question
 
@@ -204,6 +204,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Greens: plan to end legislated poverty (Oct 6, 2026)](https://bcgreens.ca/announce-plan-to-end-legislated-poverty-and-address-low-assistance-rates/)
 - [BC Greens: transit funding and phased free transit (Oct 9, 2026)](https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/)
 - [BC Greens: Economic Vision (PDF, Oct 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -249,6 +250,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Votes and Proceedings, March 9, 2026 (Bill 2 second reading)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260309.htm)
 - [Votes and Proceedings, April 1, 2026 (Bill 2, Budget Measures Implementation Act, 2026, third reading)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260401.htm)
 - [Votes and Proceedings, May 29, 2025 (Supply Act, 2025-2026, third reading)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250529.htm)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -288,6 +290,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
 - [BC Greens: Rights for Renters policy brief (PDF, Sept 2026)](https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Rights-for-Renters-Policy-Brief-2026.pdf)
 - [BC Greens: Economic Vision (PDF, Oct 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -328,6 +331,7 @@ For each question: the sources behind each party's position. The written reason 
 - [CP24: Greens cite undelivered health commitments](https://www.cp24.com/news/canada/2026/02/09/bc-greens-wont-renew-accord-with-ndp-citing-stalled-undelivered-promises/)
 - [BC Greens: community health centres in every riding (Oct 6, 2026)](https://bcgreens.ca/pledge-funding-for-community-health-centres-in-every-riding-support-for-healthcare-workers/)
 - [BC Greens: Healthcare policy brief (PDF, Oct 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -374,6 +378,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
 - [Votes and Proceedings, May 28, 2025 (Bills 14 and 15, third reading)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250528.htm)
 - [Votes and Proceedings, April 22, 2026 (DRIPA Repeal Act, first reading lost 44-47)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -421,6 +426,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Greens: Education Policy Brief 2026 (PDF)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Education-Policy-Brief-2026.pdf)
 - [Votes and Proceedings, October 8, 2025 (Protecting Minors from Gender Transition Act, 40-48)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251008.htm)
 - [Votes and Proceedings, February 19, 2026 (Gender Ideology and Child Protection Act, 38-49)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260219.htm)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: both, confidence: medium)
 
@@ -468,6 +474,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Votes and Proceedings, March 5, 2026 (Drug Recovery and Community Safety Act, first reading 84-2)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260305.htm)
 - [Maple Ridge News: only Greens oppose first reading of consumption site bill (Mar 5, 2026)](https://mapleridgenews.com/2026/03/05/b-c-ndp-allow-armstrong-bill-on-closing-all-consumption-sites-to-pass-1st-reading/)
 - [Votes and Proceedings, December 2, 2025 (Bill 32, third reading 45-41)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251202.htm)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -485,6 +492,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC NDP** (basis: both, confidence: medium)
 
+- [BC NDP: gangs, guns and extortion plan (Oct 14, 2026)](https://www.bcndp.ca/releases/eby-targets-gangs-guns-and-extortion)
 - [BC NDP: Jewish community security and extremism summit (Oct 5, 2026)](https://www.bcndp.ca/releases/bc-ndp-commits-jewish-community-security-investment-and-summit-confront-organized-hate)
 - [Kelowna Capital News: Eby on repeat property offenders (Oct 2, 2026)](https://kelownacapnews.com/2026/10/02/eby-announces-b-c-grocery-price-guard-social-disorder-during-kelowna-visit/)
 - [BC Government: Crime Severity Index release (Jul 22, 2026)](https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026PSSG0064-000862.htm)
@@ -498,13 +506,14 @@ For each question: the sources behind each party's position. The written reason 
 **BC Conservatives** (basis: platform, confidence: high)
 
 - [Conservative Party of BC: Safe Streets for BC](https://conservativebc.ca/safe-streets-for-bc/)
+- [Conservative Party of BC: crack down on gangs and violent offenders (Oct 13, 2026)](https://conservativebc.ca/conservatives-will-crack-down-on-gangs-and-lock-up-violent-offenders/)
 - [Langley Advance Times: Conservative plan to hire more police (Oct 6, 2026)](https://langleyadvancetimes.com/2026/10/06/b-c-conservatives-plan-to-hire-more-police-stop-illegal-drug-use-in-hospitals-shelters/)
 - [Fraser Institute: violent crime index commentary](https://www.fraserinstitute.org/commentary/crime-stats-belie-bc-governments-safer-province-claims)
 - [Votes and Proceedings, October 25, 2023 (Bill 36, 56-27)](https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231025.htm)
 
-**BC Greens** (no published position)
+**BC Greens** (basis: platform, confidence: high)
 
-- [BC Ballot: BC Green commitments (no public safety item)](https://bcballot.ca/platforms/bc-green-party/)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens Toxic Drugs Policy Brief 2026 (PDF)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf)
 - [Votes and Proceedings, March 5, 2026 (Drug Recovery and Community Safety Act, first reading 84-2)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260305.htm)
 
@@ -549,6 +558,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Economic Vision (PDF)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf)
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
 - [BC Greens: support renewables, not Bill 14 as drafted](https://bcgreens.ca/bc-greens-support-renewable-energy-not-bill-14-as-currently-drafted/)
@@ -576,11 +586,12 @@ For each question: the sources behind each party's position. The written reason 
 
 - [The Tyee: BC admits 2030 climate goal out of reach (May 2025)](https://thetyee.ca/News/2025/05/01/BC-Admits-Climate-Goals/)
 - [CBC: BC ends consumer carbon tax (April 2025)](https://www.cbc.ca/lite/story/1.7493181)
-- [National Newswatch: BC drops 2035 EV mandate (Nov 2025)](https://nationalnewswatch.com/2025/11/18/b-c-to-redraw-ev-sales-mandate-scrapping-goal-of-100-per-cent-by-2035)
+- [National Newswatch: BC to redraw EV mandate, scrapping the 100% by 2035 goal (Nov 2025)](https://nationalnewswatch.com/2025/11/18/b-c-to-redraw-ev-sales-mandate-scrapping-goal-of-100-per-cent-by-2035)
 - [BC NDP: LNG capacity figures (Sept 28, 2026)](https://www.bcndp.ca/releases/bc-conservatives-lng-plan-out-step-reality)
 - [CTV: Eby open to pipeline if tanker ban remains (2025)](https://www.ctvnews.ca/politics/article/bc-premier-open-to-new-pipeline-if-tanker-ban-remains-in-place/)
 - [BC Government: B.C. eliminates carbon tax, output-based pricing stays (Mar 31, 2025)](https://news.gov.bc.ca/releases/2025FIN0014-000280)
 - [BOE Report / Canadian Press: Eby promises temporary 10-cent fuel tax cut (Oct 1, 2026)](https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/)
+- [BC Government: 2035 ZEV sales target cut from 100% to 75% (Apr 1, 2026)](https://news.gov.bc.ca/releases/2026ECS0009-000355)
 
 **BC Conservatives** (basis: both, confidence: medium)
 
@@ -593,6 +604,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: both, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
 - [BC Greens: Economic Vision (PDF)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf)
 - [BC Greens: Climate, LNG and Royalties Policy Brief (Oct 10, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf)
@@ -630,6 +642,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: lift the freeze on $10-a-day, universal free child care by 2031](https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/)
 - [BC Greens: Childcare Policy Brief (Sept 2026)](https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Childcare-Policy-Brief-2026.pdf)
 - [BC Greens: Education Policy Brief (Oct 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Education-Policy-Brief-2026.pdf)
@@ -663,10 +676,9 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: Insurance plan page](https://conservativebc.ca/plan/insurance/)
 - [Daily Hive: Conservative ICBC letter, minor-injury limits and private competition (Oct 6, 2026)](https://dailyhive.com/vancouver/bc-conservatives-icbc-no-fault-insurance-system-changes-platform)
 
-**BC Greens** (no published position)
+**BC Greens** (basis: platform, confidence: medium)
 
-- [BC Ballot: BC Green commitments (no ICBC item)](https://bcballot.ca/platforms/bc-green-party/)
-- [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -705,6 +717,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: both, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Our Plan (proportional representation)](https://bcgreens.ca/our-plan/)
 - [CBC: 2018 electoral reform referendum results](https://www.cbc.ca/news/canada/british-columbia/electoral-reform-referendum-results-1.4954538)
 - [Castanet: Greens will not back vague infrastructure bill](https://www.castanetkamloops.net/news/BC/549318/B-C-Greens-wont-back-governments-vague-infrastructure-bill)
@@ -750,6 +763,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Greens: Tim Binnema candidate page](https://bcgreens.ca/candidates/tim-binnema/)
 - [BC Greens: funding for fast, frequent transit and passenger rail (Oct 9, 2026)](https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/)
 - [BC Greens: Transit and Transportation Policy Brief 2026 (PDF, Oct 9, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: medium)
 
@@ -769,6 +783,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC NDP** (basis: record, confidence: medium)
 
+- [BC NDP: gangs, guns and extortion plan (Oct 14, 2026)](https://www.bcndp.ca/releases/eby-targets-gangs-guns-and-extortion)
 - [Surrey Police Service: extortion statistics](https://www.surreypolice.ca/extortions)
 - [Global News: Surrey extortion cases, Eby wants more arrests (Jan 2026)](https://globalnews.ca/news/11615290/extortion-cases-surrey-2026)
 - [Votes and Proceedings, October 25, 2023 (Bill 36)](https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231025.htm)
@@ -780,13 +795,14 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Conservatives** (basis: platform, confidence: medium)
 
+- [Conservative Party of BC: crack down on gangs and violent offenders (Oct 13, 2026)](https://conservativebc.ca/conservatives-will-crack-down-on-gangs-and-lock-up-violent-offenders/)
 - [Conservative Party of BC: Safe Streets for BC](https://conservativebc.ca/safe-streets-for-bc/)
 - [Conservative Party of BC: Surrey candidates announcement (Sept 29, 2026)](https://conservativebc.ca/conservative-party-of-bc-announces-strong-surrey-candidates-for-serious-times/)
 - [Conservative Party of BC: Garry Purewal candidate page](https://conservativebc.ca/candidate/garry-purewal/)
 
 **BC Greens** (no published position)
 
-- [BC Greens: Our Plan (platform topics include no policing or public safety item)](https://bcgreens.ca/our-plan/)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Tim Binnema candidate page](https://bcgreens.ca/candidates/tim-binnema/)
 
 **CentreBC** (basis: platform, confidence: medium)
@@ -837,6 +853,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Greens: close the inclusive education funding gap (Oct 8, 2026)](https://bcgreens.ca/pledge-to-close-the-inclusive-education-funding-gap-so-every-student-gets-the-support-they-need/)
 - [BC Greens: child care plan with an early childhood educator wage grid](https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/)
 - [BC Greens: Our Plan (Fair Share Act for public schools)](https://bcgreens.ca/our-plan/)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: medium)
 
@@ -873,6 +890,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Greens: Transit and Transportation Policy Brief 2026 (PDF, Oct 9, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf)
 - [BC Greens: funding for fast, frequent transit and passenger rail (Oct 9, 2026)](https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/)
 - [Daily Hive: reaction to Eby fuel tax promise (Oct 2, 2026)](https://dailyhive.com/vancouver/b-c-reacts-eby-promise-slash-gas-prices)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: medium)
 
@@ -903,6 +921,7 @@ For each question: the sources behind each party's position. The written reason 
 
 - [BC Greens: statement on the National Day for Truth and Reconciliation (Sept 30, 2026)](https://bcgreens.ca/statement-on-national-day-for-truth-and-reconciliation/)
 - [BC Greens: Indigenous Rights Policy Brief 2026 (PDF)](https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Indigenous-Rights-Policy-Brief-2026.pdf)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -932,11 +951,12 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: statement on the NDP housing tax plan (Sept 25, 2026)](https://conservativebc.ca/statement-from-interim-leader-lorne-doerkson-on-the-ndps-housing-tax-plan/)
 - [Conservative Party of BC: Metro Vancouver plan (Oct 5, 2026)](https://conservativebc.ca/conservative-platform-delivering-essential-services-and-cutting-waste-at-metro-vancouver/)
 
-**BC Greens** (basis: inferred, confidence: low)
+**BC Greens** (basis: both, confidence: medium)
 
 - [Votes and Proceedings, November 29, 2023 (Bills 44 and 46)](https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231129.htm)
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
 - [BC Greens: Rights for Renters Policy Brief 2026 (PDF, Sept 29, 2026)](https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Rights-for-Renters-Policy-Brief-2026.pdf)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: medium)
 
@@ -969,6 +989,7 @@ For each question: the sources behind each party's position. The written reason 
 - [The Tyee: How the ALR's future is becoming an election issue (Oct 7, 2026)](https://thetyee.ca/News/2026/10/07/ALR-Future-Becoming-Election-Issue/)
 - [BC Greens: plan to support local food production and farmers (Oct 2, 2026)](https://bcgreens.ca/launch-plan-to-support-local-food-production-and-farmers/)
 - [BC Greens: Agriculture and Food Policy Brief 2026 (PDF, Oct 2, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Agriculture-and-Food-Policy-Brief-2026.pdf)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: inferred, confidence: low)
 
@@ -1003,6 +1024,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Langley Advance Times: Greens release transportation plans (Oct 9, 2026)](https://langleyadvancetimes.com/2026/10/09/b-c-greens-release-transportation-plans-includes-free-transit-for-youth-seniors/)
 - [BC Greens: Transit and Transportation Policy Brief 2026 (PDF)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf)
 - [BC Greens: funding for fast, frequent transit and province-wide passenger rail (Oct 9, 2026)](https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: medium)
 
@@ -1035,6 +1057,7 @@ For each question: the sources behind each party's position. The written reason 
 
 - [BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf)
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 
 **CentreBC** (basis: platform, confidence: high)
 
@@ -1068,6 +1091,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: funding for fast, frequent transit and province-wide passenger rail (Oct 9, 2026)](https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/)
 - [BC Greens: Transit and Transportation Policy Brief 2026 (PDF, Oct 9, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf)
 
@@ -1102,6 +1126,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: plan to reform the forestry sector (Oct 4, 2026)](https://bcgreens.ca/announce-plan-to-reform-forestry-sector-protecting-forests-jobs-and-communities/)
 - [Parksville Qualicum Beach News: Lowan launches Greens' economic vision (Oct 7, 2026)](https://pqbnews.com/2026/10/07/lowan-launches-greens-economic-vision-for-b-c/)
 - [BC Greens: Forestry Policy Brief 2026 (PDF, Oct 4, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Forestry-Policy-Brief-2026.pdf)
@@ -1137,8 +1162,9 @@ For each question: the sources behind each party's position. The written reason 
 - [Nanaimo News Bulletin: Doerkson pledges $50M fund for ER closures (Oct 5, 2026)](https://nanaimobulletin.com/2026/10/05/lorne-doerkson-pledges-to-create-50m-fund-to-address-emergency-room-closures/)
 - [CHEK News: all Vancouver Island candidates for the 2026 election](https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/)
 
-**BC Greens** (basis: platform, confidence: medium)
+**BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
 - [BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf)
 - [BC Greens: plan to support seniors (Oct 4, 2026)](https://bcgreens.ca/announce-plan-to-support-seniors/)
@@ -1176,8 +1202,9 @@ For each question: the sources behind each party's position. The written reason 
 - [Global News: NDP and Conservative leaders campaign in the Okanagan (Oct 2, 2026)](https://globalnews.ca/news/12086166/bc-ndp-conservative-leaders-campaign-okanagan/)
 - [CFJC Today (Canadian Press): Doerkson promises to buy firefighting water bombers (Oct 2, 2026)](https://cfjctoday.com/2026/10/02/b-c-conservative-interim-leader-doerkson-promises-to-buy-firefighting-water-bombers/)
 
-**BC Greens** (basis: platform, confidence: medium)
+**BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Climate, LNG and Royalties Policy Brief 2026 (PDF, Oct 10, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf)
 - [BC Greens: A New Economic Direction for British Columbia (PDF, Oct 7, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf)
 
@@ -1207,8 +1234,9 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: Safe Streets for BC (Oct 6, 2026)](https://conservativebc.ca/safe-streets-for-bc/)
 - [Global News: NDP and Conservative leaders campaign in the Okanagan (Oct 2, 2026)](https://globalnews.ca/news/12086166/bc-ndp-conservative-leaders-campaign-okanagan/)
 
-**BC Greens** (basis: platform, confidence: medium)
+**BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Toxic Drugs Policy Brief 2026 (PDF, Oct 2, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf)
 - [BC Greens: toxic drugs policy announced with Lisa Lapointe (Oct 2, 2026)](https://bcgreens.ca/announce-toxic-drugs-policy-alongside-former-chief-coroner-and-candidate-for-saanich-south-lisa-lapointe/)
 
@@ -1241,8 +1269,9 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: build the long-term care beds the NDP shelved (Oct 9, 2026)](https://conservativebc.ca/conservatives-will-build-the-long-term-care-beds-the-ndp-shelved/)
 - [Conservative Party of BC: Keep emergency rooms open, health spending kept (Oct 5, 2026)](https://conservativebc.ca/keep-emergency-rooms-open/)
 
-**BC Greens** (basis: platform, confidence: medium)
+**BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf)
 - [BC Greens: plan to support seniors (Oct 4, 2026)](https://bcgreens.ca/announce-plan-to-support-seniors/)
 - [BC Greens: Supporting Seniors Policy Brief 2026 (PDF, Oct 4, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Supporting-Seniors-Policy-Brief-2026.pdf)
@@ -1280,6 +1309,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Forestry Policy Brief 2026 (PDF, Oct 4, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Forestry-Policy-Brief-2026.pdf)
 - [BC Greens: plan to reform the forestry sector (Oct 4, 2026)](https://bcgreens.ca/announce-plan-to-reform-forestry-sector-protecting-forests-jobs-and-communities/)
 
@@ -1315,6 +1345,7 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: Climate, LNG and Royalties Policy Brief 2026 (PDF, Oct 10, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf)
 - [BC Greens: statement from Emily Lowan on LNG Canada Phase 2 (Sept 29, 2026)](https://bcgreens.ca/statement-from-emily-lowan-on-lng-canada-phase-2/)
 - [BC Greens: A New Economic Direction for British Columbia (PDF, Oct 7, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf)
@@ -1352,8 +1383,9 @@ For each question: the sources behind each party's position. The written reason 
 - [100 Mile Free Press: Doerkson pledges $50M fund for ER closures (Oct 5, 2026)](https://100milefreepress.net/2026/10/05/lorne-doerkson-pledges-to-create-50m-fund-to-address-emergency-room-closures/)
 - [CJDC TV: after 21 ER diversions in 56 days in Hudson's Hope, MLA calls for Northern Health to be dismantled (Apr 14, 2026)](https://www.cjdctv.com/news/article/after-21-er-diversions-in-56-days-in-hudsons-hope-mla-calls-for-northern-health-to-be-dismantled/)
 
-**BC Greens** (basis: platform, confidence: medium)
+**BC Greens** (basis: platform, confidence: high)
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
 - [BC Greens: community health centres in every riding, support for health workers (Oct 6, 2026)](https://bcgreens.ca/pledge-funding-for-community-health-centres-in-every-riding-support-for-healthcare-workers/)
 - [BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf)
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan)
@@ -1400,6 +1432,8 @@ For each question: the sources behind each party's position. The written reason 
 
 **BC Green Party**
 
+- [BC Greens: 2026 platform (Oct 13, 2026)](https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf)
+- [BC Greens: lift the $10-a-day freeze, universal free child care by 2031 (Sept 28, 2026)](https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/)
 - [BC Greens: Our Plan](https://bcgreens.ca/our-plan/)
 - [BC Greens Fair Share Act release](https://bcgreens.ca/fair-share-act-would-unlock-22-2b-for-childcare-transit-and-housing/)
 - [BC Greens Toxic Drugs Policy Brief 2026 (PDF)](https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf)

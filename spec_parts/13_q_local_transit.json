@@ -154,7 +154,7 @@
         "text": {
           "1": "This party wants free buses and trains for young people and seniors, and more train lines.",
           "3": "The Greens promise 'fast, frequent and free' transit, starting with free passes for people under 25 and over 65, plus regional passenger rail, paid for by their wealth tax. They have no position on the SkyTrain line itself but support expanding transit.",
-          "5": "On October 9, 2026, the Greens promised free transit for people under 25 and over 65, with a wider fare-free goal, more regional passenger rail and ferries, and funding for the BC Rail Corridor Alliance's engineering and economic study of the Squamish to 100 Mile House corridor. They have no position on the SkyTrain line itself. The Greens say their proposed Fair Share Act would help pay for free transit. Candidate Binnema has no published transit position."
+          "5": "On October 9, 2026, the Greens promised free transit for people under 25 and over 65, with a wider fare-free goal, more regional passenger rail and ferries, and funding for the BC Rail Corridor Alliance's engineering assessment, economic study and operations on the Squamish to 100 Mile House corridor. Their October 13 platform repeats these and adds SkyTrain to UBC, but has no position on the Surrey-Langley line. The Greens say their proposed Fair Share Act would help pay for free transit. Candidate Binnema has no published transit position."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -178,6 +178,10 @@
           {
             "label": "BC Greens: Transit and Transportation Policy Brief 2026 (PDF, Oct 9, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },

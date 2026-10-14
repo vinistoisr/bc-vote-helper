@@ -14,8 +14,8 @@
       "1": "Ferries are the only road for many Island and coast towns. Sailings get cancelled, waits are long, and fares keep rising. The province sets the ferry company's rules and money, and where new ships are built. Parties disagree on what to fix first.",
       "2": "BC Ferries is a provincially owned company that runs under rules and funding set by the province. Sailings get cancelled, waits are long and demand keeps rising. In 2025 the company ordered four new ships from a Chinese state-owned shipyard. In October four parties made ferry promises, none of them a fare cut. Parties disagree on what to fix first.",
       "3": "BC Ferries runs under a provincial mandate, with provincial funding and a provincially set board. Cancellations, long waits and rising demand are the common complaints. In May 2025 the company picked a Chinese state-owned yard for four hybrid-electric vessels after no local yard bid. On October 9 to 11 the Greens, the NDP and the Conservatives each announced ferry plans, and CentreBC's platform has two ferry items; none sets a new Swartz Bay schedule or cuts fares.",
-      "4": "The province sets BC Ferries' mandate, service contract, funding and board rules. In May 2025 BC Ferries chose a Chinese state-owned shipyard for four large hybrid-electric vessels; the province says no local yard bid. The NDP announced a locals-first reservation pilot on October 10 (12% of advance booking space on two routes) and pledged in September that future vessels be built in BC. The Conservatives announced a BC Ferries Charter on October 11. The Greens released a ferry plan on October 9. CentreBC's platform has a shipyard fund and a fare credit. None of these sets a new Swartz Bay-Tsawwassen schedule or a fare cut.",
-      "5": "The province sets BC Ferries' mandate, funding and board rules. In May 2025 BC Ferries selected a Chinese state-owned shipyard for four hybrid-electric vessels; the province says no Canadian yard bid. On September 18 Eby committed that future vessels be built in BC, with no timeline. On October 10 the NDP proposed a locals-first reservation pilot: 12% of advance booking space for residents of ferry-dependent communities, on Horseshoe Bay to Langdale and Westview to Little River only. On October 11 the Conservatives announced a BC Ferries Charter with service standards, board cuts and a federal 'fair share'. On October 9 the Greens proposed federal funding parity with Atlantic Canada, a governance review, electric ferries and locally built ships. CentreBC's platform offers Canadian-built vessels, a $25 million a year shipyard fund and a refundable 15% credit on multi-trip fares."
+      "4": "The province sets BC Ferries' mandate, service contract, funding and board rules. In May 2025 BC Ferries chose a Chinese state-owned shipyard for four large hybrid-electric vessels; the province says no local yard bid. The NDP announced a locals-first reservation pilot on October 10 (12% of advance booking space on two routes) and pledged in September that future vessels be built in BC. The Conservatives announced a BC Ferries Charter on October 11. The Greens released a ferry plan on October 9 and expanded it in their October 13 platform. CentreBC's platform has a shipyard fund and a fare credit. None of these sets a new Swartz Bay-Tsawwassen schedule or a fare cut.",
+      "5": "The province sets BC Ferries' mandate, funding and board rules. In May 2025 BC Ferries selected a Chinese state-owned shipyard for four hybrid-electric vessels; the province says no Canadian yard bid. On September 18 Eby committed that future vessels be built in BC, with no timeline. On October 10 the NDP proposed a locals-first reservation pilot: 12% of advance booking space for residents of ferry-dependent communities, on Horseshoe Bay to Langdale and Westview to Little River only. On October 11 the Conservatives announced a BC Ferries Charter with service standards, board cuts and a federal 'fair share'. On October 9 the Greens proposed federal funding parity with Atlantic Canada, a governance review, electric ferries and locally built ships; their October 13 platform adds more vessels and restored Ferry Advisory Committees. CentreBC's platform offers Canadian-built vessels, a $25 million a year shipyard fund and a refundable 15% credit on multi-trip fares."
     },
     "options": [
       {
@@ -72,11 +72,11 @@
       {
         "id": "d",
         "text": {
-          "1": "Match east coast federal ferry money, rethink how ferries are run, build electric ships.",
-          "2": "Seek federal funding equal to Atlantic Canada ferries, review how ferries are governed, plan electric ferries, and build ships locally.",
-          "3": "Seek federal funding parity with Atlantic Canada ferries, review BC Ferries' governance and funding, plan electric ferries, and build ships locally with union labour.",
-          "4": "Seek Atlantic-level federal ferry funding, review BC Ferries' governance and funding, upgrade terminals, plan electric ferries, and build ships locally with union labour.",
-          "5": "Federal ferry funding parity with Atlantic Canada; review of BC Ferries' governance and long-term funding; terminal and dock upgrades and planning for electric ferries; ships built locally with union labour; next steps on Island rail with the Island Corridor Foundation."
+          "1": "Match east coast federal ferry money, add ships, rethink how ferries are run, build ships here.",
+          "2": "Seek federal funding equal to Atlantic Canada ferries, review how ferries are governed, plan electric ferries, add more ships, and build ships locally.",
+          "3": "Seek federal funding parity with Atlantic Canada ferries, review BC Ferries' governance and funding, plan electric ferries, add more vessels, and build ships locally with union labour.",
+          "4": "Seek Atlantic-level federal ferry funding, review BC Ferries' governance and funding, upgrade terminals, plan electric ferries, add more vessels, and build ships locally with union labour.",
+          "5": "Federal ferry funding parity with Atlantic Canada; review of BC Ferries' governance and long-term funding; terminal and dock upgrades and planning for electric ferries; more vessels in the system; ships built locally with union labour; next steps on Island rail with the Island Corridor Foundation."
         },
         "scores": {
           "ndp": 2,
@@ -136,13 +136,17 @@
       },
       "green": {
         "text": {
-          "1": "This party wants the same federal money east coast ferries get, a rethink of how ferries are run, and electric ships built here.",
-          "3": "The Greens' October 9 plan would work with Ottawa for ferry funding parity with Atlantic Canada, review BC Ferries' governance and long-term funding, expand terminal and dock infrastructure, plan for electric ferries, and build and maintain ships locally with union labour. They would also work with First Nations and the Island Corridor Foundation on Island rail.",
-          "5": "Release (October 9, 2026): federal funding parity with Atlantic Canada; review of governance and long-term funding; expanded terminal and dock infrastructure and planning for electric ferries; ships built and maintained locally with union labour; next steps for Vancouver Island rail with First Nations and the Island Corridor Foundation (October 9). Within the same plan: free transit for riders under 25 and over 65 and province-wide passenger rail. No fare, reservation or charter item. The Greens are the only party with an Island rail position."
+          "1": "This party wants the same federal money east coast ferries get, more ships, a rethink of how ferries are run, and ships built here.",
+          "3": "The Greens' platform would work with Ottawa for ferry funding parity with Atlantic Canada and review BC Ferries' governance and long-term funding. They would expand terminal and dock infrastructure, plan for electric ferries, build and maintain ships locally with union labour, add vessels so breakdowns cause fewer cancellations, and re-establish the 13 Ferry Advisory Committees. They would also work with First Nations and the Island Corridor Foundation on Island rail.",
+          "5": "Platform (October 13, 2026, Ferries and Rail) and release (October 9, 2026): work with the federal government for funding parity with Atlantic Canada (the platform cites federal subsidies of $291 per passenger on Atlantic ferries against $1.63 for BC Ferries) and review the governance model and long-term funding; expand terminal and dock infrastructure, including planning for electric ferries; build and maintain ships locally for union work; increase the number of vessels to add contingency and reduce cancellations; re-establish the 13 Ferry Advisory Committees. Rail: a large-scale passenger rail strategy with First Nations focused on Vancouver Island, Metro Vancouver, the Sea-to-Sky and the Fraser Valley, and next steps for Vancouver Island rail with First Nations and the Island Corridor Foundation. Transit: free transit phased in, starting with riders under 25 and 65 and over. No fare, reservation or charter item. The Greens are the only party with an Island rail position."
         },
         "basis": "platform",
         "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: funding for fast, frequent transit and province-wide passenger rail (Oct 9, 2026)",
             "url": "https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/"
@@ -338,12 +342,16 @@
       "green": {
         "text": {
           "1": "This party would protect big old trees for good, stop clearcutting, and plan logging region by region.",
-          "3": "The Greens' October 4 forestry plan rejects the Working Forest model, sets harvest by regional area-based planning, ends raw-log exports, permanently protects big-treed old growth and large second growth, implements all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations, and shifts to partial harvesting and longer rotations. Lowan criticized Domtar over Crofton.",
-          "5": "Forestry plan (October 4, 2026): reject the Working Forest model and its 45 million cubic metre objective; regional area-based planning; end raw-log exports; permanently protect big-treed old growth and large second growth; implement all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations; partial harvesting, selective logging, longer rotations; work toward 20% of the allowable cut for community forests; retraining, upskilling and employment supports for forestry workers. Economic vision (October 7): phase out industrial clear-cutting; criticism of Domtar for closing mills including Crofton. The forestry brief says forest revenue of $397 million in 2025/26 fell short of the Ministry of Forests operating cost."
+          "3": "The Greens' platform rejects the Working Forest model, sets harvest by regional area-based planning, ends conventional clearcutting and raw-log exports, permanently protects big-treed old growth and large second growth, implements all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations, and shifts to partial harvesting and longer rotations. Lowan criticized Domtar over Crofton.",
+          "5": "Platform (October 13, 2026, Forests) and forestry plan (October 4, 2026): reject the Working Forest model, its 45 million cubic metre objective and its 'no net loss' approach; regional area-based planning; end conventional clearcutting on public forests; end raw-log exports; permanently protect big-treed old growth and large second-growth forests; implement all 14 Old Growth Strategic Review recommendations with conservation financing to support Indigenous-led protection and replace foregone forestry revenues where needed; partial harvesting, selective logging, longer rotations; work toward 20% of the allowable cut for community forests; reform tenure toward First Nations, communities and smaller operators; retraining, upskilling and employment supports for forestry workers. Economic vision (October 7): criticism of Domtar for closing mills including Crofton. Platform: provincial forest revenue of $397 million in 2025/26 fell short of the Ministry of Forests operating cost."
         },
         "basis": "platform",
         "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: plan to reform the forestry sector (Oct 4, 2026)",
             "url": "https://bcgreens.ca/announce-plan-to-reform-forestry-sector-protecting-forests-jobs-and-communities/"
@@ -566,12 +574,16 @@
       "green": {
         "text": {
           "1": "This party would open a public health centre in every area, set safe nurse staffing, and keep all care public.",
-          "3": "The Greens promise Community Health Centres in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a rural seniors strategy, more publicly funded long-term care and 'every public health dollar in public care'. They have no Island hospital or Nanaimo tower item; option d is their care model applied to the Island.",
-          "5": "Our Plan, Healthcare Policy Brief (October 6, 2026) and Supporting Seniors Policy Brief (October 4, 2026): Community Health Centres in every region, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, a review of the health authority model focused on one consolidated provincial authority, public coverage of mental health care, a plan to increase publicly funded long-term care facilities and a rural seniors strategy (October 4), no growth of private care. No Nanaimo, Cowichan or Island Health item found. Option d is the model, not a project list."
+          "3": "The Greens' platform promises Community Health Centres in every riding, safe nurse-to-patient ratios, an end to reliance on private agency nurses, a plan to increase publicly funded long-term care facilities, a rural seniors strategy and more home support and respite care. It criticizes the delay of seven long-term care projects but does not pledge to restart them. They have no Island hospital or Nanaimo tower item; option d is their care model applied to the Island.",
+          "5": "Platform (October 13, 2026, Seniors and Health), Healthcare Policy Brief (October 6, 2026) and Supporting Seniors Policy Brief (October 4, 2026): 'Develop and implement a detailed plan to increase the number of publicly-funded long-term care facilities', a rural seniors strategy, better access to respite care and day programs, more home support (the platform cites a long-term care bed costing $27,740 more a year than two hours of daily home support), vacancy control on assisted living, higher Shelter Aid for Elderly Renters thresholds ($48,000 single, $53,000 couples) and a dementia care pathway. The platform says the NDP's delay of seven long-term care facilities 'has exacerbated this problem' but does not commit to restarting them. Health: Community Health Centres in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of reliance on private agency nurses and for-profit staffing agencies, review of the health authority model toward a consolidated authority, push back on 'the creeping privatization of healthcare'. Our Plan: 'keep every public health dollar in public care'. No Nanaimo, Cowichan or Island Health item. Option d is the model, not a project list."
         },
         "basis": "platform",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: Our Plan",
             "url": "https://bcgreens.ca/our-plan/"

@@ -193,14 +193,22 @@
       "candidates_note": "Elections BC candidate list, October 12, 2026.",
       "one_liner": {
         "1": "A smaller party. It wants to protect nature, tax the richest people more, and spend more on child care, transit and homes.",
-        "3": "Two seats. A wealth tax on fortunes over $50 million would fund free child care, free youth and senior transit, and non-market housing. Would strengthen DRIPA and SOGI 123, restore decriminalization, stop new fossil fuel projects. Revenue estimate method unpublished.",
-        "5": "Two MLAs; 8.2% in 2024. Fair Share Act: one-time 5-20% levy on net wealth above $50M, then 2-5% yearly (party estimate $22.2B, then $5.4B; uncosted). 26,000 non-market homes yearly, vacancy control, free child care by 2031, free transit under 25 and over 65, health centre per riding, PR bill within 100 days, decriminalization, no new fossil fuel development. Platform pending."
+        "3": "Two seats. A wealth tax on fortunes over $50 million would help fund $10-a-day child care (free by 2031), free youth and senior transit, and non-market housing. Would strengthen DRIPA and SOGI 123, restore decriminalization, stop new fossil fuel projects. Platform costs: $9.28 billion a year in new spending; revenue estimates are the party's own.",
+        "5": "Two MLAs; 8.2% in 2024. Fair Share Act: one-time 5-20% levy on net wealth above $50M, then 2-5% yearly (party estimate $22.2B, then $5.4B). Platform: $9.28B a year in new spending, against new revenue of $25.3B in 2027/28 (with the one-time levy) and $9.14B a year after. Goal of 26,000 non-market homes a year, vacancy control, lift the $10-a-day freeze with free child care by 2031, free transit phased in from under 25 and over 65, health centre per riding, PR bill within 100 days, decriminalization, no new fossil fuel approvals."
       },
       "record_summary": {
         "3": "Backed NDP confidence votes under written deals (2017-2020, 2024-2026), gaining the corporate and union donation ban and the 2018 voting referendum. Opposed the fast-track laws and the carbon tax repeal. Voted for the 2026 budget at second reading, against at third. Left the deal in February 2026, citing stalled promises.",
         "5": "CASA 2017-2020: Bill 3 donation ban and 2018 PR referendum (lost 61.3 to 38.7). Yea on Bill 45 spec tax (2018) after amendments; nay on Bills 44 and 46 (2023); yea on Supply Act 2025; nay on Bills 14 and 15 (2025), the carbon tax repeal and Bill 3 at third reading (2026); nay on Armstrong's gender identity, Human Rights Code repeal and drug recovery bills. NDP accord (December 2024) not renewed February 9, 2026."
       },
       "sources": [
+        {
+          "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+          "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+        },
+        {
+          "label": "BC Greens: lift the $10-a-day freeze, universal free child care by 2031 (Sept 28, 2026)",
+          "url": "https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/"
+        },
         {
           "label": "BC Greens: Our Plan",
           "url": "https://bcgreens.ca/our-plan/"
@@ -634,7 +642,7 @@
         "1": "Prices for food, gas and rent have gone up. Every party says it wants to make life cost less. Some want to cut taxes. Some want rules that keep prices down. Some want more help for people with low incomes.",
         "2": "Prices were 2.9% higher in July 2026 than a year before. Every party promises to make life more affordable, but they disagree on how. The province could cut taxes for everyone, limit some prices, give more money to people with the lowest incomes, or lower costs for businesses so they can charge less.",
         "3": "Cost of living is the top issue for BC voters. In 2025 the NDP government ended the consumer carbon tax, but it paused a $1,000 rebate, and in 2026 it raised the lowest tax rate. Every party promises relief in a different way. Some would cut income taxes for everyone. One would cap markups on gas and some groceries. Another would raise support for the poorest people. Others mix smaller tax cuts with limits on power and car insurance increases.",
-        "4": "Cost of living ranks first for 56% of BC voters, according to an Ipsos poll. The minimum wage is $18.25 an hour and rises with inflation each year. In 2025 the NDP government paused a $1,000 grocery rebate, and in 2026 it raised the lowest income tax rate. The parties' price tags are hard to compare. The Conservative and OneBC tax cuts have no published cost. The Greens have not published how they estimated their wealth tax revenue, and CentreBC's cost figures are its own, not checked by anyone else.",
+        "4": "Cost of living ranks first for 56% of BC voters, according to an Ipsos poll. The minimum wage is $18.25 an hour and rises with inflation each year. In 2025 the NDP government paused a $1,000 grocery rebate, and in 2026 it raised the lowest income tax rate. The parties' price tags are hard to compare. The Conservative and OneBC tax cuts have no published cost. The Greens put their program costs at $9.28 billion a year but have not published how they estimated their wealth tax revenue, and CentreBC's cost figures are its own, not checked by anyone else.",
         "5": "Consumer prices rose 2.9% in the year to July 2026. The NDP government ended the consumer carbon tax in April 2025, and Budget 2026 raised the lowest income tax rate from 5.06% to 5.60%. The NDP proposes a 10-cent-a-litre fuel tax cut with a BC Utilities Commission cap on gas margins, caps on grocery margins, and a freeze on Insurance Corporation of British Columbia (ICBC) rates. The Conservatives would raise the basic personal amount, the income you earn tax-free, to $32,000. The Greens would raise income assistance to the poverty line and make transit free for people under 25 and over 65. CentreBC would return the lowest rate to 5.06%, raise the renter's credit to $600 and cap BC Hydro and ICBC increases. OneBC would cut every income tax rate by 25% and the provincial sales tax (PST) by two points."
       },
       "options": [
@@ -813,9 +821,9 @@
         },
         "green": {
           "text": {
-            "1": "This party wants more help for people with low incomes, and free public transit for young people and seniors.",
-            "3": "The Greens would raise income assistance to the poverty line, move toward a living wage, and make transit free for people under 25 and over 65. A tax on fortunes over $50 million would pay for it. The party has not published how it estimated that tax's revenue.",
-            "5": "The Greens would raise income assistance to the Market Basket Measure poverty line and index it, move the minimum wage toward a living wage, make transit free under 25 and over 65, and make large essential-goods companies disclose their margins, with limits where prices or margins are excessive. A wealth tax would pay for it; the party estimates $22.2 billion in year one and $5.4 billion a year after, but has not shown how it modelled those figures. The party has two MLAs. In 2018 it secured a change to the speculation tax."
+            "1": "This party wants more help for people with low incomes, free public transit for young people and seniors, and government-run grocery stores.",
+            "3": "The Greens would raise income assistance to the poverty line, raise the minimum wage toward a living wage, make transit free for people under 25 and over 65 and open public grocery stores. A tax on fortunes over $50 million would pay for it. The party gives revenue totals but has not published how it estimated that tax's revenue.",
+            "5": "The Greens would raise social and disability assistance to the Market Basket Measure poverty line and index it to inflation, raise the minimum wage by inflation plus 1% a year until it reaches the living wage, and make transit free under 25 and over 65 as a first step toward free transit for everyone. They would open 20 public grocery stores and a distribution hub ($100 million upfront), aiming to keep a basket of core goods 30% below market prices, and make large essential-goods companies disclose their margins, with limits where prices or margins are excessive. The platform puts the cost of its measures at $9.28 billion a year, including about $4.0 billion for higher assistance rates, and says no one who works for an income would pay more tax. A wealth tax would pay for it; the party estimates $22.2 billion in year one and $5.4 billion a year after, net of administrative costs and behavioural responses, but has not shown how it modelled those figures. The party has two MLAs. In 2018 it secured a change to the speculation tax."
           },
           "basis": "platform",
           "confidence": "high",
@@ -839,6 +847,10 @@
             {
               "label": "BC Greens: Economic Vision (PDF, Oct 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -877,7 +889,7 @@
           ]
         }
       },
-      "scoring_rationale": "Option a is the OneBC 25% cut and PST reduction (4); Conservatives share a broad cut but at a different scale and have not endorsed rate cuts of that size (2); CentreBC 1 (cuts one bracket modestly inside a legislated balance path and rejects cuts of this size); NDP and Green 0. Option b is the Conservative basic personal amount increase (4); OneBC 3 (would cut everyone's taxes, by a different instrument); CentreBC 2 (a broad income tax cut, but through the bottom rate, about half the size, and costed); NDP 1 (it did cut MSP and the carbon tax, but its 2026 direction is price regulation and a higher bottom rate); Green 0. Option c is the NDP 2026 package (4); Greens would require margin disclosure and set limits where margins are excessive, but have no fuel tax cut or ICBC freeze (2); CentreBC 2 (caps Hydro and ICBC increases, a Crown-rate measure, but no grocery caps or fuel tax cut); Conservatives oppose price regulation but kept their own targeted PST-off-alcohol measure (1); OneBC 0. Option d is the Green plan (4); NDP 2 because it indexed the minimum wage and expanded benefits but froze child care and has no assistance pledge; CentreBC 1 (renter's credit and a caregiver benefit, no assistance or wage pledge, no wealth tax); Conservative and OneBC 0 (a non-refundable credit gives nothing to the lowest incomes). Option e is CentreBC's platform package (4): bottom rate to 5.06%, renter's credit $600, commuter credit, Hydro and ICBC caps, PST machinery relief; Conservatives 3 (voted against the bottom-rate rise, no new taxes, machinery PST exemption; no renter or rate-cap measures); OneBC 2 (broad tax cuts, no targeted measures); NDP 1 (it created the renter's credit and the ICBC freeze but enacted the rate rise the option reverses); Green 1 (renter support only). Option e was rewritten on October 10 from the earlier farm PST item, which the platform does not repeat; other parties' scores on it were kept. Symmetry check: Conservative on a (2) and OneBC on b (3) are within one point; NDP on e (1) and CentreBC on c (2) are within one point."
+      "scoring_rationale": "Option a is the OneBC 25% cut and PST reduction (4); Conservatives share a broad cut but at a different scale and have not endorsed rate cuts of that size (2); CentreBC 1 (cuts one bracket modestly inside a legislated balance path and rejects cuts of this size); NDP and Green 0. Option b is the Conservative basic personal amount increase (4); OneBC 3 (would cut everyone's taxes, by a different instrument); CentreBC 2 (a broad income tax cut, but through the bottom rate, about half the size, and costed); NDP 1 (it did cut MSP and the carbon tax, but its 2026 direction is price regulation and a higher bottom rate); Green 0. Option c is the NDP 2026 package (4); Greens would require margin disclosure, set limits where margins are excessive and open public grocery stores, but have no fuel tax cut or ICBC rate freeze (2); CentreBC 2 (caps Hydro and ICBC increases, a Crown-rate measure, but no grocery caps or fuel tax cut); Conservatives oppose price regulation but kept their own targeted PST-off-alcohol measure (1); OneBC 0. Option d is the Green plan (4); NDP 2 because it indexed the minimum wage and expanded benefits but froze child care and has no assistance pledge; CentreBC 1 (renter's credit and a caregiver benefit, no assistance or wage pledge, no wealth tax); Conservative and OneBC 0 (a non-refundable credit gives nothing to the lowest incomes). Option e is CentreBC's platform package (4): bottom rate to 5.06%, renter's credit $600, commuter credit, Hydro and ICBC caps, PST machinery relief; Conservatives 3 (voted against the bottom-rate rise, no new taxes, machinery PST exemption; no renter or rate-cap measures); OneBC 2 (broad tax cuts, no targeted measures); NDP 1 (it created the renter's credit and the ICBC freeze but enacted the rate rise the option reverses); Green 1 (renter support only). Option e was rewritten on October 10 from the earlier farm PST item, which the platform does not repeat; other parties' scores on it were kept. Symmetry check: Conservative on a (2) and OneBC on b (3) are within one point; NDP on e (1) and CentreBC on c (2) are within one point."
     },
     {
       "id": "q_taxes_deficit",
@@ -893,9 +905,9 @@
       "context": {
         "1": "The province spends more money than it takes in, so it borrows the rest. Borrowing costs extra because of interest. The province could spend less, raise some taxes, or keep borrowing.",
         "2": "BC expects a deficit of about $13.8 billion this year, which means it spends that much more than it takes in. It borrows to cover the gap, and that adds interest costs. It can spend less, tax some people more, keep borrowing until the economy grows, or mix these.",
-        "3": "BC's deficit, the gap between what it spends and what it takes in, is about $13.8 billion. That is a record in dollars. All four credit rating agencies lowered BC's rating in 2026. No party has a fully costed plan, so the parties' promises and price tags are hard to compare.",
-        "4": "BC now forecasts a $13.8 billion deficit this year, up from $13.3 billion in Budget 2026, and debt rising to 37% of gross domestic product (GDP), the size of BC's economy, by 2028-29. The parties' plans differ in size. The NDP's higher tax on high incomes would raise about $1 billion a year. The Conservatives have not costed their tax cut; an economist puts it at about $2 billion a year. The Greens estimate their wealth tax would raise $22.2 billion in its first year. CentreBC says its promises cost $13.7 billion over four years and would balance the budget in 2034-35. OneBC has not costed its cuts.",
-        "5": "Budget 2026 projected a $13.3 billion deficit for 2026-27, and the September quarterly update raised the forecast to $13.8 billion. Taxpayer-supported debt is projected to reach 37.4% of gross domestic product (GDP) by 2028-29, and all four credit rating agencies downgraded BC this year. The NDP would add two points to the top two income tax brackets and charge 24.5% above $1 million (about $1 billion a year), and plans 15,000 fewer full-time-equivalent public positions. The Conservatives would raise the basic personal amount to $32,000 (not costed by the party; an economist puts it at about $2 billion a year and an NDP candidate at $2.5 billion) and set no deficit target. The Greens would tax wealth above $50 million ($22.2 billion in year one, party estimate). CentreBC would write a 2034-35 balanced budget into law, cut 10,000 positions as people leave and return the lowest rate to 5.06% (its tax relief costs $4.5 billion over four years, party costing). OneBC would cut taxes 25% and balance in four years."
+        "3": "BC's deficit, the gap between what it spends and what it takes in, is about $13.8 billion. That is a record in dollars. All four credit rating agencies lowered BC's rating in 2026. The parties give very different amounts of detail on costs, so their promises and price tags are hard to compare.",
+        "4": "BC now forecasts a $13.8 billion deficit this year, up from $13.3 billion in Budget 2026, and debt rising to 37% of gross domestic product (GDP), the size of BC's economy, by 2028-29. The parties' plans differ in size. The NDP's higher tax on high incomes would raise about $1 billion a year. The Conservatives have not costed their tax cut; an economist puts it at about $2 billion a year. The Greens estimate their wealth tax would raise $22.2 billion in its first year and put their program costs at $9.28 billion a year. CentreBC says its promises cost $13.7 billion over four years and would balance the budget in 2034-35. OneBC has not costed its cuts.",
+        "5": "Budget 2026 projected a $13.3 billion deficit for 2026-27, and the September quarterly update raised the forecast to $13.8 billion. Taxpayer-supported debt is projected to reach 37.4% of gross domestic product (GDP) by 2028-29, and all four credit rating agencies downgraded BC this year. The NDP would add two points to the top two income tax brackets and charge 24.5% above $1 million (about $1 billion a year), and plans 15,000 fewer full-time-equivalent public positions. The Conservatives would raise the basic personal amount to $32,000 (not costed by the party; an economist puts it at about $2 billion a year and an NDP candidate at $2.5 billion) and set no deficit target. The Greens would tax wealth above $50 million ($22.2 billion in year one, party estimate) and put their program costs at $9.28 billion a year. CentreBC would write a 2034-35 balanced budget into law, cut 10,000 positions as people leave and return the lowest rate to 5.06% (its tax relief costs $4.5 billion over four years, party costing). OneBC would cut taxes 25% and balance in four years."
       },
       "options": [
         {
@@ -1062,8 +1074,8 @@
         "green": {
           "text": {
             "1": "This party would tax the richest people more to pay for child care, transit and housing.",
-            "3": "The Greens propose a tax on fortunes over $50 million, plus a windfall tax and higher resource royalties. They project $22 billion in the first year for child care, transit, housing and debt, but have not published how they estimated it. They voted against the 2026 budget.",
-            "5": "The Greens' Fair Share Act would charge a one-time 5%, 10% or 20% on wealth above $50 million, $100 million and $1 billion, then 2%, 3% or 5% a year. The party estimates $22.2 billion in year one and $5.4 billion a year after; its October 11 FAQ says a new provincial bureau would value net worth and payment could be deferred up to five years. Separately, it plans a windfall tax, a minimum corporate tax and royalties aimed at 50% of net profits. Both Green MLAs voted against the 2026 budget bill (Bill 2) at second and third reading, and backed the 2025-26 Supply Act under their accord with the NDP."
+            "3": "The Greens propose a tax on fortunes over $50 million, plus a windfall tax and higher resource royalties. They project $22 billion in the first year for child care, transit, housing and debt, but have not published how they estimated it. Their platform puts program costs at $9.28 billion a year. They voted against the 2026 budget.",
+            "5": "The Greens' Fair Share Act would charge a one-time 5%, 10% or 20% on net wealth above $50 million, $100 million and $1 billion, then 2%, 3% or 5% a year. The party estimates $22.2 billion in year one and $5.4 billion a year after, net of administrative costs and behavioural responses; its October 11 FAQ says a new provincial bureau would value net worth and payment could be deferred up to five years. It would also tax inheritances above $10 million, set a minimum tax for large corporations, add a temporary excess-profits tax and reform gas royalties to collect 50% of net profits (an estimated $4.1 billion in 2027-28, nearly $3 billion above the province's forecast). The platform puts program costs at $9.28 billion a year, says no one who works for an income would pay more tax, and sets no deficit target or balance date. Both Green MLAs voted against the 2026 budget bill (Bill 2) at second and third reading, and backed the 2025-26 Supply Act under their accord with the NDP."
           },
           "basis": "both",
           "confidence": "high",
@@ -1099,6 +1111,10 @@
             {
               "label": "Votes and Proceedings, May 29, 2025 (Supply Act, 2025-2026, third reading)",
               "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250529.htm"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -1198,8 +1214,8 @@
             "1": "Build many more non-profit homes. Limit rent increases when a new renter moves in.",
             "2": "Build thousands of non-profit homes a year, and keep rent limits when a new renter moves in.",
             "3": "Build or protect about 26,000 non-profit and public homes a year, and keep rent limits when a new renter moves in.",
-            "4": "Public and non-profit building of about 26,000 affordable homes a year, a restarted Community Housing Fund, and vacancy control so rent limits stay between tenants.",
-            "5": "Build 26,000 non-market homes a year, reinstate the Community and Indigenous Housing Funds, bring in vacancy control, and pay for it with a wealth levy and land tax."
+            "4": "Public and non-profit building and protection of about 26,000 affordable homes a year, a restarted Community Housing Fund, and vacancy control so rent limits stay between tenants.",
+            "5": "Set a goal of building and protecting 26,000 non-market homes a year, restart the Community and Indigenous Housing Funds, bring in vacancy control, and pay for it with a wealth levy and land tax."
           },
           "scores": {
             "ndp": 2,
@@ -1311,7 +1327,7 @@
           "text": {
             "1": "This party wants government to build homes rented at cost, and limits on rent increases when a new renter moves in.",
             "3": "The Greens would build or protect 26,000 non-market homes a year, restart the paused Community Housing Fund and bring in vacancy control, which keeps rent limits in place between tenants. They voted against the 2023 density laws, citing local control. Their 2025 vacancy-control bill was defeated.",
-            "5": "The Greens would build 26,000 non-market homes a year, reinstate the Community and Indigenous Housing Funds, protect 2,000 rental units a year through a Rental Protection Fund, bring in vacancy control and pilot a land value tax. They voted for the 2018 speculation tax after securing a 0.5% rate for domestic owners, voted against Bills 44 and 46 over local control, and saw their 2025 vacancy-control bill defeated."
+            "5": "The Greens would restart the Community Housing Fund and Indigenous Housing Fund with a goal of building and protecting 26,000 homes a year, protect 2,000 deeply affordable rentals a year through the Rental Protection Fund, bring in vacancy control (also in assisted living), let renters seek a rent review when market rents fall, ban blanket no-pets clauses and pilot a land value tax. They would raise Shelter Aid for Elderly Renters income limits to $48,000 for singles and $53,000 for couples, change how municipal housing targets are set and share some property transfer tax with communities that build. The platform puts housing costs at $1.8 billion a year. They voted for the 2018 speculation tax after securing a 0.5% rate for domestic owners, voted against Bills 44 and 46 over local control, and saw their 2025 vacancy-control bill defeated."
           },
           "basis": "both",
           "confidence": "high",
@@ -1335,6 +1351,10 @@
             {
               "label": "BC Greens: Economic Vision (PDF, Oct 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -1391,7 +1411,7 @@
         "2": "About one in four people in BC has no regular family doctor or nurse practitioner, up from fewer than one in five in 2017. Every party says care should stay free for patients. They disagree on whether companies should run more care, and on how to pay for it.",
         "3": "Health care ranks second for BC voters. About one in four people has no regular family doctor or nurse practitioner. The NDP government changed how family doctors are paid in 2023. All parties say care should stay publicly funded. They differ on building more public clinics, paying non-government providers, allowing people to pay for faster care, and how to fund it all.",
         "4": "About 1.26 million people in BC (23%) have no regular family doctor or nurse practitioner, up from 18% in 2017. The NDP government brought in a new pay model for family doctors in 2023. The median wait from a doctor's referral to treatment is 32 weeks. A provincial law, the Medicare Protection Act, bars private clinics from charging patients for services the public plan covers.",
-        "5": "In April 2026, 1,259,425 people (23%) had no regular primary care provider, compared with 897,000 (18.2%) in 2017. The Health Connect Registry links more than 4,000 people a week to a provider, and a new family doctor payment model (LFP) has been in place since 2023. The Fraser Institute puts the median wait from referral to treatment at 32.2 weeks. The first phase of minimum nurse-to-patient ratios was 81% in place by March 2026, according to the BC Nurses' Union, and the health budget is about $36 billion. The Medicare Protection Act bars extra-billing for services the public plan insures."
+        "5": "In April 2026, 1,259,425 people (23%) had no regular primary care provider, compared with 897,000 (18.2%) in 2017. The Health Connect Registry links more than 4,000 people a week to a provider, and a new family doctor payment model (LFP) has been in place since 2023. The Fraser Institute puts the median wait from referral to treatment at 32.2 weeks. The first phase of minimum nurse-to-patient ratios was 81% in place by March 2026, according to the BC Nurses' Union, and the Ministry of Health budget for 2026-27 is about $36 billion. The Medicare Protection Act bars extra-billing for services the public plan insures."
       },
       "options": [
         {
@@ -1555,7 +1575,7 @@
           "text": {
             "1": "This party wants a public health centre in every community and no private nursing companies.",
             "3": "The Greens would put a community health centre in every riding, finish nurse-to-patient ratios, phase out private agency nurses, cover mental health care publicly and keep public health money in public care.",
-            "5": "The Greens would put a community health centre in every riding, complete nurse ratios, phase out agency nurses, add public mental health coverage and single-entry surgical referral, review loan forgiveness and paid practicums for health students, and assess the health effects of liquefied natural gas (LNG) and fracking. Their 2024 accord with the NDP included health centres and psychologist coverage; the Greens say commitments of $15 million and $50 million were not delivered."
+            "5": "The Greens would put an integrated community health centre in every riding, fund nurses for safe nurse-to-patient ratios and phase out private agency and for-profit staffing nurses, add six visits a year to a mental health professional under the Medical Services Plan, bring in single-entry surgical referral, make all recommended vaccines free and review the health authority model with a view to one consolidated authority. They would review loan forgiveness and paid practicums for health students and commission a health impact assessment of liquefied natural gas (LNG) and fracking. The platform puts health costs at $200 million a year and mental health at $201 million. Their 2024 accord with the NDP included health centres and psychologist coverage; the Greens say commitments of $15 million and $50 million were not delivered."
           },
           "basis": "platform",
           "confidence": "high",
@@ -1575,6 +1595,10 @@
             {
               "label": "BC Greens: Healthcare policy brief (PDF, Oct 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -1811,7 +1835,7 @@
           "text": {
             "1": "This party wants to make the law stronger and teach the public about it.",
             "3": "The Greens would pass a law setting out how to carry out the Declaration Act, fund public education and create an expert advisory committee. They oppose weakening the law; in February 2026 leader Emily Lowan said a government weakening Indigenous rights 'cannot expect our support'.",
-            "5": "On September 30 the Greens pledged to implement the Declaration Act through legislation, fund public education on it and create an expert advisory committee on Indigenous rights, DRIPA and constitutional law. Green MLAs voted for Bill 41 in 2019, against Bills 14 and 15 in 2025 and against both DRIPA repeal bills. Ending the NDP accord in February 2026, Lowan said a government 'willing to weaken Indigenous rights for political expediency cannot expect our support'."
+            "5": "The Greens' platform would implement the Declaration Act through legislation, fund public education on it and create an expert advisory committee on Indigenous rights, DRIPA and constitutional law whose advice is made public. It would also improve the modern treaty process, co-develop a way to resolve Indigenous-Crown disputes before they reach court, and call on the Eby government to apologize to the Cowichan and Gitxaala for its handling of DRIPA. Green MLAs voted for Bill 41 in 2019, against Bills 14 and 15 in 2025 and against both DRIPA repeal bills. Ending the NDP accord in February 2026, Lowan said a government 'willing to weaken Indigenous rights for political expediency cannot expect our support'."
           },
           "basis": "both",
           "confidence": "high",
@@ -1839,6 +1863,10 @@
             {
               "label": "Votes and Proceedings, April 22, 2026 (DRIPA Repeal Act, first reading lost 44-47)",
               "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -2090,6 +2118,10 @@
             {
               "label": "Votes and Proceedings, February 19, 2026 (Gender Ideology and Child Protection Act, 38-49)",
               "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260219.htm"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -2334,7 +2366,7 @@
           "text": {
             "1": "This party would not charge people for carrying small amounts. It wants safer prescribed drugs and voluntary treatment.",
             "3": "The Greens are the only party that would bring back decriminalization, which would need a federal exemption. Their plan, written with former chief coroner Lisa Lapointe, adds regulated pharmaceutical alternatives, more supervised and inhalation sites, and voluntary rather than involuntary care.",
-            "5": "The Greens' Toxic Drugs Policy Brief (October 2, 2026) would decriminalize personal possession and offer regulated pharmaceutical alternatives, more supervised consumption sites with inhalation, mobile and 24-hour service, yearly drug-checking funding, housing with harm reduction and voluntary care. It cites the court ruling in the Drug User Liberation Front (DULF) case. The two Green MLAs cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which would close all provincially funded consumption sites; it passed first reading 84 to 2 in March 2026. Green MLA Rob Botterell also voted against Bill 32 in 2025."
+            "5": "The Greens' Toxic Drugs Policy Brief (October 2, 2026) would decriminalize personal possession and offer regulated pharmaceutical alternatives, more supervised consumption sites with inhalation, mobile and 24-hour service, yearly drug-checking funding, housing with harm reduction and voluntary care. It cites the court ruling in the Drug User Liberation Front (DULF) case. The October 13 platform puts the cost at $50 million a year, sets an evidence-based standard of care for all substance use treatment, and would bring the Mental Health Act in line with the court's Charter ruling, with an independent Office of the Mental Health Advocate. The two Green MLAs cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which would close all provincially funded consumption sites; it passed first reading 84 to 2 in March 2026. Green MLA Rob Botterell also voted against Bill 32 in 2025."
           },
           "basis": "platform",
           "confidence": "high",
@@ -2358,6 +2390,10 @@
             {
               "label": "Votes and Proceedings, December 2, 2025 (Bill 32, third reading 45-41)",
               "url": "https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251202.htm"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -2402,15 +2438,15 @@
         "1": "What should the government's plan for crime and safety be?",
         "2": "Which approach should the province take on break-ins, threats against shop owners and people who keep breaking the law?",
         "3": "Which approach should the province take on crime and public safety?",
-        "4": "The federal government sets bail law, while the province pays for police, prosecutors and courts. Which approach should BC take?",
-        "5": "The province controls police funding, prosecutor and court capacity and the Mental Health Act, and can lobby Ottawa on bail (Bill C-14). Which provincial approach do you prefer?"
+        "4": "The federal government sets bail law, while the province pays for police, prosecutors and courts and sets the rules police work under. Which approach should BC take?",
+        "5": "The province controls police funding and the Police Act, prosecutor and court capacity and the Mental Health Act, and can lobby Ottawa on bail (Bill C-14). Which provincial approach do you prefer?"
       },
       "context": {
-        "1": "The province pays for police and courts. Parties disagree on what to do about crime. One party wants to keep today's programs. Others want many more police, a special unit against threats to businesses, or a focus on people who keep committing violent crimes.",
-        "2": "The province pays for police, prosecutors (the lawyers who charge people with crimes) and courts. The federal government sets the bail rules that decide who is released before trial, so BC parties can only ask for changes. Parties differ on whether to hire many more police, add special units, or keep and grow current programs.",
-        "3": "Crime is a mid-level concern for voters. The Conservatives promise many more police, prosecutors and judges. The NDP government would keep current funding and expand a program aimed at people who commit many crimes. CentreBC promises 500 more Mounties, 60 more prosecutors and a permanent task force against extortion, which is when criminals threaten business owners for money. OneBC targets repeat violent offenders. The Greens have published no plan.",
-        "4": "BC's Crime Severity Index, a Statistics Canada measure of police-reported crime, fell to 92.4 in 2025, nearly 12% below 2023. A Fraser Institute analysis says violent crime still rose 2.2% last year and about a third since 2017. Provincial figures show extortion fell 7% in 2025. Because bail law is federal, the province's main tools are funding for police, prosecutors and courts. The NDP has made no numeric police pledge. The Conservative plan for about 1,000 new positions has no published cost. CentreBC puts its whole safety chapter, which also covers housing, treatment and disaster preparedness, at about $1.8 billion over four years.",
-        "5": "BC's Crime Severity Index fell to 92.4 in 2025, nearly 12% below 2023 according to the province, but the violent crime index rose 2.2% in 2025 and 31.7% since 2017, according to a Fraser Institute analysis of Statistics Canada data. Extortion fell 7% province-wide in 2025. The NDP government funded police through the $230 million Safer Communities plan in 2022 and $325 million in new funding over three years in Budget 2025 for encampments, policing and the justice system, but has made no numeric police pledge. The Conservative plan adds about 1,000 positions, has no published cost and does not mention extortion. CentreBC's plan adds 500 Royal Canadian Mounted Police (RCMP) officers and 60 Crown prosecutors; the party costs its whole safety chapter, which also covers housing, treatment and emergency preparedness, at about $1.8 billion over four years plus $255 million in capital. The Greens have published no plan. Bail and sentencing law are federal."
+        "1": "The province pays for police and courts. Parties disagree on what to do about crime. Some want many more police. Several want special units against threats to businesses. Others focus on people who keep committing violent crimes. One wants health workers, not police, to take more calls.",
+        "2": "The province pays for police, prosecutors (the lawyers who charge people with crimes) and courts. The federal government sets the bail rules that decide who is released before trial, so BC parties can only ask for changes. Parties differ on whether to hire many more police, add special units, keep and grow current programs, or change how police are overseen and send health workers to mental health and drug calls.",
+        "3": "Crime is a mid-level concern for voters. The Conservatives promise many more police, prosecutors and judges, and a plan against extortion. The NDP government would keep current funding, double its programs for people who commit many crimes, hire 50 more prosecutors and add a unit against extortion. CentreBC promises 500 more Mounties, 60 more prosecutors and a permanent task force against extortion, which is when criminals threaten business owners for money. OneBC targets repeat violent offenders. The Greens would pass a new policing law with more oversight, send health workers instead of police to more mental health and drug calls, and spend on housing and services that prevent crime.",
+        "4": "BC's Crime Severity Index, a Statistics Canada measure of police-reported crime, fell to 92.4 in 2025, nearly 12% below 2023. A Fraser Institute analysis says violent crime still rose 2.2% last year and about a third since 2017. Provincial figures show extortion fell 7% in 2025. Because bail law is federal, the province's main tools are funding for police, prosecutors and courts. The NDP has made no numeric police pledge but promises 50 more Crown prosecutors and a unit for extortion and gang violence, with no published cost. The Conservative plan for about 1,000 new positions and its later anti-extortion plan have no published cost. CentreBC puts its whole safety chapter, which also covers housing, treatment and disaster preparedness, at about $1.8 billion over four years. The Greens would pass a new Community Safety and Policing Act with all-party oversight of policing and build a voluntary mental health and substance use system so fewer health calls go to police; they cost the justice chapter at $131 million a year.",
+        "5": "BC's Crime Severity Index fell to 92.4 in 2025, nearly 12% below 2023 according to the province, but the violent crime index rose 2.2% in 2025 and 31.7% since 2017, according to a Fraser Institute analysis of Statistics Canada data. Extortion fell 7% province-wide in 2025. The NDP government funded police through the $230 million Safer Communities plan in 2022 and $325 million in new funding over three years in Budget 2025 for encampments, policing and the justice system, but has made no numeric police pledge; on October 14 it promised 50 more Crown prosecutors, a unit for extortion and gang violence and doubled repeat-offender programs, with no published cost. The Conservative plan adds about 1,000 positions and has no published cost; on October 13 the party added an anti-extortion plan and a repeat-offender court stream, also with no published cost. CentreBC's plan adds 500 Royal Canadian Mounted Police (RCMP) officers and 60 Crown prosecutors; the party costs its whole safety chapter, which also covers housing, treatment and emergency preparedness, at about $1.8 billion over four years plus $255 million in capital. The Greens' platform would enact the Community Safety and Policing Act recommended by the Legislature's all-party committee in 2022, create an all-party committee to oversee policing, fund a voluntary mental health and substance use system to reduce police work on health calls, and address causes of crime such as homelessness; it costs the justice chapter at $131 million a year and sets no police, Crown or court numbers. Bail and sentencing law are federal."
       },
       "options": [
         {
@@ -2423,9 +2459,9 @@
             "5": "Add 250 police officers, 500 rural RCMP plus 150 civilian staff, 50 Crown prosecutors and 20 trial judges, with public reporting on repeat offending and bail."
           },
           "scores": {
-            "ndp": 1,
+            "ndp": 2,
             "conservative": 4,
-            "green": 2,
+            "green": 0,
             "centrebc": 3,
             "onebc": 2
           }
@@ -2440,9 +2476,9 @@
             "5": "Make the extortion task force permanent, build a 40-officer port team with border services and the RCMP, hire 60 Crown prosecutors by 2030/31, double repeat-offender enforcement to $26 million a year, review bail before 2028, and fund 20 downtowns."
           },
           "scores": {
-            "ndp": 2,
-            "conservative": 2,
-            "green": 2,
+            "ndp": 3,
+            "conservative": 3,
+            "green": 0,
             "centrebc": 4,
             "onebc": 1
           }
@@ -2459,7 +2495,7 @@
           "scores": {
             "ndp": 4,
             "conservative": 1,
-            "green": 2,
+            "green": 0,
             "centrebc": 2,
             "onebc": 0
           }
@@ -2476,22 +2512,43 @@
           "scores": {
             "ndp": 0,
             "conservative": 2,
-            "green": 2,
+            "green": 1,
             "centrebc": 1,
             "onebc": 4
+          }
+        },
+        {
+          "id": "e",
+          "text": {
+            "1": "Change how police are run, send health workers to mental health and drug calls, and fund housing to prevent crime.",
+            "2": "Rewrite the policing law with stronger oversight, have health workers instead of police answer mental health and drug calls, and invest in housing and services that prevent crime.",
+            "3": "Pass a new policing law with stronger oversight, build a voluntary mental health and addiction system so health workers answer those calls instead of police, and invest in housing and services that prevent crime.",
+            "4": "Replace the Police Act with a new Community Safety and Policing Act, create an all-party committee to oversee policing, build a voluntary mental health and substance use system so health workers answer those calls, and invest in housing and services that prevent crime.",
+            "5": "Enact a Community Safety and Policing Act as the 2022 all-party Transforming Policing and Community Safety report recommended, add an all-party legislative committee to oversee policing, fund a voluntary mental health and substance use system so health workers rather than police take those calls, and invest in housing and services that address the causes of crime."
+          },
+          "scores": {
+            "ndp": 2,
+            "conservative": 0,
+            "green": 4,
+            "centrebc": 1,
+            "onebc": 0
           }
         }
       ],
       "party_positions": {
         "ndp": {
           "text": {
-            "1": "This party would keep today's programs, grow the one for repeat offenders, and ask the federal government for tougher bail.",
-            "3": "The NDP government funded police through its Safer Communities plan, set up teams for repeat violent offenders and pushed Ottawa for bail reform. In this campaign it promises security funding for the Jewish community, a summit on extremism and a wider repeat-offender program. It makes no numeric police promise and says nothing about extortion.",
-            "5": "In government, the NDP put $230 million into Safer Communities in 2022, set up 12 hubs for repeat violent offenders in 2023 and added $325 million in new funding over three years in Budget 2025 for encampments, policing and the justice system. Its Bill 36 (2023) required Surrey to complete its switch to a municipal police force, and the province pays Surrey $30 million a year toward transition costs until 2029. It pressed Ottawa for the Bill C-14 bail reforms. In 2026 it promises $500,000 a year for Jewish community security, an extremism summit and a province-wide prolific offender program, but no numeric police pledge."
+            "1": "This party would keep today's programs, double the ones for repeat offenders, hire 50 more prosecutors, add a unit against extortion and gangs, and ask the federal government for tougher bail.",
+            "3": "The NDP government funded police through its Safer Communities plan, set up teams for repeat violent offenders and pushed Ottawa for bail reform. In this campaign it promises to double the repeat-offender programs, hire 50 more Crown prosecutors, create a unit for extortion and gang violence, take more gang assets and set up a retail theft task force. It also promises security funding for the Jewish community and a summit on extremism. It makes no numeric police promise and has no published cost.",
+            "5": "In government, the NDP put $230 million into Safer Communities in 2022, set up 12 hubs for repeat violent offenders in 2023 and added $325 million in new funding over three years in Budget 2025 for encampments, policing and the justice system. Its Bill 36 (2023) required Surrey to complete its switch to a municipal police force, and the province pays Surrey $30 million a year toward transition costs until 2029. It pressed Ottawa for the Bill C-14 bail reforms. In 2026 it promises $500,000 a year for Jewish community security, an extremism summit and a province-wide prolific offender program. An October 14, 2026 release added a doubling of the repeat-offending programs, 50 additional Crown prosecutors, a unit dedicated to extortion, racketeering and gang violence, an expanded Civil Forfeiture Office, provincial penalties such as driving suspensions for people caught with illegal guns in gang activity where the law allows, faster officer training with the RCMP and the Justice Institute of BC, and a BC Retail Theft Task Force. It has no published cost and no numeric police pledge."
           },
           "basis": "both",
           "confidence": "medium",
           "sources": [
+            {
+              "label": "BC NDP: gangs, guns and extortion plan (Oct 14, 2026)",
+              "url": "https://www.bcndp.ca/releases/eby-targets-gangs-guns-and-extortion"
+            },
             {
               "label": "BC NDP: Jewish community security and extremism summit (Oct 5, 2026)",
               "url": "https://www.bcndp.ca/releases/bc-ndp-commits-jewish-community-security-investment-and-summit-confront-organized-hate"
@@ -2532,9 +2589,9 @@
         },
         "conservative": {
           "text": {
-            "1": "This party would hire many more police and court workers and publish numbers on repeat crime.",
-            "3": "The Conservatives' Safe Streets plan adds 250 police officers, 500 rural Mounties plus 150 civilian staff, 50 prosecutors and help paying for 20 judges, and would report on repeat offending and bail. The plan has no published cost and does not mention extortion. Bail law is set by the federal government.",
-            "5": "The Safe Streets plan (October 2026) adds 250 police officers through the Justice Institute of British Columbia, 500 rural RCMP officers and 150 civilian staff over five years, 50 Crown prosecutors, 20 co-funded federal trial judges and more sheriffs, about 1,000 hires in all. It would report on repeat offending, bail and court delays. It has no published cost and does not mention extortion. Several current Conservatives, including Rustad, Doerkson and Halford, voted against Bill 36 in 2023."
+            "1": "This party would hire many more police and court workers, add investigators for threats against businesses, and publish numbers on repeat crime.",
+            "3": "The Conservatives' Safe Streets plan adds 250 police officers, 500 rural Mounties plus 150 civilian staff, 50 prosecutors and help paying for 20 judges, and would report on repeat offending and bail. The plan has no published cost. On October 13 the party added an anti-extortion plan with dedicated investigators and a separate court stream for repeat offenders, also with no published cost. Bail law is set by the federal government.",
+            "5": "The Safe Streets plan (October 2026) adds 250 police officers through the Justice Institute of British Columbia, 500 rural RCMP officers and 150 civilian staff over five years, 50 Crown prosecutors, 20 co-funded federal trial judges and more sheriffs, about 1,000 hires in all. It would report on repeat offending, bail and court delays. It has no published cost. On October 13, 2026 the party added an Anti-Extortion Action Plan (specialized investigators dedicated to extortion cases, reporting and protection pathways for threatened businesses and families, and steps to cut gang recruitment of youth), a dedicated repeat-offender court stream, stronger bail and warrant enforcement, and expanded electronic monitoring for people released into the community. Neither announcement has a published cost. Several current Conservatives, including Rustad, Doerkson and Halford, voted against Bill 36 in 2023."
           },
           "basis": "platform",
           "confidence": "high",
@@ -2542,6 +2599,10 @@
             {
               "label": "Conservative Party of BC: Safe Streets for BC",
               "url": "https://conservativebc.ca/safe-streets-for-bc/"
+            },
+            {
+              "label": "Conservative Party of BC: crack down on gangs and violent offenders (Oct 13, 2026)",
+              "url": "https://conservativebc.ca/conservatives-will-crack-down-on-gangs-and-lock-up-violent-offenders/"
             },
             {
               "label": "Langley Advance Times: Conservative plan to hire more police (Oct 6, 2026)",
@@ -2559,16 +2620,16 @@
         },
         "green": {
           "text": {
-            "1": "This party has no published safety plan, so it is not scored here. It says better housing and health care support public safety.",
-            "3": "The Greens have published no public safety or policing plan, so they are not scored here. Their drug policy paper says more supervised drug-use sites would reduce public drug use and 'support public safety'.",
-            "5": "The Greens have no public safety or policing commitment (BC Ballot, October 9), so this question leaves them out of the Green score. Their drug policy brief says supervised consumption and inhalation sites would 'support public safety', alongside supportive housing and voluntary care. Their two MLAs cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which passed first reading 84 to 2. They take no position on police numbers, bail, extortion or courts."
+            "1": "This party would send health workers, not police, to more mental health and drug calls, and change how police are run and checked. It promises no new police or prosecutors.",
+            "3": "The Greens' platform would pass a new Community Safety and Policing Act, as a 2022 all-party report recommended, and create an all-party committee of MLAs to oversee policing. It would build a voluntary mental health and addiction system so health workers take more calls instead of police, add mental health as a 911 option, shut down one RCMP unit and fund First Nations justice programs. It says the province must deal with causes of crime such as homelessness. It costs the justice chapter at $131 million a year and sets no numbers for police, prosecutors or judges.",
+            "5": "The Greens' platform (October 13, 2026, pages 32-33) would carry out the Transforming Policing and Community Safety report, including a new Community Safety and Policing Act, create an all-party select standing committee to oversee policing, require police services to publish race-based data, disband the RCMP's Critical Response Unit (CRU-BC), review prison conditions, fund the BC First Nations Justice Council and create an independent task force, under civilian oversight from Indigenous communities, to investigate and prosecute open and cold cases of violence against Indigenous women, children and Two-Spirit people. It would fund a voluntary mental health and substance use system to reduce police and court work on health issues, expand the Crisis Response, Community Led program (formerly PACT) and add mental health as a fourth 911 option. It says the province must address conditions that create crime, such as homelessness and lack of services. The platform costs the justice chapter at $131 million a year. It sets no police, Crown prosecutor or judge numbers and takes no position on bail, extortion or repeat offenders. The two Green MLAs cast the only votes against first reading of Armstrong's Drug Recovery and Community Safety Act, which passed first reading 84 to 2."
           },
           "basis": "platform",
-          "confidence": "low",
+          "confidence": "high",
           "sources": [
             {
-              "label": "BC Ballot: BC Green commitments (no public safety item)",
-              "url": "https://bcballot.ca/platforms/bc-green-party/"
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             },
             {
               "label": "BC Greens Toxic Drugs Policy Brief 2026 (PDF)",
@@ -2578,8 +2639,7 @@
               "label": "Votes and Proceedings, March 5, 2026 (Drug Recovery and Community Safety Act, first reading 84-2)",
               "url": "https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260305.htm"
             }
-          ],
-          "no_position": true
+          ]
         },
         "centrebc": {
           "text": {
@@ -2624,7 +2684,7 @@
           ]
         }
       },
-      "scoring_rationale": "Four options. a = Conservative (4); CentreBC 3 (500 RCMP, 60 Crown and public dashboards match most of the list; no municipal police or judges pledge); OneBC 2 (tough-on-crime direction, but no hiring, Crown or court pledge); NDP 1 (funds police but makes no numeric pledge and did not expand Crown capacity on this scale). b = CentreBC's targeted model from its platform (4): permanent task force, port team, prosecutors, doubled repeat-offender programs, bail review, downtown teams; the Surrey application is scored in the local extortion question; NDP 2 (it created the task force and the SITE and CSTEP programs, but has no permanent budget, port team or Crown numbers); Conservative 2 (50 prosecutors and bail reporting overlap; no extortion or port item); OneBC 1. Option b was rewritten on October 10 from the November 2025 Surrey plan; other parties' scores on it were kept. c = NDP record (4); CentreBC 2 (keeps and doubles the offender programs, but a bail review rather than continuity, and silent on the SPS); Conservative 1 (opposes continuity, calls the record a failure); OneBC 0. d = OneBC (4); Conservative 2 (repeat offender focus, no mask ban or buyback position); CentreBC 1 (repeat-offender enforcement, no mask ban or buyback stance). The Greens have no published safety position and are excluded from this question (no_position); the earlier prevention-first option that existed only to house an inferred Green score was removed. Symmetry: Conservative on d (2) and OneBC on a (2)."
+      "scoring_rationale": "Five options. a = Conservative (4); CentreBC 3 (500 RCMP, 60 Crown and public dashboards match most of the list; no municipal police or judges pledge); OneBC 2 (tough-on-crime direction, but no hiring, Crown or court pledge); NDP 2 (50 more Crown prosecutors and faster officer training overlap, but no police numbers, judges or bail dashboards; score changed Oct 13 after source check). b = CentreBC's targeted model from its platform (4): permanent task force, port team, prosecutors, doubled repeat-offender programs, bail review, downtown teams; the Surrey application is scored in the local extortion question; NDP 3 (it created the task force and the SITE and CSTEP programs, and on Oct 14 promised doubled repeat-offender programs, 50 Crown prosecutors and an extortion and gang unit; no permanent task force budget, port team or bail review; score changed Oct 13 after source check); Conservative 3 (50 prosecutors, bail reporting, a repeat-offender court stream and, since Oct 13, an anti-extortion plan with dedicated investigators; no permanent task force or port team; score changed Oct 13 after source check); OneBC 1. Option b was rewritten on October 10 from the November 2025 Surrey plan; other parties' scores on it were kept. c = NDP record (4); CentreBC 2 (keeps and doubles the offender programs, but a bail review rather than continuity, and silent on the SPS); Conservative 1 (opposes continuity, calls the record a failure); OneBC 0. d = OneBC (4); Conservative 2 (repeat offender focus, no mask ban or buyback position); CentreBC 1 (repeat-offender enforcement, no mask ban or buyback stance). e = the Green platform (4): a new Community Safety and Policing Act following the 2022 all-party report, an all-party committee to oversee policing, a voluntary mental health and substance use system so health workers rather than police take those calls, and spending on housing and services that prevent crime (justice chapter costed at $131 million a year); NDP 2 (its government funds health-led crisis teams, PACT now CRCL, that can respond instead of police, and passed first-stage Police Act oversight changes in 2024 after the 2022 report, but had not brought in the new Act as of April 2025, its campaign releases do not promise it, and it is expanding involuntary care and enforcement); CentreBC 1 (its safety chapter adds supportive housing, crisis centres and voluntary-first treatment, but also 500 RCMP, involuntary care and no police oversight change); Conservative 0 (more police, police enforcement of the Mental Health Act and mandatory treatment; no oversight or health-led response); OneBC 0 (repeat-offender crackdown and involuntary rehab; no oversight or prevention plan). Option e was added Oct 13 after the Green platform, because none of a to d fit it; an earlier prevention-first option, which rested on an inferred Green score before the platform existed, had been removed. Green on a to d (score changed Oct 13 after the Green platform): a 0 (no police, Crown or judge hires; its data pledge is race-based police data, not repeat offending or bail); b 0 (no task force, port team, prosecutor, bail or downtown item); c 0 (no pledge to keep Budget 2025 safety funding, expand the prolific offender program, press Ottawa on bail or fund hate-crime security); d 1 (shares only the absence of new police, Crown or court numbers; no repeat-offender, mask or buyback position). Symmetry: Conservative on d (2) and OneBC on a (2)."
     },
     {
       "id": "q_economy_tariffs",
@@ -2821,12 +2881,16 @@
         "green": {
           "text": {
             "1": "This party would stop new oil and gas projects, charge resource companies more, and grow clean energy.",
-            "3": "The Greens would stop new fossil fuel development, end exports of unprocessed logs, take half of oil and gas profits in royalties and tax windfall profits. They call this their 'economic direction', not a full platform.",
-            "5": "The Greens' Economic Vision and October forestry brief reject the Working Forest Model's 45 million cubic metre harvest target, end raw log exports and aim to direct 30 to 50% of available wood to higher-value manufacturing. They add Buy BC purchasing, a single front door for approvals, a windfall tax, a minimum corporate tax, royalties of 50% of net profits and an end to fossil fuel subsidies. The Greens voted against Bills 14 and 15. Both Green MLAs voted for the final Bill 7 after its cabinet override part was withdrawn."
+            "3": "The Greens would stop new fossil fuel development, end exports of unprocessed logs, aim to collect half of oil and gas net profits in royalties, tax windfall profits and use public purchasing to favour BC businesses. Their October 13 platform has no section on US tariffs.",
+            "5": "The Greens' platform, Economic Vision and October forestry brief reject the Working Forest Model's 45 million cubic metre harvest target, end raw log exports, would end conventional clearcutting and aim to direct 30% to 50% of available wood to higher-value manufacturing. They add a green industrial strategy, public purchasing that favours BC businesses, a single front door for business approvals, commercial rent protections, a critical-minerals strategy, a windfall tax, a minimum corporate tax, royalties of 50% of net profits and an end to fossil fuel subsidies. The platform has no section on US tariffs. The Greens voted against Bills 14 and 15. Both Green MLAs voted for the final Bill 7 after its cabinet override part was withdrawn."
           },
           "basis": "platform",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Economic Vision (PDF)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Economic-Vision.pdf"
@@ -2892,7 +2956,7 @@
           ]
         }
       },
-      "scoring_rationale": "a = Conservative (4); OneBC 3 (shares the resource-first stance, its own items are in e); CentreBC 2 (12-month review deadline, 25% fewer regulations and machinery PST relief, but no gas production target, the option's lead item); NDP 2 (its record is the same direction: LNG expansion toward about 48 Mtpa, fast-track Bills 14 and 15 and permit times cut over 60%, but through conditions and procurement rules the Conservatives reject, and no red-tape rollback). b = NDP (4), scored on both Bill 7 and the 2026 package; CentreBC 3 (buy-Canadian 60%, Canadian steel, 10 mines, net-zero-ready LNG, EHT relief for tariff-hit firms; no $500M loan fund); Green 1 (Buy BC yes and voted for the final Bill 7, but LNG and fast-track no); Conservative 1 (LNG yes, procurement penalties and Bill 7 no). c = CentreBC's platform (4): manufacturing fund, trades, export diversification, EHT relief, deregulation; NDP 2 (manufacturing tax credit, trades, trade diversification), Conservative 2 (deregulation and machinery PST), Green 2 (value-added wood, small business); OneBC 1. Option c was rewritten on October 10 to the platform text; other parties' scores on it were kept. d = Green alone (4); every other party supports LNG growth, and CentreBC's 45 Mm3 harvest goal, mines and conditional pipeline stance conflict directly with 'no new fossil fuel projects' (0), while the Greens share the value-added wood element of CentreBC's option (2); that asymmetry is deliberate. e = OneBC (4); Conservative 2 (pipeline support, no cut or stumpage pledge); CentreBC 2 (45 Mm3 harvest target and Working Forest zones; pipeline only under its five conditions, no stumpage pledge). Costing note: the Manufacturing Jobs Fund is $60M in the pledge and $30M in the platform's savings-fallback list. Pipeline support itself is scored in the climate question, so it is not repeated in option a."
+      "scoring_rationale": "a = Conservative (4); OneBC 3 (shares the resource-first stance, its own items are in e); CentreBC 2 (12-month review deadline, 25% fewer regulations and machinery PST relief, but no gas production target, the option's lead item); NDP 2 (its record is the same direction: LNG expansion toward about 48 Mtpa, fast-track Bills 14 and 15 and permit times cut over 60%, but through conditions and procurement rules the Conservatives reject, and no red-tape rollback). b = NDP (4), scored on both Bill 7 and the 2026 package; CentreBC 3 (buy-Canadian 60%, Canadian steel, 10 mines, net-zero-ready LNG, EHT relief for tariff-hit firms; no $500M loan fund); Green 1 (public purchasing that favours BC businesses and voted for the final Bill 7, but LNG and fast-track no); Conservative 1 (LNG yes, procurement penalties and Bill 7 no). c = CentreBC's platform (4): manufacturing fund, trades, export diversification, EHT relief, deregulation; NDP 2 (manufacturing tax credit, trades, trade diversification), Conservative 2 (deregulation and machinery PST), Green 2 (value-added wood, small business); OneBC 1. Option c was rewritten on October 10 to the platform text; other parties' scores on it were kept. d = Green alone (4); every other party supports LNG growth, and CentreBC's 45 Mm3 harvest goal, mines and conditional pipeline stance conflict directly with 'no new fossil fuel projects' (0), while the Greens share the value-added wood element of CentreBC's option (2); that asymmetry is deliberate. e = OneBC (4); Conservative 2 (pipeline support, no cut or stumpage pledge); CentreBC 2 (45 Mm3 harvest target and Working Forest zones; pipeline only under its five conditions, no stumpage pledge). Costing note: the Manufacturing Jobs Fund is $60M in the pledge and $30M in the platform's savings-fallback list. Pipeline support itself is scored in the climate question, so it is not repeated in option a."
     },
     {
       "id": "q_climate_energy",
@@ -2909,8 +2973,8 @@
         "1": "Oil and gas bring jobs and money to BC, but burning them adds to climate change. In 2025 the government stopped the carbon tax people paid on fuel. Big industry still pays a carbon charge. Parties disagree on gas exports, oil pipelines and climate goals.",
         "2": "In 2025 BC stopped charging the carbon tax on the fuel people buy, but large industries still pay a carbon price. The province is also allowing more plants that export natural gas. BC expects to cut its climate pollution by only half of what the law requires by 2030.",
         "3": "BC expects to cut its climate pollution 20% by 2030, which is half of the 40% target set in law. The carbon tax that people paid on fuel ended in 2025, but large industries still pay a carbon price. Parties disagree on growing natural gas exports, on oil pipelines and on whether to keep the carbon price for industry.",
-        "4": "BC's emissions are projected to be 20% below 2007 levels by 2030, while the law sets a 40% target. In 2025 the NDP government ended the consumer carbon tax, the rebates for electric vehicles and the rule that all new cars sold be zero-emission by 2035. Carbon pricing for large industry and clean fuel rules remain. LNG Canada, a liquefied natural gas (LNG) export project, approved its Phase 2 expansion in September 2026.",
-        "5": "BC law set targets of 16% below 2007 emissions by 2025 and 40% by 2030, but the 2025 accountability report projects cuts of only 2.6% and 20%. The consumer carbon tax has been zero since April 1, 2025. The Output-Based Pricing System, which charges large industrial emitters and tightens 1% a year, remains. So does the Low Carbon Fuel Standard, which requires a 30% cut in the carbon intensity of fuels by 2030. Electric vehicle rebates ended and the 2035 zero-emission vehicle mandate was dropped. LNG Canada made its final investment decision on Phase 2 in September 2026. An oil pipeline to the coast, called Pacific Link, has been proposed."
+        "4": "BC's emissions are projected to be 20% below 2007 levels by 2030, while the law sets a 40% target. In 2025 the NDP government ended the consumer carbon tax and the rebates for electric vehicles, and in 2026 it cut the 2035 target for zero-emission new car sales from 100% to 75%. Carbon pricing for large industry and clean fuel rules remain. LNG Canada, a liquefied natural gas (LNG) export project, approved its Phase 2 expansion in September 2026.",
+        "5": "BC law set targets of 16% below 2007 emissions by 2025 and 40% by 2030, but the 2025 accountability report projects cuts of only 2.6% and 20%. The consumer carbon tax has been zero since April 1, 2025. The Output-Based Pricing System, which charges large industrial emitters and tightens 1% a year, remains. So does the Low Carbon Fuel Standard, which requires a 30% cut in the carbon intensity of fuels by 2030. Electric vehicle rebates ended, and in April 2026 the 2035 zero-emission vehicle sales target was cut from 100% to 75%. LNG Canada made its final investment decision on Phase 2 in September 2026. An oil pipeline to the coast, called Pacific Link, has been proposed."
       },
       "options": [
         {
@@ -2993,7 +3057,7 @@
           "scores": {
             "ndp": 3,
             "conservative": 1,
-            "green": 1,
+            "green": 2,
             "centrebc": 4,
             "onebc": 0
           }
@@ -3004,7 +3068,7 @@
           "text": {
             "1": "This party ended the carbon tax on fuel people buy, but it keeps carbon charges on big industry and is growing gas exports.",
             "3": "In government, the NDP ended the consumer carbon tax and rebates for electric vehicles, approved more liquefied natural gas and kept carbon pricing for industry. It admits BC will miss its 2030 target by about half and has not said how it will respond.",
-            "5": "The NDP cut the consumer carbon tax to zero in April 2025 but kept the industrial carbon price and the Low Carbon Fuel Standard. It dropped electric vehicle rebates and the 2035 zero-emission vehicle target, and signed wind power contracts. BC is projected to reach 20% below 2007 by 2030, against 40% in law. For 2026 it promises more liquefied natural gas, a north coast transmission line and a temporary 10 cent per litre fuel tax cut. It would accept a pipeline only if the tanker ban stays."
+            "5": "The NDP cut the consumer carbon tax to zero in April 2025 but kept the industrial carbon price and the Low Carbon Fuel Standard. It ended electric vehicle rebates, cut the 2035 zero-emission vehicle sales target from 100% to 75%, and signed wind power contracts. BC is projected to reach 20% below 2007 by 2030, against 40% in law. For 2026 it promises more liquefied natural gas, a north coast transmission line and a temporary 10 cent per litre fuel tax cut. It would accept a pipeline only if the tanker ban stays."
           },
           "basis": "record",
           "confidence": "high",
@@ -3018,7 +3082,7 @@
               "url": "https://www.cbc.ca/lite/story/1.7493181"
             },
             {
-              "label": "National Newswatch: BC drops 2035 EV mandate (Nov 2025)",
+              "label": "National Newswatch: BC to redraw EV mandate, scrapping the 100% by 2035 goal (Nov 2025)",
               "url": "https://nationalnewswatch.com/2025/11/18/b-c-to-redraw-ev-sales-mandate-scrapping-goal-of-100-per-cent-by-2035"
             },
             {
@@ -3036,6 +3100,10 @@
             {
               "label": "BOE Report / Canadian Press: Eby promises temporary 10-cent fuel tax cut (Oct 1, 2026)",
               "url": "https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/"
+            },
+            {
+              "label": "BC Government: 2035 ZEV sales target cut from 100% to 75% (Apr 1, 2026)",
+              "url": "https://news.gov.bc.ca/releases/2026ECS0009-000355"
             }
           ]
         },
@@ -3077,12 +3145,16 @@
         "green": {
           "text": {
             "1": "This party wants to stop new oil and gas projects and spend on clean power.",
-            "3": "The Greens would stop new fossil fuel development, oppose the oil pipeline, make gas exporters pay for their own power, end fossil fuel subsidies and fund renewable power and home upgrades. A Green MLA cast the only vote against ending the carbon tax at first reading, and both voted against the fast-track project laws.",
-            "5": "The Greens would stop new fossil fuel development. Their October 10 climate brief would end approvals for new fracking expansion, LNG terminals and fossil fuel pipelines, oppose the Pacific Link pipeline, end fossil fuel subsidies, strengthen industrial carbon pricing, set gas royalties at 50% of net profits and cap oil and gas emissions if other rules fall short. They would make existing liquefied natural gas plants pay for their own power, restore net metering and raise electricity to 35% of energy use by 2035. In March 2025 Green MLA Rob Botterell cast the only vote against the carbon tax repeal bill at first reading, and the Greens voted against Bills 14 and 15, which fast-track projects."
+            "3": "The Greens would stop new fossil fuel development, oppose the oil pipeline, make gas exporters pay for their own power, end fossil fuel subsidies, bring back the rule that all new cars sold be zero-emission by 2035, and fund renewable power and home upgrades. A Green MLA cast the only vote against ending the carbon tax at first reading, and both voted against the fast-track project laws.",
+            "5": "The Greens would stop new fossil fuel development. Their platform and October 10 climate brief would end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines, end fossil fuel subsidies, strengthen industrial carbon pricing, set gas royalties at 50% of net profits, end routine methane venting and bring in a binding oil and gas emissions cap if other rules fall short. They oppose the Pacific Link pipeline and would make existing liquefied natural gas plants pay for their own power. They would keep BC's long-term climate targets and add interim ones, restore the rule that all new light-duty vehicles sold be zero-emission by 2035, ban gas hookups in new buildings, offer on-bill financing for home upgrades, restore net metering and aim for electricity to supply at least 35% of energy by 2035 without new large dams. In March 2025 Green MLA Rob Botterell cast the only vote against the carbon tax repeal bill at first reading, and the Greens voted against Bills 14 and 15, which fast-track projects."
           },
           "basis": "both",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Our Plan",
               "url": "https://bcgreens.ca/our-plan/"
@@ -3144,7 +3216,7 @@
           ]
         }
       },
-      "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 3 on the 2024 platform and Rustad's 2025 attack on the 'punishing' industrial carbon tax, discounted because 2026 is silent. b = Conservative 2026 text (4); OneBC 3; NDP 2 (also expands LNG and dropped the EV mandate, but keeps OBPS and conditions); CentreBC 1 (backs conditional LNG and a conditional pipeline, but commits to industrial pricing and a legislated target, which the option leaves open). c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 1 and Green 1 from opposite sides. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law and has no methane or retrofit-loan pledge); Conservative 1 (silent or hostile on industrial pricing and targets); Green 1 (keeps pricing and retrofits, rejects LNG and a lower target); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
+      "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 3 on the 2024 platform and Rustad's 2025 attack on the 'punishing' industrial carbon tax, discounted because 2026 is silent. b = Conservative 2026 text (4); OneBC 3; NDP 2 (also expands LNG and weakened the EV mandate, but keeps OBPS and conditions); CentreBC 1 (backs conditional LNG and a conditional pipeline, but commits to industrial pricing and a legislated target, which the option leaves open). c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 1 and Green 1 from opposite sides. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law and has no methane or retrofit-loan pledge); Conservative 1 (silent or hostile on industrial pricing and targets); Green 2 (keeps the 2040 and 2050 targets and industrial pricing, and adds interim targets, methane cuts and on-bill retrofit financing, but gives none of the option's numbers, no 20% milestone and no tanker-ban line, and rejects LNG; score changed Oct 13 after the Green platform); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
     },
     {
       "id": "q_education_childcare",
@@ -3162,7 +3234,7 @@
         "2": "Child care can cost families as much as rent. About one in ten licensed spaces costs $10 a day, and the province has paused new $10-a-day spaces for three years to save money. Some fast-growing school districts still rely on portable classrooms. Parties disagree on whether to expand child care, focus schools on basics, or hold spending.",
         "3": "About 10% of licensed child care spaces cost $10 a day. In 2026 the NDP government paused new $10-a-day spaces for three years. Some fast-growing school districts still use many portable classrooms. The Greens want free child care by 2031 and CentreBC wants 20,000 more $10-a-day spaces. The Conservatives and OneBC focus on testing, grades and the basics.",
         "4": "About 10% of licensed child care spaces cost $10 a day. In February 2026 the NDP government paused new $10-a-day enrolment for three years to fix the program's funding model. The Affordable Child Care Benefit still helps families with incomes up to $111,000. Fast-growing school districts still use portable classrooms.",
-        "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. The Greens' expansion has no published cost. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
+        "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. The Greens' October 13 platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
       },
       "options": [
         {
@@ -3305,12 +3377,16 @@
         "green": {
           "text": {
             "1": "This party wants free child care for all, better pay for child care workers, and food for every student.",
-            "3": "The Greens would lift the freeze now, make child care free for all by 2031, pay early childhood educators $35 to $45 an hour and feed every student. They have published no cost for the plan.",
-            "5": "On September 28, 2026, the Greens promised to lift the freeze 'immediately', make child care free for all by 2031 and pay early childhood educators $35 to $45 an hour by 2028. Their plans also include one point of registration for $10-a-day spaces, closing the inclusive education funding gap, a counsellor per 250 students, universal school food, moving private school funding into public schools and a moratorium on artificial intelligence in schools. The releases give no cost."
+            "3": "The Greens would lift the freeze now, make child care free for all by 2031, pay early childhood educators $35 to $45 an hour and feed every student. Their platform costs child care at $260 million a year and education at $587 million a year.",
+            "5": "On September 28, 2026, the Greens promised to lift the freeze 'immediately', make child care free for all by 2031 and pay early childhood educators $35 to $45 an hour by 2028. Their October 13 platform adds one point of registration for $10-a-day spaces, new spaces and priority registration for public, non-profit and Indigenous-led centres, closing the inclusive education funding gap, universal school food, a school supplies program, moving private school funding into public schools in phases and a moratorium on artificial intelligence in classrooms. Their Education Policy Brief adds a counsellor per 250 students. The platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year, and pays for its plans mainly with a tax on net wealth above $50 million."
           },
           "basis": "platform",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: lift the freeze on $10-a-day, universal free child care by 2031",
               "url": "https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/"
@@ -3397,7 +3473,7 @@
           "scores": {
             "ndp": 0,
             "conservative": 2,
-            "green": 2,
+            "green": 0,
             "centrebc": 0,
             "onebc": 4
           }
@@ -3414,7 +3490,7 @@
           "scores": {
             "ndp": 0,
             "conservative": 4,
-            "green": 2,
+            "green": 1,
             "centrebc": 2,
             "onebc": 3
           }
@@ -3448,7 +3524,7 @@
           "scores": {
             "ndp": 3,
             "conservative": 2,
-            "green": 2,
+            "green": 4,
             "centrebc": 4,
             "onebc": 0
           }
@@ -3507,23 +3583,18 @@
         },
         "green": {
           "text": {
-            "1": "This party has not shared a car insurance plan, so it is not scored here.",
-            "3": "The Greens have published no 2026 position on ICBC or no-fault insurance, so this quiz does not score them on this question.",
-            "5": "No ICBC or car insurance commitment appears on the Green plan page, in the party's economic vision or in BC Ballot's list of its commitments, so this question is left out of the Green score."
+            "1": "This party would keep no-fault car insurance but change the law so it covers all reasonable costs for people hurt in a crash.",
+            "3": "The Greens say Enhanced Care 'has not lived up to its promise', but they would keep the no-fault model. They would change the law so all reasonable costs of a crash are covered, and bring back the legislature's committee that reviews the car insurance law. They take no position on rates, lawsuits or private competition.",
+            "5": "The Greens' October 13, 2026 platform says the Enhanced Care model 'has not lived up to its promise'. They would support and continue the no-fault model, amend the law governing ICBC to make clear that all reasonable costs relating to a crash are covered, and re-establish the Special Committee to Review Provisions of the Insurance (Vehicle) Act so victims' voices are heard. The platform takes no position on rate freezes, premiums, awards for catastrophic injuries, lawsuits or ICBC's monopoly on basic insurance, and gives no separate cost."
           },
           "basis": "platform",
-          "confidence": "low",
+          "confidence": "medium",
           "sources": [
             {
-              "label": "BC Ballot: BC Green commitments (no ICBC item)",
-              "url": "https://bcballot.ca/platforms/bc-green-party/"
-            },
-            {
-              "label": "BC Greens: Our Plan",
-              "url": "https://bcgreens.ca/our-plan/"
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
-          ],
-          "no_position": true
+          ]
         },
         "centrebc": {
           "text": {
@@ -3560,7 +3631,7 @@
           ]
         }
       },
-      "scoring_rationale": "a = OneBC (4); Conservative 2 (letter keeps private competition 'on the table' but the page keeps ICBC as the public option); CentreBC 0. b = Conservative (4); OneBC 3; CentreBC 2 (keeps ICBC public and adds an award for catastrophic injuries, but no general right to sue and no competition); NDP 0. c = NDP record and pledge (4); CentreBC 3 (same model and monopoly; a cap at inflation after 2027 rather than a freeze to 2030); Conservative and OneBC 0. d = CentreBC's platform (4): Enhanced Care kept, rate cap, catastrophic-injury awards; NDP 3 (same model, its freeze goes further than the cap, no award commitment while the committee reviews); Conservative 2 (public insurer and serious-injury recovery overlap, but it wants court access and competition); OneBC 0. Option d was added on October 10 when CentreBC published an ICBC position; before that it was no_position here. The Greens have no published ICBC position and are excluded (no_position). Four options: no-fault, no-fault with a catastrophic carve-out, a tort hybrid, and privatization."
+      "scoring_rationale": "a = OneBC (4); Conservative 2 (letter keeps private competition 'on the table' but the page keeps ICBC as the public option); CentreBC 0. b = Conservative (4); OneBC 3; CentreBC 2 (keeps ICBC public and adds an award for catastrophic injuries, but no general right to sue and no competition); NDP 0. c = NDP record and pledge (4); CentreBC 3 (same model and monopoly; a cap at inflation after 2027 rather than a freeze to 2030); Conservative and OneBC 0. d = CentreBC's platform (4): Enhanced Care kept, rate cap, catastrophic-injury awards; NDP 3 (same model, its freeze goes further than the cap, no award commitment while the committee reviews); Conservative 2 (public insurer and serious-injury recovery overlap, but it wants court access and competition); OneBC 0. Option d was added on October 10 when CentreBC published an ICBC position; before that it was no_position here. Green, from its October 13 platform (score changed Oct 13 after the Green platform): d 4 (closest fit, so its home option; keeps Enhanced Care, wants all reasonable crash costs covered and would bring back the legislative committee review, but has no rate cap or catastrophic-injury award); c 2 (keeps no-fault, but says the model 'has not lived up to its promise' and takes no position on the monopoly or a rate freeze); b 1 (a tort hybrid runs against continuing no-fault; it shares only the criticism of the current model); a 0 (ends Enhanced Care and restores lawsuits). Four options: no-fault, no-fault with a catastrophic carve-out, a tort hybrid, and privatization."
     },
     {
       "id": "q_democracy_power",
@@ -3638,8 +3709,8 @@
             "1": "Change the voting system so each party's seats match its share of votes.",
             "2": "Change the voting system so each party wins seats in line with its share of the vote.",
             "3": "Switch to proportional representation, so seats match votes and parties must work together.",
-            "4": "Pass proportional representation into law within 100 days so seats track votes, despite the 2018 referendum result.",
-            "5": "Pass proportional representation legislation within the first 100 days, although 61.3% voted to keep first-past-the-post in 2018."
+            "4": "Introduce a proportional representation law within 100 days, for the 2030 election, despite the 2018 referendum result.",
+            "5": "Introduce proportional representation legislation within the first 100 days, for the 2030 election, although 61.3% voted to keep first-past-the-post in 2018."
           },
           "scores": {
             "ndp": 1,
@@ -3749,12 +3820,16 @@
         "green": {
           "text": {
             "1": "This party wants each party's seats to match its share of the votes.",
-            "3": "The Greens would bring in proportional representation within their first 100 days so seats match votes, although voters rejected it in 2018. They helped win the 2017 donation ban and voted against the NDP's fast-track laws, citing weak oversight.",
-            "5": "The Greens would pass proportional representation legislation in their first 100 days. Their 2017 Confidence and Supply Agreement with the NDP brought the donation ban and the 2018 referendum, which lost 61.3% to 38.7%. They voted against Bills 14 and 15 over oversight, and voted for the final Bill 7 after its cabinet override part was withdrawn. On February 9, 2026 they said they would not renew their accord with the NDP, citing 'stalled or undelivered' commitments."
+            "3": "The Greens would introduce a proportional representation law within their first 100 days, for the 2030 election, so seats match votes, although voters rejected it in 2018. They would also lower the voting age to 16 and scrap freedom-of-information fees. They helped win the 2017 donation ban and voted against the NDP's fast-track laws, citing weak oversight.",
+            "5": "The Greens would introduce proportional representation legislation within 100 days of taking office, for the 2030 election. Their 2017 Confidence and Supply Agreement with the NDP brought the donation ban and the 2018 referendum, which lost 61.3% to 38.7%. Their platform also lowers the voting age to 16, sets up a citizens' assembly every two years, removes the fee for freedom-of-information requests and repeals the 2026 changes to that law, and releases ministers' calendars and briefing notes. They voted against Bills 14 and 15 over oversight, and for the final Bill 7 after its cabinet override part was withdrawn. On February 9, 2026 they said they would not renew their accord with the NDP, citing 'stalled or undelivered' commitments."
           },
           "basis": "both",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Our Plan (proportional representation)",
               "url": "https://bcgreens.ca/our-plan/"
@@ -3816,7 +3891,7 @@
           ]
         }
       },
-      "scoring_rationale": "This question scores the NDP on its record of using power (a = 4), phrased as its supporters would ('get things done'). Conservative 1 on a (opposed the specific bills, but wants speed); Green 1 on a (voted for the final Bill 7 trade powers after Part 4 was withdrawn, but against Bills 14 and 15; score changed Oct 13 after source check); CentreBC 1 (would impose approval deadlines on cities, but puts major agreements and the budget path before the legislature); OneBC 1. b = Conservative (4); CentreBC 2 (12-month review deadline, deemed approvals and one-in one-out, but its housing deadlines add provincial override of cities rather than less, and no Metro Vancouver position); OneBC 2 (shares deregulation but has no permitting-law or Metro Vancouver position); NDP 2 (also wants fast approvals and cut permit times, but through discretion rather than fixed statutory deadlines). c = CentreBC's platform (4): Independent Budget Officer, balanced-budget law, scorecards, FOI and contract disclosure, agreements tabled; Green 2 (shares the oversight element through its votes against the fast-track bills, but has no costing or scorecard pledge of its own); Conservative 2 (opposition rhetoric on oversight, uncosted platform); NDP 2 (publishes costed budgets and service plans, but expanded cabinet powers and has not costed its 2026 promises); OneBC 1. Option c was rewritten on October 10 to the platform's accountability items; other parties' scores on it were kept. d = Green (4); NDP 1 (campaigned for PR in 2018, nothing since); CentreBC 1 (no electoral reform position either way). e = OneBC (4, its June 2025 call to end mail-in and early voting, not repeated in 2026, low confidence; hand counting was removed from option e on October 13 because no party or news source for it was found); Conservative 1; others 0. Evidence is thinner than on other questions; weight is left to the user's importance rating. Leadership turnover inside parties is described in the party records, not scored here."
+      "scoring_rationale": "This question scores the NDP on its record of using power (a = 4), phrased as its supporters would ('get things done'). Conservative 1 on a (opposed the specific bills, but wants speed); Green 1 on a (voted for the final Bill 7 trade powers after Part 4 was withdrawn, but against Bills 14 and 15; score changed Oct 13 after source check); CentreBC 1 (would impose approval deadlines on cities, but puts major agreements and the budget path before the legislature); OneBC 1. b = Conservative (4); CentreBC 2 (12-month review deadline, deemed approvals and one-in one-out, but its housing deadlines add provincial override of cities rather than less, and no Metro Vancouver position); OneBC 2 (shares deregulation but has no permitting-law or Metro Vancouver position); NDP 2 (also wants fast approvals and cut permit times, but through discretion rather than fixed statutory deadlines). c = CentreBC's platform (4): Independent Budget Officer, balanced-budget law, scorecards, FOI and contract disclosure, agreements tabled; Green 2 (its platform scraps freedom-of-information fees, releases ministers' calendars and briefing notes and strengthens committee oversight, but has no budget officer, balanced-budget law, scorecard, contract-disclosure or land-agreement pledge); Conservative 2 (opposition rhetoric on oversight, uncosted platform); NDP 2 (publishes costed budgets and service plans, but expanded cabinet powers and has not costed its 2026 promises); OneBC 1. Option c was rewritten on October 10 to the platform's accountability items; other parties' scores on it were kept. d = Green (4); NDP 1 (campaigned for PR in 2018, nothing since); CentreBC 1 (no electoral reform position either way). e = OneBC (4, its June 2025 call to end mail-in and early voting, not repeated in 2026, low confidence; hand counting was removed from option e on October 13 because no party or news source for it was found); Conservative 1; others 0. Evidence is thinner than on other questions; weight is left to the user's importance rating. Leadership turnover inside parties is described in the party records, not scored here."
     },
     {
       "id": "q_local_skytrain",
@@ -3973,7 +4048,7 @@
           "text": {
             "1": "This party wants free buses and trains for young people and seniors, and more train lines.",
             "3": "The Greens promise 'fast, frequent and free' transit, starting with free passes for people under 25 and over 65, plus regional passenger rail, paid for by their wealth tax. They have no position on the SkyTrain line itself but support expanding transit.",
-            "5": "On October 9, 2026, the Greens promised free transit for people under 25 and over 65, with a wider fare-free goal, more regional passenger rail and ferries, and funding for the BC Rail Corridor Alliance's engineering and economic study of the Squamish to 100 Mile House corridor. They have no position on the SkyTrain line itself. The Greens say their proposed Fair Share Act would help pay for free transit. Candidate Binnema has no published transit position."
+            "5": "On October 9, 2026, the Greens promised free transit for people under 25 and over 65, with a wider fare-free goal, more regional passenger rail and ferries, and funding for the BC Rail Corridor Alliance's engineering assessment, economic study and operations on the Squamish to 100 Mile House corridor. Their October 13 platform repeats these and adds SkyTrain to UBC, but has no position on the Surrey-Langley line. The Greens say their proposed Fair Share Act would help pay for free transit. Candidate Binnema has no published transit position."
           },
           "basis": "platform",
           "confidence": "medium",
@@ -3997,6 +4072,10 @@
             {
               "label": "BC Greens: Transit and Transportation Policy Brief 2026 (PDF, Oct 9, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Transit-and-Transportation-Policy-Brief-2026.pdf"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -4056,7 +4135,7 @@
       "context": {
         "1": "Criminals in Surrey have been threatening business owners to get money, sometimes with shootings. The province pays for police and courts. Some parties want a permanent special police unit. Some want many more police across BC. Others want tougher action on repeat offenders.",
         "2": "Since 2025, criminals have threatened many Surrey business owners for money, sometimes with shootings. The province pays for police and courts, while the federal government sets bail rules. A 2023 provincial law made Surrey replace the Mounties with its own city police force, and that switch is still under way.",
-        "3": "Extortion means threatening someone to get money. CentreBC would make the police task force on extortion permanent and add 60 prosecutors and 500 Mounties. The Conservatives would add nearly 1,000 police and justice staff across BC, but their plan does not mention extortion. The NDP government set up the task force but has made no 2026 pledge. OneBC targets repeat offenders. The Greens have no plan.",
+        "3": "Extortion means threatening someone to get money. CentreBC would make the police task force on extortion permanent and add 60 prosecutors and 500 Mounties. The Conservatives would add nearly 1,000 police and justice staff across BC and, since October 13, special investigators for extortion. The NDP government set up the task force and on October 14 promised a unit for extortion and gang violence and 50 more prosecutors. OneBC targets repeat offenders. The Greens' platform has no extortion or Surrey item.",
         "4": "Surrey had 133 extortion cases and 49 shots-fired incidents in 2025, and 142 cases and 21 shots-fired incidents in 2026 up to September 28. Police credit steady enforcement for the drop in shootings, but no independent analysis exists. Bill 36, the 2023 law that made Surrey replace the Royal Canadian Mounted Police (RCMP) with its own police service, passed over the city's objection. BC Liberal members, including Doerkson and Sturko, voted against it.",
         "5": "Surrey Police Service (SPS) figures show 9 extortion cases and 2 shots-fired incidents in 2024; 133 cases, 49 shootings and 88 victims in 2025; and 142 cases, 21 shootings, 3 arsons and 76 victims in 2026 up to September 28. An RCMP-led task force of about 40 members has worked since September 2025, and Project E_Pursuance made arrests on October 2. Under Bill 36, the SPS became the police of jurisdiction on November 29, 2024. No completion date is published: the RCMP says November 2026 and the SPS says late 2027."
       },
@@ -4071,8 +4150,8 @@
             "5": "Make the extortion task force permanent with its own budget, create a 40-officer port team by 2028, hire 60 Crown prosecutors by 2030/31, double repeat-offender enforcement to $26 million, and leave the city police unchanged."
           },
           "scores": {
-            "ndp": 2,
-            "conservative": 2,
+            "ndp": 3,
+            "conservative": 3,
             "green": 2,
             "centrebc": 4,
             "onebc": 1
@@ -4088,7 +4167,7 @@
             "5": "A province-wide plan: more police trained at the Justice Institute, rural RCMP, more Crown prosecutors and judges, neighbourhood deployment, Mental Health Act enforcement, and public data on repeat offending and bail."
           },
           "scores": {
-            "ndp": 1,
+            "ndp": 2,
             "conservative": 4,
             "green": 2,
             "centrebc": 3,
@@ -4133,13 +4212,17 @@
       "party_positions": {
         "ndp": {
           "text": {
-            "1": "This party set up the special police unit and passed a law making Surrey switch to its own police force.",
-            "3": "The NDP passed a law ordering Surrey's police switch, created the task force and an advisory group, replaced its own police board appointees after criticism, and pressed Ottawa on bail. Eby said 'we need better results'. It has no 2026 extortion pledge.",
-            "5": "Bill 36 passed 56-27 in 2023, with Brar voting yes. The government funds the Surrey Police Service at $30 million a year to 2029. It created the Extortion Task Force in September 2025 and put $500,000 toward victim support, matched by Ottawa, in November 2025. It did not renew four provincial police board members, appointed five new ones in March 2026, agreed that future vacancies be filled by agreement of the mayor's office and the public safety minister, and pressed Ottawa for Bill C-14. Eby said 'we need to see more arrests'. It has no 2026 extortion or police commitment. Brar has never broken ranks and has made no extortion statement."
+            "1": "This party set up the special police unit and passed a law making Surrey switch to its own police force. It now promises a new unit against threats and gangs, and 50 more prosecutors.",
+            "3": "The NDP passed a law ordering Surrey's police switch, created the task force and an advisory group, replaced its own police board appointees after criticism, and pressed Ottawa on bail. Eby said 'we need better results'. On October 14 it promised a unit for extortion, racketeering and gang violence, 50 more Crown prosecutors and doubled repeat-offender programs, with no published cost.",
+            "5": "Bill 36 passed 56-27 in 2023, with Brar voting yes. The government funds the Surrey Police Service at $30 million a year to 2029. It created the Extortion Task Force in September 2025 and put $500,000 toward victim support, matched by Ottawa, in November 2025. It did not renew four provincial police board members, appointed five new ones in March 2026, agreed that future vacancies be filled by agreement of the mayor's office and the public safety minister, and pressed Ottawa for Bill C-14. Eby said 'we need to see more arrests'. On October 14, 2026 it promised a unit dedicated to extortion, racketeering and gang violence working alongside the Extortion Task Force, 50 additional Crown prosecutors, doubled repeat-offending programs and an expanded Civil Forfeiture Office, with no published cost and no numeric police pledge. Brar has never broken ranks and has made no extortion statement."
           },
           "basis": "record",
           "confidence": "medium",
           "sources": [
+            {
+              "label": "BC NDP: gangs, guns and extortion plan (Oct 14, 2026)",
+              "url": "https://www.bcndp.ca/releases/eby-targets-gangs-guns-and-extortion"
+            },
             {
               "label": "Surrey Police Service: extortion statistics",
               "url": "https://www.surreypolice.ca/extortions"
@@ -4176,13 +4259,17 @@
         },
         "conservative": {
           "text": {
-            "1": "This party wants many more police officers across BC.",
-            "3": "The Conservatives' province-wide plan adds nearly 1,000 police, prosecutors and court staff and targets the hardest-hit neighbourhoods, but does not mention extortion or the Surrey Police Service. At its Surrey candidate launch the party criticized the NDP on extortion.",
-            "5": "The Safe Streets for BC plan (October 6, 2026) has no extortion item. The party's September 29 Surrey candidate release said small business owners face 'a wave of extortion and violence that has left many afraid to open their doors'. It has no position on the Surrey Police Service. BC Liberal members, including Doerkson, voted against Bill 36. Candidate Purewal has published only party themes."
+            "1": "This party wants many more police officers across BC and special investigators for threats against businesses.",
+            "3": "The Conservatives' province-wide plan adds nearly 1,000 police, prosecutors and court staff and targets the hardest-hit neighbourhoods. On October 13 it added an anti-extortion plan with dedicated investigators and help for threatened businesses and families. It does not mention the Surrey Police Service. At its Surrey candidate launch the party criticized the NDP on extortion.",
+            "5": "The Safe Streets for BC plan (October 6, 2026) has no extortion item; an October 13, 2026 release added an Anti-Extortion Action Plan with specialized investigators dedicated to extortion cases and reporting and protection pathways for threatened businesses and families, with no published cost. The party's September 29 Surrey candidate release said small business owners face 'a wave of extortion and violence that has left many afraid to open their doors'. It has no position on the Surrey Police Service. BC Liberal members, including Doerkson, voted against Bill 36. Candidate Purewal has published only party themes."
           },
           "basis": "platform",
           "confidence": "medium",
           "sources": [
+            {
+              "label": "Conservative Party of BC: crack down on gangs and violent offenders (Oct 13, 2026)",
+              "url": "https://conservativebc.ca/conservatives-will-crack-down-on-gangs-and-lock-up-violent-offenders/"
+            },
             {
               "label": "Conservative Party of BC: Safe Streets for BC",
               "url": "https://conservativebc.ca/safe-streets-for-bc/"
@@ -4199,16 +4286,16 @@
         },
         "green": {
           "text": {
-            "1": "This party has no plan on this issue, so it is not scored here.",
-            "3": "The Greens have no public safety or extortion position, so they are not scored on this question.",
-            "5": "The Greens' platform page lists no commitment on policing, extortion or the Surrey Police Service, so this question is left out of the Green score. Candidate Binnema has made no local safety statement."
+            "1": "This party has no plan on extortion, so it is not scored here.",
+            "3": "The Greens' platform has a justice section on police reform, oversight and sending health workers to mental health calls, but nothing on extortion, gangs or the Surrey Police Service, so they are not scored on this question.",
+            "5": "The Greens' October 13, 2026 platform (justice and public safety, pages 32-33) commits to carrying out the Transforming Policing and Community Safety report, including a new Community Safety and Policing Act, an all-party committee to oversee policing, disbanding the RCMP's CRU-BC, and a voluntary mental health and substance use system to reduce police work on health calls. It does not mention extortion, gangs, organized crime, Crown prosecutor numbers, bail, the Surrey Police Service or the RCMP transition, so this question is left out of the Green score. Candidate Binnema has made no local safety statement."
           },
           "basis": "platform",
           "confidence": "low",
           "sources": [
             {
-              "label": "BC Greens: Our Plan (platform topics include no policing or public safety item)",
-              "url": "https://bcgreens.ca/our-plan/"
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             },
             {
               "label": "BC Greens: Tim Binnema candidate page",
@@ -4268,7 +4355,7 @@
           ]
         }
       },
-      "scoring_rationale": "a = CentreBC's platform (4): permanent task force, port team, 60 Crown, doubled repeat-offender enforcement, no SPS change; NDP 2 (the task force and the SITE and CSTEP programs are its own, but it has no permanence, port team or Crown pledge); Conservative 2 (50 prosecutors overlap; extortion absent from its 2026 plan); OneBC 1. Option a was rewritten on October 10 from the November 2025 Surrey plan, which the platform drops; other parties' scores on it were kept. b = Conservative (4); OneBC 3; CentreBC 3 (500 RCMP, 60 Crown and bail dashboards match; no municipal police, judges or Mental Health Act powers); NDP 1. c = NDP record (4); CentreBC 2 (keeps the task force and the offender programs, but reviews bail rather than lobbying and is silent on the SPS transition, half of the option); Conservative 1 (predecessors opposed Bill 36, party calls the record a failure); OneBC 0. d = OneBC (4); Conservative 3; CentreBC 1. The Greens have no safety position and are excluded from this question (no_position). All candidates inherit party scores; the incumbent's party-line record (105 of 105 divisions) and the challengers' lack of local positions make a candidate-specific adjustment unsupportable."
+      "scoring_rationale": "a = CentreBC's platform (4): permanent task force, port team, 60 Crown, doubled repeat-offender enforcement, no SPS change; NDP 3 (the task force and the SITE and CSTEP programs are its own, and on Oct 14 it promised an extortion and gang unit, 50 Crown prosecutors and doubled repeat-offender programs; no permanence, port team or SPS position; score changed Oct 13 after source check); Conservative 3 (50 prosecutors overlap, and its Oct 13 anti-extortion plan adds dedicated investigators and a repeat-offender court stream; no permanent task force or port team; score changed Oct 13 after source check); OneBC 1. Option a was rewritten on October 10 from the November 2025 Surrey plan, which the platform drops; other parties' scores on it were kept. b = Conservative (4); OneBC 3; CentreBC 3 (500 RCMP, 60 Crown and bail dashboards match; no municipal police, judges or Mental Health Act powers); NDP 2 (Oct 14: 50 Crown prosecutors and faster officer training with the Justice Institute; no police numbers, judges or bail data; score changed Oct 13 after source check). c = NDP record (4); CentreBC 2 (keeps the task force and the offender programs, but reviews bail rather than lobbying and is silent on the SPS transition, half of the option); Conservative 1 (predecessors opposed Bill 36, party calls the record a failure); OneBC 0. d = OneBC (4); Conservative 3; CentreBC 1. The Greens' platform has a justice chapter (police reform and oversight, health-led crisis response) but no extortion, gang, bail, prosecutor or Surrey policing item, so they are excluded from this question (no_position). All candidates inherit party scores; the incumbent's party-line record (105 of 105 divisions) and the challengers' lack of local positions make a candidate-specific adjustment unsupportable."
     },
     {
       "id": "q_local_hospital_schools",
@@ -4466,7 +4553,7 @@
           "text": {
             "1": "This party wants a local health centre, food for every student, and full support for students with extra needs.",
             "3": "The Greens would put a community health centre in every riding, including Fleetwood, close the funding gap for inclusive education, add counsellors and feed every student. They say their wealth tax would help fund schools. They have no position on the hospital itself.",
-            "5": "The Greens would open an integrated community health centre in every riding, close the inclusive education funding gap, fund a counsellor per 250 students and provide school food and supplies for all. They have no position on the hospital or on the pace of building. Candidate Binnema has published no local position."
+            "5": "The Greens would open an integrated community health centre in every riding, close the inclusive education funding gap, fund a counsellor per 250 students and provide school food and supplies for all. Their October 13 platform adds a capital improvements plan for school facilities and a pledge to push back on 'the creeping privatization of healthcare'. It commits to reinstating a plan to build Burnaby Hospital, but has no position on the Surrey hospitals or on the pace of building. It costs health at $200 million a year and education at $587 million a year. Candidate Binnema has published no local position."
           },
           "basis": "platform",
           "confidence": "medium",
@@ -4490,6 +4577,10 @@
             {
               "label": "BC Greens: Our Plan (Fair Share Act for public schools)",
               "url": "https://bcgreens.ca/our-plan/"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -4697,8 +4788,8 @@
         "green": {
           "text": {
             "1": "This party wants free rides for young people and seniors, many more buses, and oil companies to pay for it.",
-            "3": "The Greens' October 9 transit brief promises to fully fund transit, double the bus fleet in a first term, phase in free fares starting under 25 and over 65, extend SkyTrain to UBC and have an all-party committee set long-term funding. They oppose the fuel tax cut and want a windfall tax on fossil fuel companies.",
-            "5": "Transit and Transportation Policy Brief (October 9, 2026): fully fund TransLink and BC Transit, double the bus fleet within the first term, phase in fare-free transit starting with riders under 25 and over 65, SkyTrain to UBC, end outsourcing, and an all-party legislature committee on a long-term funding model. No dollar costing. In a statement on the NDP fuel tax cut, the party said relief should come 'without decreasing our revenue and undercutting the services those people depend on', and called for 'taxing the enormous windfalls fossil fuel companies are making right now'."
+            "3": "The Greens' October 9 transit brief and October 13 platform promise to fully fund transit, aim to double the number of buses in a first term, phase in free fares starting under 25 and over 65, extend SkyTrain to UBC and have an all-party committee set long-term funding. The platform budgets $1 billion a year for all transport. They oppose the fuel tax cut and want a windfall tax on fossil fuel companies.",
+            "5": "Transit and Transportation Policy Brief (October 9, 2026) and platform (October 13, 2026): fully fund TransLink and BC Transit, prioritize doubling the number of buses within the first term, phase in fare-free transit starting with riders under 25 and over 65 (free for all once funding stabilizes and fast, frequent service is in place), SkyTrain to UBC, end the outsourcing of transit delivery, and an all-party legislature committee to develop a long-term funding model for both BC Transit and TransLink. The platform costs its whole transport plank, which also covers ferries and rail, at $1 billion a year, paid from a wealth tax, higher oil and gas royalties and water rental rates rather than a TransLink-specific source. It also proposes a windfall profits tax on extraordinary corporate profits, including in the fossil fuel sector. In a statement on the NDP fuel tax cut, the party said relief should come 'without decreasing our revenue and undercutting the services those people depend on', and called for 'taxing the enormous windfalls fossil fuel companies are making right now'."
           },
           "basis": "platform",
           "confidence": "medium",
@@ -4714,6 +4805,10 @@
             {
               "label": "Daily Hive: reaction to Eby fuel tax promise (Oct 2, 2026)",
               "url": "https://dailyhive.com/vancouver/b-c-reacts-eby-promise-slash-gas-prices"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -4902,8 +4997,8 @@
         "green": {
           "text": {
             "1": "This party would keep the Indigenous rights law, settle claims by talking, and explain the law to the public.",
-            "3": "The Greens would implement DRIPA 'through legislation to remove uncertainty', fund public education 'to combat misinformation', set up an expert advisory committee, improve modern treaties and co-develop a way to settle Indigenous-Crown disputes 'to avoid litigation'. They have no published position on the Cowichan ruling or on homeowner compensation.",
-            "5": "Indigenous Rights Policy Brief and statement (September 30, 2026): implementing legislation for the Declaration Act, an expert advisory committee, public education against misinformation, support for modern treaties and a co-developed Indigenous-Crown dispute resolution process to avoid litigation. The party welcomed the April 2026 pause on amendments. No Cowichan-specific position and no compensation proposal; option e is their general approach applied to a title dispute."
+            "3": "The Greens would implement DRIPA 'through legislation to remove uncertainty', fund public education 'to combat misinformation', set up an expert advisory committee, improve modern treaties and co-develop a way to settle Indigenous-Crown disputes 'to avoid litigation'. Their October 13 platform also calls on the Eby government to apologize to the Cowichan and Gitxaala for mishandling its approach to the Act. They have no published position on homeowner compensation or the Cowichan appeals.",
+            "5": "Indigenous Rights Policy Brief and statement (September 30, 2026) and platform (October 13, 2026): implementing legislation for the Declaration Act, an expert advisory committee whose advice is made public, public education against misinformation, support for modern treaties and a co-developed Indigenous-Crown dispute resolution process to avoid litigation. The platform also calls on the Eby government 'to issue a formal apology to the Cowichan and Gitxaala for mishandling his government's approach to DRIPA'. The September 30 statement welcomed the April 2026 pause on amendments. No position on the Cowichan appeals and no compensation proposal for homeowners; option e is their general approach applied to a title dispute."
           },
           "basis": "platform",
           "confidence": "medium",
@@ -4915,6 +5010,10 @@
             {
               "label": "BC Greens: Indigenous Rights Policy Brief 2026 (PDF)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Indigenous-Rights-Policy-Brief-2026.pdf"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -5007,7 +5106,7 @@
           "scores": {
             "ndp": 2,
             "conservative": 2,
-            "green": 1,
+            "green": 2,
             "centrebc": 4,
             "onebc": 2
           }
@@ -5097,11 +5196,11 @@
         "green": {
           "text": {
             "1": "This party voted against the lot rule and wants the province to build non-profit homes instead.",
-            "3": "The two Green MLAs voted against the homes-per-lot law in 2023. The 2026 plan is to build or protect 26,000 non-market homes a year, restart the Community Housing Fund, bring in vacancy control and make it 'easier and quicker to build all forms of housing'. It takes no stated position on the mayors' letter, so option d is inferred.",
-            "5": "Record: Furstenau and Olsen voted nay on Bills 44 and 46 at third reading (November 29, 2023). Platform and Rights for Renters brief (September 29, 2026): 26,000 non-market homes a year, Community Housing Fund restart, vacancy control, faster approvals for all housing forms. No 2026 statement on the small-scale multi-unit mandate, transit-oriented areas, target orders or the mayors' request. Option d combines the 2023 vote with the 2026 priorities; inferred, low confidence."
+            "3": "The two Green MLAs voted against the homes-per-lot law in 2023. Their plan is to build or protect 26,000 non-market homes a year, restart the Community Housing Fund, bring in vacancy control and make it 'easier and quicker to build all forms of housing'. The October 13 platform would also revise housing targets with cities and share property transfer tax with communities that build. It takes no stated position on the lot rule or the mayors' letter, so option d is partly inferred.",
+            "5": "Record: Furstenau and Olsen voted nay on Bills 44 and 46 at third reading (November 29, 2023). Our Plan: build and protect 26,000 non-market homes a year and make it 'easier and quicker to build all forms of housing'. Platform (October 13, 2026): restart the Community Housing Fund and Indigenous Housing Fund with that 26,000-unit goal, implement vacancy control, and update the housing targets methodology 'in partnership with municipalities' to cover water, climate and health-care capacity, and 'reward successful communities who build by sharing a portion of property transfer taxes'. It also commits to 'upholding and supporting the mandate and vision of municipal governments'. It does not mention the small-scale multi-unit mandate, transit-oriented areas or the mayors' request. Option d rests on the platform and the 2023 vote; the Bill 44 element is inferred, medium confidence."
           },
-          "basis": "inferred",
-          "confidence": "low",
+          "basis": "both",
+          "confidence": "medium",
           "sources": [
             {
               "label": "Votes and Proceedings, November 29, 2023 (Bills 44 and 46)",
@@ -5114,6 +5213,10 @@
             {
               "label": "BC Greens: Rights for Renters Policy Brief 2026 (PDF, Sept 29, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/09/BC-Greens-Rights-for-Renters-Policy-Brief-2026.pdf"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -5153,7 +5256,7 @@
           "no_position": true
         }
       },
-      "scoring_rationale": "a = NDP record (4); CentreBC 3 (keeps transit-area rules and targets, adds rather than removes provincial control, but does not restate the lot mandate); Green 2 (voted against Bill 44 but is not asking for repeal and wants faster building); Conservative 1 (2024 pledge to scrap the lot rule). b = CentreBC (4); NDP 2 and Conservative 2 (the NDP already enforces targets and timelines in a different form; the 2024 Conservative plan also paid cities for allowing housing); Green 1 (its process pledge is general and it opposed the 2023 approach). c = Conservative (4), inferred from the 2024 platform's fund, pre-zoning and Bill 47 amendment; Green 2 (opposed the mandate in 2023, but has no incentive-fund model); CentreBC 2 (pays cities that perform, but keeps provincial rules); NDP 0 (would not unwind its laws). d = Green (4), inferred from the 2023 vote plus 2026 non-market priorities; NDP 2 (also funds non-market housing and tenancy rules, keeps mandates); Conservative 1 and CentreBC 1 (neither funds 26,000 non-market homes or vacancy control). Two cells are inferred and low confidence (Conservative, Green) because neither party has published a 2026 position on the density laws; the interface tags them. OneBC is no_position."
+      "scoring_rationale": "a = NDP record (4); CentreBC 3 (keeps transit-area rules and targets, adds rather than removes provincial control, but does not restate the lot mandate); Green 2 (voted against Bill 44 but is not asking for repeal and wants faster building); Conservative 1 (2024 pledge to scrap the lot rule). b = CentreBC (4); NDP 2 and Conservative 2 (the NDP already enforces targets and timelines in a different form; the 2024 Conservative plan also paid cities for allowing housing); Green 2 (shares the reward-for-building idea, a share of property transfer tax for communities that build, but has no rezoning deadlines, rulebook or growth fund, and it opposed the 2023 approach) (score changed Oct 13 after the Green platform). c = Conservative (4), inferred from the 2024 platform's fund, pre-zoning and Bill 47 amendment; Green 2 (opposed the mandate in 2023, but has no incentive-fund model); CentreBC 2 (pays cities that perform, but keeps provincial rules); NDP 0 (would not unwind its laws). d = Green (4), from the 2023 vote, the 2026 non-market priorities and the October 13 platform's partnership approach to housing targets; NDP 2 (also funds non-market housing and tenancy rules, keeps mandates); Conservative 1 and CentreBC 1 (neither funds 26,000 non-market homes or vacancy control). The Conservative cell is inferred and low confidence because the party has published no 2026 position on the density laws; the interface tags it. The Green cell rests on the platform and the 2023 vote, with the lot-rule element inferred (medium confidence). OneBC is no_position."
     },
     {
       "id": "q_local_fraser_valley_farmland",
@@ -5180,8 +5283,8 @@
             "1": "Keep farmland for farming, and limit who can buy it.",
             "2": "Keep the farmland rules, limit farmland buyers to citizens and residents, create a public land bank, and tax unused farmland.",
             "3": "Keep the reserve rules, limit larger farmland purchases to citizens and permanent residents, create a public land bank, and tax unused farmland.",
-            "4": "Reject reserve processing, limit owners of reserve parcels over four hectares to citizens and permanent residents, start a public farmland bank, and tax unused farmland.",
-            "5": "Withdraw the processing proposal; restrict ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC; create a public land bank for new farmers; let municipalities tax idle farmland; add food sovereignty to the Agricultural Land Commission's mandate."
+            "4": "Reject reserve processing, limit owners of reserve parcels over four hectares to citizens and permanent residents (or new residents within two years), start a public farmland bank, and tax unused farmland.",
+            "5": "Withdraw the processing proposal; restrict ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC, unless buyers show intent to become residents within two years; create a public land bank for new farmers; let municipalities tax idle farmland; add food sovereignty to the Agricultural Land Commission's mandate."
           },
           "scores": {
             "ndp": 0,
@@ -5290,8 +5393,8 @@
         "green": {
           "text": {
             "1": "This party says weaker farmland is still farmland and should not become factory land.",
-            "3": "A Green spokesperson told The Tyee that much of the land in the proposal is farmable and 'shouldn't be turned into industrial lands'. The October 2 food plan limits ownership of reserve parcels over four hectares to citizens and permanent residents, creates a public land bank, taxes unused farmland and adds food sovereignty to the commission's mandate.",
-            "5": "The Tyee (October 7, 2026): a Green spokesperson opposed turning farmable reserve land industrial. Food plan (October 2, 2026): restrict ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC, create a public land bank, let municipalities tax idle farmland, and add food sovereignty to the Agricultural Land Commission's mandate. The plan does not address processing directly, so option a pairs the stated opposition with the ownership measures."
+            "3": "A Green spokesperson told The Tyee that much of the land in the proposal is farmable and 'shouldn't be turned into industrial lands'. The October 2 food plan and October 13 platform limit ownership of reserve parcels over four hectares to citizens and permanent residents (or people moving to BC within two years), create a public land bank, tax unused farmland and add food sovereignty to the commission's mandate.",
+            "5": "The Tyee (October 7, 2026): a Green spokesperson opposed turning farmable reserve land industrial. Food plan (October 2, 2026) and platform (October 13, 2026): limit ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC (unless they show intent to become residents within two years), create a public land bank for new farmers, let municipalities tax idle farmland, add food sovereignty to the Agricultural Land Commission's mandate with more funding and staff, and develop a public interest test for significant farmland purchases. It costs farming at $90 million a year. The platform backs investing in local processing infrastructure in general terms but does not mention the July 2026 proposal, so option a pairs the stated opposition with the ownership measures."
           },
           "basis": "platform",
           "confidence": "medium",
@@ -5307,6 +5410,10 @@
             {
               "label": "BC Greens: Agriculture and Food Policy Brief 2026 (PDF, Oct 2, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Agriculture-and-Food-Policy-Brief-2026.pdf"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -5342,7 +5449,7 @@
           "no_position": true
         }
       },
-      "scoring_rationale": "a = Green (4): stated opposition plus the October 2 ownership, land bank and unused-land tax measures; CentreBC 1 (keeps the rules in effect but funds processors and has no ownership limits); NDP 0 (proposed the change). b = CentreBC (4), inferred and low confidence: the platform funds processing with loan guarantees and a fund and never proposes reserve changes; NDP 2 (also funds food processing and a food terminal, but changes the rules); Green 2 (keeps the rules, no processor funding). c = NDP record (4); CentreBC 1 (silent on the proposal, with a 'farmland is farmed' line that cuts against it); Green 0. d has no home: no party proposes going beyond the capped proposal; NDP 1 (closest, but its proposal is capped and soil-tested); Green 0; CentreBC 1. The Conservatives (declined to state a position) and OneBC (nothing on agriculture) are no_position, so only three parties are scored; that is the honest state of the record on a live Fraser Valley issue rather than a reason to drop it."
+      "scoring_rationale": "a = Green (4): stated opposition plus the October 2 ownership, land bank and unused-land tax measures; CentreBC 1 (keeps the rules in effect but funds processors and has no ownership limits); NDP 0 (proposed the change). b = CentreBC (4), inferred and low confidence: the platform funds processing with loan guarantees and a fund and never proposes reserve changes; NDP 2 (also funds food processing and a food terminal, but changes the rules); Green 2 (keeps the rules; its platform backs local processing infrastructure in general terms, with no loan guarantees or fund). c = NDP record (4); CentreBC 1 (silent on the proposal, with a 'farmland is farmed' line that cuts against it); Green 0. d has no home: no party proposes going beyond the capped proposal; NDP 1 (closest, but its proposal is capped and soil-tested); Green 0; CentreBC 1. The Conservatives (declined to state a position) and OneBC (nothing on agriculture) are no_position, so only three parties are scored; that is the honest state of the record on a live Fraser Valley issue rather than a reason to drop it."
     },
     {
       "id": "q_local_fraser_valley_highway1",
@@ -5360,7 +5467,7 @@
         "2": "Highway 1 is being widened through Langley and Abbotsford, with work funded as far as Highway 11 and due 2031. The section through Sumas Prairie to Chilliwack is only being planned, with no money or date. In 2024 the government promised commuter rail to Chilliwack but has published no plan. Parties disagree on whether roads or transit should come next.",
         "3": "The province has funded Highway 1 widening to Highway 11 ($2.65 billion for the latest phase, due 2031). The final phase through Sumas Prairie to Chilliwack is in planning with no funding. The NDP has made no 2026 transport pledge for the valley. The Conservatives pledged six lanes to Chilliwack in 2024, nothing new since. CentreBC names Chilliwack widening in its transport plan. The Greens want transit and rail. OneBC has no position.",
         "4": "Phase 3B (Mount Lehman Road to Highway 11) is budgeted at $2.65 billion with completion in 2031, on top of $2.34 billion for Phase 3A, now under construction. Phase 4 through Sumas Prairie to Chilliwack is 'in integrated planning' with no funding or date. The NDP's 2024 platform promised West Coast Express service to Chilliwack and new valley rail; by March 2025 there were no details. The NDP has no 2026 valley transport pledge; it rules out a TransLink vehicle levy and said in 2024 there would be no mobility pricing. The Conservatives pledged six lanes through Chilliwack and no tolls in October 2024 and have no 2026 highway or transit commitment. CentreBC names Chilliwack widening and rapid buses in its plan.",
-        "5": "Phase 2 ($345 million) and Phase 3A ($2.34 billion, approved fall 2023) are under construction; Phase 3B (Mount Lehman Road to Highway 11) was funded at $2.65 billion in August 2024 for completion in 2031; Phase 4 (Highway 11 through Sumas Prairie to Chilliwack) is 'in integrated planning' with no funding or date. The NDP's fall 2024 platform promised West Coast Express service to Chilliwack and a new valley rail service; by March 2025 there were no details and it was absent from the minister's mandate letter. The NDP rules out a TransLink vehicle levy (October 2, 2026) and said in 2024 there would be no mobility pricing. The Conservatives pledged six lanes through Chilliwack and no tolls on October 3, 2024; their 2026 plan page has no highway item. CentreBC's $15 billion three-year plan names widening to Chilliwack. The Greens' October 9 plan funds buses and province-wide rail. OneBC has no transportation commitment."
+        "5": "Phase 2 ($345 million) and Phase 3A ($2.34 billion, approved fall 2023) are under construction; Phase 3B (Mount Lehman Road to Highway 11) was funded at $2.65 billion in August 2024 for completion in 2031; Phase 4 (Highway 11 through Sumas Prairie to Chilliwack) is 'in integrated planning' with no funding or date. The NDP's fall 2024 platform promised West Coast Express service to Chilliwack and a new valley rail service; by March 2025 there were no details and it was absent from the minister's mandate letter. The NDP rules out a TransLink vehicle levy (October 2, 2026) and said in 2024 there would be no mobility pricing. The Conservatives pledged six lanes through Chilliwack and no tolls on October 3, 2024; their 2026 plan page has no highway item. CentreBC's $15 billion three-year plan names widening to Chilliwack. The Greens' October 9 plan and October 13 platform fund buses and a passenger rail strategy that names the Fraser Valley. OneBC has no transportation commitment."
       },
       "options": [
         {
@@ -5490,8 +5597,8 @@
         "green": {
           "text": {
             "1": "This party wants new money to go to buses and trains, with free rides for young people and seniors.",
-            "3": "The Greens' October 9 plan promises free transit for riders under 25 and over 65, more bus service with stable funding, support for the BC Rail Corridor Alliance and province-wide passenger rail. They have no published position on Highway 1 widening; option d pairs their transit plan with their general view that more lanes do not fix congestion.",
-            "5": "Transit and Transportation Policy Brief and release (October 9, 2026): fare-free transit phased in from under 25 and over 65, doubling the number of buses on the road in the first term, stable BC Transit funding, province-wide passenger rail with the BC Rail Corridor Alliance, and the statement that BC 'cannot build our way out of congestion with more traffic lanes'. No Highway 1 or Fraser Valley rail item was found. Option d applies the brief to the valley; medium confidence."
+            "3": "The Greens' plan promises free transit for riders under 25 and over 65, more bus service, support for the BC Rail Corridor Alliance and a passenger rail strategy that names the Fraser Valley. They have no published position on Highway 1 widening; option d pairs their transit plan with their view that more lanes do not fix congestion.",
+            "5": "Transit and Transportation Policy Brief and release (October 9, 2026) and platform (October 13, 2026): fare-free transit phased in from under 25 and over 65, prioritize doubling the number of buses within the first term, a province-wide intercity bus network, support for the BC Rail Corridor Alliance, and a passenger rail strategy 'in partnership with First Nations' that will 'focus on Vancouver Island, Metro Vancouver, the Sea-to-Sky and the Fraser Valley'. The platform says 'we cannot build our way out of congestion with more traffic lanes'. It has no Highway 1 widening item. Option d applies the plan to the valley; medium confidence."
           },
           "basis": "platform",
           "confidence": "medium",
@@ -5507,6 +5614,10 @@
             {
               "label": "BC Greens: funding for fast, frequent transit and province-wide passenger rail (Oct 9, 2026)",
               "url": "https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -5703,8 +5814,8 @@
         "green": {
           "text": {
             "1": "This party would open a public health centre in every area so fewer people need emergency rooms.",
-            "3": "The Greens promise a Community Health Centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a review toward one provincial health authority and 'every public health dollar in public care'. They have no emergency room specific commitment; option d is their care model applied to the closures.",
-            "5": "Healthcare Policy Brief (October 6, 2026) and Our Plan: Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, review of loan forgiveness and paid practicums, a review of the health authority model focused on one consolidated provincial authority, single-entry surgical referrals, no private expansion. No Mission or rural emergency room item. The by-election candidate Fowler also wanted more local capacity. Option d is the model, not a closure plan."
+            "3": "The Greens' platform promises a Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, an end to reliance on private agency nurses, a review toward one consolidated health authority, and more long-term care beds to help emergency room triage. They have no emergency room closure commitment or rural emergency fund; option d is their care model applied to the closures.",
+            "5": "Platform (October 13, 2026) and Healthcare Policy Brief (October 6, 2026): Community Health Centre in every riding, more long-term care beds to 'support effective triage in the ER', more funding for public-system nurses to support safe nurse-to-patient ratios, a phase-out of reliance on private agency nurses and for-profit staffing agencies, review of loan forgiveness and paid practicums, a review of the health authority model toward one consolidated authority 'with joint services and localized decision-making', single-entry surgical referrals, and no private expansion. No Mission or rural emergency room closure, fund or reporting item. The by-election candidate Fowler also wanted more local capacity. Option d is the model, not a closure plan."
           },
           "basis": "platform",
           "confidence": "medium",
@@ -5716,6 +5827,10 @@
             {
               "label": "BC Greens: Our Plan",
               "url": "https://bcgreens.ca/our-plan/"
+            },
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
             }
           ]
         },
@@ -5783,8 +5898,8 @@
         "1": "Ferries are the only road for many Island and coast towns. Sailings get cancelled, waits are long, and fares keep rising. The province sets the ferry company's rules and money, and where new ships are built. Parties disagree on what to fix first.",
         "2": "BC Ferries is a provincially owned company that runs under rules and funding set by the province. Sailings get cancelled, waits are long and demand keeps rising. In 2025 the company ordered four new ships from a Chinese state-owned shipyard. In October four parties made ferry promises, none of them a fare cut. Parties disagree on what to fix first.",
         "3": "BC Ferries runs under a provincial mandate, with provincial funding and a provincially set board. Cancellations, long waits and rising demand are the common complaints. In May 2025 the company picked a Chinese state-owned yard for four hybrid-electric vessels after no local yard bid. On October 9 to 11 the Greens, the NDP and the Conservatives each announced ferry plans, and CentreBC's platform has two ferry items; none sets a new Swartz Bay schedule or cuts fares.",
-        "4": "The province sets BC Ferries' mandate, service contract, funding and board rules. In May 2025 BC Ferries chose a Chinese state-owned shipyard for four large hybrid-electric vessels; the province says no local yard bid. The NDP announced a locals-first reservation pilot on October 10 (12% of advance booking space on two routes) and pledged in September that future vessels be built in BC. The Conservatives announced a BC Ferries Charter on October 11. The Greens released a ferry plan on October 9. CentreBC's platform has a shipyard fund and a fare credit. None of these sets a new Swartz Bay-Tsawwassen schedule or a fare cut.",
-        "5": "The province sets BC Ferries' mandate, funding and board rules. In May 2025 BC Ferries selected a Chinese state-owned shipyard for four hybrid-electric vessels; the province says no Canadian yard bid. On September 18 Eby committed that future vessels be built in BC, with no timeline. On October 10 the NDP proposed a locals-first reservation pilot: 12% of advance booking space for residents of ferry-dependent communities, on Horseshoe Bay to Langdale and Westview to Little River only. On October 11 the Conservatives announced a BC Ferries Charter with service standards, board cuts and a federal 'fair share'. On October 9 the Greens proposed federal funding parity with Atlantic Canada, a governance review, electric ferries and locally built ships. CentreBC's platform offers Canadian-built vessels, a $25 million a year shipyard fund and a refundable 15% credit on multi-trip fares."
+        "4": "The province sets BC Ferries' mandate, service contract, funding and board rules. In May 2025 BC Ferries chose a Chinese state-owned shipyard for four large hybrid-electric vessels; the province says no local yard bid. The NDP announced a locals-first reservation pilot on October 10 (12% of advance booking space on two routes) and pledged in September that future vessels be built in BC. The Conservatives announced a BC Ferries Charter on October 11. The Greens released a ferry plan on October 9 and expanded it in their October 13 platform. CentreBC's platform has a shipyard fund and a fare credit. None of these sets a new Swartz Bay-Tsawwassen schedule or a fare cut.",
+        "5": "The province sets BC Ferries' mandate, funding and board rules. In May 2025 BC Ferries selected a Chinese state-owned shipyard for four hybrid-electric vessels; the province says no Canadian yard bid. On September 18 Eby committed that future vessels be built in BC, with no timeline. On October 10 the NDP proposed a locals-first reservation pilot: 12% of advance booking space for residents of ferry-dependent communities, on Horseshoe Bay to Langdale and Westview to Little River only. On October 11 the Conservatives announced a BC Ferries Charter with service standards, board cuts and a federal 'fair share'. On October 9 the Greens proposed federal funding parity with Atlantic Canada, a governance review, electric ferries and locally built ships; their October 13 platform adds more vessels and restored Ferry Advisory Committees. CentreBC's platform offers Canadian-built vessels, a $25 million a year shipyard fund and a refundable 15% credit on multi-trip fares."
       },
       "options": [
         {
@@ -5841,11 +5956,11 @@
         {
           "id": "d",
           "text": {
-            "1": "Match east coast federal ferry money, rethink how ferries are run, build electric ships.",
-            "2": "Seek federal funding equal to Atlantic Canada ferries, review how ferries are governed, plan electric ferries, and build ships locally.",
-            "3": "Seek federal funding parity with Atlantic Canada ferries, review BC Ferries' governance and funding, plan electric ferries, and build ships locally with union labour.",
-            "4": "Seek Atlantic-level federal ferry funding, review BC Ferries' governance and funding, upgrade terminals, plan electric ferries, and build ships locally with union labour.",
-            "5": "Federal ferry funding parity with Atlantic Canada; review of BC Ferries' governance and long-term funding; terminal and dock upgrades and planning for electric ferries; ships built locally with union labour; next steps on Island rail with the Island Corridor Foundation."
+            "1": "Match east coast federal ferry money, add ships, rethink how ferries are run, build ships here.",
+            "2": "Seek federal funding equal to Atlantic Canada ferries, review how ferries are governed, plan electric ferries, add more ships, and build ships locally.",
+            "3": "Seek federal funding parity with Atlantic Canada ferries, review BC Ferries' governance and funding, plan electric ferries, add more vessels, and build ships locally with union labour.",
+            "4": "Seek Atlantic-level federal ferry funding, review BC Ferries' governance and funding, upgrade terminals, plan electric ferries, add more vessels, and build ships locally with union labour.",
+            "5": "Federal ferry funding parity with Atlantic Canada; review of BC Ferries' governance and long-term funding; terminal and dock upgrades and planning for electric ferries; more vessels in the system; ships built locally with union labour; next steps on Island rail with the Island Corridor Foundation."
           },
           "scores": {
             "ndp": 2,
@@ -5905,13 +6020,17 @@
         },
         "green": {
           "text": {
-            "1": "This party wants the same federal money east coast ferries get, a rethink of how ferries are run, and electric ships built here.",
-            "3": "The Greens' October 9 plan would work with Ottawa for ferry funding parity with Atlantic Canada, review BC Ferries' governance and long-term funding, expand terminal and dock infrastructure, plan for electric ferries, and build and maintain ships locally with union labour. They would also work with First Nations and the Island Corridor Foundation on Island rail.",
-            "5": "Release (October 9, 2026): federal funding parity with Atlantic Canada; review of governance and long-term funding; expanded terminal and dock infrastructure and planning for electric ferries; ships built and maintained locally with union labour; next steps for Vancouver Island rail with First Nations and the Island Corridor Foundation (October 9). Within the same plan: free transit for riders under 25 and over 65 and province-wide passenger rail. No fare, reservation or charter item. The Greens are the only party with an Island rail position."
+            "1": "This party wants the same federal money east coast ferries get, more ships, a rethink of how ferries are run, and ships built here.",
+            "3": "The Greens' platform would work with Ottawa for ferry funding parity with Atlantic Canada and review BC Ferries' governance and long-term funding. They would expand terminal and dock infrastructure, plan for electric ferries, build and maintain ships locally with union labour, add vessels so breakdowns cause fewer cancellations, and re-establish the 13 Ferry Advisory Committees. They would also work with First Nations and the Island Corridor Foundation on Island rail.",
+            "5": "Platform (October 13, 2026, Ferries and Rail) and release (October 9, 2026): work with the federal government for funding parity with Atlantic Canada (the platform cites federal subsidies of $291 per passenger on Atlantic ferries against $1.63 for BC Ferries) and review the governance model and long-term funding; expand terminal and dock infrastructure, including planning for electric ferries; build and maintain ships locally for union work; increase the number of vessels to add contingency and reduce cancellations; re-establish the 13 Ferry Advisory Committees. Rail: a large-scale passenger rail strategy with First Nations focused on Vancouver Island, Metro Vancouver, the Sea-to-Sky and the Fraser Valley, and next steps for Vancouver Island rail with First Nations and the Island Corridor Foundation. Transit: free transit phased in, starting with riders under 25 and 65 and over. No fare, reservation or charter item. The Greens are the only party with an Island rail position."
           },
           "basis": "platform",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: funding for fast, frequent transit and province-wide passenger rail (Oct 9, 2026)",
               "url": "https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/"
@@ -6107,12 +6226,16 @@
         "green": {
           "text": {
             "1": "This party would protect big old trees for good, stop clearcutting, and plan logging region by region.",
-            "3": "The Greens' October 4 forestry plan rejects the Working Forest model, sets harvest by regional area-based planning, ends raw-log exports, permanently protects big-treed old growth and large second growth, implements all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations, and shifts to partial harvesting and longer rotations. Lowan criticized Domtar over Crofton.",
-            "5": "Forestry plan (October 4, 2026): reject the Working Forest model and its 45 million cubic metre objective; regional area-based planning; end raw-log exports; permanently protect big-treed old growth and large second growth; implement all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations; partial harvesting, selective logging, longer rotations; work toward 20% of the allowable cut for community forests; retraining, upskilling and employment supports for forestry workers. Economic vision (October 7): phase out industrial clear-cutting; criticism of Domtar for closing mills including Crofton. The forestry brief says forest revenue of $397 million in 2025/26 fell short of the Ministry of Forests operating cost."
+            "3": "The Greens' platform rejects the Working Forest model, sets harvest by regional area-based planning, ends conventional clearcutting and raw-log exports, permanently protects big-treed old growth and large second growth, implements all 14 Old Growth Strategic Review recommendations with conservation financing for First Nations, and shifts to partial harvesting and longer rotations. Lowan criticized Domtar over Crofton.",
+            "5": "Platform (October 13, 2026, Forests) and forestry plan (October 4, 2026): reject the Working Forest model, its 45 million cubic metre objective and its 'no net loss' approach; regional area-based planning; end conventional clearcutting on public forests; end raw-log exports; permanently protect big-treed old growth and large second-growth forests; implement all 14 Old Growth Strategic Review recommendations with conservation financing to support Indigenous-led protection and replace foregone forestry revenues where needed; partial harvesting, selective logging, longer rotations; work toward 20% of the allowable cut for community forests; reform tenure toward First Nations, communities and smaller operators; retraining, upskilling and employment supports for forestry workers. Economic vision (October 7): criticism of Domtar for closing mills including Crofton. Platform: provincial forest revenue of $397 million in 2025/26 fell short of the Ministry of Forests operating cost."
           },
           "basis": "platform",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: plan to reform the forestry sector (Oct 4, 2026)",
               "url": "https://bcgreens.ca/announce-plan-to-reform-forestry-sector-protecting-forests-jobs-and-communities/"
@@ -6335,12 +6458,16 @@
         "green": {
           "text": {
             "1": "This party would open a public health centre in every area, set safe nurse staffing, and keep all care public.",
-            "3": "The Greens promise Community Health Centres in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a rural seniors strategy, more publicly funded long-term care and 'every public health dollar in public care'. They have no Island hospital or Nanaimo tower item; option d is their care model applied to the Island.",
-            "5": "Our Plan, Healthcare Policy Brief (October 6, 2026) and Supporting Seniors Policy Brief (October 4, 2026): Community Health Centres in every region, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, a review of the health authority model focused on one consolidated provincial authority, public coverage of mental health care, a plan to increase publicly funded long-term care facilities and a rural seniors strategy (October 4), no growth of private care. No Nanaimo, Cowichan or Island Health item found. Option d is the model, not a project list."
+            "3": "The Greens' platform promises Community Health Centres in every riding, safe nurse-to-patient ratios, an end to reliance on private agency nurses, a plan to increase publicly funded long-term care facilities, a rural seniors strategy and more home support and respite care. It criticizes the delay of seven long-term care projects but does not pledge to restart them. They have no Island hospital or Nanaimo tower item; option d is their care model applied to the Island.",
+            "5": "Platform (October 13, 2026, Seniors and Health), Healthcare Policy Brief (October 6, 2026) and Supporting Seniors Policy Brief (October 4, 2026): 'Develop and implement a detailed plan to increase the number of publicly-funded long-term care facilities', a rural seniors strategy, better access to respite care and day programs, more home support (the platform cites a long-term care bed costing $27,740 more a year than two hours of daily home support), vacancy control on assisted living, higher Shelter Aid for Elderly Renters thresholds ($48,000 single, $53,000 couples) and a dementia care pathway. The platform says the NDP's delay of seven long-term care facilities 'has exacerbated this problem' but does not commit to restarting them. Health: Community Health Centres in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of reliance on private agency nurses and for-profit staffing agencies, review of the health authority model toward a consolidated authority, push back on 'the creeping privatization of healthcare'. Our Plan: 'keep every public health dollar in public care'. No Nanaimo, Cowichan or Island Health item. Option d is the model, not a project list."
           },
           "basis": "platform",
-          "confidence": "medium",
+          "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Our Plan",
               "url": "https://bcgreens.ca/our-plan/"
@@ -6435,7 +6562,7 @@
           "scores": {
             "ndp": 1,
             "conservative": 4,
-            "green": 0,
+            "green": 1,
             "centrebc": 2,
             "onebc": 2
           }
@@ -6469,7 +6596,7 @@
           "scores": {
             "ndp": 4,
             "conservative": 1,
-            "green": 1,
+            "green": 2,
             "centrebc": 2,
             "onebc": 2
           }
@@ -6553,13 +6680,17 @@
         },
         "green": {
           "text": {
-            "1": "This party would give towns and First Nations steady money to prepare, and restore forests with careful burning.",
-            "3": "The Greens promise stable long-term funding for First Nations and local governments to prepare for wildfire, flood, drought and heat, and would expand restoration, prescribed and cultural burning, thinning and fuel management 'where ecologically appropriate', treating it as long-term skilled work. They oppose using higher harvest targets to pay for it and make no aircraft pledge.",
-            "5": "Climate, LNG and Royalties Policy Brief (October 10, 2026): stable long-term funding for First Nations and local governments to assess climate risks and prepare for wildfire and other hazards. A New Economic Direction (October 7): treat forest restoration, wildfire resilience and climate adaptation as long-term skilled work; expand ecosystem restoration, prescribed and cultural burning, thinning and fuel management where ecologically appropriate; develop markets for low-grade fibre where they improve risk reduction. Forestry plan (October 4) rejects a 45 million cubic metre harvest target. No aircraft or dollar figures."
+            "1": "This party would give towns and First Nations steady money to prepare, train local crews, and bring back careful burning.",
+            "3": "The Greens' platform promises stable multi-year FireSmart funding for First Nations and local governments, grants for homeowners to make homes more wildfire-resistant, more prescribed and cultural burning with funded crews, and training and equipment for local fire departments and community wildfire response. It adds a wildfire insurance pilot for homeowners who cannot get affordable cover and a standing disaster-recovery team, and promises stable long-term funding to prepare for wildfire, flood, drought and heat. It makes no aircraft pledge and rejects a 45 million cubic metre harvest target.",
+            "5": "Platform (October 13, 2026, Wildfires, Climate change and Costings): expand Cooperative Community Wildfire Response with provincial funding to train and equip local people under BC Wildfire Service command; 'stable, multi-year FireSmart funding for First Nations and local governments' plus expanded grants for homeowners; a rolling open competition for wildfire response technologies, including detection and mapping; expanded cultural burning and prescribed fire with investment in crews, planning and funding; more training and equipment for volunteer, First Nations and municipal fire departments; a wildfire insurance pilot (pooled insurer of last resort) for homeowners who cannot get affordable coverage; opt-in wildfire-resilient building standards; clean air centres in every community; a standing provincial disaster-recovery team. The platform says it will 'continue to provide and expand the resources needed for rapid detection, initial attack and community protection'. Costing: $40 million a year for the wildfires plank, excluding the insurance pilot. Climate section: stable long-term funding for First Nations and local governments to prepare for wildfire and other hazards. A New Economic Direction (October 7): treat forest restoration, wildfire resilience and climate adaptation as long-term skilled work; thinning and fuel management where ecologically appropriate. The forestry plan rejects a 45 million cubic metre harvest target. No aircraft purchase pledge; no Red Cross match or loan fund for 2026 victims."
           },
           "basis": "platform",
-          "confidence": "medium",
+          "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Climate, LNG and Royalties Policy Brief 2026 (PDF, Oct 10, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf"
@@ -6606,7 +6737,7 @@
           "no_position": true
         }
       },
-      "scoring_rationale": "a = Conservative (4): aircraft, detection fund, easier prescribed fire and logging near communities with timber revenue are all in or reported around its October 2 plan; CentreBC 2 (funds detection drones and fuel work but no aircraft and no timber-revenue model); NDP 1 (no aircraft or prevention pledge; its Budget 2026 FireSmart money is small); Green 0 (opposes paying for prevention through more harvest). b = CentreBC (4); Green 3 (stable funding for local governments and First Nations and fuel work match, without the dollar figures or winter crews); NDP 2 and Conservative 2 (the NDP restored some FireSmart money; the Conservatives mention 'more predictable' FireSmart funding). c = NDP (4): the Red Cross match, infrastructure rebuild and loan fund are its only wildfire pledges, and 'keep the current prevention budget' is its record; CentreBC 2 (farm recovery program and faster disaster assistance); Conservative 1 and Green 1 (neither has a recovery pledge). d = Green (4); CentreBC 3 (thinning, prescribed and cultural burning with a First Nations share, closest to the Green approach); NDP 2 (funds some fuel management and 'active forest management'); Conservative 1 (burns and thinning, but tied to higher harvest). OneBC is no_position. Cross-scores on every pair of homes are within one point."
+      "scoring_rationale": "a = Conservative (4): aircraft, detection fund, easier prescribed fire and logging near communities with timber revenue are all in or reported around its October 2 plan; CentreBC 2 (funds detection drones and fuel work but no aircraft and no timber-revenue model); NDP 1 (no aircraft or prevention pledge; its Budget 2026 FireSmart money is small); Green 1 (expands prescribed fire with funded crews, runs a technology competition that includes detection and trains local crews, but buys no aircraft and rejects the 45 million cubic metre harvest target) (score changed Oct 13 after the Green platform). b = CentreBC (4); Green 3 (stable funding for local governments and First Nations and fuel work match, without the dollar figures or winter crews); NDP 2 and Conservative 2 (the NDP restored some FireSmart money; the Conservatives mention 'more predictable' FireSmart funding). c = NDP (4): the Red Cross match, infrastructure rebuild and loan fund are its only wildfire pledges, and 'keep the current prevention budget' is its record; CentreBC 2 (farm recovery program and faster disaster assistance); Green 2 (a standing disaster-recovery team and a wildfire insurance pilot support recovery, but no victim funding, Red Cross match or loan fund) (score changed Oct 13 after the Green platform); Conservative 1 (no recovery pledge). d = Green (4); CentreBC 3 (thinning, prescribed and cultural burning with a First Nations share, closest to the Green approach); NDP 2 (funds some fuel management and 'active forest management'); Conservative 1 (burns and thinning, but tied to higher harvest). OneBC is no_position. Cross-scores on every pair of homes are within one point."
     },
     {
       "id": "q_local_interior_downtown",
@@ -6682,10 +6813,10 @@
           "id": "d",
           "text": {
             "1": "Keep and add supervised drug sites, no charges for carrying drugs, fund voluntary care.",
-            "2": "Keep and expand supervised drug sites, decriminalize carrying small amounts again, and fund voluntary treatment and housing, not forced care.",
-            "3": "Expand supervised consumption and overdose prevention sites as doors to detox and housing, decriminalize personal possession, and fund voluntary treatment instead of mandatory care.",
-            "4": "Expand consumption sites as links to detox and housing, decriminalize possession, offer regulated alternatives to street drugs, and fund voluntary rather than mandatory care.",
-            "5": "Expand supervised consumption and overdose prevention sites as connection points to detox and housing; decriminalize personal possession; provide regulated pharmaceutical alternatives to the illicit supply; fund voluntary care, transitional housing and mental health services; no new involuntary care facility."
+            "2": "Keep and expand supervised drug sites, decriminalize carrying small amounts again, and fund voluntary treatment and housing, with no promise of a forced-care centre.",
+            "3": "Expand supervised consumption and overdose prevention sites as doors to detox and housing, decriminalize personal possession, and fund voluntary treatment, with no commitment to a mandatory care facility.",
+            "4": "Expand consumption sites as links to detox and housing, decriminalize possession, offer regulated alternatives to street drugs, and fund voluntary care, with no commitment to a mandatory care facility.",
+            "5": "Expand supervised consumption and overdose prevention sites as connection points to detox and housing; decriminalize personal possession; provide regulated pharmaceutical alternatives to the illicit supply; fund voluntary care, transitional housing and mental health services; no commitment to a new involuntary care facility."
           },
           "scores": {
             "ndp": 1,
@@ -6758,13 +6889,17 @@
         },
         "green": {
           "text": {
-            "1": "This party would keep and add supervised drug sites and pay for voluntary care, not forced care.",
-            "3": "The Greens' October 2 toxic drugs brief would expand supervised consumption and overdose prevention sites as connection points to detox and housing, decriminalize personal possession, provide regulated alternatives to the illicit supply, and fund voluntary care, housing and mental health support. No involuntary care pledge and no public safety commitment.",
-            "5": "Toxic Drugs Policy Brief (October 2, 2026, released with Saanich South candidate and former chief coroner Lisa Lapointe): decriminalize personal possession; regulated pharmaceutical alternatives; more supervised consumption and overdose prevention sites including inhalation spaces; voluntary care, transitional housing with wraparound support and mental health services. No involuntary care facility pledge, no Mental Health Act change, no public safety commitment published. Option d is the brief applied to Kelowna's request."
+            "1": "This party would keep and add supervised drug sites and pay for voluntary care. It does not promise a forced-care centre.",
+            "3": "The Greens' platform would expand supervised consumption and overdose prevention sites as connection points to detox and housing, decriminalize personal possession, provide regulated alternatives to the illicit supply, and fund voluntary care, housing and mental health support. They would also amend the Mental Health Act to meet the Charter and review it, and add oversight of involuntary treatment. They have no involuntary care facility pledge and no downtown policing commitment.",
+            "5": "Platform (October 13, 2026, Toxic drug crisis, Mental health, Justice) and Toxic Drugs Policy Brief (October 2, 2026, released with Saanich South candidate and former chief coroner Lisa Lapointe): decriminalize possession for personal use; regulated pharmaceutical alternatives; more supervised consumption and overdose prevention sites, with 'safe inhalation spaces to reduce harm and public drug use, and support public safety', as connection points for detox, recovery and housing; transitional and public housing with wrap-around support; community outpatient treatment matched to bed-based care; an accessible, voluntary system for mental health and substance use care. Mental Health Act: act immediately to bring the law into Charter compliance, including 'strengthening protections around consent, capacity, involuntary treatment, and independent oversight', then an independent review of the whole Act; independent oversight of involuntary treatment programs; an independent review of prison conditions including involuntary treatment programs. Costing: $50 million a year for toxic drugs. No involuntary care facility pledge and no downtown policing or Kelowna-specific commitment. Option d is the platform applied to Kelowna's request."
           },
           "basis": "platform",
-          "confidence": "medium",
+          "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Toxic Drugs Policy Brief 2026 (PDF, Oct 2, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Toxic-Drugs-Policy-Brief-2026-1.pdf"
@@ -6814,7 +6949,7 @@
           ]
         }
       },
-      "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 search for a regional site that can be used immediately, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, opposes involuntary care); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment, silent on closing sites); CentreBC 1 (asks Ottawa to charge public and repeat possession); NDP 0; Green 0."
+      "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 search for a regional site that can be used immediately, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, makes no involuntary care pledge); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment, silent on closing sites); CentreBC 1 (asks Ottawa to charge public and repeat possession); NDP 0; Green 0."
     },
     {
       "id": "q_local_interior_ltc",
@@ -6975,12 +7110,16 @@
         "green": {
           "text": {
             "1": "This party would build more public care homes and keep public health money in public care.",
-            "3": "The Greens plan to increase publicly funded long-term care facilities and adopt a rural seniors strategy (October 4), within a health platform that funds safe nurse-to-patient ratios, phases out private staffing agencies, pushes back on private health care and keeps 'every public health dollar in public care'. They have no statement on the paused projects or the Vernon cancellation.",
-            "5": "Supporting Seniors Policy Brief (October 4, 2026): a plan to increase publicly funded long-term care facilities and a rural seniors strategy. Healthcare Policy Brief (October 6) and Our Plan: more funding for nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, mental health care covered through the public system, push back on 'the creeping privatization of healthcare', and 'keep every public health dollar in public care'. No position on the seven paused projects, the Vernon project or portable funding; option d applies the public-care stance to long-term care."
+            "3": "The Greens plan to increase publicly funded long-term care facilities, adopt a rural seniors strategy, and expand home support and respite care, within a health platform that funds safe nurse-to-patient ratios, phases out reliance on private staffing agencies, pushes back on private health care and keeps public dollars focused on care. They criticize the delay of the seven paused projects but do not pledge to restart them, and say nothing on the Vernon cancellation.",
+            "5": "Platform (October 13, 2026, Seniors and Health), Supporting Seniors Policy Brief (October 4, 2026) and Healthcare Policy Brief (October 6): 'Develop and implement a detailed plan to increase the number of publicly-funded long-term care facilities' and a rural seniors strategy; better access to respite care and day programs and more home support; vacancy control on assisted living. The platform says 'The BC NDP's decision to delay construction of seven long-term care facilities has exacerbated this problem' but does not pledge to restart them or give bed targets. Health: more funding for nurses to support safe nurse-to-patient ratios, phase-out of reliance on private agency nurses and for-profit staffing agencies, push back on 'the creeping privatization of healthcare', 'Support effective triage in the ER with more long-term care beds'. Our Plan: 'keep every public health dollar in public care'. No position on the Vernon project or portable funding; option d applies the public-care stance to long-term care."
           },
           "basis": "platform",
-          "confidence": "medium",
+          "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Healthcare Policy Brief 2026 (PDF, Oct 6, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Healthcare-Policy-Brief-2026.pdf"
@@ -7188,11 +7327,15 @@
           "text": {
             "1": "This party would plan logging region by region with no provincial target, and protect big old trees.",
             "3": "The Greens' October 4 forestry plan rejects the Working Forest model 'including the 45 million cubic metre harvest objective', sets harvest by regional area-based planning, ends conventional clearcutting and raw-log exports, permanently protects big-treed old growth, works toward 20% of the allowable cut for community forests and funds worker transition where harvest falls.",
-            "5": "Forestry Policy Brief (October 4, 2026): reject the Working Forest Model including the 45 million objective and 'no net loss'; harvest set by regional area-based planning; end conventional clearcutting; permanently protect big-treed old growth and implement all Old Growth Strategic Review recommendations; end raw-log exports; work toward 20% of the allowable cut for community forests; 30 to 50% of available fibre to value-added; diversification and transition funding. Economic Direction (October 7): rule out 'working backwards from a provincial harvest target'. Claim: forest revenue of $397 million in 2025/26 was below ministry costs."
+            "5": "Platform (October 13, 2026, Forests) and Forestry Policy Brief (October 4, 2026): reject the Working Forest Model including the 45 million objective and 'no net loss'; harvest set by regional area-based planning; end conventional clearcutting; permanently protect big-treed old growth and large second growth and implement all Old Growth Strategic Review recommendations; end raw-log exports; work toward 20% of the allowable cut for community forests; 30 to 50% of available fibre to value-added; investment in facilities that can use smaller-diameter and lower-quality fibre; tenure reform toward First Nations, communities and smaller operators; a larger share of forest revenue to First Nations, municipalities and regional districts; retraining, upskilling and employment supports for forestry workers. Economic Direction (October 7): rule out 'working backwards from a provincial harvest target'. Claim: forest revenue of $397 million in 2025/26 was below ministry costs."
           },
           "basis": "platform",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Forestry Policy Brief 2026 (PDF, Oct 4, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Forestry-Policy-Brief-2026.pdf"
@@ -7408,11 +7551,15 @@
           "text": {
             "1": "This party would approve no new gas plants or pipelines, and allow mines only within ecological limits and strict rules.",
             "3": "The Greens would end approvals for new fracking expansion, LNG terminals and pipelines, manage a decline of existing production, end subsidies and collect 50% of net profits in royalties. Lowan said she was 'deeply disappointed' to see Phase 2 go ahead. The Greens would set ecological limits on where mining can happen and world-leading mining standards; public support for mineral processing would require First Nations participation, a long-term economic case and strong pollution standards.",
-            "5": "Climate, LNG and Royalties Policy Brief (October 10, 2026): end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines; managed decline; end provincial subsidies; royalties reformed to 50% of net profits. Healthcare Policy Brief: an independent health impact assessment of LNG and fracking. Statement on Phase 2 (September 29): 'deeply disappointed to see LNG Canada Phase 2 move ahead', at most 150 permanent jobs. Economic Vision (October 7): ecological limits set before deciding where mining can occur, world-leading mining standards, critical minerals recycling, a value chain plan, and public support for processing and refining only with First Nations participation, a long-term economic case and strong pollution standards; no new large dams."
+            "5": "Platform (October 13, 2026, Climate change, Economic vision and Health) and Climate, LNG and Royalties Policy Brief (October 10, 2026): end approvals for new fracking expansion, LNG terminals and expansions and new fossil fuel pipelines; end provincial subsidies, tax preferences and public financing for expanding production; managed decline of existing production, with regional transition plans for affected First Nations, workers and communities; royalties reformed to the 50% net-profit objective (platform estimate: about $4.09 billion against $1.14 billion forecast for 2027/28); stronger industrial carbon pricing and a binding sectoral emissions cap for oil and gas if existing rules do not deliver; a windfall profits tax. An independent health impact assessment of LNG and fracking. Statement on Phase 2 (September 29): 'deeply disappointed to see LNG Canada Phase 2 move ahead', at most 150 permanent jobs. Mining: a 'responsible critical-minerals strategy focused on high environmental standards, recycling and recovery, and more processing and value-added activity where it makes sense in BC'; Economic Vision (October 7): ecological limits set before deciding where mining can occur, world-leading mining standards, and public support for processing and refining only with First Nations participation, a long-term economic case and strong pollution standards. No new large dams."
           },
           "basis": "platform",
           "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: Climate, LNG and Royalties Policy Brief 2026 (PDF, Oct 10, 2026)",
               "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Climate-LNG-and-Royalties-Policy-Brief-2026.pdf"
@@ -7643,12 +7790,16 @@
         "green": {
           "text": {
             "1": "This party would open a public health centre in every area so fewer people need emergency rooms.",
-            "3": "The Greens promise a Community Health Centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a review toward one provincial health authority and 'every public health dollar in public care', plus a rural seniors strategy. They have no emergency room specific commitment; option d is their care model applied to the closures.",
-            "5": "Community health centre pledge (October 6, 2026) and Healthcare Policy Brief: Community Health Centre in every riding, more funding for nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, review of the health authority model 'with a focus on creating a consolidated health authority for the whole province', push back on 'the creeping privatization of healthcare', 'keep every public health dollar in public care', rural seniors strategy (October 4). Skeena candidate Gottlieb raised emergency closures at the Kitimat forum. No rural emergency fund or reporting commitment."
+            "3": "The Greens' platform promises a Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, an end to reliance on private agency nurses, a review of the health authority model toward one consolidated authority, more long-term care beds to help emergency room triage, and a rural seniors strategy. They have no emergency room closure commitment or rural emergency fund; option d is their care model applied to the closures.",
+            "5": "Platform (October 13, 2026, Health and Seniors), community health centre pledge (October 6, 2026) and Healthcare Policy Brief: Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of reliance on private agency nurses and for-profit staffing agencies, a review of the health authority model 'with a focus on creating a consolidated health authority with joint services and localized decision-making within communities', 'Support effective triage in the ER with more long-term care beds', review of loan forgiveness and paid practicums for all healthcare students, push back on 'the creeping privatization of healthcare', rural seniors strategy (October 4). Our Plan: 'keep every public health dollar in public care'. The platform says rural access is harder because of 'Transportation barriers and the distance to health-care services'. Skeena candidate Gottlieb raised emergency closures at the Kitimat forum. No rural emergency fund or reporting commitment."
           },
           "basis": "platform",
-          "confidence": "medium",
+          "confidence": "high",
           "sources": [
+            {
+              "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+              "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+            },
             {
               "label": "BC Greens: community health centres in every riding, support for health workers (Oct 6, 2026)",
               "url": "https://bcgreens.ca/pledge-funding-for-community-health-centres-in-every-riding-support-for-healthcare-workers/"

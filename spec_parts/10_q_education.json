@@ -15,7 +15,7 @@
       "2": "Child care can cost families as much as rent. About one in ten licensed spaces costs $10 a day, and the province has paused new $10-a-day spaces for three years to save money. Some fast-growing school districts still rely on portable classrooms. Parties disagree on whether to expand child care, focus schools on basics, or hold spending.",
       "3": "About 10% of licensed child care spaces cost $10 a day. In 2026 the NDP government paused new $10-a-day spaces for three years. Some fast-growing school districts still use many portable classrooms. The Greens want free child care by 2031 and CentreBC wants 20,000 more $10-a-day spaces. The Conservatives and OneBC focus on testing, grades and the basics.",
       "4": "About 10% of licensed child care spaces cost $10 a day. In February 2026 the NDP government paused new $10-a-day enrolment for three years to fix the program's funding model. The Affordable Child Care Benefit still helps families with incomes up to $111,000. Fast-growing school districts still use portable classrooms.",
-      "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. The Greens' expansion has no published cost. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
+      "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. The Greens' October 13 platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
     },
     "options": [
       {
@@ -158,12 +158,16 @@
       "green": {
         "text": {
           "1": "This party wants free child care for all, better pay for child care workers, and food for every student.",
-          "3": "The Greens would lift the freeze now, make child care free for all by 2031, pay early childhood educators $35 to $45 an hour and feed every student. They have published no cost for the plan.",
-          "5": "On September 28, 2026, the Greens promised to lift the freeze 'immediately', make child care free for all by 2031 and pay early childhood educators $35 to $45 an hour by 2028. Their plans also include one point of registration for $10-a-day spaces, closing the inclusive education funding gap, a counsellor per 250 students, universal school food, moving private school funding into public schools and a moratorium on artificial intelligence in schools. The releases give no cost."
+          "3": "The Greens would lift the freeze now, make child care free for all by 2031, pay early childhood educators $35 to $45 an hour and feed every student. Their platform costs child care at $260 million a year and education at $587 million a year.",
+          "5": "On September 28, 2026, the Greens promised to lift the freeze 'immediately', make child care free for all by 2031 and pay early childhood educators $35 to $45 an hour by 2028. Their October 13 platform adds one point of registration for $10-a-day spaces, new spaces and priority registration for public, non-profit and Indigenous-led centres, closing the inclusive education funding gap, universal school food, a school supplies program, moving private school funding into public schools in phases and a moratorium on artificial intelligence in classrooms. Their Education Policy Brief adds a counsellor per 250 students. The platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year, and pays for its plans mainly with a tax on net wealth above $50 million."
         },
         "basis": "platform",
         "confidence": "high",
         "sources": [
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+          },
           {
             "label": "BC Greens: lift the freeze on $10-a-day, universal free child care by 2031",
             "url": "https://bcgreens.ca/announce-plan-to-lift-the-freeze-on-10-a-day-daycare-with-universal-free-child-care-by-2031-alongside-new-candidate-for-victoria-swan-lake/"

@@ -24,8 +24,8 @@
           "1": "Keep farmland for farming, and limit who can buy it.",
           "2": "Keep the farmland rules, limit farmland buyers to citizens and residents, create a public land bank, and tax unused farmland.",
           "3": "Keep the reserve rules, limit larger farmland purchases to citizens and permanent residents, create a public land bank, and tax unused farmland.",
-          "4": "Reject reserve processing, limit owners of reserve parcels over four hectares to citizens and permanent residents, start a public farmland bank, and tax unused farmland.",
-          "5": "Withdraw the processing proposal; restrict ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC; create a public land bank for new farmers; let municipalities tax idle farmland; add food sovereignty to the Agricultural Land Commission's mandate."
+          "4": "Reject reserve processing, limit owners of reserve parcels over four hectares to citizens and permanent residents (or new residents within two years), start a public farmland bank, and tax unused farmland.",
+          "5": "Withdraw the processing proposal; restrict ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC, unless buyers show intent to become residents within two years; create a public land bank for new farmers; let municipalities tax idle farmland; add food sovereignty to the Agricultural Land Commission's mandate."
         },
         "scores": {
           "ndp": 0,
@@ -134,8 +134,8 @@
       "green": {
         "text": {
           "1": "This party says weaker farmland is still farmland and should not become factory land.",
-          "3": "A Green spokesperson told The Tyee that much of the land in the proposal is farmable and 'shouldn't be turned into industrial lands'. The October 2 food plan limits ownership of reserve parcels over four hectares to citizens and permanent residents, creates a public land bank, taxes unused farmland and adds food sovereignty to the commission's mandate.",
-          "5": "The Tyee (October 7, 2026): a Green spokesperson opposed turning farmable reserve land industrial. Food plan (October 2, 2026): restrict ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC, create a public land bank, let municipalities tax idle farmland, and add food sovereignty to the Agricultural Land Commission's mandate. The plan does not address processing directly, so option a pairs the stated opposition with the ownership measures."
+          "3": "A Green spokesperson told The Tyee that much of the land in the proposal is farmable and 'shouldn't be turned into industrial lands'. The October 2 food plan and October 13 platform limit ownership of reserve parcels over four hectares to citizens and permanent residents (or people moving to BC within two years), create a public land bank, tax unused farmland and add food sovereignty to the commission's mandate.",
+          "5": "The Tyee (October 7, 2026): a Green spokesperson opposed turning farmable reserve land industrial. Food plan (October 2, 2026) and platform (October 13, 2026): limit ownership of Agricultural Land Reserve parcels over 4 hectares to citizens and permanent residents of BC (unless they show intent to become residents within two years), create a public land bank for new farmers, let municipalities tax idle farmland, add food sovereignty to the Agricultural Land Commission's mandate with more funding and staff, and develop a public interest test for significant farmland purchases. It costs farming at $90 million a year. The platform backs investing in local processing infrastructure in general terms but does not mention the July 2026 proposal, so option a pairs the stated opposition with the ownership measures."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -151,6 +151,10 @@
           {
             "label": "BC Greens: Agriculture and Food Policy Brief 2026 (PDF, Oct 2, 2026)",
             "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BC-Greens-Agriculture-and-Food-Policy-Brief-2026.pdf"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },
@@ -186,7 +190,7 @@
         "no_position": true
       }
     },
-    "scoring_rationale": "a = Green (4): stated opposition plus the October 2 ownership, land bank and unused-land tax measures; CentreBC 1 (keeps the rules in effect but funds processors and has no ownership limits); NDP 0 (proposed the change). b = CentreBC (4), inferred and low confidence: the platform funds processing with loan guarantees and a fund and never proposes reserve changes; NDP 2 (also funds food processing and a food terminal, but changes the rules); Green 2 (keeps the rules, no processor funding). c = NDP record (4); CentreBC 1 (silent on the proposal, with a 'farmland is farmed' line that cuts against it); Green 0. d has no home: no party proposes going beyond the capped proposal; NDP 1 (closest, but its proposal is capped and soil-tested); Green 0; CentreBC 1. The Conservatives (declined to state a position) and OneBC (nothing on agriculture) are no_position, so only three parties are scored; that is the honest state of the record on a live Fraser Valley issue rather than a reason to drop it."
+    "scoring_rationale": "a = Green (4): stated opposition plus the October 2 ownership, land bank and unused-land tax measures; CentreBC 1 (keeps the rules in effect but funds processors and has no ownership limits); NDP 0 (proposed the change). b = CentreBC (4), inferred and low confidence: the platform funds processing with loan guarantees and a fund and never proposes reserve changes; NDP 2 (also funds food processing and a food terminal, but changes the rules); Green 2 (keeps the rules; its platform backs local processing infrastructure in general terms, with no loan guarantees or fund). c = NDP record (4); CentreBC 1 (silent on the proposal, with a 'farmland is farmed' line that cuts against it); Green 0. d has no home: no party proposes going beyond the capped proposal; NDP 1 (closest, but its proposal is capped and soil-tested); Green 0; CentreBC 1. The Conservatives (declined to state a position) and OneBC (nothing on agriculture) are no_position, so only three parties are scored; that is the honest state of the record on a live Fraser Valley issue rather than a reason to drop it."
   },
   {
     "id": "q_local_fraser_valley_highway1",
@@ -204,7 +208,7 @@
       "2": "Highway 1 is being widened through Langley and Abbotsford, with work funded as far as Highway 11 and due 2031. The section through Sumas Prairie to Chilliwack is only being planned, with no money or date. In 2024 the government promised commuter rail to Chilliwack but has published no plan. Parties disagree on whether roads or transit should come next.",
       "3": "The province has funded Highway 1 widening to Highway 11 ($2.65 billion for the latest phase, due 2031). The final phase through Sumas Prairie to Chilliwack is in planning with no funding. The NDP has made no 2026 transport pledge for the valley. The Conservatives pledged six lanes to Chilliwack in 2024, nothing new since. CentreBC names Chilliwack widening in its transport plan. The Greens want transit and rail. OneBC has no position.",
       "4": "Phase 3B (Mount Lehman Road to Highway 11) is budgeted at $2.65 billion with completion in 2031, on top of $2.34 billion for Phase 3A, now under construction. Phase 4 through Sumas Prairie to Chilliwack is 'in integrated planning' with no funding or date. The NDP's 2024 platform promised West Coast Express service to Chilliwack and new valley rail; by March 2025 there were no details. The NDP has no 2026 valley transport pledge; it rules out a TransLink vehicle levy and said in 2024 there would be no mobility pricing. The Conservatives pledged six lanes through Chilliwack and no tolls in October 2024 and have no 2026 highway or transit commitment. CentreBC names Chilliwack widening and rapid buses in its plan.",
-      "5": "Phase 2 ($345 million) and Phase 3A ($2.34 billion, approved fall 2023) are under construction; Phase 3B (Mount Lehman Road to Highway 11) was funded at $2.65 billion in August 2024 for completion in 2031; Phase 4 (Highway 11 through Sumas Prairie to Chilliwack) is 'in integrated planning' with no funding or date. The NDP's fall 2024 platform promised West Coast Express service to Chilliwack and a new valley rail service; by March 2025 there were no details and it was absent from the minister's mandate letter. The NDP rules out a TransLink vehicle levy (October 2, 2026) and said in 2024 there would be no mobility pricing. The Conservatives pledged six lanes through Chilliwack and no tolls on October 3, 2024; their 2026 plan page has no highway item. CentreBC's $15 billion three-year plan names widening to Chilliwack. The Greens' October 9 plan funds buses and province-wide rail. OneBC has no transportation commitment."
+      "5": "Phase 2 ($345 million) and Phase 3A ($2.34 billion, approved fall 2023) are under construction; Phase 3B (Mount Lehman Road to Highway 11) was funded at $2.65 billion in August 2024 for completion in 2031; Phase 4 (Highway 11 through Sumas Prairie to Chilliwack) is 'in integrated planning' with no funding or date. The NDP's fall 2024 platform promised West Coast Express service to Chilliwack and a new valley rail service; by March 2025 there were no details and it was absent from the minister's mandate letter. The NDP rules out a TransLink vehicle levy (October 2, 2026) and said in 2024 there would be no mobility pricing. The Conservatives pledged six lanes through Chilliwack and no tolls on October 3, 2024; their 2026 plan page has no highway item. CentreBC's $15 billion three-year plan names widening to Chilliwack. The Greens' October 9 plan and October 13 platform fund buses and a passenger rail strategy that names the Fraser Valley. OneBC has no transportation commitment."
     },
     "options": [
       {
@@ -334,8 +338,8 @@
       "green": {
         "text": {
           "1": "This party wants new money to go to buses and trains, with free rides for young people and seniors.",
-          "3": "The Greens' October 9 plan promises free transit for riders under 25 and over 65, more bus service with stable funding, support for the BC Rail Corridor Alliance and province-wide passenger rail. They have no published position on Highway 1 widening; option d pairs their transit plan with their general view that more lanes do not fix congestion.",
-          "5": "Transit and Transportation Policy Brief and release (October 9, 2026): fare-free transit phased in from under 25 and over 65, doubling the number of buses on the road in the first term, stable BC Transit funding, province-wide passenger rail with the BC Rail Corridor Alliance, and the statement that BC 'cannot build our way out of congestion with more traffic lanes'. No Highway 1 or Fraser Valley rail item was found. Option d applies the brief to the valley; medium confidence."
+          "3": "The Greens' plan promises free transit for riders under 25 and over 65, more bus service, support for the BC Rail Corridor Alliance and a passenger rail strategy that names the Fraser Valley. They have no published position on Highway 1 widening; option d pairs their transit plan with their view that more lanes do not fix congestion.",
+          "5": "Transit and Transportation Policy Brief and release (October 9, 2026) and platform (October 13, 2026): fare-free transit phased in from under 25 and over 65, prioritize doubling the number of buses within the first term, a province-wide intercity bus network, support for the BC Rail Corridor Alliance, and a passenger rail strategy 'in partnership with First Nations' that will 'focus on Vancouver Island, Metro Vancouver, the Sea-to-Sky and the Fraser Valley'. The platform says 'we cannot build our way out of congestion with more traffic lanes'. It has no Highway 1 widening item. Option d applies the plan to the valley; medium confidence."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -351,6 +355,10 @@
           {
             "label": "BC Greens: funding for fast, frequent transit and province-wide passenger rail (Oct 9, 2026)",
             "url": "https://bcgreens.ca/bc-greens-commit-to-funding-for-fast-frequent-transit-pledge-to-fight-for-province-wide-passenger-rail/"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },
@@ -547,8 +555,8 @@
       "green": {
         "text": {
           "1": "This party would open a public health centre in every area so fewer people need emergency rooms.",
-          "3": "The Greens promise a Community Health Centre in every riding, safe nurse-to-patient ratios, an end to private agency nurses, a review toward one provincial health authority and 'every public health dollar in public care'. They have no emergency room specific commitment; option d is their care model applied to the closures.",
-          "5": "Healthcare Policy Brief (October 6, 2026) and Our Plan: Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, phase-out of private agency nurses and for-profit staffing agencies, review of loan forgiveness and paid practicums, a review of the health authority model focused on one consolidated provincial authority, single-entry surgical referrals, no private expansion. No Mission or rural emergency room item. The by-election candidate Fowler also wanted more local capacity. Option d is the model, not a closure plan."
+          "3": "The Greens' platform promises a Community Health Centre in every riding, more funding for public-system nurses to support safe nurse-to-patient ratios, an end to reliance on private agency nurses, a review toward one consolidated health authority, and more long-term care beds to help emergency room triage. They have no emergency room closure commitment or rural emergency fund; option d is their care model applied to the closures.",
+          "5": "Platform (October 13, 2026) and Healthcare Policy Brief (October 6, 2026): Community Health Centre in every riding, more long-term care beds to 'support effective triage in the ER', more funding for public-system nurses to support safe nurse-to-patient ratios, a phase-out of reliance on private agency nurses and for-profit staffing agencies, review of loan forgiveness and paid practicums, a review of the health authority model toward one consolidated authority 'with joint services and localized decision-making', single-entry surgical referrals, and no private expansion. No Mission or rural emergency room closure, fund or reporting item. The by-election candidate Fowler also wanted more local capacity. Option d is the model, not a closure plan."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -560,6 +568,10 @@
           {
             "label": "BC Greens: Our Plan",
             "url": "https://bcgreens.ca/our-plan/"
+          },
+          {
+            "label": "BC Greens: 2026 platform (Oct 13, 2026)",
+            "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
           }
         ]
       },
