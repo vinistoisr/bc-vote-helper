@@ -6,58 +6,90 @@
 <meta name="robots" content="noindex,nofollow">
 <title>Vote Helper Responses</title>
 <style>
+/*__FONTS__*/
 :root {
-  --bg: #ECEFEE; --surface: #FFFFFF; --surface-2: #F5F7F6; --ink: #121A1F; --ink-2: #4A5661;
-  --line: #C7CFD2; --wash: #DCE4E6; --bar: #2B6E7E; --danger: #A3261F;
+  --bg: #EEF1F0; --surface: #FFFFFF; --surface-2: #F4F6F5; --ink: #121A1F; --ink-2: #4E5A64; --ink-3: #6B7780;
+  --line: #D5DCDE; --line-2: #E6EBEC; --wash: #E3EAEC; --bar: #2B6E7E; --bar-soft: rgba(43, 110, 126, 0.14); --danger: #A3261F;
+  --shadow: 0 1px 2px rgba(18, 26, 31, 0.05), 0 4px 14px rgba(18, 26, 31, 0.05);
+  --f-display: "Archivo", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #10171B; --surface: #172127; --surface-2: #1D2930; --ink: #E8EEF0; --ink-2: #A9B6BD;
-    --line: #2F3E46; --wash: #24323A; --bar: #6FB3C4; --danger: #FF8A80; color-scheme: dark;
+    --bg: #0E1418; --surface: #161F25; --surface-2: #1C272E; --ink: #E8EEF0; --ink-2: #A9B6BD; --ink-3: #85939B;
+    --line: #2A3840; --line-2: #223037; --wash: #22303A; --bar: #6FB3C4; --bar-soft: rgba(111, 179, 196, 0.16); --danger: #FF8A80;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3); color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #10171B; --surface: #172127; --surface-2: #1D2930; --ink: #E8EEF0; --ink-2: #A9B6BD;
-  --line: #2F3E46; --wash: #24323A; --bar: #6FB3C4; --danger: #FF8A80; color-scheme: dark;
+  --bg: #0E1418; --surface: #161F25; --surface-2: #1C272E; --ink: #E8EEF0; --ink-2: #A9B6BD; --ink-3: #85939B;
+  --line: #2A3840; --line-2: #223037; --wash: #22303A; --bar: #6FB3C4; --bar-soft: rgba(111, 179, 196, 0.16); --danger: #FF8A80;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3); color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-main { max-width: 1120px; margin: 0 auto; padding: 20px 16px 60px; }
-h1 { font-size: 1.5rem; margin: 0; }
-h2 { font-size: 1.1rem; margin: 0 0 12px; }
-h3 { font-size: 0.98rem; margin: 0 0 8px; font-weight: 600; }
+::selection { background: var(--bar); color: var(--surface); }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); -webkit-font-smoothing: antialiased; }
+main { max-width: 1160px; margin: 0 auto; padding: 0 16px 64px; }
+h1 { font: 800 1.55rem/1.15 var(--f-display); font-stretch: 112%; letter-spacing: -0.01em; margin: 0; }
+h2 { font: 700 1.05rem/1.3 var(--f-display); font-stretch: 106%; margin: 0 0 12px; }
+h3 { font-size: 0.98rem; margin: 0 0 8px; font-weight: 700; }
 .muted { color: var(--ink-2); }
 .small { font-size: 0.85rem; }
-.top { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 16px; }
-.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-select, button, .btn { max-width: 100%; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; min-height: 36px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
-button:hover, .btn:hover { background: var(--wash); }
+.top { position: relative; z-index: 20; margin: 0 -16px 18px; padding: 14px 16px 12px; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: saturate(1.2) blur(8px); -webkit-backdrop-filter: saturate(1.2) blur(8px); border-bottom: 1px solid var(--line-2); display: grid; gap: 10px; }
+@media (min-width: 900px) { .top { position: sticky; top: 0; } .top-title { flex-wrap: nowrap; } .top-title #stamp { flex: 1; min-width: 0; } }
+.top-title { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; }
+.top-title #stamp { margin: 0; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: end; }
+.controls select { width: auto; max-width: 15rem; }
+.controls label { display: grid; gap: 3px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-3); }
+.top-title .actions { margin-left: auto; display: flex; gap: 8px; align-self: center; }
+select, button, .btn { max-width: 100%; font: inherit; font-size: 0.9rem; letter-spacing: 0; text-transform: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 6px 12px; min-height: 36px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: border-color 0.15s, background-color 0.15s; }
+select:hover, button:hover, .btn:hover { border-color: var(--ink-3); background: var(--surface-2); }
+select:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible { outline: 2px solid var(--bar); outline-offset: 2px; }
 button.danger { color: var(--danger); }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 16px; min-width: 0; }
+.card { background: var(--surface); border: 1px solid var(--line-2); border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; min-width: 0; box-shadow: var(--shadow); }
 .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 .grid > .card { margin-bottom: 0; }
-.kpis { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); margin-bottom: 16px; }
-.kpi { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
-.kpi b { display: block; font-size: 1.6rem; font-variant-numeric: tabular-nums; }
-.bars { display: grid; gap: 8px; }
-.bar-row { display: grid; grid-template-columns: minmax(90px, 160px) 1fr 64px; gap: 10px; align-items: center; }
+.kpis { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin-bottom: 16px; background: var(--line-2); border: 1px solid var(--line-2); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
+.kpi { padding: 14px 18px 15px; background: var(--surface); display: grid; gap: 2px; align-content: start; }
+.kpi b { display: block; font: 800 1.75rem/1.1 var(--f-display); font-stretch: 108%; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.kpi span { font-size: 0.82rem; color: var(--ink-2); line-height: 1.3; }
+.bars { display: grid; gap: 10px; }
+.bar-row { display: grid; grid-template-columns: minmax(90px, 160px) 1fr 64px; gap: 12px; align-items: center; }
 .bar-row .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.track { background: var(--surface-2); border-radius: 6px; height: 18px; overflow: hidden; }
-.fill { height: 100%; border-radius: 6px; background: var(--bar); min-width: 2px; }
-.val { text-align: right; font-variant-numeric: tabular-nums; }
-.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
-.days { display: flex; align-items: flex-end; gap: 3px; height: 140px; border-bottom: 1px solid var(--line); padding-top: 8px; }
-.day { flex: 1; background: var(--bar); border-radius: 3px 3px 0 0; min-height: 1px; position: relative; }
-.days-x { display: flex; justify-content: space-between; margin-top: 4px; }
-.q { border-top: 1px solid var(--line); padding: 14px 0; }
+.track { background: var(--surface-2); border-radius: 999px; height: 10px; overflow: hidden; }
+.fill { height: 100%; border-radius: 999px; background: var(--bar); min-width: 3px; }
+.val { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 7px; vertical-align: 0; }
+/* Responses per hour */
+.rate-head { display: flex; flex-wrap: wrap; gap: 6px 26px; margin: -2px 0 12px; }
+.rate-head div { display: grid; }
+.rate-head b { font: 800 1.25rem/1.2 var(--f-display); font-variant-numeric: tabular-nums; }
+.rate-head span { font-size: 0.78rem; color: var(--ink-2); }
+.rate-box { position: relative; }
+.rate { display: block; width: 100%; height: 230px; overflow: visible; touch-action: pan-y; }
+.rate .grid-l { stroke: var(--line-2); stroke-width: 1; shape-rendering: crispEdges; }
+.rate .day-l { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 3; shape-rendering: crispEdges; }
+.rate text { font: 11px var(--f-body); fill: var(--ink-3); font-variant-numeric: tabular-nums; }
+.rate .area { fill: var(--bar-soft); }
+.rate .line { fill: none; stroke: var(--bar); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.rate .avg { fill: none; stroke: var(--ink-2); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.rate .cross { stroke: var(--ink-3); stroke-width: 1; }
+.rate .pt { fill: var(--surface); stroke: var(--bar); stroke-width: 2; }
+.rate-tip { position: absolute; top: -6px; pointer-events: none; background: var(--ink); color: var(--surface); font-size: 0.8rem; padding: 5px 9px; border-radius: 8px; white-space: nowrap; transform: translateX(-50%); font-variant-numeric: tabular-nums; }
+.rate-key { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 8px; }
+.rate-key i { display: inline-block; width: 18px; height: 0; border-top: 2px solid var(--bar); vertical-align: middle; margin-right: 6px; }
+.rate-key i.avg { border-top: 2px dashed var(--ink-2); }
+.q { border-top: 1px solid var(--line-2); padding: 14px 0; }
 .q:first-of-type { border-top: 0; padding-top: 0; }
 .opt { display: grid; grid-template-columns: 1fr minmax(80px, 30%) 56px; gap: 10px; align-items: center; margin: 6px 0; }
 .chips { display: inline-flex; flex-wrap: wrap; gap: 4px; margin-left: 6px; }
-.chip { font-size: 0.72rem; padding: 1px 6px; border-radius: 999px; color: #fff; white-space: nowrap; }
+.chip { font-size: 0.72rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; color: #fff; white-space: nowrap; }
 table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-th { color: var(--ink-2); font-weight: 600; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line-2); vertical-align: top; }
+th { color: var(--ink-3); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; border-bottom-color: var(--line); }
+tbody tr:hover td { background: var(--surface-2); }
 .scroll { overflow-x: auto; }
 .empty { padding: 30px 0; text-align: center; }
 .tag { font-size: 0.75rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-left: 6px; color: var(--ink-2); }
@@ -65,10 +97,11 @@ th { color: var(--ink-2); font-weight: 600; }
 details.sec > summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
 details.sec > summary::-webkit-details-marker, details.q > summary::-webkit-details-marker { display: none; }
 details.sec > summary h2 { margin: 0; }
-details.sec[open] > summary { margin-bottom: 12px; }
-.caret { display: inline-block; width: 0.8em; color: var(--ink-2); transition: transform 0.15s; }
+details.sec > summary > .small { color: var(--ink-3); }
+details.sec[open] > summary { margin-bottom: 14px; }
+.caret { display: inline-block; width: 0.8em; color: var(--ink-3); transition: transform 0.15s; }
 details[open] > summary .caret { transform: rotate(90deg); }
-summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 4px; }
+summary:focus-visible { outline: 2px solid var(--bar); outline-offset: 3px; border-radius: 4px; }
 .sec-tools { margin-left: auto; display: flex; gap: 6px; }
 .sec-tools button { min-height: 30px; padding: 3px 10px; font-size: 0.85rem; }
 details.q > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1.2em minmax(0, 1fr) auto; gap: 8px; align-items: baseline; }
@@ -77,8 +110,8 @@ details.q[open] > summary { margin-bottom: 6px; }
 .q-sum { font-size: 0.82rem; color: var(--ink-2); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .more-rows tr.more { display: none; }
 .more-rows.show tr.more { display: table-row; }
-.linkish { border: 0; background: none; padding: 4px 0; min-height: 0; color: var(--bar); text-decoration: underline; text-align: left; }
-.linkish:hover { background: none; }
+.linkish { border: 0; background: none; padding: 4px 0; min-height: 0; color: var(--bar); text-decoration: underline; text-underline-offset: 3px; text-align: left; font-weight: 700; }
+.linkish:hover { background: none; border: 0; }
 /* Riding map: drawn from /geo/eds.json over /geo/basemap.json, pan and zoom by changing the SVG viewBox */
 :root { --water: #CFE0E8; --land: #F4F5F1; --coast: #7F9BA8; --river: #8FB7C9; --label: #24323A; --water-label: #3F6F86; --halo: #FFFFFF; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --water: #0D2230; --land: #26333C; --coast: #557584; --river: #2F5A70; --label: #DCE6EA; --water-label: #8DB9CE; --halo: #10171B; } }
@@ -93,7 +126,7 @@ details.q[open] > summary { margin-bottom: 6px; }
 #map-svg[data-z="0"] .rivers .r2, #map-svg[data-z="0"] .rivers .r3, #map-svg[data-z="1"] .rivers .r3 { display: none; }
 #map-svg .lakes, #map-svg .coast, #map-svg .rivers path, #map-svg #map-labels { pointer-events: none; }
 #map-svg .lakes, #map-svg .coast, #map-svg .rivers path { vector-effect: non-scaling-stroke; }
-#map-svg text { paint-order: stroke; stroke: var(--halo); stroke-linejoin: round; fill: var(--label); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+#map-svg text { paint-order: stroke; stroke: var(--halo); stroke-linejoin: round; fill: var(--label); font-family: var(--f-body); }
 #map-svg text.water { fill: var(--water-label); font-style: italic; }
 #map-svg text.region { fill: var(--ink-2); letter-spacing: 0.08em; text-transform: uppercase; }
 #map-svg circle.town { fill: var(--label); stroke: var(--halo); }
@@ -151,10 +184,12 @@ td.weak, .weak { color: var(--ink-2); }
 </head>
 <body>
 <main>
-  <div class="top">
-    <div>
+  <header class="top">
+    <div class="top-title">
       <h1>Vote Helper responses</h1>
       <p class="muted small" id="stamp">Loading...</p>
+      <span class="actions"><button type="button" id="refresh">Refresh</button>
+      <a class="btn" href="/api/admin/export.csv">Download CSV</a></span>
     </div>
     <div class="controls">
       <label class="small">Period
@@ -183,10 +218,8 @@ td.weak, .weak { color: var(--ink-2); }
           <option value="BC">BC only</option>
         </select>
       </label>
-      <button type="button" id="refresh">Refresh</button>
-      <a class="btn" href="/api/admin/export.csv">Download CSV</a>
     </div>
-  </div>
+  </header>
 
   <div id="out"></div>
 </main>
@@ -351,6 +384,7 @@ td.weak, .weak { color: var(--ink-2); }
       kpi(n, "people") + kpi(f.subs.length, "sessions") + kpi(families, "family sessions (2-4 people)") +
       kpi(last24, "people in the last 24 hours") + kpi(answeredAvg.toFixed(1), "questions answered, average") +
       kpi(f.subs.filter(function (s) { return s.riding && RIDBY[s.riding]; }).length, "sessions with a riding") + "</div>";
+    html += rateSection(P);
 
     html += '<div class="grid">';
     html += '<div class="card"><h2>Best match</h2><p class="muted small">Share of people whose top match is each party. Ties are split.</p>' +
@@ -366,18 +400,6 @@ td.weak, .weak { color: var(--ink-2); }
     html += byRidingTable(P, f);
     PAT_P = P;
     html += patternsSection(P) + pairsSection(P);
-
-    /* per day */
-    var days = {}; P.forEach(function (p) { var d = (p.sub.created_at || "").slice(0, 10); days[d] = (days[d] || 0) + 1; });
-    var keys = Object.keys(days).sort();
-    if (keys.length) {
-      var list = [], d0 = new Date(keys[0] + "T00:00:00Z"), d1 = new Date(keys[keys.length - 1] + "T00:00:00Z");
-      for (var d = d0; d <= d1; d = new Date(d.getTime() + 86400000)) { var k = d.toISOString().slice(0, 10); list.push({ k: k, v: days[k] || 0 }); }
-      var mx = Math.max.apply(null, list.map(function (x) { return x.v; }));
-      html += section("days", "People per day (UTC)", list.length + " days", '<div class="days">' + list.map(function (x) {
-        return '<div class="day" title="' + x.k + ": " + x.v + '" style="height:' + (100 * x.v / mx).toFixed(1) + '%"></div>';
-      }).join("") + '</div><div class="days-x small muted"><span>' + list[0].k + "</span><span>" + list[list.length - 1].k + "</span></div>");
-    }
 
     /* questions: each one collapses to a one-line summary */
     var showRegion = f.riding !== "all" && f.riding !== NOT_GIVEN && RIDBY[f.riding] ? RIDBY[f.riding].region : f.region !== "all" && f.region !== NOT_GIVEN ? f.region : null;
@@ -403,7 +425,7 @@ td.weak, .weak { color: var(--ink-2); }
       q.options.forEach(function (o, oi) {
         var c = counts[o.id] || 0;
         var chips = PIDS.filter(function (pid) { return Number(o.scores[pid]) === 4 && (q.no_pos || []).indexOf(pid) < 0; }).map(function (pid) {
-          return '<span class="chip" style="background:' + PBY[pid].color + '">' + esc(PBY[pid].short_name || PBY[pid].name) + "</span>";
+          return '<span class="chip" style="background:' + PBY[pid].color + ";color:" + chipInk(PBY[pid].color) + '">' + esc(PBY[pid].short_name || PBY[pid].name) + "</span>";
         }).join("");
         qhtml += '<div class="opt"><span class="small"><b>' + String.fromCharCode(65 + oi) + ".</b> " + esc(o.text) + (chips ? '<span class="chips">' + chips + "</span>" : "") + "</span>" +
           '<div class="track"><div class="fill" style="width:' + (100 * c / mx2).toFixed(1) + '%"></div></div><span class="val small">' + fmt(pct(c, given)) + "</span></div>";
@@ -450,6 +472,9 @@ td.weak, .weak { color: var(--ink-2); }
     el("del-btn").addEventListener("click", delSelected);
     wireCollapsibles();
     wirePatterns(el("out"));
+    drawRate();
+    var rd = el("out").querySelector('details[data-key="rate"]');
+    if (rd) rd.addEventListener("toggle", function () { if (rd.open) drawRate(); });
     mountMap(baseFiltered(), f);
   }
 
@@ -883,7 +908,111 @@ td.weak, .weak { color: var(--ink-2); }
       slot.innerHTML = '<div class="map-box"><p class="empty muted">Could not load the riding shapes (' + esc(e.message) + ").</p></div>";
     });
   }
-  function kpi(v, label) { return '<div class="kpi"><b>' + esc(v) + '</b><span class="small muted">' + esc(label) + "</span></div>"; }
+  /* Responses per hour (Pacific time): one point per hour from the first response to the data's time stamp, plus a trailing 24-hour average.
+     The SVG is drawn at the box's real width after render (and again on resize) so the text stays crisp. */
+  var RATE = null;
+  var PT_HOUR = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver", hour: "numeric", hourCycle: "h23" });
+  var PT_DAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver", weekday: "short", month: "short", day: "numeric" });
+  var PT_FULL = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver", weekday: "short", month: "short", day: "numeric", hour: "numeric" });
+  function rateSection(P) {
+    var H = 3600000, now = Date.parse(DATA.generated_at);
+    var ts = P.map(function (p) { return Date.parse(p.sub.created_at); }).filter(function (t) { return t === t; });
+    if (!ts.length) { RATE = null; return ""; }
+    var t0 = Math.floor(Math.min.apply(null, ts) / H) * H, t1 = Math.max(t0, Math.floor(now / H) * H);
+    var n = Math.round((t1 - t0) / H) + 1, c = [];
+    for (var i = 0; i < n; i++) c.push(0);
+    ts.forEach(function (t) { var k = Math.floor((t - t0) / H); if (k >= 0 && k < n) c[k]++; });
+    var avg = [], run = 0;
+    for (i = 0; i < n; i++) { run += c[i]; if (i >= 24) run -= c[i - 24]; avg.push(run / Math.min(24, i + 1)); }
+    var peak = 0; for (i = 1; i < n; i++) if (c[i] > c[peak]) peak = i;
+    var last24 = ts.filter(function (t) { return t >= now - 24 * H; }).length;  /* same window as the 24-hour count above */
+    RATE = { t0: t0, c: c, avg: avg };
+    var stat = function (v, label) { return "<div><b>" + esc(v) + "</b><span>" + esc(label) + "</span></div>"; };
+    var head = '<div class="rate-head">' +
+      stat(c[n - 1], "this hour so far") +
+      stat(last24, "in the last 24 hours (" + (last24 / 24).toFixed(1) + " an hour)") +
+      stat(c[peak], "busiest hour, " + PT_FULL.format(new Date(t0 + peak * H))) +
+      stat(ts.length, "people in this view") + "</div>";
+    var key = '<div class="rate-key small muted"><span><i></i>People per hour</span><span><i class="avg"></i>Average over the previous 24 hours</span><span>Times are Pacific. Point at the chart for each hour.</span></div>';
+    return section("rate", "Responses per hour", n > 48 ? Math.round(n / 24) + " days" : n + " hours",
+      head + '<div class="rate-box" id="rate-box"></div>' + key);
+  }
+  function niceStep(raw) {
+    var p = Math.pow(10, Math.floor(Math.log10(Math.max(raw, 1e-9)))), m = raw / p;
+    return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 5 ? 5 : 10) * p;
+  }
+  function drawRate() {
+    var box = el("rate-box");
+    if (!box || !RATE) return;
+    var W = Math.round(box.clientWidth);
+    if (!W) return;
+    var H = 3600000, HT = 230, L = 34, R = 10, T = 12, B = 28;
+    var c = RATE.c, avg = RATE.avg, n = c.length;
+    var max = Math.max(1, Math.max.apply(null, c)), step = Math.max(1, niceStep(max / 4)), top = Math.ceil(max / step) * step;
+    var x = function (i) { return L + (n === 1 ? (W - L - R) / 2 : (i * (W - L - R)) / (n - 1)); };
+    var y = function (v) { return T + (HT - T - B) * (1 - v / top); };
+    var s = '<svg class="rate" viewBox="0 0 ' + W + " " + HT + '" width="' + W + '" height="' + HT + '" role="img" aria-label="People per hour, from ' +
+      esc(PT_FULL.format(new Date(RATE.t0))) + " to " + esc(PT_FULL.format(new Date(RATE.t0 + (n - 1) * H))) + ", Pacific time. Busiest hour " + max + ' people.">';
+    for (var v = 0; v <= top; v += step) {
+      s += '<line class="grid-l" x1="' + L + '" x2="' + (W - R) + '" y1="' + y(v).toFixed(1) + '" y2="' + y(v).toFixed(1) + '"></line>' +
+        '<text x="' + (L - 6) + '" y="' + (y(v) + 4).toFixed(1) + '" text-anchor="end">' + v + "</text>";
+    }
+    /* midnight lines, labelled with the day; thin out labels when days are close together */
+    var mids = [];
+    for (var i = 0; i < n; i++) if (Number(PT_HOUR.format(new Date(RATE.t0 + i * H))) === 0) mids.push(i);
+    var every = Math.max(1, Math.ceil(mids.length / Math.max(1, Math.floor((W - L - R) / 74))));
+    mids.forEach(function (i, k) {
+      var X = x(i).toFixed(1);
+      s += '<line class="day-l" x1="' + X + '" x2="' + X + '" y1="' + T + '" y2="' + (HT - B) + '"></line>';
+      if (k % every === 0 && x(i) < W - R - 30) s += '<text x="' + (x(i) + 4).toFixed(1) + '" y="' + (HT - 9) + '">' + esc(PT_DAY.format(new Date(RATE.t0 + i * H))) + "</text>";
+    });
+    if (n <= 24 * 5 && ((W - L - R) / Math.max(1, n - 1)) * 6 >= 80) {
+      for (i = 0; i < n; i++) {
+        var hr = Number(PT_HOUR.format(new Date(RATE.t0 + i * H)));
+        if ((hr === 6 || hr === 12 || hr === 18) && x(i) > L + 40 && x(i) < W - R - 30)
+          s += '<text x="' + x(i).toFixed(1) + '" y="' + (HT - 9) + '" text-anchor="middle">' + (hr === 12 ? "noon" : hr === 6 ? "6 a.m." : "6 p.m.") + "</text>";
+      }
+    }
+    if (!mids.length || x(mids[0]) > L + 60) s += '<text x="' + L + '" y="' + (HT - 9) + '">' + esc(PT_DAY.format(new Date(RATE.t0))) + "</text>";
+    var line = "", av = "";
+    for (i = 0; i < n; i++) {
+      line += (i ? "L" : "M") + x(i).toFixed(1) + " " + y(c[i]).toFixed(1);
+      av += (i ? "L" : "M") + x(i).toFixed(1) + " " + y(avg[i]).toFixed(1);
+    }
+    s += '<path class="area" d="' + line + "L" + x(n - 1).toFixed(1) + " " + y(0).toFixed(1) + "L" + x(0).toFixed(1) + " " + y(0).toFixed(1) + 'Z"></path>' +
+      '<path class="avg" d="' + av + '"></path><path class="line" d="' + line + '"></path>' +
+      '<line class="cross" id="rate-cross" y1="' + T + '" y2="' + (HT - B) + '" visibility="hidden"></line>' +
+      '<circle class="pt" id="rate-pt" r="4" visibility="hidden"></circle>' +
+      '<rect id="rate-hit" x="' + L + '" y="0" width="' + (W - L - R) + '" height="' + HT + '" fill="transparent"></rect></svg><div class="rate-tip" id="rate-tip" hidden></div>';
+    box.innerHTML = s;
+    var hit = el("rate-hit"), cross = el("rate-cross"), pt = el("rate-pt"), tip = el("rate-tip");
+    function show(ev) {
+      var r = box.getBoundingClientRect(), px = ev.clientX - r.left;
+      var i = n === 1 ? 0 : Math.max(0, Math.min(n - 1, Math.round(((px - L) * (n - 1)) / (W - L - R))));
+      var X = x(i);
+      cross.setAttribute("x1", X); cross.setAttribute("x2", X); cross.setAttribute("visibility", "visible");
+      pt.setAttribute("cx", X); pt.setAttribute("cy", y(c[i])); pt.setAttribute("visibility", "visible");
+      tip.hidden = false;
+      tip.textContent = PT_FULL.format(new Date(RATE.t0 + i * H)) + ": " + c[i] + (c[i] === 1 ? " person" : " people") + " (24-hour average " + avg[i].toFixed(1) + ")";
+      var half = tip.offsetWidth / 2;
+      tip.style.left = Math.max(half, Math.min(W - half, X)) + "px";
+    }
+    function hide() { cross.setAttribute("visibility", "hidden"); pt.setAttribute("visibility", "hidden"); tip.hidden = true; }
+    hit.addEventListener("pointermove", show);
+    hit.addEventListener("pointerdown", show);
+    hit.addEventListener("pointerleave", hide);
+  }
+  var rateTimer = null;
+  window.addEventListener("resize", function () { clearTimeout(rateTimer); rateTimer = setTimeout(drawRate, 120); });
+  /* A party chip's text colour: dark ink on light party colours, white on dark ones */
+  function chipInk(hex) {
+    var m = /^#?([0-9a-f]{6})$/i.exec(hex || "");
+    if (!m) return "#fff";
+    var v = parseInt(m[1], 16), lin = function (c) { c /= 255; return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); };
+    var Lum = 0.2126 * lin(v >> 16 & 255) + 0.7152 * lin(v >> 8 & 255) + 0.0722 * lin(v & 255);
+    return (Lum + 0.05) / 0.05 > 1.05 / (Lum + 0.05) ? "#121A1F" : "#fff";
+  }
+  function kpi(v, label) { return '<div class="kpi"><b>' + esc(v) + "</b><span>" + esc(label) + "</span></div>"; }
 
   /* Candidate match for one riding: share of people whose top local party (local questions double) is each candidate's party */
   function candidatePanel(f, shareLocal, n) {

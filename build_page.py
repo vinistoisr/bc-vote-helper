@@ -268,6 +268,7 @@ def build_site(template, spec, logos, build_info, en, bundles):
             for q in spec["questions"]
         ],
     }
+    admin_tpl = admin_tpl.replace("/*__FONTS__*/", fonts_css)  # same self-hosted fonts as the quiz page
     (pub / "admin" / "index.html").write_text(admin_tpl.replace(SPEC_MARK, safe_json(slim)), encoding="utf-8", newline="\n")
     # Valid ids for server-side checks (every region's questions, every riding)
     valid = {
