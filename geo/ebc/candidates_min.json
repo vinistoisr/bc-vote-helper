@@ -206,6 +206,12 @@
 {
 "ED Code": "BNN",
 "Electoral District": "Burnaby-New Westminster",
+"Candidate Ballot Name": "Greg DePaco",
+"Affiliation": "BC Green Party"
+},
+{
+"ED Code": "BNN",
+"Electoral District": "Burnaby-New Westminster",
 "Candidate Ballot Name": "Joe Latam",
 "Affiliation": "Conservative Party"
 },
@@ -1996,6 +2002,12 @@
 "Electoral District": "Vancouver-Yaletown",
 "Candidate Ballot Name": "Priyan Samarakoone",
 "Affiliation": "BC Green Party"
+},
+{
+"ED Code": "VNY",
+"Electoral District": "Vancouver-Yaletown",
+"Candidate Ballot Name": "Timothy Webster",
+"Affiliation": "Other"
 },
 {
 "ED Code": "VNY",

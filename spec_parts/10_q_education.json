@@ -13,9 +13,9 @@
     "context": {
       "1": "Child care costs families a lot. The province pays for some low-cost spots, but it has paused adding new ones to save money. Some parties want many more low-cost spots or free child care. Others want schools to focus on reading, math and testing.",
       "2": "Child care can cost families as much as rent. About one in ten licensed spaces costs $10 a day, and the province has paused new $10-a-day spaces for three years to save money. Some fast-growing school districts still rely on portable classrooms. Parties disagree on whether to expand child care, focus schools on basics, or hold spending.",
-      "3": "About 10% of licensed child care spaces cost $10 a day. In 2026 the NDP government paused new $10-a-day spaces for three years. Some fast-growing school districts still use many portable classrooms. The Greens want free child care by 2031 and CentreBC wants 20,000 more $10-a-day spaces. The Conservatives and OneBC focus on testing, grades and the basics.",
+      "3": "About 10% of licensed child care spaces cost $10 a day. In 2026 the NDP government paused new $10-a-day spaces for three years. Some fast-growing school districts still use many portable classrooms. The Greens want free child care by 2031 and CentreBC wants 20,000 more $10-a-day spaces. In October the NDP promised more spaces and a fee cap, using federal money. The Conservatives and OneBC focus on testing, grades and the basics.",
       "4": "About 10% of licensed child care spaces cost $10 a day. In February 2026 the NDP government paused new $10-a-day enrolment for three years to fix the program's funding model. The Affordable Child Care Benefit still helps families with incomes up to $111,000. Fast-growing school districts still use portable classrooms.",
-      "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. The Greens' October 13 platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
+      "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. On October 17 the NDP pledged $80 million for school-based before- and after-school spaces and $250 million toward a renegotiated Canada-BC child care deal. The Greens' October 13 platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
     },
     "options": [
       {
@@ -79,7 +79,7 @@
           "5": "Add 20,000 $10-a-day spaces by 2030 with federal money and 25,000 seats with $750 million in capital, letter grades for Grades 4 to 9 from 2028, a counsellor per 400 students and 1,500 education assistants."
         },
         "scores": {
-          "ndp": 2,
+          "ndp": 3,
           "conservative": 1,
           "green": 3,
           "centrebc": 4,
@@ -96,7 +96,7 @@
           "5": "Make child care free by 2031, pay early childhood educators $35 to $45 an hour by 2028, fund school food and a counsellor per 250 students, move private school funding to public schools, and add a wealth tax."
         },
         "scores": {
-          "ndp": 1,
+          "ndp": 2,
           "conservative": 0,
           "green": 4,
           "centrebc": 2,
@@ -107,11 +107,11 @@
     "party_positions": {
       "ndp": {
         "text": {
-          "1": "This party made child care cheaper, then paused new low-cost spots. It has built schools, but some students still learn in portable classrooms.",
-          "3": "The NDP created $10-a-day child care, then in 2026 froze new spaces for three years. It says it has built 250 schools, but some fast-growing districts still rely on portable classrooms. It made no new education or child care promise in 2026.",
-          "5": "The NDP launched ChildCareBC in 2018 and had more than 16,000 $10-a-day spaces by March 2025, toward a goal of 20,000. In February 2026 it paused new enrolment and expansion, a freeze Global News reported as three years, and Budget 2026 adds $330 million over three years for child care. The party says it built 250 schools. Budget 2026 plans $3.9 billion over three years for school building and seismic upgrades. It made no education or child care commitment in 2026."
+          "1": "This party made child care cheaper, then paused new low-cost spots. In October it promised more spots and a cap on fees. It has built schools, but some students still learn in portable classrooms.",
+          "3": "The NDP created $10-a-day child care, then in 2026 froze new spaces for three years. On October 17 it promised 7,200 before- and after-school spaces ($80 million), $250 million to expand affordable child care with federal money, a wage grid for early childhood educators and a fee cap. It says it has built 250 schools, but some fast-growing districts still rely on portable classrooms. It made no new K-12 promise in 2026.",
+          "5": "The NDP launched ChildCareBC in 2018 and had more than 16,000 $10-a-day spaces by March 2025, toward a goal of 20,000. In February 2026 it paused new enrolment and expansion, a freeze Global News reported as three years, and Budget 2026 adds $330 million over three years for child care. The party says it built 250 schools. Budget 2026 plans $3.9 billion over three years for school building and seismic upgrades. On October 17, 2026 it pledged $80 million for 7,200 before- and after-school spaces on school grounds, and $250 million in new provincial money to leverage federal funding in the Canada-BC child care renegotiation (deadline December 1) for a provincial wage grid for early childhood educators, more affordable spaces and 'a hard, universal fee cap like Ontario'. It gave no cap amount, space target or date. It made no new K-12 commitment in 2026."
         },
-        "basis": "record",
+        "basis": "both",
         "confidence": "high",
         "sources": [
           {
@@ -127,12 +127,12 @@
             "url": "https://news.gov.bc.ca/releases/2025ECC0015-000242"
           },
           {
-            "label": "BC Ballot: BC NDP commitments (no education item)",
-            "url": "https://bcballot.ca/platforms/bc-ndp/"
-          },
-          {
             "label": "BC Budget 2026: Budget and Fiscal Plan (child care $330 million, school capital)",
             "url": "https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf"
+          },
+          {
+            "label": "BC NDP: more affordable child care for BC families (Oct 17, 2026)",
+            "url": "https://www.bcndp.ca/releases/bc-ndp-deliver-more-affordable-child-care-bc-families"
           }
         ]
       },
@@ -221,6 +221,6 @@
         ]
       }
     },
-    "scoring_rationale": "Five options. a = OneBC (4): standardized testing, Parental Bill of Rights, no child care spending; Conservative 3 (shares the testing focus and no child care pledge, has not proposed a Parental Bill of Rights in 2026). A teacher strike ban was removed from option a on October 13 because no party or news source for it was found; CentreBC 1 (published FSA results by school, nothing else). b = Conservative (4): basics-first with the 2024 letter-grade and exam pledges and no child care commitment inside a no-new-taxes frame; OneBC 3; CentreBC 2 (the same letter grades Grades 4-9 and literacy and numeracy focus, but the opposite on child care); NDP 1 (its freeze matches the no-expansion element, nothing else). c = NDP record (4): it built $10-a-day and then froze it, so the freeze is the operative position regardless of 2024 rhetoric; Conservative 2 (no expansion fits its fiscal frame, but it would not defend the program); CentreBC 1 (would lift the freeze, keeps building); OneBC 1. d = CentreBC's platform (4): 20,000 spaces, 25,000 seats, counsellors, letter grades; Green 3 (goes further on child care, shares counsellors and food, differs on grades and AI); NDP 2 (created $10-a-day and builds seats, now paused); Conservative 1 (letter grades only; a symmetry fix from 0 now that the option carries a grading element); OneBC 0. e = Green (4); CentreBC 2 (expands spaces and school food, not free care or an ECE wage grid); NDP 1 (same goal in 2018, opposite action in 2026). SOGI 123 is scored only in its own question. Symmetry: Conservative on a (3) and OneBC on b (3); Conservative on d (1) and CentreBC on b (2)."
+    "scoring_rationale": "Five options. a = OneBC (4): standardized testing, Parental Bill of Rights, no child care spending; Conservative 3 (shares the testing focus and no child care pledge, has not proposed a Parental Bill of Rights in 2026). A teacher strike ban was removed from option a on October 13 because no party or news source for it was found; CentreBC 1 (published FSA results by school, nothing else). b = Conservative (4): basics-first with the 2024 letter-grade and exam pledges and no child care commitment inside a no-new-taxes frame; OneBC 3; CentreBC 2 (the same letter grades Grades 4-9 and literacy and numeracy focus, but the opposite on child care); NDP 1 (its freeze matches the no-expansion element, nothing else). c = NDP record (4): it built $10-a-day and then froze it, and the freeze is still in force; its October 17 pledge adds 7,200 school-based spaces with $80 million of provincial money, but the wider expansion, wage grid and fee cap depend on a renegotiated federal deal, so c stays its closest option; Conservative 2 (no expansion fits its fiscal frame, but it would not defend the program); CentreBC 1 (would lift the freeze, keeps building); OneBC 1. d = CentreBC's platform (4): 20,000 spaces, 25,000 seats, counsellors, letter grades; Green 3 (goes further on child care, shares counsellors and food, differs on grades and AI); NDP 3 (created $10-a-day, builds seats and on October 17 pledged more affordable spaces with federal money, but no 20,000 target, letter grades or counsellors; score changed Oct 18 after the NDP child care release); Conservative 1 (letter grades only; a symmetry fix from 0 now that the option carries a grading element); OneBC 0. e = Green (4); CentreBC 2 (expands spaces and school food, not free care or an ECE wage grid); NDP 2 (an early childhood educator wage grid and a fee cap, not free care; score changed Oct 18 after the NDP child care release, matching CentreBC's 2 for expanding spaces). SOGI 123 is scored only in its own question. Symmetry: Conservative on a (3) and OneBC on b (3); Conservative on d (1) and CentreBC on b (2)."
   }
 ]

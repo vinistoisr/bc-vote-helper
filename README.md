@@ -166,7 +166,7 @@ To run your own copy on Cloudflare: copy `site/wrangler.example.toml` to `site/w
 Every link the tool uses, generated from `quiz_spec.json` by `gen_sources.py`. Click a section to expand it.
 
 <!-- SOURCES:START -->
-**712 unique links.**
+**725 unique links.**
 
 ### Party positions, question by question
 
@@ -582,7 +582,7 @@ For each question: the sources behind each party's position. The written reason 
 <details>
 <summary><b>What direction should BC take on climate change and energy?</b> (Province-wide, <code>q_climate_energy</code>)</summary>
 
-**BC NDP** (basis: record, confidence: high)
+**BC NDP** (basis: both, confidence: high)
 
 - [The Tyee: BC admits 2030 climate goal out of reach (May 2025)](https://thetyee.ca/News/2025/05/01/BC-Admits-Climate-Goals/)
 - [CBC: BC ends consumer carbon tax (April 2025)](https://www.cbc.ca/lite/story/1.7493181)
@@ -592,6 +592,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Government: B.C. eliminates carbon tax, output-based pricing stays (Mar 31, 2025)](https://news.gov.bc.ca/releases/2025FIN0014-000280)
 - [BOE Report / Canadian Press: Eby promises temporary 10-cent fuel tax cut (Oct 1, 2026)](https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/)
 - [BC Government: 2035 ZEV sales target cut from 100% to 75% (Apr 1, 2026)](https://news.gov.bc.ca/releases/2026ECS0009-000355)
+- [BC NDP: Build BC Strong plan page (climate and costing items, Oct 2026)](https://www.bcndp.ca/plan)
 
 **BC Conservatives** (basis: both, confidence: medium)
 
@@ -627,13 +628,13 @@ For each question: the sources behind each party's position. The written reason 
 <details>
 <summary><b>What should the province's priorities be for child care and for schools from kindergarten to Grade 12?</b> (Province-wide, <code>q_education_childcare</code>)</summary>
 
-**BC NDP** (basis: record, confidence: high)
+**BC NDP** (basis: both, confidence: high)
 
 - [Global News: $10-a-day program paused (Feb 2026)](https://globalnews.ca/news/11673463/10-a-day-daycare-program-paused/)
 - [Global News: Surrey schools and the NDP's building record](https://globalnews.ca/news/11350841/surrey-schools-ndp-building)
 - [BC Government: more than 16,000 $10-a-day spaces (Mar 24, 2025)](https://news.gov.bc.ca/releases/2025ECC0015-000242)
-- [BC Ballot: BC NDP commitments (no education item)](https://bcballot.ca/platforms/bc-ndp/)
 - [BC Budget 2026: Budget and Fiscal Plan (child care $330 million, school capital)](https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf)
+- [BC NDP: more affordable child care for BC families (Oct 17, 2026)](https://www.bcndp.ca/releases/bc-ndp-deliver-more-affordable-child-care-bc-families)
 
 **BC Conservatives** (basis: both, confidence: low)
 
@@ -747,6 +748,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Jagrup Brar campaign page (party-authored)](https://jagrupbrar.bcndp.ca)
 - [BC Gov News: all eight Surrey-Langley SkyTrain stations under construction (May 8, 2026)](https://news.gov.bc.ca/releases/2026TT0022-000515)
 - [Global News: TransLink gets $479 million in surplus money (March 15, 2023)](https://globalnews.ca/news/9553930/translink-funding-bc-government)
+- [BC NDP: getting around Surrey more easily and affordably (Oct 15, 2026)](https://www.bcndp.ca/releases/eby-will-help-people-surrey-get-around-more-easily-affordably)
 
 **BC Conservatives** (basis: both, confidence: low)
 
@@ -837,14 +839,16 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Gov News: 60 mental health beds with involuntary capacity in Surrey (Sept 4, 2026)](https://news.gov.bc.ca/releases/2026HLTH0034-001028)
 - [CBC: Horgan promises to rid Surrey schools of portables within four years (Aug 31, 2016)](https://www.cbc.ca/lite/story/1.3742047)
 - [CBC: B.C. school portables survey, Surrey has 361 (Sept 16, 2023)](https://www.cbc.ca/lite/story/1.6967543)
+- [BC NDP: Doerkson hiding plans on Massey and health care (Oct 15, 2026)](https://www.bcndp.ca/releases/doerkson-hiding-his-plans-cancel-massey-replacement-cut-healthcare)
 
-**BC Conservatives** (basis: platform, confidence: low)
+**BC Conservatives** (basis: platform, confidence: medium)
 
 - [Indo-Canadian Voice: Doerkson on the Surrey hospital (Oct 7, 2026)](https://voiceonline.com/doerkson-has-no-answer-on-surrey-hospital-more-than-halfway-built-bc-ndp/)
 - [Conservative Party of BC: Keep Emergency Rooms Open](https://conservativebc.ca/keep-emergency-rooms-open/)
 - [Sitka Media: Conservative seniors plan](https://www.sitkamedia.ca/watch-bc-conservatives-unveil-plan-to-support-seniors/)
 - [Conservative Party of BC: Garry Purewal candidate page](https://conservativebc.ca/candidate/garry-purewal/)
 - [Conservative Party of BC: response on health care (Oct 12, 2026)](https://conservativebc.ca/conservative-party-of-bc-responds-to-the-ndps-tired-health-care-fearmongering/)
+- [Conservative Party of BC: new Massey bridge and new hospital in Surrey (Oct 15, 2026)](https://conservativebc.ca/conservatives-will-build-a-new-massey-bridge-and-new-hospital-in-surrey/)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -877,6 +881,8 @@ For each question: the sources behind each party's position. The written reason 
 - [Sitka Media: TransLink calls for stable funding plan after NDP rules out levy (Oct 2, 2026)](https://www.sitkamedia.ca/translink-calls-for-stable-funding-plan-after-bc-ndp-says-vehicle-levy-road-pricing-off-the-table/)
 - [Daily Hive: NDP fuel tax cut pledge (Oct 1, 2026)](https://dailyhive.com/vancouver/bc-gas-prices-david-eby-election-2026)
 - [Global News: TransLink gets $479 million in surplus money (March 15, 2023)](https://globalnews.ca/news/9553930/translink-funding-bc-government)
+- [BC NDP: Eby will expand transit (Oct 14, 2026)](https://www.bcndp.ca/releases/eby-expand-transit-get-people-where-they-need-go-faster)
+- [BC NDP: getting around Surrey more easily and affordably (Oct 15, 2026)](https://www.bcndp.ca/releases/eby-will-help-people-surrey-get-around-more-easily-affordably)
 
 **BC Conservatives** (basis: platform, confidence: medium)
 
@@ -1299,6 +1305,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Chilliwack Progress: BC piloting landscape-level, zone-based forestry (Aug 27, 2026)](https://theprogress.com/2026/08/27/b-c-piloting-landscape-level-forestry-zone-based-management/)
 - [CKPG: Canfor announces permanent closure of Northwood pulp mill (July 14, 2026)](https://ckpgtoday.ca/2026/07/14/canfor-announces-permanent-closure-of-northwood-pulp-mill/)
 - [BC Gov News: Campbell River first candidate area for the Working Forest Landscape Model (Sept 15, 2026)](https://news.gov.bc.ca/releases/2026FOR0034-001069)
+- [BC NDP: Eby outlines next steps for forestry (Oct 14, 2026)](https://www.bcndp.ca/releases/eby-outlines-next-steps-forestry)
 
 **BC Conservatives** (no published position)
 
@@ -1418,6 +1425,9 @@ For each question: the sources behind each party's position. The written reason 
 - [Daily Hive: Eby grocery price guard on staples (Oct 2, 2026)](https://dailyhive.com/vancouver/david-eby-grocery-prices-bc)
 - [Morningstar DBRS rating report, downgrade April 9, 2026 (gov.bc.ca copy)](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/dbrs-rating-report.pdf)
 - [Fitch rating report, downgrade to AA- (April 24, 2026, gov.bc.ca copy)](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/fitch-rating-report.pdf)
+- [BC NDP: costing for Eby's plan (Oct 14, 2026)](https://www.bcndp.ca/releases/bc-ndp-releases-costing-ebys-plan-build-bc-strong)
+- [BC NDP: Build BC Strong plan page (climate and costing items, Oct 2026)](https://www.bcndp.ca/plan)
+- [Victoria News (Black Press): NDP releases costed platform (Oct 14, 2026)](https://vicnews.com/2026/10/14/ndp-release-costed-platform-with-added-spending-new-taxes-on-wealthy/)
 
 **Conservative Party of British Columbia**
 
@@ -1429,6 +1439,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Global News: who are the BC party leaders (Doerkson interim, constitution bars interim leader from permanent post)](https://globalnews.ca/news/12068973/who-are-bc-party-leaders-2026-election/)
 - [CFJC / Canadian Press: John Rustad resigns as leader (Dec 4, 2025)](https://cfjctoday.com/2025/12/04/john-rustad-resigns-as-leader-of-the-b-c-conservatives/)
 - [Castanet / Canadian Press: five return to Conservative caucus, party standings (Sept 21, 2026)](https://www.castanetkamloops.net/news/BC/631916/Five-return-to-B-C-Conservative-caucus-as-early-election-looms)
+- [Energeticcity (Canadian Press): voting begins without Conservative costed platform (Oct 16, 2026)](https://energeticcity.ca/2026/10/16/b-c-begins-voting-without-conservatives-costed-platform-doerkson-calls-it-imminent/)
 
 **BC Green Party**
 
@@ -1895,6 +1906,7 @@ Candidate lists come from Elections BC's official 2026 candidate list. Bios and 
 - 2024 result: <https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf ; cross-checked against https://bcballot.ca/ridings/burnaby-new-westminster/>
 - Raj Chouhan (BC NDP): [Global News: Raj Chouhan becomes first South Asian Speaker (Dec 7, 2020)](https://globalnews.ca/news/7506336/mla-raj-chouhan-becomes-b-c-s-first-south-asian-speaker-of-the-house/), [Burnaby Board of Trade](https://www.bbot.ca/2026/10/09/election-candidates-copy/)
 - Joe Latam (BC Conservatives): [BC Conservatives candidate page](https://conservativebc.ca/candidate/joe-latam/), [Burnaby Board of Trade](https://www.bbot.ca/2026/10/09/election-candidates-copy/)
+- Greg DePaco (BC Green on the ballot; withdrew Oct 9): [Elections BC: candidate withdrawn, Burnaby-New Westminster (Oct 10, 2026)](https://elections.bc.ca/news/2026-provincial-general-election-candidates-update-3/)
 
 **Coquitlam-Burke Mountain** (`CQB`)
 
@@ -1932,7 +1944,7 @@ Candidate lists come from Elections BC's official 2026 candidate list. Bios and 
 - Maureen Curran (BC Greens): [BC Greens candidate page](https://bcgreens.ca/candidates-2026/maureen-curran/), [BC Ballot riding page](https://bcballot.ca/ridings/new-westminster-coquitlam/)
 - Michele Lau (BC Conservatives): [BC Conservatives candidate page](https://conservativebc.ca/candidate/michele-lau/), [BC Ballot riding page](https://bcballot.ca/ridings/new-westminster-coquitlam/)
 - Jennifer Whiteside (BC NDP): [BC Government: Minister Jennifer Whiteside biography](https://news.gov.bc.ca/ministries/labour/biography)
-- Gerry Lenoski (Unaffiliated): [Elections BC 2026 candidate list (page)](https://elections.bc.ca/2026-provincial-election/candidate-list/), [BC Ballot riding page](https://bcballot.ca/ridings/new-westminster-coquitlam/)
+- Gerry Lenoski (Unaffiliated on the ballot; withdrew Oct 13): [Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)](https://elections.bc.ca/news/2026-provincial-general-election-candidates/), [Elections BC 2026 candidate list (page)](https://elections.bc.ca/2026-provincial-election/candidate-list/)
 
 **North Vancouver-Lonsdale** (`NVL`)
 
@@ -1948,7 +1960,7 @@ Candidate lists come from Elections BC's official 2026 candidate list. Bios and 
 - Susie Chant (BC NDP): [BC Government: Parliamentary Secretary for Seniors' Services and Long-Term Care (Susie Chant)](https://www2.gov.bc.ca/gov/content/governments/organizational-structure/cabinet/cabinet-ministers/parliamentary-secretary-seniors-services-long-term-care)
 - Lori Climenhaga (CentreBC): [CentreBC candidate page](https://www.centrebc.ca/candidates/lori-climenhaga/)
 - Ben Holt (BC Greens): [BC Greens candidate page](https://bcgreens.ca/candidates-2026/ben-holt/)
-- Frederick Thiele (OneBC): [OneBC: Fred Thiele candidate page](https://1bc.ca/candidates/fthiele)
+- Frederick Thiele (OneBC on the ballot; withdrew Oct 13): [Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)](https://elections.bc.ca/news/2026-provincial-general-election-candidates/), [OneBC: Fred Thiele candidate page](https://1bc.ca/candidates/fthiele)
 
 **Port Coquitlam** (`POC`)
 
@@ -2074,9 +2086,9 @@ Candidate lists come from Elections BC's official 2026 candidate list. Bios and 
 
 - 2024 result: <https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf>
 - Amanda Burrows (BC NDP): [Daily Hive](https://dailyhive.com/vancouver/amanda-burrows-bc-ndp)
-- Jordan Zheng McIntosh (BC Conservatives): [Conservative Party of BC candidate page](https://www.conservativebc.ca/candidate/jordan-mcintosh/)
 - Tanya Webking (BC Greens): [BC Greens candidate page](https://bcgreens.ca/candidates-2026/tanya-webking/)
 - Robert Crooks (Communist Party of BC): [Wikipedia: Communist Party of British Columbia](https://en.wikipedia.org/wiki/Communist_Party_of_British_Columbia), [Elections BC Statement of Votes 2024](https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf)
+- Jordan Zheng McIntosh (Conservative on the ballot; dropped by the party Oct 15): [insauga (Canadian Press): Conservatives drop Vancouver-Strathcona candidate (Oct 15, 2026)](https://www.insauga.com/b-c-conservatives-dump-candidate-accused-of-hitler-remarks/), [Conservative Party of BC candidate page](https://www.conservativebc.ca/candidate/jordan-mcintosh/)
 
 **Vancouver-West End** (`VNW`)
 
@@ -2092,6 +2104,7 @@ Candidate lists come from Elections BC's official 2026 candidate list. Bios and 
 - Margareta Dovgal (BC Conservatives): [Conservative Party of BC candidate page](https://www.conservativebc.ca/candidate/margareta-dovgal/)
 - Priyan Samarakoone (BC Greens): [BC Greens candidate page](https://bcgreens.ca/candidates-2026/priyan-samarakoone/)
 - Terry Yung (BC NDP): [BC Government: Minister of State Terry Yung biography](https://news.gov.bc.ca/ministries/community-safety-and-integrated-services/biography), [BC NDP: our eighteen newest MLAs (party)](https://www.bcndp.ca/latest/our-eighteen-newest-mlas-standing-strong-bc-you-every-day)
+- Timothy Webster (On the ballot; withdrew Oct 8): [Elections BC: candidate withdrawn, Vancouver-Yaletown (Oct 2026)](https://elections.bc.ca/news/2026-provincial-general-election-candidates-update/)
 
 **West Vancouver-Capilano** (`WVC`)
 

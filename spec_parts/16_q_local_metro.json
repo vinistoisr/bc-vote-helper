@@ -107,9 +107,9 @@
     "party_positions": {
       "ndp": {
         "text": {
-          "1": "This party gives transit extra money now, rules out a yearly car fee, and promises a new money plan in two years.",
-          "3": "The NDP government gave TransLink $312 million in 2025, enough to the end of 2027. On October 2 it ruled out a vehicle levy and road pricing and promised a 2027 law to create a new revenue source, without saying what. It also promises a 10 cent a litre fuel tax cut.",
-          "5": "Record: $479 million to TransLink in March 2023 and $312 million for 2025 to 2027, about half the shortfall. On October 2, 2026 Eby said 'a vehicle levy or road pricing are not options we would proceed with' and promised 2027 legislation for a 2028 revenue source, unnamed. The NDP also pledges a 10 cent a litre fuel tax cut and a price cap through the Utilities Commission; the Greens say that erodes the fuel tax that funds TransLink."
+          "1": "This party gives transit extra money now, rules out a yearly car fee, and promises a new money plan in two years. It also promises more bus money and fast bus lines.",
+          "3": "The NDP government gave TransLink $312 million in 2025, enough to the end of 2027. On October 2 it ruled out a vehicle levy and road pricing and promised a 2027 law to create a new revenue source, without saying what. It also promises a 10 cent a litre fuel tax cut. On October 14 it added $40 million a year for BC Transit and promised bus rapid transit in Metro Vancouver.",
+          "5": "Record: $479 million to TransLink in March 2023 and $312 million for 2025 to 2027, about half the shortfall. On October 2, 2026 Eby said 'a vehicle levy or road pricing are not options we would proceed with' and promised 2027 legislation for a 2028 revenue source, unnamed. The NDP also pledges a 10 cent a litre fuel tax cut and a price cap through the Utilities Commission; the Greens say that erodes the fuel tax that funds TransLink. On October 14 it added $40 million a year for BC Transit, a pledge to 'deliver rapid bus transit' in Metro Vancouver and to develop a long-term revenue model with TransLink, with no route, service target or cost for the rapid buses; on October 15 it pledged $250 million toward bus rapid transit on King George Boulevard from Surrey to White Rock."
         },
         "basis": "both",
         "confidence": "high",
@@ -129,6 +129,14 @@
           {
             "label": "Global News: TransLink gets $479 million in surplus money (March 15, 2023)",
             "url": "https://globalnews.ca/news/9553930/translink-funding-bc-government"
+          },
+          {
+            "label": "BC NDP: Eby will expand transit (Oct 14, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-expand-transit-get-people-where-they-need-go-faster"
+          },
+          {
+            "label": "BC NDP: getting around Surrey more easily and affordably (Oct 15, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-will-help-people-surrey-get-around-more-easily-affordably"
           }
         ]
       },
@@ -218,7 +226,7 @@
         "no_position": true
       }
     },
-    "scoring_rationale": "a = NDP (4): the October 2 levy ruling-out, the 2027 revenue law and the fuel tax cut are all its own; Conservative 2 (shares the no-levy stance and funds TransLink today, but has no revenue law and attacks the fuel tax cut as a reversal); CentreBC 2 (no levy position, no revenue law, funds service instead); Green 1 (opposes the fuel tax cut and wants far more funding). b = Conservative (4): no new taxes, Metro Vancouver rollback, HandyDART; CentreBC 2 (no new broad taxes and cost reviews, but it adds transit spending and has no regional district position); NDP 1 (also rules out a levy but keeps subsidies and plans a revenue law); Green 0. c = Green (4); Green scores 3 on d because CentreBC's service increase and pass credit move in its direction; CentreBC 2 on c (expansion overlaps, no free fares or windfall tax); NDP 1; Conservative 0. d = CentreBC (4); NDP 2 (funds interim service, no credit or rapid bus pledge); Conservative 1 (no 2026 transit commitment). e has no home: no party proposes a levy or road pricing; Green 2 because its all-party committee could choose one and it opposes drivers-first framing; CentreBC 1 (silent); NDP and Conservative 0 (both ruled it out). OneBC has no transit position and is no_position. Balance: the three Metro questions give every scored party one home each; the Conservatives' Metro homes rest on fiscal and process stances rather than transit or zoning proposals, which is noted as low to medium confidence rather than corrected by score."
+    "scoring_rationale": "a = NDP (4): the October 2 levy ruling-out, the 2027 revenue law and the fuel tax cut are all its own; Conservative 2 (shares the no-levy stance and funds TransLink today, but has no revenue law and attacks the fuel tax cut as a reversal); CentreBC 2 (no levy position, no revenue law, funds service instead); Green 1 (opposes the fuel tax cut and wants far more funding). b = Conservative (4): no new taxes, Metro Vancouver rollback, HandyDART; CentreBC 2 (no new broad taxes and cost reviews, but it adds transit spending and has no regional district position); NDP 1 (also rules out a levy but keeps subsidies and plans a revenue law); Green 0. c = Green (4); Green scores 3 on d because CentreBC's service increase and pass credit move in its direction; CentreBC 2 on c (expansion overlaps, no free fares or windfall tax); NDP 1; Conservative 0. d = CentreBC (4); NDP 2 (funds interim service and, from October 14, more BC Transit money and rapid bus lines with no number or service target; no pass credit or 15% service pledge); Conservative 1 (no 2026 transit commitment). e has no home: no party proposes a levy or road pricing; Green 2 because its all-party committee could choose one and it opposes drivers-first framing; CentreBC 1 (silent); NDP and Conservative 0 (both ruled it out). OneBC has no transit position and is no_position. Balance: the three Metro questions give every scored party one home each; the Conservatives' Metro homes rest on fiscal and process stances rather than transit or zoning proposals, which is noted as low to medium confidence rather than corrected by score."
   },
   {
     "id": "q_local_metro_title_homes",

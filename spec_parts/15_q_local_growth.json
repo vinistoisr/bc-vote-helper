@@ -13,7 +13,7 @@
     "context": {
       "1": "A new hospital is being built in Cloverdale, but it will not open until 2030. More patients now leave the busy Surrey Memorial emergency room before a doctor sees them. Many students learn in portable classrooms. Parties disagree on how to pay for more.",
       "2": "The province pays to build hospitals and schools. The new Cloverdale hospital will open in 2030, three years later than first planned. At Surrey Memorial, more emergency patients now leave before being seen. Surrey schools had 361 portables in 2023. The province is borrowing heavily, and parties disagree on how fast to build and how to pay.",
-      "3": "The NDP government is building the Cloverdale hospital and new school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The Conservatives say they are 'contemplating' the hospital and offer emergency room funding and a wait-time commission. The Greens want a health centre in every riding. CentreBC would build a new tower at Surrey Memorial, plan a children's hospital and add 25,000 school seats across BC. OneBC would allow private clinics.",
+      "3": "The NDP government is building the Cloverdale hospital and new school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The Conservatives promise to finish the Cloverdale hospital and build a women and children's hospital in Surrey, and offer emergency room funding and a wait-time commission. The Greens want a health centre in every riding. CentreBC would build a new tower at Surrey Memorial, plan a children's hospital and add 25,000 school seats across BC. OneBC would allow private clinics.",
       "4": "The Cloverdale hospital's cost rose from $1.72 billion to about $2.88 billion, and its opening slipped from 2027 to 2030. In 2024, Surrey Memorial's emergency doctors said 8.4% of patients leave without being seen. The Surrey school district has asked for $5.49 billion and had 361 portables in 2023. In 2016 the NDP promised to remove all of Surrey's portables within four years of taking office, and that pledge was not met.",
       "5": "The Cloverdale hospital was half built in March 2026, with completion in August 2029, patients in 2030 and a cost of about $2.88 billion, up from $1.72 billion. In a September 2024 letter, Surrey Memorial emergency doctors said 8.4% of patients leave without being seen, up from 2.9% in 2020-21. Surrey enrolment passed 83,000 in 2024-25; the district expects 700 to 800 more students a year and about 87,000 by 2035, has asked for $5.49 billion for 76 projects, and had 361 portables in 2023. About 2,300 seats were under construction in August 2025; an 800-seat addition at Fleetwood Park Secondary is in design, with building due to start in winter 2027. Budget 2026 set provincial capital spending at $18.7 billion, below the $20.4 billion forecast."
     },
@@ -29,7 +29,7 @@
         },
         "scores": {
           "ndp": 4,
-          "conservative": 1,
+          "conservative": 2,
           "green": 2,
           "centrebc": 2,
           "onebc": 0
@@ -109,7 +109,7 @@
         "text": {
           "1": "This party is building the new hospital and new classrooms, and wants more clinics.",
           "3": "The NDP is building the Cloverdale hospital and new Surrey school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The hospital's cost rose about $1 billion and its opening slipped three years. It did not meet its 2016 promise to end Surrey's portables within four years.",
-          "5": "The Cloverdale hospital now costs about $2.88 billion, up from $1.72 billion, with completion in August 2029 instead of 2027. The NDP is building a medical school at Simon Fraser University in Surrey and 60 mental health beds in Surrey, including involuntary care, due in spring 2028. About 2,300 school seats are under construction and 19 of 40 modular buildings replaced portables, but the district had a $16 million budget shortfall in 2025-26. For 2026 it promises 20 clinics, help for foreign-trained doctors, 1,000 training seats, and eight MRI machines and 10 CT scanners across BC. Candidate Brar promises 'a new hospital' with no timeline."
+          "5": "The Cloverdale hospital now costs about $2.88 billion, up from $1.72 billion, with completion in August 2029 instead of 2027. The NDP is building a medical school at Simon Fraser University in Surrey and 60 mental health beds in Surrey, including involuntary care, due in spring 2028. About 2,300 school seats are under construction and 19 of 40 modular buildings replaced portables, but the district had a $16 million budget shortfall in 2025-26. For 2026 it promises 20 clinics, help for foreign-trained doctors, 1,000 training seats, and eight MRI machines and 10 CT scanners across BC. On October 15 it said it would work with municipal leaders who have offered land for a new health care facility in Surrey. Candidate Brar promises 'a new hospital' with no timeline."
         },
         "basis": "both",
         "confidence": "high",
@@ -157,17 +157,21 @@
           {
             "label": "CBC: B.C. school portables survey, Surrey has 361 (Sept 16, 2023)",
             "url": "https://www.cbc.ca/lite/story/1.6967543"
+          },
+          {
+            "label": "BC NDP: Doerkson hiding plans on Massey and health care (Oct 15, 2026)",
+            "url": "https://www.bcndp.ca/releases/doerkson-hiding-his-plans-cancel-massey-replacement-cut-healthcare"
           }
         ]
       },
       "conservative": {
         "text": {
-          "1": "This party wants to keep emergency rooms open and is still deciding about the new hospital.",
-          "3": "Asked about the hospital on October 7, Doerkson said 'we're contemplating all of that for our platform rollout'. Its health plan offers emergency room funding, a 100-day wait-time commission, no cuts, and long-term care funding that follows the senior. It has no Surrey school pledge.",
-          "5": "Asked about the hospital on October 7, Doerkson said 'we're contemplating all of that for our platform rollout'. Its Keep Emergency Rooms Open plan (October 5) offers a $50 million emergency fund, a 100-day expert commission and a promise to keep current health care spending in place; on October 12 the party restated that care would stay universal and publicly funded. Its seniors plan (October 9) reviews long-term care design rules, lets care funding follow the senior and offers a choice of home care provider. It has no position on school capital or Surrey Memorial. Candidate Purewal has published only party themes."
+          "1": "This party will finish the new Cloverdale hospital, plans a new women and children's hospital in Surrey, and wants to keep emergency rooms open.",
+          "3": "On October 15 the Conservatives committed to complete the Surrey Hospital in Cloverdale 'on time and on budget' and to build a new Women and Children's Hospital in Surrey, with no cost or date for the second one. Their health plan also offers emergency room funding, a 100-day wait-time commission, no cuts, and long-term care funding that follows the senior. They have no Surrey school pledge.",
+          "5": "On October 15 the party committed to 'complete the Surrey Hospital in Cloverdale on time and on budget' and to build a new Women and Children's Hospital in Surrey; it gave no cost or date for the children's hospital. This replaces Doerkson's October 7 answer that 'we're contemplating all of that for our platform rollout'. Its Keep Emergency Rooms Open plan (October 5) offers a $50 million emergency fund, a 100-day expert commission and a promise to keep current health care spending in place; on October 12 the party restated that care would stay universal and publicly funded. Its seniors plan (October 9) reviews long-term care design rules, lets care funding follow the senior and offers a choice of home care provider. It has no position on school capital or Surrey Memorial. Candidate Purewal has published only party themes."
         },
         "basis": "platform",
-        "confidence": "low",
+        "confidence": "medium",
         "sources": [
           {
             "label": "Indo-Canadian Voice: Doerkson on the Surrey hospital (Oct 7, 2026)",
@@ -188,6 +192,10 @@
           {
             "label": "Conservative Party of BC: response on health care (Oct 12, 2026)",
             "url": "https://conservativebc.ca/conservative-party-of-bc-responds-to-the-ndps-tired-health-care-fearmongering/"
+          },
+          {
+            "label": "Conservative Party of BC: new Massey bridge and new hospital in Surrey (Oct 15, 2026)",
+            "url": "https://conservativebc.ca/conservatives-will-build-a-new-massey-bridge-and-new-hospital-in-surrey/"
           }
         ]
       },
@@ -265,6 +273,6 @@
         ]
       }
     },
-    "scoring_rationale": "Applies the provincial health and education positions to Surrey's two biggest capital files. a = NDP (4), with the cost overrun and portable pledge noted in the explainer; CentreBC 2 (the same builds, clinics and foreign-doctor pipeline, but it rejects the borrowing and top-earner tax in the option and funds them by attrition); Green 2 (would continue the builds but fund them differently); Conservative 1 ('contemplating'); OneBC 0. b = Conservative (4); CentreBC 2 (ER law and fund, LTC beds, letter grades and no new taxes, but rejects portable funding to non-government providers, the option's defining element, as in the provincial health question); OneBC 2 (private-pay direction, no position on the ER fund, portable funding or school basics beyond testing); NDP 1. c = Green (4); NDP 2; CentreBC 2 (counsellors 1:400, 1,500 EAs and school food to 40%, but no health centre per riding or wealth tax). d = CentreBC's platform (4): SMH tower, children's hospital, 25,000 seats, primary-care teams, LTC; NDP 2 (it announced the SMH tower in 2024 and builds seats and LTC; a symmetry fix from 1 after the option was rewritten; no children's hospital or published-budget commitment); Conservative 2 (LTC first, no new taxes, hospital undecided); Green 1; OneBC 1. e = OneBC (4); Conservative 1 (dropped 2024 private-clinic plank). Safety and SOGI content belong to their own questions and are not repeated here. Candidates inherit party scores; honesty note: none has published a position that differs from their party on either file."
+    "scoring_rationale": "Applies the provincial health and education positions to Surrey's two biggest capital files. a = NDP (4), with the cost overrun and portable pledge noted in the explainer; CentreBC 2 (the same builds, clinics and foreign-doctor pipeline, but it rejects the borrowing and top-earner tax in the option and funds them by attrition); Green 2 (would continue the builds but fund them differently); Conservative 2 (on October 15 it committed to finish the Cloverdale hospital, but has no school, clinic or training-seat pledge and rejects the tax side; score changed Oct 18 after the Conservative Surrey hospital release); OneBC 0. b = Conservative (4); CentreBC 2 (ER law and fund, LTC beds, letter grades and no new taxes, but rejects portable funding to non-government providers, the option's defining element, as in the provincial health question); OneBC 2 (private-pay direction, no position on the ER fund, portable funding or school basics beyond testing); NDP 1. c = Green (4); NDP 2; CentreBC 2 (counsellors 1:400, 1,500 EAs and school food to 40%, but no health centre per riding or wealth tax). d = CentreBC's platform (4): SMH tower, children's hospital, 25,000 seats, primary-care teams, LTC; NDP 2 (it announced the SMH tower in 2024 and builds seats and LTC; a symmetry fix from 1 after the option was rewritten; no children's hospital or published-budget commitment); Conservative 2 (LTC first, no new taxes, and a women and children's hospital promised on October 15 with no cost or date; no Surrey Memorial tower); Green 1; OneBC 1. e = OneBC (4); Conservative 1 (dropped 2024 private-clinic plank). Safety and SOGI content belong to their own questions and are not repeated here. Candidates inherit party scores; honesty note: none has published a position that differs from their party on either file."
   }
 ]

@@ -90,9 +90,9 @@
     "party_positions": {
       "ndp": {
         "text": {
-          "1": "This party is building the SkyTrain line and has ruled out a yearly car fee.",
-          "3": "The NDP is building the SkyTrain for late 2029. The cost rose from $4 billion to $6 billion and the opening slipped a year. It has ruled out a vehicle levy and promises a 2027 law for new revenue, without saying where the money would come from.",
-          "5": "The line costs $5.996 billion, opens in late 2029 and has three stations in the Fleetwood area; $2.508 billion had been spent by April 2026. The NDP gave TransLink $479 million in March 2023 and $312 million to the end of 2027, ruled out a vehicle levy on October 2, 2026, and promises a 2027 law for a 2028 revenue source. The cost rose in August 2024. Candidate Jagrup Brar lists 'a SkyTrain extension' with no timeline."
+          "1": "This party is building the SkyTrain line and has ruled out a yearly car fee. It also promises fast buses on King George Boulevard and free bus passes for low-income seniors.",
+          "3": "The NDP is building the SkyTrain for late 2029. The cost rose from $4 billion to $6 billion and the opening slipped a year. It has ruled out a vehicle levy and promises a 2027 law for new revenue, without saying where the money would come from. On October 15 it promised $250 million for bus rapid transit on King George Boulevard to White Rock and a free bus pass for low-income seniors.",
+          "5": "The line costs $5.996 billion, opens in late 2029 and has three stations in the Fleetwood area; $2.508 billion had been spent by April 2026. The NDP gave TransLink $479 million in March 2023 and $312 million to the end of 2027, ruled out a vehicle levy on October 2, 2026, and promises a 2027 law for a 2028 revenue source. The cost rose in August 2024. On October 15 it pledged $250 million to leverage federal money for bus rapid transit on King George Boulevard from Surrey to White Rock, with TransLink, and to make the Seniors' Bus Pass free for 350,000 low-income seniors and widen its income limit. Candidate Jagrup Brar lists 'a SkyTrain extension' with no timeline."
         },
         "basis": "both",
         "confidence": "high",
@@ -116,6 +116,10 @@
           {
             "label": "Global News: TransLink gets $479 million in surplus money (March 15, 2023)",
             "url": "https://globalnews.ca/news/9553930/translink-funding-bc-government"
+          },
+          {
+            "label": "BC NDP: getting around Surrey more easily and affordably (Oct 15, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-will-help-people-surrey-get-around-more-easily-affordably"
           }
         ]
       },
@@ -225,6 +229,6 @@
         "no_position": true
       }
     },
-    "scoring_rationale": "a = NDP (4); Green 3 (finish and expand, no levy objection); Conservative 2 (would finish the line, no commitment to a new revenue law); CentreBC 2 (finishes the line and funds more service, silent on a levy or a revenue law). b = Conservative (4), built from the 2024 cost attack, the no-new-taxes pledge and the Metro Vancouver rollback; CentreBC 2 (independent cost reviews over $100M and no new broad taxes, but it adds transit spending and has no Metro Vancouver position); NDP 1; Green 0. c = Green (4); NDP 2 (expands transit, no free fares); CentreBC 2 (a 15% pass credit is partial fare relief; rapid bus and rail expansion overlap; no wealth tax); Conservative 0. d = CentreBC's platform (4): SLS as a priority, rapid bus, 15% more service, commuter credit; Green 3 (expansion and fare relief in its direction, short of free transit); NDP 2 (is building the line and funding interim service, no credit or rapid bus pledge); Conservative 1 (no 2026 transit commitment). Option d was added on October 10 when CentreBC published a transit position; before that it was no_position here. OneBC has no transit position and is excluded from this question (no_position) rather than placed by fiscal inference. Candidates carry party scores; none has a local transit position."
+    "scoring_rationale": "a = NDP (4); Green 3 (finish and expand, no levy objection); Conservative 2 (would finish the line, no commitment to a new revenue law); CentreBC 2 (finishes the line and funds more service, silent on a levy or a revenue law). b = Conservative (4), built from the 2024 cost attack, the no-new-taxes pledge and the Metro Vancouver rollback; CentreBC 2 (independent cost reviews over $100M and no new broad taxes, but it adds transit spending and has no Metro Vancouver position); NDP 1; Green 0. c = Green (4); NDP 2 (expands transit; free passes only for low-income seniors, not fare-free transit); CentreBC 2 (a 15% pass credit is partial fare relief; rapid bus and rail expansion overlap; no wealth tax); Conservative 0. d = CentreBC's platform (4): SLS as a priority, rapid bus, 15% more service, commuter credit; Green 3 (expansion and fare relief in its direction, short of free transit); NDP 2 (is building the line, funds interim service and on October 15 pledged King George bus rapid transit, but no pass credit or 15% service target); Conservative 1 (no 2026 transit commitment). Option d was added on October 10 when CentreBC published a transit position; before that it was no_position here. OneBC has no transit position and is excluded from this question (no_position) rather than placed by fiscal inference. Candidates carry party scores; none has a local transit position."
   }
 ]

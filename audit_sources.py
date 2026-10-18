@@ -47,7 +47,7 @@ castanet.net castanetkamloops.net cfjctoday.com ckpgtoday.ca energeticcity.ca si
 sitkamedia.ca fraservalleytoday.ca mykootenaynow.com nanaimonewsnow.com mysouthokanagannow.com mynelsonnow.com
 todayinbc.com am1150.ca connectfm.ca cjdctv.com nsnews.com delta-optimist.com prpeak.com piquenewsmagazine.com
 therockymountaingoat.com voiceonline.com fvcurrent.com medicinehatnews.com westknews.com
-mycariboonow.com peacearchnews.com vicnews.com narcity.com
+mycariboonow.com peacearchnews.com vicnews.com narcity.com insauga.com
 """.split()
 
 T3 = """

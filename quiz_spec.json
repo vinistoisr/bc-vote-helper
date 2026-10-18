@@ -2,13 +2,13 @@
   "meta": {
     "title": "BC Vote Helper 2026",
     "election_date": "2026-10-24",
-    "data_as_of": "2026-10-13",
+    "data_as_of": "2026-10-18",
     "jurisdiction": "British Columbia provincial general election",
     "default_riding": null,
     "disclaimer": {
       "1": "This tool helps you compare. It shows which party's ideas are closest to yours. It does not tell you how to vote. You decide.",
-      "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 13, so check for updates. Party names and logos belong to the parties.",
-      "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 13, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC released a full platform on October 10 with its own costing, not independently checked; the Greens' full platform was still pending; the other parties campaign on rolling announcements without a complete costed platform. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
+      "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 18, so check for updates. Party names and logos belong to the parties.",
+      "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 18, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC (October 10) and the Greens (October 13) released full platforms with their own costing, and the NDP released a costing of its campaign commitments on October 14; none was independently checked. The Conservatives had not released a costed platform as of October 18, and OneBC campaigns on rolling announcements. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
     },
     "method_summary": {
       "1": "You pick answers. Each answer is close to some groups and far from others. We add it up and show the closest group.",
@@ -81,8 +81,8 @@
       "candidates_running": 92,
       "one_liner": {
         "1": "The party that has run the government since 2017. It wants government to run more programs and set rules to help people.",
-        "3": "In government since 2017. Uses provincial power actively (housing taxes, zoning rules, big projects) and asks higher earners to pay more, but has reversed several policies under pressure.",
-        "5": "Governing since 2017. Record: speculation and vacancy tax (2018), Bills 44 and 47 density mandates (2023), Bill 36 Surrey police transition (2023), consumer carbon tax repeal (2025), decriminalization ended (2026), Budget 2026 deficit $13.3B (revised $13.8B). 2026: +2 points on brackets above $190,405, 24.5% above $1M, 10 c/L fuel tax cut, grocery margin caps, ICBC freeze to 2030, 20 clinics."
+        "3": "In government since 2017. Uses provincial power actively (housing taxes, zoning rules, big projects) and asks higher earners to pay more, but has reversed several policies under pressure. Released a costing of its 2026 promises on October 14.",
+        "5": "Governing since 2017. Record: speculation and vacancy tax (2018), Bills 44 and 47 density mandates (2023), Bill 36 Surrey police transition (2023), consumer carbon tax repeal (2025), decriminalization ended (2026), Budget 2026 deficit $13.3B (revised $13.8B). 2026: +2 points on brackets above $190,405, 24.5% above $1M, 10 c/L fuel tax cut, grocery margin caps, ICBC freeze to 2030, 20 clinics. Costing (October 14): new promises paid by the top-earner tax, which the party says raises $1B a year from 2028/29, with deficits of $13.8B, $12.7B and $11.7B over three years."
       },
       "record_summary": {
         "3": "The NDP has governed for nine years. It is building the Surrey-Langley SkyTrain and a new Surrey hospital, and it brought in $10-a-day child care, then froze new spaces. It taxed empty homes, ordered Surrey's switch to a city police force and passed the law on Indigenous rights (DRIPA). It later ended the drug decriminalization trial, scrapped the carbon tax on fuel and paused a promised $1,000 rebate. The deficit reached its highest dollar amount ever, and credit agencies lowered BC's rating in 2026.",
@@ -116,6 +116,18 @@
         {
           "label": "Fitch rating report, downgrade to AA- (April 24, 2026, gov.bc.ca copy)",
           "url": "https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/fitch-rating-report.pdf"
+        },
+        {
+          "label": "BC NDP: costing for Eby's plan (Oct 14, 2026)",
+          "url": "https://www.bcndp.ca/releases/bc-ndp-releases-costing-ebys-plan-build-bc-strong"
+        },
+        {
+          "label": "BC NDP: Build BC Strong plan page (climate and costing items, Oct 2026)",
+          "url": "https://www.bcndp.ca/plan"
+        },
+        {
+          "label": "Victoria News (Black Press): NDP releases costed platform (Oct 14, 2026)",
+          "url": "https://vicnews.com/2026/10/14/ndp-release-costed-platform-with-added-spending-new-taxes-on-wealthy/"
         }
       ]
     },
@@ -135,7 +147,7 @@
       "candidates_running": 93,
       "one_liner": {
         "1": "The main party trying to replace the government. It wants lower taxes, fewer rules for business and more gas and mining jobs.",
-        "3": "Opposition since 2024. Promises a $1,000 income tax cut and no new taxes; would repeal DRIPA and SOGI 123, end safe supply, expand mandatory treatment and double gas production. Four leaders in a year; no costed plan.",
+        "3": "Opposition since 2024. Promises a $1,000 income tax cut and no new taxes; would repeal DRIPA and SOGI 123, end safe supply, expand mandatory treatment and double gas production. Four leaders in a year; no costed plan as of October 18.",
         "5": "Opposition since 2024 (44 seats). 2026: basic personal amount to $32,000 (about $1,050 each; uncosted; outside estimate $2.5B a year), no new taxes, repeal DRIPA and SOGI 123, end safe supply, mandatory treatment, 250 police, 500 RCMP, 50 prosecutors, double gas output by 2032, 120 Day Permitting Act, ICBC hybrid tort, portable LTC funding. No deficit target or balance date."
       },
       "record_summary": {
@@ -174,6 +186,10 @@
         {
           "label": "Castanet / Canadian Press: five return to Conservative caucus, party standings (Sept 21, 2026)",
           "url": "https://www.castanetkamloops.net/news/BC/631916/Five-return-to-B-C-Conservative-caucus-as-early-election-looms"
+        },
+        {
+          "label": "Energeticcity (Canadian Press): voting begins without Conservative costed platform (Oct 16, 2026)",
+          "url": "https://energeticcity.ca/2026/10/16/b-c-begins-voting-without-conservatives-costed-platform-doerkson-calls-it-imminent/"
         }
       ]
     },
@@ -294,7 +310,7 @@
       "logo_file": "logo_onebc.svg",
       "seats_at_dissolution": 1,
       "seats_note": "Brodie was its only MLA when the election was called; Brent Chapman's September 22 switch was not filed before dissolution, so party standings did not change (Canadian Press).",
-      "candidates_running": 34,
+      "candidates_running": 33,
       "candidates_note": "Elections BC candidate list, October 12, 2026; some news reports say 33.",
       "one_liner": {
         "1": "A small new party. It wants much lower taxes, fewer rules, and to end some laws it sees as unfair.",
@@ -342,8 +358,8 @@
     }
   ],
   "other_parties_note": {
-    "3": "Not scored, because they have not published platforms to compare: BC Libertarian (4 candidates), Communist (4), Christian Heritage (3), CanWest (2), Freedom (1), and 14 independent or unaffiliated candidates. They are listed with your riding's candidates when they are on your ballot. BC United is not running.",
-    "5": "Not scored, because no platforms were found: BC Libertarian (4 candidates), Communist Party of BC (4), Christian Heritage Party of BC (3), CanWest Party (2), Freedom Party of BC (1), plus 7 independent and 7 unaffiliated candidates, per the Elections BC candidate list (October 12, 2026; 355 candidates in all). They appear in the riding section when they are on the voter's ballot. BC United ran no candidates."
+    "3": "Not scored, because they have not published platforms to compare: BC Libertarian (4 candidates), Communist (4), Christian Heritage (3), CanWest (2), Freedom (1), and 13 independent or unaffiliated candidates. They are listed with your riding's candidates when they are on your ballot. BC United is not running.",
+    "5": "Not scored, because no platforms were found: BC Libertarian (4 candidates), Communist Party of BC (4), Christian Heritage Party of BC (3), CanWest Party (2), Freedom Party of BC (1), plus 7 independent and 6 unaffiliated candidates, per the Elections BC candidate list (October 18, 2026; 353 candidates in all). Four candidates who withdrew after ballots were printed are still on the ballot and are shown as withdrawn. They appear in the riding section when they are on the voter's ballot. BC United ran no candidates."
   },
   "issues": [
     {
@@ -3066,11 +3082,11 @@
       "party_positions": {
         "ndp": {
           "text": {
-            "1": "This party ended the carbon tax on fuel people buy, but it keeps carbon charges on big industry and is growing gas exports.",
-            "3": "In government, the NDP ended the consumer carbon tax and rebates for electric vehicles, approved more liquefied natural gas and kept carbon pricing for industry. It admits BC will miss its 2030 target by about half and has not said how it will respond.",
-            "5": "The NDP cut the consumer carbon tax to zero in April 2025 but kept the industrial carbon price and the Low Carbon Fuel Standard. It ended electric vehicle rebates, cut the 2035 zero-emission vehicle sales target from 100% to 75%, and signed wind power contracts. BC is projected to reach 20% below 2007 by 2030, against 40% in law. For 2026 it promises more liquefied natural gas, a north coast transmission line and a temporary 10 cent per litre fuel tax cut. It would accept a pipeline only if the tanker ban stays."
+            "1": "This party ended the carbon tax on fuel people buy, but it keeps carbon charges on big industry and is growing gas exports. It also promises money for home heat pumps and electric car chargers.",
+            "3": "In government, the NDP ended the consumer carbon tax and rebates for electric vehicles, approved more liquefied natural gas and kept carbon pricing for industry. It admits BC will miss its 2030 target by about half and has not said how it will respond. On October 13 it promised $50 million a year for heat pumps, $16 million a year for electric vehicle chargers and a goal to nearly eliminate methane emissions by 2035.",
+            "5": "The NDP cut the consumer carbon tax to zero in April 2025 but kept the industrial carbon price and the Low Carbon Fuel Standard. It ended electric vehicle rebates, cut the 2035 zero-emission vehicle sales target from 100% to 75%, and signed wind power contracts. BC is projected to reach 20% below 2007 by 2030, against 40% in law. For 2026 it promises more liquefied natural gas, a north coast transmission line and a temporary 10 cent per litre fuel tax cut. It would accept a pipeline only if the tanker ban stays. Its October 13 climate plan adds $50 million a year for heat pump rebates, $16 million a year to triple public EV charging ports over a decade, $4 million a year to double the Youth Climate Corps, and a pledge to meet the 75% methane cut by 2030 and 'virtually eliminate methane emissions by 2035'."
           },
-          "basis": "record",
+          "basis": "both",
           "confidence": "high",
           "sources": [
             {
@@ -3104,6 +3120,10 @@
             {
               "label": "BC Government: 2035 ZEV sales target cut from 100% to 75% (Apr 1, 2026)",
               "url": "https://news.gov.bc.ca/releases/2026ECS0009-000355"
+            },
+            {
+              "label": "BC NDP: Build BC Strong plan page (climate and costing items, Oct 2026)",
+              "url": "https://www.bcndp.ca/plan"
             }
           ]
         },
@@ -3216,7 +3236,7 @@
           ]
         }
       },
-      "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 3 on the 2024 platform and Rustad's 2025 attack on the 'punishing' industrial carbon tax, discounted because 2026 is silent. b = Conservative 2026 text (4); OneBC 3; NDP 2 (also expands LNG and weakened the EV mandate, but keeps OBPS and conditions); CentreBC 1 (backs conditional LNG and a conditional pipeline, but commits to industrial pricing and a legislated target, which the option leaves open). c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 1 and Green 1 from opposite sides. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law and has no methane or retrofit-loan pledge); Conservative 1 (silent or hostile on industrial pricing and targets); Green 2 (keeps the 2040 and 2050 targets and industrial pricing, and adds interim targets, methane cuts and on-bill retrofit financing, but gives none of the option's numbers, no 20% milestone and no tanker-ban line, and rejects LNG; score changed Oct 13 after the Green platform); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
+      "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 3 on the 2024 platform and Rustad's 2025 attack on the 'punishing' industrial carbon tax, discounted because 2026 is silent. b = Conservative 2026 text (4); OneBC 3; NDP 2 (also expands LNG and weakened the EV mandate, but keeps OBPS and conditions); CentreBC 1 (backs conditional LNG and a conditional pipeline, but commits to industrial pricing and a legislated target, which the option leaves open). c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 1 and Green 1 from opposite sides. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law; its October 13 plan adds the 75% methane cut by 2030 and heat pump rebates, but no legislated 20% milestone or retrofit loans); Conservative 1 (silent or hostile on industrial pricing and targets); Green 2 (keeps the 2040 and 2050 targets and industrial pricing, and adds interim targets, methane cuts and on-bill retrofit financing, but gives none of the option's numbers, no 20% milestone and no tanker-ban line, and rejects LNG; score changed Oct 13 after the Green platform); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
     },
     {
       "id": "q_education_childcare",
@@ -3232,9 +3252,9 @@
       "context": {
         "1": "Child care costs families a lot. The province pays for some low-cost spots, but it has paused adding new ones to save money. Some parties want many more low-cost spots or free child care. Others want schools to focus on reading, math and testing.",
         "2": "Child care can cost families as much as rent. About one in ten licensed spaces costs $10 a day, and the province has paused new $10-a-day spaces for three years to save money. Some fast-growing school districts still rely on portable classrooms. Parties disagree on whether to expand child care, focus schools on basics, or hold spending.",
-        "3": "About 10% of licensed child care spaces cost $10 a day. In 2026 the NDP government paused new $10-a-day spaces for three years. Some fast-growing school districts still use many portable classrooms. The Greens want free child care by 2031 and CentreBC wants 20,000 more $10-a-day spaces. The Conservatives and OneBC focus on testing, grades and the basics.",
+        "3": "About 10% of licensed child care spaces cost $10 a day. In 2026 the NDP government paused new $10-a-day spaces for three years. Some fast-growing school districts still use many portable classrooms. The Greens want free child care by 2031 and CentreBC wants 20,000 more $10-a-day spaces. In October the NDP promised more spaces and a fee cap, using federal money. The Conservatives and OneBC focus on testing, grades and the basics.",
         "4": "About 10% of licensed child care spaces cost $10 a day. In February 2026 the NDP government paused new $10-a-day enrolment for three years to fix the program's funding model. The Affordable Child Care Benefit still helps families with incomes up to $111,000. Fast-growing school districts still use portable classrooms.",
-        "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. The Greens' October 13 platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
+        "5": "New $10-a-day enrolment has been frozen since February 2026 (reported as a three-year freeze), and Budget 2026 adds $330 million over three years for child care. There were more than 16,000 such spaces in March 2025, against a target of 20,000. The Affordable Child Care Benefit continues for family incomes up to $111,000. Budget 2026 plans $3.9 billion over three years to build, renovate and seismically upgrade schools. On October 17 the NDP pledged $80 million for school-based before- and after-school spaces and $250 million toward a renegotiated Canada-BC child care deal. The Greens' October 13 platform costs child care at $260 million a year, not counting capital for new centres, and education at $587 million a year. CentreBC puts its education plan at about $2.0 billion plus $750 million in capital over four years, and funds child care from federal money, by the party's own figures."
       },
       "options": [
         {
@@ -3298,7 +3318,7 @@
             "5": "Add 20,000 $10-a-day spaces by 2030 with federal money and 25,000 seats with $750 million in capital, letter grades for Grades 4 to 9 from 2028, a counsellor per 400 students and 1,500 education assistants."
           },
           "scores": {
-            "ndp": 2,
+            "ndp": 3,
             "conservative": 1,
             "green": 3,
             "centrebc": 4,
@@ -3315,7 +3335,7 @@
             "5": "Make child care free by 2031, pay early childhood educators $35 to $45 an hour by 2028, fund school food and a counsellor per 250 students, move private school funding to public schools, and add a wealth tax."
           },
           "scores": {
-            "ndp": 1,
+            "ndp": 2,
             "conservative": 0,
             "green": 4,
             "centrebc": 2,
@@ -3326,11 +3346,11 @@
       "party_positions": {
         "ndp": {
           "text": {
-            "1": "This party made child care cheaper, then paused new low-cost spots. It has built schools, but some students still learn in portable classrooms.",
-            "3": "The NDP created $10-a-day child care, then in 2026 froze new spaces for three years. It says it has built 250 schools, but some fast-growing districts still rely on portable classrooms. It made no new education or child care promise in 2026.",
-            "5": "The NDP launched ChildCareBC in 2018 and had more than 16,000 $10-a-day spaces by March 2025, toward a goal of 20,000. In February 2026 it paused new enrolment and expansion, a freeze Global News reported as three years, and Budget 2026 adds $330 million over three years for child care. The party says it built 250 schools. Budget 2026 plans $3.9 billion over three years for school building and seismic upgrades. It made no education or child care commitment in 2026."
+            "1": "This party made child care cheaper, then paused new low-cost spots. In October it promised more spots and a cap on fees. It has built schools, but some students still learn in portable classrooms.",
+            "3": "The NDP created $10-a-day child care, then in 2026 froze new spaces for three years. On October 17 it promised 7,200 before- and after-school spaces ($80 million), $250 million to expand affordable child care with federal money, a wage grid for early childhood educators and a fee cap. It says it has built 250 schools, but some fast-growing districts still rely on portable classrooms. It made no new K-12 promise in 2026.",
+            "5": "The NDP launched ChildCareBC in 2018 and had more than 16,000 $10-a-day spaces by March 2025, toward a goal of 20,000. In February 2026 it paused new enrolment and expansion, a freeze Global News reported as three years, and Budget 2026 adds $330 million over three years for child care. The party says it built 250 schools. Budget 2026 plans $3.9 billion over three years for school building and seismic upgrades. On October 17, 2026 it pledged $80 million for 7,200 before- and after-school spaces on school grounds, and $250 million in new provincial money to leverage federal funding in the Canada-BC child care renegotiation (deadline December 1) for a provincial wage grid for early childhood educators, more affordable spaces and 'a hard, universal fee cap like Ontario'. It gave no cap amount, space target or date. It made no new K-12 commitment in 2026."
           },
-          "basis": "record",
+          "basis": "both",
           "confidence": "high",
           "sources": [
             {
@@ -3346,12 +3366,12 @@
               "url": "https://news.gov.bc.ca/releases/2025ECC0015-000242"
             },
             {
-              "label": "BC Ballot: BC NDP commitments (no education item)",
-              "url": "https://bcballot.ca/platforms/bc-ndp/"
-            },
-            {
               "label": "BC Budget 2026: Budget and Fiscal Plan (child care $330 million, school capital)",
               "url": "https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf"
+            },
+            {
+              "label": "BC NDP: more affordable child care for BC families (Oct 17, 2026)",
+              "url": "https://www.bcndp.ca/releases/bc-ndp-deliver-more-affordable-child-care-bc-families"
             }
           ]
         },
@@ -3440,7 +3460,7 @@
           ]
         }
       },
-      "scoring_rationale": "Five options. a = OneBC (4): standardized testing, Parental Bill of Rights, no child care spending; Conservative 3 (shares the testing focus and no child care pledge, has not proposed a Parental Bill of Rights in 2026). A teacher strike ban was removed from option a on October 13 because no party or news source for it was found; CentreBC 1 (published FSA results by school, nothing else). b = Conservative (4): basics-first with the 2024 letter-grade and exam pledges and no child care commitment inside a no-new-taxes frame; OneBC 3; CentreBC 2 (the same letter grades Grades 4-9 and literacy and numeracy focus, but the opposite on child care); NDP 1 (its freeze matches the no-expansion element, nothing else). c = NDP record (4): it built $10-a-day and then froze it, so the freeze is the operative position regardless of 2024 rhetoric; Conservative 2 (no expansion fits its fiscal frame, but it would not defend the program); CentreBC 1 (would lift the freeze, keeps building); OneBC 1. d = CentreBC's platform (4): 20,000 spaces, 25,000 seats, counsellors, letter grades; Green 3 (goes further on child care, shares counsellors and food, differs on grades and AI); NDP 2 (created $10-a-day and builds seats, now paused); Conservative 1 (letter grades only; a symmetry fix from 0 now that the option carries a grading element); OneBC 0. e = Green (4); CentreBC 2 (expands spaces and school food, not free care or an ECE wage grid); NDP 1 (same goal in 2018, opposite action in 2026). SOGI 123 is scored only in its own question. Symmetry: Conservative on a (3) and OneBC on b (3); Conservative on d (1) and CentreBC on b (2)."
+      "scoring_rationale": "Five options. a = OneBC (4): standardized testing, Parental Bill of Rights, no child care spending; Conservative 3 (shares the testing focus and no child care pledge, has not proposed a Parental Bill of Rights in 2026). A teacher strike ban was removed from option a on October 13 because no party or news source for it was found; CentreBC 1 (published FSA results by school, nothing else). b = Conservative (4): basics-first with the 2024 letter-grade and exam pledges and no child care commitment inside a no-new-taxes frame; OneBC 3; CentreBC 2 (the same letter grades Grades 4-9 and literacy and numeracy focus, but the opposite on child care); NDP 1 (its freeze matches the no-expansion element, nothing else). c = NDP record (4): it built $10-a-day and then froze it, and the freeze is still in force; its October 17 pledge adds 7,200 school-based spaces with $80 million of provincial money, but the wider expansion, wage grid and fee cap depend on a renegotiated federal deal, so c stays its closest option; Conservative 2 (no expansion fits its fiscal frame, but it would not defend the program); CentreBC 1 (would lift the freeze, keeps building); OneBC 1. d = CentreBC's platform (4): 20,000 spaces, 25,000 seats, counsellors, letter grades; Green 3 (goes further on child care, shares counsellors and food, differs on grades and AI); NDP 3 (created $10-a-day, builds seats and on October 17 pledged more affordable spaces with federal money, but no 20,000 target, letter grades or counsellors; score changed Oct 18 after the NDP child care release); Conservative 1 (letter grades only; a symmetry fix from 0 now that the option carries a grading element); OneBC 0. e = Green (4); CentreBC 2 (expands spaces and school food, not free care or an ECE wage grid); NDP 2 (an early childhood educator wage grid and a fee cap, not free care; score changed Oct 18 after the NDP child care release, matching CentreBC's 2 for expanding spaces). SOGI 123 is scored only in its own question. Symmetry: Conservative on a (3) and OneBC on b (3); Conservative on d (1) and CentreBC on b (2)."
     },
     {
       "id": "q_icbc",
@@ -3984,9 +4004,9 @@
       "party_positions": {
         "ndp": {
           "text": {
-            "1": "This party is building the SkyTrain line and has ruled out a yearly car fee.",
-            "3": "The NDP is building the SkyTrain for late 2029. The cost rose from $4 billion to $6 billion and the opening slipped a year. It has ruled out a vehicle levy and promises a 2027 law for new revenue, without saying where the money would come from.",
-            "5": "The line costs $5.996 billion, opens in late 2029 and has three stations in the Fleetwood area; $2.508 billion had been spent by April 2026. The NDP gave TransLink $479 million in March 2023 and $312 million to the end of 2027, ruled out a vehicle levy on October 2, 2026, and promises a 2027 law for a 2028 revenue source. The cost rose in August 2024. Candidate Jagrup Brar lists 'a SkyTrain extension' with no timeline."
+            "1": "This party is building the SkyTrain line and has ruled out a yearly car fee. It also promises fast buses on King George Boulevard and free bus passes for low-income seniors.",
+            "3": "The NDP is building the SkyTrain for late 2029. The cost rose from $4 billion to $6 billion and the opening slipped a year. It has ruled out a vehicle levy and promises a 2027 law for new revenue, without saying where the money would come from. On October 15 it promised $250 million for bus rapid transit on King George Boulevard to White Rock and a free bus pass for low-income seniors.",
+            "5": "The line costs $5.996 billion, opens in late 2029 and has three stations in the Fleetwood area; $2.508 billion had been spent by April 2026. The NDP gave TransLink $479 million in March 2023 and $312 million to the end of 2027, ruled out a vehicle levy on October 2, 2026, and promises a 2027 law for a 2028 revenue source. The cost rose in August 2024. On October 15 it pledged $250 million to leverage federal money for bus rapid transit on King George Boulevard from Surrey to White Rock, with TransLink, and to make the Seniors' Bus Pass free for 350,000 low-income seniors and widen its income limit. Candidate Jagrup Brar lists 'a SkyTrain extension' with no timeline."
           },
           "basis": "both",
           "confidence": "high",
@@ -4010,6 +4030,10 @@
             {
               "label": "Global News: TransLink gets $479 million in surplus money (March 15, 2023)",
               "url": "https://globalnews.ca/news/9553930/translink-funding-bc-government"
+            },
+            {
+              "label": "BC NDP: getting around Surrey more easily and affordably (Oct 15, 2026)",
+              "url": "https://www.bcndp.ca/releases/eby-will-help-people-surrey-get-around-more-easily-affordably"
             }
           ]
         },
@@ -4119,7 +4143,7 @@
           "no_position": true
         }
       },
-      "scoring_rationale": "a = NDP (4); Green 3 (finish and expand, no levy objection); Conservative 2 (would finish the line, no commitment to a new revenue law); CentreBC 2 (finishes the line and funds more service, silent on a levy or a revenue law). b = Conservative (4), built from the 2024 cost attack, the no-new-taxes pledge and the Metro Vancouver rollback; CentreBC 2 (independent cost reviews over $100M and no new broad taxes, but it adds transit spending and has no Metro Vancouver position); NDP 1; Green 0. c = Green (4); NDP 2 (expands transit, no free fares); CentreBC 2 (a 15% pass credit is partial fare relief; rapid bus and rail expansion overlap; no wealth tax); Conservative 0. d = CentreBC's platform (4): SLS as a priority, rapid bus, 15% more service, commuter credit; Green 3 (expansion and fare relief in its direction, short of free transit); NDP 2 (is building the line and funding interim service, no credit or rapid bus pledge); Conservative 1 (no 2026 transit commitment). Option d was added on October 10 when CentreBC published a transit position; before that it was no_position here. OneBC has no transit position and is excluded from this question (no_position) rather than placed by fiscal inference. Candidates carry party scores; none has a local transit position."
+      "scoring_rationale": "a = NDP (4); Green 3 (finish and expand, no levy objection); Conservative 2 (would finish the line, no commitment to a new revenue law); CentreBC 2 (finishes the line and funds more service, silent on a levy or a revenue law). b = Conservative (4), built from the 2024 cost attack, the no-new-taxes pledge and the Metro Vancouver rollback; CentreBC 2 (independent cost reviews over $100M and no new broad taxes, but it adds transit spending and has no Metro Vancouver position); NDP 1; Green 0. c = Green (4); NDP 2 (expands transit; free passes only for low-income seniors, not fare-free transit); CentreBC 2 (a 15% pass credit is partial fare relief; rapid bus and rail expansion overlap; no wealth tax); Conservative 0. d = CentreBC's platform (4): SLS as a priority, rapid bus, 15% more service, commuter credit; Green 3 (expansion and fare relief in its direction, short of free transit); NDP 2 (is building the line, funds interim service and on October 15 pledged King George bus rapid transit, but no pass credit or 15% service target); Conservative 1 (no 2026 transit commitment). Option d was added on October 10 when CentreBC published a transit position; before that it was no_position here. OneBC has no transit position and is excluded from this question (no_position) rather than placed by fiscal inference. Candidates carry party scores; none has a local transit position."
     },
     {
       "id": "q_local_extortion",
@@ -4371,7 +4395,7 @@
       "context": {
         "1": "A new hospital is being built in Cloverdale, but it will not open until 2030. More patients now leave the busy Surrey Memorial emergency room before a doctor sees them. Many students learn in portable classrooms. Parties disagree on how to pay for more.",
         "2": "The province pays to build hospitals and schools. The new Cloverdale hospital will open in 2030, three years later than first planned. At Surrey Memorial, more emergency patients now leave before being seen. Surrey schools had 361 portables in 2023. The province is borrowing heavily, and parties disagree on how fast to build and how to pay.",
-        "3": "The NDP government is building the Cloverdale hospital and new school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The Conservatives say they are 'contemplating' the hospital and offer emergency room funding and a wait-time commission. The Greens want a health centre in every riding. CentreBC would build a new tower at Surrey Memorial, plan a children's hospital and add 25,000 school seats across BC. OneBC would allow private clinics.",
+        "3": "The NDP government is building the Cloverdale hospital and new school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The Conservatives promise to finish the Cloverdale hospital and build a women and children's hospital in Surrey, and offer emergency room funding and a wait-time commission. The Greens want a health centre in every riding. CentreBC would build a new tower at Surrey Memorial, plan a children's hospital and add 25,000 school seats across BC. OneBC would allow private clinics.",
         "4": "The Cloverdale hospital's cost rose from $1.72 billion to about $2.88 billion, and its opening slipped from 2027 to 2030. In 2024, Surrey Memorial's emergency doctors said 8.4% of patients leave without being seen. The Surrey school district has asked for $5.49 billion and had 361 portables in 2023. In 2016 the NDP promised to remove all of Surrey's portables within four years of taking office, and that pledge was not met.",
         "5": "The Cloverdale hospital was half built in March 2026, with completion in August 2029, patients in 2030 and a cost of about $2.88 billion, up from $1.72 billion. In a September 2024 letter, Surrey Memorial emergency doctors said 8.4% of patients leave without being seen, up from 2.9% in 2020-21. Surrey enrolment passed 83,000 in 2024-25; the district expects 700 to 800 more students a year and about 87,000 by 2035, has asked for $5.49 billion for 76 projects, and had 361 portables in 2023. About 2,300 seats were under construction in August 2025; an 800-seat addition at Fleetwood Park Secondary is in design, with building due to start in winter 2027. Budget 2026 set provincial capital spending at $18.7 billion, below the $20.4 billion forecast."
       },
@@ -4387,7 +4411,7 @@
           },
           "scores": {
             "ndp": 4,
-            "conservative": 1,
+            "conservative": 2,
             "green": 2,
             "centrebc": 2,
             "onebc": 0
@@ -4467,7 +4491,7 @@
           "text": {
             "1": "This party is building the new hospital and new classrooms, and wants more clinics.",
             "3": "The NDP is building the Cloverdale hospital and new Surrey school seats, and promises 20 clinics and faster licensing for doctors trained abroad. The hospital's cost rose about $1 billion and its opening slipped three years. It did not meet its 2016 promise to end Surrey's portables within four years.",
-            "5": "The Cloverdale hospital now costs about $2.88 billion, up from $1.72 billion, with completion in August 2029 instead of 2027. The NDP is building a medical school at Simon Fraser University in Surrey and 60 mental health beds in Surrey, including involuntary care, due in spring 2028. About 2,300 school seats are under construction and 19 of 40 modular buildings replaced portables, but the district had a $16 million budget shortfall in 2025-26. For 2026 it promises 20 clinics, help for foreign-trained doctors, 1,000 training seats, and eight MRI machines and 10 CT scanners across BC. Candidate Brar promises 'a new hospital' with no timeline."
+            "5": "The Cloverdale hospital now costs about $2.88 billion, up from $1.72 billion, with completion in August 2029 instead of 2027. The NDP is building a medical school at Simon Fraser University in Surrey and 60 mental health beds in Surrey, including involuntary care, due in spring 2028. About 2,300 school seats are under construction and 19 of 40 modular buildings replaced portables, but the district had a $16 million budget shortfall in 2025-26. For 2026 it promises 20 clinics, help for foreign-trained doctors, 1,000 training seats, and eight MRI machines and 10 CT scanners across BC. On October 15 it said it would work with municipal leaders who have offered land for a new health care facility in Surrey. Candidate Brar promises 'a new hospital' with no timeline."
           },
           "basis": "both",
           "confidence": "high",
@@ -4515,17 +4539,21 @@
             {
               "label": "CBC: B.C. school portables survey, Surrey has 361 (Sept 16, 2023)",
               "url": "https://www.cbc.ca/lite/story/1.6967543"
+            },
+            {
+              "label": "BC NDP: Doerkson hiding plans on Massey and health care (Oct 15, 2026)",
+              "url": "https://www.bcndp.ca/releases/doerkson-hiding-his-plans-cancel-massey-replacement-cut-healthcare"
             }
           ]
         },
         "conservative": {
           "text": {
-            "1": "This party wants to keep emergency rooms open and is still deciding about the new hospital.",
-            "3": "Asked about the hospital on October 7, Doerkson said 'we're contemplating all of that for our platform rollout'. Its health plan offers emergency room funding, a 100-day wait-time commission, no cuts, and long-term care funding that follows the senior. It has no Surrey school pledge.",
-            "5": "Asked about the hospital on October 7, Doerkson said 'we're contemplating all of that for our platform rollout'. Its Keep Emergency Rooms Open plan (October 5) offers a $50 million emergency fund, a 100-day expert commission and a promise to keep current health care spending in place; on October 12 the party restated that care would stay universal and publicly funded. Its seniors plan (October 9) reviews long-term care design rules, lets care funding follow the senior and offers a choice of home care provider. It has no position on school capital or Surrey Memorial. Candidate Purewal has published only party themes."
+            "1": "This party will finish the new Cloverdale hospital, plans a new women and children's hospital in Surrey, and wants to keep emergency rooms open.",
+            "3": "On October 15 the Conservatives committed to complete the Surrey Hospital in Cloverdale 'on time and on budget' and to build a new Women and Children's Hospital in Surrey, with no cost or date for the second one. Their health plan also offers emergency room funding, a 100-day wait-time commission, no cuts, and long-term care funding that follows the senior. They have no Surrey school pledge.",
+            "5": "On October 15 the party committed to 'complete the Surrey Hospital in Cloverdale on time and on budget' and to build a new Women and Children's Hospital in Surrey; it gave no cost or date for the children's hospital. This replaces Doerkson's October 7 answer that 'we're contemplating all of that for our platform rollout'. Its Keep Emergency Rooms Open plan (October 5) offers a $50 million emergency fund, a 100-day expert commission and a promise to keep current health care spending in place; on October 12 the party restated that care would stay universal and publicly funded. Its seniors plan (October 9) reviews long-term care design rules, lets care funding follow the senior and offers a choice of home care provider. It has no position on school capital or Surrey Memorial. Candidate Purewal has published only party themes."
           },
           "basis": "platform",
-          "confidence": "low",
+          "confidence": "medium",
           "sources": [
             {
               "label": "Indo-Canadian Voice: Doerkson on the Surrey hospital (Oct 7, 2026)",
@@ -4546,6 +4574,10 @@
             {
               "label": "Conservative Party of BC: response on health care (Oct 12, 2026)",
               "url": "https://conservativebc.ca/conservative-party-of-bc-responds-to-the-ndps-tired-health-care-fearmongering/"
+            },
+            {
+              "label": "Conservative Party of BC: new Massey bridge and new hospital in Surrey (Oct 15, 2026)",
+              "url": "https://conservativebc.ca/conservatives-will-build-a-new-massey-bridge-and-new-hospital-in-surrey/"
             }
           ]
         },
@@ -4623,7 +4655,7 @@
           ]
         }
       },
-      "scoring_rationale": "Applies the provincial health and education positions to Surrey's two biggest capital files. a = NDP (4), with the cost overrun and portable pledge noted in the explainer; CentreBC 2 (the same builds, clinics and foreign-doctor pipeline, but it rejects the borrowing and top-earner tax in the option and funds them by attrition); Green 2 (would continue the builds but fund them differently); Conservative 1 ('contemplating'); OneBC 0. b = Conservative (4); CentreBC 2 (ER law and fund, LTC beds, letter grades and no new taxes, but rejects portable funding to non-government providers, the option's defining element, as in the provincial health question); OneBC 2 (private-pay direction, no position on the ER fund, portable funding or school basics beyond testing); NDP 1. c = Green (4); NDP 2; CentreBC 2 (counsellors 1:400, 1,500 EAs and school food to 40%, but no health centre per riding or wealth tax). d = CentreBC's platform (4): SMH tower, children's hospital, 25,000 seats, primary-care teams, LTC; NDP 2 (it announced the SMH tower in 2024 and builds seats and LTC; a symmetry fix from 1 after the option was rewritten; no children's hospital or published-budget commitment); Conservative 2 (LTC first, no new taxes, hospital undecided); Green 1; OneBC 1. e = OneBC (4); Conservative 1 (dropped 2024 private-clinic plank). Safety and SOGI content belong to their own questions and are not repeated here. Candidates inherit party scores; honesty note: none has published a position that differs from their party on either file."
+      "scoring_rationale": "Applies the provincial health and education positions to Surrey's two biggest capital files. a = NDP (4), with the cost overrun and portable pledge noted in the explainer; CentreBC 2 (the same builds, clinics and foreign-doctor pipeline, but it rejects the borrowing and top-earner tax in the option and funds them by attrition); Green 2 (would continue the builds but fund them differently); Conservative 2 (on October 15 it committed to finish the Cloverdale hospital, but has no school, clinic or training-seat pledge and rejects the tax side; score changed Oct 18 after the Conservative Surrey hospital release); OneBC 0. b = Conservative (4); CentreBC 2 (ER law and fund, LTC beds, letter grades and no new taxes, but rejects portable funding to non-government providers, the option's defining element, as in the provincial health question); OneBC 2 (private-pay direction, no position on the ER fund, portable funding or school basics beyond testing); NDP 1. c = Green (4); NDP 2; CentreBC 2 (counsellors 1:400, 1,500 EAs and school food to 40%, but no health centre per riding or wealth tax). d = CentreBC's platform (4): SMH tower, children's hospital, 25,000 seats, primary-care teams, LTC; NDP 2 (it announced the SMH tower in 2024 and builds seats and LTC; a symmetry fix from 1 after the option was rewritten; no children's hospital or published-budget commitment); Conservative 2 (LTC first, no new taxes, and a women and children's hospital promised on October 15 with no cost or date; no Surrey Memorial tower); Green 1; OneBC 1. e = OneBC (4); Conservative 1 (dropped 2024 private-clinic plank). Safety and SOGI content belong to their own questions and are not repeated here. Candidates inherit party scores; honesty note: none has published a position that differs from their party on either file."
     },
     {
       "id": "q_local_metro_translink",
@@ -4733,9 +4765,9 @@
       "party_positions": {
         "ndp": {
           "text": {
-            "1": "This party gives transit extra money now, rules out a yearly car fee, and promises a new money plan in two years.",
-            "3": "The NDP government gave TransLink $312 million in 2025, enough to the end of 2027. On October 2 it ruled out a vehicle levy and road pricing and promised a 2027 law to create a new revenue source, without saying what. It also promises a 10 cent a litre fuel tax cut.",
-            "5": "Record: $479 million to TransLink in March 2023 and $312 million for 2025 to 2027, about half the shortfall. On October 2, 2026 Eby said 'a vehicle levy or road pricing are not options we would proceed with' and promised 2027 legislation for a 2028 revenue source, unnamed. The NDP also pledges a 10 cent a litre fuel tax cut and a price cap through the Utilities Commission; the Greens say that erodes the fuel tax that funds TransLink."
+            "1": "This party gives transit extra money now, rules out a yearly car fee, and promises a new money plan in two years. It also promises more bus money and fast bus lines.",
+            "3": "The NDP government gave TransLink $312 million in 2025, enough to the end of 2027. On October 2 it ruled out a vehicle levy and road pricing and promised a 2027 law to create a new revenue source, without saying what. It also promises a 10 cent a litre fuel tax cut. On October 14 it added $40 million a year for BC Transit and promised bus rapid transit in Metro Vancouver.",
+            "5": "Record: $479 million to TransLink in March 2023 and $312 million for 2025 to 2027, about half the shortfall. On October 2, 2026 Eby said 'a vehicle levy or road pricing are not options we would proceed with' and promised 2027 legislation for a 2028 revenue source, unnamed. The NDP also pledges a 10 cent a litre fuel tax cut and a price cap through the Utilities Commission; the Greens say that erodes the fuel tax that funds TransLink. On October 14 it added $40 million a year for BC Transit, a pledge to 'deliver rapid bus transit' in Metro Vancouver and to develop a long-term revenue model with TransLink, with no route, service target or cost for the rapid buses; on October 15 it pledged $250 million toward bus rapid transit on King George Boulevard from Surrey to White Rock."
           },
           "basis": "both",
           "confidence": "high",
@@ -4755,6 +4787,14 @@
             {
               "label": "Global News: TransLink gets $479 million in surplus money (March 15, 2023)",
               "url": "https://globalnews.ca/news/9553930/translink-funding-bc-government"
+            },
+            {
+              "label": "BC NDP: Eby will expand transit (Oct 14, 2026)",
+              "url": "https://www.bcndp.ca/releases/eby-expand-transit-get-people-where-they-need-go-faster"
+            },
+            {
+              "label": "BC NDP: getting around Surrey more easily and affordably (Oct 15, 2026)",
+              "url": "https://www.bcndp.ca/releases/eby-will-help-people-surrey-get-around-more-easily-affordably"
             }
           ]
         },
@@ -4844,7 +4884,7 @@
           "no_position": true
         }
       },
-      "scoring_rationale": "a = NDP (4): the October 2 levy ruling-out, the 2027 revenue law and the fuel tax cut are all its own; Conservative 2 (shares the no-levy stance and funds TransLink today, but has no revenue law and attacks the fuel tax cut as a reversal); CentreBC 2 (no levy position, no revenue law, funds service instead); Green 1 (opposes the fuel tax cut and wants far more funding). b = Conservative (4): no new taxes, Metro Vancouver rollback, HandyDART; CentreBC 2 (no new broad taxes and cost reviews, but it adds transit spending and has no regional district position); NDP 1 (also rules out a levy but keeps subsidies and plans a revenue law); Green 0. c = Green (4); Green scores 3 on d because CentreBC's service increase and pass credit move in its direction; CentreBC 2 on c (expansion overlaps, no free fares or windfall tax); NDP 1; Conservative 0. d = CentreBC (4); NDP 2 (funds interim service, no credit or rapid bus pledge); Conservative 1 (no 2026 transit commitment). e has no home: no party proposes a levy or road pricing; Green 2 because its all-party committee could choose one and it opposes drivers-first framing; CentreBC 1 (silent); NDP and Conservative 0 (both ruled it out). OneBC has no transit position and is no_position. Balance: the three Metro questions give every scored party one home each; the Conservatives' Metro homes rest on fiscal and process stances rather than transit or zoning proposals, which is noted as low to medium confidence rather than corrected by score."
+      "scoring_rationale": "a = NDP (4): the October 2 levy ruling-out, the 2027 revenue law and the fuel tax cut are all its own; Conservative 2 (shares the no-levy stance and funds TransLink today, but has no revenue law and attacks the fuel tax cut as a reversal); CentreBC 2 (no levy position, no revenue law, funds service instead); Green 1 (opposes the fuel tax cut and wants far more funding). b = Conservative (4): no new taxes, Metro Vancouver rollback, HandyDART; CentreBC 2 (no new broad taxes and cost reviews, but it adds transit spending and has no regional district position); NDP 1 (also rules out a levy but keeps subsidies and plans a revenue law); Green 0. c = Green (4); Green scores 3 on d because CentreBC's service increase and pass credit move in its direction; CentreBC 2 on c (expansion overlaps, no free fares or windfall tax); NDP 1; Conservative 0. d = CentreBC (4); NDP 2 (funds interim service and, from October 14, more BC Transit money and rapid bus lines with no number or service target; no pass credit or 15% service pledge); Conservative 1 (no 2026 transit commitment). e has no home: no party proposes a levy or road pricing; Green 2 because its all-party committee could choose one and it opposes drivers-first framing; CentreBC 1 (silent); NDP and Conservative 0 (both ruled it out). OneBC has no transit position and is no_position. Balance: the three Metro questions give every scored party one home each; the Conservatives' Metro homes rest on fiscal and process stances rather than transit or zoning proposals, which is noted as low to medium confidence rather than corrected by score."
     },
     {
       "id": "q_local_metro_title_homes",
@@ -7266,9 +7306,9 @@
       "party_positions": {
         "ndp": {
           "text": {
-            "1": "This party, in charge now, wants to zone the forest and cut more, while protecting the rarest old trees.",
-            "3": "The NDP government's Working Forest model would zone public forest and aims at 45 million cubic metres a year with 'no net loss' of timber land. On October 10 it pledged $50 million to make the rarest old-growth deferrals permanent and to help mills retrofit for second growth. Campaign releases do not restate the 45 million target.",
-            "5": "Record: Working Forest Landscape Model (zones, 'no net loss', 45 million cubic metre objective, fewer case-by-case permits), first candidate area near Campbell River announced September 15, 2026; Pledges: $50 million to convert deferrals of the rarest old growth to permanent protection while helping mills retrofit for value-added second growth (October 10). The NDP has no platform and its releases do not mention the 45 million figure. No response to Unifor's bridging-to-retirement request."
+            "1": "This party, in charge now, wants to zone the forest and cut more, while protecting the rarest old trees. It also promises money for forestry workers and mills at risk of closing.",
+            "3": "The NDP government's Working Forest model would zone public forest and aims at 45 million cubic metres a year with 'no net loss' of timber land. On October 10 it pledged $50 million to make the rarest old-growth deferrals permanent and to help mills retrofit for second growth. On October 14 it added a $120 million, two-year fund for workers, mills and communities at risk, a mill task force and faster permits. Campaign releases do not restate the 45 million target.",
+            "5": "Record: Working Forest Landscape Model (zones, 'no net loss', 45 million cubic metre objective, fewer case-by-case permits), first candidate area near Campbell River announced September 15, 2026; Pledges: $50 million to convert deferrals of the rarest old growth to permanent protection while helping mills retrofit for value-added second growth (October 10). October 14: a new $120 million Forestry Jobs Protection Fund over two years for workers, mills and communities at risk; a task force of industry, labour and ministries to keep tariff-hit mills open; a Forestry Competitiveness stream in a permanent BC Manufacturing Jobs Fund for mill retrofits; and faster permitting with consistent access to fibre. Its releases do not mention the 45 million figure. No response to Unifor's bridging-to-retirement request."
           },
           "basis": "both",
           "confidence": "medium",
@@ -7292,6 +7332,10 @@
             {
               "label": "BC Gov News: Campbell River first candidate area for the Working Forest Landscape Model (Sept 15, 2026)",
               "url": "https://news.gov.bc.ca/releases/2026FOR0034-001069"
+            },
+            {
+              "label": "BC NDP: Eby outlines next steps for forestry (Oct 14, 2026)",
+              "url": "https://www.bcndp.ca/releases/eby-outlines-next-steps-forestry"
             }
           ]
         },
@@ -7381,7 +7425,7 @@
           ]
         }
       },
-      "scoring_rationale": "a = Green (4); NDP 1 (protects the rarest old growth and funds value-added, but keeps a provincial volume target); CentreBC 0 and OneBC 0 (both want more cut). b = NDP record (4); CentreBC 3 (same zones and 45 million goal, but legislated and pushed harder); OneBC 1 (more cut, no zoning or protection); Green 0. c = CentreBC (4); NDP 3 (its own model, without legislation, timber sales target or task force); OneBC 2 (shares faster permits and more supply, not zones or worker funding); Green 0. d = OneBC (4); CentreBC 1 (aims at 45 million, not above it, and keeps consultation); NDP 1; Green 0. The Conservatives have published no 2026 forestry policy (their site shows an empty heading) and are no_position rather than inferred, because their statements point in two directions (faster permits and 'an appropriate harvest that can sustain mills' versus silence on the model and stumpage). The Island's old-growth question uses the same party mapping with Island facts."
+      "scoring_rationale": "a = Green (4); NDP 1 (protects the rarest old growth and funds value-added, but keeps a provincial volume target); CentreBC 0 and OneBC 0 (both want more cut). b = NDP record (4); CentreBC 3 (same zones and 45 million goal, but legislated and pushed harder); OneBC 1 (more cut, no zoning or protection); Green 0. c = CentreBC (4); NDP 3 (its own model, and since October 14 a mill task force and worker fund, but no legislated zones, timber sales target or 90-day decisions); OneBC 2 (shares faster permits and more supply, not zones or worker funding); Green 0. d = OneBC (4); CentreBC 1 (aims at 45 million, not above it, and keeps consultation); NDP 1; Green 0. The Conservatives have published no 2026 forestry policy (their site shows an empty heading) and are no_position rather than inferred, because their statements point in two directions (faster permits and 'an appropriate harvest that can sustain mills' versus silence on the model and stumpage). The Island's old-growth question uses the same party mapping with Island facts."
     },
     {
       "id": "q_local_north_resources",
@@ -8772,7 +8816,20 @@
           ]
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "name": "Greg DePaco",
+          "party_label": "BC Green on the ballot; withdrew Oct 9",
+          "incumbent": false,
+          "bio": "Withdrew as a candidate on October 9; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
+          "sources": [
+            {
+              "label": "Elections BC: candidate withdrawn, Burnaby-New Westminster (Oct 10, 2026)",
+              "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates-update-3/"
+            }
+          ]
+        }
+      ],
       "list_status": "official",
       "missing_parties": [
         "centrebc",
@@ -11721,17 +11778,17 @@
       "others": [
         {
           "name": "Gerry Lenoski",
-          "party_label": "Unaffiliated",
+          "party_label": "Unaffiliated on the ballot; withdrew Oct 13",
           "incumbent": false,
-          "bio": "",
+          "bio": "Withdrew as a candidate on October 13; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
           "sources": [
+            {
+              "label": "Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)",
+              "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates/"
+            },
             {
               "label": "Elections BC 2026 candidate list (page)",
               "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
-            },
-            {
-              "label": "BC Ballot riding page",
-              "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
             }
           ]
         }
@@ -12054,14 +12111,19 @@
               "url": "https://bcgreens.ca/candidates-2026/ben-holt/"
             }
           ]
-        },
+        }
+      ],
+      "others": [
         {
-          "id": "frederick_thiele",
           "name": "Frederick Thiele",
-          "party_id": "onebc",
+          "party_label": "OneBC on the ballot; withdrew Oct 13",
           "incumbent": false,
-          "bio": "Born and raised in North Vancouver; has owned and run his own computer consulting business for more than 25 years; lives there with his wife and two children.",
+          "bio": "Born and raised in North Vancouver; has owned and run his own computer consulting business for more than 25 years; lives there with his wife and two children. Withdrew as a candidate on October 13; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
           "sources": [
+            {
+              "label": "Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)",
+              "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates/"
+            },
             {
               "label": "OneBC: Fred Thiele candidate page",
               "url": "https://1bc.ca/candidates/fthiele"
@@ -12069,8 +12131,10 @@
           ]
         }
       ],
-      "others": [],
-      "list_status": "official"
+      "list_status": "official",
+      "missing_parties": [
+        "onebc"
+      ]
     },
     {
       "code": "OBG",
@@ -15531,19 +15595,6 @@
           ]
         },
         {
-          "id": "jordan_zheng_mcintosh",
-          "name": "Jordan Zheng McIntosh",
-          "party_id": "conservative",
-          "incumbent": false,
-          "bio": "Mineral exploration field worker and geological engineering student, born in Vancouver; has volunteered in politics since middle school.",
-          "sources": [
-            {
-              "label": "Conservative Party of BC candidate page",
-              "url": "https://www.conservativebc.ca/candidate/jordan-mcintosh/"
-            }
-          ]
-        },
-        {
           "id": "tanya_webking",
           "name": "Tanya Webking",
           "party_id": "green",
@@ -15573,11 +15624,28 @@
               "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
             }
           ]
+        },
+        {
+          "name": "Jordan Zheng McIntosh",
+          "party_label": "Conservative on the ballot; dropped by the party Oct 15",
+          "incumbent": false,
+          "bio": "Mineral exploration field worker and geological engineering student, born in Vancouver; has volunteered in politics since middle school. The Conservatives dropped him on October 15 over past online posts and said he would not sit in their caucus if elected. His name stays on the ballot as the Conservative candidate because ballots were already printed.",
+          "sources": [
+            {
+              "label": "insauga (Canadian Press): Conservatives drop Vancouver-Strathcona candidate (Oct 15, 2026)",
+              "url": "https://www.insauga.com/b-c-conservatives-dump-candidate-accused-of-hitler-remarks/"
+            },
+            {
+              "label": "Conservative Party of BC candidate page",
+              "url": "https://www.conservativebc.ca/candidate/jordan-mcintosh/"
+            }
+          ]
         }
       ],
       "list_status": "official",
       "missing_parties": [
         "centrebc",
+        "conservative",
         "onebc"
       ]
     },
@@ -15728,7 +15796,20 @@
           ]
         }
       ],
-      "others": [],
+      "others": [
+        {
+          "name": "Timothy Webster",
+          "party_label": "On the ballot; withdrew Oct 8",
+          "incumbent": false,
+          "bio": "Withdrew as a candidate on October 8; Elections BC says the name stays on the ballot because ballots were almost all printed, and voters will be told at voting places.",
+          "sources": [
+            {
+              "label": "Elections BC: candidate withdrawn, Vancouver-Yaletown (Oct 2026)",
+              "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates-update/"
+            }
+          ]
+        }
+      ],
       "list_status": "official",
       "missing_parties": [
         "onebc"

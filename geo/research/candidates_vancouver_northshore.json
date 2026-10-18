@@ -186,13 +186,18 @@
      "name": "Frederick Thiele",
      "party": "onebc",
      "incumbent": false,
-     "bio": "Born and raised in North Vancouver; has owned and run his own computer consulting business for more than 25 years; lives there with his wife and two children.",
+     "bio": "Born and raised in North Vancouver; has owned and run his own computer consulting business for more than 25 years; lives there with his wife and two children. Withdrew as a candidate on October 13; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
      "sources": [
+      {
+       "label": "Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates/"
+      },
       {
        "label": "OneBC: Fred Thiele candidate page",
        "url": "https://1bc.ca/candidates/fthiele"
       }
-     ]
+     ],
+     "unscored_label": "OneBC on the ballot; withdrew Oct 13"
     }
    ],
    "candidate_list_status": "official",
@@ -911,13 +916,18 @@
      "name": "Jordan Zheng McIntosh",
      "party": "conservative",
      "incumbent": false,
-     "bio": "Mineral exploration field worker and geological engineering student, born in Vancouver; has volunteered in politics since middle school.",
+     "bio": "Mineral exploration field worker and geological engineering student, born in Vancouver; has volunteered in politics since middle school. The Conservatives dropped him on October 15 over past online posts and said he would not sit in their caucus if elected. His name stays on the ballot as the Conservative candidate because ballots were already printed.",
      "sources": [
+      {
+       "label": "insauga (Canadian Press): Conservatives drop Vancouver-Strathcona candidate (Oct 15, 2026)",
+       "url": "https://www.insauga.com/b-c-conservatives-dump-candidate-accused-of-hitler-remarks/"
+      },
       {
        "label": "Conservative Party of BC candidate page",
        "url": "https://www.conservativebc.ca/candidate/jordan-mcintosh/"
       }
-     ]
+     ],
+     "unscored_label": "Conservative on the ballot; dropped by the party Oct 15"
     },
     {
      "name": "Tanya Webking",
@@ -1065,6 +1075,19 @@
        "url": "https://www.bcndp.ca/latest/our-eighteen-newest-mlas-standing-strong-bc-you-every-day"
       }
      ]
+    },
+    {
+     "name": "Timothy Webster",
+     "party": "independent",
+     "incumbent": false,
+     "bio": "Withdrew as a candidate on October 8; Elections BC says the name stays on the ballot because ballots were almost all printed, and voters will be told at voting places.",
+     "sources": [
+      {
+       "label": "Elections BC: candidate withdrawn, Vancouver-Yaletown (Oct 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates-update/"
+      }
+     ],
+     "unscored_label": "On the ballot; withdrew Oct 8"
     }
    ],
    "candidate_list_status": "official",

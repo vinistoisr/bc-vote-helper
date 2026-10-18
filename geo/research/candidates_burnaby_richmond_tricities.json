@@ -464,10 +464,23 @@
        "url": "https://www.bbot.ca/2026/10/09/election-candidates-copy/"
       }
      ]
+    },
+    {
+     "name": "Greg DePaco",
+     "party": "green",
+     "incumbent": false,
+     "bio": "Withdrew as a candidate on October 9; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
+     "sources": [
+      {
+       "label": "Elections BC: candidate withdrawn, Burnaby-New Westminster (Oct 10, 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates-update-3/"
+      }
+     ],
+     "unscored_label": "BC Green on the ballot; withdrew Oct 9"
     }
    ],
    "candidate_list_status": "official",
-   "notes": "Elections BC lists 2 candidates. bcballot.ca reports a BC Green candidate, Greg DePaco, who withdrew after nominations closed and says his name stays on the printed ballot; he is not in the Elections BC CSV of October 10 and is not listed here. Check for a later Elections BC update."
+   "notes": "Elections BC lists 2 running candidates. BC Green candidate Greg DePaco withdrew on October 9 after ballots were printed; his name stays on the ballot (Elections BC, October 10), so he is listed as withdrawn and not scored."
   },
   {
    "code": "CQB",
@@ -826,17 +839,18 @@
      "name": "Gerry Lenoski",
      "party": "independent",
      "incumbent": false,
-     "bio": "No biography found; Elections BC lists him as unaffiliated (shown as Other in the CSV); one previous run on record.",
+     "bio": "Withdrew as a candidate on October 13; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
      "sources": [
+      {
+       "label": "Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates/"
+      },
       {
        "label": "Elections BC 2026 candidate list (page)",
        "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
       }
-     ]
+     ],
+     "unscored_label": "Unaffiliated on the ballot; withdrew Oct 13"
     },
     {
      "name": "Jennifer Whiteside",

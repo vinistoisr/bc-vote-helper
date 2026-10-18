@@ -644,12 +644,12 @@
 "Tinutulungan ka ng tool na ito na magkumpara. Ipinapakita nito kung aling partido ang may mga ideyang pinakamalapit sa iyo. Hindi nito sinasabi kung paano ka boboto. Ikaw ang magpapasya."
 ],
 "meta/disclaimer/3": [
-"a18c7aa957",
-"Hindi kaanib sa anumang partido ang tool na ito. Ikinukumpara nito ang iyong mga sagot sa mga pangako at rekord ng mga partido. Panimula ito, hindi rekomendasyon. Nag-aanunsyo pa ng mga pangako ang mga partido hanggang Oktubre 13, kaya tingnan kung may update. Ang mga pangalan at logo ng mga partido ay pag-aari ng mga partido."
+"84521519d4",
+"Hindi kaanib sa anumang partido ang tool na ito. Ikinukumpara nito ang iyong mga sagot sa mga pangako at rekord ng mga partido. Panimula ito, hindi rekomendasyon. Nag-aanunsyo pa ng mga pangako ang mga partido hanggang Oktubre 18, kaya tingnan kung may update. Ang mga pangalan at logo ng mga partido ay pag-aari ng mga partido."
 ],
 "meta/disclaimer/5": [
-"af709da820",
-"Independiyenteng tool para sa impormasyon ng botante. Ang mga iskor ay batay sa mga inilathalang pangako para sa 2026 hanggang Oktubre 13, 2026, na tinimbang laban sa rekord ng pamamahala at paggawa ng batas mula 2016-2026 kapag nagkakasalungat ang dalawa. Naglabas ang CentreBC ng buong plataporma noong Oktubre 10 na may sarili nitong kuwenta ng gastos, na hindi pa nasuri nang independiyente; hinihintay pa ang buong plataporma ng mga Green; ang ibang partido ay nangangampanya sa sunud-sunod na anunsyo nang walang kumpletong plataporma na may kuwenta ng gastos. Ang mga posisyong mababa ang katiyakan ay batay sa mga pahayag ng mga dating lider, sa mga plataporma noong 2024 o sa pananahimik. Ang mga pangalan at logo ng mga partido ay trademark ng kanilang mga may-ari, ipinapakita para lang makilala. Hindi ito pag-endorso."
+"310c66e26f",
+"Independiyenteng tool para sa impormasyon ng botante. Ang mga iskor ay batay sa mga inilathalang pangako para sa 2026 hanggang Oktubre 18, 2026, na tinimbang laban sa rekord ng pamamahala at paggawa ng batas mula 2016-2026 kapag nagkakasalungat ang dalawa. Naglabas ang CentreBC (Oktubre 10) at ang mga Green (Oktubre 13) ng buong plataporma na may sarili nilang kuwenta ng gastos, at naglabas ang NDP ng kuwenta ng gastos ng mga pangako nito sa kampanya noong Oktubre 14; wala sa mga ito ang nasuri nang independiyente. Hindi pa naglalabas ang mga Conservative ng plataporma na may kuwenta ng gastos hanggang Oktubre 18, at nangangampanya ang OneBC sa sunud-sunod na anunsyo. Ang mga posisyong mababa ang katiyakan ay batay sa mga pahayag ng mga dating lider, sa mga plataporma noong 2024 o sa pananahimik. Ang mga pangalan at logo ng mga partido ay trademark ng kanilang mga may-ari, ipinapakita para lang makilala. Hindi ito pag-endorso."
 ],
 "meta/method_summary/1": [
 "726b03f5d0",
@@ -664,12 +664,12 @@
 "Alignment(P) = sum(w_q x s_q(P)) / sum(w_q x 4) sa mga nasagot na tanong, kung saan ang s_q(P) ay ang iskor na 0-4 ng napiling pagpipilian para sa P at ang w_q ay ang bigat ng importance (mababa 0.5, katamtaman 1, mataas 2). Ang mga nilaktawang tanong (kasama ang 'hindi sigurado') ay inaalis sa dalawang sum. Ang mga tanong kung saan walang inilathalang posisyon ang P ay inaalis sa dalawang sum para sa P lamang. Ang mga hinuhang posisyon ay batay sa isang kaugnay na patakarang ipinahayag. Dikit: ang nangungunang dalawang buong-numerong porsyento ay nasa loob ng 3 puntos. Iskor ng pamilya: average ng mga porsyento ng mga miyembro bawat partido, kasama ang average ng mga adulto lamang (level 3 hanggang 5). Para sa mga kandidato, doble ang bilang ng mga lokal na tanong bukod pa sa importance; walang adjustment na partikular sa kandidato. Itinakda ang mga iskor mula sa mga binanggit na pinagkunan sa tulong ng isang AI assistant (Claude) at sinuri ng hiwalay na mga review; bawat iskor, paliwanag at pinagkunan ay pampubliko sa github.com/vinistoisr/bc-vote-helper. Ang reading level ay nagbabago lamang ng pananalita."
 ],
 "other_parties_note/3": [
-"a6853effdc",
-"Walang iskor, dahil hindi sila naglathala ng plataporma na maikukumpara: BC Libertarian (4 na kandidato), Communist (4), Christian Heritage (3), CanWest (2), Freedom (1), at 14 na independiyente o walang kaanib na partidong kandidato. Nakalista sila kasama ng mga kandidato sa iyong riding kapag nasa balota mo sila. Hindi tatakbo ang BC United."
+"c53f6d9fb0",
+"Walang iskor, dahil hindi sila naglathala ng plataporma na maikukumpara: BC Libertarian (4 na kandidato), Communist (4), Christian Heritage (3), CanWest (2), Freedom (1), at 13 independiyente o walang kaanib na partidong kandidato. Nakalista sila kasama ng mga kandidato sa iyong riding kapag nasa balota mo sila. Hindi tatakbo ang BC United."
 ],
 "other_parties_note/5": [
-"fb668665f1",
-"Walang iskor, dahil walang nakitang plataporma: BC Libertarian (4 na kandidato), Communist Party of BC (4), Christian Heritage Party of BC (3), CanWest Party (2), Freedom Party of BC (1), dagdag pa ang 7 independiyente at 7 kandidatong walang kaanib na partido, ayon sa listahan ng kandidato ng Elections BC (Oktubre 12, 2026; 355 kandidato sa kabuuan). Lumalabas sila sa bahagi ng riding kapag nasa balota sila ng botante. Walang kandidato ang BC United."
+"14b62fc9a4",
+"Walang iskor, dahil walang nakitang plataporma: BC Libertarian (4 na kandidato), Communist Party of BC (4), Christian Heritage Party of BC (3), CanWest Party (2), Freedom Party of BC (1), dagdag pa ang 7 independiyente at 6 na kandidatong walang kaanib na partido, ayon sa listahan ng kandidato ng Elections BC (Oktubre 18, 2026; 353 kandidato sa kabuuan). Nasa balota pa rin ang apat na kandidatong umatras matapos maimprenta ang mga balota, at ipinapakita silang umatras na. Lumalabas sila sa bahagi ng riding kapag nasa balota sila ng botante. Walang kandidato ang BC United."
 ],
 "parties/centrebc/leader_note": [
 "5960f74b17",
@@ -716,8 +716,8 @@
 "Ang pangunahing partidong gustong pumalit sa gobyerno. Gusto nito ng mas mababang buwis, mas kaunting patakaran para sa negosyo at mas maraming trabaho sa gas at pagmimina."
 ],
 "parties/conservative/one_liner/3": [
-"ec46652578",
-"Oposisyon mula 2024. Nangangako ng bawas na $1,000 sa income tax at walang bagong buwis; ibabasura ang DRIPA at SOGI 123, tatapusin ang safe supply, palalawakin ang sapilitang paggamot at dodoblehin ang produksyon ng gas. Apat na lider sa loob ng isang taon; walang plano na may kuwenta ng gastos."
+"eda298f445",
+"Oposisyon mula 2024. Nangangako ng bawas na $1,000 sa income tax at walang bagong buwis; ibabasura ang DRIPA at SOGI 123, tatapusin ang safe supply, palalawakin ang sapilitang paggamot at dodoblehin ang produksyon ng gas. Apat na lider sa loob ng isang taon; walang plano na may kuwenta ng gastos hanggang Oktubre 18."
 ],
 "parties/conservative/one_liner/5": [
 "ab0d8f10de",
@@ -780,12 +780,12 @@
 "Ang partidong namamahala sa gobyerno mula 2017. Gusto nitong magpatakbo ang gobyerno ng mas maraming programa at gumawa ng mga patakaran para tumulong sa mga tao."
 ],
 "parties/ndp/one_liner/3": [
-"12d11176a9",
-"Nasa gobyerno mula 2017. Aktibong ginagamit ang kapangyarihan ng probinsya (buwis sa pabahay, patakaran sa zoning, malalaking proyekto) at pinagbabayad nang mas malaki ang may mas mataas na kita, pero binawi nito ang ilang patakaran dahil sa pressure."
+"e0d4ec00c2",
+"Nasa gobyerno mula 2017. Aktibong ginagamit ang kapangyarihan ng probinsya (buwis sa pabahay, patakaran sa zoning, malalaking proyekto) at pinagbabayad nang mas malaki ang may mas mataas na kita, pero binawi nito ang ilang patakaran dahil sa pressure. Naglabas ito ng kuwenta ng gastos ng mga pangako nito para sa 2026 noong Oktubre 14."
 ],
 "parties/ndp/one_liner/5": [
-"68f050a3fc",
-"Namamahala mula 2017. Rekord: speculation and vacancy tax (2018), mga utos sa densidad sa Bills 44 at 47 (2023), Bill 36 sa paglipat ng pulisya ng Surrey (2023), pagbasura sa consumer carbon tax (2025), pagtatapos ng dekriminalisasyon (2026), depisit sa Budget 2026 na $13.3B (binago sa $13.8B). 2026: +2 puntos sa mga bracket na lampas $190,405, 24.5% sa lampas $1M, bawas na 10 c/L sa fuel tax, limitasyon sa margin ng grocery, freeze ng ICBC hanggang 2030, 20 klinika."
+"47e60fafa1",
+"Namamahala mula 2017. Rekord: speculation and vacancy tax (2018), mga utos sa densidad sa Bills 44 at 47 (2023), Bill 36 sa paglipat ng pulisya ng Surrey (2023), pagbasura sa consumer carbon tax (2025), pagtatapos ng dekriminalisasyon (2026), depisit sa Budget 2026 na $13.3B (binago sa $13.8B). 2026: +2 puntos sa mga bracket na lampas $190,405, 24.5% sa lampas $1M, bawas na 10 c/L sa fuel tax, limitasyon sa margin ng grocery, freeze ng ICBC hanggang 2030, 20 klinika. Kuwenta ng gastos (Oktubre 14): babayaran ang mga bagong pangako ng buwis sa may pinakamataas na kita, na ayon sa partido ay makakalikom ng $1B kada taon mula 2028/29, na may mga depisit na $13.8B, $12.7B at $11.7B sa loob ng tatlong taon."
 ],
 "parties/ndp/record_summary/3": [
 "13f89661ba",
@@ -988,16 +988,16 @@
 "Ititigil ng mga Green ang bagong pagpapaunlad ng fossil fuel. Tatapusin ng kanilang plataporma at climate brief noong Oktubre 10 ang pag-apruba sa bagong pagpapalawak ng fracking, mga LNG terminal at ang pagpapalawak ng mga ito, at mga bagong fossil fuel pipeline, tatapusin ang subsidy sa fossil fuel, palalakasin ang carbon pricing sa industriya, itatakda ang royalty sa gas sa 50% ng net profit, tatapusin ang regular na paglalabas (venting) ng methane at magpapatupad ng may-bisang limitasyon sa emisyon ng langis at gas kung kulang ang ibang patakaran. Tutol sila sa Pacific Link pipeline at pagbabayarin ang mga kasalukuyang planta ng liquefied natural gas para sa sarili nilang kuryente. Pananatilihin nila ang pangmatagalang target sa klima ng BC at magdadagdag ng mga pansamantalang target, ibabalik ang patakarang dapat zero-emission ang lahat ng bagong light-duty na sasakyang ibinebenta pagsapit ng 2035, ipagbabawal ang koneksyon sa gas sa mga bagong gusali, mag-aalok ng on-bill financing para sa pagpapaayos ng bahay, ibabalik ang net metering at layong makapagbigay ang kuryente ng hindi bababa sa 35% ng enerhiya pagsapit ng 2035 nang walang bagong malalaking dam. Noong Marso 2025, ang MLA ng Green na si Rob Botterell lang ang bumoto laban sa panukalang batas na magbabasura sa carbon tax sa unang pagbasa, at bumoto ang mga Green laban sa Bills 14 at 15, na nagpapabilis sa mga proyekto."
 ],
 "questions/q_climate_energy/party_positions/ndp/text/1": [
-"871aaebac2",
-"Tinapos ng partidong ito ang carbon tax sa fuel na binibili ng mga tao, pero pinapanatili nito ang singil sa carbon sa malalaking industriya at pinalalaki ang export ng gas."
+"04b31145a7",
+"Tinapos ng partidong ito ang carbon tax sa fuel na binibili ng mga tao, pero pinapanatili nito ang singil sa carbon sa malalaking industriya at pinalalaki ang export ng gas. Nangangako rin ito ng pera para sa mga heat pump sa bahay at mga charger ng electric na kotse."
 ],
 "questions/q_climate_energy/party_positions/ndp/text/3": [
-"235cea708d",
-"Habang nasa gobyerno, tinapos ng NDP ang carbon tax sa mga mamimili at ang mga rebate para sa electric vehicle, nag-apruba ng mas maraming liquefied natural gas at pinanatili ang carbon pricing sa industriya. Inaamin nito na kukulangin ang BC nang mga kalahati sa target nito sa 2030 at hindi pa nito sinasabi kung paano ito tutugon."
+"707d0bbf6a",
+"Habang nasa gobyerno, tinapos ng NDP ang carbon tax sa mga mamimili at ang mga rebate para sa electric vehicle, nag-apruba ng mas maraming liquefied natural gas at pinanatili ang carbon pricing sa industriya. Inaamin nito na kukulangin ang BC nang mga kalahati sa target nito sa 2030 at hindi pa nito sinasabi kung paano ito tutugon. Noong Oktubre 13, nangako ito ng $50 milyon kada taon para sa mga heat pump, $16 milyon kada taon para sa mga charger ng electric vehicle at isang layuning halos alisin ang methane emissions pagsapit ng 2035."
 ],
 "questions/q_climate_energy/party_positions/ndp/text/5": [
-"336fba399e",
-"Ibinaba ng NDP sa zero ang carbon tax sa mga mamimili noong Abril 2025 pero pinanatili ang carbon price sa industriya at ang Low Carbon Fuel Standard. Inalis nito ang mga rebate sa electric vehicle, ibinaba ang target sa benta ng zero-emission vehicle para sa 2035 mula 100% tungo sa 75%, at pumirma ng mga kontrata sa wind power. Tinatayang aabot ang BC sa 20% na mas mababa sa 2007 pagsapit ng 2030, laban sa 40% sa batas. Para sa 2026, nangangako ito ng mas maraming liquefied natural gas, isang transmission line sa north coast at pansamantalang bawas sa fuel tax na 10 sentimo kada litro. Tatanggapin lang nito ang isang pipeline kung mananatili ang tanker ban."
+"4d349937b7",
+"Ibinaba ng NDP sa zero ang carbon tax sa mga mamimili noong Abril 2025 pero pinanatili ang carbon price sa industriya at ang Low Carbon Fuel Standard. Inalis nito ang mga rebate sa electric vehicle, ibinaba ang target sa benta ng zero-emission vehicle para sa 2035 mula 100% tungo sa 75%, at pumirma ng mga kontrata sa wind power. Tinatayang aabot ang BC sa 20% na mas mababa sa 2007 pagsapit ng 2030, laban sa 40% sa batas. Para sa 2026, nangangako ito ng mas maraming liquefied natural gas, isang transmission line sa north coast at pansamantalang bawas sa fuel tax na 10 sentimo kada litro. Tatanggapin lang nito ang isang pipeline kung mananatili ang tanker ban. Idinadagdag ng plano nito sa klima noong Oktubre 13 ang $50 milyon kada taon para sa mga rebate sa heat pump, $16 milyon kada taon para gawing tatlong beses ang dami ng pampublikong EV charging port sa loob ng isang dekada, $4 milyon kada taon para doblehin ang Youth Climate Corps, at isang pangakong maabot ang 75% na bawas sa methane pagsapit ng 2030 at 'halos tuluyang alisin ang methane emissions pagsapit ng 2035'."
 ],
 "questions/q_climate_energy/party_positions/onebc/text/1": [
 "7a88fdb256",
@@ -2040,16 +2040,16 @@
 "Puwedeng kasinlaki ng upa ang gastos ng mga pamilya sa child care. Mga isa sa bawat sampung lisensyadong espasyo ang nagkakahalaga ng $10 kada araw, at itinigil muna ng probinsya ang mga bagong espasyo sa child care na $10 kada araw sa loob ng tatlong taon para makatipid. Umaasa pa rin ang ilang mabilis lumaking school district sa mga portable na silid-aralan. Hindi nagkakasundo ang mga partido kung palalawakin ang child care, itutuon ang mga paaralan sa mga batayan, o pipigilan ang gastos."
 ],
 "questions/q_education_childcare/context/3": [
-"a9a5354c0c",
-"Mga 10% ng lisensyadong espasyo sa child care ang nagkakahalaga ng $10 kada araw. Noong 2026, itinigil muna ng gobyerno ng NDP ang mga bagong espasyo na $10 kada araw sa loob ng tatlong taon. Gumagamit pa rin ng maraming portable na silid-aralan ang ilang mabilis lumaking school district. Gusto ng mga Green ng libreng child care pagsapit ng 2031 at gusto ng CentreBC ng 20,000 dagdag na espasyo na $10 kada araw. Nakatuon ang mga Conservative at OneBC sa pagsusulit, grado at mga batayan."
+"63b9d1a485",
+"Mga 10% ng lisensyadong espasyo sa child care ang nagkakahalaga ng $10 kada araw. Noong 2026, itinigil muna ng gobyerno ng NDP ang mga bagong espasyo na $10 kada araw sa loob ng tatlong taon. Gumagamit pa rin ng maraming portable na silid-aralan ang ilang mabilis lumaking school district. Gusto ng mga Green ng libreng child care pagsapit ng 2031 at gusto ng CentreBC ng 20,000 dagdag na espasyo na $10 kada araw. Noong Oktubre, nangako ang NDP ng mas maraming espasyo at limitasyon sa bayarin, gamit ang pederal na pera. Nakatuon ang mga Conservative at OneBC sa pagsusulit, grado at mga batayan."
 ],
 "questions/q_education_childcare/context/4": [
 "d6213bc0c6",
 "Mga 10% ng lisensyadong espasyo sa child care ang nagkakahalaga ng $10 kada araw. Noong Pebrero 2026, itinigil muna ng gobyerno ng NDP ang bagong enrolment na $10 kada araw sa loob ng tatlong taon para ayusin ang modelo ng pagpopondo ng programa. Tumutulong pa rin ang Affordable Child Care Benefit sa mga pamilyang may kita na hanggang $111,000. Gumagamit pa rin ng portable na silid-aralan ang mga mabilis lumaking school district."
 ],
 "questions/q_education_childcare/context/5": [
-"d579fb7581",
-"Naka-freeze ang bagong enrolment na $10 kada araw mula Pebrero 2026 (iniulat bilang tatlong taong freeze), at nagdadagdag ang Budget 2026 ng $330 milyon sa loob ng tatlong taon para sa child care. Mahigit 16,000 ang ganitong espasyo noong Marso 2025, laban sa target na 20,000. Nagpapatuloy ang Affordable Child Care Benefit para sa mga pamilyang may kita na hanggang $111,000. Nagpaplano ang Budget 2026 ng $3.9 bilyon sa loob ng tatlong taon para magtayo, mag-renovate at mag-seismic upgrade ng mga paaralan. Tinataya ng plataporma ng mga Green noong Oktubre 13 ang gastos sa child care sa $260 milyon kada taon, hindi kasama ang kapital para sa mga bagong center, at sa edukasyon sa $587 milyon kada taon. Tinataya ng CentreBC ang plano nito sa edukasyon sa mga $2.0 bilyon dagdag ang $750 milyong capital sa loob ng apat na taon, at pinopondohan ang child care mula sa pederal na pera, ayon sa sariling numero ng partido."
+"ad9f1e2b04",
+"Naka-freeze ang bagong enrolment na $10 kada araw mula Pebrero 2026 (iniulat bilang tatlong taong freeze), at nagdadagdag ang Budget 2026 ng $330 milyon sa loob ng tatlong taon para sa child care. Mahigit 16,000 ang ganitong espasyo noong Marso 2025, laban sa target na 20,000. Nagpapatuloy ang Affordable Child Care Benefit para sa mga pamilyang may kita na hanggang $111,000. Nagpaplano ang Budget 2026 ng $3.9 bilyon sa loob ng tatlong taon para magtayo, mag-renovate at mag-seismic upgrade ng mga paaralan. Noong Oktubre 17, nangako ang NDP ng $80 milyon para sa mga espasyo bago at pagkatapos ng klase sa mga paaralan at $250 milyon para sa muling pinag-usapang kasunduan ng Canada-BC sa child care. Tinataya ng plataporma ng mga Green noong Oktubre 13 ang gastos sa child care sa $260 milyon kada taon, hindi kasama ang kapital para sa mga bagong center, at sa edukasyon sa $587 milyon kada taon. Tinataya ng CentreBC ang plano nito sa edukasyon sa mga $2.0 bilyon dagdag ang $750 milyong capital sa loob ng apat na taon, at pinopondohan ang child care mula sa pederal na pera, ayon sa sariling numero ng partido."
 ],
 "questions/q_education_childcare/options/a/text/1": [
 "895ead171e",
@@ -2188,16 +2188,16 @@
 "Noong Setyembre 28, 2026, nangako ang mga Green na tatapusin ang freeze 'kaagad', gagawing libre ang child care para sa lahat pagsapit ng 2031 at babayaran ang mga early childhood educator ng $35 hanggang $45 kada oras pagsapit ng 2028. Idinadagdag ng kanilang plataporma noong Oktubre 13 ang iisang pagpaparehistro para sa mga espasyo na $10 kada araw, mga bagong espasyo at priyoridad sa pagpaparehistro para sa mga center na pampubliko, non-profit at pinamumunuan ng mga Katutubo, pagpuno sa kakulangan sa pondo ng inclusive education, pagkain sa paaralan para sa lahat, isang programa sa gamit sa paaralan, unti-unting paglilipat ng pondo ng mga pribadong paaralan sa mga pampublikong paaralan at moratorium sa artificial intelligence sa mga silid-aralan. Idinadagdag ng kanilang Education Policy Brief ang isang counsellor kada 250 estudyante. Tinataya ng plataporma ang gastos sa child care sa $260 milyon kada taon, hindi kasama ang kapital para sa mga bagong center, at sa edukasyon sa $587 milyon kada taon, at binabayaran ang mga plano nito pangunahin sa pamamagitan ng buwis sa net na yamang higit sa $50 milyon."
 ],
 "questions/q_education_childcare/party_positions/ndp/text/1": [
-"ed5011dd20",
-"Pinamura ng partidong ito ang child care, pagkatapos ay itinigil muna ang mga bagong murang espasyo. Nagtayo ito ng mga paaralan, pero may mga estudyanteng nag-aaral pa rin sa portable na silid-aralan."
+"7357e92112",
+"Pinamura ng partidong ito ang child care, pagkatapos ay itinigil muna ang mga bagong murang espasyo. Noong Oktubre, nangako ito ng mas maraming espasyo at limitasyon sa bayarin. Nagtayo ito ng mga paaralan, pero may mga estudyanteng nag-aaral pa rin sa portable na silid-aralan."
 ],
 "questions/q_education_childcare/party_positions/ndp/text/3": [
-"5890776f4d",
-"Nilikha ng NDP ang child care na $10 kada araw, pagkatapos ay ini-freeze ang mga bagong espasyo noong 2026 sa loob ng tatlong taon. Sinasabi nitong nakapagtayo ito ng 250 paaralan, pero umaasa pa rin sa portable na silid-aralan ang ilang mabilis lumaking district. Wala itong bagong pangako sa edukasyon o child care sa 2026."
+"dd8341a855",
+"Nilikha ng NDP ang child care na $10 kada araw, pagkatapos ay ini-freeze ang mga bagong espasyo noong 2026 sa loob ng tatlong taon. Noong Oktubre 17, nangako ito ng 7,200 espasyo bago at pagkatapos ng klase ($80 milyon), $250 milyon para palawakin ang abot-kayang child care gamit ang pederal na pera, isang wage grid para sa mga early childhood educator at limitasyon sa bayarin. Sinasabi nitong nakapagtayo ito ng 250 paaralan, pero umaasa pa rin sa portable na silid-aralan ang ilang mabilis lumaking district. Wala itong bagong pangako sa K-12 sa 2026."
 ],
 "questions/q_education_childcare/party_positions/ndp/text/5": [
-"b953fd94b8",
-"Inilunsad ng NDP ang ChildCareBC noong 2018 at may mahigit 16,000 espasyo na $10 kada araw pagsapit ng Marso 2025, patungo sa layuning 20,000. Noong Pebrero 2026, itinigil muna nito ang bagong enrolment at pagpapalawak, isang freeze na iniulat ng Global News na tatagal nang tatlong taon, at nagdadagdag ang Budget 2026 ng $330 milyon sa loob ng tatlong taon para sa child care. Sinasabi ng partido na nakapagtayo ito ng 250 paaralan. Nagpaplano ang Budget 2026 ng $3.9 bilyon sa loob ng tatlong taon para sa pagpapatayo ng paaralan at seismic upgrade. Wala itong pangako sa edukasyon o child care sa 2026."
+"f417b9d79b",
+"Inilunsad ng NDP ang ChildCareBC noong 2018 at may mahigit 16,000 espasyo na $10 kada araw pagsapit ng Marso 2025, patungo sa layuning 20,000. Noong Pebrero 2026, itinigil muna nito ang bagong enrolment at pagpapalawak, isang freeze na iniulat ng Global News na tatagal nang tatlong taon, at nagdadagdag ang Budget 2026 ng $330 milyon sa loob ng tatlong taon para sa child care. Sinasabi ng partido na nakapagtayo ito ng 250 paaralan. Nagpaplano ang Budget 2026 ng $3.9 bilyon sa loob ng tatlong taon para sa pagpapatayo ng paaralan at seismic upgrade. Noong Oktubre 17, 2026, nangako ito ng $80 milyon para sa 7,200 espasyo bago at pagkatapos ng klase sa loob ng bakuran ng paaralan, at $250 milyon na bagong pera ng probinsya para makakuha ng pederal na pondo sa muling pag-uusap sa kasunduan ng Canada-BC sa child care (deadline sa Disyembre 1) para sa isang wage grid ng probinsya para sa mga early childhood educator, mas maraming abot-kayang espasyo at 'isang mahigpit at unibersal na limitasyon sa bayarin tulad ng sa Ontario'. Hindi ito nagbigay ng halaga ng limitasyon, target na bilang ng espasyo o petsa. Wala itong bagong pangako sa K-12 sa 2026."
 ],
 "questions/q_education_childcare/party_positions/onebc/text/1": [
 "0f64c2bbf6",
@@ -3560,8 +3560,8 @@
 "Ang probinsya ang nagbabayad sa pagtatayo ng mga ospital at paaralan. Magbubukas ang bagong ospital sa Cloverdale sa 2030, tatlong taon na mas huli kaysa sa unang plano. Sa Surrey Memorial, mas maraming pasyente sa emergency ngayon ang umaalis bago matingnan. May 361 portable na silid-aralan ang mga paaralan sa Surrey noong 2023. Malaki ang inuutang ng probinsya, at hindi nagkakasundo ang mga partido kung gaano kabilis magtatayo at kung paano magbabayad."
 ],
 "questions/q_local_hospital_schools/context/3": [
-"9889a6da3f",
-"Itinatayo ng gobyerno ng NDP ang ospital sa Cloverdale at mga dagdag na espasyo para sa mga estudyante sa mga paaralan, at nangangako ng 20 klinika at mas mabilis na paglilisensya para sa mga doktor na sinanay sa ibang bansa. Sinasabi ng mga Conservative na 'contemplating' (pinag-iisipan) nila ang ospital at nag-aalok ng pondo para sa emergency room at isang komisyon tungkol sa tagal ng paghihintay. Gusto ng mga Green ng health centre sa bawat riding. Magtatayo ang CentreBC ng bagong tore sa Surrey Memorial, magpaplano ng ospital para sa mga bata at magdadagdag ng espasyo para sa 25,000 estudyante sa mga paaralan sa buong BC. Papayagan ng OneBC ang mga pribadong klinika."
+"8f947a6fba",
+"Itinatayo ng gobyerno ng NDP ang ospital sa Cloverdale at mga dagdag na espasyo para sa mga estudyante sa mga paaralan, at nangangako ng 20 klinika at mas mabilis na paglilisensya para sa mga doktor na sinanay sa ibang bansa. Nangangako ang mga Conservative na tatapusin ang ospital sa Cloverdale at magtatayo ng ospital para sa kababaihan at mga bata sa Surrey, at nag-aalok ng pondo para sa emergency room at isang komisyon tungkol sa tagal ng paghihintay. Gusto ng mga Green ng health centre sa bawat riding. Magtatayo ang CentreBC ng bagong tore sa Surrey Memorial, magpaplano ng ospital para sa mga bata at magdadagdag ng espasyo para sa 25,000 estudyante sa mga paaralan sa buong BC. Papayagan ng OneBC ang mga pribadong klinika."
 ],
 "questions/q_local_hospital_schools/context/4": [
 "4168c7603d",
@@ -3684,16 +3684,16 @@
 "Itatayo ng plataporma ang tore ng Surrey Memorial na inanunsyo noong 2024, na may mga bagong operating room at cardiac intensive care. Kukumpletuhin nito ang business case, lugar at disenyo para sa ospital ng mga bata sa timog ng Fraser sa unang termino nito, at sisimulan ang konstruksyon sa 2031. Magdadagdag ito ng kapasidad sa mga paaralan para sa 25,000 estudyante pagsapit ng 2031 gamit ang $750 milyon at nangangako ng primary care para sa lahat pagsapit ng 2031 gamit ang 600 nurse practitioner. Magkakaroon ito ng 2,500 kama para sa long-term care na ginagawa at 1,000 na bukas pagsapit ng Marso 2031, at nagpaplano ito ng $3.2 bilyon sa health capital sa loob ng apat na taon. Hindi nito binabanggit ang ospital sa Cloverdale o ang school district ng Surrey."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/1": [
-"5737df71f2",
-"Gusto ng partidong ito na panatilihing bukas ang mga emergency room at nagpapasya pa ito tungkol sa bagong ospital."
+"92fd2f6ecc",
+"Tatapusin ng partidong ito ang bagong ospital sa Cloverdale, nagpaplano ito ng bagong ospital para sa kababaihan at mga bata sa Surrey, at gusto nitong panatilihing bukas ang mga emergency room."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/3": [
-"fe5b02b3b0",
-"Nang tanungin tungkol sa ospital noong Oktubre 7, sinabi ni Doerkson na 'pinag-iisipan namin ang lahat ng iyan para sa paglalabas ng aming plataporma'. Nag-aalok ang plano nito sa kalusugan ng pondo para sa emergency room, isang 100-araw na komisyon tungkol sa tagal ng paghihintay, walang pagbabawas, at pondo sa long-term care na sumusunod sa senior. Wala itong pangako para sa mga paaralan sa Surrey."
+"8e164e4090",
+"Noong Oktubre 15, nangako ang mga Conservative na tapusin ang Surrey Hospital sa Cloverdale 'sa takdang oras at sa loob ng budget' at magtayo ng bagong Women and Children's Hospital sa Surrey, nang walang gastos o petsa para sa ikalawa. Nag-aalok din ang plano nila sa kalusugan ng pondo para sa emergency room, isang 100-araw na komisyon tungkol sa tagal ng paghihintay, walang pagbabawas, at pondo sa long-term care na sumusunod sa senior. Wala silang pangako para sa mga paaralan sa Surrey."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/5": [
-"4864598097",
-"Nang tanungin tungkol sa ospital noong Oktubre 7, sinabi ni Doerkson na 'pinag-iisipan namin ang lahat ng iyan para sa paglalabas ng aming plataporma'. Nag-aalok ang plano nitong Keep Emergency Rooms Open (Oktubre 5) ng $50 milyong emergency fund, isang 100-araw na komisyon ng mga eksperto at pangakong panatilihin ang kasalukuyang gastos sa health care; noong Oktubre 12, inulit ng partido na mananatiling unibersal at pinopondohan ng publiko ang pangangalaga. Sinusuri ng plano nito para sa seniors (Oktubre 9) ang mga patakaran sa disenyo ng long-term care, hinahayaang sumunod sa senior ang pondo para sa pangangalaga at nag-aalok ng pagpili ng provider ng home care. Wala itong posisyon sa capital ng mga paaralan o sa Surrey Memorial. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
+"d113342783",
+"Noong Oktubre 15, nangako ang partido na 'tapusin ang Surrey Hospital sa Cloverdale sa takdang oras at sa loob ng budget' at magtayo ng bagong Women and Children's Hospital sa Surrey; hindi ito nagbigay ng gastos o petsa para sa ospital para sa kababaihan at mga bata. Pinapalitan nito ang sagot ni Doerkson noong Oktubre 7 na 'pinag-iisipan namin ang lahat ng iyan para sa paglalabas ng aming plataporma'. Nag-aalok ang plano nitong Keep Emergency Rooms Open (Oktubre 5) ng $50 milyong emergency fund, isang 100-araw na komisyon ng mga eksperto at pangakong panatilihin ang kasalukuyang gastos sa health care; noong Oktubre 12, inulit ng partido na mananatiling unibersal at pinopondohan ng publiko ang pangangalaga. Sinusuri ng plano nito para sa seniors (Oktubre 9) ang mga patakaran sa disenyo ng long-term care, hinahayaang sumunod sa senior ang pondo para sa pangangalaga at nag-aalok ng pagpili ng provider ng home care. Wala itong posisyon sa capital ng mga paaralan o sa Surrey Memorial. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
 ],
 "questions/q_local_hospital_schools/party_positions/green/text/1": [
 "f0d6cbcfe4",
@@ -3716,8 +3716,8 @@
 "Itinatayo ng NDP ang ospital sa Cloverdale at mga pasilidad para sa dagdag na estudyante sa mga paaralan sa Surrey, at nangangako ng 20 klinika at mas mabilis na paglilisensya para sa mga doktor na sinanay sa ibang bansa. Tumaas nang mga $1 bilyon ang gastos ng ospital at naantala nang tatlong taon ang pagbubukas nito. Hindi nito natupad ang pangako noong 2016 na wakasan ang mga portable ng Surrey sa loob ng apat na taon."
 ],
 "questions/q_local_hospital_schools/party_positions/ndp/text/5": [
-"52a2fa273a",
-"Nagkakahalaga na ngayon ang ospital sa Cloverdale ng mga $2.88 bilyon, mula $1.72 bilyon, at matatapos sa Agosto 2029 sa halip na 2027. Nagtatayo ang NDP ng medical school sa Simon Fraser University sa Surrey at ng 60 kama para sa mental health sa Surrey, kasama ang sapilitang paggamot, na inaasahan sa tagsibol 2028. Itinatayo ang mga pasilidad sa paaralan para sa mga 2,300 dagdag na estudyante at 19 sa 40 modular na gusali ang pumalit sa mga portable, pero nagkaroon ang district ng kakulangang $16 milyon sa budget noong 2025-26. Para sa 2026, nangangako ito ng 20 klinika, tulong para sa mga doktor na sinanay sa ibang bansa, 1,000 puwesto sa pagsasanay, at walong MRI machine at 10 CT scanner sa buong BC. Nangangako ang kandidatong si Brar ng 'isang bagong ospital' nang walang takdang panahon."
+"8ed1a4c952",
+"Nagkakahalaga na ngayon ang ospital sa Cloverdale ng mga $2.88 bilyon, mula $1.72 bilyon, at matatapos sa Agosto 2029 sa halip na 2027. Nagtatayo ang NDP ng medical school sa Simon Fraser University sa Surrey at ng 60 kama para sa mental health sa Surrey, kasama ang sapilitang paggamot, na inaasahan sa tagsibol 2028. Itinatayo ang mga pasilidad sa paaralan para sa mga 2,300 dagdag na estudyante at 19 sa 40 modular na gusali ang pumalit sa mga portable, pero nagkaroon ang district ng kakulangang $16 milyon sa budget noong 2025-26. Para sa 2026, nangangako ito ng 20 klinika, tulong para sa mga doktor na sinanay sa ibang bansa, 1,000 puwesto sa pagsasanay, at walong MRI machine at 10 CT scanner sa buong BC. Noong Oktubre 15, sinabi nitong makikipagtulungan ito sa mga lider ng munisipyo na nag-alok ng lupa para sa isang bagong pasilidad ng health care sa Surrey. Nangangako ang kandidatong si Brar ng 'isang bagong ospital' nang walang takdang panahon."
 ],
 "questions/q_local_hospital_schools/party_positions/onebc/text/1": [
 "df2bda351d",
@@ -5428,16 +5428,16 @@
 "Transit and Transportation Policy Brief (Oktubre 9, 2026) at plataporma (Oktubre 13, 2026): buong pondohan ang TransLink at BC Transit, unahin ang pagdoble ng bilang ng bus sa loob ng unang termino, unti-unting ipatupad ang transit na walang pamasahe simula sa mga pasaherong wala pang 25 at lampas 65 (libre para sa lahat kapag naging matatag na ang pondo at may mabilis at madalas na serbisyo na), SkyTrain hanggang UBC, itigil ang outsourcing ng paghahatid ng transit, at isang komite ng lahat ng partido sa Lehislatura para bumuo ng pangmatagalang modelo ng pondo para sa BC Transit at TransLink. Tinataya ng plataporma ang gastos ng buong bahagi nito sa transportasyon, na sumasaklaw din sa ferry at riles, sa $1 bilyon kada taon, na babayaran mula sa buwis sa yaman, mas mataas na royalty sa langis at gas at singil sa paggamit ng tubig (water rental rates) sa halip na sa isang pinagkukunang partikular sa TransLink. Iminumungkahi rin nito ang windfall profits tax sa pambihirang kita ng mga korporasyon, kasama ang sa sektor ng fossil fuel. Sa isang pahayag tungkol sa bawas ng NDP sa fuel tax, sinabi ng partido na dapat dumating ang ginhawa 'nang hindi binabawasan ang ating kita at pinahihina ang mga serbisyong inaasahan ng mga taong iyon', at nanawagan ng 'pagbubuwis sa napakalaking windfall na kinikita ngayon ng mga kumpanya ng fossil fuel'."
 ],
 "questions/q_local_metro_translink/party_positions/ndp/text/1": [
-"b6063ff3a2",
-"Nagbibigay ang partidong ito ng dagdag na pera sa transit ngayon, tinatanggihan ang taunang singil sa kotse, at nangangako ng bagong plano sa pera sa loob ng dalawang taon."
+"1ae136ffef",
+"Nagbibigay ang partidong ito ng dagdag na pera sa transit ngayon, tinatanggihan ang taunang singil sa kotse, at nangangako ng bagong plano sa pera sa loob ng dalawang taon. Nangangako rin ito ng mas maraming pera para sa bus at mabibilis na linya ng bus."
 ],
 "questions/q_local_metro_translink/party_positions/ndp/text/3": [
-"e991aa76e4",
-"Binigyan ng gobyerno ng NDP ang TransLink ng $312 milyon noong 2025, sapat hanggang katapusan ng 2027. Noong Oktubre 2, tinanggihan nito ang singil sa sasakyan at ang road pricing at nangakong gagawa ng batas sa 2027 para lumikha ng bagong mapagkukunan ng kita, nang hindi sinasabi kung ano. Nangangako rin ito ng pagbabawas sa fuel tax nang 10 sentimo kada litro."
+"727cb2dd1f",
+"Binigyan ng gobyerno ng NDP ang TransLink ng $312 milyon noong 2025, sapat hanggang katapusan ng 2027. Noong Oktubre 2, tinanggihan nito ang singil sa sasakyan at ang road pricing at nangakong gagawa ng batas sa 2027 para lumikha ng bagong mapagkukunan ng kita, nang hindi sinasabi kung ano. Nangangako rin ito ng pagbabawas sa fuel tax nang 10 sentimo kada litro. Noong Oktubre 14, nagdagdag ito ng $40 milyon kada taon para sa BC Transit at nangako ng bus rapid transit sa Metro Vancouver."
 ],
 "questions/q_local_metro_translink/party_positions/ndp/text/5": [
-"2a8b1a53b2",
-"Rekord: $479 milyon sa TransLink noong Marso 2023 at $312 milyon para sa 2025 hanggang 2027, mga kalahati ng kakulangan. Noong Oktubre 2, 2026, sinabi ni Eby na 'ang singil sa sasakyan o road pricing ay hindi mga opsyong itutuloy namin' at nangakong gagawa ng batas sa 2027 para sa mapagkukunan ng kita sa 2028, na hindi pinangalanan. Nangangako rin ang NDP ng bawas sa fuel tax na 10 sentimo kada litro at ng limitasyon sa presyo sa pamamagitan ng Utilities Commission; sinasabi ng mga Green na pinapahina nito ang fuel tax na nagpopondo sa TransLink."
+"eb6bd65c4b",
+"Rekord: $479 milyon sa TransLink noong Marso 2023 at $312 milyon para sa 2025 hanggang 2027, mga kalahati ng kakulangan. Noong Oktubre 2, 2026, sinabi ni Eby na 'ang singil sa sasakyan o road pricing ay hindi mga opsyong itutuloy namin' at nangakong gagawa ng batas sa 2027 para sa mapagkukunan ng kita sa 2028, na hindi pinangalanan. Nangangako rin ang NDP ng bawas sa fuel tax na 10 sentimo kada litro at ng limitasyon sa presyo sa pamamagitan ng Utilities Commission; sinasabi ng mga Green na pinapahina nito ang fuel tax na nagpopondo sa TransLink. Noong Oktubre 14, nagdagdag ito ng $40 milyon kada taon para sa BC Transit, isang pangakong 'maghatid ng rapid bus transit' sa Metro Vancouver at bumuo ng pangmatagalang modelo ng kita kasama ang TransLink, nang walang ruta, target sa serbisyo o gastos para sa mga rapid bus; noong Oktubre 15, nangako ito ng $250 milyon para sa bus rapid transit sa King George Boulevard mula Surrey hanggang White Rock."
 ],
 "questions/q_local_metro_translink/party_positions/onebc/text/1": [
 "4ceeac90fe",
@@ -5808,16 +5808,16 @@
 "Plataporma (Oktubre 13, 2026, Forests) at Forestry Policy Brief (Oktubre 4, 2026): tanggihan ang Working Forest Model kasama ang layuning 45 milyon at ang 'no net loss'; itakda ang pagtotroso sa pamamagitan ng panrehiyong pagpaplanong nakabatay sa bawat lugar; itigil ang karaniwang clearcutting; permanenteng protektahan ang lumang kagubatan (old growth) na may malalaking puno at ang malalaking second growth at ipatupad ang lahat ng rekomendasyon ng Old Growth Strategic Review; itigil ang pag-export ng hilaw na troso; pagsikapang maabot ang 20% ng allowable cut para sa mga community forest; 30 hanggang 50% ng makukuhang fibre para sa value-added; pamumuhunan sa mga pasilidad na makagagamit ng fibre na mas maliit ang diameter at mas mababa ang kalidad; reporma sa tenure pabor sa First Nations, mga komunidad at mas maliliit na operator; mas malaking bahagi ng kita mula sa kagubatan para sa First Nations, mga munisipyo at regional district; retraining, upskilling at suporta sa trabaho para sa mga manggagawa sa kagubatan. Economic Direction (Oktubre 7): tanggihan ang 'pagtatakda muna ng target ng probinsya sa pagtotroso at saka pagbuo ng plano para maabot ito'. Pahayag: ang kita mula sa kagubatan na $397 milyon noong 2025/26 ay mas mababa kaysa sa gastos ng ministri."
 ],
 "questions/q_local_north_forestry/party_positions/ndp/text/1": [
-"a11a2683f9",
-"Ang partidong ito, na nasa kapangyarihan ngayon, ay gustong hatiin sa mga zone ang kagubatan at pumutol nang mas marami, habang pinoprotektahan ang pinakabihirang lumang puno."
+"d663c8a451",
+"Ang partidong ito, na nasa kapangyarihan ngayon, ay gustong hatiin sa mga zone ang kagubatan at pumutol nang mas marami, habang pinoprotektahan ang pinakabihirang lumang puno. Nangangako rin ito ng pera para sa mga manggagawa sa kagubatan at sa mga mill na nanganganib magsara."
 ],
 "questions/q_local_north_forestry/party_positions/ndp/text/3": [
-"d39f17ded6",
-"Hahatiin ng Working Forest model ng gobyernong NDP ang pampublikong kagubatan sa mga zone at layunin nito ang 45 milyong cubic metre kada taon na may 'no net loss' ng lupang pang-troso. Noong Oktubre 10, nangako ito ng $50 milyon para gawing permanente ang mga deferral sa pinakabihirang lumang kagubatan at tulungan ang mga mill na mag-retrofit para sa second growth. Hindi inuulit ng mga anunsyo sa kampanya ang target na 45 milyon."
+"b318c91078",
+"Hahatiin ng Working Forest model ng gobyernong NDP ang pampublikong kagubatan sa mga zone at layunin nito ang 45 milyong cubic metre kada taon na may 'no net loss' ng lupang pang-troso. Noong Oktubre 10, nangako ito ng $50 milyon para gawing permanente ang mga deferral sa pinakabihirang lumang kagubatan at tulungan ang mga mill na mag-retrofit para sa second growth. Noong Oktubre 14, nagdagdag ito ng pondong $120 milyon sa loob ng dalawang taon para sa mga manggagawa, mill at komunidad na nanganganib, isang task force para sa mga mill at mas mabilis na pagbibigay ng permit. Hindi inuulit ng mga anunsyo sa kampanya ang target na 45 milyon."
 ],
 "questions/q_local_north_forestry/party_positions/ndp/text/5": [
-"dc621cd019",
-"Rekord: Working Forest Landscape Model (mga zone, 'no net loss', layuning 45 milyong cubic metre, mas kaunting permit na isa-isang pinagpapasyahan), ang unang kandidatong lugar malapit sa Campbell River ay inanunsyo noong Setyembre 15, 2026; Mga pangako: $50 milyon para gawing permanenteng proteksyon ang mga deferral sa pinakabihirang lumang kagubatan habang tinutulungan ang mga mill na mag-retrofit para sa value-added na second growth (Oktubre 10). Walang plataporma ang NDP at hindi binabanggit ng mga anunsyo nito ang bilang na 45 milyon. Walang tugon sa hiling ng Unifor para sa bridging-to-retirement (tulong hanggang pagreretiro)."
+"b9811925df",
+"Rekord: Working Forest Landscape Model (mga zone, 'no net loss', layuning 45 milyong cubic metre, mas kaunting permit na isa-isang pinagpapasyahan), ang unang kandidatong lugar malapit sa Campbell River ay inanunsyo noong Setyembre 15, 2026; Mga pangako: $50 milyon para gawing permanenteng proteksyon ang mga deferral sa pinakabihirang lumang kagubatan habang tinutulungan ang mga mill na mag-retrofit para sa value-added na second growth (Oktubre 10). Oktubre 14: isang bagong Forestry Jobs Protection Fund na $120 milyon sa loob ng dalawang taon para sa mga manggagawa, mill at komunidad na nanganganib; isang task force ng industriya, sektor ng paggawa at mga ministeryo para panatilihing bukas ang mga mill na tinamaan ng taripa; isang Forestry Competitiveness stream sa isang permanenteng BC Manufacturing Jobs Fund para sa retrofit ng mga mill; at mas mabilis na pagbibigay ng permit na may tuloy-tuloy na access sa fibre (hibla ng kahoy). Hindi binabanggit ng mga anunsyo nito ang bilang na 45 milyon. Walang tugon sa hiling ng Unifor para sa bridging-to-retirement (tulong hanggang pagreretiro)."
 ],
 "questions/q_local_north_forestry/party_positions/onebc/text/1": [
 "e0cc488080",
@@ -6188,16 +6188,16 @@
 "Noong Oktubre 9, 2026, nangako ang mga Green ng libreng transit para sa mga taong wala pang 25 at lampas 65, na may mas malawak na layuning walang pamasahe, mas maraming riles para sa pasahero sa rehiyon at ferry, at pondo para sa pagsusuri sa engineering, pag-aaral sa ekonomiya at operasyon ng BC Rail Corridor Alliance sa corridor mula Squamish hanggang 100 Mile House. Inuulit ito ng kanilang plataporma noong Oktubre 13 at idinadagdag ang SkyTrain hanggang UBC, pero wala itong posisyon sa linyang Surrey-Langley. Sinasabi ng mga Green na makatutulong ang kanilang iminumungkahing Fair Share Act sa pagbabayad para sa libreng transit. Walang inilathalang posisyon sa transit ang kandidatong si Binnema."
 ],
 "questions/q_local_skytrain/party_positions/ndp/text/1": [
-"f0e30ce3be",
-"Itinatayo ng partidong ito ang linya ng SkyTrain at tinanggihan nito ang taunang singil sa kotse."
+"6cdf3e7d0b",
+"Itinatayo ng partidong ito ang linya ng SkyTrain at tinanggihan nito ang taunang singil sa kotse. Nangangako rin ito ng mabilis na bus sa King George Boulevard at libreng bus pass para sa mga senior na mababa ang kita."
 ],
 "questions/q_local_skytrain/party_positions/ndp/text/3": [
-"ae1797627c",
-"Itinatayo ng NDP ang SkyTrain para sa huling bahagi ng 2029. Tumaas ang gastos mula $4 bilyon hanggang $6 bilyon at naantala nang isang taon ang pagbubukas. Tinanggihan nito ang singil sa sasakyan at nangangakong gagawa ng batas sa 2027 para sa bagong kita, nang hindi sinasabi kung saan manggagaling ang pera."
+"490525e158",
+"Itinatayo ng NDP ang SkyTrain para sa huling bahagi ng 2029. Tumaas ang gastos mula $4 bilyon hanggang $6 bilyon at naantala nang isang taon ang pagbubukas. Tinanggihan nito ang singil sa sasakyan at nangangakong gagawa ng batas sa 2027 para sa bagong kita, nang hindi sinasabi kung saan manggagaling ang pera. Noong Oktubre 15, nangako ito ng $250 milyon para sa bus rapid transit sa King George Boulevard hanggang White Rock at libreng bus pass para sa mga senior na mababa ang kita."
 ],
 "questions/q_local_skytrain/party_positions/ndp/text/5": [
-"9d824479fb",
-"Nagkakahalaga ang linya ng $5.996 bilyon, magbubukas sa huling bahagi ng 2029 at may tatlong istasyon sa lugar ng Fleetwood; $2.508 bilyon na ang nagastos pagsapit ng Abril 2026. Binigyan ng NDP ang TransLink ng $479 milyon noong Marso 2023 at $312 milyon hanggang katapusan ng 2027, tinanggihan ang singil sa sasakyan noong Oktubre 2, 2026, at nangangakong gagawa ng batas sa 2027 para sa mapagkukunan ng kita sa 2028. Tumaas ang gastos noong Agosto 2024. Inililista ng kandidatong si Jagrup Brar ang 'pagpapahaba ng SkyTrain' nang walang takdang panahon."
+"b6bc2ad239",
+"Nagkakahalaga ang linya ng $5.996 bilyon, magbubukas sa huling bahagi ng 2029 at may tatlong istasyon sa lugar ng Fleetwood; $2.508 bilyon na ang nagastos pagsapit ng Abril 2026. Binigyan ng NDP ang TransLink ng $479 milyon noong Marso 2023 at $312 milyon hanggang katapusan ng 2027, tinanggihan ang singil sa sasakyan noong Oktubre 2, 2026, at nangangakong gagawa ng batas sa 2027 para sa mapagkukunan ng kita sa 2028. Tumaas ang gastos noong Agosto 2024. Noong Oktubre 15, nangako ito ng $250 milyon para makakuha ng pederal na pera para sa bus rapid transit sa King George Boulevard mula Surrey hanggang White Rock, kasama ang TransLink, at para gawing libre ang Seniors' Bus Pass para sa 350,000 senior na mababa ang kita at palawakin ang limitasyon nito sa kita. Inililista ng kandidatong si Jagrup Brar ang 'pagpapahaba ng SkyTrain' nang walang takdang panahon."
 ],
 "questions/q_local_skytrain/party_positions/onebc/text/1": [
 "50709a01fe",
@@ -6995,6 +6995,14 @@
 "596786f0d4",
 "Si Raj Chouhan ang Speaker ng Lehislatura; walang pagbabago ng MLA o partido."
 ],
+"ridings/BNN/others/greg_depaco/bio": [
+"e62f86101c",
+"Umatras bilang kandidato noong Oktubre 9; sinasabi ng Elections BC na mananatili ang pangalan sa balota dahil naimprenta na ang mga balota, at sasabihan ang mga botante sa mga lugar ng botohan."
+],
+"ridings/BNN/others/greg_depaco/party_label": [
+"1c97fc55fc",
+"BC Green sa balota; umatras noong Okt. 9"
+],
 "ridings/BNO/candidates/janet_routledge/bio": [
 "fe218c7be9",
 "MLA ng Burnaby North mula 2017; tatlong dekadang kumakatawan sa mga miyembro ng PSAC; dating Parliamentary Secretary for Labour."
@@ -7699,9 +7707,13 @@
 "e51412dc36",
 "New Westminster (Brunette Creek, Queens Park, Sapperton, Mayfair/Pacific Reach) at Cariboo/Burquitlam sa Coquitlam"
 ],
+"ridings/NMC/others/gerry_lenoski/bio": [
+"599ffd7e66",
+"Umatras bilang kandidato noong Oktubre 13; sinasabi ng Elections BC na mananatili ang pangalan sa balota dahil naimprenta na ang mga balota, at sasabihan ang mga botante sa mga lugar ng botohan."
+],
 "ridings/NMC/others/gerry_lenoski/party_label": [
-"a30b02930e",
-"Walang kaanib na partido"
+"27f41aa37f",
+"Walang kaanib na partido sa balota; umatras noong Okt. 13"
 ],
 "ridings/NOH/candidates/francis_racy/bio": [
 "a58fc7822b",
@@ -7790,6 +7802,14 @@
 "ridings/NVS/mla_change": [
 "4747d2205d",
 "Walang nakita. Si Susie Chant ang Parliamentary Secretary for Seniors' Services and Long-Term Care (gov.bc.ca). Si Lynne Block ng Conservative, ang nakaupong MLA ng West Vancouver-Capilano, ay inilipat dito para tumakbo laban sa kanya."
+],
+"ridings/NVS/others/frederick_thiele/bio": [
+"c64e9d4ab5",
+"Ipinanganak at lumaki sa North Vancouver; may-ari at nagpapatakbo ng sariling computer consulting business nang mahigit 25 taon; nakatira roon kasama ang kanyang asawa at dalawang anak. Umatras bilang kandidato noong Oktubre 13; sinasabi ng Elections BC na mananatili ang pangalan sa balota dahil naimprenta na ang mga balota, at sasabihan ang mga botante sa mga lugar ng botohan."
+],
+"ridings/NVS/others/frederick_thiele/party_label": [
+"825e9dd785",
+"OneBC sa balota; umatras noong Okt. 13"
 ],
 "ridings/OBG/candidates/andrew_appleton/bio": [
 "3187ba454b",
@@ -8747,6 +8767,14 @@
 "d86e926058",
 "Bakante ang puwesto. Pumanaw ang NDP MLA na si Joan Phillip noong Agosto 28, 2026; kinansela ang by-election nang ipatawag ang pangkalahatang halalan (ayon sa Wikipedia). Si Amanda Burrows ang kandidato ng NDP."
 ],
+"ridings/VNT/others/jordan_zheng_mcintosh/bio": [
+"8f87102f72",
+"Field worker sa mineral exploration at estudyante ng geological engineering, ipinanganak sa Vancouver; nagboboluntaryo sa pulitika mula middle school. Tinanggal siya ng mga Conservative noong Oktubre 15 dahil sa mga dati niyang post online at sinabi nilang hindi siya uupo sa kanilang caucus kung mahalal. Mananatili ang kanyang pangalan sa balota bilang kandidato ng mga Conservative dahil naimprenta na ang mga balota."
+],
+"ridings/VNT/others/jordan_zheng_mcintosh/party_label": [
+"3086359242",
+"Conservative sa balota; tinanggal ng partido noong Okt. 15"
+],
 "ridings/VNT/others/robert_crooks/bio": [
 "70fb758575",
 "Lider ng Communist Party of BC mula Hulyo 2025; tumakbo sa Victoria-Swan Lake noong 2024."
@@ -8798,6 +8826,14 @@
 "ridings/VNY/mla_change": [
 "449c36c0c7",
 "Walang nakita. Si Terry Yung ang Minister of State for Community Safety and Integrated Services mula Nobyembre 2024 (gov.bc.ca)."
+],
+"ridings/VNY/others/timothy_webster/bio": [
+"8f4a813519",
+"Umatras bilang kandidato noong Oktubre 8; sinasabi ng Elections BC na mananatili ang pangalan sa balota dahil halos lahat ng balota ay naimprenta na, at sasabihan ang mga botante sa mga lugar ng botohan."
+],
+"ridings/VNY/others/timothy_webster/party_label": [
+"43532d7c9d",
+"Nasa balota; umatras noong Okt. 8"
 ],
 "ridings/VRL/candidates/blair_visscher/bio": [
 "16cceaf816",

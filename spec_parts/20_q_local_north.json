@@ -90,9 +90,9 @@
     "party_positions": {
       "ndp": {
         "text": {
-          "1": "This party, in charge now, wants to zone the forest and cut more, while protecting the rarest old trees.",
-          "3": "The NDP government's Working Forest model would zone public forest and aims at 45 million cubic metres a year with 'no net loss' of timber land. On October 10 it pledged $50 million to make the rarest old-growth deferrals permanent and to help mills retrofit for second growth. Campaign releases do not restate the 45 million target.",
-          "5": "Record: Working Forest Landscape Model (zones, 'no net loss', 45 million cubic metre objective, fewer case-by-case permits), first candidate area near Campbell River announced September 15, 2026; Pledges: $50 million to convert deferrals of the rarest old growth to permanent protection while helping mills retrofit for value-added second growth (October 10). The NDP has no platform and its releases do not mention the 45 million figure. No response to Unifor's bridging-to-retirement request."
+          "1": "This party, in charge now, wants to zone the forest and cut more, while protecting the rarest old trees. It also promises money for forestry workers and mills at risk of closing.",
+          "3": "The NDP government's Working Forest model would zone public forest and aims at 45 million cubic metres a year with 'no net loss' of timber land. On October 10 it pledged $50 million to make the rarest old-growth deferrals permanent and to help mills retrofit for second growth. On October 14 it added a $120 million, two-year fund for workers, mills and communities at risk, a mill task force and faster permits. Campaign releases do not restate the 45 million target.",
+          "5": "Record: Working Forest Landscape Model (zones, 'no net loss', 45 million cubic metre objective, fewer case-by-case permits), first candidate area near Campbell River announced September 15, 2026; Pledges: $50 million to convert deferrals of the rarest old growth to permanent protection while helping mills retrofit for value-added second growth (October 10). October 14: a new $120 million Forestry Jobs Protection Fund over two years for workers, mills and communities at risk; a task force of industry, labour and ministries to keep tariff-hit mills open; a Forestry Competitiveness stream in a permanent BC Manufacturing Jobs Fund for mill retrofits; and faster permitting with consistent access to fibre. Its releases do not mention the 45 million figure. No response to Unifor's bridging-to-retirement request."
         },
         "basis": "both",
         "confidence": "medium",
@@ -116,6 +116,10 @@
           {
             "label": "BC Gov News: Campbell River first candidate area for the Working Forest Landscape Model (Sept 15, 2026)",
             "url": "https://news.gov.bc.ca/releases/2026FOR0034-001069"
+          },
+          {
+            "label": "BC NDP: Eby outlines next steps for forestry (Oct 14, 2026)",
+            "url": "https://www.bcndp.ca/releases/eby-outlines-next-steps-forestry"
           }
         ]
       },
@@ -205,7 +209,7 @@
         ]
       }
     },
-    "scoring_rationale": "a = Green (4); NDP 1 (protects the rarest old growth and funds value-added, but keeps a provincial volume target); CentreBC 0 and OneBC 0 (both want more cut). b = NDP record (4); CentreBC 3 (same zones and 45 million goal, but legislated and pushed harder); OneBC 1 (more cut, no zoning or protection); Green 0. c = CentreBC (4); NDP 3 (its own model, without legislation, timber sales target or task force); OneBC 2 (shares faster permits and more supply, not zones or worker funding); Green 0. d = OneBC (4); CentreBC 1 (aims at 45 million, not above it, and keeps consultation); NDP 1; Green 0. The Conservatives have published no 2026 forestry policy (their site shows an empty heading) and are no_position rather than inferred, because their statements point in two directions (faster permits and 'an appropriate harvest that can sustain mills' versus silence on the model and stumpage). The Island's old-growth question uses the same party mapping with Island facts."
+    "scoring_rationale": "a = Green (4); NDP 1 (protects the rarest old growth and funds value-added, but keeps a provincial volume target); CentreBC 0 and OneBC 0 (both want more cut). b = NDP record (4); CentreBC 3 (same zones and 45 million goal, but legislated and pushed harder); OneBC 1 (more cut, no zoning or protection); Green 0. c = CentreBC (4); NDP 3 (its own model, and since October 14 a mill task force and worker fund, but no legislated zones, timber sales target or 90-day decisions); OneBC 2 (shares faster permits and more supply, not zones or worker funding); Green 0. d = OneBC (4); CentreBC 1 (aims at 45 million, not above it, and keeps consultation); NDP 1; Green 0. The Conservatives have published no 2026 forestry policy (their site shows an empty heading) and are no_position rather than inferred, because their statements point in two directions (faster permits and 'an appropriate harvest that can sustain mills' versus silence on the model and stumpage). The Island's old-growth question uses the same party mapping with Island facts."
   },
   {
     "id": "q_local_north_resources",

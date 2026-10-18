@@ -891,7 +891,20 @@
      ]
     }
    ],
-   "others": [],
+   "others": [
+    {
+     "name": "Greg DePaco",
+     "party_label": "BC Green on the ballot; withdrew Oct 9",
+     "incumbent": false,
+     "bio": "Withdrew as a candidate on October 9; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
+     "sources": [
+      {
+       "label": "Elections BC: candidate withdrawn, Burnaby-New Westminster (Oct 10, 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates-update-3/"
+      }
+     ]
+    }
+   ],
    "list_status": "official",
    "missing_parties": [
     "centrebc",
@@ -3840,17 +3853,17 @@
    "others": [
     {
      "name": "Gerry Lenoski",
-     "party_label": "Unaffiliated",
+     "party_label": "Unaffiliated on the ballot; withdrew Oct 13",
      "incumbent": false,
-     "bio": "",
+     "bio": "Withdrew as a candidate on October 13; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
      "sources": [
+      {
+       "label": "Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates/"
+      },
       {
        "label": "Elections BC 2026 candidate list (page)",
        "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/"
-      },
-      {
-       "label": "BC Ballot riding page",
-       "url": "https://bcballot.ca/ridings/new-westminster-coquitlam/"
       }
      ]
     }
@@ -4173,14 +4186,19 @@
        "url": "https://bcgreens.ca/candidates-2026/ben-holt/"
       }
      ]
-    },
+    }
+   ],
+   "others": [
     {
-     "id": "frederick_thiele",
      "name": "Frederick Thiele",
-     "party_id": "onebc",
+     "party_label": "OneBC on the ballot; withdrew Oct 13",
      "incumbent": false,
-     "bio": "Born and raised in North Vancouver; has owned and run his own computer consulting business for more than 25 years; lives there with his wife and two children.",
+     "bio": "Born and raised in North Vancouver; has owned and run his own computer consulting business for more than 25 years; lives there with his wife and two children. Withdrew as a candidate on October 13; Elections BC says the name stays on the ballot because ballots were already printed, and voters will be told at voting places.",
      "sources": [
+      {
+       "label": "Elections BC: 2026 candidates update, two withdrawals (Oct 14, 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates/"
+      },
       {
        "label": "OneBC: Fred Thiele candidate page",
        "url": "https://1bc.ca/candidates/fthiele"
@@ -4188,8 +4206,10 @@
      ]
     }
    ],
-   "others": [],
-   "list_status": "official"
+   "list_status": "official",
+   "missing_parties": [
+    "onebc"
+   ]
   },
   {
    "code": "OBG",
@@ -7650,19 +7670,6 @@
      ]
     },
     {
-     "id": "jordan_zheng_mcintosh",
-     "name": "Jordan Zheng McIntosh",
-     "party_id": "conservative",
-     "incumbent": false,
-     "bio": "Mineral exploration field worker and geological engineering student, born in Vancouver; has volunteered in politics since middle school.",
-     "sources": [
-      {
-       "label": "Conservative Party of BC candidate page",
-       "url": "https://www.conservativebc.ca/candidate/jordan-mcintosh/"
-      }
-     ]
-    },
-    {
      "id": "tanya_webking",
      "name": "Tanya Webking",
      "party_id": "green",
@@ -7692,11 +7699,28 @@
        "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf"
       }
      ]
+    },
+    {
+     "name": "Jordan Zheng McIntosh",
+     "party_label": "Conservative on the ballot; dropped by the party Oct 15",
+     "incumbent": false,
+     "bio": "Mineral exploration field worker and geological engineering student, born in Vancouver; has volunteered in politics since middle school. The Conservatives dropped him on October 15 over past online posts and said he would not sit in their caucus if elected. His name stays on the ballot as the Conservative candidate because ballots were already printed.",
+     "sources": [
+      {
+       "label": "insauga (Canadian Press): Conservatives drop Vancouver-Strathcona candidate (Oct 15, 2026)",
+       "url": "https://www.insauga.com/b-c-conservatives-dump-candidate-accused-of-hitler-remarks/"
+      },
+      {
+       "label": "Conservative Party of BC candidate page",
+       "url": "https://www.conservativebc.ca/candidate/jordan-mcintosh/"
+      }
+     ]
     }
    ],
    "list_status": "official",
    "missing_parties": [
     "centrebc",
+    "conservative",
     "onebc"
    ]
   },
@@ -7847,7 +7871,20 @@
      ]
     }
    ],
-   "others": [],
+   "others": [
+    {
+     "name": "Timothy Webster",
+     "party_label": "On the ballot; withdrew Oct 8",
+     "incumbent": false,
+     "bio": "Withdrew as a candidate on October 8; Elections BC says the name stays on the ballot because ballots were almost all printed, and voters will be told at voting places.",
+     "sources": [
+      {
+       "label": "Elections BC: candidate withdrawn, Vancouver-Yaletown (Oct 2026)",
+       "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates-update/"
+      }
+     ]
+    }
+   ],
    "list_status": "official",
    "missing_parties": [
     "onebc"

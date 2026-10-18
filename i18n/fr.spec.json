@@ -644,12 +644,12 @@
 "Cet outil vous aide à comparer. Il montre quel parti a les idées les plus proches des vôtres. Il ne vous dit pas pour qui voter. C'est vous qui décidez."
 ],
 "meta/disclaimer/3": [
-"a18c7aa957",
-"Cet outil est indépendant de tous les partis. Il compare vos réponses aux promesses et au bilan des partis. C'est un point de départ, pas une recommandation. Les partis annonçaient encore des promesses au 13 octobre : vérifiez s'il y a du nouveau. Les noms et logos des partis appartiennent aux partis."
+"84521519d4",
+"Cet outil est indépendant de tous les partis. Il compare vos réponses aux promesses et au bilan des partis. C'est un point de départ, pas une recommandation. Les partis annonçaient encore des promesses au 18 octobre : vérifiez s'il y a du nouveau. Les noms et logos des partis appartiennent aux partis."
 ],
 "meta/disclaimer/5": [
-"af709da820",
-"Outil indépendant d'information aux électeurs. Les notes reflètent les engagements 2026 publiés au 13 octobre 2026, pondérés par le bilan gouvernemental et législatif 2016-2026 lorsque les deux se contredisent. CentreBC a publié un programme complet le 10 octobre avec son propre chiffrage, non vérifié de façon indépendante; le programme complet des verts n'était pas encore publié; les autres partis font campagne au fil d'annonces successives, sans programme complet chiffré. Les positions à faible degré de confiance reposent sur des déclarations d'anciens chefs, les programmes de 2024 ou l'absence de position. Les noms et logos des partis sont des marques de commerce de leurs propriétaires, montrés seulement à des fins d'identification. Ceci n'est pas un appui."
+"310c66e26f",
+"Outil indépendant d'information aux électeurs. Les notes reflètent les engagements 2026 publiés au 18 octobre 2026, pondérés par le bilan gouvernemental et législatif 2016-2026 lorsque les deux se contredisent. CentreBC (10 octobre) et les verts (13 octobre) ont publié des programmes complets avec leur propre chiffrage, et le NPD a publié le 14 octobre un chiffrage de ses engagements de campagne; aucun n'a été vérifié de façon indépendante. Les conservateurs n'avaient pas publié de programme chiffré au 18 octobre, et OneBC fait campagne au fil d'annonces successives. Les positions à faible degré de confiance reposent sur des déclarations d'anciens chefs, les programmes de 2024 ou l'absence de position. Les noms et logos des partis sont des marques de commerce de leurs propriétaires, montrés seulement à des fins d'identification. Ceci n'est pas un appui."
 ],
 "meta/method_summary/1": [
 "726b03f5d0",
@@ -664,12 +664,12 @@
 "Concordance(P) = somme(w_q x s_q(P)) / somme(w_q x 4) sur les questions répondues, où s_q(P) est la note de 0 à 4 de l'option choisie pour P et w_q le poids d'importance (faible 0,5, moyen 1, élevé 2). Les questions sautées (y compris « je ne sais pas ») sortent des deux sommes. Les questions où P n'a aucune position publiée sortent des deux sommes pour P seulement. Les positions déduites s'appuient sur une politique déclarée voisine. Serré : les deux premiers pourcentages en nombres entiers sont à 3 points ou moins l'un de l'autre. Note familiale : moyenne des pourcentages des membres pour chaque parti, plus une moyenne des adultes seulement (niveaux 3 à 5). Pour les candidats, les questions locales comptent double en plus de l'importance; aucun ajustement propre à un candidat. Les notes ont été établies à partir des sources citées avec un assistant d'IA (Claude) et vérifiées par des relectures distinctes; chaque note, justification et source est publique à github.com/vinistoisr/bc-vote-helper. Le niveau de lecture change seulement la formulation."
 ],
 "other_parties_note/3": [
-"a6853effdc",
-"Non notés, parce qu'ils n'ont pas publié de programme à comparer : Parti libertarien de la C.-B. (4 candidats), Parti communiste (4), Parti de l'héritage chrétien (3), CanWest Party (2), Freedom Party (1), et 14 candidats indépendants ou sans affiliation. Ils figurent avec les candidats de votre circonscription lorsqu'ils sont sur votre bulletin de vote. BC United ne se présente pas."
+"c53f6d9fb0",
+"Non notés, parce qu'ils n'ont pas publié de programme à comparer : Parti libertarien de la C.-B. (4 candidats), Parti communiste (4), Parti de l'héritage chrétien (3), CanWest Party (2), Freedom Party (1), et 13 candidats indépendants ou sans affiliation. Ils figurent avec les candidats de votre circonscription lorsqu'ils sont sur votre bulletin de vote. BC United ne se présente pas."
 ],
 "other_parties_note/5": [
-"fb668665f1",
-"Non notés, parce qu'aucun programme n'a été trouvé : Parti libertarien de la C.-B. (4 candidats), Parti communiste de la C.-B. (4), Parti de l'héritage chrétien de la C.-B. (3), CanWest Party (2), Freedom Party of BC (1), plus 7 candidats indépendants et 7 sans affiliation, selon la liste des candidats d'Elections BC (12 octobre 2026; 355 candidats en tout). Ils figurent dans la section sur la circonscription lorsqu'ils sont sur le bulletin de vote de l'électeur. BC United n'a présenté aucun candidat."
+"14b62fc9a4",
+"Non notés, parce qu'aucun programme n'a été trouvé : Parti libertarien de la C.-B. (4 candidats), Parti communiste de la C.-B. (4), Parti de l'héritage chrétien de la C.-B. (3), CanWest Party (2), Freedom Party of BC (1), plus 7 candidats indépendants et 6 sans affiliation, selon la liste des candidats d'Elections BC (18 octobre 2026; 353 candidats en tout). Quatre candidatures retirées après l'impression des bulletins de vote sont toujours sur le bulletin et sont indiquées comme retirées. Ils figurent dans la section sur la circonscription lorsqu'ils sont sur le bulletin de vote de l'électeur. BC United n'a présenté aucun candidat."
 ],
 "parties/centrebc/leader_note": [
 "5960f74b17",
@@ -716,8 +716,8 @@
 "Le principal parti qui veut remplacer le gouvernement. Il veut moins d'impôts, moins de règles pour les entreprises et plus d'emplois dans le gaz et les mines."
 ],
 "parties/conservative/one_liner/3": [
-"ec46652578",
-"Opposition depuis 2024. Promet une baisse d'impôt de 1 000 $ et aucune nouvelle taxe; abrogerait DRIPA et SOGI 123, mettrait fin à l'approvisionnement plus sécuritaire, élargirait le traitement obligatoire et doublerait la production de gaz. Quatre chefs en un an; aucun plan chiffré."
+"eda298f445",
+"Opposition depuis 2024. Promet une baisse d'impôt de 1 000 $ et aucune nouvelle taxe; abrogerait DRIPA et SOGI 123, mettrait fin à l'approvisionnement plus sécuritaire, élargirait le traitement obligatoire et doublerait la production de gaz. Quatre chefs en un an; aucun plan chiffré au 18 octobre."
 ],
 "parties/conservative/one_liner/5": [
 "ab0d8f10de",
@@ -780,12 +780,12 @@
 "Le parti qui dirige le gouvernement depuis 2017. Il veut que le gouvernement gère plus de programmes et fixe des règles pour aider les gens."
 ],
 "parties/ndp/one_liner/3": [
-"12d11176a9",
-"Au gouvernement depuis 2017. Utilise activement les pouvoirs de la province (taxes sur le logement, règles de zonage, grands projets) et demande davantage aux personnes à revenu élevé, mais a fait marche arrière sur plusieurs politiques sous la pression."
+"e0d4ec00c2",
+"Au gouvernement depuis 2017. Utilise activement les pouvoirs de la province (taxes sur le logement, règles de zonage, grands projets) et demande davantage aux personnes à revenu élevé, mais a fait marche arrière sur plusieurs politiques sous la pression. A publié le 14 octobre un chiffrage de ses promesses de 2026."
 ],
 "parties/ndp/one_liner/5": [
-"68f050a3fc",
-"Au pouvoir depuis 2017. Bilan : taxe sur la spéculation et les logements vacants (2018), obligations de densification des projets de loi 44 et 47 (2023), projet de loi 36 sur la transition de la police de Surrey (2023), abolition de la taxe carbone à la consommation (2025), fin de la décriminalisation (2026), déficit du budget 2026 de 13,3 G$ (révisé à 13,8 G$). 2026 : +2 points sur les tranches au-dessus de 190 405 $, 24,5 % au-dessus de 1 M$, baisse de 10 ¢/L de la taxe sur le carburant, plafonds des marges sur l'épicerie, gel des tarifs d'ICBC jusqu'en 2030, 20 cliniques."
+"47e60fafa1",
+"Au pouvoir depuis 2017. Bilan : taxe sur la spéculation et les logements vacants (2018), obligations de densification des projets de loi 44 et 47 (2023), projet de loi 36 sur la transition de la police de Surrey (2023), abolition de la taxe carbone à la consommation (2025), fin de la décriminalisation (2026), déficit du budget 2026 de 13,3 G$ (révisé à 13,8 G$). 2026 : +2 points sur les tranches au-dessus de 190 405 $, 24,5 % au-dessus de 1 M$, baisse de 10 ¢/L de la taxe sur le carburant, plafonds des marges sur l'épicerie, gel des tarifs d'ICBC jusqu'en 2030, 20 cliniques. Chiffrage (14 octobre) : nouvelles promesses financées par l'impôt sur les plus hauts revenus, qui rapporterait 1 G$ par année à partir de 2028-29 selon le parti, avec des déficits de 13,8 G$, 12,7 G$ et 11,7 G$ sur trois ans."
 ],
 "parties/ndp/record_summary/3": [
 "13f89661ba",
@@ -988,16 +988,16 @@
 "Les verts arrêteraient les nouveaux projets d'exploitation de combustibles fossiles. Leur programme électoral et leur document sur le climat du 10 octobre mettraient fin aux approbations de nouvelles expansions de la fracturation, de terminaux de LNG et de leurs agrandissements, et de nouveaux pipelines de combustibles fossiles, mettraient fin aux subventions aux combustibles fossiles, renforceraient la tarification industrielle du carbone, fixeraient les redevances sur le gaz à 50 % des bénéfices nets, mettraient fin au rejet systématique de méthane et instaureraient un plafond contraignant des émissions du secteur pétrolier et gazier si les autres règles ne suffisent pas. Ils s'opposent à l'oléoduc Pacific Link et obligeraient les usines de gaz naturel liquéfié existantes à payer leur propre électricité. Ils garderaient les cibles climatiques à long terme de la C.-B. et y ajouteraient des cibles intermédiaires, rétabliraient la règle voulant que tous les véhicules légers neufs vendus soient à zéro émission d'ici 2035, interdiraient les raccordements au gaz dans les nouveaux bâtiments, offriraient un financement sur facture pour la rénovation des maisons, rétabliraient la facturation nette et viseraient à ce que l'électricité fournisse au moins 35 % de l'énergie d'ici 2035 sans nouveaux grands barrages. En mars 2025, le député vert Rob Botterell a exprimé le seul vote contre le projet de loi abrogeant la taxe carbone en première lecture, et les verts ont voté contre les projets de loi 14 et 15, qui accélèrent les projets."
 ],
 "questions/q_climate_energy/party_positions/ndp/text/1": [
-"871aaebac2",
-"Ce parti a mis fin à la taxe carbone sur le carburant que les gens achètent, mais il garde les frais sur le carbone pour la grande industrie et augmente les exportations de gaz."
+"04b31145a7",
+"Ce parti a mis fin à la taxe carbone sur le carburant que les gens achètent, mais il garde les frais sur le carbone pour la grande industrie et augmente les exportations de gaz. Il promet aussi de l'argent pour les thermopompes des maisons et les bornes de recharge pour voitures électriques."
 ],
 "questions/q_climate_energy/party_positions/ndp/text/3": [
-"235cea708d",
-"Au gouvernement, le NPD a mis fin à la taxe carbone à la consommation et aux remises pour les véhicules électriques, a approuvé plus de gaz naturel liquéfié et a gardé la tarification du carbone pour l'industrie. Il admet que la C.-B. ratera sa cible de 2030 d'environ la moitié et n'a pas dit comment il réagira."
+"707d0bbf6a",
+"Au gouvernement, le NPD a mis fin à la taxe carbone à la consommation et aux remises pour les véhicules électriques, a approuvé plus de gaz naturel liquéfié et a gardé la tarification du carbone pour l'industrie. Il admet que la C.-B. ratera sa cible de 2030 d'environ la moitié et n'a pas dit comment il réagira. Le 13 octobre, il a promis 50 millions de dollars par année pour les thermopompes, 16 millions de dollars par année pour les bornes de recharge de véhicules électriques et un objectif d'éliminer presque entièrement les émissions de méthane d'ici 2035."
 ],
 "questions/q_climate_energy/party_positions/ndp/text/5": [
-"336fba399e",
-"Le NPD a ramené la taxe carbone à la consommation à zéro en avril 2025, mais a gardé le prix industriel du carbone et la Low Carbon Fuel Standard (norme sur les carburants à faible teneur en carbone). Il a mis fin aux remises pour les véhicules électriques, a abaissé de 100 % à 75 % la cible de 2035 sur les ventes de véhicules zéro émission, et a signé des contrats d'énergie éolienne. Selon les projections, les émissions de la C.-B. seront inférieures de 20 % aux niveaux de 2007 d'ici 2030, alors que la loi exige une réduction de 40 %. Pour 2026, il promet plus de gaz naturel liquéfié, une ligne de transport d'électricité sur la côte nord et une baisse temporaire de la taxe sur le carburant de 10 cents le litre. Il accepterait un oléoduc seulement si l'interdiction des pétroliers est maintenue."
+"4d349937b7",
+"Le NPD a ramené la taxe carbone à la consommation à zéro en avril 2025, mais a gardé le prix industriel du carbone et la Low Carbon Fuel Standard (norme sur les carburants à faible teneur en carbone). Il a mis fin aux remises pour les véhicules électriques, a abaissé de 100 % à 75 % la cible de 2035 sur les ventes de véhicules zéro émission, et a signé des contrats d'énergie éolienne. Selon les projections, les émissions de la C.-B. seront inférieures de 20 % aux niveaux de 2007 d'ici 2030, alors que la loi exige une réduction de 40 %. Pour 2026, il promet plus de gaz naturel liquéfié, une ligne de transport d'électricité sur la côte nord et une baisse temporaire de la taxe sur le carburant de 10 cents le litre. Il accepterait un oléoduc seulement si l'interdiction des pétroliers est maintenue. Son plan climatique du 13 octobre ajoute 50 millions de dollars par année pour les remises sur les thermopompes, 16 millions de dollars par année pour tripler en une décennie le nombre de points de recharge publics pour véhicules électriques, 4 millions de dollars par année pour doubler le Youth Climate Corps, et un engagement à atteindre la réduction de 75 % du méthane d'ici 2030 et à « éliminer pratiquement les émissions de méthane d'ici 2035 »."
 ],
 "questions/q_climate_energy/party_positions/onebc/text/1": [
 "7a88fdb256",
@@ -2040,16 +2040,16 @@
 "Les services de garde peuvent coûter aux familles autant qu'un loyer. Environ une place autorisée sur dix coûte 10 $ par jour, et la province a suspendu pour trois ans l'ajout de places à 10 $ par jour pour économiser de l'argent. Certains districts scolaires en forte croissance dépendent encore de classes portatives. Les partis ne s'entendent pas : élargir les services de garde, recentrer les écoles sur les bases, ou limiter les dépenses."
 ],
 "questions/q_education_childcare/context/3": [
-"a9a5354c0c",
-"Environ 10 % des places autorisées en services de garde coûtent 10 $ par jour. En 2026, le gouvernement néo-démocrate a suspendu pour trois ans l'ajout de places à 10 $ par jour. Certains districts scolaires en forte croissance utilisent encore beaucoup de classes portatives. Les verts veulent des services de garde gratuits d'ici 2031 et CentreBC veut 20 000 places de plus à 10 $ par jour. Les conservateurs et OneBC misent sur les examens, les notes et les bases."
+"63b9d1a485",
+"Environ 10 % des places autorisées en services de garde coûtent 10 $ par jour. En 2026, le gouvernement néo-démocrate a suspendu pour trois ans l'ajout de places à 10 $ par jour. Certains districts scolaires en forte croissance utilisent encore beaucoup de classes portatives. Les verts veulent des services de garde gratuits d'ici 2031 et CentreBC veut 20 000 places de plus à 10 $ par jour. En octobre, le NPD a promis plus de places et un plafond des frais, avec de l'argent fédéral. Les conservateurs et OneBC misent sur les examens, les notes et les bases."
 ],
 "questions/q_education_childcare/context/4": [
 "d6213bc0c6",
 "Environ 10 % des places autorisées en services de garde coûtent 10 $ par jour. En février 2026, le gouvernement néo-démocrate a suspendu pour trois ans les nouvelles inscriptions à 10 $ par jour afin de corriger le modèle de financement du programme. L'Affordable Child Care Benefit (prestation pour des services de garde abordables) aide toujours les familles dont le revenu va jusqu'à 111 000 $. Les districts scolaires en forte croissance utilisent encore des classes mobiles."
 ],
 "questions/q_education_childcare/context/5": [
-"d579fb7581",
-"Les nouvelles inscriptions à 10 $ par jour sont gelées depuis février 2026 (un gel de trois ans, selon les médias), et le budget 2026 ajoute 330 M$ sur trois ans pour les services de garde. Il y avait plus de 16 000 de ces places en mars 2025, pour une cible de 20 000. L'Affordable Child Care Benefit (prestation pour des services de garde abordables) continue pour les revenus familiaux jusqu'à 111 000 $. Le budget 2026 prévoit 3,9 G$ sur trois ans pour construire, rénover et mettre aux normes sismiques des écoles. Le programme électoral des verts du 13 octobre évalue le coût des services de garde à 260 M$ par année, sans compter les immobilisations pour les nouveaux centres, et celui de l'éducation à 587 M$ par année. CentreBC évalue son plan d'éducation à environ 2,0 G$, plus 750 M$ en immobilisations sur quatre ans, et finance les services de garde avec de l'argent fédéral, selon les chiffres du parti lui-même."
+"ad9f1e2b04",
+"Les nouvelles inscriptions à 10 $ par jour sont gelées depuis février 2026 (un gel de trois ans, selon les médias), et le budget 2026 ajoute 330 M$ sur trois ans pour les services de garde. Il y avait plus de 16 000 de ces places en mars 2025, pour une cible de 20 000. L'Affordable Child Care Benefit (prestation pour des services de garde abordables) continue pour les revenus familiaux jusqu'à 111 000 $. Le budget 2026 prévoit 3,9 G$ sur trois ans pour construire, rénover et mettre aux normes sismiques des écoles. Le 17 octobre, le NPD s'est engagé à verser 80 M$ pour des places avant et après l'école situées dans les écoles et 250 M$ en vue d'une entente Canada-C.-B. renégociée sur les services de garde. Le programme électoral des verts du 13 octobre évalue le coût des services de garde à 260 M$ par année, sans compter les immobilisations pour les nouveaux centres, et celui de l'éducation à 587 M$ par année. CentreBC évalue son plan d'éducation à environ 2,0 G$, plus 750 M$ en immobilisations sur quatre ans, et finance les services de garde avec de l'argent fédéral, selon les chiffres du parti lui-même."
 ],
 "questions/q_education_childcare/options/a/text/1": [
 "895ead171e",
@@ -2188,16 +2188,16 @@
 "Le 28 septembre 2026, les verts ont promis de lever le gel « immédiatement », de rendre les services de garde gratuits pour tous d'ici 2031 et de payer les éducateurs de la petite enfance de 35 $ à 45 $ de l'heure d'ici 2028. Leur programme électoral du 13 octobre ajoute un point d'inscription unique pour les places à 10 $ par jour, de nouvelles places et une inscription prioritaire pour les centres publics, sans but lucratif et dirigés par des Autochtones, la fin du manque de financement de l'éducation inclusive, l'alimentation scolaire universelle, un programme de fournitures scolaires, le transfert graduel du financement des écoles privées aux écoles publiques et un moratoire sur l'intelligence artificielle dans les salles de classe. Leur Education Policy Brief ajoute un conseiller pour 250 élèves. Le programme électoral évalue le coût des services de garde à 260 millions de dollars par année, sans compter les immobilisations pour les nouveaux centres, et celui de l'éducation à 587 millions de dollars par année, et finance ses plans principalement par un impôt sur la fortune nette au-delà de 50 millions de dollars."
 ],
 "questions/q_education_childcare/party_positions/ndp/text/1": [
-"ed5011dd20",
-"Ce parti a rendu les services de garde moins chers, puis a suspendu l'ajout de places à bas prix. Il a construit des écoles, mais certains élèves apprennent encore dans des classes portatives."
+"7357e92112",
+"Ce parti a rendu les services de garde moins chers, puis a suspendu l'ajout de places à bas prix. En octobre, il a promis plus de places et un plafond sur les frais. Il a construit des écoles, mais certains élèves apprennent encore dans des classes portatives."
 ],
 "questions/q_education_childcare/party_positions/ndp/text/3": [
-"5890776f4d",
-"Le NPD a créé les services de garde à 10 $ par jour, puis en 2026 a gelé les nouvelles places pour trois ans. Il dit avoir construit 250 écoles, mais certains districts en forte croissance dépendent encore de classes portatives. Il n'a fait aucune nouvelle promesse sur l'éducation ou les services de garde en 2026."
+"dd8341a855",
+"Le NPD a créé les services de garde à 10 $ par jour, puis en 2026 a gelé les nouvelles places pour trois ans. Le 17 octobre, il a promis 7 200 places avant et après l'école (80 millions de dollars), 250 millions de dollars pour étendre les services de garde abordables avec de l'argent fédéral, une grille salariale pour le personnel éducateur de la petite enfance et un plafond des frais. Il dit avoir construit 250 écoles, mais certains districts en forte croissance dépendent encore de classes portatives. Il n'a fait aucune nouvelle promesse pour la maternelle à la 12e année en 2026."
 ],
 "questions/q_education_childcare/party_positions/ndp/text/5": [
-"b953fd94b8",
-"Le NPD a lancé ChildCareBC en 2018 et comptait plus de 16 000 places à 10 $ par jour en mars 2025, vers un objectif de 20 000. En février 2026, il a suspendu les nouvelles inscriptions et l'expansion, un gel de trois ans selon Global News, et le budget 2026 ajoute 330 M$ sur trois ans pour les services de garde. Le parti dit avoir construit 250 écoles. Le budget 2026 prévoit 3,9 G$ sur trois ans pour la construction d'écoles et la mise aux normes sismiques. Il n'a pris aucun engagement sur l'éducation ou les services de garde en 2026."
+"f417b9d79b",
+"Le NPD a lancé ChildCareBC en 2018 et comptait plus de 16 000 places à 10 $ par jour en mars 2025, vers un objectif de 20 000. En février 2026, il a suspendu les nouvelles inscriptions et l'expansion, un gel de trois ans selon Global News, et le budget 2026 ajoute 330 M$ sur trois ans pour les services de garde. Le parti dit avoir construit 250 écoles. Le budget 2026 prévoit 3,9 G$ sur trois ans pour la construction d'écoles et la mise aux normes sismiques. Le 17 octobre 2026, il s'est engagé à verser 80 M$ pour 7 200 places avant et après l'école sur les terrains scolaires, et 250 M$ en nouveaux fonds provinciaux pour mobiliser du financement fédéral dans la renégociation de l'entente Canada-C.-B. sur les services de garde (échéance le 1er décembre), en vue d'une grille salariale provinciale pour le personnel éducateur de la petite enfance, de plus de places abordables et d'« un plafond des frais strict et universel comme en Ontario ». Il n'a donné aucun montant de plafond, aucune cible de places ni aucune date. Il n'a pris aucun nouvel engagement pour la maternelle à la 12e année en 2026."
 ],
 "questions/q_education_childcare/party_positions/onebc/text/1": [
 "0f64c2bbf6",
@@ -3560,8 +3560,8 @@
 "La province paie la construction des hôpitaux et des écoles. Le nouvel hôpital de Cloverdale ouvrira en 2030, trois ans plus tard que prévu au départ. Au Surrey Memorial, plus de patients de l'urgence partent maintenant avant d'être vus. Les écoles de Surrey comptaient 361 classes mobiles en 2023. La province emprunte beaucoup, et les partis ne s'entendent pas sur la vitesse de construction ni sur la façon de payer."
 ],
 "questions/q_local_hospital_schools/context/3": [
-"9889a6da3f",
-"Le gouvernement du NPD construit l'hôpital de Cloverdale et de nouvelles places dans les écoles, et promet 20 cliniques et une autorisation d'exercer plus rapide pour les médecins formés à l'étranger. Les conservateurs disent « envisager » l'hôpital et proposent du financement pour les urgences et une commission sur les temps d'attente. Les verts veulent un centre de santé dans chaque circonscription. CentreBC construirait une nouvelle tour au Surrey Memorial, planifierait un hôpital pour enfants et ajouterait 25 000 places dans les écoles partout en C.-B. OneBC permettrait les cliniques privées."
+"8f947a6fba",
+"Le gouvernement du NPD construit l'hôpital de Cloverdale et de nouvelles places dans les écoles, et promet 20 cliniques et une autorisation d'exercer plus rapide pour les médecins formés à l'étranger. Les conservateurs promettent de terminer l'hôpital de Cloverdale et de construire un hôpital pour femmes et enfants à Surrey, et proposent du financement pour les urgences et une commission sur les temps d'attente. Les verts veulent un centre de santé dans chaque circonscription. CentreBC construirait une nouvelle tour au Surrey Memorial, planifierait un hôpital pour enfants et ajouterait 25 000 places dans les écoles partout en C.-B. OneBC permettrait les cliniques privées."
 ],
 "questions/q_local_hospital_schools/context/4": [
 "4168c7603d",
@@ -3684,16 +3684,16 @@
 "Le programme prévoit de construire la tour du Surrey Memorial annoncée en 2024, avec de nouvelles salles d'opération et des soins intensifs cardiaques. Il termine l'analyse de rentabilisation, le choix du site et la conception d'un hôpital pour enfants au sud du Fraser pendant son premier mandat, avec une construction en 2031. Il ajoute 25 000 places dans les écoles d'ici 2031 avec 750 millions de dollars et promet des soins primaires pour tous d'ici 2031 avec 600 infirmières praticiennes et infirmiers praticiens. Il prévoit d'avoir 2 500 lits de soins de longue durée en construction et 1 000 lits ouverts d'ici mars 2031, et 3,2 milliards de dollars d'immobilisations en santé sur quatre ans. Il ne nomme ni l'hôpital de Cloverdale ni le district scolaire de Surrey."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/1": [
-"5737df71f2",
-"Ce parti veut garder les urgences ouvertes et n'a pas encore décidé pour le nouvel hôpital."
+"92fd2f6ecc",
+"Ce parti terminera le nouvel hôpital de Cloverdale, prévoit un nouvel hôpital pour les femmes et les enfants à Surrey et veut garder les urgences ouvertes."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/3": [
-"fe5b02b3b0",
-"Interrogé sur l'hôpital le 7 octobre, Doerkson a dit : « nous envisageons tout cela pour le dévoilement de notre programme ». Son plan de santé offre du financement pour les urgences, une commission de 100 jours sur les temps d'attente, aucune coupe et un financement des soins de longue durée qui suit la personne âgée. Il n'a aucune promesse sur les écoles de Surrey."
+"8e164e4090",
+"Le 15 octobre, les conservateurs se sont engagés à terminer le Surrey Hospital à Cloverdale « à temps et dans le respect du budget » et à construire un nouveau Women and Children's Hospital à Surrey, sans coût ni date pour ce deuxième hôpital. Leur plan de santé offre aussi du financement pour les urgences, une commission de 100 jours sur les temps d'attente, aucune coupe et un financement des soins de longue durée qui suit la personne âgée. Ils n'ont aucune promesse sur les écoles de Surrey."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/5": [
-"4864598097",
-"Interrogé sur l'hôpital le 7 octobre, Doerkson a dit : « nous envisageons tout cela pour le dévoilement de notre programme ». Son plan Keep Emergency Rooms Open (5 octobre) offre un fonds d'urgence de 50 millions de dollars, une commission d'experts de 100 jours et la promesse de maintenir les dépenses actuelles en santé; le 12 octobre, le parti a réaffirmé que les soins resteraient universels et financés par l'État. Son plan pour les aînés (9 octobre) revoit les règles de conception des soins de longue durée, fait en sorte que le financement des soins suive la personne âgée et offre le choix du fournisseur de soins à domicile. Il n'a pas de position sur les immobilisations scolaires ni sur le Surrey Memorial. Le candidat Purewal n'a publié que les thèmes du parti."
+"d113342783",
+"Le 15 octobre, le parti s'est engagé à « terminer le Surrey Hospital à Cloverdale à temps et dans le respect du budget » et à construire un nouveau Women and Children's Hospital à Surrey; il n'a donné aucun coût ni aucune date pour l'hôpital pour enfants. Cela remplace la réponse de Doerkson du 7 octobre selon laquelle « nous envisageons tout cela pour le dévoilement de notre programme ». Son plan Keep Emergency Rooms Open (5 octobre) offre un fonds d'urgence de 50 millions de dollars, une commission d'experts de 100 jours et la promesse de maintenir les dépenses actuelles en santé; le 12 octobre, le parti a réaffirmé que les soins resteraient universels et financés par l'État. Son plan pour les aînés (9 octobre) revoit les règles de conception des soins de longue durée, fait en sorte que le financement des soins suive la personne âgée et offre le choix du fournisseur de soins à domicile. Il n'a pas de position sur les immobilisations scolaires ni sur le Surrey Memorial. Le candidat Purewal n'a publié que les thèmes du parti."
 ],
 "questions/q_local_hospital_schools/party_positions/green/text/1": [
 "f0d6cbcfe4",
@@ -3716,8 +3716,8 @@
 "Le NPD construit l'hôpital de Cloverdale et de nouvelles places dans les écoles de Surrey, et promet 20 cliniques et une autorisation d'exercer plus rapide pour les médecins formés à l'étranger. Le coût de l'hôpital a augmenté d'environ 1 milliard de dollars et son ouverture a été repoussée de trois ans. Il n'a pas tenu sa promesse de 2016 d'éliminer les classes mobiles de Surrey en quatre ans."
 ],
 "questions/q_local_hospital_schools/party_positions/ndp/text/5": [
-"52a2fa273a",
-"L'hôpital de Cloverdale coûte maintenant environ 2,88 milliards de dollars, contre 1,72 milliard de dollars, avec une fin des travaux en août 2029 au lieu de 2027. Le NPD construit une faculté de médecine à la Simon Fraser University à Surrey et 60 lits de santé mentale à Surrey, y compris pour les soins involontaires, prévus pour le printemps 2028. Environ 2 300 places dans les écoles sont en construction et 19 des 40 bâtiments modulaires ont remplacé des classes mobiles, mais le district a eu un manque budgétaire de 16 millions de dollars en 2025-26. Pour 2026, il promet 20 cliniques, de l'aide aux médecins formés à l'étranger, 1 000 places de formation, et huit appareils d'IRM et 10 tomodensitomètres dans toute la C.-B. Le candidat Brar promet « un nouvel hôpital » sans échéancier."
+"8ed1a4c952",
+"L'hôpital de Cloverdale coûte maintenant environ 2,88 milliards de dollars, contre 1,72 milliard de dollars, avec une fin des travaux en août 2029 au lieu de 2027. Le NPD construit une faculté de médecine à la Simon Fraser University à Surrey et 60 lits de santé mentale à Surrey, y compris pour les soins involontaires, prévus pour le printemps 2028. Environ 2 300 places dans les écoles sont en construction et 19 des 40 bâtiments modulaires ont remplacé des classes mobiles, mais le district a eu un manque budgétaire de 16 millions de dollars en 2025-26. Pour 2026, il promet 20 cliniques, de l'aide aux médecins formés à l'étranger, 1 000 places de formation, et huit appareils d'IRM et 10 tomodensitomètres dans toute la C.-B. Le 15 octobre, il a dit qu'il travaillerait avec les responsables municipaux qui ont offert un terrain pour un nouvel établissement de santé à Surrey. Le candidat Brar promet « un nouvel hôpital » sans échéancier."
 ],
 "questions/q_local_hospital_schools/party_positions/onebc/text/1": [
 "df2bda351d",
@@ -5428,16 +5428,16 @@
 "Transit and Transportation Policy Brief (9 octobre 2026) et programme électoral (13 octobre 2026) : financer pleinement TransLink et BC Transit, donner la priorité au doublement du nombre d'autobus pendant le premier mandat, instaurer progressivement la gratuité en commençant par les usagers de moins de 25 ans et de plus de 65 ans (gratuité pour tous une fois le financement stabilisé et un service rapide et fréquent en place), le SkyTrain jusqu'à UBC, la fin de la sous-traitance de la prestation du transport en commun et un comité multipartite de l'Assemblée législative chargé d'élaborer un modèle de financement à long terme pour BC Transit et TransLink. Le programme électoral évalue le coût de l'ensemble de son volet sur les transports, qui couvre aussi les traversiers et le train, à 1 milliard de dollars par année, payé par un impôt sur la fortune, des redevances pétrolières et gazières et des tarifs de location d'eau plus élevés, plutôt que par une source propre à TransLink. Il propose aussi un impôt sur les profits exceptionnels des sociétés, y compris dans le secteur des combustibles fossiles. Dans une déclaration sur la baisse de la taxe sur le carburant du NPD, le parti a dit que l'allègement devrait se faire « sans réduire nos revenus ni miner les services dont ces personnes dépendent », et a demandé d'« imposer les énormes profits exceptionnels que font en ce moment les sociétés de combustibles fossiles »."
 ],
 "questions/q_local_metro_translink/party_positions/ndp/text/1": [
-"b6063ff3a2",
-"Ce parti donne de l'argent en plus au transport en commun maintenant, exclut des frais annuels sur les voitures et promet un nouveau plan de financement dans deux ans."
+"1ae136ffef",
+"Ce parti donne de l'argent en plus au transport en commun maintenant, exclut des frais annuels sur les voitures et promet un nouveau plan de financement dans deux ans. Il promet aussi plus d'argent pour les autobus et des lignes d'autobus rapides."
 ],
 "questions/q_local_metro_translink/party_positions/ndp/text/3": [
-"e991aa76e4",
-"Le gouvernement du NPD a donné 312 millions de dollars à TransLink en 2025, assez jusqu'à la fin de 2027. Le 2 octobre, il a exclu une redevance sur les véhicules et la tarification routière, et a promis une loi en 2027 pour créer une nouvelle source de revenus, sans dire laquelle. Il promet aussi une baisse de 10 cents le litre de la taxe sur le carburant."
+"727cb2dd1f",
+"Le gouvernement du NPD a donné 312 millions de dollars à TransLink en 2025, assez jusqu'à la fin de 2027. Le 2 octobre, il a exclu une redevance sur les véhicules et la tarification routière, et a promis une loi en 2027 pour créer une nouvelle source de revenus, sans dire laquelle. Il promet aussi une baisse de 10 cents le litre de la taxe sur le carburant. Le 14 octobre, il a ajouté 40 millions de dollars par année pour BC Transit et a promis un service rapide par bus dans Metro Vancouver."
 ],
 "questions/q_local_metro_translink/party_positions/ndp/text/5": [
-"2a8b1a53b2",
-"Bilan : 479 millions de dollars à TransLink en mars 2023 et 312 millions de dollars pour 2025 à 2027, soit environ la moitié du manque. Le 2 octobre 2026, Eby a dit qu'« une redevance sur les véhicules ou la tarification routière ne sont pas des options que nous retiendrions » et a promis une loi en 2027 pour une source de revenus en 2028, non nommée. Le NPD promet aussi une baisse de 10 cents le litre de la taxe sur le carburant et un plafond des prix par l'entremise de la Utilities Commission; les verts disent que cela réduit les revenus de la taxe sur le carburant qui finance TransLink."
+"eb6bd65c4b",
+"Bilan : 479 millions de dollars à TransLink en mars 2023 et 312 millions de dollars pour 2025 à 2027, soit environ la moitié du manque. Le 2 octobre 2026, Eby a dit qu'« une redevance sur les véhicules ou la tarification routière ne sont pas des options que nous retiendrions » et a promis une loi en 2027 pour une source de revenus en 2028, non nommée. Le NPD promet aussi une baisse de 10 cents le litre de la taxe sur le carburant et un plafond des prix par l'entremise de la Utilities Commission; les verts disent que cela réduit les revenus de la taxe sur le carburant qui finance TransLink. Le 14 octobre, il a ajouté 40 millions de dollars par année pour BC Transit, un engagement à « offrir un service rapide par bus » dans Metro Vancouver et à élaborer un modèle de revenus à long terme avec TransLink, sans trajet, cible de service ni coût pour les autobus rapides; le 15 octobre, il s'est engagé à verser 250 millions de dollars en vue d'un service rapide par bus sur King George Boulevard, de Surrey à White Rock."
 ],
 "questions/q_local_metro_translink/party_positions/onebc/text/1": [
 "4ceeac90fe",
@@ -5808,16 +5808,16 @@
 "Programme électoral (13 octobre 2026, Forests) et Forestry Policy Brief (4 octobre 2026) : rejeter le Working Forest Model, y compris l'objectif de 45 millions et la règle « aucune perte nette »; récolte fixée par une planification régionale par territoire; fin de la coupe à blanc conventionnelle; protection permanente des forêts anciennes à gros arbres et des grandes forêts de seconde venue et mise en œuvre de toutes les recommandations de l'Old Growth Strategic Review; fin des exportations de billes brutes; viser 20 % de la possibilité annuelle de coupe pour les forêts communautaires; de 30 à 50 % de la fibre disponible pour la valeur ajoutée; investissement dans des installations capables d'utiliser de la fibre de plus petit diamètre et de moindre qualité; réforme des tenures en faveur des Premières Nations, des collectivités et des petits exploitants; une plus grande part des revenus forestiers pour les Premières Nations, les municipalités et les districts régionaux; recyclage professionnel, perfectionnement et soutien à l'emploi pour les travailleurs forestiers. Orientation économique (7 octobre) : exclut de « partir à rebours d'une cible provinciale de récolte ». Affirmation : les revenus forestiers de 397 millions de dollars en 2025/26 étaient inférieurs aux coûts du ministère."
 ],
 "questions/q_local_north_forestry/party_positions/ndp/text/1": [
-"a11a2683f9",
-"Ce parti, actuellement au pouvoir, veut diviser la forêt en zones et couper plus, tout en protégeant les vieux arbres les plus rares."
+"d663c8a451",
+"Ce parti, actuellement au pouvoir, veut diviser la forêt en zones et couper plus, tout en protégeant les vieux arbres les plus rares. Il promet aussi de l'argent pour les travailleurs forestiers et les scieries qui risquent de fermer."
 ],
 "questions/q_local_north_forestry/party_positions/ndp/text/3": [
-"d39f17ded6",
-"Le modèle Working Forest du gouvernement néo-démocrate diviserait la forêt publique en zones et vise 45 millions de mètres cubes par an avec « aucune perte nette » de terres de production de bois. Le 10 octobre, il a promis 50 M$ pour rendre permanents les reports de coupe dans les forêts anciennes les plus rares et pour aider les scieries à se moderniser pour la forêt de seconde venue. Les communiqués de campagne ne répètent pas la cible de 45 millions."
+"b318c91078",
+"Le modèle Working Forest du gouvernement néo-démocrate diviserait la forêt publique en zones et vise 45 millions de mètres cubes par an avec « aucune perte nette » de terres de production de bois. Le 10 octobre, il a promis 50 M$ pour rendre permanents les reports de coupe dans les forêts anciennes les plus rares et pour aider les scieries à se moderniser pour la forêt de seconde venue. Le 14 octobre, il a ajouté un fonds de 120 M$ sur deux ans pour les travailleurs, les scieries et les collectivités à risque, un groupe de travail sur les scieries et des permis plus rapides. Les communiqués de campagne ne répètent pas la cible de 45 millions."
 ],
 "questions/q_local_north_forestry/party_positions/ndp/text/5": [
-"dc621cd019",
-"Bilan : Working Forest Landscape Model (zones, « aucune perte nette », objectif de 45 millions de mètres cubes, moins de permis au cas par cas), première zone candidate près de Campbell River annoncée le 15 septembre 2026; promesses : 50 millions de dollars pour transformer en protection permanente les reports de coupe des forêts anciennes les plus rares tout en aidant les usines à se moderniser pour la seconde venue à valeur ajoutée (10 octobre). Le NPD n'a pas de programme électoral et ses communiqués ne mentionnent pas le chiffre de 45 millions. Aucune réponse à la demande d'Unifor d'une transition vers la retraite."
+"b9811925df",
+"Bilan : Working Forest Landscape Model (zones, « aucune perte nette », objectif de 45 millions de mètres cubes, moins de permis au cas par cas), première zone candidate près de Campbell River annoncée le 15 septembre 2026; promesses : 50 millions de dollars pour transformer en protection permanente les reports de coupe des forêts anciennes les plus rares tout en aidant les usines à se moderniser pour la seconde venue à valeur ajoutée (10 octobre). 14 octobre : un nouveau Forestry Jobs Protection Fund (fonds de protection des emplois forestiers) de 120 millions de dollars sur deux ans pour les travailleurs, les usines et les collectivités à risque; un groupe de travail réunissant l'industrie, les syndicats et les ministères pour garder ouvertes les usines touchées par les droits de douane; un volet Forestry Competitiveness dans un BC Manufacturing Jobs Fund permanent pour la modernisation des usines; et des permis plus rapides avec un accès constant à la fibre. Ses communiqués ne mentionnent pas le chiffre de 45 millions. Aucune réponse à la demande d'Unifor d'une transition vers la retraite."
 ],
 "questions/q_local_north_forestry/party_positions/onebc/text/1": [
 "e0cc488080",
@@ -6188,16 +6188,16 @@
 "Le 9 octobre 2026, les verts ont promis le transport en commun gratuit pour les moins de 25 ans et les plus de 65 ans, avec un objectif plus large de gratuité, plus de trains régionaux de passagers et de traversiers, et le financement de l'évaluation technique, de l'étude économique et de l'exploitation de la BC Rail Corridor Alliance sur le corridor de Squamish à 100 Mile House. Leur programme électoral du 13 octobre reprend ces mesures et ajoute le SkyTrain jusqu'à UBC, mais n'a aucune position sur la ligne Surrey-Langley. Les verts disent que leur projet de Fair Share Act (loi sur la juste part) aiderait à payer le transport en commun gratuit. Binnema, qui se présente pour ce parti, n'a publié aucune position sur le transport en commun."
 ],
 "questions/q_local_skytrain/party_positions/ndp/text/1": [
-"f0e30ce3be",
-"Ce parti construit la ligne de SkyTrain et a exclu des frais annuels sur les voitures."
+"6cdf3e7d0b",
+"Ce parti construit la ligne de SkyTrain et a exclu des frais annuels sur les voitures. Il promet aussi des autobus rapides sur King George Boulevard et des laissez-passer d'autobus gratuits pour les aînés à faible revenu."
 ],
 "questions/q_local_skytrain/party_positions/ndp/text/3": [
-"ae1797627c",
-"Le NPD construit le SkyTrain pour la fin de 2029. Le coût est passé de 4 milliards à 6 milliards de dollars et l'ouverture a été repoussée d'un an. Il a exclu une redevance sur les véhicules et promet une loi en 2027 pour de nouveaux revenus, sans dire d'où viendrait l'argent."
+"490525e158",
+"Le NPD construit le SkyTrain pour la fin de 2029. Le coût est passé de 4 milliards à 6 milliards de dollars et l'ouverture a été repoussée d'un an. Il a exclu une redevance sur les véhicules et promet une loi en 2027 pour de nouveaux revenus, sans dire d'où viendrait l'argent. Le 15 octobre, il a promis 250 millions de dollars pour un service rapide par bus sur King George Boulevard jusqu'à White Rock et un laissez-passer d'autobus gratuit pour les aînés à faible revenu."
 ],
 "questions/q_local_skytrain/party_positions/ndp/text/5": [
-"9d824479fb",
-"La ligne coûte 5,996 milliards de dollars, ouvrira à la fin de 2029 et compte trois stations dans le secteur de Fleetwood; 2,508 milliards de dollars avaient été dépensés en date d'avril 2026. Le NPD a donné 479 millions de dollars à TransLink en mars 2023 et 312 millions de dollars jusqu'à la fin de 2027, a exclu une redevance sur les véhicules le 2 octobre 2026 et promet une loi en 2027 pour une source de revenus en 2028. Le coût a augmenté en août 2024. Le candidat Jagrup Brar mentionne « un prolongement du SkyTrain » sans échéancier."
+"b6bc2ad239",
+"La ligne coûte 5,996 milliards de dollars, ouvrira à la fin de 2029 et compte trois stations dans le secteur de Fleetwood; 2,508 milliards de dollars avaient été dépensés en date d'avril 2026. Le NPD a donné 479 millions de dollars à TransLink en mars 2023 et 312 millions de dollars jusqu'à la fin de 2027, a exclu une redevance sur les véhicules le 2 octobre 2026 et promet une loi en 2027 pour une source de revenus en 2028. Le coût a augmenté en août 2024. Le 15 octobre, il s'est engagé à verser 250 millions de dollars pour mobiliser des fonds fédéraux en vue d'un service rapide par bus sur King George Boulevard, de Surrey à White Rock, avec TransLink, ainsi qu'à rendre le Seniors' Bus Pass gratuit pour 350 000 aînés à faible revenu et à relever son plafond de revenu. Le candidat Jagrup Brar mentionne « un prolongement du SkyTrain » sans échéancier."
 ],
 "questions/q_local_skytrain/party_positions/onebc/text/1": [
 "50709a01fe",
@@ -6995,6 +6995,14 @@
 "596786f0d4",
 "Raj Chouhan occupe la présidence de l'Assemblée législative; aucun changement de député ni de parti."
 ],
+"ridings/BNN/others/greg_depaco/bio": [
+"e62f86101c",
+"Candidature retirée le 9 octobre; Elections BC indique que le nom reste sur le bulletin de vote parce que les bulletins étaient déjà imprimés, et que les électeurs en seront informés dans les bureaux de vote."
+],
+"ridings/BNN/others/greg_depaco/party_label": [
+"1c97fc55fc",
+"Parti vert de la C.-B. sur le bulletin de vote; candidature retirée le 9 oct."
+],
 "ridings/BNO/candidates/janet_routledge/bio": [
 "fe218c7be9",
 "Siège à l'Assemblée législative pour Burnaby North depuis 2017; trois décennies à représenter les membres de l'AFPC; a été secrétaire parlementaire au Travail."
@@ -7699,9 +7707,13 @@
 "e51412dc36",
 "New Westminster (Brunette Creek, Queens Park, Sapperton, Mayfair/Pacific Reach) et Cariboo/Burquitlam à Coquitlam"
 ],
+"ridings/NMC/others/gerry_lenoski/bio": [
+"599ffd7e66",
+"Candidature retirée le 13 octobre; Elections BC indique que le nom reste sur le bulletin de vote parce que les bulletins étaient déjà imprimés, et que les électeurs en seront informés dans les bureaux de vote."
+],
 "ridings/NMC/others/gerry_lenoski/party_label": [
-"a30b02930e",
-"Sans affiliation"
+"27f41aa37f",
+"Sans affiliation sur le bulletin de vote; candidature retirée le 13 oct."
 ],
 "ridings/NOH/candidates/francis_racy/bio": [
 "a58fc7822b",
@@ -7790,6 +7802,14 @@
 "ridings/NVS/mla_change": [
 "4747d2205d",
 "Aucun trouvé. Susie Chant est secrétaire parlementaire aux Services aux aînés et aux Soins de longue durée (gov.bc.ca). Le Parti conservateur a déplacé ici Lynne Block, qui siège actuellement pour West Vancouver-Capilano, pour se présenter contre elle."
+],
+"ridings/NVS/others/frederick_thiele/bio": [
+"c64e9d4ab5",
+"Né et élevé à North Vancouver; possède et dirige sa propre entreprise de consultation informatique depuis plus de 25 ans; y vit avec sa femme et leurs deux enfants. Candidature retirée le 13 octobre; Elections BC indique que le nom reste sur le bulletin de vote parce que les bulletins étaient déjà imprimés, et que les électeurs en seront informés dans les bureaux de vote."
+],
+"ridings/NVS/others/frederick_thiele/party_label": [
+"825e9dd785",
+"OneBC sur le bulletin de vote; candidature retirée le 13 oct."
 ],
 "ridings/OBG/candidates/andrew_appleton/bio": [
 "3187ba454b",
@@ -8747,6 +8767,14 @@
 "d86e926058",
 "Siège vacant. Joan Phillip (NPD), titulaire du siège, est décédé le 28 août 2026; l'élection partielle a été annulée lorsque l'élection générale a été déclenchée (selon Wikipédia). Amanda Burrows se présente pour le NPD."
 ],
+"ridings/VNT/others/jordan_zheng_mcintosh/bio": [
+"8f87102f72",
+"Travail de terrain en exploration minérale et études en génie géologique; originaire de Vancouver; bénévolat en politique depuis l'école intermédiaire. Les conservateurs l'ont écarté le 15 octobre en raison d'anciennes publications en ligne et ont dit qu'il ne siégerait pas dans leur caucus s'il était élu. Son nom reste sur le bulletin de vote comme candidat conservateur parce que les bulletins étaient déjà imprimés."
+],
+"ridings/VNT/others/jordan_zheng_mcintosh/party_label": [
+"3086359242",
+"Conservateur sur le bulletin de vote; écarté par le parti le 15 oct."
+],
 "ridings/VNT/others/robert_crooks/bio": [
 "70fb758575",
 "À la tête du Parti communiste de la C.-B. depuis juillet 2025; candidature dans Victoria-Swan Lake en 2024."
@@ -8798,6 +8826,14 @@
 "ridings/VNY/mla_change": [
 "449c36c0c7",
 "Aucun trouvé. Terry Yung est ministre d'État à la Sécurité communautaire et aux Services intégrés depuis novembre 2024 (gov.bc.ca)."
+],
+"ridings/VNY/others/timothy_webster/bio": [
+"8f4a813519",
+"Candidature retirée le 8 octobre; Elections BC indique que le nom reste sur le bulletin de vote parce que les bulletins étaient presque tous imprimés, et que les électeurs en seront informés dans les bureaux de vote."
+],
+"ridings/VNY/others/timothy_webster/party_label": [
+"43532d7c9d",
+"Sur le bulletin de vote; candidature retirée le 8 oct."
 ],
 "ridings/VRL/candidates/blair_visscher/bio": [
 "16cceaf816",
