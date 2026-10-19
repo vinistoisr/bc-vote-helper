@@ -118,8 +118,8 @@
       "conservative": {
         "text": {
           "1": "This party would end these lessons, focus on reading and math, and keep students safe.",
-          "3": "The Conservatives would repeal SOGI 123 and refocus on 'arithmetic and reading', but have not said how they would end an optional resource. In 2026 most of their members voted to let bills on gender identity and on repealing the Human Rights Code be introduced, calling that a procedural step.",
-          "5": "The Safe Schools plan would repeal SOGI but names no mechanism. The 2024 platform promised to remove SOGI-derived lesson plans and policy guides, adopt zero-tolerance anti-bullying rules and notify parents of suicidal intent. Most Conservative MLAs voted to give first reading to a gender-identity bill (defeated 38 to 49) and the Human Rights Code Repeal Act (37 to 50), saying all bills should get first reading without opposition. SOGI 123 began under the BC Liberal government while Rustad was a minister."
+          "3": "The Conservatives would repeal SOGI 123, address bullying directly and give parents access to lesson materials and opt-out rights, but have not said how they would end an optional resource. In 2026 most of their members voted to let bills on gender identity and on repealing the Human Rights Code be introduced, calling that a procedural step.",
+          "5": "The October 18 platform would repeal SOGI 123 'and instead address bullying directly', protect students from harassment 'based on personal characteristics', and give parents access to curriculum materials, notification and opt-out rights; it names no mechanism for ending an optional resource. The 2024 platform promised to remove SOGI-derived lesson plans and policy guides, adopt zero-tolerance anti-bullying rules and notify parents of suicidal intent. Most Conservative MLAs voted to give first reading to a gender-identity bill (defeated 38 to 49) and the Human Rights Code Repeal Act (37 to 50), saying all bills should get first reading without opposition. SOGI 123 began under the BC Liberal government while Rustad was a minister."
         },
         "basis": "both",
         "confidence": "high",
@@ -147,6 +147,10 @@
           {
             "label": "Maple Ridge News: Conservatives on letting bills pass first reading (Mar 5, 2026)",
             "url": "https://mapleridgenews.com/2026/03/05/b-c-ndp-allow-armstrong-bill-on-closing-all-consumption-sites-to-pass-1st-reading/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -244,6 +248,6 @@
         ]
       }
     },
-    "scoring_rationale": "Four options. a = OneBC (4); Conservatives 3 given the 2024 pledge to strip SOGI-derived materials, short of a Parental Bill of Rights in 2026. b = Conservative 2026 text (4); OneBC 3. c = the keep-protections, districts-choose, no-provincial-program position: NDP 4 on its record (kept the Human Rights Code and anti-bullying policy, cut ARC funding to $0, left districts to choose) and CentreBC 4 on its stated stance (opposes repeal of any anti-discrimination law, affirms inclusion, platform silent on SOGI 123); the two differ in tone, not in stated policy, so they score alike. Green 2 (keeps protections, wants more); Conservative 1 (its plan keeps the Code and ends the program); OneBC 0. d = Green (4); CentreBC 1 (no commitment to fund or expand SOGI 123; its 1-per-400 counsellor pledge is general school staffing, not a SOGI measure; lowered from 2 on October 12 after a reader pointed this out); NDP 1 because the budget cut the funding regardless of campaign framing (record over rhetoric). First-reading votes on the 2026 private members' bills are described in the party records and positions but are not scored, consistent with the DRIPA question."
+    "scoring_rationale": "Four options. a = OneBC (4); Conservatives 3 given the 2024 pledge to strip SOGI-derived materials; the October 18 platform's notification and opt-out rights come close to a Parental Bill of Rights, but there is no law by that name. b = Conservative 2026 text (4); OneBC 3. c = the keep-protections, districts-choose, no-provincial-program position: NDP 4 on its record (kept the Human Rights Code and anti-bullying policy, cut ARC funding to $0, left districts to choose) and CentreBC 4 on its stated stance (opposes repeal of any anti-discrimination law, affirms inclusion, platform silent on SOGI 123); the two differ in tone, not in stated policy, so they score alike. Green 2 (keeps protections, wants more); Conservative 1 (its plan keeps the Code and ends the program); OneBC 0. d = Green (4); CentreBC 1 (no commitment to fund or expand SOGI 123; its 1-per-400 counsellor pledge is general school staffing, not a SOGI measure; lowered from 2 on October 12 after a reader pointed this out); NDP 1 because the budget cut the funding regardless of campaign framing (record over rhetoric). First-reading votes on the 2026 private members' bills are described in the party records and positions but are not scored, consistent with the DRIPA question."
   }
 ]

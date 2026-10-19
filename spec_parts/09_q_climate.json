@@ -29,7 +29,7 @@
         },
         "scores": {
           "ndp": 0,
-          "conservative": 3,
+          "conservative": 2,
           "green": 0,
           "centrebc": 0,
           "onebc": 4
@@ -38,17 +38,17 @@
       {
         "id": "b",
         "text": {
-          "1": "Sell much more natural gas overseas, protect nature, and make no new climate promises.",
-          "2": "Sell much more natural gas abroad under existing nature rules, but make no new climate promises.",
-          "3": "Expand natural gas exports quickly under environmental rules, and leave carbon pricing and climate targets undecided.",
-          "4": "Double gas output by 2032 with 120-day permits that keep environmental protections, seek credit for replacing coal abroad, and make no commitment on industrial carbon pricing.",
-          "5": "Double gas by 2032, permit projects within 120 days under environmental standards, seek credit for displacing coal, support a pipeline, and make no commitment on carbon pricing, clean fuel rules or targets."
+          "1": "Sell much more natural gas overseas and end the province's climate plan, but keep the carbon charge on big industry.",
+          "2": "Sell much more natural gas abroad, scrap the province's climate plan and electric car sales rule, keep the carbon price on big industry, and set no new targets.",
+          "3": "Expand natural gas exports quickly, repeal the CleanBC climate plan and the electric vehicle sales rule, keep the industrial carbon price, and set no new climate targets.",
+          "4": "Double gas output by 2032 and triple it by 2035, repeal CleanBC and the zero-emission vehicle sales quota, keep the industrial carbon price and its revenue, and count emissions avoided by gas exports.",
+          "5": "Double gas by 2032 and triple it by 2035, approve pipelines to the coast, repeal CleanBC and the zero-emission vehicle sales quota, keep the industrial carbon price, count emissions avoided abroad by cleaner exports, and set no new targets."
         },
         "scores": {
           "ndp": 2,
           "conservative": 4,
           "green": 0,
-          "centrebc": 1,
+          "centrebc": 2,
           "onebc": 3
         }
       },
@@ -63,7 +63,7 @@
         },
         "scores": {
           "ndp": 4,
-          "conservative": 1,
+          "conservative": 2,
           "green": 1,
           "centrebc": 3,
           "onebc": 0
@@ -154,12 +154,12 @@
       },
       "conservative": {
         "text": {
-          "1": "This party wants to sell much more natural gas abroad. It has made no promises on cutting pollution.",
-          "3": "The Conservatives would double gas output by 2032, approve projects within 120 days and back an oil pipeline. Their 2026 materials do not mention carbon pricing for industry or the 2030 target. In 2025 their leader at the time called the industrial carbon tax 'punishing' and asked if it would be dropped.",
-          "5": "The 2026 plan would more than double gas output by 2032 and more than triple it by 2035, pass a 120 Day Permitting Act while 'keeping BC's high environmental standards' and seek credit for displacing coal. The party welcomes the Pacific Link pipeline. It says nothing about the industrial carbon price, the Low Carbon Fuel Standard, CleanBC or the 2030 target. In 2024 the party promised to end the carbon tax and the Low Carbon Fuel Standard, and in March 2025 Rustad called the industrial carbon tax 'punishing' and asked whether it would be dropped. This quiz scores the party as likely to weaken industrial pricing."
+          "1": "This party wants to sell much more natural gas abroad and end the climate plan, but keep the carbon charge on big industry.",
+          "3": "The Conservatives would double gas output by 2032, approve LNG plants and pipelines, repeal the CleanBC climate plan and the electric vehicle sales rule, and keep the carbon price on large industry. Their platform sets no climate target and does not mention the clean fuel rules.",
+          "5": "The Conservatives' October 18 platform would more than double natural gas production by 2032 and triple it by 2035, approve LNG projects and their pipelines, repeal CleanBC 'to remove barriers to investment and growth' while 'keeping a carbon price on large industrial emitters and the revenue it raises', end the zero-emission vehicle sales quota, stop municipal bans on gas connections, and report emissions alongside those avoided through cleaner BC exports. It sets no emissions target and does not mention the Low Carbon Fuel Standard or the 2030 target. The party welcomes the Pacific Link pipeline. In 2024 the party promised to end the carbon tax and the Low Carbon Fuel Standard, and in March 2025 Rustad called the industrial carbon tax 'punishing'."
         },
-        "basis": "both",
-        "confidence": "medium",
+        "basis": "platform",
+        "confidence": "high",
         "sources": [
           {
             "label": "Conservative Party of BC: BC Energy Superpower Plan",
@@ -184,6 +184,10 @@
           {
             "label": "CBC: 2024 platforms compared (Conservatives would end the carbon tax and low carbon fuel standard)",
             "url": "https://newsinteractives.cbc.ca/features/2024/british-columbia-party-platforms/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -261,6 +265,6 @@
         ]
       }
     },
-    "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 3 on the 2024 platform and Rustad's 2025 attack on the 'punishing' industrial carbon tax, discounted because 2026 is silent. b = Conservative 2026 text (4); OneBC 3; NDP 2 (also expands LNG and weakened the EV mandate, but keeps OBPS and conditions); CentreBC 1 (backs conditional LNG and a conditional pipeline, but commits to industrial pricing and a legislated target, which the option leaves open). c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 1 and Green 1 from opposite sides. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law; its October 13 plan adds the 75% methane cut by 2030 and heat pump rebates, but no legislated 20% milestone or retrofit loans); Conservative 1 (silent or hostile on industrial pricing and targets); Green 2 (keeps the 2040 and 2050 targets and industrial pricing, and adds interim targets, methane cuts and on-bill retrofit financing, but gives none of the option's numbers, no 20% milestone and no tanker-ban line, and rejects LNG; score changed Oct 13 after the Green platform); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
+    "scoring_rationale": "The consumer carbon tax is gone under the NDP, so the live splits are industrial pricing, targets and the pipeline. a = OneBC (4, inferred from its pipeline, Step Code repeal and deregulation items; it has no stated carbon-pricing or target position, so the cell is marked inferred and low confidence); Conservative 2 (shares the pipeline and the CleanBC wind-down, but its October 18 platform keeps the industrial carbon price that this option repeals; score changed Oct 18 after the Conservative platform). b = Conservative platform (4); OneBC 3; NDP 2 (also expands LNG, weakened the EV mandate and keeps industrial pricing, but keeps CleanBC and its conditions); CentreBC 2 (keeps industrial pricing as the option now does and backs conditional LNG and a conditional pipeline, but keeps a legislated target; score changed Oct 18 after option b was rewritten to the Conservative platform). Option b was rewritten on October 18 from 'no commitment on carbon pricing' to the platform text; the other scores on it were kept. c = NDP record (4); CentreBC 3 (same instruments: consumer tax at zero, industrial pricing, net-zero-ready LNG, clean power; differs by legislating a lower 2030 target and adding a methane law); Conservative 2 (consumer tax at zero, industrial pricing and gas growth overlap; it would repeal CleanBC and has no net-zero-ready condition or target; score changed Oct 18 after the Conservative platform) and Green 1. d = Green (4); CentreBC 1 (retrofit loans only); NDP 0 because it is actively expanding LNG. e = CentreBC's platform (4): legislated 20% milestone, industrial pricing kept, methane law, retrofit loans, tanker ban kept; NDP 3 (already runs every instrument in the option and projects the same 20%, but keeps the 40% target in law; its October 13 plan adds the 75% methane cut by 2030 and heat pump rebates, but no legislated 20% milestone or retrofit loans); Conservative 1 (keeps industrial pricing, but would repeal CleanBC and sets no targets or methane rule); Green 2 (keeps the 2040 and 2050 targets and industrial pricing, and adds interim targets, methane cuts and on-bill retrofit financing, but gives none of the option's numbers, no 20% milestone and no tanker-ban line, and rejects LNG; score changed Oct 13 after the Green platform); OneBC 0. Option e was rewritten on October 10 from the July 2026 pipeline conditions to the platform's climate plan; other parties' scores on it were kept. Candidate recruitment is not evidence of policy and is not used."
   }
 ]

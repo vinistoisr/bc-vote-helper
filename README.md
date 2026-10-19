@@ -196,6 +196,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Votes and Proceedings, April 1, 2026 (Bill 2, Budget Measures Implementation Act, 2026, third reading)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260401.htm)
 - [Conservative Party of BC: reverse the Property Tax Deferment Program changes (Oct 9, 2026)](https://conservativebc.ca/conservatives-will-stop-the-ndp-from-taxing-seniors-out-of-their-homes/)
 - [Daily Hive: Conservatives promise to reverse property tax deferral changes (Oct 9, 2026)](https://dailyhive.com/vancouver/bc-conservatives-property-tax-deferment-program-promise)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -231,7 +232,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Morningstar DBRS rating report: BC downgraded to AA (April 9, 2026)](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/dbrs-rating-report.pdf)
 - [BC Government: First Quarterly Report, deficit forecast $13.8 billion (Sept 14, 2026)](https://news.gov.bc.ca/releases/2026FIN0031-001066)
 
-**BC Conservatives** (basis: both, confidence: medium)
+**BC Conservatives** (basis: platform, confidence: high)
 
 - [Conservative Party of BC: $1,000 tax cut](https://conservativebc.ca/conservatives-will-cut-your-taxes-by-1000/)
 - [Canadian Press via Medicine Hat News: tax cut and NDP cost claim (Oct 8, 2026)](https://medicinehatnews.com/news/national-news/2026/10/08/b-c-campaign-trail-conservatives-promise-1000-tax-cut-by-boosting-exemption-level/)
@@ -239,6 +240,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Votes and Proceedings, April 1, 2026 (Bill 2, Budget Measures Implementation Act, 2026, third reading)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260401.htm)
 - [Votes and Proceedings, May 29, 2025 (Supply Act, 2025-2026, third reading)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v250529.htm)
 - [Conservative Party of BC: no new taxes pledge (Sept 27, 2026)](https://conservativebc.ca/conservative-party-of-bc-pledges-no-new-taxes-on-british-columbians/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: both, confidence: high)
 
@@ -282,6 +284,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Daily Hive: Conservative Metro Vancouver rollback](https://dailyhive.com/vancouver/bc-conservatives-metro-vancouver-regional-district-reform-platform-promise)
 - [Conservative Party of BC: no new taxes pledge (Sept 27, 2026)](https://conservativebc.ca/conservative-party-of-bc-pledges-no-new-taxes-on-british-columbians/)
 - [Votes and Proceedings, November 30, 2023 (Bill 47 third reading, unanimous)](https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231130.htm)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: both, confidence: high)
 
@@ -317,13 +320,14 @@ For each question: the sources behind each party's position. The written reason 
 - [Canadian Press via CFJC Today: NDP 20 clinics and 1,000 training seats (Oct 9, 2026)](https://cfjctoday.com/?p=1128165)
 - [BC NDP: Public Health Care Guarantee and agency nurse phase-out (Oct 12, 2026)](https://www.bcndp.ca/releases/eby-will-protect-public-health-care-us-style-privatization)
 
-**BC Conservatives** (basis: both, confidence: medium)
+**BC Conservatives** (basis: both, confidence: high)
 
 - [Conservative Party of BC: Keep Emergency Rooms Open (Oct 5, 2026)](https://conservativebc.ca/keep-emergency-rooms-open/)
 - [Sitka Media: Conservative seniors plan (Oct 9, 2026)](https://www.sitkamedia.ca/watch-bc-conservatives-unveil-plan-to-support-seniors/)
-- [Global News 2024: Conservative hybrid health plan (not repeated in 2026)](https://globalnews.ca/news/10631278/bc-conservatives-hybrid-health-care-system)
+- [Global News 2024: Conservative hybrid health plan](https://globalnews.ca/news/10631278/bc-conservatives-hybrid-health-care-system)
 - [Conservative Party of BC: response on health care (Oct 12, 2026)](https://conservativebc.ca/conservative-party-of-bc-responds-to-the-ndps-tired-health-care-fearmongering/)
 - [Votes and Proceedings, December 2, 2025 (Bill 32 third reading)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251202.htm)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -369,6 +373,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Votes and Proceedings, April 22, 2026 (DRIPA Repeal Act, first reading lost 44-47)](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260422.htm)
 - [Votes and Proceedings, November 26, 2019 (Bill 41, 82-0)](https://lims.leg.bc.ca/pdms/ldp/41st4th/votes/v191126.htm)
 - [CHEK News: Rustad pledges to repeal DRIPA (Jun 9, 2024)](https://www.cheknews.ca/bc-conservatives-want-to-repeal-the-provinces-commitment-to-undrip-1208019/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: both, confidence: high)
 
@@ -418,6 +423,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Rocky Mountain Goat: Conservatives on the Human Rights Code Repeal Act first reading](https://therockymountaingoat.com/2026/03/bird-conservatives-vote-to-give-first-reading-to-human-rights-code-repeal-act/)
 - [Votes and Proceedings, February 19, 2026](https://lims.leg.bc.ca/pdms/ldp/43rd2nd/votes/v260219.htm)
 - [Maple Ridge News: Conservatives on letting bills pass first reading (Mar 5, 2026)](https://mapleridgenews.com/2026/03/05/b-c-ndp-allow-armstrong-bill-on-closing-all-consumption-sites-to-pass-1st-reading/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: both, confidence: high)
 
@@ -466,6 +472,7 @@ For each question: the sources behind each party's position. The written reason 
 - [CBC 2024: Conservatives vow to shut consumption sites (not repeated in 2026)](https://amp.cbc.ca/lite/story/1.7331415)
 - [Langley Advance Times: Conservative plan on police and drug use in hospitals](https://langleyadvancetimes.com/2026/10/06/b-c-conservatives-plan-to-hire-more-police-stop-illegal-drug-use-in-hospitals-shelters/)
 - [Votes and Proceedings, December 2, 2025 (Bill 32, third reading 45-41)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251202.htm)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -510,6 +517,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Langley Advance Times: Conservative plan to hire more police (Oct 6, 2026)](https://langleyadvancetimes.com/2026/10/06/b-c-conservatives-plan-to-hire-more-police-stop-illegal-drug-use-in-hospitals-shelters/)
 - [Fraser Institute: violent crime index commentary](https://www.fraserinstitute.org/commentary/crime-stats-belie-bc-governments-safer-province-claims)
 - [Votes and Proceedings, October 25, 2023 (Bill 36, 56-27)](https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231025.htm)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -555,6 +563,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: First Job Tax Credit (Oct 10, 2026)](https://conservativebc.ca/conservatives-will-give-young-british-columbians-a-reason-to-stay/)
 - [BOE Report / Canadian Press: Doerkson welcomes Pacific Link pipeline (Oct 1, 2026)](https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/)
 - [CFJC Today / Canadian Press: Eby walks back tariff bill; Conservatives call it undemocratic (Mar 28, 2025)](https://cfjctoday.com/2025/03/28/b-c-premier-david-eby-walking-back-tariff-bill-after-anxiety-from-stakeholders/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -594,7 +603,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Government: 2035 ZEV sales target cut from 100% to 75% (Apr 1, 2026)](https://news.gov.bc.ca/releases/2026ECS0009-000355)
 - [BC NDP: Build BC Strong plan page (climate and costing items, Oct 2026)](https://www.bcndp.ca/plan)
 
-**BC Conservatives** (basis: both, confidence: medium)
+**BC Conservatives** (basis: platform, confidence: high)
 
 - [Conservative Party of BC: BC Energy Superpower Plan](https://conservativebc.ca/make-british-columbia-an-energy-superpower/)
 - [Conservative Party of BC: welcome LNG Canada Phase 2](https://conservativebc.ca/bc-conservatives-welcome-lng-canada-phase-2-we-will-treat-energy-as-an-urgent-mission/)
@@ -602,6 +611,7 @@ For each question: the sources behind each party's position. The written reason 
 - [BOE Report / Canadian Press: Doerkson welcomes Pacific Link pipeline (Oct 1, 2026)](https://boereport.com/2026/10/01/b-c-s-eby-promises-relief-at-gas-pumps-while-conservative-doerkson-praises-pipeline/)
 - [CFJC Today / Canadian Press: Rustad on the 'punishing' industrial carbon tax (Mar 31, 2025)](https://cfjctoday.com/2025/03/31/b-c-government-tables-bill-to-end-consumer-carbon-tax/)
 - [CBC: 2024 platforms compared (Conservatives would end the carbon tax and low carbon fuel standard)](https://newsinteractives.cbc.ca/features/2024/british-columbia-party-platforms/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: both, confidence: high)
 
@@ -636,10 +646,11 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Budget 2026: Budget and Fiscal Plan (child care $330 million, school capital)](https://www.bcbudget.gov.bc.ca/2026/pdf/2026_Budget_and_Fiscal_Plan.pdf)
 - [BC NDP: more affordable child care for BC families (Oct 17, 2026)](https://www.bcndp.ca/releases/bc-ndp-deliver-more-affordable-child-care-bc-families)
 
-**BC Conservatives** (basis: both, confidence: low)
+**BC Conservatives** (basis: platform, confidence: high)
 
 - [Conservative Party of BC: Safe Schools plan](https://conservativebc.ca/plan/safe-schools/)
 - [Global News: 2024 Conservative education plan (letter grades Grades 4-9, exams Grades 10 and 12) (Oct 14, 2024)](https://globalnews.ca/news/10810503/bc-election-conservative-education)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -670,12 +681,13 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Government: ICBC rate freeze to spring 2027, $496 average saving, $2.7B rebates (Oct 28, 2025)](https://news.gov.bc.ca/releases/2025AG0063-001064)
 - [ICBC 2025/26 Service Plan (about $5 billion in pre-2021 claims still to settle)](https://bcbudget.gov.bc.ca/2025/sp/pdf/agency/icbc.pdf)
 
-**BC Conservatives** (basis: platform, confidence: medium)
+**BC Conservatives** (basis: platform, confidence: high)
 
 - [Global News: Conservative plan to end no-fault (leaked letter)](https://globalnews.ca/news/12090331/bc-conservatives-plan-no-fault-insurance-repeal/)
 - [CP24: leaked letter details (Oct 6, 2026)](https://www.cp24.com/news/canada/2026/10/06/bc-conservatives-plan-to-end-no-fault-insurance-leaked-letter-shows/)
 - [Conservative Party of BC: Insurance plan page](https://conservativebc.ca/plan/insurance/)
 - [Daily Hive: Conservative ICBC letter, minor-injury limits and private competition (Oct 6, 2026)](https://dailyhive.com/vancouver/bc-conservatives-icbc-no-fault-insurance-system-changes-platform)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -715,6 +727,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Daily Hive: Metro Vancouver rollback](https://dailyhive.com/vancouver/bc-conservatives-metro-vancouver-regional-district-reform-platform-promise)
 - [CFJC Today / Canadian Press: Rustad and the party on Bill 7 (Mar 28, 2025)](https://cfjctoday.com/2025/03/28/b-c-premier-david-eby-walking-back-tariff-bill-after-anxiety-from-stakeholders/)
 - [Global News: 2024 Conservative platform (voter approval for new taxes)](https://globalnews.ca/news/10812384/affordability-safety-scrapping-carbon-price-bc-conservatives-full-platform)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: both, confidence: high)
 
@@ -750,13 +763,14 @@ For each question: the sources behind each party's position. The written reason 
 - [Global News: TransLink gets $479 million in surplus money (March 15, 2023)](https://globalnews.ca/news/9553930/translink-funding-bc-government)
 - [BC NDP: getting around Surrey more easily and affordably (Oct 15, 2026)](https://www.bcndp.ca/releases/eby-will-help-people-surrey-get-around-more-easily-affordably)
 
-**BC Conservatives** (basis: both, confidence: low)
+**BC Conservatives** (basis: both, confidence: medium)
 
 - [Global News: Surrey-Langley SkyTrain cost rises to $6B, Rustad on getting it done affordably (Aug 2024)](https://globalnews.ca/news/10701039/surrey-langley-skytrain-cost)
 - [Daily Hive: Metro Vancouver rollback](https://dailyhive.com/vancouver/bc-conservatives-metro-vancouver-regional-district-reform-platform-promise)
 - [Global News: Rustad calls the $6 billion line a debacle (Aug 2024)](https://globalnews.ca/news/10702469/surrey-langley-skytrain-delay-cost-reaction/amp)
 - [Conservative Party of BC: Eby must answer on secret vehicle tax plan (Oct 2, 2026)](https://conservativebc.ca/eby-must-answer-on-secret-vehicle-tax-plan/)
 - [CP24: Doerkson pledges no new or higher taxes (Sept 28, 2026)](https://www.cp24.com/news/canada/2026/09/28/bc-election-campaigns-enter-second-week-with-candidate-policy-announcements/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -801,6 +815,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: Safe Streets for BC](https://conservativebc.ca/safe-streets-for-bc/)
 - [Conservative Party of BC: Surrey candidates announcement (Sept 29, 2026)](https://conservativebc.ca/conservative-party-of-bc-announces-strong-surrey-candidates-for-serious-times/)
 - [Conservative Party of BC: Garry Purewal candidate page](https://conservativebc.ca/candidate/garry-purewal/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (no published position)
 
@@ -849,6 +864,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: Garry Purewal candidate page](https://conservativebc.ca/candidate/garry-purewal/)
 - [Conservative Party of BC: response on health care (Oct 12, 2026)](https://conservativebc.ca/conservative-party-of-bc-responds-to-the-ndps-tired-health-care-fearmongering/)
 - [Conservative Party of BC: new Massey bridge and new hospital in Surrey (Oct 15, 2026)](https://conservativebc.ca/conservatives-will-build-a-new-massey-bridge-and-new-hospital-in-surrey/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -890,6 +906,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: Delivering essential services and cutting waste at Metro Vancouver (Oct 5, 2026)](https://conservativebc.ca/conservative-platform-delivering-essential-services-and-cutting-waste-at-metro-vancouver/)
 - [Conservative Party of BC: Support BC's seniors (Oct 9, 2026)](https://conservativebc.ca/support-bcs-seniors/)
 - [CP24: campaigns enter second week, no new taxes pledge (Sept 28, 2026)](https://www.cp24.com/news/canada/2026/09/28/bc-election-campaigns-enter-second-week-with-candidate-policy-announcements/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -917,11 +934,12 @@ For each question: the sources behind each party's position. The written reason 
 - [The Narwhal: BC election 2026 and DRIPA (Oct 7, 2026)](https://thenarwhal.ca/bc-election-2026-dripa)
 - [Angus Reid: BC, Musqueam and Cowichan, property rights (March 2026)](https://angusreid.org/bc-eby-musqueam-cowichan-property-rights-conservative-leadership/)
 
-**BC Conservatives** (basis: both, confidence: medium)
+**BC Conservatives** (basis: both, confidence: high)
 
 - [Conservative Party of BC: Repeal DRIPA, Promote Economic Reconciliation (Oct 7, 2026)](https://conservativebc.ca/plan/first-nations-dripa/)
 - [Lorne Doerkson on X: repeal DRIPA, protect property rights (Oct 7, 2026)](https://x.com/LDoerkson/status/2108048609283645690)
 - [Votes and Proceedings, October 29, 2025 (Property Rights Protection Act)](https://lims.leg.bc.ca/pdms/ldp/43rd1st/votes/v251029.htm)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -956,6 +974,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Global News: Conservative housing plan would scrap density rules (Sept 27, 2024)](https://globalnews.ca/news/10779404/bc-election-conservative-rustad-housing-policy)
 - [Conservative Party of BC: statement on the NDP housing tax plan (Sept 25, 2026)](https://conservativebc.ca/statement-from-interim-leader-lorne-doerkson-on-the-ndps-housing-tax-plan/)
 - [Conservative Party of BC: Metro Vancouver plan (Oct 5, 2026)](https://conservativebc.ca/conservative-platform-delivering-essential-services-and-cutting-waste-at-metro-vancouver/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: both, confidence: medium)
 
@@ -985,10 +1004,10 @@ For each question: the sources behind each party's position. The written reason 
 - [The Tyee: How the ALR's future is becoming an election issue (Oct 7, 2026)](https://thetyee.ca/News/2026/10/07/ALR-Future-Becoming-Election-Issue/)
 - [Daily Hive: Eby grocery plan, price guard and Lower Mainland food terminal (Oct 2, 2026)](https://dailyhive.com/vancouver/david-eby-grocery-prices-bc)
 
-**BC Conservatives** (no published position)
+**BC Conservatives** (basis: platform, confidence: medium)
 
 - [The Tyee: How the ALR's future is becoming an election issue (Oct 7, 2026)](https://thetyee.ca/News/2026/10/07/ALR-Future-Becoming-Election-Issue/)
-- [Conservative Party of BC: Our Plan (no agriculture item)](https://conservativebc.ca/plan/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -1023,7 +1042,7 @@ For each question: the sources behind each party's position. The written reason 
 **BC Conservatives** (basis: inferred, confidence: low)
 
 - [Fraser Valley Today: Conservatives pledge six lanes through Chilliwack (Oct 3, 2024)](https://fraservalleytoday.ca/2024/10/03/b-c-conservatives-pledge-to-expand-highway-1-to-6-lanes-through-chilliwack/)
-- [Conservative Party of BC: Our Plan (no highway item)](https://conservativebc.ca/plan/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -1058,6 +1077,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: Keep emergency rooms open (Oct 5, 2026)](https://conservativebc.ca/keep-emergency-rooms-open/)
 - [Abbotsford News: Doerkson pledges $50M fund for ER closures (Oct 5, 2026)](https://abbynews.com/2026/10/05/lorne-doerkson-pledges-to-create-50m-fund-to-address-emergency-room-closures/)
 - [Abbotsford News: Abbotsford-Mission by-election debate (Sept 14, 2026)](https://abbynews.com/2026/09/14/mla-hopefuls-spar-in-abbotsford-mission-byelection-debate/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: medium)
 
@@ -1094,6 +1114,7 @@ For each question: the sources behind each party's position. The written reason 
 
 - [Conservative Party of BC: Conservatives will fix BC Ferries (Oct 11, 2026)](https://conservativebc.ca/conservatives-will-fix-bc-ferries/)
 - [Victoria Buzz: what the major parties are promising for BC Ferries (Oct 11, 2026)](https://victoriabuzz.com/2026/10/heres-what-bcs-major-political-parties-are-promising-for-bc-ferries-ahead-of-the-election/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1125,10 +1146,11 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Gov: Working Forest Landscape Model](https://www2.gov.bc.ca/gov/content/industry/natural-resource-use/working-forest-landscape-model)
 - [Canadian Press via Castanet: Campbell River area first to test new forest management model (Sept 15, 2026)](https://castanet.net/edition/news-story-631385-3-.htm)
 
-**BC Conservatives** (no published position)
+**BC Conservatives** (basis: platform, confidence: high)
 
 - [Conservative Party of BC: Supercharge British Columbia's economy (Oct 7, 2026)](https://conservativebc.ca/supercharge-british-columbias-economy/)
 - [Westk News: Conservative forestry critic on the 100 Mile House closure (Nov 7, 2025)](https://westknews.com/2025/11/07/conservative-forestry-critic-calls-closure-of-100-mile-west-fraser-mill-devastating/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1167,6 +1189,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: build the long-term care beds the NDP shelved (Oct 9, 2026)](https://conservativebc.ca/conservatives-will-build-the-long-term-care-beds-the-ndp-shelved/)
 - [Nanaimo News Bulletin: Doerkson pledges $50M fund for ER closures (Oct 5, 2026)](https://nanaimobulletin.com/2026/10/05/lorne-doerkson-pledges-to-create-50m-fund-to-address-emergency-room-closures/)
 - [CHEK News: all Vancouver Island candidates for the 2026 election](https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1207,6 +1230,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Today in BC: Conservatives aim to increase wildfire protection (Oct 2, 2026)](https://todayinbc.com/2026/10/02/an-investment-b-c-has-to-make-conservatives-aim-to-increase-wildfire-protection/)
 - [Global News: NDP and Conservative leaders campaign in the Okanagan (Oct 2, 2026)](https://globalnews.ca/news/12086166/bc-ndp-conservative-leaders-campaign-okanagan/)
 - [CFJC Today (Canadian Press): Doerkson promises to buy firefighting water bombers (Oct 2, 2026)](https://cfjctoday.com/2026/10/02/b-c-conservative-interim-leader-doerkson-promises-to-buy-firefighting-water-bombers/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1239,6 +1263,7 @@ For each question: the sources behind each party's position. The written reason 
 
 - [Conservative Party of BC: Safe Streets for BC (Oct 6, 2026)](https://conservativebc.ca/safe-streets-for-bc/)
 - [Global News: NDP and Conservative leaders campaign in the Okanagan (Oct 2, 2026)](https://globalnews.ca/news/12086166/bc-ndp-conservative-leaders-campaign-okanagan/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1274,6 +1299,7 @@ For each question: the sources behind each party's position. The written reason 
 
 - [Conservative Party of BC: build the long-term care beds the NDP shelved (Oct 9, 2026)](https://conservativebc.ca/conservatives-will-build-the-long-term-care-beds-the-ndp-shelved/)
 - [Conservative Party of BC: Keep emergency rooms open, health spending kept (Oct 5, 2026)](https://conservativebc.ca/keep-emergency-rooms-open/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1307,12 +1333,12 @@ For each question: the sources behind each party's position. The written reason 
 - [BC Gov News: Campbell River first candidate area for the Working Forest Landscape Model (Sept 15, 2026)](https://news.gov.bc.ca/releases/2026FOR0034-001069)
 - [BC NDP: Eby outlines next steps for forestry (Oct 14, 2026)](https://www.bcndp.ca/releases/eby-outlines-next-steps-forestry)
 
-**BC Conservatives** (no published position)
+**BC Conservatives** (basis: platform, confidence: high)
 
 - [Conservative Party of BC: Supercharge British Columbia's economy (Oct 7, 2026)](https://conservativebc.ca/supercharge-british-columbias-economy/)
-- [Conservative Party of BC: plan hub (Forestry for the Future heading, no text)](https://conservativebc.ca/plan/)
 - [Williams Lake Tribune: Doerkson on the 100 Mile House mill closure (Nov 15, 2025)](https://wltribune.com/2025/11/15/doerkson-west-frasers-permanent-mill-closure-in-100-mile-house-shocking/)
 - [Westk News: Conservative forestry critic on the 100 Mile House closure (Nov 7, 2025)](https://westknews.com/2025/11/07/conservative-forestry-critic-calls-closure-of-100-mile-west-fraser-mill-devastating/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1349,6 +1375,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: BC Energy Superpower plan (PDF)](https://conservativebc.ca/wp-content/uploads/2026/09/BC-ENERGY-SUPERPOWER_5_compressed.pdf)
 - [Conservative Party of BC: welcome LNG Canada Phase 2 (Sept 29, 2026)](https://conservativebc.ca/bc-conservatives-welcome-lng-canada-phase-2-we-will-treat-energy-as-an-urgent-mission/)
 - [Conservative Party of BC: Supercharge British Columbia's economy, 120 Day Permitting Act over $250 million (Oct 7, 2026)](https://conservativebc.ca/supercharge-british-columbias-economy/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1389,6 +1416,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Conservative Party of BC: Keep emergency rooms open (Oct 5, 2026)](https://conservativebc.ca/keep-emergency-rooms-open/)
 - [100 Mile Free Press: Doerkson pledges $50M fund for ER closures (Oct 5, 2026)](https://100milefreepress.net/2026/10/05/lorne-doerkson-pledges-to-create-50m-fund-to-address-emergency-room-closures/)
 - [CJDC TV: after 21 ER diversions in 56 days in Hudson's Hope, MLA calls for Northern Health to be dismantled (Apr 14, 2026)](https://www.cjdctv.com/news/article/after-21-er-diversions-in-56-days-in-hudsons-hope-mla-calls-for-northern-health-to-be-dismantled/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Greens** (basis: platform, confidence: high)
 
@@ -1439,7 +1467,7 @@ For each question: the sources behind each party's position. The written reason 
 - [Global News: who are the BC party leaders (Doerkson interim, constitution bars interim leader from permanent post)](https://globalnews.ca/news/12068973/who-are-bc-party-leaders-2026-election/)
 - [CFJC / Canadian Press: John Rustad resigns as leader (Dec 4, 2025)](https://cfjctoday.com/2025/12/04/john-rustad-resigns-as-leader-of-the-b-c-conservatives/)
 - [Castanet / Canadian Press: five return to Conservative caucus, party standings (Sept 21, 2026)](https://www.castanetkamloops.net/news/BC/631916/Five-return-to-B-C-Conservative-caucus-as-early-election-looms)
-- [Energeticcity (Canadian Press): voting begins without Conservative costed platform (Oct 16, 2026)](https://energeticcity.ca/2026/10/16/b-c-begins-voting-without-conservatives-costed-platform-doerkson-calls-it-imminent/)
+- [Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)](https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf)
 
 **BC Green Party**
 

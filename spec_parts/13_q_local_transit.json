@@ -125,12 +125,12 @@
       },
       "conservative": {
         "text": {
-          "1": "This party made no SkyTrain promise this time. In 2024 it said it would finish the line for less.",
-          "3": "The Conservatives have no 2026 transit commitment. In 2024 they called the $6 billion cost a 'debacle' and said they would 'get it done in an affordable way', but never pledged to cancel it. Their pledge of no new taxes affects how TransLink's gap could be closed.",
-          "5": "No 2026 Conservative SkyTrain or TransLink commitment was found on the party's site as of October 12. In August 2024 Rustad called it 'the $6 billion Surrey Skytrain debacle' and said a Conservative government would 'get it done in an affordable way'. The NDP claim that Rustad would cancel it is unconfirmed. For 2026 the party pledges no new taxes and would cut Metro Vancouver back to water and sewage. Its October 2 release attacked the reported vehicle levy and offered no alternative. Candidate Purewal has published only party themes."
+          "1": "This party would ban a new car fee for transit and review big project costs. In 2024 it said it would finish the line for less.",
+          "3": "The Conservatives' platform would ban a TransLink car levy by law, support transit expansion where ridership justifies it and audit the capital plan, citing the SkyTrain line's cost rise. It does not say how TransLink's 2028 gap would be closed. In 2024 they called the $6 billion cost a 'debacle' and said they would 'get it done in an affordable way'.",
+          "5": "The Conservatives' October 18 platform would amend the South Coast British Columbia Transportation Authority Act so TransLink cannot tax or levy car ownership or registration, support SkyTrain, rapid bus and bus expansion 'where population and ridership demonstrate the need', and audit the provincial capital plan within six months, citing the Surrey-Langley SkyTrain's rise from $3.94 billion to about $6 billion. It makes no commitment on TransLink's 2028 gap and does not say whether the line would be finished as planned. In August 2024 Rustad called it 'the $6 billion Surrey Skytrain debacle' and said a Conservative government would 'get it done in an affordable way'. The NDP claim that Rustad would cancel it is unconfirmed. The party pledges no new taxes and would turn Metro Vancouver into a lean regional utility. Candidate Purewal has published only party themes."
         },
         "basis": "both",
-        "confidence": "low",
+        "confidence": "medium",
         "sources": [
           {
             "label": "Global News: Surrey-Langley SkyTrain cost rises to $6B, Rustad on getting it done affordably (Aug 2024)",
@@ -151,6 +151,10 @@
           {
             "label": "CP24: Doerkson pledges no new or higher taxes (Sept 28, 2026)",
             "url": "https://www.cp24.com/news/canada/2026/09/28/bc-election-campaigns-enter-second-week-with-candidate-policy-announcements/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -229,6 +233,6 @@
         "no_position": true
       }
     },
-    "scoring_rationale": "a = NDP (4); Green 3 (finish and expand, no levy objection); Conservative 2 (would finish the line, no commitment to a new revenue law); CentreBC 2 (finishes the line and funds more service, silent on a levy or a revenue law). b = Conservative (4), built from the 2024 cost attack, the no-new-taxes pledge and the Metro Vancouver rollback; CentreBC 2 (independent cost reviews over $100M and no new broad taxes, but it adds transit spending and has no Metro Vancouver position); NDP 1; Green 0. c = Green (4); NDP 2 (expands transit; free passes only for low-income seniors, not fare-free transit); CentreBC 2 (a 15% pass credit is partial fare relief; rapid bus and rail expansion overlap; no wealth tax); Conservative 0. d = CentreBC's platform (4): SLS as a priority, rapid bus, 15% more service, commuter credit; Green 3 (expansion and fare relief in its direction, short of free transit); NDP 2 (is building the line, funds interim service and on October 15 pledged King George bus rapid transit, but no pass credit or 15% service target); Conservative 1 (no 2026 transit commitment). Option d was added on October 10 when CentreBC published a transit position; before that it was no_position here. OneBC has no transit position and is excluded from this question (no_position) rather than placed by fiscal inference. Candidates carry party scores; none has a local transit position."
+    "scoring_rationale": "a = NDP (4); Green 3 (finish and expand, no levy objection); Conservative 2 (would finish the line, no commitment to a new revenue law); CentreBC 2 (finishes the line and funds more service, silent on a levy or a revenue law). b = Conservative (4), built from the 2024 cost attack, the no-new-taxes pledge and the Metro Vancouver rollback; CentreBC 2 (independent cost reviews over $100M and no new broad taxes, but it adds transit spending and has no Metro Vancouver position); NDP 1; Green 0. c = Green (4); NDP 2 (expands transit; free passes only for low-income seniors, not fare-free transit); CentreBC 2 (a 15% pass credit is partial fare relief; rapid bus and rail expansion overlap; no wealth tax); Conservative 0. d = CentreBC's platform (4): SLS as a priority, rapid bus, 15% more service, commuter credit; Green 3 (expansion and fare relief in its direction, short of free transit); NDP 2 (is building the line, funds interim service and on October 15 pledged King George bus rapid transit, but no pass credit or 15% service target); Conservative 1 (supports expansion only where ridership justifies it, with no service target, pass credit or new borrowing). Option d was added on October 10 when CentreBC published a transit position; before that it was no_position here. OneBC has no transit position and is excluded from this question (no_position) rather than placed by fiscal inference. Candidates carry party scores; none has a local transit position."
   }
 ]

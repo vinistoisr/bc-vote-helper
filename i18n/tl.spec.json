@@ -648,8 +648,8 @@
 "Hindi kaanib sa anumang partido ang tool na ito. Ikinukumpara nito ang iyong mga sagot sa mga pangako at rekord ng mga partido. Panimula ito, hindi rekomendasyon. Nag-aanunsyo pa ng mga pangako ang mga partido hanggang Oktubre 18, kaya tingnan kung may update. Ang mga pangalan at logo ng mga partido ay pag-aari ng mga partido."
 ],
 "meta/disclaimer/5": [
-"310c66e26f",
-"Independiyenteng tool para sa impormasyon ng botante. Ang mga iskor ay batay sa mga inilathalang pangako para sa 2026 hanggang Oktubre 18, 2026, na tinimbang laban sa rekord ng pamamahala at paggawa ng batas mula 2016-2026 kapag nagkakasalungat ang dalawa. Naglabas ang CentreBC (Oktubre 10) at ang mga Green (Oktubre 13) ng buong plataporma na may sarili nilang kuwenta ng gastos, at naglabas ang NDP ng kuwenta ng gastos ng mga pangako nito sa kampanya noong Oktubre 14; wala sa mga ito ang nasuri nang independiyente. Hindi pa naglalabas ang mga Conservative ng plataporma na may kuwenta ng gastos hanggang Oktubre 18, at nangangampanya ang OneBC sa sunud-sunod na anunsyo. Ang mga posisyong mababa ang katiyakan ay batay sa mga pahayag ng mga dating lider, sa mga plataporma noong 2024 o sa pananahimik. Ang mga pangalan at logo ng mga partido ay trademark ng kanilang mga may-ari, ipinapakita para lang makilala. Hindi ito pag-endorso."
+"81386237e2",
+"Independiyenteng tool para sa impormasyon ng botante. Ang mga iskor ay batay sa mga inilathalang pangako para sa 2026 hanggang Oktubre 18, 2026, na tinimbang laban sa rekord ng pamamahala at paggawa ng batas mula 2016-2026 kapag nagkakasalungat ang dalawa. Naglabas ang CentreBC (Oktubre 10), ang mga Green (Oktubre 13) at ang mga Conservative (Oktubre 18) ng buong plataporma na may sarili nilang kuwenta ng gastos, at naglabas ang NDP ng kuwenta ng gastos ng mga pangako nito sa kampanya noong Oktubre 14; wala sa mga ito ang nasuri nang independiyente. Nangangampanya ang OneBC sa sunud-sunod na anunsyo. Ang mga posisyong mababa ang katiyakan ay batay sa mga pahayag ng mga dating lider, sa mga plataporma noong 2024 o sa pananahimik. Ang mga pangalan at logo ng mga partido ay trademark ng kanilang mga may-ari, ipinapakita para lang makilala. Hindi ito pag-endorso."
 ],
 "meta/method_summary/1": [
 "726b03f5d0",
@@ -716,12 +716,12 @@
 "Ang pangunahing partidong gustong pumalit sa gobyerno. Gusto nito ng mas mababang buwis, mas kaunting patakaran para sa negosyo at mas maraming trabaho sa gas at pagmimina."
 ],
 "parties/conservative/one_liner/3": [
-"eda298f445",
-"Oposisyon mula 2024. Nangangako ng bawas na $1,000 sa income tax at walang bagong buwis; ibabasura ang DRIPA at SOGI 123, tatapusin ang safe supply, palalawakin ang sapilitang paggamot at dodoblehin ang produksyon ng gas. Apat na lider sa loob ng isang taon; walang plano na may kuwenta ng gastos hanggang Oktubre 18."
+"2e1aa2c2f1",
+"Oposisyon mula 2024. Nangangako ng bawas na $1,000 sa income tax at walang bagong buwis; ibabasura ang DRIPA at SOGI 123, tatapusin ang safe supply, palalawakin ang sapilitang paggamot at dodoblehin ang produksyon ng gas. Apat na lider sa loob ng isang taon; ayon sa plataporma nito na may kuwenta ng gastos (Oktubre 18), bababa ang depisit sa $10.8 bilyon pagsapit ng 2029-30 (mga numero ng partido)."
 ],
 "parties/conservative/one_liner/5": [
-"ab0d8f10de",
-"Oposisyon mula 2024 (44 na puwesto). 2026: basic personal amount sa $32,000 (mga $1,050 bawat isa; walang kuwenta ng gastos; tantya ng iba $2.5B kada taon), walang bagong buwis, ibasura ang DRIPA at SOGI 123, tapusin ang safe supply, sapilitang paggamot, 250 pulis, 500 RCMP, 50 taga-usig, doblehin ang produksyon ng gas pagsapit ng 2032, 120 Day Permitting Act, hybrid tort sa ICBC, portable na pondo para sa LTC. Walang target sa depisit o petsa ng pagbalanse."
+"697d65f924",
+"Oposisyon mula 2024 (44 na puwesto). 2026: basic personal amount sa $32,000 (mga $1,000 bawat isa; kuwenta ng partido $2.9B kada taon), walang bagong buwis, ibasura ang DRIPA at SOGI 123, tapusin ang safe supply, sapilitang paggamot, 250 pulis, 500 RCMP, 50 taga-usig, doblehin ang produksyon ng gas pagsapit ng 2032, 120 Day Permitting Act, hybrid tort sa ICBC, portable na pondo para sa LTC. Plataporma na may kuwenta ng gastos (Oktubre 18): depisit na $13.7B, $13.5B, $12.3B, $10.8B hanggang 2029-30, $1.425B kada taon na bagong gastos, $3.0B hanggang $4.1B kada taon na pagtitipid; bababa ang depisit bawat taon, walang petsa ng pagbabalanse."
 ],
 "parties/conservative/record_summary/3": [
 "b31d1d6ca4",
@@ -872,24 +872,24 @@
 "Magtayo ng pipeline papunta sa Prince Rupert o Kitimat, ipawalang-bisa ang carbon price sa industriya at ang Low Carbon Fuel Standard, unti-unting tapusin ang CleanBC, at walang itakdang target sa emisyon."
 ],
 "questions/q_climate_energy/options/b/text/1": [
-"6bb230fc9f",
-"Magbenta ng mas marami pang natural gas sa ibang bansa, protektahan ang kalikasan, at walang bagong pangako sa klima."
+"82959b8d05",
+"Magbenta ng mas marami pang natural gas sa ibang bansa at tapusin ang plano ng probinsya sa klima, pero panatilihin ang singil sa carbon sa malalaking industriya."
 ],
 "questions/q_climate_energy/options/b/text/2": [
-"8cd263cb73",
-"Magbenta ng mas marami pang natural gas sa ibang bansa sa ilalim ng mga kasalukuyang patakaran sa kalikasan, pero walang bagong pangako sa klima."
+"95a472b9aa",
+"Magbenta ng mas marami pang natural gas sa ibang bansa, alisin ang plano ng probinsya sa klima at ang patakaran sa benta ng electric car, panatilihin ang carbon price sa malalaking industriya, at huwag magtakda ng bagong target."
 ],
 "questions/q_climate_energy/options/b/text/3": [
-"d0b722792a",
-"Palawakin nang mabilis ang export ng natural gas sa ilalim ng mga patakaran sa kapaligiran, at iwang hindi pa napagpapasyahan ang carbon pricing at mga target sa klima."
+"f23209e446",
+"Palawakin nang mabilis ang export ng natural gas, ibasura ang CleanBC na plano sa klima at ang patakaran sa benta ng electric vehicle, panatilihin ang carbon pricing sa industriya, at huwag magtakda ng bagong target sa klima."
 ],
 "questions/q_climate_energy/options/b/text/4": [
-"91f8fbd0e5",
-"Doblehin ang produksyon ng gas pagsapit ng 2032, magbigay ng mga permit sa loob ng 120 araw habang pinapanatili ang mga proteksyon sa kapaligiran, humingi ng credit sa pagpapalit ng coal sa ibang bansa, at walang pangako sa carbon pricing sa industriya."
+"8c9ac271d3",
+"Doblehin ang produksyon ng gas pagsapit ng 2032 at gawin itong tatlong beses pagsapit ng 2035, ibasura ang CleanBC at ang quota sa benta ng zero-emission vehicle, panatilihin ang carbon pricing sa industriya at ang kita nito, at bilangin ang emisyong naiwasan dahil sa export ng gas."
 ],
 "questions/q_climate_energy/options/b/text/5": [
-"6dcb536131",
-"Doblehin ang gas pagsapit ng 2032, bigyan ng permit ang mga proyekto sa loob ng 120 araw sa ilalim ng mga pamantayan sa kapaligiran, humingi ng credit sa pagpapalit ng coal, suportahan ang isang pipeline, at walang pangako sa carbon pricing, mga patakaran sa malinis na fuel o mga target."
+"cfa7197286",
+"Doblehin ang gas pagsapit ng 2032 at gawin itong tatlong beses pagsapit ng 2035, aprubahan ang mga pipeline papunta sa baybayin, ibasura ang CleanBC at ang quota sa benta ng zero-emission vehicle, panatilihin ang carbon pricing sa industriya, bilangin ang emisyong naiwasan sa ibang bansa dahil sa mas malinis na export, at huwag magtakda ng bagong target."
 ],
 "questions/q_climate_energy/options/c/text/1": [
 "d02a75bdb2",
@@ -964,16 +964,16 @@
 "Inilalagay ng plataporma sa batas ang milestone sa 2030 na 20% na mas mababa sa 2007, mula 40%, pinapanatili ang mga target sa 2040 at 2050 at lumilikha ng Climate Accountability Office. Pinapanatili nito ang carbon pricing sa industriya, nagpapadala ng hindi bababa sa $100 milyon kada taon sa CleanBC Industry Fund at hindi magpapataw ng carbon tax sa mga mamimili. Babawasan nito ang methane nang 75% mula sa antas ng 2014 pagsapit ng 2030, magpapautang ng $500 milyon para sa 25,000 pagpapaayos ng bahay at magdadagdag ng 2,000 megawatt na kuryente ng BC Hydro. Sinusuportahan nito ang net-zero-ready na export ng gas kasama ang mga katuwang na First Nations at hihingi ito ng nakasulat na pangako ng pederal na gobyerno na pananatilihin ang tanker ban sa hilaga."
 ],
 "questions/q_climate_energy/party_positions/conservative/text/1": [
-"cd41614059",
-"Gusto ng partidong ito na magbenta ng mas marami pang natural gas sa ibang bansa. Wala itong pangako sa pagbawas ng polusyon."
+"540c2ca762",
+"Gusto ng partidong ito na magbenta ng mas marami pang natural gas sa ibang bansa at tapusin ang plano sa klima, pero panatilihin ang singil sa carbon sa malalaking industriya."
 ],
 "questions/q_climate_energy/party_positions/conservative/text/3": [
-"1d942dedc1",
-"Dodoblehin ng mga Conservative ang produksyon ng gas pagsapit ng 2032, aaprubahan ang mga proyekto sa loob ng 120 araw at susuportahan ang isang oil pipeline. Hindi binabanggit ng kanilang mga materyales sa 2026 ang carbon pricing sa industriya o ang target sa 2030. Noong 2025, tinawag ng kanilang lider noon na 'nagpaparusa' ang industrial carbon tax at nagtanong kung aalisin ito."
+"bc7f9d65e4",
+"Dodoblehin ng mga Conservative ang produksyon ng gas pagsapit ng 2032, aaprubahan ang mga LNG plant at pipeline, ibabasura ang CleanBC na plano sa klima at ang patakaran sa benta ng electric vehicle, at pananatilihin ang carbon price sa malalaking industriya. Walang itinatakdang target sa klima ang kanilang plataporma at hindi nito binabanggit ang mga patakaran sa malinis na fuel."
 ],
 "questions/q_climate_energy/party_positions/conservative/text/5": [
-"e06da5b3c6",
-"Ang plano sa 2026 ay higit sa dodoblehin ang produksyon ng gas pagsapit ng 2032 at gagawin itong higit sa tatlong beses pagsapit ng 2035, magpapasa ng 120 Day Permitting Act habang 'pinapanatili ang mataas na pamantayang pangkapaligiran ng BC' at hihingi ng credit sa pagpapalit ng coal. Tinatanggap ng partido ang Pacific Link pipeline. Wala itong sinasabi tungkol sa carbon price sa industriya, sa Low Carbon Fuel Standard, sa CleanBC o sa target sa 2030. Noong 2024, nangako ang partido na tatapusin ang carbon tax at ang Low Carbon Fuel Standard, at noong Marso 2025, tinawag ni Rustad na 'nagpaparusa' ang industrial carbon tax at nagtanong kung aalisin ito. Binibigyan ng quiz na ito ng iskor ang partido bilang malamang na magpapahina sa carbon pricing sa industriya."
+"d2be8ce072",
+"Ayon sa plataporma ng mga Conservative noong Oktubre 18, higit sa dodoblehin ang produksyon ng natural gas pagsapit ng 2032 at gagawin itong tatlong beses pagsapit ng 2035, aaprubahan ang mga proyekto ng LNG at ang mga pipeline nito, ibabasura ang CleanBC 'para alisin ang mga hadlang sa pamumuhunan at paglago' habang 'pinapanatili ang carbon price sa malalaking industrial emitter at ang kitang nalilikom nito', tatapusin ang quota sa benta ng zero-emission vehicle, pipigilan ang mga pagbabawal ng munisipyo sa koneksyon ng gas, at iuulat ang emisyon kasabay ng mga naiwasan sa pamamagitan ng mas malinis na export ng BC. Wala itong itinatakdang target sa emisyon at hindi nito binabanggit ang Low Carbon Fuel Standard o ang target sa 2030. Tinatanggap ng partido ang Pacific Link pipeline. Noong 2024, nangako ang partido na tatapusin ang carbon tax at ang Low Carbon Fuel Standard, at noong Marso 2025, tinawag ni Rustad na 'nagpaparusa' ang industrial carbon tax."
 ],
 "questions/q_climate_energy/party_positions/green/text/1": [
 "0368faa344",
@@ -1044,8 +1044,8 @@
 "Ang gastos sa pamumuhay ang pangunahing isyu ng mga botante sa BC. Noong 2025, tinapos ng gobyerno ng NDP ang carbon tax sa mga mamimili, pero itinigil muna nito ang rebate na $1,000, at noong 2026 itinaas nito ang pinakamababang rate ng buwis. Iba-iba ang paraan ng bawat partido sa pangakong ginhawa. Babawasan ng ilan ang income tax ng lahat. Lilimitahan ng isa ang patong sa presyo ng gasolina at ilang grocery. Itataas naman ng isa pa ang suporta sa pinakamahihirap. Pinagsasama ng iba ang mas maliit na bawas sa buwis at limitasyon sa pagtaas ng singil sa kuryente at insurance ng sasakyan."
 ],
 "questions/q_cost_of_living/context/4": [
-"ead02eb516",
-"Pangunahing isyu ang gastos sa pamumuhay para sa 56% ng mga botante sa BC, ayon sa isang survey ng Ipsos. Ang minimum wage ay $18.25 kada oras at tumataas kasabay ng inflation bawat taon. Noong 2025, itinigil muna ng gobyerno ng NDP ang grocery rebate na $1,000, at noong 2026 itinaas nito ang pinakamababang rate ng income tax. Mahirap ikumpara ang halaga ng mga plano ng mga partido. Walang inilathalang gastos ang mga bawas sa buwis ng Conservative at OneBC. Tinataya ng mga Green ang gastos ng kanilang mga programa sa $9.28 bilyon kada taon pero hindi nila inilathala kung paano nila tinantya ang kikitain sa kanilang buwis sa yaman, at ang mga numero ng gastos ng CentreBC ay sarili nito, hindi sinuri ng iba."
+"a08e040d7e",
+"Pangunahing isyu ang gastos sa pamumuhay para sa 56% ng mga botante sa BC, ayon sa isang survey ng Ipsos. Ang minimum wage ay $18.25 kada oras at tumataas kasabay ng inflation bawat taon. Noong 2025, itinigil muna ng gobyerno ng NDP ang grocery rebate na $1,000, at noong 2026 itinaas nito ang pinakamababang rate ng income tax. Mahirap ikumpara ang halaga ng mga plano ng mga partido. Tinataya ng mga Conservative ang gastos ng kanilang bawas sa buwis sa $2.9 bilyon kada taon; walang inilathalang gastos ang mga bawas sa buwis ng OneBC. Tinataya ng mga Green ang gastos ng kanilang mga programa sa $9.28 bilyon kada taon pero hindi nila inilathala kung paano nila tinantya ang kikitain sa kanilang buwis sa yaman, at ang mga numero ng gastos ng CentreBC at ng mga Conservative ay sarili nila, hindi sinuri ng iba."
 ],
 "questions/q_cost_of_living/context/5": [
 "9da9e5bc8d",
@@ -1168,12 +1168,12 @@
 "Hahayaan ng partidong ito na kumita ang mga tao nang mas malaki bago magbayad ng income tax, at nangangako itong walang bagong buwis."
 ],
 "questions/q_cost_of_living/party_positions/conservative/text/3": [
-"c76475dce1",
-"Nangangako ang mga Conservative na itaas sa $32,000 ang halagang walang buwis (mga $1,000 kada taon), walang bagong buwis habang sila ang nasa gobyerno, at alisin ang provincial sales tax sa alak na gawa sa Canada hanggang matapos ang alitan sa kalakalan. Walang inilathalang gastos ang plano at wala itong naibibigay sa mga taong hindi nagbabayad ng provincial income tax. Babawiin din nila ang pagtaas noong 2026 ng interes sa property tax na ipinagpaliban ng mga may-ari ng bahay na 55 taong gulang pataas."
+"a83d72e781",
+"Nangangako ang mga Conservative na itaas sa $32,000 ang halagang walang buwis (mga $1,000 kada taon), walang bagong buwis habang sila ang nasa gobyerno, at alisin ang provincial sales tax sa alak na gawa sa Canada hanggang matapos ang alitan sa kalakalan. Tinataya ng plataporma ng partido noong Oktubre 18 ang gastos sa $2.9 bilyon kada taon. Wala itong naibibigay sa mga taong hindi nagbabayad ng provincial income tax. Babawiin din nila ang pagtaas noong 2026 ng interes sa property tax na ipinagpaliban ng mga may-ari ng bahay na 55 taong gulang pataas."
 ],
 "questions/q_cost_of_living/party_positions/conservative/text/5": [
-"4669328702",
-"Itataas ng mga Conservative ang basic personal amount mula $13,216 hanggang $32,000, na ayon sa partido ay katumbas ng mga $1,000 kada taon; pareho ang matitipid ng lahat ng kumikita nang lampas sa mga $40,000. Ito ay non-refundable na credit, kaya walang makukuha ang mga taong walang buwis na kailangang bayaran. Walang inilathalang kuwenta ng gastos ang partido para rito; tinatawag ito ng isang kandidato ng NDP na $2.5 bilyong butas, at tinataya ng ekonomistang si Ross Hickey na mga $2 bilyon kada taon. Nangangako ito na hindi magpapataw ng bago o mas mataas na buwis habang nasa gobyerno, aalisin ang PST sa beer, wine at spirits na gawa sa Canada hanggang matapos ang alitan sa kalakalan, at magbibigay ng tatlong taong exemption sa PST para sa makinarya, kagamitan at software ng negosyo. Babawiin nito ang pagbabago noong 2026 sa Property Tax Deferment Program, na naglipat sa mga buwis na ipinagpaliban simula 2026 mula sa simple interest na prime rate bawas 2% patungo sa prime rate dagdag 2%, na kino-compound buwan-buwan. Bumoto ito laban sa panukalang batas noong 2026 (Bill 2) na nagtaas sa pinakamababang rate."
+"d0c0d14e73",
+"Itataas ng mga Conservative ang basic personal amount mula $13,216 hanggang $32,000, na ayon sa partido ay katumbas ng mga $1,000 kada taon; pareho ang matitipid ng lahat ng kumikita nang lampas sa mga $40,000. Ito ay non-refundable na credit, kaya walang makukuha ang mga taong walang buwis na kailangang bayaran. Tinataya ng plataporma ng partido noong Oktubre 18 ang gastos nito sa $2.9 bilyon kada taon simula sa 2027 tax year (tinantya dati ng ekonomistang si Ross Hickey na mga $2 bilyon). Nangangako rin ang plataporma ng mas mataas na bayad mula sa BC Family Benefit at Affordable Child Care Benefit at ng batas na nagbabawal sa singil ng TransLink sa pagmamay-ari o pagpaparehistro ng sasakyan. Nangangako ito na hindi magpapataw ng bago o mas mataas na buwis habang nasa gobyerno, walang PST sa beer, wine at spirits na gawa sa Canada hanggang matapos ang alitan sa kalakalan, at tatlong taong exemption sa PST para sa makinarya, kagamitan at software ng negosyo. Babawiin nito ang pagbabago noong 2026 sa Property Tax Deferment Program, na naglipat sa mga buwis na ipinagpaliban simula 2026 mula sa simple interest na prime rate bawas 2% patungo sa prime rate dagdag 2%, na kino-compound buwan-buwan. Bumoto ito laban sa panukalang batas noong 2026 (Bill 2) na nagtaas sa pinakamababang rate."
 ],
 "questions/q_cost_of_living/party_positions/green/text/1": [
 "88225a2b3e",
@@ -1368,12 +1368,12 @@
 "Gusto ng partidong ito ng matibay na deadline para sa malalaking proyekto at mas malaking boses para sa mga lungsod, bayan at pamilya."
 ],
 "questions/q_democracy_power/party_positions/conservative/text/3": [
-"50efec0456",
-"Bumoto ang mga Conservative laban sa mga batas ng NDP sa mabilisang pag-apruba at taripa at tinawag ang batas sa taripa na 'hindi demokratiko', pero nangangako sila ng sarili nilang batas na 120 araw para sa pag-apruba ng permit at patakarang mag-alis ng dalawang regulasyon sa bawat bago. Ibabalik nila ang Metro Vancouver sa tubig at sewer lamang. Wala silang panukala sa sistema ng pagboto."
+"2b84537bb3",
+"Bumoto ang mga Conservative laban sa mga batas ng NDP sa mabilisang pag-apruba at taripa at tinawag ang batas sa taripa na 'hindi demokratiko', pero nangangako sila ng sarili nilang batas na 120 araw para sa pag-apruba ng permit at patakarang mag-alis ng dalawang regulasyon sa bawat bago. Ibabalik nila ang Metro Vancouver sa tubig at sewer lamang. Wala silang panukala sa sistema ng pagboto. Nagdaragdag ang kanilang plataporma noong Oktubre 18 ng pampublikong ulat bawat quarter tungkol sa mga target sa depisit at ng batas na naglalayo sa halalan ng probinsya mula sa halalang munisipal."
 ],
 "questions/q_democracy_power/party_positions/conservative/text/5": [
-"989c9a35f8",
-"Bumoto ang mga Conservative laban sa Bills 7, 14 at 15. Tinawag ng partido ang Bill 7 na 'ang pinaka-hindi demokratiko at mapang-agaw ng kapangyarihang batas sa kasaysayan', at sinabi ni Rustad na binigyan nito ang gabinete ng 'halos walang limitasyong kapangyarihan nang walang anumang pagbabantay'. Nangangako ang partido ng 120 Day Permitting Act para sa mga proyektong higit sa $250 milyon, batas sa regulasyon na one-in, two-out, at pagbabalik sa Metro Vancouver sa inuming tubig at paglilinis ng dumi sa alkantarilya lamang. Noong 2024, nangako ito ng pag-apruba ng mga botante para sa anumang bagong buwis, pero hindi nito ito inulit."
+"f9c956d493",
+"Bumoto ang mga Conservative laban sa Bills 7, 14 at 15. Tinawag ng partido ang Bill 7 na 'ang pinaka-hindi demokratiko at mapang-agaw ng kapangyarihang batas sa kasaysayan', at sinabi ni Rustad na binigyan nito ang gabinete ng 'halos walang limitasyong kapangyarihan nang walang anumang pagbabantay'. Nangangako ang partido ng 120 Day Permitting Act para sa mga proyektong higit sa $250 milyon, batas sa regulasyon na one-in, two-out, at pagbabalik sa Metro Vancouver sa inuming tubig at paglilinis ng dumi sa alkantarilya lamang. Noong 2024, nangako ito ng pag-apruba ng mga botante para sa anumang bagong buwis, pero hindi nito ito inulit. Nagdaragdag ang plataporma noong Oktubre 18 ng matatag na takdang panahon sa batas para sa pag-apruba ng proyekto, pagsusuri ng isang independiyenteng panel sa 'tunay na kalagayan ng pananalapi' ng gobyerno, apat na fiscal anchor na iuulat bawat quarter, paglalathala ng mga claim sa titulo at mga kasunduan bago maging may bisa ang mga ito, at isang Respect Local Democracy Act na nagbabawal sa halalan ng probinsya sa loob ng 60 araw ng halalang munisipal."
 ],
 "questions/q_democracy_power/party_positions/green/text/1": [
 "1ea2919c66",
@@ -1472,24 +1472,24 @@
 "Ibasura ang DRIPA at ang section 8.1 ng Interpretation Act, ideklarang walang bisa sa BC ang UNDRIP, i-freeze ang boluntaryong paglilipat, at ibasura ang Indian Act."
 ],
 "questions/q_dripa/options/b/text/1": [
-"350f2aecf9",
-"Tapusin ang batas, pero patuloy na makipagtulungan sa First Nations sa mga proyekto at trabaho."
+"fc74a151a1",
+"Tapusin ang batas, protektahan ang titulo ng lupa ng mga tao, at makipagtulungan sa First Nations sa mga proyekto at trabaho."
 ],
 "questions/q_dripa/options/b/text/2": [
-"76f06f357b",
-"Kanselahin ang batas, pero patuloy na gumawa ng mga kasunduan sa proyekto kasama ang First Nations na lumilikha ng trabaho."
+"0c0413f0b8",
+"Kanselahin ang batas, protektahan sa batas ang titulo ng pribadong lupa, ilathala nang maaga ang mga claim sa lupa, at gumawa ng mga kasunduan sa proyekto kasama ang First Nations."
 ],
 "questions/q_dripa/options/b/text/3": [
-"db7d9b91fb",
-"Ibasura ang batas at umasa na lang sa pakikipagtulungan sa proyekto kasama ang First Nations, nang walang bagong batas na papalit dito."
+"79afb2b5fd",
+"Ibasura ang batas at ang isang kaugnay na patakaran kung paano binabasa ang ibang batas, protektahan sa batas ang titulo ng pribadong lupa, ilathala ang mga claim sa titulo at mga kasunduan bago maging may bisa ang mga ito, at umasa sa pakikipagtulungan sa proyekto kasama ang First Nations."
 ],
 "questions/q_dripa/options/b/text/4": [
-"64780e6118",
-"Ibasura ang DRIPA, ituloy ang economic reconciliation sa pamamagitan ng pakikipagtulungan sa proyekto kasama ang First Nations, at huwag magpasa ng kapalit na batas."
+"24da3045c3",
+"Ibasura ang DRIPA at ang section 8.1 ng Interpretation Act, magpasa ng mga batas na nagpoprotekta sa mga fee-simple na titulo (buong pribadong pagmamay-ari ng lupa) at naglalathala ng mga claim sa titulo at mga kasunduan bago maging may bisa ang mga ito, at ituloy ang economic reconciliation sa pamamagitan ng pakikipagtulungan sa mga proyekto."
 ],
 "questions/q_dripa/options/b/text/5": [
-"00c16cb391",
-"Ibasura ang DRIPA at ituloy ang economic reconciliation sa pamamagitan ng pagtatayo ng mga proyekto kasama ang First Nations, nang walang kapalit na batas, habang nagpapatuloy ang mga tungkulin sa ilalim ng section 35."
+"bbf2395da2",
+"Ibasura ang DRIPA at ang section 8.1 ng Interpretation Act, magpasa ng Property Rights Defence Act at ng Aboriginal Title Transparency Act na naglalathala ng mga claim at kasunduan bago maging may bisa ang mga ito, at ituloy ang economic reconciliation sa pamamagitan ng mga proyekto kasama ang First Nations sa ilalim ng section 35."
 ],
 "questions/q_dripa/options/c/text/1": [
 "64ab8cdf1d",
@@ -1564,16 +1564,16 @@
 "Ibabasura ng isang panukalang batas sa unang sesyon ang DRIPA at ang section 8.1 ng Interpretation Act at magpapasa ng batas na batay sa mga kasunduan (treaty), na may $30 milyon kada taon para sa pag-uusap tungkol sa treaty at sa magkakapatong na pag-angkin sa teritoryo, at isang taunang ulat tungkol sa treaty. Ang UNDRIP ay magiging 'gabay', at mananatili ang section 35 at ang tungkuling kumonsulta. Makakatanggap ang mga may-ari ng bahay ng kompensasyon hanggang sa tinasang halaga matapos ang mga desisyon sa Aboriginal title, at walang kasunduan sa pribadong lupa hangga't hindi natatapos ang mga apela sa Cowichan. Ilalathala ang mga kasunduan 60 araw bago pirmahan. Noong Agosto 13, tinanggihan ng partido ang pagbasura bilang 'political messaging', kahit bumoto si Sturko pabor sa unang pagbasa ng mga panukalang batas na magbabasura sa DRIPA noong Nobyembre 2025 at Abril 2026."
 ],
 "questions/q_dripa/party_positions/conservative/text/1": [
-"cd91f1949f",
-"Gusto ng partidong ito na tapusin ang batas at makipagtulungan na lang sa First Nations sa mga proyektong pangnegosyo."
+"0390c86b33",
+"Gusto ng partidong ito na tapusin ang batas, protektahan ang titulo ng lupa ng mga tao, at makipagtulungan sa First Nations sa mga proyektong pangnegosyo."
 ],
 "questions/q_dripa/party_positions/conservative/text/3": [
-"d1ddc2aa0f",
-"Sinasabi ng pansamantalang lider na si Lorne Doerkson, 'Ibabasura ko ang DRIPA.' Sinasabi ng partido na gusto nitong magtayo ng mga proyekto kasama ang First Nations sa halip nito, at wala itong pinangangalanang kapalit na batas. Bumoto ang mga miyembro nito noong 2025 at 2026 para ihain ang mga panukalang batas na magbabasura sa batas; parehong natalo ang mga ito. Marami sa kanila ay dating BC Liberal na bumoto pabor sa batas noong 2019."
+"da7780793d",
+"Ibabasura ng plataporma ng mga Conservative ang DRIPA at ang isang kaugnay na patakaran sa Interpretation Act, magpapasa ng batas na nagpoprotekta sa titulo ng pribadong lupa at ng isa pang batas na naglalathala ng mga claim sa titulo at mga kasunduan bago maging may bisa ang mga ito, at magtatayo ng mga proyekto kasama ang First Nations. Bumoto ang mga miyembro nito noong 2025 at 2026 para ihain ang mga panukalang batas na magbabasura sa batas; parehong natalo ang mga ito. Marami sa kanila ay dating BC Liberal na bumoto pabor sa batas noong 2019."
 ],
 "questions/q_dripa/party_positions/conservative/text/5": [
-"03e07552e2",
-"Ang pahina ng plano ng mga Conservative na 'Repeal DRIPA, Promote Economic Reconciliation' (Oktubre 7) ay nangangako ng pagbasura, at sinasabi ni Doerkson na gusto niyang magtayo ng mga proyekto 'kasama ang First Nations'. Wala itong pinangangalanang kapalit na batas at walang posisyon sa mga kasunduan sa ilalim ng section 7 o sa pribadong ari-arian. Bumoto ang mga MLA nito, kasama sina Rustad, Doerkson at Halford, pabor sa unang pagbasa ng panukalang batas ng independiyenteng MLA na si Jordan Kealy na magbabasura sa DRIPA (natalo, 43 laban sa 48, Nobyembre 2025) at sa sariling panukalang batas ni Halford para sa pagbasura (natalo, 44 laban sa 47, Abril 2026). Noong 2019, bumoto si Rustad at iba pang BC Liberal pabor sa Bill 41, na pumasa sa botong 82 laban sa 0; sinasabi ni Rustad na 'wala siyang pagpipilian'. Nangako rin siya ng pagbasura noong 2024."
+"c2f8699e46",
+"Ibabasura ng plataporma ng mga Conservative noong Oktubre 18 ang DRIPA, ang section 8.1 ng Interpretation Act at ang mga litigation directive (direktiba sa paglilitis) ng NDP, at 'ibabalik ang balangkas ng konstitusyon sa ilalim ng section 35'. Nagdaragdag ito ng Property Rights Defence Act na nagpapatibay sa Land Title Act sa lahat ng fee-simple na lupa, ng Aboriginal Title Transparency Act na naglalathala ng mga claim, negosasyon at kasunduan 'bago maging may bisa ang mga ito', at ng garantisadong pampublikong access sa Crown land, mga beach at backcountry. Nangangako ito ng pagbabahagi ng kita at pagmamay-ari sa mga proyekto kasama ang First Nations. Wala itong pinangangalanang batas sa kasunduan (treaty) o kabayaran sa mga may-ari ng bahay. Bumoto ang mga MLA nito, kasama sina Rustad, Doerkson at Halford, pabor sa unang pagbasa ng panukalang batas ng independiyenteng MLA na si Jordan Kealy na magbabasura sa DRIPA (natalo, 43 laban sa 48, Nobyembre 2025) at sa sariling panukalang batas ni Halford para sa pagbasura (natalo, 44 laban sa 47, Abril 2026). Noong 2019, bumoto si Rustad at iba pang BC Liberal pabor sa Bill 41, na pumasa sa botong 82 laban sa 0; sinasabi ni Rustad na 'wala siyang pagpipilian'. Nangako rin siya ng pagbasura noong 2024."
 ],
 "questions/q_dripa/party_positions/green/text/1": [
 "2b58ab9a9b",
@@ -1768,12 +1768,12 @@
 "Tatapusin ng partidong ito ang inireresetang kapalit na droga, oobligahing magpagamot ang mga taong may malubhang adiksyon, at ipagbabawal ang paggamit ng droga sa mga shelter."
 ],
 "questions/q_drugs/party_positions/conservative/text/3": [
-"6baf279123",
-"Tatapusin ng plano ng mga Conservative ang safer supply, aamyendahan ang Mental Health Act para masimulan ng pulis ang sapilitang paggamot, at ipagbabawal ang paggamit ng droga sa mga ospital, shelter at supportive housing. Tahimik ito tungkol sa mga supervised site; nangako ang plataporma noong 2024 na isasara ang mga ito."
+"6aa8848683",
+"Tatapusin ng plano ng mga Conservative ang safer supply, aamyendahan ang Mental Health Act para masimulan ng pulis ang sapilitang paggamot, at ipagbabawal ang paggamit ng droga sa mga ospital, shelter at supportive housing. Susuriin ng plataporma nito noong Oktubre 18 ang mga supervised site para magkaroon ng mas kaunti at mas maayos ang lokasyon; nangako ang plataporma noong 2024 na isasara ang mga ito."
 ],
 "questions/q_drugs/party_positions/conservative/text/5": [
-"0e70c9887b",
-"Tatapusin ng Safe Streets for BC (Oktubre 2026) ang 'safe supply', magpapatupad ng compassionate intervention, aamyendahan ang Mental Health Act para sa sapilitang paggamot na konektado sa opisyal, ipagbabawal ang paggamit ng droga sa mga ospital, shelter at supportive housing, at magdadagdag ng residential treatment. Nangako ang plataporma noong 2024 na isasara ang lahat ng consumption site. Bumoto ang partido laban sa Bill 32 ng NDP, ang Mental Health Amendment Act (No. 2), 2025, na pumasa sa botong 45 laban sa 41. Hindi pa nito sinasabi ang gastos o bilang ng kama."
+"7a99532863",
+"Tatapusin ng Safe Streets for BC (Oktubre 2026) ang 'safe supply', magpapatupad ng compassionate intervention, aamyendahan ang Mental Health Act para sa sapilitang paggamot na konektado sa opisyal, ipagbabawal ang paggamit ng droga sa mga ospital, shelter at supportive housing, at magdadagdag ng residential treatment. Nangako ang plataporma noong 2024 na isasara ang lahat ng consumption site. Bumoto ang partido laban sa Bill 32 ng NDP, ang Mental Health Amendment Act (No. 2), 2025, na pumasa sa botong 45 laban sa 41. Nagdaragdag ang plataporma noong Oktubre 18 ng pagsusuri sa mga overdose prevention site at consumption site na naglalayon ng 'mas kaunti at mas maayos ang lokasyong mga opsyon' na humahantong sa paggamot, mas maraming drug court at paggamot kapag kailangan (treatment on demand); tinataya nito ang gastos ng paggamot at paggaling sa $95 milyon kada taon at walang ibinibigay na bilang ng kama."
 ],
 "questions/q_drugs/party_positions/green/text/1": [
 "e8c5817c48",
@@ -1968,12 +1968,12 @@
 "Magbebenta ang partidong ito ng mas marami pang natural gas sa ibang bansa at aaprubahan nang mas mabilis ang malalaking proyekto na may mas kaunting patakaran."
 ],
 "questions/q_economy_tariffs/party_positions/conservative/text/3": [
-"2b9a3e73b9",
-"Dodoblehin ng mga Conservative ang produksyon ng gas, aaprubahan ang mga proyektong higit sa $250 milyon sa loob ng 120 araw, babawasan ang red tape at ihihinto muna ang provincial sales tax sa kagamitan ng negosyo. Bumoto sila laban sa mga batas ng NDP sa pagpapabilis pero nagmumungkahi ng sarili nila. Wala silang plano sa forestry."
+"380c4db921",
+"Dodoblehin ng mga Conservative ang produksyon ng gas, aaprubahan ang mga proyektong higit sa $250 milyon sa loob ng 120 araw, babawasan ang red tape at ihihinto muna ang provincial sales tax sa kagamitan ng negosyo. Bumoto sila laban sa mga batas ng NDP sa pagpapabilis pero nagmumungkahi ng sarili nila. Nagdaragdag ang kanilang plataporma noong Oktubre 18 ng $5,000 na payroll credit para sa unang trabaho, pinakamababang ani ng troso na 45 milyong cubic metre, mas mabilis na permit sa forestry at isang kinatawan ng BC sa Washington."
 ],
 "questions/q_economy_tariffs/party_positions/conservative/text/5": [
-"5f725b0546",
-"Ang plano noong Setyembre 29, 2026 ay higit sa dodoblehin ang produksyon ng natural gas pagsapit ng 2032 at gagawin itong higit sa tatlong beses pagsapit ng 2035. Sasaklawin ng isang 120 Day Permitting Act ang mga proyektong higit sa $250 milyon. Ibabalik ang red tape sa antas ng 2017 pagsapit ng katapusan ng unang termino sa ilalim ng batas na one-in, two-out, at ililibre sa provincial sales tax ang makinarya, kagamitan at software ng negosyo sa loob ng tatlong taon. Noong Oktubre 10, nagmungkahi ito ng First Job Tax Credit para sa mga negosyong kumukuha ng kabataan, nang walang nakasaad na halaga. Tinatanggap ng partido ang Pacific Link pipeline. Bumoto ito laban sa Bills 7, 14 at 15, at tinawag ang Bill 7 na 'ang pinaka-hindi demokratiko at mapang-agaw ng kapangyarihang batas sa kasaysayan'."
+"e167bed7d8",
+"Ang plano noong Setyembre 29, 2026 ay higit sa dodoblehin ang produksyon ng natural gas pagsapit ng 2032 at gagawin itong higit sa tatlong beses pagsapit ng 2035. Sasaklawin ng isang 120 Day Permitting Act ang mga proyektong higit sa $250 milyon. Ibabalik ang red tape sa antas ng 2017 pagsapit ng katapusan ng unang termino sa ilalim ng batas na one-in, two-out, at ililibre sa provincial sales tax ang makinarya, kagamitan at software ng negosyo sa loob ng tatlong taon. Noong Oktubre 10, nagmungkahi ito ng First Job Tax Credit para sa mga negosyong kumukuha ng kabataan; itinatakda ito ng plataporma noong Oktubre 18 sa unang $5,000 ng payroll ($75 milyon kada taon simula 2028-29). Nagtatakda rin ang plataporma ng pinakamababang ani ng troso na 45 milyong cubic metre, pinahahaba ang BC Manufacturing Jobs Fund, at gagawing 'nangungunang' prayoridad ang softwood lumber sa pakikipag-usap sa United States, magtatalaga ng kinatawan ng BC sa Washington, uunahin ang kahoy ng BC at bakal ng Canada sa mga pampublikong proyekto, at ibabasura ang CleanBC. Tinatanggap ng partido ang Pacific Link pipeline. Bumoto ito laban sa Bills 7, 14 at 15, at tinawag ang Bill 7 na 'ang pinaka-hindi demokratiko at mapang-agaw ng kapangyarihang batas sa kasaysayan'."
 ],
 "questions/q_economy_tariffs/party_positions/green/text/1": [
 "1f8508fe07",
@@ -2040,16 +2040,16 @@
 "Puwedeng kasinlaki ng upa ang gastos ng mga pamilya sa child care. Mga isa sa bawat sampung lisensyadong espasyo ang nagkakahalaga ng $10 kada araw, at itinigil muna ng probinsya ang mga bagong espasyo sa child care na $10 kada araw sa loob ng tatlong taon para makatipid. Umaasa pa rin ang ilang mabilis lumaking school district sa mga portable na silid-aralan. Hindi nagkakasundo ang mga partido kung palalawakin ang child care, itutuon ang mga paaralan sa mga batayan, o pipigilan ang gastos."
 ],
 "questions/q_education_childcare/context/3": [
-"63b9d1a485",
-"Mga 10% ng lisensyadong espasyo sa child care ang nagkakahalaga ng $10 kada araw. Noong 2026, itinigil muna ng gobyerno ng NDP ang mga bagong espasyo na $10 kada araw sa loob ng tatlong taon. Gumagamit pa rin ng maraming portable na silid-aralan ang ilang mabilis lumaking school district. Gusto ng mga Green ng libreng child care pagsapit ng 2031 at gusto ng CentreBC ng 20,000 dagdag na espasyo na $10 kada araw. Noong Oktubre, nangako ang NDP ng mas maraming espasyo at limitasyon sa bayarin, gamit ang pederal na pera. Nakatuon ang mga Conservative at OneBC sa pagsusulit, grado at mga batayan."
+"a47215860b",
+"Mga 10% ng lisensyadong espasyo sa child care ang nagkakahalaga ng $10 kada araw. Noong 2026, itinigil muna ng gobyerno ng NDP ang mga bagong espasyo na $10 kada araw sa loob ng tatlong taon. Gumagamit pa rin ng maraming portable na silid-aralan ang ilang mabilis lumaking school district. Gusto ng mga Green ng libreng child care pagsapit ng 2031 at gusto ng CentreBC ng 20,000 dagdag na espasyo na $10 kada araw. Noong Oktubre, nangako ang NDP ng mas maraming espasyo at limitasyon sa bayarin, gamit ang pederal na pera. Nakatuon ang mga Conservative at OneBC sa pagsusulit, grado at mga batayan; nagdaragdag ang mga Conservative ng mas mataas na family benefit at ilang nakatutok na espasyo."
 ],
 "questions/q_education_childcare/context/4": [
 "d6213bc0c6",
 "Mga 10% ng lisensyadong espasyo sa child care ang nagkakahalaga ng $10 kada araw. Noong Pebrero 2026, itinigil muna ng gobyerno ng NDP ang bagong enrolment na $10 kada araw sa loob ng tatlong taon para ayusin ang modelo ng pagpopondo ng programa. Tumutulong pa rin ang Affordable Child Care Benefit sa mga pamilyang may kita na hanggang $111,000. Gumagamit pa rin ng portable na silid-aralan ang mga mabilis lumaking school district."
 ],
 "questions/q_education_childcare/context/5": [
-"ad9f1e2b04",
-"Naka-freeze ang bagong enrolment na $10 kada araw mula Pebrero 2026 (iniulat bilang tatlong taong freeze), at nagdadagdag ang Budget 2026 ng $330 milyon sa loob ng tatlong taon para sa child care. Mahigit 16,000 ang ganitong espasyo noong Marso 2025, laban sa target na 20,000. Nagpapatuloy ang Affordable Child Care Benefit para sa mga pamilyang may kita na hanggang $111,000. Nagpaplano ang Budget 2026 ng $3.9 bilyon sa loob ng tatlong taon para magtayo, mag-renovate at mag-seismic upgrade ng mga paaralan. Noong Oktubre 17, nangako ang NDP ng $80 milyon para sa mga espasyo bago at pagkatapos ng klase sa mga paaralan at $250 milyon para sa muling pinag-usapang kasunduan ng Canada-BC sa child care. Tinataya ng plataporma ng mga Green noong Oktubre 13 ang gastos sa child care sa $260 milyon kada taon, hindi kasama ang kapital para sa mga bagong center, at sa edukasyon sa $587 milyon kada taon. Tinataya ng CentreBC ang plano nito sa edukasyon sa mga $2.0 bilyon dagdag ang $750 milyong capital sa loob ng apat na taon, at pinopondohan ang child care mula sa pederal na pera, ayon sa sariling numero ng partido."
+"868768a439",
+"Naka-freeze ang bagong enrolment na $10 kada araw mula Pebrero 2026 (iniulat bilang tatlong taong freeze), at nagdadagdag ang Budget 2026 ng $330 milyon sa loob ng tatlong taon para sa child care. Mahigit 16,000 ang ganitong espasyo noong Marso 2025, laban sa target na 20,000. Nagpapatuloy ang Affordable Child Care Benefit para sa mga pamilyang may kita na hanggang $111,000. Nagpaplano ang Budget 2026 ng $3.9 bilyon sa loob ng tatlong taon para magtayo, mag-renovate at mag-seismic upgrade ng mga paaralan. Noong Oktubre 17, nangako ang NDP ng $80 milyon para sa mga espasyo bago at pagkatapos ng klase sa mga paaralan at $250 milyon para sa muling pinag-usapang kasunduan ng Canada-BC sa child care. Tinataya ng plataporma ng mga Conservative noong Oktubre 18 ang gastos ng mga hakbang nito para sa pamilya at child care sa $150 milyon kada taon. Tinataya ng plataporma ng mga Green noong Oktubre 13 ang gastos sa child care sa $260 milyon kada taon, hindi kasama ang kapital para sa mga bagong center, at sa edukasyon sa $587 milyon kada taon. Tinataya ng CentreBC ang plano nito sa edukasyon sa mga $2.0 bilyon dagdag ang $750 milyong capital sa loob ng apat na taon, at pinopondohan ang child care mula sa pederal na pera, ayon sa sariling numero ng partido."
 ],
 "questions/q_education_childcare/options/a/text/1": [
 "895ead171e",
@@ -2072,24 +2072,24 @@
 "Magpatupad ng standardized na pagsusulit ng probinsya na nakatuon sa pagbasa, pagsulat at matematika, ng Parental Bill of Rights na gumagarantiya ng informed consent at transparency sa silid-aralan, at walang pagpapalawak ng ChildCareBC."
 ],
 "questions/q_education_childcare/options/b/text/1": [
-"e06dd2582f",
-"Ituon sa pagbasa at math, ibalik ang mga exam, at huwag palawakin ang child care."
+"cea1bad4f8",
+"Ituon sa pagbasa at math, ibalik ang grado at mga exam, at magdagdag lang ng kaunting tulong para sa child care."
 ],
 "questions/q_education_childcare/options/b/text/2": [
-"90e79ddea8",
-"Ituon sa pagbasa at math, ibalik ang letter grade at mga exam ng probinsya, at huwag palawakin ang child care."
+"ea8bf82af2",
+"Ituon sa pagbasa at math, ibalik ang letter grade at mga exam ng probinsya, at panatilihing maliit at nakatutok ang tulong sa child care."
 ],
 "questions/q_education_childcare/options/b/text/3": [
-"34c51d7693",
-"Unahin ang mga batayan sa pagbabalik ng letter grade at mga exam ng probinsya, nang walang pagpapalawak ng child care."
+"726d0b6312",
+"Unahin ang mga batayan sa pagbabalik ng letter grade, mga exam ng probinsya at shop class, at panatilihing maliit ang tulong sa child care: mas mataas na family benefit at ilang espasyo na $10 kada araw para sa mga pamilyang pinakanangangailangan."
 ],
 "questions/q_education_childcare/options/b/text/4": [
-"cd18f15336",
-"Unahin ang literacy at numeracy (kakayahan sa pagbasa, pagsulat at paggamit ng mga numero), ibalik ang letter grade sa Grades 4 hanggang 9 at mga exam ng probinsya sa Grades 10 at 12, nang walang pagpapalawak ng child care."
+"88e3146120",
+"Unahin ang literacy at numeracy, ibalik ang letter grade sa Grades 4 hanggang 9 at ang mga exam ng probinsya, ibalik ang shop class, at limitahan ang child care sa mas mataas na benefit, mga 24-oras na espasyo at prayoridad na espasyo na $10 kada araw para sa mga pamilyang pinakanangangailangan."
 ],
 "questions/q_education_childcare/options/b/text/5": [
-"ef4d69df28",
-"Tumutok sa literacy at numeracy, ibalik ang letter grade sa Grades 4 hanggang 9 at mga exam ng probinsya sa Grades 10 at 12, walang bagong buwis, at walang pangako sa child care."
+"86eef6034e",
+"Tumutok sa literacy at numeracy, ibalik ang letter grade sa Grades 4 hanggang 9 at ang mga exam ng probinsya, ibalik ang shop class, huwag magpataw ng bagong buwis, at panatilihing maliit ang gastos sa child care ($150 milyon kada taon para sa mga hakbang para sa pamilya): mas mataas na family benefit, mga 24-oras na espasyo, at mga espasyo na $10 kada araw para sa mga pamilyang pinakanangangailangan habang lumalaki ang programa."
 ],
 "questions/q_education_childcare/options/c/text/1": [
 "2ddc4b24a9",
@@ -2164,16 +2164,16 @@
 "Nagdadagdag ang plataporma ng 20,000 espasyo na $10 kada araw pagsapit ng 2030, na may pederal na pondong 'nakasiguro hanggang 2031', at 25,000 puwesto sa paaralan pagsapit ng 2031 gamit ang mga prefab na dagdag na gusali at $750 milyong capital. Pinapanatili at pinopondohan nito ang limitasyon sa laki ng klase, lilipat sa isang counsellor kada 400 estudyante pagsapit ng 2030, nagdadagdag ng 1,500 education assistant, nagpapatupad ng letter grade para sa Grades 4 hanggang 9 simula Setyembre 2028, naglalathala ng resulta ng pagsusulit kada paaralan, nililimitahan ang pagtaas ng tuition sa 2% at nagtatakda ng pamantayan sa artificial intelligence sa paaralan sa 2027. Nagkakahalaga ang edukasyon ng mga $2.0 bilyon sa loob ng apat na taon (numero ng partido)."
 ],
 "questions/q_education_childcare/party_positions/conservative/text/1": [
-"836d2851b4",
-"Gusto ng partidong ito na alisin ang isang materyal sa paaralan tungkol sa pagkakakilanlang pangkasarian, at noong 2024, nangako ito ng letter grade at mga exam. Wala itong pangako sa child care."
+"a4b841085b",
+"Gusto ng partidong ito na ibalik ang letter grade, mga exam at shop class. Bibigyan nito ang mga pamilya ng kaunting dagdag na pera para sa child care at ilang bagong espasyo."
 ],
 "questions/q_education_childcare/party_positions/conservative/text/3": [
-"aaf2709cf0",
-"Nananawagan ang pahinang Safe Schools ng mga Conservative sa 2026 na ibasura ang SOGI 123, nang walang pangako sa child care o pagpapatayo ng paaralan. Nangako sila ng letter grade at mga exam ng probinsya noong 2024 pero hindi nila ito inulit. Nililimitahan ng kanilang pangakong walang bagong buwis ang bagong gastos."
+"0c377c67ea",
+"Ibabalik ng plataporma ng mga Conservative ang letter grade at mga exam ng probinsya, ibabalik ang shop class at ibabasura ang SOGI 123. Sa child care, nangangako ito ng mas mataas na family benefit, mga 24-oras na espasyo at mga espasyo na $10 kada araw para sa mga pamilyang pinakanangangailangan habang lumalaki ang programa, sa halagang $150 milyon kada taon, nang walang target sa bilang ng espasyo."
 ],
 "questions/q_education_childcare/party_positions/conservative/text/5": [
-"3e4d121484",
-"Ibabasura ng pahinang Safe Schools sa 2026 ang SOGI 123, isang resource sa pagtuturo tungkol sa oryentasyong sekswal at pagkakakilanlang pangkasarian. Wala itong pangako sa child care, pagpapatayo ng paaralan o post-secondary. Nangako ang plataporma noong 2024 ng letter grade sa Grades 4 hanggang 9 at mga exam ng probinsya sa Grades 10 at 12. Ipinahihiwatig ng pangakong walang bagong buwis na pananatilihin o babawasan ang capital sa paaralan. Binibigyan ng quiz na ito ng iskor ang partido bilang nakatuon sa grade at exam, na may mababang kumpiyansa sa child care."
+"83d29f3239",
+"Ibabalik ng plataporma ng mga Conservative noong Oktubre 18 ang letter grade para sa Grades 4 hanggang 9 at ang 'pare-pareho, may bantay at batay sa curriculum na mga exam ng probinsya', tututok sa literacy at matematika, ibabalik ang shop class, lilimitahan pa ang paggamit ng telepono, bibigyan ang mga magulang ng access sa curriculum at karapatang mag-opt out, ibabasura ang SOGI 123, palalawakin ang pagkain sa paaralan sa mga komunidad na lubhang nangangailangan at mag-aalok ng refundable na activity credit na hanggang $500 bawat bata. Sa child care, babawasan nito ang mga patakarang nagpapaantala sa mga bagong espasyo, gagawing kwalipikado ang mga independiyenteng provider para sa mga bagong espasyo na $10 kada araw 'habang lumalawak ang programa', ibibigay muna ang mga espasyong iyon sa mga pamilyang pinakanangangailangan, lilikha ng mga 24-oras na espasyo para sa mga shift worker, itataas ang BC Family Benefit at ang Affordable Child Care Benefit, at tutumbasan ang pederal na multigenerational home renovation credit, sa halagang $150 milyon kada taon sa buong halaga. Wala itong target sa bilang ng espasyo at walang plano sa capital ng paaralan maliban sa mga pasilidad para sa shop class sa mga bagong paaralan."
 ],
 "questions/q_education_childcare/party_positions/green/text/1": [
 "4ef3cce8c5",
@@ -2368,12 +2368,12 @@
 "Gusto ng partidong ito na manatiling libre ang pangangalaga, bukas ang mga emergency room, at mas maraming mapagpipiliang care home para sa mga pamilya."
 ],
 "questions/q_health/party_positions/conservative/text/3": [
-"81e7347c10",
-"Nangangako ang mga Conservative ng bukas na emergency room, isang $50 milyong emergency fund, isang 100-araw na komisyon sa haba ng paghihintay at walang bawas sa kasalukuyang pondo sa kalusugan. Hahayaan nilang sundan ng pondo sa long-term care at home care ang pasyente sa mga provider na hindi gobyerno. Hindi nila inulit ang kanilang plano noong 2024 para sa mga pribadong klinika."
+"0d72cdc693",
+"Nangangako ang mga Conservative ng bukas na emergency room, isang $50 milyong emergency fund, isang 100-araw na komisyon sa haba ng paghihintay at walang bawas sa kasalukuyang pondo sa kalusugan. Hahayaan nilang sundan ng pondo sa long-term care at home care ang pasyente sa mga provider na hindi gobyerno. Nagdaragdag ang kanilang plataporma noong Oktubre 18 ng garantiya ng pagpapagamot na binabayaran ng publiko mula sa ibang kwalipikadong provider kapag masyadong matagal ang paghihintay sa operasyon, at tinataya ang gastos ng plano sa kalusugan sa $975 milyon kada taon."
 ],
 "questions/q_health/party_positions/conservative/text/5": [
-"b1ae0a1036",
-"Noong Oktubre 5, nangako ang mga Conservative ng bukas na ER, isang $50 milyong emergency fund, suporta sa mga practice sa rural na lugar, isang 100-araw na komisyon na kukuha ng aral sa 'ibang pampublikong sistema' at proteksyon ng kasalukuyang pondo sa kalusugan, at tinawag ang pangangalaga na 'unibersal at pinopondohan ng publiko', kung saan 'walang ibang kailangan kundi ang kanilang health card'. Noong Oktubre 9, nangako sila ng pondo sa long-term care na puwedeng dalhin ng mga senior sa isang kwalipikadong pampubliko o hindi pang-gobyernong provider. Noong Oktubre 12, inulit ng partido ang pangako nito tungkol sa health card. Hindi nila inulit ang mga pangako noong 2024 tungkol sa pakikipagtulungan sa pribadong klinika o garantiya ng pagpapagamot sa labas ng probinsya. Bumoto sila laban sa panukalang batas ng NDP sa mental health noong 2025 (Bill 32)."
+"e3be20b985",
+"Noong Oktubre 5, nangako ang mga Conservative ng bukas na ER, isang $50 milyong emergency fund, suporta sa mga practice sa rural na lugar, isang 100-araw na komisyon na kukuha ng aral sa 'ibang pampublikong sistema' at proteksyon ng kasalukuyang pondo sa kalusugan, at tinawag ang pangangalaga na 'unibersal at pinopondohan ng publiko', kung saan 'walang ibang kailangan kundi ang kanilang health card'. Noong Oktubre 9, nangako sila ng pondo sa long-term care na puwedeng dalhin ng mga senior sa isang kwalipikadong pampubliko o hindi pang-gobyernong provider. Noong Oktubre 12, inulit ng partido ang pangako nito tungkol sa health card. Nagdaragdag ang kanilang plataporma noong Oktubre 18 ng Universal Health-Care Guarantee (pagpapagamot na pinopondohan ng publiko sa pamamagitan ng ibang kwalipikadong provider kapag lumampas sa mga benchmark ang paghihintay sa operasyon), 'aayusin' sa halip na ibabasura ang Health Professions and Occupations Act, at tinataya ang gastos ng kabanata nito sa kalusugan sa $975 milyon kada taon, kasama ang $205 milyon para sa access at pangangalaga sa rural na lugar at $350 milyon para sa seniors. Hindi nito inulit ang plano noong 2024 para sa pakikipagtulungan sa mga pribadong klinika. Bumoto sila laban sa panukalang batas ng NDP sa mental health noong 2025 (Bill 32)."
 ],
 "questions/q_health/party_positions/green/text/1": [
 "1b37db8682",
@@ -2568,12 +2568,12 @@
 "Sinasabi ng partidong ito na pinapamahal ng buwis at patakaran ang mga bahay, at gusto nitong maging mas mura ang pagpapatayo."
 ],
 "questions/q_housing/party_positions/conservative/text/3": [
-"243b1a72ff",
-"Nangangako ang mga Conservative ng mas mababang gastos sa pagpapatayo at pagbili, walang bagong buwis sa pabahay, at pag-aalis ng responsibilidad sa pabahay mula sa regional government ng Metro Vancouver. Wala silang inilabas na posisyon sa 2026 tungkol sa speculation tax o sa batas sa densidad at hindi nila inulit ang kanilang mga ideya noong 2024 tungkol sa rebate at pagbasura."
+"7f077ac56a",
+"Nangangako ang mga Conservative ng mas mababang gastos sa pagpapatayo at pagbili, walang bagong buwis sa pabahay, at pag-aalis ng responsibilidad sa pabahay mula sa regional government ng Metro Vancouver. Babaguhin din nang malawakan ng kanilang plataporma noong Oktubre 18 ang Step Code at hahayaan ang mga lungsod na magpasya kung saan ilalagay ang densidad, pero hindi nito pinangangalanan ang speculation tax o ang batas sa densidad."
 ],
 "questions/q_housing/party_positions/conservative/text/5": [
-"12279a7c50",
-"Sa 2026, tinatanggihan ng mga Conservative ang plano ng NDP sa buwis sa pabahay (ang Unsold Condo Tax at mas mataas na speculation tax), at sinasabing 'bawat bagong buwis sa pabahay ay napupunta sa presyong binabayaran ng isang pamilya'; nangangako sila ng walang bagong buwis, at ibabalik nila sa probinsya at mga lungsod ang papel ng Metro Vancouver sa pabahay at klima. Hindi nila sinabi kung ibabasura nila ang speculation tax, babaguhin ang Bills 44 o 47, gagalawin ang kontrol sa upa o bubuhayin ang rebate noong 2024. Ang mga MLA ng mga partidong nauna sa kanila ay bumoto laban sa speculation tax noong 2018 at sa Bills 44 at 46, at pabor sa Bill 47."
+"36dcc6e5dd",
+"Sa 2026, tinatanggihan ng mga Conservative ang plano ng NDP sa buwis sa pabahay (ang Unsold Condo Tax at mas mataas na speculation tax), at sinasabing 'bawat bagong buwis sa pabahay ay napupunta sa presyong binabayaran ng isang pamilya'; nangangako sila ng walang bagong buwis, at ibabalik nila sa probinsya at mga lungsod ang papel ng Metro Vancouver sa pabahay at klima. Nangangako ang kanilang plataporma noong Oktubre 18 na babawasan ang mga buwis at singil sa konstruksyon, aaprubahan ang mga bahay 'sa loob ng ilang buwan, hindi taon', babaguhin nang malawakan ang Step Code, ibabalik ang pagpili ng enerhiya para sa pagpapainit at pagluluto, at hahayaan ang mga lokal na gobyerno na magpasya kung saan ilalagay ang densidad sa ilalim ng sarili nilang official community plan na may 'angkop na mga target sa densidad', hindi ng 'mga burukrata sa Victoria'. Hindi nito sinasabi kung ibabasura nila ang speculation tax, ang Bill 44 o ang Bill 47, o kung gagalawin nila ang kontrol sa upa. Ang mga MLA ng mga partidong nauna sa kanila ay bumoto laban sa speculation tax noong 2018 at sa Bills 44 at 46, at pabor sa Bill 47."
 ],
 "questions/q_housing/party_positions/green/text/1": [
 "7e706d6c92",
@@ -2744,16 +2744,16 @@
 "Sinasabi ng plataporma na 'mananatiling pampubliko ang BC Hydro at ICBC'. Mananatiling naka-freeze ang basic rate hanggang tagsibol 2027, pagkatapos ay tataas nang katumbas o mas mababa sa inflation hanggang 2030. Simula 2031, makakatanggap ng kabayaran para sa sakit at pagdurusa ang mga taong may napakalubhang pinsala sa utak at spinal cord, at isasama ang gastos nito sa rate kapag natapos ang limitasyon. 'Kikilos ang partido batay sa pagsusuri ng komite ng Lehislatura sa Enhanced Care' at magtatakda ng mga target sa efficiency ng ICBC. Hindi nito ibinabalik ang demanda sa pangkalahatan o pinapayagan ang kompetisyon. Ang pagtawag dito na bahagyang pag-atras mula sa no-fault ay interpretasyon ng quiz na ito, hindi pananalita ng plataporma."
 ],
 "questions/q_icbc/party_positions/conservative/text/1": [
-"f962bdbdc9",
-"Pananatilihin ng partidong ito ang pampublikong insurance pero papayagang magdemanda ang malubhang nasaktan, at papayagan ang kaunting pribadong kompetisyon."
+"9dbfbbcfa7",
+"Pananatilihin ng partidong ito ang pampublikong insurance at ang no-fault para sa karamihan ng aksidente, pero papayagang magdemanda ang mga pinakamalubhang nasaktan."
 ],
 "questions/q_icbc/party_positions/conservative/text/3": [
-"bc978233e4",
-"Sa isang na-leak na liham, nangangako ang mga Conservative na magpapasa sa loob ng isang taon ng isang 'hybrid' na batas na magbabalik ng demanda para sa malubhang pinsala. Pinapanatiling pampubliko ng web page ng partido ang ICBC at nililimitahan ang bayad sa abogado. Magkaiba ang paglalarawan ng dalawa sa plano, at walang nagbibigay ng tantya sa premium."
+"022d4dafdc",
+"Sa isang na-leak na liham, nangangako ang mga Conservative na magpapasa sa loob ng isang taon ng isang 'hybrid' na batas na magbabalik ng demanda para sa malubhang pinsala. Pinapanatiling pampubliko ng web page ng partido ang ICBC at nililimitahan ang bayad sa abogado. Magkaiba ang paglalarawan ng dalawa sa plano, at walang nagbibigay ng tantya sa premium. Pinapanatili ng plataporma noong Oktubre 18 ang no-fault para sa karamihan ng claim at nililimitahan ang demanda sa mga catastrophic (napakalubhang) pinsala, nang walang binabanggit na pribadong kompetisyon."
 ],
 "questions/q_icbc/party_positions/conservative/text/5": [
-"259359c48f",
-"Nangako ang isang liham noong Setyembre 29, 2026 ng hybrid na batas sa loob ng isang taon na nagbibigay sa mga tao ng 'karapatang mabayaran para sa kanilang malubhang pinsala', at sinabing 'lahat ay pinag-iisipan', kasama ang limitasyon sa mga claim para sa maliliit na pinsala, at isa sa mga opsyong isinasaalang-alang ang pribadong kompetisyon. Nililimitahan ng pahina ng partido noong Oktubre 7 ang bayad sa ilalim ng limitasyon ng Law Society, sinasabing 'inaalis nito ang napakalaking karamihan ng mga demanda' at pinapanatili ang ICBC bilang pampublikong opsyon. Walang tantya sa premium."
+"e591029020",
+"Nangako ang isang liham noong Setyembre 29, 2026 ng hybrid na batas sa loob ng isang taon na nagbibigay sa mga tao ng 'karapatang mabayaran para sa kanilang malubhang pinsala', at sinabing 'lahat ay pinag-iisipan', kasama ang limitasyon sa mga claim para sa maliliit na pinsala, at isa sa mga opsyong isinasaalang-alang ang pribadong kompetisyon. Nililimitahan ng pahina ng partido noong Oktubre 7 ang bayad sa ilalim ng limitasyon ng Law Society, sinasabing 'inaalis nito ang napakalaking karamihan ng mga demanda' at pinapanatili ang ICBC bilang pampublikong opsyon. Walang tantya sa premium. Pinapanatili ng plataporma nito noong Oktubre 18 ang ICBC bilang pampublikong opsyon at ang no-fault 'para sa napakalaking karamihan ng mga claim', binibigyan ang 'mga biktimang napakalubha ang pinsala' ng access sa legal na representasyon na may limitasyon sa bayad sa abogado, at hindi binabanggit ang pribadong kompetisyon."
 ],
 "questions/q_icbc/party_positions/green/text/1": [
 "aa7fcc0be2",
@@ -2928,12 +2928,12 @@
 "Gusto ng partidong ito ng mas marami pang pulis sa buong BC at mga espesyal na imbestigador para sa mga banta laban sa mga negosyo."
 ],
 "questions/q_local_extortion/party_positions/conservative/text/3": [
-"39bf718e59",
-"Nagdaragdag ang plano ng mga Conservative para sa buong probinsya ng halos 1,000 pulis, taga-usig at kawani ng korte, at tinututukan nito ang mga pinakaapektadong kapitbahayan. Noong Oktubre 13, nagdagdag ito ng plano laban sa pangingikil na may nakatalagang mga imbestigador at tulong para sa mga negosyo at pamilyang tinatakot. Hindi nito binabanggit ang Surrey Police Service. Sa paglulunsad ng mga kandidato nito sa Surrey, binatikos ng partido ang NDP tungkol sa pangingikil."
+"d46d9be3a2",
+"Nagdaragdag ang plano ng mga Conservative para sa buong probinsya ng halos 1,000 pulis, taga-usig at kawani ng korte, at tinututukan nito ang mga pinakaapektadong kapitbahayan. Noong Oktubre 13, nagdagdag ito ng plano laban sa pangingikil na may nakatalagang mga imbestigador at tulong para sa mga negosyo at pamilyang tinatakot. Hindi nito binabanggit ang Surrey Police Service. Sa paglulunsad ng mga kandidato nito sa Surrey, binatikos ng partido ang NDP tungkol sa pangingikil. Tinataya ng plataporma nito noong Oktubre 18 ang gastos ng plano sa kaligtasan sa $178 milyon kada taon."
 ],
 "questions/q_local_extortion/party_positions/conservative/text/5": [
-"59ff019d39",
-"Walang item tungkol sa pangingikil ang Safe Streets for BC plan (Oktubre 6, 2026); idinagdag ng isang pahayag noong Oktubre 13, 2026 ang isang Anti-Extortion Action Plan na may mga espesyal na imbestigador na nakatuon sa mga kaso ng pangingikil at mga paraan ng pag-uulat at proteksyon para sa mga negosyo at pamilyang tinatakot, nang walang inilathalang kuwenta ng gastos. Sinabi ng pahayag ng partido noong Setyembre 29 tungkol sa mga kandidato nito sa Surrey na humaharap ang mga may-ari ng maliliit na negosyo sa 'isang alon ng pangingikil at karahasan na nag-iwan sa marami na takot buksan ang kanilang mga pinto'. Wala itong posisyon tungkol sa Surrey Police Service. Bumoto laban sa Bill 36 ang mga miyembro ng BC Liberal, kabilang si Doerkson. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
+"bcd7956139",
+"Walang item tungkol sa pangingikil ang Safe Streets for BC plan (Oktubre 6, 2026); idinagdag ng isang pahayag noong Oktubre 13, 2026 ang isang Anti-Extortion Action Plan na may mga espesyal na imbestigador na nakatuon sa mga kaso ng pangingikil at mga paraan ng pag-uulat at proteksyon para sa mga negosyo at pamilyang tinatakot; isinasama ito ng plataporma noong Oktubre 18 sa gastos sa kaligtasan ng publiko na $178 milyon kada taon. Sinabi ng pahayag ng partido noong Setyembre 29 tungkol sa mga kandidato nito sa Surrey na humaharap ang mga may-ari ng maliliit na negosyo sa 'isang alon ng pangingikil at karahasan na nag-iwan sa marami na takot buksan ang kanilang mga pinto'. Wala itong posisyon tungkol sa Surrey Police Service. Bumoto laban sa Bill 36 ang mga miyembro ng BC Liberal, kabilang si Doerkson. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
 ],
 "questions/q_local_extortion/party_positions/green/text/1": [
 "53ae451a89",
@@ -3128,12 +3128,12 @@
 "Bubuo ang partidong ito ng emergency fund para pigilan ang pagsasara ng mga emergency room sa maliliit na bayan."
 ],
 "questions/q_local_fraser_valley_er/party_positions/conservative/text/3": [
-"c7156c7e50",
-"Noong Oktubre 5, nangako ang mga Conservative ng $50 milyong emergency fund para sa mga medical practice sa rural na lugar na nanganganib magsara, flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, mas mabilis na pagkilala sa credentials, prayoridad sa mga estudyante ng BC, komisyon ng mga eksperto sa loob ng 100 araw at walang bawas sa pondo para sa kalusugan. Hindi nila sinabi kung isang beses lang o taun-taon ang pondo."
+"9b3861033b",
+"Noong Oktubre 5, nangako ang mga Conservative ng $50 milyong emergency fund para sa mga medical practice sa rural na lugar na nanganganib magsara, flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, mas mabilis na pagkilala sa credentials, prayoridad sa mga estudyante ng BC, komisyon ng mga eksperto sa loob ng 100 araw at walang bawas sa pondo para sa kalusugan. Tinataya ng kanilang plataporma noong Oktubre 18 ang gastos ng mga hakbang na ito para sa access at pangangalaga sa rural na lugar sa $205 milyon kada taon, nang hindi sinasabi kung isang beses lang o taun-taon ang pondo mismo."
 ],
 "questions/q_local_fraser_valley_er/party_positions/conservative/text/5": [
-"abc2a9a6f6",
-"'Keep Emergency Rooms Open' (Oktubre 5, 2026, inilunsad sa 100 Mile House): $50 milyong emergency fund para sa mga practice sa rural na lugar na nanganganib magsara (hindi sinabi kung isang beses o paulit-ulit), flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, awtomatikong pagkilala sa credentials mula sa ibang probinsya, prayoridad sa mga estudyante ng BC sa medical training, komisyon ng mga eksperto sa loob ng 100 araw, pananatilihing universal at pinopondohan ng publiko ang sistema, walang bawas sa budget sa kalusugan ng 2026. Mas maaga nang tinawag ni Findlay na hindi katanggap-tanggap ang mga pagsasara sa Mission."
+"e6afaa51a9",
+"'Keep Emergency Rooms Open' (Oktubre 5, 2026, inilunsad sa 100 Mile House): $50 milyong emergency fund para sa mga practice sa rural na lugar na nanganganib magsara (hindi sinabi kung isang beses o paulit-ulit), flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, awtomatikong pagkilala sa credentials mula sa ibang probinsya, prayoridad sa mga estudyante ng BC sa medical training, komisyon ng mga eksperto sa loob ng 100 araw, pananatilihing unibersal at pinopondohan ng publiko ang sistema, walang bawas sa budget sa kalusugan ng 2026. Mas maaga nang tinawag ni Findlay na hindi katanggap-tanggap ang mga pagsasara sa Mission. Nagdaragdag ang plataporma noong Oktubre 18 ng medikal na transportasyon sa rural na lugar at tinataya ang gastos ng mga hakbang para sa access at pangangalaga sa rural na lugar, kasama ang pondo, sa $205 milyon kada taon."
 ],
 "questions/q_local_fraser_valley_er/party_positions/green/text/1": [
 "6e5444fbf0",
@@ -3204,8 +3204,8 @@
 "Noong Hulyo 23, 2026, iminungkahi ng gobyerno ng NDP na payagang magtayo ang mga food processor sa lupa ng Agricultural Land Reserve na mas mahina ang lupa, na may limitasyon sa maliit na bahagi ng pribadong lupa sa reserve, at ibababa ang minimum na lokal na produkto mula 50% tungo sa 5%. Sinasabi ng probinsya na 500 hanggang 1,000 ektarya sa Lower Mainland at Fraser Valley ang maaaring maging kwalipikado. Sinusuportahan ito ng Abbotsford Chamber at ng mga food manufacturer; tutol dito ang Agricultural Land Commission at ang BC Agriculture Council. Itinigil muna ng halalan ang desisyon."
 ],
 "questions/q_local_fraser_valley_farmland/context/4": [
-"1fff6ab8be",
-"Papayagan ng mungkahi noong Hulyo 23, 2026 ang food processing sa lupang Class 5 hanggang 7 ng Agricultural Land Reserve, ibababa ang minimum na lokal na produkto mula 50% tungo sa 5%, at lilimitahan ang kabuuan sa 0.25% ng 2.1 milyong ektarya ng pribadong lupa sa reserve. Sinasabi ng probinsya na dahil sa pagsusuri sa lupa, mga 90% ng lupang sakahan sa Fraser Valley ang hindi magiging kwalipikado at na 500 hanggang 1,000 ektarya ang maaaring maging kwalipikado. Sinusuportahan ito ng mga food manufacturer, ng Board of Trade at ng Abbotsford Chamber. Tutol dito ang Agricultural Land Commission at ang BC Agriculture Council. Nagsara ang konsultasyon noong Setyembre 18 at itinigil muna ng halalan ang desisyon. Tinatawag ito ni Eby na hakbang para sa food security; tumanggi ang mga Conservative na magsabi ng posisyon."
+"712f85900c",
+"Papayagan ng mungkahi noong Hulyo 23, 2026 ang food processing sa lupang Class 5 hanggang 7 ng Agricultural Land Reserve, ibababa ang minimum na lokal na produkto mula 50% tungo sa 5%, at lilimitahan ang kabuuan sa 0.25% ng 2.1 milyong ektarya ng pribadong lupa sa reserve. Sinasabi ng probinsya na dahil sa pagsusuri sa lupa, mga 90% ng lupang sakahan sa Fraser Valley ang hindi magiging kwalipikado at na 500 hanggang 1,000 ektarya ang maaaring maging kwalipikado. Sinusuportahan ito ng mga food manufacturer, ng Board of Trade at ng Abbotsford Chamber. Tutol dito ang Agricultural Land Commission at ang BC Agriculture Council. Nagsara ang konsultasyon noong Setyembre 18 at itinigil muna ng halalan ang desisyon. Tinatawag ito ni Eby na hakbang para sa food security; hindi ito tinutugunan ng plataporma ng mga Conservative noong Oktubre 18 pero muling imamapa nito ang reserve at luluwagan ang patakaran sa processing sa sakahan."
 ],
 "questions/q_local_fraser_valley_farmland/context/5": [
 "2e853c897b",
@@ -3272,24 +3272,24 @@
 "Ituloy ang mungkahi noong Hulyo 2026: processing sa lupang Class 5 hanggang 7 at sa Class 4 na may serbisyo, na may limitasyong 0.25% ng 2.1 milyong ektarya ng pribadong lupa sa reserve, kailangan ang pagsusuri sa lupa, ibababa ang minimum na lokal na produkto mula 50% tungo sa 5%."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/1": [
-"13610f1767",
-"Luwagan pa ang mga patakaran, at hayaang ang mga may-ari ng lupa at mga council ang magpasya kung ano ang ilalagay sa mahinang lupa."
+"08072ee2ad",
+"Iguhit muli ang mapa ng lupang sakahan gamit ang mas mahusay na datos sa lupa, hayaang magproseso at magbenta ng mas marami ang mga magsasaka sa sakahan, at panatilihin ang lupang sakahan para sa pagkain."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/2": [
-"77eb5f4e83",
-"Lumampas pa sa mungkahi: hayaang ang mga may-ari ng lupa at mga lokal na gobyerno ang magpasya kung ano ang itatayo sa lupa sa reserve na mahina ang lupa."
+"4305d2f6a3",
+"Imapa muli ang farmland reserve gamit ang modernong datos sa lupa, luwagan ang mga patakaran sa processing sa sakahan, payagan ang mga karagdagang negosyo sa sakahan, at panatilihing ginagamit sa pagsasaka ang lupang sakahan."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/3": [
-"1be4a62f51",
-"Lumampas pa sa mungkahi: alisin ang limitasyon sa lawak at hayaang ang mga may-ari ng lupa at mga lokal na gobyerno ang magpasya kung ano ang itatayo sa lupa sa reserve na mahina ang lupa."
+"8dc05df44b",
+"Imapa muli ang reserve gamit ang modernong datos sa lupa at pagmamapa, isulat muli ang batas nito para unahin ang food security, luwagan ang patakaran sa processing sa sakahan, payagan ang mga karagdagang negosyo gaya ng farm stay, at i-update ang mga threshold sa buwis ng sakahan para masaka ang lupang sakahan."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/4": [
-"56dee66386",
-"Lumampas pa: alisin ang limitasyong 0.25% at ang pagsusuri sa soil class, at hayaang ang mga may-ari ng lupa at mga lokal na gobyerno ang magpasya kung ano ang itatayo sa lupa sa reserve na mas mababa ang kalidad, kasama ang industriyang hindi pagkain."
+"f0bcb15d75",
+"Imapa muli ang Agricultural Land Reserve gamit ang modernong datos sa lupa at repormahin ang batas nito nang nakatuon sa food security, i-modernize ang patakarang 50% sa processing sa sakahan, payagan ang mga pangalawang gamit at limitadong paupahan para sa agri-tourism, at i-update ang mga threshold sa kita para sa farm class."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/5": [
-"641301f655",
-"Lumampas sa mungkahi noong Hulyo 2026: alisin ang limitasyong 0.25% at ang pagsusuri sa lupang Class 5 hanggang 7, payagan ang mga industrial na gamit na hindi pagkain, at ilipat ang mga desisyon sa lupa sa reserve na mas mababa ang kalidad sa mga may-ari ng lupa at mga lokal na gobyerno sa halip na sa Agricultural Land Commission."
+"ffb880b93f",
+"Imapa muli ang Agricultural Land Reserve gamit ang modernong teknolohiya sa lupa at pagmamapa at repormahin ang Act para unahin ang food security, i-modernize ang patakarang 50/50 sa processing sa sakahan, payagan ang mga pangalawang gamit at limitadong short-term rental para sa agri-tourism, ibalik ang mga desisyon ng komisyon na batay sa merito, at i-update ang mga threshold sa kita para sa farm class."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/centrebc/text/1": [
 "adefdddce5",
@@ -3304,16 +3304,16 @@
 "Plataporma (Oktubre 10): loan guarantee para sa processing at kagamitan, isang bahaging nakalaan sa sektor ng pagkain sa Manufacturing Jobs Fund na dodoblehin upang maging $60 milyon kada taon, sampung-taong target sa produksyon ng sakahan, in-update na mga patakaran sa farm classification 'so farmland is farmed' (para sakahin ang lupang sakahan), isang permanenteng programa sa pagbangon ng sakahan at isang bahagi ng pagpopondo na nakalaan sa tubig para sa mga sakahan. Hindi binabanggit ng plataporma ang mungkahi sa processing sa Agricultural Land Reserve. Hinuha ang opsyon b mula sa pagpopondo sa mga processor nang hindi binabago ang mga patakaran sa reserve; mababa ang katiyakan."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/conservative/text/1": [
-"6a05e4be14",
-"Hindi sinabi ng partidong ito kung ano ang gagawin nito tungkol dito, kaya walang iskor ito rito."
+"3c4f640fd2",
+"Iguguhit muli ng partidong ito ang mapa ng lupang sakahan gamit ang mas mahusay na datos sa lupa, hahayaang magproseso ang mga magsasaka ng mas maraming pagkain sa sakahan, at pananatilihin ang lupang sakahan para sa pagkain."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/conservative/text/3": [
-"47f37d93ba",
-"Tumanggi ang lider na si Lorne Doerkson na magsabi ng posisyon sa mungkahi sa lupang sakahan; sinabi niyang gagawin ng partido ang 'everything in our power' (lahat ng aming makakaya) at na 'there will be more on that' (may darating pa tungkol diyan) sa plataporma nito. Dahil walang inilathalang posisyon, walang iskor ang partido rito."
+"eeee17055a",
+"Hindi binabanggit ng plataporma ng mga Conservative ang mungkahi sa processing. Iguguhit muli nito ang mapa ng reserve gamit ang modernong datos sa lupa, isusulat muli ang batas sa reserve para unahin ang food security, luluwagan ang patakarang naglilimita sa processing sa sakahan, papayagan ang mga karagdagang gamit gaya ng farm stay, at ia-update ang mga threshold sa buwis ng sakahan. Hango ang opsyon d sa planong iyon."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/conservative/text/5": [
-"fb88a1a337",
-"The Tyee (Oktubre 7, 2026): tumanggi ang lider na si Lorne Doerkson na ibigay ang posisyon ng partido sa mungkahi; sinabi niya ang 'We're going to do everything in our power' (Gagawin namin ang lahat ng aming makakaya) at 'There will be more on that for certain in the coming days in our platform.' (Tiyak na may darating pa tungkol diyan sa mga susunod na araw sa aming plataporma.) Walang bahagi tungkol sa lupang sakahan o agrikultura ang pahinang 'Our Plan' hanggang Oktubre 12, at ang tanging itinuro ng partido ay ang pansamantalang pag-alis ng PST sa beer at wine. Walang posisyon; suriin muli kung may lalabas na plataporma."
+"75f44bea67",
+"Hindi pinangangalanan ng plataporma ng mga Conservative noong Oktubre 18 ang mungkahi noong Hulyo 2026. Imamapa muli ng plano nito sa pagsasaka ang Agricultural Land Reserve 'gamit ang modernong teknolohiya sa lupa at pagmamapa', irereporma ang Agricultural Land Reserve Act 'para unahin ang food security' at palalakasin ang pamamahala laban sa maling paggamit, imo-modernize ang patakarang 50/50 sa processing sa sakahan para ang mga magsasaka ay 'makapagproseso at makapagbenta ng mga produkto buong taon', ibabalik ang mga desisyon ng Agricultural Land Commission na batay sa merito, ia-update ang mga threshold sa kita para sa farm class, papayagan ang mga pangalawang gamit at limitadong short-term rental para sa agri-tourism, uunahin ang pabahay ng mga manggagawa sa sakahan, at magtatakda ng target na 10% na mas mababang pag-asa sa inangkat na pagkain pagsapit ng 2030. Bago nito, tumanggi si Doerkson na magbigay ng posisyon sa mungkahi (The Tyee, Oktubre 7, 2026)."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/green/text/1": [
 "46cafcb525",
@@ -3484,16 +3484,16 @@
 "Plataporma (Oktubre 10, mga pahina 11 at 13): ang mga prayoridad ay ang Surrey-Langley SkyTrain, ang Fraser River Tunnel, ang pagpapalapad ng Highway 1 hanggang Chilliwack at mga kalsada sa North Coast, sa isang $15 bilyong tatlong-taong plano sa transportasyon, at nakalista rin sa kuwenta ng gastos ang $3.5 bilyong inutang para sa transportasyon, rapid bus at mga koneksyon sa daungan; mga anim na bagong linya ng rapid bus; pag-aaral ng rapid transit sa timog ng Fraser lampas sa SkyTrain; 15% pang serbisyo ng transit pagsapit ng 2030; refundable na BC Commuter Credit na 15% sa pass at sa multi-trip na pamasahe sa ferry. Walang takdang panahon o gastos para sa yugto sa Chilliwack at walang posisyon sa mga toll."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/conservative/text/1": [
-"5f0f45636e",
-"Nangako ang partidong ito ng anim na lane hanggang Chilliwack at walang toll noong nakaraang halalan. Wala itong sinabing bago ngayon."
+"ff06db41cf",
+"Nangako ang partidong ito ng anim na lane hanggang Chilliwack at walang toll noong nakaraang halalan. Ngayon, nangangako ito ng mga bagong kalsada sa pangkalahatan pero walang pinangangalanang proyekto sa Highway 1."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/conservative/text/3": [
-"d37ca610fa",
-"Noong Oktubre 3, 2024, nangako ang mga Conservative ng anim na lane sa Highway 1 sa buong bahaging dumadaan sa Chilliwack at walang toll o road pricing. Walang bahagi tungkol sa highway, transit o riles ang pahina ng plano nila para sa 2026. Hinuha ang opsyon a mula sa pangako noong 2024 at mababa ang katiyakan."
+"9aaebce747",
+"Noong Oktubre 3, 2024, nangako ang mga Conservative ng anim na lane sa Highway 1 sa buong bahaging dumadaan sa Chilliwack at walang toll o road pricing. Nangangako ang kanilang plataporma sa 2026 ng mga 'corridor' ng kalsada, riles at transit na pipiliin bawat proyekto pero walang pinangangalanang proyekto sa Highway 1. Hinuha ang opsyon a mula sa pangako noong 2024 at mababa ang katiyakan."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/conservative/text/5": [
-"22e7c5d7c8",
-"Fraser Valley Today (Oktubre 3, 2024): nangako si Rustad ng anim na lane sa buong bahaging dumadaan sa Chilliwack at walang toll o road pricing. Walang nakalistang pangako sa highway, transit o riles ang pahinang 'Our Plan' para sa 2026 (sinuri noong Oktubre 12), at walang nakitang pahayag ng Conservative tungkol sa highway para sa 2026. Hinuha mula sa 2024, mababa ang katiyakan."
+"e21645e7d5",
+"Fraser Valley Today (Oktubre 3, 2024): nangako si Rustad ng anim na lane sa buong bahaging dumadaan sa Chilliwack at walang toll o road pricing. Nangangako ang plataporma noong Oktubre 18 ng 'BC Future Corridors' (mga kalsada, tulay, bypass, pagdaragdag ng lane, riles at pampublikong transit) na itatakda bawat proyekto sa pamamagitan ng business case, at ng mas malaking kapasidad ng riles sa Fraser Canyon, pero walang pinangangalanang proyekto sa Highway 1. Hinuha mula sa 2024, mababa ang katiyakan."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/green/text/1": [
 "e19dd3e4d7",
@@ -3688,12 +3688,12 @@
 "Tatapusin ng partidong ito ang bagong ospital sa Cloverdale, nagpaplano ito ng bagong ospital para sa kababaihan at mga bata sa Surrey, at gusto nitong panatilihing bukas ang mga emergency room."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/3": [
-"8e164e4090",
-"Noong Oktubre 15, nangako ang mga Conservative na tapusin ang Surrey Hospital sa Cloverdale 'sa takdang oras at sa loob ng budget' at magtayo ng bagong Women and Children's Hospital sa Surrey, nang walang gastos o petsa para sa ikalawa. Nag-aalok din ang plano nila sa kalusugan ng pondo para sa emergency room, isang 100-araw na komisyon tungkol sa tagal ng paghihintay, walang pagbabawas, at pondo sa long-term care na sumusunod sa senior. Wala silang pangako para sa mga paaralan sa Surrey."
+"c107c1148c",
+"Noong Oktubre 15, nangako ang mga Conservative na tapusin ang Surrey Hospital sa Cloverdale 'sa takdang oras at sa loob ng budget' at magtayo ng bagong Women and Children's Hospital sa Surrey; naglalaan ang kanilang plataporma noong Oktubre 18 ng $25 milyon sa unang termino para pumili ng lugar at magplano para sa ikalawa, nang walang petsa ng konstruksyon. Nag-aalok din ang plano nila sa kalusugan ng pondo para sa emergency room, isang 100-araw na komisyon tungkol sa tagal ng paghihintay, walang pagbabawas, at pondo sa long-term care na sumusunod sa senior. Wala silang pangako para sa mga paaralan sa Surrey."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/5": [
-"d113342783",
-"Noong Oktubre 15, nangako ang partido na 'tapusin ang Surrey Hospital sa Cloverdale sa takdang oras at sa loob ng budget' at magtayo ng bagong Women and Children's Hospital sa Surrey; hindi ito nagbigay ng gastos o petsa para sa ospital para sa kababaihan at mga bata. Pinapalitan nito ang sagot ni Doerkson noong Oktubre 7 na 'pinag-iisipan namin ang lahat ng iyan para sa paglalabas ng aming plataporma'. Nag-aalok ang plano nitong Keep Emergency Rooms Open (Oktubre 5) ng $50 milyong emergency fund, isang 100-araw na komisyon ng mga eksperto at pangakong panatilihin ang kasalukuyang gastos sa health care; noong Oktubre 12, inulit ng partido na mananatiling unibersal at pinopondohan ng publiko ang pangangalaga. Sinusuri ng plano nito para sa seniors (Oktubre 9) ang mga patakaran sa disenyo ng long-term care, hinahayaang sumunod sa senior ang pondo para sa pangangalaga at nag-aalok ng pagpili ng provider ng home care. Wala itong posisyon sa capital ng mga paaralan o sa Surrey Memorial. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
+"7123c44e6b",
+"Noong Oktubre 15, nangako ang partido na 'tapusin ang Surrey Hospital sa Cloverdale sa takdang oras at sa loob ng budget' at magtayo ng bagong Women and Children's Hospital sa Surrey; pinananatili ng plataporma nito noong Oktubre 18 ang ospital sa Cloverdale sa budget nitong $2.88 bilyon at sa iskedyul nito, at para sa ospital ng mga bata, kukuha ito ng lugar, kukumpletuhin ang isang concept plan at aaprubahan ang isang business case sa unang termino ($25 milyon, tantya ng partido), at ilalathala ang budget sa konstruksyon kapag naaprubahan na ang business case. Bubuhayin din nito ang pitong long-term care home na itinigil muna sa Budget 2026 ($1.43 bilyon). Pinapalitan nito ang sagot ni Doerkson noong Oktubre 7 na 'pinag-iisipan namin ang lahat ng iyan para sa paglalabas ng aming plataporma'. Nag-aalok ang plano nitong Keep Emergency Rooms Open (Oktubre 5) ng $50 milyong emergency fund, isang 100-araw na komisyon ng mga eksperto at pangakong panatilihin ang kasalukuyang gastos sa health care; noong Oktubre 12, inulit ng partido na mananatiling unibersal at pinopondohan ng publiko ang pangangalaga. Sinusuri ng plano nito para sa seniors (Oktubre 9) ang mga patakaran sa disenyo ng long-term care, hinahayaang sumunod sa senior ang pondo para sa pangangalaga at nag-aalok ng pagpili ng provider ng home care. Wala itong posisyon sa Surrey Memorial; ang tanging pangako nito sa capital ng paaralan ay mga pasilidad para sa shop class sa mga bagong paaralan. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
 ],
 "questions/q_local_hospital_schools/party_positions/green/text/1": [
 "f0d6cbcfe4",
@@ -3888,12 +3888,12 @@
 "Maglalagay ang partidong ito ng mas maraming pulis sa downtown, hahayaan ang pulis na ipadala sa gamutan ang mga napakalubha, at ititigil ang libreng droga."
 ],
 "questions/q_local_interior_downtown/party_positions/conservative/text/3": [
-"ab74531e41",
-"Ang 'Safe Streets for BC' (Oktubre 6) ay naglalagay ng mas maraming pulis sa mga neighbourhood na pinakatinamaan (250 bagong pulis, 500 RCMP sa loob ng limang taon), inaamyendahan ang Mental Health Act para maikonekta ng pulis ang mga tao sa mandatory na paggamot, nag-aalok ng 'compassionate intervention' para sa malubhang adiksyon, itinitigil ang safer supply at pinalalawak ang residential treatment. Walang sinabing posisyon tungkol sa pagsasara ng site sa Kelowna."
+"3c52de3daf",
+"Ang 'Safe Streets for BC' (Oktubre 6) ay naglalagay ng mas maraming pulis sa mga neighbourhood na pinakatinamaan (250 bagong pulis, 500 RCMP sa loob ng limang taon), inaamyendahan ang Mental Health Act para maikonekta ng pulis ang mga tao sa sapilitang paggamot, nag-aalok ng 'mapagmalasakit na interbensyon' para sa malubhang adiksyon, itinitigil ang safe supply at pinalalawak ang residential treatment. Susuriin ng plataporma nito noong Oktubre 18, kasama ang mga lokal na komunidad, ang mga supervised site para magkaroon ng mas kaunti at mas maayos ang lokasyon, at ititigil ang 'pagpipilit' ng ganitong mga site sa mga komunidad; hindi nito pinangangalanan ang site sa Kelowna."
 ],
 "questions/q_local_interior_downtown/party_positions/conservative/text/5": [
-"dbd8df1444",
-"Safe Streets for BC (Oktubre 6, 2026): mas maraming pulis sa mga neighbourhood na pinakatinamaan; 250 pulis sa pamamagitan ng pinalawak na academy ng Justice Institute; 500 RCMP at 150 sibilyang tauhan sa loob ng limang taon para sa mga rural at panrehiyong lugar; 50 Crown prosecutor; amyenda sa Mental Health Act para maikonekta ng pulis ang mga tao sa sapilitang paggamot; compassionate intervention para sa malubhang adiksyon, sakit sa isip o pinsala sa utak; itigil ang safer supply; palawakin ang psychiatric at residential treatment. Sa Kelowna noong Oktubre 2, sinuportahan ni Doerkson ang 'mga suporta, pabahay, wraparound services' nang walang detalye at walang posisyon sa consumption site."
+"6aebe60402",
+"Safe Streets for BC (Oktubre 6, 2026): mas maraming pulis sa mga neighbourhood na pinakatinamaan; 250 pulis sa pamamagitan ng pinalawak na academy ng Justice Institute; 500 RCMP at 150 sibilyang tauhan sa loob ng limang taon para sa mga rural at panrehiyong lugar; 50 Crown prosecutor; amyenda sa Mental Health Act para maikonekta ng pulis ang mga tao sa sapilitang paggamot; compassionate intervention para sa malubhang adiksyon, sakit sa isip o pinsala sa utak; itigil ang safe supply; palawakin ang psychiatric at residential treatment. Sa Kelowna noong Oktubre 2, sinuportahan ni Doerkson ang 'mga suporta, pabahay, wraparound services' nang walang detalye at walang posisyon sa consumption site. Susuriin ng plataporma nito noong Oktubre 18 ang mga overdose prevention site at consumption site 'sa konsultasyon sa mga lokal na komunidad, na may layuning magkaroon ng mas kaunti at mas maayos ang lokasyong mga opsyon', at 'ititigil ang pagpipilit ng mga pasilidad na pabor sa droga sa mga komunidad'."
 ],
 "questions/q_local_interior_downtown/party_positions/green/text/1": [
 "379a8b82a5",
@@ -4088,12 +4088,12 @@
 "Hahayaan ng partidong ito na sumunod ang pera sa bawat senior papunta sa anumang aprubadong home, pampubliko man o pribado, at babawasan ang mga patakaran sa pagtatayo."
 ],
 "questions/q_local_interior_ltc/party_positions/conservative/text/3": [
-"0a0f552e00",
-"Noong Oktubre 9, nangako ang mga Conservative na magtatayo ng mga kama sa long-term care nang mas mabilis sa pamamagitan ng pagbabawas ng mga patakaran sa disenyo na tinatawag nilang hindi kailangan, at bibigyan ang seniors na naghihintay ng kama ng portable na pampublikong pondo na magagamit sa sinumang kwalipikadong provider, kasama ang mga hindi gobyerno na may mga pananggalang sa performance. Binabanggit nila ang 7,200 taong naghihintay. Walang bilang ng kama, halaga sa dolyar o iskedyul."
+"690dc50623",
+"Noong Oktubre 9, nangako ang mga Conservative na magtatayo ng mga kama sa long-term care nang mas mabilis sa pamamagitan ng pagbabawas ng mga patakaran sa disenyo na tinatawag nilang hindi kailangan, at bibigyan ang seniors na naghihintay ng kama ng portable na pampublikong pondo na magagamit sa sinumang kwalipikadong provider, kasama ang mga hindi gobyerno na may mga pananggalang sa performance. Binabanggit nila ang 7,200 taong naghihintay. Bubuhayin ng kanilang plataporma noong Oktubre 18 ang pitong isinantabing home gamit ang mas murang disenyo ($1.43 bilyon). Walang bilang ng kama o iskedyul."
 ],
 "questions/q_local_interior_ltc/party_positions/conservative/text/5": [
-"148df138df",
-"'Itatayo ng mga Conservative ang mga kama para sa long-term care na ipinagpaliban ng NDP' (Oktubre 9, 2026, North Vancouver): magtayo ng mas maraming kama nang mas mabilis; makipagtulungan sa mga provider, residente, pamilya at tagapagtayo para bawasan ang mga hindi kailangang patakaran sa disenyo habang pinoprotektahan ang kaligtasan; portable na pampublikong pondo para makapili ang naghihintay na seniors sa mga kwalipikadong provider kasama ang mga operator na hindi gobyerno na may mga pananggalang sa performance. Mga pahayag: 7,200 naghihintay, nagpaabot ang mga patakaran sa disenyo sa ilang kama sa $1.8 milyon, pitong proyekto ang ipinagpaliban. Walang bilang ng kama, halaga sa dolyar, iskedyul o pahayag tungkol sa Vernon; nangangako rin ang partido na panatilihin ang budget sa kalusugan ng 2026."
+"49cedb4569",
+"'Itatayo ng mga Conservative ang mga kama para sa long-term care na isinantabi ng NDP' (Oktubre 9, 2026, North Vancouver): magtayo ng mas maraming kama nang mas mabilis; makipagtulungan sa mga provider, residente, pamilya at tagapagtayo para bawasan ang mga hindi kailangang patakaran sa disenyo habang pinoprotektahan ang kaligtasan; portable na pampublikong pondo para makapili ang naghihintay na seniors sa mga kwalipikadong provider kasama ang mga operator na hindi gobyerno na may mga pananggalang sa performance. Mga pahayag: 7,200 naghihintay, nagpaabot ang mga patakaran sa disenyo sa ilang kama sa $1.8 milyon, pitong proyekto ang ipinagpaliban. Bubuhayin ng plataporma nito noong Oktubre 18 ang pitong home, 'na idinisenyo muli para mas mababa ang gastos bawat kama' ($1.43 bilyon ayon sa kasalukuyang tantya), at tinataya ang gastos ng mga hakbang nito para sa seniors sa $350 milyon kada taon. Walang bilang ng kama, iskedyul o pahayag tungkol sa Vernon; nangangako rin ang partido na panatilihin ang budget sa kalusugan ng 2026."
 ],
 "questions/q_local_interior_ltc/party_positions/green/text/1": [
 "cfdb112e14",
@@ -4268,12 +4268,12 @@
 "Bibili ang partidong ito ng mga water bomber na eroplano, popondohan ang teknolohiya para makita agad ang sunog, at magtotroso pa ng mas maraming kagubatan malapit sa mga bayan."
 ],
 "questions/q_local_interior_wildfire/party_positions/conservative/text/3": [
-"5432f5e472",
-"Ayon sa plano ng mga Conservative noong Oktubre 2, bibili sila ng mga sasakyang panghimpapawid na pamatay-sunog kasama ang mga water bomber, babawasan ang madaling masunog na materyal sa kagubatan sa paligid ng mga komunidad, padadaliin ang prescribed burn, hahayaang mas mabilis maipadala ang mga kwalipikadong crew, at lilikha ng pondo para sa teknolohiya ng pagtuklas. Ayon sa mga ulat ng balita, $400 milyon ang para sa mga eroplano at $100 milyon ang pondo; walang ibinigay na halaga ang anunsyo. Ayon sa mga ulat ng balita, mababayaran ng plano ang malaking bahagi ng sarili nitong gastos, sa pamamagitan ng benta ng trosong pinutol malapit sa mga komunidad at ng pagpapaupa ng mga eroplano sa ibang hurisdiksyon."
+"a69b19fba0",
+"Ayon sa plano ng mga Conservative noong Oktubre 2, bibili sila ng mga sasakyang panghimpapawid na pamatay-sunog kasama ang mga water bomber, babawasan ang madaling masunog na materyal sa kagubatan sa paligid ng mga komunidad, padadaliin ang prescribed burn, hahayaang mas mabilis maipadala ang mga kwalipikadong crew, at lilikha ng pondo para sa teknolohiya ng pagtuklas. Kinukumpirma ng plataporma nito noong Oktubre 18 ang $400 milyon para sa mga eroplano at isang $100 milyong pondo para sa pagtuklas at inobasyon. Ayon sa mga ulat ng balita, mababayaran ng plano ang malaking bahagi ng sarili nitong gastos, sa pamamagitan ng benta ng trosong pinutol malapit sa mga komunidad at ng pagpapaupa ng mga eroplano sa ibang hurisdiksyon."
 ],
 "questions/q_local_interior_wildfire/party_positions/conservative/text/5": [
-"5d1ca100b8",
-"'Fighting Wildfires, Protecting Communities' (Oktubre 2, 2026): ipatupad agad ang isang Protect Communities from Wildfire Action Plan, bumili ng mga sasakyang panghimpapawid kasama ang mga water bomber, bawasan ang madaling masunog na materyal sa paligid ng mga komunidad, mas madaling prescribed fire nang hindi binababa ang mga pamantayan sa kaligtasan, mas mabilis na pagpapadala ng mga kwalipikadong tauhan, isang nakalaang pondo para sa maagang pagtuklas, isang komite ng gabinete para sa wildfire na pamumunuan ng lider. Iniulat ng AM 1150 ang $400 milyon para sa mga eroplano at isang pondong $100 milyon; iniulat ng Today in BC ang mas maraming pagtotroso sa mga high-risk na lugar na ang kita sa benta ay pupunta sa pag-iwas sa sunog at 'mas predictable na pondo para sa FireSmart'. Iniulat ng Today in BC na mababayaran ng plano ang malaking bahagi ng sarili nitong gastos; iniulat ng Canadian Press na makatutulong ang probinsya sa pagbabayad ng mga eroplano sa pamamagitan ng pagpapaupa ng mga ito sa ibang hurisdiksyon."
+"b0f7eb9646",
+"'Fighting Wildfires, Protecting Communities' (Oktubre 2, 2026): ipatupad agad ang isang Protect Communities from Wildfire Action Plan, bumili ng mga sasakyang panghimpapawid kasama ang mga water bomber, bawasan ang madaling masunog na materyal sa paligid ng mga komunidad, mas madaling prescribed fire nang hindi binababa ang mga pamantayan sa kaligtasan, mas mabilis na pagpapadala ng mga kwalipikadong tauhan, isang nakalaang pondo para sa maagang pagtuklas, isang komite ng gabinete para sa wildfire na pamumunuan ng lider. Iniulat ng AM 1150 ang $400 milyon para sa mga eroplano at isang pondong $100 milyon; iniulat ng Today in BC ang mas maraming pagtotroso sa mga high-risk na lugar na ang kita sa benta ay pupunta sa pag-iwas sa sunog at 'mas predictable na pondo para sa FireSmart'. Iniulat ng Today in BC na mababayaran ng plano ang malaking bahagi ng sarili nitong gastos; iniulat ng Canadian Press na makatutulong ang probinsya sa pagbabayad ng mga eroplano sa pamamagitan ng pagpapaupa ng mga ito sa ibang hurisdiksyon. Kinukumpirma ng plataporma nito noong Oktubre 18 ang $400 milyon para sa isang fleet ng sasakyang panghimpapawid ng probinsya (na ipapaupa sa mga serbisyo ng pamatay-sunog sa Southern Hemisphere sa labas ng panahon ng sunog sa BC) at isang $100 milyong Wildfire Innovation Fund sa loob ng apat na taon, naglalaan ng budget para sa wildfire 'ayon sa tunay na gastos nito', at nagdaragdag ng Community Protection Forestry na timber pool at ng 'predictable na pondo para sa FireSmart para sa mga munisipyo'."
 ],
 "questions/q_local_interior_wildfire/party_positions/green/text/1": [
 "8812496155",
@@ -4444,16 +4444,16 @@
 "Plataporma (hanggang Oktubre 11, 2026, Economy and Affordability, 'Buy Canadian' at 'Transportation that works'): mga susunod na barko ng BC Ferries at iba pang barko ng probinsya na gawa sa Canada; $25 milyon kada taon na pondo para palaguin ang mga shipyard sa BC at sanayin ang mga gumagawa ng barko; refundable na BC Commuter Credit na nagbabalik ng 15% sa buwanan at taunang transit pass at multi-trip na pamasahe sa BC Ferries, sa loob ng $15 bilyong tatlong-taong plano sa transportasyon. Walang bahagi tungkol sa pamantayan sa serbisyo, reservation, pamamahala o iskedyul. Walang kandidato ang CentreBC sa alinmang riding sa Nanaimo."
 ],
 "questions/q_local_island_coast_ferries/party_positions/conservative/text/1": [
-"35553f6f55",
-"Magtatakda ang partidong ito ng mga patakaran sa serbisyo ng ferry, papanagutin ang mga namamahala, at hindi magdadagdag ng bagong gastos."
+"d49b5b4b48",
+"Magtatakda ang partidong ito ng mga patakaran sa serbisyo ng ferry, papanagutin ang mga namamahala, at gagawin sa BC ang mga ferry sa hinaharap."
 ],
 "questions/q_local_island_coast_ferries/party_positions/conservative/text/3": [
-"7014ca4139",
-"Magtatakda ang BC Ferries Charter ng mga Conservative noong Oktubre 11 ng mga pamantayan sa pagiging maaasahan, pagdating sa oras, kapasidad, pagiging abot-kaya at serbisyo sa customer, papanagutin ang pamunuan, babawasan ang dobleng tungkulin sa board, makikipagnegosasyon para sa 'fair share' (makatarungang bahagi) ng pederal na pondo para sa ferry, at magdadagdag ng Wi-Fi sa pamamagitan ng mga pribadong kontrata 'with no new burden on fares or taxpayers' (nang walang bagong pasanin sa pamasahe o sa mga nagbabayad ng buwis). Walang takdang panahon, pagbabawas ng pamasahe o posisyon sa paggawa ng barko."
+"d848f36735",
+"Magtatakda ang BC Ferries Charter ng mga Conservative noong Oktubre 11 ng mga pamantayan sa pagiging maaasahan, pagdating sa oras, kapasidad, pagiging abot-kaya at serbisyo sa customer, papanagutin ang pamunuan, babawasan ang dobleng tungkulin sa board, makikipagnegosasyon para sa 'makatarungang bahagi' ng pederal na pondo para sa ferry, at magdadagdag ng Wi-Fi sa pamamagitan ng mga pribadong kontrata 'nang walang bagong pasanin sa pamasahe o sa mga nagbabayad ng buwis'. Nagdaragdag ang plataporma nito noong Oktubre 18 ng plano na gawin sa BC sa halip na sa China ang mga ferry sa hinaharap at humihingi ng pederal na pondo na katulad ng sa mga ferry sa Atlantic. Walang takdang panahon o pagbabawas ng pamasahe."
 ],
 "questions/q_local_island_coast_ferries/party_positions/conservative/text/5": [
-"c7dfe1fd2c",
-"'Conservatives will fix BC Ferries' (Aayusin ng mga Conservative ang BC Ferries) (Oktubre 11, 2026): isang BC Ferries Charter na may malinaw na pamantayan sa pagiging maaasahan, pagdating sa oras, kapasidad, pagiging abot-kaya at serbisyo sa customer; pananagutan ng pamunuan na maabot ang mga ito; pagbabawas ng dobleng tungkulin sa board para mapunta ang mga mapagkukunan sa serbisyo; negosasyon sa Ottawa para sa makatarungang bahagi ng pederal na pondo para sa ferry; high-speed na Wi-Fi sa mga pangunahing ruta at terminal sa pamamagitan ng competitive na pribadong procurement na may mga pamantayan sa performance at walang bagong pasanin sa pamasahe o sa mga nagbabayad ng buwis. Walang halaga sa dolyar, takdang panahon, pagbabawas ng pamasahe o posisyon kung saan gagawin ang mga barko."
+"f8fa7d8c2e",
+"'Aayusin ng mga Conservative ang BC Ferries' (Oktubre 11, 2026): isang BC Ferries Charter na may malinaw na pamantayan sa pagiging maaasahan, pagdating sa oras, kapasidad, pagiging abot-kaya at serbisyo sa customer; pananagutan ng pamunuan na maabot ang mga ito; pagbabawas ng dobleng tungkulin sa board para mapunta ang mga mapagkukunan sa serbisyo; negosasyon sa Ottawa para sa makatarungang bahagi ng pederal na pondo para sa ferry; high-speed na Wi-Fi sa mga pangunahing ruta at terminal sa pamamagitan ng competitive na pribadong procurement na may mga pamantayan sa performance at walang bagong pasanin sa pamasahe o sa mga nagbabayad ng buwis. Nagdaragdag ang plataporma noong Oktubre 18 ng pagsusuri sa kasalukuyang mga kontrata sa pagpapalit ng fleet ('Hindi tayo dapat gumagawa ng mga barko sa China'), ng isang BC Ferry Fleet Renewal Strategy para ibalik sa BC ang paggawa ng ferry at iba pang sasakyang-dagat, at ng pederal na pondo 'na katulad ng sa mga serbisyo ng ferry sa Atlantic'. Walang halaga sa dolyar, takdang panahon o pagbabawas ng pamasahe."
 ],
 "questions/q_local_island_coast_ferries/party_positions/green/text/1": [
 "bd533823a8",
@@ -4524,8 +4524,8 @@
 "Nagsara ang pulp mill ng Domtar sa Crofton (mga 350 trabaho) matapos ang anunsyo noong Disyembre 2025. Sinabi ni Eby na pinataas ng mga limitasyon sa old growth ang presyo ng fibre sa Island pero 'a necessary decision' (isang kinakailangang desisyon) ang mga ito, at hindi opsyon ang paggawang pulp ng old growth para pahabain ang buhay ng mill. Pansamantala ang mga deferral sa old growth mula 2021. Hahatiin sa mga zone ng planong Working Forest ng gobyerno ang mga kagubatan na may layuning 45 milyong cubic metre. Tinatanggihan ng mga Green ang plano; isusulat ito ng CentreBC sa batas."
 ],
 "questions/q_local_island_coast_oldgrowth/context/4": [
-"5b1f517cd4",
-"Nagsara ang pulp mill ng Domtar sa Crofton matapos ang anunsyo noong Disyembre 2025; sinabi ni Eby na pinataas ng mga paghihigpit sa old growth ang presyo ng fibre sa Island pero 'a necessary decision' (isang kinakailangang desisyon) ang mga ito, at hindi opsyon ang paggawang pulp ng old growth para pahabain ang buhay ng mill. Nananatiling pansamantala ang mga deferral sa old growth mula 2021. Nagtatakda ang mandate letter ng ministro ng Forests ng target na ani na 45 milyong cubic metre habang tinatayang mga 30 milyon lang sa Budget 2026. Noong Oktubre 10 sa Courtenay, nangako ang NDP ng $50 milyon para gawing permanente ang pinakabihirang deferral at tulungan ang mga mill na mag-retrofit. Permanenteng poprotektahan ng mga Green ang old growth na may malalaking puno. Gagawa ang CentreBC ng batas para sa mga Working Forest zone. Itataas ng OneBC ang dami ng puputulin. Walang plano sa kagubatan ang mga Conservative para sa 2026."
+"4bf27a5f48",
+"Nagsara ang pulp mill ng Domtar sa Crofton matapos ang anunsyo noong Disyembre 2025; sinabi ni Eby na pinataas ng mga paghihigpit sa old growth ang presyo ng fibre sa Island pero 'isang kinakailangang desisyon' ang mga ito, at hindi opsyon ang paggawang pulp ng old growth para pahabain ang buhay ng mill. Nananatiling pansamantala ang mga deferral sa old growth mula 2021. Nagtatakda ang mandate letter ng ministro ng Forests ng target na ani na 45 milyong cubic metre habang tinatayang mga 30 milyon lang sa Budget 2026. Noong Oktubre 10 sa Courtenay, nangako ang NDP ng $50 milyon para gawing permanente ang pinakabihirang deferral at tulungan ang mga mill na mag-retrofit. Permanenteng poprotektahan ng mga Green ang old growth na may malalaking puno. Gagawa ang CentreBC ng batas para sa mga Working Forest zone. Itataas ng OneBC ang dami ng puputulin. Magtatakda ang mga Conservative ng pinakamababang ani na 45 milyon at poprotektahan lang ang orihinal na old growth at ang mga pinakabihirang ecosystem."
 ],
 "questions/q_local_island_coast_oldgrowth/context/5": [
 "ba937f65c2",
@@ -4611,6 +4611,26 @@
 "6a843b224b",
 "Itaas ang allowable annual cut 'to ensure our forest sector has the available wood fibre to grow and thrive' (para matiyak na may sapat na wood fibre ang sektor ng kagubatan para lumago at umunlad), bawasan ang stumpage fee para sa mga kompanya ng lumber, pabilisin ang pag-apruba ng permit at konsultasyon, nang walang target sa dami o hakbang sa old growth."
 ],
+"questions/q_local_island_coast_oldgrowth/options/e/text/1": [
+"ee7e285f60",
+"Magputol ng kahoy na hindi bababa sa kasalukuyang layunin, aprubahan nang mas mabilis ang mga permit, protektahan ang pinakamatatandang kagubatan at itroso ang iba."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/2": [
+"efdaea9178",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre, aprubahan ang mga permit sa forestry sa loob ng ilang buwan, protektahan ang pinakamatanda at pinakabihirang kagubatan, at ibalik sa pagtotroso ang ibang lugar na itinigil muna."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/3": [
+"6d352f1e60",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre kada taon, pagpasyahan ang mga permit sa forestry sa loob ng ilang buwan sa iisang tanggapan, protektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem, ibalik sa pagtotroso ang natitirang lupang na-defer, at pahabain ang pondo para sa mga trabaho sa manufacturing."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/4": [
+"88dd0ae684",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre, iproseso ang mga permit sa forestry sa pamamagitan ng proseso para sa malalaking proyekto na may iisang tanggapan para sa mga referral sa First Nations, protektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem habang ibinabalik sa working forest ang ibang lupang na-defer, at pahabain ang Manufacturing Jobs Fund."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/5": [
+"49b9b70316",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre, gawing proseso para sa malalaking proyekto ang mga permit sa forestry na pagpapasyahan sa loob ng ilang buwan na may iisang tanggapan para sa mga referral sa First Nations, bawasan ang gastos sa pagpapermit, protektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem at ibalik sa working forest ang natitirang lupang na-defer, at pahabain ang BC Manufacturing Jobs Fund."
+],
 "questions/q_local_island_coast_oldgrowth/party_positions/centrebc/text/1": [
 "453c672a2d",
 "Isusulat ng partidong ito sa batas ang mga zone ng pagtotroso na may mataas na target, magbebenta ng mas maraming pampublikong troso, at pabibilisin ang mga permit."
@@ -4624,16 +4644,16 @@
 "Plataporma (hanggang Oktubre 11, 2026, Economy and Affordability): magsikap tungo sa 45 milyong cubic metre ng trosong kayang anihin nang kumikita, 40 milyon pagsapit ng 2030; Forestry Fibre Task Force; BC Timber Sales sa 9 milyong cubic metre pagsapit ng 2029; pangmatagalang Working Forest zone sa batas kasabay ng mga multiple-use at conservation area; $100 milyon sa loob ng tatlong taon para sa mga manggagawa sa kagubatan at mass timber; Manufacturing Jobs Fund na dodoblehin hanggang $60 milyon kada taon; Forestry One-Stop na may desisyon sa loob ng 90 araw kung saan hindi kailangan ang konsultasyon at environmental review. Walang teksto tungkol sa old growth."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/conservative/text/1": [
-"0e38052378",
-"Walang inilathalang plano sa kagubatan ang partidong ito sa halalang ito, kaya walang iskor ito rito."
+"96ba4ca953",
+"Magpuputol ang partidong ito ng hindi bababa sa 45 milyong cubic metre ng kahoy kada taon, aaprubahan nang mas mabilis ang mga permit, at poprotektahan lang ang pinakamatanda at pinakabihirang kagubatan."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/conservative/text/3": [
-"685e3e795f",
-"May heading na 'Forestry for the Future' ang site ng mga Conservative pero walang teksto. Nangangako ang pahayag nila noong Oktubre 7 na babawasan ang red tape sa antas ng 2017; isinisi ng tagapagsalita ng partido para sa usaping kagubatan ang 'restrictive policies' (mahigpit na mga patakaran) at pagkaantala ng permit sa pagsasara ng mga mill noong 2025. Dahil walang inilathalang posisyon sa old growth, antas ng ani o sa modelo ng zoning, walang iskor ang partido rito."
+"5515aac766",
+"Nagtatakda ang plataporma ng mga Conservative ng pinakamababang ani na 45 milyong cubic metre, pagpapasyahan ang mga permit sa forestry sa loob ng ilang buwan sa iisang tanggapan, poprotektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem habang ibinabalik sa pagtotroso ang ibang lupang na-defer, babawasan ang gastos sa pagpapermit at pahahabain ang Manufacturing Jobs Fund. Hindi nito binabanggit ang Working Forest zoning model o ang stumpage."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/conservative/text/5": [
-"f633d348df",
-"Nakalista sa conservativebc.ca (sinuri hanggang Oktubre 11) ang 'Forestry for the Future' nang walang nilalaman. Pahayag na 'Supercharge' (Oktubre 7): red tape sa antas ng 2017, batas na one-in two-out (isang patakaran ang idaragdag, dalawa ang aalisin), 120 Day Permitting Act para sa mga proyektong lampas $250 milyon, pahayag na 21 mill ang nagsara mula 2023. Tinawag ng tagapagsalita ng partido para sa usaping kagubatan na si Ward Stamer (Nobyembre 2025) ang 'Path to 45' na 'a path to collapse' (daan tungo sa pagbagsak) at isinisi ito sa mahigpit na patakaran at sa pagpapermit; sinasabi ng NDP na tutol ang mga Conservative sa 30 by 30 (pahayag ng NDP). Walang sinabing posisyon sa mga deferral sa old growth. Walang posisyon; susuriin muli kung may lalabas na plataporma."
+"7b5841af9b",
+"Ayon sa plataporma ng mga Conservative noong Oktubre 18, 'dadagdagan ang napapanatiling access sa fibre na may pinakamababang antas na 45 milyong cubic metre', at bibigyan ng makatarungang kabayaran ang mga licensee at ang mga kontratista sa ilalim ng Bill 13 kapag muling inilaan ang tenure; magtatayo ng prosesong 'katulad ng sa malalaking proyekto' para sa mga permit sa forestry na may desisyon 'sa loob ng ilang buwan, hindi taon' at isang single-window (iisang tanggapan) na sentro ng konsultasyon para sa First Nations; susuriin at aalisin ang mga hindi kailangang gastos sa pagpapermit; 'poprotektahan ang orihinal na old growth at ang mga pinakananganganib at pinakabihirang ecosystem at ibabalik ang natitirang lupa sa working forest'; lilikha ng competitive na kondisyon sa buwis para sa mga value-added manufacturer; bubuo ng bioenergy strategy na magsisimula sa mga Clean Fuels Hub sa Prince George at Kamloops; pahahabain ang BC Manufacturing Jobs Fund ($30 milyon kada taon sa kuwenta ng gastos nito); at gagawing 'nangungunang' prayoridad ang softwood lumber sa pakikipag-usap sa United States. Hindi nito binabanggit ang Working Forest Landscape Model o ang mga stumpage rate."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/green/text/1": [
 "26437aa8fc",
@@ -4828,12 +4848,12 @@
 "Hahayaan ng partidong ito na sumunod ang pera sa bawat senior papunta sa isang aprubadong care home, pampubliko man o pribado, at popondohan ang mga klinika sa maliliit na bayan."
 ],
 "questions/q_local_island_coast_seniors/party_positions/conservative/text/3": [
-"052d8833eb",
-"Noong Oktubre 9, nangako ang mga Conservative ng portable na pampublikong pondo para sa seniors na naghihintay ng long-term care, na nagbibigay ng 'a real choice among qualified providers, including non-government options with strong performance safeguards' (tunay na pagpipilian sa mga kwalipikadong provider, kasama ang mga opsyong hindi gobyerno na may matitibay na pananggalang sa performance), at mas mabilis na pagtatayo sa pamamagitan ng pagbabawas sa mga patakaran sa disenyo. Noong Oktubre 5, nangako sila ng $50 milyong pondo para sa mga practice sa rural na lugar, isang komisyon ng mga eksperto at walang pagbabawas sa pondo para sa kalusugan. Walang pangako para sa 2026 sa tore ng Nanaimo."
+"a73582f621",
+"Noong Oktubre 9, nangako ang mga Conservative ng portable na pampublikong pondo para sa seniors na naghihintay ng long-term care, na nagbibigay ng 'tunay na pagpipilian sa mga kwalipikadong provider, kasama ang mga opsyong hindi gobyerno na may matitibay na pananggalang sa performance', at mas mabilis na pagtatayo sa pamamagitan ng pagbabawas sa mga patakaran sa disenyo. Noong Oktubre 5, nangako sila ng $50 milyong pondo para sa mga practice sa rural na lugar, isang komisyon ng mga eksperto at walang pagbabawas sa pondo para sa kalusugan. Walang pangako para sa 2026 sa tore ng Nanaimo. Bubuhayin ng plataporma nito noong Oktubre 18 ang pitong care home na isinantabi, na idinisenyo muli para mas mababa ang gastos bawat kama."
 ],
 "questions/q_local_island_coast_seniors/party_positions/conservative/text/5": [
-"3859c99ab3",
-"Pahayag noong Oktubre 9, 2026: portable na pampublikong pondo para sa seniors na naghihintay ng kama, na may 'a real choice among qualified providers, including non-government options with strong performance safeguards' (tunay na pagpipilian sa mga kwalipikadong provider, kasama ang mga opsyong hindi gobyerno na may matitibay na pananggalang sa performance); mas mabilis na pagtatayo ng kama sa pamamagitan ng pagbabawas sa mga hindi kailangang patakaran sa disenyo; sinasabing 7,200 taga-British Columbia ang naghihintay ng kama sa long-term care at itinulak ng mga patakaran sa disenyo ang ilang iminungkahing kama sa $1.8 milyon bawat isa. Oktubre 5 (100 Mile House): $50 milyong pondo para sa mga practice sa rural na lugar, flexible na staffing, awtomatikong pagkilala sa credentials, komisyon ng mga eksperto sa loob ng 100 araw, pananatilihin ang budget sa kalusugan ng 2026. Gusto ng kandidato sa Nanaimo-Lantzville na si Pringle ng cardiac care na mas malapit sa tahanan; walang nakitang pangako ng partido para sa 2026 sa tore o sa cath lab."
+"cdc84b4f8a",
+"Pahayag noong Oktubre 9, 2026: portable na pampublikong pondo para sa seniors na naghihintay ng kama, na may 'tunay na pagpipilian sa mga kwalipikadong provider, kasama ang mga opsyong hindi gobyerno na may matitibay na pananggalang sa performance'; mas mabilis na pagtatayo ng kama sa pamamagitan ng pagbabawas sa mga hindi kailangang patakaran sa disenyo; sinasabing 7,200 taga-British Columbia ang naghihintay ng kama sa long-term care at itinulak ng mga patakaran sa disenyo ang ilang iminungkahing kama sa $1.8 milyon bawat isa. Oktubre 5 (100 Mile House): $50 milyong pondo para sa mga practice sa rural na lugar, flexible na staffing, awtomatikong pagkilala sa credentials, komisyon ng mga eksperto sa loob ng 100 araw, pananatilihin ang budget sa kalusugan ng 2026. Gusto ng kandidato sa Nanaimo-Lantzville na si Pringle ng cardiac care na mas malapit sa tahanan; walang nakitang pangako ng partido para sa 2026 sa tore o sa cath lab. Bubuhayin ng plataporma nito noong Oktubre 18 ang pitong long-term care home na itinigil muna sa Budget 2026, kasama ang sa Campbell River, 'na idinisenyo muli para mas mababa ang gastos bawat kama' ($1.43 bilyon ayon sa kasalukuyang tantya, nasa capital plan na), at tinataya ang gastos ng mga hakbang nito para sa seniors sa $350 milyon kada taon."
 ],
 "questions/q_local_island_coast_seniors/party_positions/green/text/1": [
 "de600d5c71",
@@ -5004,16 +5024,16 @@
 "Plataporma (Oktubre 10, mga pahina 7, 11 at 13): pamantayan ng probinsya sa pag-apruba na anim na buwan para sa rezoning at walong linggo para sa building permit, iisang hanay ng patakaran sa lahat ng munisipyo pagsapit ng Enero 1, 2028, ibabalik ang bayad kapag hindi naabot; isang housing performance fund na $125 milyon kada taon para sa mga lungsod na umaabot sa mga takdang panahon at target; isang growth fund na $240 milyon kada taon; pagbili ng lupa malapit sa mga bagong istasyon ng transit bago ang anunsyo. Pinananatili nito ang mga patakaran sa densidad malapit sa transit at hindi binabanggit ang pagbasura sa utos sa small-scale multi-unit o ang sulat ng mga mayor."
 ],
 "questions/q_local_metro_density/party_positions/conservative/text/1": [
-"b83ef0e8eb",
-"Nangako ang partidong ito noong 2024 na ibabasura ang patakaran sa lote at babayaran ang mga lungsod na nagpapayag ng mas maraming bahay. Wala itong sinabi tungkol dito ngayon."
+"6cd81bac7f",
+"Sinasabi ng partidong ito na ang mga lungsod ang dapat magpasya kung saan ilalagay ang mga bagong bahay. Noong 2024, nangako itong ibabasura ang patakaran sa lote at babayaran ang mga lungsod na nagpapayag ng mas maraming bahay."
 ],
 "questions/q_local_metro_density/party_positions/conservative/text/3": [
-"81c68a03ad",
-"Noong 2024, nangako ang mga Conservative na ibabasura ang batas sa bilang ng bahay bawat lote at papalitan ito ng pondong $1 bilyon kada taon para sa mga lungsod na nagpapayag ng ganitong pabahay, pre-zoning kasama ang mga lungsod at mga pagbabago sa batas sa mga lugar malapit sa transit. Wala silang inilathalang posisyon para sa 2026 sa mga batas sa densidad, kaya ang opsyon c ay hinuha mula sa 2024 at mababa ang katiyakan."
+"98c68bb440",
+"Sinasabi ng plataporma ng mga Conservative sa 2026 na ang mga lungsod, hindi ang probinsya, ang dapat magpasya kung saan ilalagay ang densidad sa ilalim ng sarili nilang community plan, pero hindi nito pinangangalanan ang mga batas sa densidad. Noong 2024, nangako sila na ibabasura ang batas sa bilang ng bahay bawat lote at papalitan ito ng pondong $1 bilyon kada taon para sa mga lungsod na nagpapayag ng ganitong pabahay; wala ang pondong iyon sa kuwenta ng gastos sa 2026. Hinuha ang opsyon c at mababa ang katiyakan."
 ],
 "questions/q_local_metro_density/party_positions/conservative/text/5": [
-"6585b5caa7",
-"Plataporma noong 2024 (Global News, Setyembre 27, 2024): ibasura ang Bill 44 at lumikha ng pondong $1 bilyon kada taon para sa mga munisipyong nagpapayag ng small-scale multi-unit housing sa hindi bababa sa dalawang-katlo ng residential na lupa, pre-zoning kasama ang mga lungsod, at pag-amyenda sa Bill 47 para obligahing may mga tindahan at serbisyo na kayang lakarin. 2026: tanging 'pababain ang gastos sa pagtatayo at pagbili ng bahay' at isang plano para sa Metro Vancouver na ibabalik ang mga tungkulin sa pabahay mula sa regional district sa mga lungsod at sa probinsya. Hinuha, mababa ang katiyakan."
+"b02fa746c9",
+"Plataporma sa 2026 (Oktubre 18): 'Bigyan ang mga lokal na gobyerno ng boses sa pagpapasya kung saan ilalagay ang densidad', na pinananagot ang mga munisipyo sa mga official community plan na lokal na binuo 'na may angkop na mga target sa densidad', dahil kung saan ilalagay ang densidad ay 'kailangang desisyon ng lokal na gobyerno at mga lokal na residente, hindi ng mga burukrata sa Victoria'; aprubahan ang mga bahay 'sa loob ng ilang buwan, hindi taon'; paglagong may kasamang kalsada, transit, paaralan at serbisyo. Hindi nito pinangangalanan ang Bill 44 o ang Bill 47 at walang pondo para sa mga lungsod sa kuwenta ng gastos nito. Plataporma noong 2024 (Global News, Setyembre 27, 2024): ibasura ang Bill 44 at lumikha ng pondong $1 bilyon kada taon para sa mga munisipyong nagpapayag ng small-scale multi-unit housing sa hindi bababa sa dalawang-katlo ng residential na lupa, pre-zoning kasama ang mga lungsod, at pag-amyenda sa Bill 47 para obligahing may mga tindahan at serbisyo na kayang lakarin. Hinuha ang opsyon c mula sa plano noong 2024 at sa pangako noong 2026 sa lokal na kontrol, mababa ang katiyakan."
 ],
 "questions/q_local_metro_density/party_positions/green/text/1": [
 "20f2b3e2dc",
@@ -5208,12 +5228,12 @@
 "Ibabasura ng partidong ito ang batas sa karapatan ng mga Katutubo at uunahin ang karapatan sa ari-arian, at ang mga inihalal ang magpapasya."
 ],
 "questions/q_local_metro_title_homes/party_positions/conservative/text/3": [
-"9ee7bf8976",
-"Nangangako ang mga Conservative na ibabasura ang DRIPA, 'protektahan ang karapatan sa ari-arian, at ibalik ang mahahalagang desisyon sa mga kamay ng mga inihalal na kinatawan', at sinasabing gusto nilang magtayo ng mga proyekto sa pakikipagtulungan sa First Nations. Bumoto sila pabor sa panukalang batas ng OneBC sa karapatan sa ari-arian sa unang pagbasa. Wala silang pahayag tungkol sa desisyon sa Cowichan o sa kabayaran."
+"39ab19f59a",
+"Ibabasura ng plataporma ng mga Conservative ang DRIPA, magpapasa ng batas na nagpapatibay sa titulo ng lupa sa lahat ng lupang pribadong pag-aari, ilalathala ang mga claim sa titulo at mga kasunduan bago maging may bisa ang mga ito, at magtatayo ng mga proyekto kasama ang First Nations. Bumoto sila pabor sa panukalang batas ng OneBC sa karapatan sa ari-arian sa unang pagbasa. Wala silang pahayag tungkol sa desisyon sa Cowichan o sa kabayaran."
 ],
 "questions/q_local_metro_title_homes/party_positions/conservative/text/5": [
-"8c6c3f8b78",
-"Pahina ng plano na 'Repeal DRIPA, Promote Economic Reconciliation' (Oktubre 7): sinasabi ni Doerkson na 'kailangang ibasura' ang DRIPA at gusto niya ng 'pakikipagtulungan sa First Nations' sa mga proyekto. Si Doerkson sa X, Oktubre 7: 'Ibasura ang DRIPA, protektahan ang karapatan sa ari-arian, at ibalik ang mahahalagang desisyon sa mga kamay ng mga inihalal na kinatawan.' Noong Oktubre 29, 2025, bumoto ng pabor ang caucus sa unang pagbasa ng Property Rights Protection Act (natalo, 40 laban sa 48). Walang inilathalang posisyon sa apela sa Cowichan, sa garantiya sa kabayaran o sa batas na papalit na nakabatay sa kasunduan (treaty)."
+"0e1a59621e",
+"Ibabasura ng plataporma ng mga Conservative noong Oktubre 18 ang DRIPA, ang section 8.1 ng Interpretation Act at ang mga litigation directive ng NDP; magpapasa ito ng Property Rights Defence Act 'na nagpapatibay sa bisa ng Land Title Act sa lahat ng fee-simple na ari-arian'; magpapasa ng Aboriginal Title Transparency Act na naglalathala ng mga mapa at impormasyon tungkol sa mga claim, negosasyon, legal na aksyon at kasunduan bago maging may bisa ang mga ito; at itutuloy ang reconciliation sa pamamagitan ng mga kasunduan (treaty), pagbabahagi ng kita at pagmamay-ari. Si Doerkson sa X, Oktubre 7: 'Ibasura ang DRIPA, protektahan ang karapatan sa ari-arian, at ibalik ang mahahalagang desisyon sa mga kamay ng mga inihalal na kinatawan.' Noong Oktubre 29, 2025, bumoto ng pabor ang caucus sa unang pagbasa ng Property Rights Protection Act (natalo, 40 laban sa 48). Walang inilathalang posisyon sa apela sa Cowichan o sa garantiya sa kabayaran."
 ],
 "questions/q_local_metro_title_homes/party_positions/green/text/1": [
 "6abf3d0dbe",
@@ -5408,12 +5428,12 @@
 "Sinasabi ng partidong ito na walang bagong buwis o singil, at gusto nitong bawasan ang pag-aaksaya sa gobyerno ng rehiyon."
 ],
 "questions/q_local_metro_translink/party_positions/conservative/text/3": [
-"a4f0f392e8",
-"Binatikos ng mga Conservative ang naiulat na singil sa sasakyan bilang 'secret vehicle tax plan' (lihim na plano ng buwis sa sasakyan) at nangangakong walang bago o mas mataas na buwis. Wala silang inilathalang plano sa pondo ng TransLink. Susuriin at paliliitin ng kanilang plano noong Oktubre 5 ang Metro Vancouver regional district. Palalawakin nila ang HandyDART kung saan pinakamataas ang pangangailangan."
+"c414fafda6",
+"Binatikos ng mga Conservative ang naiulat na singil sa sasakyan bilang 'lihim na plano ng buwis sa sasakyan' at nangangakong walang bago o mas mataas na buwis. Wala silang inilathalang plano sa pondo ng TransLink. Susuriin at paliliitin ng kanilang plano noong Oktubre 5 ang Metro Vancouver regional district. Palalawakin nila ang HandyDART kung saan pinakamataas ang pangangailangan. Ipagbabawal sa batas ng kanilang plataporma noong Oktubre 18 ang singil ng TransLink sa sasakyan."
 ],
 "questions/q_local_metro_translink/party_positions/conservative/text/5": [
-"895216681c",
-"Tinututulan ng pahayag noong Oktubre 2 na 'Eby Must Answer on Secret Vehicle Tax Plan' (Dapat Sumagot si Eby sa Lihim na Plano ng Buwis sa Sasakyan) ang singil at walang iminumungkahing ibang mapagkukunan ng kita. Noong Setyembre 27, nangako si Doerkson na hindi magtataas ng kasalukuyang buwis o magpapataw ng bago. Susuriin ng plano nito para sa Metro Vancouver noong Oktubre 5 ang North Shore wastewater plant, lilikha ng 'mas maliit at propesyonal na board' at ibabalik sa mga lungsod at sa probinsya ang mga tungkulin sa pabahay, pagpapaunlad ng ekonomiya at klima. Pinalalawak ng plano nito para sa seniors noong Oktubre 9 ang HandyDART. Walang pangako para sa 2026 sa kakulangan ng TransLink sa 2028 o sa SkyTrain hanggang UBC."
+"e95e8f8c69",
+"Tinututulan ng pahayag noong Oktubre 2 na 'Dapat Sumagot si Eby sa Lihim na Plano ng Buwis sa Sasakyan' ang singil at walang iminumungkahing ibang mapagkukunan ng kita. Noong Setyembre 27, nangako si Doerkson na hindi magtataas ng kasalukuyang buwis o magpapataw ng bago. Susuriin ng plano nito para sa Metro Vancouver noong Oktubre 5 ang North Shore wastewater plant, lilikha ng 'mas maliit at propesyonal na board' at ibabalik sa mga lungsod at sa probinsya ang mga tungkulin sa pabahay, pagpapaunlad ng ekonomiya at klima. Pinalalawak ng plano nito para sa seniors noong Oktubre 9 ang HandyDART. Walang pangako para sa 2026 sa kakulangan ng TransLink sa 2028 o sa SkyTrain hanggang UBC. Aamyendahan ng plataporma noong Oktubre 18 ang South Coast British Columbia Transportation Authority Act para hindi makapagpataw ang TransLink ng buwis o singil sa pagmamay-ari o pagpaparehistro ng sasakyan, susuportahan ang pagpapalawak ng transit 'kung saan ipinapakita ng populasyon at dami ng sumasakay ang pangangailangan', at gagawin ang Metro Vancouver na 'isang payak at maliit na regional utility' na may propesyonal na board."
 ],
 "questions/q_local_metro_translink/party_positions/green/text/1": [
 "a1b2d1520f",
@@ -5608,12 +5628,12 @@
 "Magtatayo ang partidong ito ng emergency fund para pigilan ang pagsasara ng mga emergency room sa maliliit na bayan."
 ],
 "questions/q_local_north_er/party_positions/conservative/text/3": [
-"7681fa7b5e",
-"Sa 100 Mile House noong Oktubre 5, nangako ang mga Conservative ng $50 milyong emergency fund para sa mga rural medical practice na nanganganib magsara, flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, awtomatikong pagkilala sa mga kredensyal mula sa ibang probinsya, mas mabilis na pagkilala para sa mga Canadian na doktor na nagsanay sa ibang bansa, prayoridad sa mga estudyante ng BC sa pagsasanay sa medisina, isang komisyon ng mga eksperto sa loob ng 100 araw at walang pagbabawas sa pondo para sa health care. Hindi nila sinabi kung isang beses lang o taun-taon ang pondo."
+"0e2b8081cf",
+"Sa 100 Mile House noong Oktubre 5, nangako ang mga Conservative ng $50 milyong emergency fund para sa mga medical practice sa rural na lugar na nanganganib magsara, flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, awtomatikong pagkilala sa credentials mula sa ibang probinsya, mas mabilis na pagkilala sa mga doktor na taga-Canada na nag-aral sa ibang bansa, prayoridad sa mga estudyante ng BC sa medical training, komisyon ng mga eksperto sa loob ng 100 araw at walang bawas sa pondo para sa kalusugan. Tinataya ng kanilang plataporma noong Oktubre 18 ang gastos ng mga hakbang na ito para sa access at pangangalaga sa rural na lugar sa $205 milyon kada taon, nang hindi sinasabi kung isang beses lang o taun-taon ang pondo mismo."
 ],
 "questions/q_local_north_er/party_positions/conservative/text/5": [
-"6b3934b6b3",
-"'Keep Emergency Rooms Open' (Oktubre 5, 2026, inilunsad sa 100 Mile House; pahayag at talumpati ni Doerkson ayon sa ulat ng 100 Mile Free Press): $50 milyong emergency fund para sa mga rural practice na nanganganib magsara (hindi sinabi kung isang beses o paulit-ulit), flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, awtomatikong pagkilala sa mga kredensyal mula sa ibang probinsya at mas mabilis na pagkilala para sa mga Canadian na doktor na nagsanay sa ibang bansa, prayoridad sa mga estudyante ng BC sa pagsasanay sa medisina, isang komisyon ng mga eksperto sa loob ng 100 araw, mananatiling universal at pinopondohan ng publiko ang sistema, walang bawas sa budget sa kalusugan ng 2026. Ang panawagan ng dating miyembro ng caucus na si Kealy na palitan ang Northern Health ng mga lokal na board ay kanyang sariling panawagan, hindi patakaran ng partido."
+"27ee05840b",
+"'Keep Emergency Rooms Open' (Oktubre 5, 2026, inilunsad sa 100 Mile House; pahayag at talumpati ni Doerkson ayon sa ulat ng 100 Mile Free Press): $50 milyong emergency fund para sa mga practice sa rural na lugar na nanganganib magsara (hindi sinabi kung isang beses o paulit-ulit), flexible na staffing para maiwasan ang pagsasara ng emergency at maternity, awtomatikong pagkilala sa credentials mula sa ibang probinsya at mas mabilis na pagkilala sa mga doktor na taga-Canada na nag-aral sa ibang bansa, prayoridad sa mga estudyante ng BC sa medical training, komisyon ng mga eksperto sa loob ng 100 araw, pananatilihing unibersal at pinopondohan ng publiko ang sistema, walang bawas sa budget sa kalusugan ng 2026. Sariling panawagan ni Kealy, dating miyembro ng caucus, ang palitan ang Northern Health ng mga lokal na board; hindi ito patakaran ng partido. Nagdaragdag ang plataporma noong Oktubre 18 ng medikal na transportasyon sa rural na lugar at tinataya ang gastos ng mga hakbang para sa access at pangangalaga sa rural na lugar, kasama ang pondo, sa $205 milyon kada taon."
 ],
 "questions/q_local_north_er/party_positions/green/text/1": [
 "6e5444fbf0",
@@ -5680,8 +5700,8 @@
 "Inanunsyo ng Canfor noong Hulyo na isasara nito ang Northwood pulp mill sa Prince George bago matapos ang 2026, at sinisi ang pagkalugi at ang kakulangan ng wood fibre. Ang probinsya ang may-ari ng karamihan ng lupang kagubatan at nagtatakda kung gaano karami ang maaaring putulin. Gusto ng gobyerno na itaas ang dami ng pagtotroso gamit ang isang bagong plano sa zoning. Hindi nagkakasundo ang mga partido kung gaano karami ang puputulin."
 ],
 "questions/q_local_north_forestry/context/3": [
-"0a91765ab2",
-"Inanunsyo ng Canfor noong Hulyo 14, 2026 na magsasara ang Northwood pulp mill nito sa Prince George, at binanggit nitong dahilan ang pagkalugi sa pulp at limitadong suplay ng fibre. Hahatiin ng Working Forest plan ng probinsya ang pampublikong kagubatan sa mga zone para sa troso, maraming gamit at konserbasyon, na may layuning 45 milyong cubic metre kada taon, mula sa mga 30 milyon. Tinatanggihan ng mga Green ang plano, gagawin itong batas ng CentreBC, itataas ng OneBC ang dami ng pagputol, at walang inilathalang patakaran sa forestry ang mga Conservative para sa 2026."
+"632519b47e",
+"Inanunsyo ng Canfor noong Hulyo 14, 2026 na magsasara ang Northwood pulp mill nito sa Prince George, at binanggit nitong dahilan ang pagkalugi sa pulp at limitadong suplay ng fibre. Hahatiin ng Working Forest plan ng probinsya ang pampublikong kagubatan sa mga zone para sa troso, maraming gamit at konserbasyon, na may layuning 45 milyong cubic metre kada taon, mula sa mga 30 milyon. Tinatanggihan ng mga Green ang plano, gagawin itong batas ng CentreBC, itataas ng OneBC ang dami ng pagputol, at magtatakda ang mga Conservative ng pinakamababang ani na 45 milyon."
 ],
 "questions/q_local_north_forestry/context/4": [
 "18e69c730c",
@@ -5771,6 +5791,26 @@
 "6a843b224b",
 "Dagdagan ang allowable annual cut 'para matiyak na may sapat na wood fibre ang ating sektor ng kagubatan para lumago at umunlad', bawasan ang stumpage fee para sa mga kumpanya ng tabla, pabilisin ang pag-apruba ng permit at mga konsultasyon, nang walang target sa dami o hakbang para sa lumang kagubatan."
 ],
+"questions/q_local_north_forestry/options/e/text/1": [
+"ee7e285f60",
+"Magputol ng kahoy na hindi bababa sa kasalukuyang layunin, aprubahan nang mas mabilis ang mga permit, protektahan ang pinakamatatandang kagubatan at itroso ang iba."
+],
+"questions/q_local_north_forestry/options/e/text/2": [
+"efdaea9178",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre, aprubahan ang mga permit sa forestry sa loob ng ilang buwan, protektahan ang pinakamatanda at pinakabihirang kagubatan, at ibalik sa pagtotroso ang ibang lugar na itinigil muna."
+],
+"questions/q_local_north_forestry/options/e/text/3": [
+"6d352f1e60",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre kada taon, pagpasyahan ang mga permit sa forestry sa loob ng ilang buwan sa iisang tanggapan, protektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem, ibalik sa pagtotroso ang natitirang lupang na-defer, at pahabain ang pondo para sa mga trabaho sa manufacturing."
+],
+"questions/q_local_north_forestry/options/e/text/4": [
+"88dd0ae684",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre, iproseso ang mga permit sa forestry sa pamamagitan ng proseso para sa malalaking proyekto na may iisang tanggapan para sa mga referral sa First Nations, protektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem habang ibinabalik sa working forest ang ibang lupang na-defer, at pahabain ang Manufacturing Jobs Fund."
+],
+"questions/q_local_north_forestry/options/e/text/5": [
+"49b9b70316",
+"Magtakda ng pinakamababang ani na 45 milyong cubic metre, gawing proseso para sa malalaking proyekto ang mga permit sa forestry na pagpapasyahan sa loob ng ilang buwan na may iisang tanggapan para sa mga referral sa First Nations, bawasan ang gastos sa pagpapermit, protektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem at ibalik sa working forest ang natitirang lupang na-defer, at pahabain ang BC Manufacturing Jobs Fund."
+],
 "questions/q_local_north_forestry/party_positions/centrebc/text/1": [
 "236fa0e6e3",
 "Gagawing batas ng partidong ito ang mga zone para sa pagtotroso, magbebenta ng mas maraming pampublikong troso, at pabibilisin ang mga permit."
@@ -5784,16 +5824,16 @@
 "Plataporma (Oktubre 10, Economy and Affordability): magtrabaho patungo sa 45 milyong cubic metre ng trosong mapapakinabangan sa ekonomiya, 40 milyon pagsapit ng 2030; Forestry Fibre Task Force; BC Timber Sales sa 9 milyong cubic metre kada taon pagsapit ng 2029; pangmatagalang Working Forest zone sa batas kasabay ng mga lugar na multiple-use at konserbasyon; $100 milyon sa loob ng tatlong taon para sa mga bihasang manggagawa sa forestry at mass timber; Forestry One-Stop na may desisyon sa loob ng 90 araw; dinodoble ang Manufacturing Jobs Fund sa $60 milyon kada taon; $3 bilyong equity financing para sa First Nations; isang full-time na kinatawan sa Washington para sa usapan tungkol sa softwood. Walang seksyon tungkol sa lumang kagubatan."
 ],
 "questions/q_local_north_forestry/party_positions/conservative/text/1": [
-"0e38052378",
-"Hindi naglathala ang partidong ito ng plano sa forestry sa halalang ito, kaya walang iskor ito rito."
+"96ba4ca953",
+"Magpuputol ang partidong ito ng hindi bababa sa 45 milyong cubic metre ng kahoy kada taon, aaprubahan nang mas mabilis ang mga permit, at poprotektahan lang ang pinakamatanda at pinakabihirang kagubatan."
 ],
 "questions/q_local_north_forestry/party_positions/conservative/text/3": [
-"cd40ab8838",
-"Ipinapakita ng site ng mga Conservative ang heading na 'Forestry for the Future' nang walang teksto. Sinasabi ng materyales sa kampanya na 'bubuhayin' nito ang forestry at magpapasa ng batas na nagtatakda ng 120 araw para sa pagproseso ng mga permit; sinisi ng tagapagsalita ng oposisyon sa usapin ng forestry ang patakaran ng gobyerno at ang pagkaantala sa pagproseso ng mga permit bilang mga dahilan ng pagsasara ng mga mill noong 2025. Dahil walang inilathalang patakaran sa dami ng pagtotroso o sa zoning model, walang iskor ang partido rito."
+"5515aac766",
+"Nagtatakda ang plataporma ng mga Conservative ng pinakamababang ani na 45 milyong cubic metre, pagpapasyahan ang mga permit sa forestry sa loob ng ilang buwan sa iisang tanggapan, poprotektahan ang orihinal na old growth at ang mga pinakabihirang ecosystem habang ibinabalik sa pagtotroso ang ibang lupang na-defer, babawasan ang gastos sa pagpapermit at pahahabain ang Manufacturing Jobs Fund. Hindi nito binabanggit ang Working Forest zoning model o ang stumpage."
 ],
 "questions/q_local_north_forestry/party_positions/conservative/text/5": [
-"5c748a365d",
-"Nakalista sa conservativebc.ca (sinuri noong Oktubre 12) ang 'Forestry for the Future' bilang heading na walang laman. Anunsyong 'Supercharge' (Oktubre 7): 120 Day Permitting Act para sa mga proyektong higit sa $250 milyon, red tape pabalik sa antas ng 2017. Tinawag ng kritiko na si Ward Stamer (Nobyembre 2025) ang 'Path to 45' na 'daan patungo sa pagbagsak' at sinisi ang mahigpit na patakaran at pagbibigay ng permit; nanawagan si Doerkson (Nobyembre 2025) ng 'angkop na antas ng pagtotroso na kayang bumuhay sa mga mill sa buong probinsya'. Walang sinabing posisyon tungkol sa Working Forest model, sa layuning 45 milyon, sa stumpage o sa lumang kagubatan. Walang posisyon; susuriin muli kung may lalabas na plataporma."
+"7b5841af9b",
+"Ayon sa plataporma ng mga Conservative noong Oktubre 18, 'dadagdagan ang napapanatiling access sa fibre na may pinakamababang antas na 45 milyong cubic metre', at bibigyan ng makatarungang kabayaran ang mga licensee at ang mga kontratista sa ilalim ng Bill 13 kapag muling inilaan ang tenure; magtatayo ng prosesong 'katulad ng sa malalaking proyekto' para sa mga permit sa forestry na may desisyon 'sa loob ng ilang buwan, hindi taon' at isang single-window (iisang tanggapan) na sentro ng konsultasyon para sa First Nations; susuriin at aalisin ang mga hindi kailangang gastos sa pagpapermit; 'poprotektahan ang orihinal na old growth at ang mga pinakananganganib at pinakabihirang ecosystem at ibabalik ang natitirang lupa sa working forest'; lilikha ng competitive na kondisyon sa buwis para sa mga value-added manufacturer; bubuo ng bioenergy strategy na magsisimula sa mga Clean Fuels Hub sa Prince George at Kamloops; pahahabain ang BC Manufacturing Jobs Fund ($30 milyon kada taon sa kuwenta ng gastos nito); at gagawing 'nangungunang' prayoridad ang softwood lumber sa pakikipag-usap sa United States. Hindi nito binabanggit ang Working Forest Landscape Model o ang mga stumpage rate."
 ],
 "questions/q_local_north_forestry/party_positions/green/text/1": [
 "805cf75ec2",
@@ -5988,12 +6028,12 @@
 "Gagawing batas ng partidong ito na dapat aprubahan ang malalaking proyekto sa loob ng apat na buwan, dodoblehin ang produksyon ng gas, at aalisin ang mga limitasyon sa emisyon."
 ],
 "questions/q_local_north_resources/party_positions/conservative/text/3": [
-"89154a2d0a",
-"Ang Energy Superpower plan ng mga Conservative (Setyembre 28) ay magdodoble sa produksyon ng gas pagsapit ng 2032 at gagawin itong triple pagsapit ng 2035, gagawing batas ang permit sa loob ng 120 araw para sa mga proyektong higit sa $250 milyon, aalisin ang mga limitasyon sa emisyon na sinasabi nitong humaharang sa pamumuhunan lampas sa LNG Canada, papalitan ang balangkas ng carbon tax para sa LNG, pabibilisin ang Ksi Lisims, at magtatakda ng tiyak na deadline para sa North Coast Transmission Line."
+"030e23a678",
+"Ang Energy Superpower plan ng mga Conservative (Setyembre 28) ay dodoblehin ang produksyon ng gas pagsapit ng 2032 at gagawin itong tatlong beses pagsapit ng 2035, isasabatas ang 120-araw na pagpapermit para sa mga proyektong higit sa $250 milyon, tatapusin ang mga limitasyon sa emisyon na sinasabi nitong humaharang sa pamumuhunan lampas sa LNG Canada, papalitan ang carbon-tax framework para sa LNG, pabibilisin ang Ksi Lisims, at magtatakda ng tiyak na deadline para sa North Coast Transmission Line. Inuulit ito ng plataporma nito noong Oktubre 18, nagdaragdag ng equity financing para sa First Nations, at pinananatili ang carbon price sa malalaking industriya habang ibinabasura ang CleanBC."
 ],
 "questions/q_local_north_resources/party_positions/conservative/text/5": [
-"de7788a100",
-"BC Energy Superpower Plan (Setyembre 28, 2026): doblehin ang produksyon ng LNG pagsapit ng 2032 at gawing triple pagsapit ng 2035; 120 Day Permitting Act para sa mga proyektong higit sa $250 milyon; alisin ang mga limitasyon sa emisyon at palitan ang balangkas ng carbon tax para sa LNG ng 'matatag na gabay'; competitive na balangkas ng royalty; pabilisin ang Ksi Lisims; suportahan ang Coastal GasLink phase 2 at Prince Rupert Gas Transmission; tiyak na deadline para sa North Coast Transmission Line; mga plano sa gas kasama ang mga nasyon ng Treaty 8; ang Montney bilang estratehikong yaman. Tinanggap nang mabuti ng kandidato sa Skeena na si Rattée ang Phase 2 (Setyembre 29)."
+"f2182bec55",
+"BC Energy Superpower Plan (Setyembre 28, 2026): doblehin ang produksyon ng LNG pagsapit ng 2032 at gawing tatlong beses pagsapit ng 2035; 120 Day Permitting Act para sa mga proyektong higit sa $250 milyon; tapusin ang mga limitasyon sa emisyon at palitan ang carbon-tax framework para sa LNG ng 'matatag na gabay'; competitive na royalty framework; pabilisin ang Ksi Lisims; suportahan ang Coastal GasLink phase 2 at ang Prince Rupert Gas Transmission; tiyak na deadline para sa North Coast Transmission Line; mga plano sa gas kasama ang mga nasyon ng Treaty 8; ang Montney bilang estratehikong asset. Tinanggap ng kandidato sa Skeena na si Rattée ang Phase 2 (Setyembre 29). Inuulit ng plataporma noong Oktubre 18 ang mga layuning ito, gagawin ang BC na 'pinakamabilis na lugar sa North America para mabigyan ng permit ang isang minahan at isang LNG facility', ituturing ang transmission papunta sa northwest, northeast at southern Interior bilang imprastrukturang mahalaga sa probinsya na may tiyak na petsa ng pagsisimula ng serbisyo, at bubuuin muli ang equity financing program ng BC para sa First Nations; ibinabasura nito ang CleanBC pero pinananatili ang 'carbon price sa malalaking industrial emitter'."
 ],
 "questions/q_local_north_resources/party_positions/green/text/1": [
 "2de0e1be62",
@@ -6164,16 +6204,16 @@
 "Binabanggit ng plataporma ang linya kasama ng Fraser River Tunnel at pagpapalapad ng Highway 1 sa $15 bilyong tatlong-taong plano, dagdag ang $3.5 bilyon pang uutangin para sa transportasyon, rapid bus at koneksyon sa pantalan. Nagdadagdag ito ng mga anim na linya ng rapid bus, 15% pang serbisyo pagsapit ng 2030, refundable na 15% na BC Commuter Credit sa transit pass at pamasahe sa ferry, at pag-aaral ng rapid transit sa timog ng Fraser. Wala itong ibinigay na halaga sa dolyar para sa linya at walang posisyon sa kakulangan ng TransLink sa 2028 o sa singil sa sasakyan. Walang inilathalang posisyon ang kandidatong si Paul Brar."
 ],
 "questions/q_local_skytrain/party_positions/conservative/text/1": [
-"886598a70d",
-"Walang ipinangako ang partidong ito tungkol sa SkyTrain ngayon. Noong 2024, sinabi nitong tatapusin nito ang linya sa mas mababang halaga."
+"4270af15d1",
+"Ipagbabawal ng partidong ito ang bagong singil sa sasakyan para sa transit at susuriin ang gastos ng malalaking proyekto. Noong 2024, sinabi nitong tatapusin nito ang linya sa mas mababang halaga."
 ],
 "questions/q_local_skytrain/party_positions/conservative/text/3": [
-"564659386b",
-"Walang pangako ang mga Conservative sa transit para sa 2026. Noong 2024, tinawag nilang 'debacle' (kapalpakan) ang $6 bilyong gastos at sinabing 'get it done in an affordable way' (tatapusin ito sa abot-kayang paraan), pero hindi kailanman nangakong kakanselahin ito. Ang pangako nilang walang bagong buwis ay may epekto sa kung paano mapupunan ang kakulangan ng TransLink."
+"febff6aa95",
+"Ipagbabawal sa batas ng plataporma ng mga Conservative ang singil ng TransLink sa sasakyan, susuportahan ang pagpapalawak ng transit kung saan ito binibigyang-katwiran ng dami ng sumasakay, at magsasagawa ng audit sa capital plan, at binabanggit ang pagtaas ng gastos ng linya ng SkyTrain. Hindi nito sinasabi kung paano pupunan ang kakulangan ng TransLink sa 2028. Noong 2024, tinawag nila ang $6 bilyong gastos na 'kapalpakan' at sinabing 'tatapusin nila ito sa abot-kayang paraan'."
 ],
 "questions/q_local_skytrain/party_positions/conservative/text/5": [
-"8567787957",
-"Walang nakitang pangako ng Conservative para sa 2026 tungkol sa SkyTrain o TransLink sa site ng partido hanggang Oktubre 12. Noong Agosto 2024, tinawag ni Rustad ang linya na 'ang $6 bilyong kapalpakan ng Surrey Skytrain' at sinabing 'tatapusin ito sa abot-kayang paraan' ng isang gobyernong Conservative. Hindi kumpirmado ang sinasabi ng NDP na kakanselahin ito ni Rustad. Para sa 2026, nangangako ang partido ng walang bagong buwis at ibabalik ang Metro Vancouver sa tubig at sewage lamang. Inatake ng pahayag nito noong Oktubre 2 ang iniulat na singil sa sasakyan at wala itong inalok na alternatibo. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
+"cf0dd8ce13",
+"Aamyendahan ng plataporma ng mga Conservative noong Oktubre 18 ang South Coast British Columbia Transportation Authority Act para hindi makapagpataw ang TransLink ng buwis o singil sa pagmamay-ari o pagpaparehistro ng sasakyan, susuportahan ang pagpapalawak ng SkyTrain, rapid bus at bus 'kung saan ipinapakita ng populasyon at dami ng sumasakay ang pangangailangan', at magsasagawa ng audit sa capital plan ng probinsya sa loob ng anim na buwan, at binabanggit ang pagtaas ng Surrey-Langley SkyTrain mula $3.94 bilyon hanggang mga $6 bilyon. Wala itong pangako tungkol sa kakulangan ng TransLink sa 2028 at hindi nito sinasabi kung tatapusin ang linya ayon sa plano. Noong Agosto 2024, tinawag ito ni Rustad na 'ang $6 bilyong kapalpakan ng Surrey Skytrain' at sinabing 'tatapusin ito sa abot-kayang paraan' ng isang gobyernong Conservative. Hindi kumpirmado ang sinasabi ng NDP na kakanselahin ito ni Rustad. Nangangako ang partido ng walang bagong buwis at gagawin nito ang Metro Vancouver na isang payak at maliit na regional utility. Mga tema lang ng partido ang inilathala ng kandidatong si Purewal."
 ],
 "questions/q_local_skytrain/party_positions/green/text/1": [
 "6119c3de2a",
@@ -6244,12 +6284,12 @@
 "Katamtamang alalahanin ng mga botante ang krimen. Nangangako ang mga Conservative ng mas marami pang pulis, taga-usig at hukom, at ng plano laban sa pangingikil (extortion). Pananatilihin ng gobyerno ng NDP ang kasalukuyang pondo, dodoblehin ang mga programa nito para sa mga taong gumagawa ng maraming krimen, kukuha ng 50 pang taga-usig at magdadagdag ng isang unit laban sa pangingikil. Nangangako ang CentreBC ng 500 pang pulis ng RCMP, 60 pang taga-usig at isang permanenteng task force laban sa pangingikil, iyon ay kapag tinatakot ng mga kriminal ang mga may-ari ng negosyo para makakuha ng pera. Tinututukan ng OneBC ang mga paulit-ulit na marahas na nagkasala. Magpapasa ang mga Green ng bagong batas sa pagpupulis na may mas maraming pagbabantay, magpapadala ng mga health worker sa halip na pulis sa mas maraming tawag tungkol sa mental health at droga, at gagastos sa pabahay at mga serbisyong pumipigil sa krimen."
 ],
 "questions/q_public_safety/context/4": [
-"3455b5f14e",
-"Ang Crime Severity Index ng BC, isang sukat ng Statistics Canada sa krimeng iniulat ng pulis, ay bumaba sa 92.4 noong 2025, halos 12% na mas mababa kaysa noong 2023. Sinasabi ng isang pagsusuri ng Fraser Institute na tumaas pa rin nang 2.2% ang marahas na krimen noong nakaraang taon at nang humigit-kumulang isang-katlo mula 2017. Ipinapakita ng mga numero ng probinsya na bumaba nang 7% ang pangingikil noong 2025. Dahil pederal ang batas sa piyansa, ang pangunahing kasangkapan ng probinsya ay ang pondo para sa pulis, mga taga-usig at mga korte. Walang pangako ang NDP na may tiyak na bilang ng pulis, pero nangangako ito ng 50 pang taga-usig (Crown prosecutor) at isang unit para sa pangingikil at karahasan ng gang, nang walang inilathalang gastos. Walang inilathalang gastos ang plano ng mga Conservative para sa humigit-kumulang 1,000 bagong posisyon at ang sumunod nitong plano laban sa pangingikil. Tinataya ng CentreBC na humigit-kumulang $1.8 bilyon sa loob ng apat na taon ang buong kabanata nito tungkol sa kaligtasan, na sumasaklaw din sa pabahay, paggamot at paghahanda sa sakuna. Magpapasa ang mga Green ng bagong Community Safety and Policing Act na may pagbabantay ng lahat ng partido sa pagpupulis at bubuo ng boluntaryong sistema para sa mental health at paggamit ng substance para mas kaunting tawag pangkalusugan ang mapunta sa pulis; tinataya nila ang gastos ng kabanata sa hustisya sa $131 milyon kada taon."
+"f55248167e",
+"Ang Crime Severity Index ng BC, isang sukat ng Statistics Canada sa krimeng iniulat ng pulis, ay bumaba sa 92.4 noong 2025, halos 12% na mas mababa kaysa noong 2023. Sinasabi ng isang pagsusuri ng Fraser Institute na tumaas pa rin nang 2.2% ang marahas na krimen noong nakaraang taon at nang humigit-kumulang isang-katlo mula 2017. Ipinapakita ng mga numero ng probinsya na bumaba nang 7% ang pangingikil noong 2025. Dahil pederal ang batas sa piyansa, ang pangunahing kasangkapan ng probinsya ay ang pondo para sa pulis, mga taga-usig at mga korte. Walang pangako ang NDP na may tiyak na bilang ng pulis, pero nangangako ito ng 50 pang taga-usig (Crown prosecutor) at isang unit para sa pangingikil at karahasan ng gang, nang walang inilathalang gastos. Tinataya ng plataporma ng mga Conservative noong Oktubre 18 ang gastos ng plano nito para sa humigit-kumulang 1,000 bagong posisyon at ng plano nito laban sa pangingikil sa $178 milyon kada taon. Tinataya ng CentreBC na humigit-kumulang $1.8 bilyon sa loob ng apat na taon ang buong kabanata nito tungkol sa kaligtasan, na sumasaklaw din sa pabahay, paggamot at paghahanda sa sakuna. Magpapasa ang mga Green ng bagong Community Safety and Policing Act na may pagbabantay ng lahat ng partido sa pagpupulis at bubuo ng boluntaryong sistema para sa mental health at paggamit ng substance para mas kaunting tawag pangkalusugan ang mapunta sa pulis; tinataya nila ang gastos ng kabanata sa hustisya sa $131 milyon kada taon."
 ],
 "questions/q_public_safety/context/5": [
-"e269660232",
-"Ayon sa probinsya, bumaba ang Crime Severity Index ng BC sa 92.4 noong 2025, halos 12% na mas mababa kaysa noong 2023, pero ayon sa isang pagsusuri ng Fraser Institute sa datos ng Statistics Canada, tumaas ang index ng marahas na krimen nang 2.2% noong 2025 at nang 31.7% mula 2017. Bumaba nang 7% ang pangingikil sa buong probinsya noong 2025. Pinondohan ng gobyerno ng NDP ang pulis sa pamamagitan ng $230 milyong Safer Communities plan noong 2022 at ng $325 milyong bagong pondo sa loob ng tatlong taon sa Budget 2025 para sa mga encampment (kampo ng mga walang tirahan), pagpupulis at sistema ng hustisya, pero wala itong pangakong may tiyak na bilang ng pulis; noong Oktubre 14, nangako ito ng 50 pang taga-usig (Crown prosecutor), isang unit para sa pangingikil at karahasan ng gang, at pagdoble ng mga programa para sa mga paulit-ulit na nagkasala, nang walang inilathalang gastos. Nagdaragdag ang plano ng mga Conservative ng humigit-kumulang 1,000 posisyon at walang inilathalang gastos; noong Oktubre 13, nagdagdag ang partido ng plano laban sa pangingikil at ng hiwalay na proseso sa korte para sa mga paulit-ulit na nagkasala, na wala ring inilathalang gastos. Nagdaragdag ang plano ng CentreBC ng 500 opisyal ng Royal Canadian Mounted Police (RCMP) at 60 Crown prosecutor; tinataya ng partido na humigit-kumulang $1.8 bilyon sa loob ng apat na taon, at dagdag na $255 milyon sa kapital, ang buong kabanata nito tungkol sa kaligtasan, na sumasaklaw din sa pabahay, paggamot at paghahanda sa emergency. Isasabatas ng plataporma ng mga Green ang Community Safety and Policing Act na inirekomenda ng komite ng lahat ng partido sa Lehislatura noong 2022, bubuo ng komite ng lahat ng partido para bantayan ang pagpupulis, popondohan ang isang boluntaryong sistema para sa mental health at paggamit ng substance para mabawasan ang trabaho ng pulis sa mga tawag pangkalusugan, at tutugunan ang mga sanhi ng krimen gaya ng kawalan ng tirahan; tinataya nito ang gastos ng kabanata sa hustisya sa $131 milyon kada taon at walang itinatakdang bilang para sa pulis, Crown prosecutor o korte. Pederal ang batas sa piyansa at sa pagsentensiya."
+"5d319e35de",
+"Ayon sa probinsya, bumaba ang Crime Severity Index ng BC sa 92.4 noong 2025, halos 12% na mas mababa kaysa noong 2023, pero ayon sa isang pagsusuri ng Fraser Institute sa datos ng Statistics Canada, tumaas ang index ng marahas na krimen nang 2.2% noong 2025 at nang 31.7% mula 2017. Bumaba nang 7% ang pangingikil sa buong probinsya noong 2025. Pinondohan ng gobyerno ng NDP ang pulis sa pamamagitan ng $230 milyong Safer Communities plan noong 2022 at ng $325 milyong bagong pondo sa loob ng tatlong taon sa Budget 2025 para sa mga encampment (kampo ng mga walang tirahan), pagpupulis at sistema ng hustisya, pero wala itong pangakong may tiyak na bilang ng pulis; noong Oktubre 14, nangako ito ng 50 pang taga-usig (Crown prosecutor), isang unit para sa pangingikil at karahasan ng gang, at pagdoble ng mga programa para sa mga paulit-ulit na nagkasala, nang walang inilathalang gastos. Nagdaragdag ang plano ng mga Conservative ng humigit-kumulang 1,000 posisyon; noong Oktubre 13, nagdagdag ang partido ng plano laban sa pangingikil at ng hiwalay na proseso sa korte para sa mga paulit-ulit na nagkasala, at tinataya ng plataporma nito noong Oktubre 18 ang gastos ng mga ito sa $178 milyon kada taon. Nagdaragdag ang plano ng CentreBC ng 500 opisyal ng Royal Canadian Mounted Police (RCMP) at 60 Crown prosecutor; tinataya ng partido na humigit-kumulang $1.8 bilyon sa loob ng apat na taon, at dagdag na $255 milyon sa kapital, ang buong kabanata nito tungkol sa kaligtasan, na sumasaklaw din sa pabahay, paggamot at paghahanda sa emergency. Isasabatas ng plataporma ng mga Green ang Community Safety and Policing Act na inirekomenda ng komite ng lahat ng partido sa Lehislatura noong 2022, bubuo ng komite ng lahat ng partido para bantayan ang pagpupulis, popondohan ang isang boluntaryong sistema para sa mental health at paggamit ng substance para mabawasan ang trabaho ng pulis sa mga tawag pangkalusugan, at tutugunan ang mga sanhi ng krimen gaya ng kawalan ng tirahan; tinataya nito ang gastos ng kabanata sa hustisya sa $131 milyon kada taon at walang itinatakdang bilang para sa pulis, Crown prosecutor o korte. Pederal ang batas sa piyansa at sa pagsentensiya."
 ],
 "questions/q_public_safety/options/a/text/1": [
 "54249385c5",
@@ -6368,12 +6408,12 @@
 "Kukuha ang partidong ito ng mas marami pang pulis at manggagawa sa korte, magdadagdag ng mga imbestigador para sa mga banta laban sa mga negosyo, at maglalathala ng mga numero tungkol sa paulit-ulit na krimen."
 ],
 "questions/q_public_safety/party_positions/conservative/text/3": [
-"3d56b39234",
-"Nagdaragdag ang Safe Streets plan ng mga Conservative ng 250 pulis, 500 pulis ng RCMP sa mga rural na lugar at 150 sibilyang kawani, 50 taga-usig at tulong sa pagbabayad para sa 20 hukom, at mag-uulat ito tungkol sa paulit-ulit na pagkakasala at piyansa. Walang inilathalang kuwenta ng gastos ang plano. Noong Oktubre 13, nagdagdag ang partido ng plano laban sa pangingikil na may nakatalagang mga imbestigador at hiwalay na proseso sa korte para sa mga paulit-ulit na nagkasala, na wala ring inilathalang kuwenta ng gastos. Ang pederal na gobyerno ang nagtatakda ng batas sa piyansa."
+"013482820d",
+"Nagdaragdag ang Safe Streets plan ng mga Conservative ng 250 pulis, 500 pulis ng RCMP sa mga rural na lugar at 150 sibilyang kawani, 50 taga-usig at tulong sa pagbabayad para sa 20 hukom, at mag-uulat ito tungkol sa paulit-ulit na pagkakasala at piyansa. Noong Oktubre 13, nagdagdag ang partido ng plano laban sa pangingikil na may nakatalagang mga imbestigador at hiwalay na proseso sa korte para sa mga paulit-ulit na nagkasala. Tinataya ng plataporma nito noong Oktubre 18 ang gastos sa $178 milyon kada taon. Ang pederal na gobyerno ang nagtatakda ng batas sa piyansa."
 ],
 "questions/q_public_safety/party_positions/conservative/text/5": [
-"a8b2443aac",
-"Nagdaragdag ang Safe Streets plan (Oktubre 2026) ng 250 pulis sa pamamagitan ng Justice Institute of British Columbia, 500 opisyal ng RCMP sa mga rural na lugar at 150 sibilyang kawani sa loob ng limang taon, 50 Crown prosecutor, 20 pederal na hukom ng paglilitis (trial judge) na magkasamang pinopondohan, at mas maraming sheriff, humigit-kumulang 1,000 bagong empleyado sa kabuuan. Mag-uulat ito tungkol sa paulit-ulit na pagkakasala, piyansa at mga pagkaantala sa korte. Wala itong inilathalang kuwenta ng gastos. Noong Oktubre 13, 2026, idinagdag ng partido ang isang Anti-Extortion Action Plan (mga espesyal na imbestigador na nakatuon sa mga kaso ng pangingikil, mga paraan ng pag-uulat at proteksyon para sa mga negosyo at pamilyang tinatakot, at mga hakbang para bawasan ang pangangalap ng mga gang sa kabataan), isang hiwalay na proseso sa korte para sa mga paulit-ulit na nagkasala, mas mahigpit na pagpapatupad ng piyansa at warrant, at pinalawak na electronic monitoring para sa mga taong pinalaya sa komunidad. Walang inilathalang kuwenta ng gastos ang alinman sa dalawang anunsyo. Ilang kasalukuyang Conservative, kabilang sina Rustad, Doerkson at Halford, ang bumoto laban sa Bill 36 noong 2023."
+"03de254763",
+"Nagdaragdag ang Safe Streets plan (Oktubre 2026) ng 250 pulis sa pamamagitan ng Justice Institute of British Columbia, 500 opisyal ng RCMP sa mga rural na lugar at 150 sibilyang kawani sa loob ng limang taon, 50 Crown prosecutor, 20 pederal na hukom ng paglilitis (trial judge) na magkasamang pinopondohan, at mas maraming sheriff, humigit-kumulang 1,000 bagong empleyado sa kabuuan. Mag-uulat ito tungkol sa paulit-ulit na pagkakasala, piyansa at mga pagkaantala sa korte. Noong Oktubre 13, 2026, idinagdag ng partido ang isang Anti-Extortion Action Plan (mga espesyal na imbestigador na nakatuon sa mga kaso ng pangingikil, mga paraan ng pag-uulat at proteksyon para sa mga negosyo at pamilyang tinatakot, at mga hakbang para bawasan ang pangangalap ng mga gang sa kabataan), isang hiwalay na proseso sa korte para sa mga paulit-ulit na nagkasala, mas mahigpit na pagpapatupad ng piyansa at warrant, at pinalawak na electronic monitoring para sa mga taong pinalaya sa komunidad. Tinataya ng plataporma noong Oktubre 18 ang gastos ng mga resource na ito para sa kaligtasan ng publiko sa $178 milyon kada taon sa buong halaga, at nagdaragdag ng pagtutok sa mga ilegal na baril, 'hindi sa mga legal na mangangaso, magsasaka at may-ari ng baril', at $2 milyon kada taon para sa seguridad ng mga bulnerableng komunidad ng relihiyon. Ilang kasalukuyang Conservative, kabilang sina Rustad, Doerkson at Halford, ang bumoto laban sa Bill 36 noong 2023."
 ],
 "questions/q_public_safety/party_positions/green/text/1": [
 "90f32aa02e",
@@ -6548,12 +6588,12 @@
 "Ititigil ng partidong ito ang mga araling ito, tututok sa pagbasa at math, at pananatilihing ligtas ang mga estudyante."
 ],
 "questions/q_sogi/party_positions/conservative/text/3": [
-"956798c3b0",
-"Ipapawalang-bisa ng mga Conservative ang SOGI 123 at ibabalik ang pokus sa 'aritmetika at pagbasa', pero hindi nila sinabi kung paano nila tatapusin ang isang opsyonal na resource. Noong 2026, bumoto ang karamihan sa kanilang mga miyembro na payagang maiharap ang mga panukalang batas tungkol sa pagkakakilanlang pangkasarian at sa pagpapawalang-bisa ng Human Rights Code, at tinawag itong hakbang sa proseso."
+"50dfc6e7fe",
+"Ibabasura ng mga Conservative ang SOGI 123, direktang tutugunan ang bullying at bibigyan ang mga magulang ng access sa mga materyales sa aralin at ng karapatang mag-opt out, pero hindi nila sinabi kung paano nila tatapusin ang isang opsyonal na resource. Noong 2026, bumoto ang karamihan sa kanilang mga miyembro na payagang maiharap ang mga panukalang batas tungkol sa pagkakakilanlang pangkasarian at sa pagbasura sa Human Rights Code, at tinawag itong hakbang sa proseso."
 ],
 "questions/q_sogi/party_positions/conservative/text/5": [
-"448155008b",
-"Ibabasura ng Safe Schools plan ang SOGI pero walang binabanggit na paraan. Nangako ang plataporma noong 2024 na aalisin ang mga lesson plan at policy guide na hango sa SOGI, magpapatupad ng zero-tolerance na patakaran laban sa bullying at aabisuhan ang mga magulang tungkol sa balak na magpakamatay. Bumoto ang karamihan sa mga MLA ng Conservative na bigyan ng unang pagbasa ang isang panukalang batas tungkol sa pagkakakilanlang pangkasarian (natalo sa botong 38 laban sa 49) at ang Human Rights Code Repeal Act (37 laban sa 50), at sinabing dapat makakuha ng unang pagbasa ang lahat ng panukalang batas nang walang pagtutol. Nagsimula ang SOGI 123 sa ilalim ng gobyerno ng BC Liberal habang ministro si Rustad."
+"e4b9fee501",
+"Ibabasura ng plataporma noong Oktubre 18 ang SOGI 123 'at sa halip ay direktang tutugunan ang bullying', poprotektahan ang mga estudyante mula sa panliligalig 'batay sa mga personal na katangian', at bibigyan ang mga magulang ng access sa mga materyales ng curriculum, abiso at karapatang mag-opt out; wala itong binabanggit na paraan para tapusin ang isang opsyonal na resource. Nangako ang plataporma noong 2024 na aalisin ang mga lesson plan at policy guide na hango sa SOGI, magpapatupad ng zero-tolerance na patakaran laban sa bullying at aabisuhan ang mga magulang tungkol sa balak na magpakamatay. Bumoto ang karamihan sa mga MLA ng Conservative na bigyan ng unang pagbasa ang isang panukalang batas tungkol sa pagkakakilanlang pangkasarian (natalo sa botong 38 laban sa 49) at ang Human Rights Code Repeal Act (37 laban sa 50), at sinabing dapat makakuha ng unang pagbasa ang lahat ng panukalang batas nang walang pagtutol. Nagsimula ang SOGI 123 sa ilalim ng gobyerno ng BC Liberal habang ministro si Rustad."
 ],
 "questions/q_sogi/party_positions/green/text/1": [
 "a92d9d3825",
@@ -6624,12 +6664,12 @@
 "Ang depisit ng BC, ang agwat sa pagitan ng ginagastos at kinikita nito, ay mga $13.8 bilyon. Rekord iyon sa halaga ng dolyar. Ibinaba ng lahat ng apat na credit rating agency ang rating ng BC noong 2026. Magkakaiba nang malaki ang dami ng detalyeng ibinibigay ng mga partido tungkol sa gastos, kaya mahirap ikumpara ang kanilang mga pangako at presyo."
 ],
 "questions/q_taxes_deficit/context/4": [
-"7117f6d452",
-"Tinataya na ngayon ng BC ang $13.8 bilyong depisit ngayong taon, mula $13.3 bilyon sa Budget 2026, at pagtaas ng utang sa 37% ng gross domestic product (GDP), ang laki ng ekonomiya ng BC, pagsapit ng 2028-29. Magkakaiba ang laki ng mga plano ng mga partido. Ang mas mataas na buwis ng NDP sa malalaking kita ay magdadala ng mga $1 bilyon kada taon. Hindi kinuwenta ng mga Conservative ang gastos ng kanilang bawas sa buwis; tinataya ito ng isang ekonomista sa mga $2 bilyon kada taon. Tinataya ng mga Green na ang kanilang buwis sa yaman ay magdadala ng $22.2 bilyon sa unang taon nito, at tinataya nila ang gastos ng kanilang mga programa sa $9.28 bilyon kada taon. Sinasabi ng CentreBC na ang mga pangako nito ay nagkakahalaga ng $13.7 bilyon sa loob ng apat na taon at magbabalanse ng budget sa 2034-35. Hindi pa naglalabas ang OneBC ng kuwenta ng gastos ng mga bawas nito."
+"15aebbd171",
+"Tinataya na ngayon ng BC ang $13.8 bilyong depisit ngayong taon, mula $13.3 bilyon sa Budget 2026, at pagtaas ng utang sa 37% ng gross domestic product (GDP), ang laki ng ekonomiya ng BC, pagsapit ng 2028-29. Magkakaiba ang laki ng mga plano ng mga partido. Ang mas mataas na buwis ng NDP sa malalaking kita ay magdadala ng mga $1 bilyon kada taon. Tinataya ng mga Conservative ang gastos ng kanilang bawas sa buwis sa $2.9 bilyon kada taon at sinasabing ang paglago at pagtitipid ay magpapababa sa depisit sa $10.8 bilyon pagsapit ng 2029-30. Tinataya ng mga Green na ang kanilang buwis sa yaman ay magdadala ng $22.2 bilyon sa unang taon nito, at tinataya nila ang gastos ng kanilang mga programa sa $9.28 bilyon kada taon. Sinasabi ng CentreBC na ang mga pangako nito ay nagkakahalaga ng $13.7 bilyon sa loob ng apat na taon at magbabalanse ng budget sa 2034-35. Hindi pa naglalabas ang OneBC ng kuwenta ng gastos ng mga bawas nito."
 ],
 "questions/q_taxes_deficit/context/5": [
-"983c474898",
-"Tinaya ng Budget 2026 ang $13.3 bilyong depisit para sa 2026-27, at itinaas ng quarterly update noong Setyembre ang tantya sa $13.8 bilyon. Tinatayang aabot ang utang na sinusuportahan ng mga taxpayer sa 37.4% ng gross domestic product (GDP) pagsapit ng 2028-29, at ibinaba ng lahat ng apat na credit rating agency ang rating ng BC ngayong taon. Magdadagdag ang NDP ng dalawang puntos sa dalawang pinakamataas na income tax bracket at sisingil ng 24.5% sa kitang higit sa $1 milyon (mga $1 bilyon kada taon), at plano nitong magkaroon ng 15,000 mas kaunting full-time-equivalent na posisyon sa gobyerno. Itataas ng mga Conservative ang basic personal amount sa $32,000 (hindi kinuwenta ng partido; tinataya ito ng isang ekonomista sa mga $2 bilyon kada taon at ng isang kandidato ng NDP sa $2.5 bilyon) at walang itinakdang target sa depisit. Bubuwisan ng mga Green ang yamang higit sa $50 milyon ($22.2 bilyon sa unang taon, tantya ng partido) at tinataya nila ang gastos ng kanilang mga programa sa $9.28 bilyon kada taon. Isasabatas ng CentreBC ang balanseng budget sa 2034-35, babawasan ang 10,000 posisyon habang umaalis ang mga tao at ibabalik ang pinakamababang rate sa 5.06% (nagkakahalaga ang ginhawa nito sa buwis ng $4.5 bilyon sa loob ng apat na taon, kuwenta ng partido). Babawasan ng OneBC ang buwis nang 25% at magbabalanse sa loob ng apat na taon."
+"875294bace",
+"Tinaya ng Budget 2026 ang $13.3 bilyong depisit para sa 2026-27, at itinaas ng quarterly update noong Setyembre ang tantya sa $13.8 bilyon. Tinatayang aabot ang utang na sinusuportahan ng mga taxpayer sa 37.4% ng gross domestic product (GDP) pagsapit ng 2028-29, at ibinaba ng lahat ng apat na credit rating agency ang rating ng BC ngayong taon. Magdadagdag ang NDP ng dalawang puntos sa dalawang pinakamataas na income tax bracket at sisingil ng 24.5% sa kitang higit sa $1 milyon (mga $1 bilyon kada taon), at plano nitong magkaroon ng 15,000 mas kaunting full-time-equivalent na posisyon sa gobyerno. Itataas ng mga Conservative ang basic personal amount sa $32,000 ($2.9 bilyon kada taon, kuwenta ng partido), ifi-freeze ang pagkuha ng empleyado maliban sa frontline at babawasan ang contingency fund, at tinataya nilang bababa ang depisit sa $10.8 bilyon sa 2029-30, nang walang petsa ng pagbabalanse. Bubuwisan ng mga Green ang yamang higit sa $50 milyon ($22.2 bilyon sa unang taon, tantya ng partido) at tinataya nila ang gastos ng kanilang mga programa sa $9.28 bilyon kada taon. Isasabatas ng CentreBC ang balanseng budget sa 2034-35, babawasan ang 10,000 posisyon habang umaalis ang mga tao at ibabalik ang pinakamababang rate sa 5.06% (nagkakahalaga ang ginhawa nito sa buwis ng $4.5 bilyon sa loob ng apat na taon, kuwenta ng partido). Babawasan ng OneBC ang buwis nang 25% at magbabalanse sa loob ng apat na taon."
 ],
 "questions/q_taxes_deficit/options/a/text/1": [
 "e418bf2dfc",
@@ -6652,24 +6692,24 @@
 "Bawasan ang bawat personal at corporate na bracket nang 25% at ang PST nang dalawang puntos, balansehin ang budget sa loob ng apat na taon, at ilaan ang bahagi ng anumang surplus sa pagbabayad ng utang."
 ],
 "questions/q_taxes_deficit/options/b/text/1": [
-"e7cc50c153",
-"Bawasan nang kaunti ang buwis at hayaang punan ng lumalagong ekonomiya ang kakulangan sa paglipas ng panahon."
+"643fc09d34",
+"Bawasan ang buwis, huwag magdagdag ng bago, gumastos nang mas kaunti sa mga opisina ng gobyerno, at hayaang paliitin ng lumalagong ekonomiya ang kakulangan bawat taon."
 ],
 "questions/q_taxes_deficit/options/b/text/2": [
-"3f6a9f0b7b",
-"Bawasan ang buwis nang mga $1,000 kada manggagawa, walang bagong buwis, at hayaang punan ng paglago ng trabaho ang kakulangan sa paglipas ng panahon."
+"464eaa4180",
+"Bawasan ang buwis nang mga $1,000 kada manggagawa, huwag magdagdag ng bagong buwis, bagalan ang pagkuha ng empleyado sa mga opisina ng gobyerno, at hayaang paliitin ng paglago ng trabaho ang kakulangan nang kaunti bawat taon."
 ],
 "questions/q_taxes_deficit/options/b/text/3": [
-"26804c7002",
-"Magbigay ng $1,000 na bawas sa income tax, walang bagong buwis, protektahan ang pondo sa kalusugan, at umasa sa paglago sa halip na sa petsa para magbalanse."
+"ad7b4ad130",
+"Magbigay ng $1,000 na bawas sa income tax, walang bagong buwis, protektahan ang pondo sa kalusugan, bawasan ang gastos sa mga opisina, at paliitin ang depisit bawat taon nang walang petsa para magbalanse."
 ],
 "questions/q_taxes_deficit/options/b/text/4": [
-"2eee2e0524",
-"Isang bawas sa income tax na $1,000 kada taxpayer, pangakong walang bagong buwis at pangakong protektahan ang kasalukuyang pondo sa kalusugan, na may paglago ng sektor ng likas na yaman para punan ang kakulangan at walang target sa depisit."
+"7493dc1afa",
+"Isang bawas sa income tax na $1,000 kada taxpayer na may kuwentang $2.9 bilyon kada taon, walang bagong buwis, protektadong pondo sa kalusugan, freeze sa pagkuha ng empleyado sa administrasyon at mas maliit na contingency fund, kung saan paliliitin ng paglago ng sektor ng likas na yaman ang depisit bawat taon, at walang petsa ng pagbabalanse."
 ],
 "questions/q_taxes_deficit/options/b/text/5": [
-"156fe9aa9b",
-"Itaas ang basic personal amount sa $32,000 (walang kuwenta ng gastos; mula mga $2 bilyon hanggang $2.5 bilyon kada taon ang mga tantya), walang bago o mas mataas na buwis, protektahan ang kasalukuyang pondo sa kalusugan, at umasa sa paglagong pinangungunahan ng sektor ng likas na yaman, nang walang petsa ng pagbabalanse."
+"ecd73865cd",
+"Itaas ang basic personal amount sa $32,000 (may kuwentang $2.9 bilyon kada taon), walang bago o mas mataas na buwis, protektahan ang kasalukuyang pondo sa kalusugan, i-freeze ang pagkuha ng empleyado maliban sa frontline at bawasan ang contingency fund, at umasa sa paglagong pinangungunahan ng sektor ng likas na yaman para bumaba ang depisit bawat taon, nang walang petsa ng pagbabalanse."
 ],
 "questions/q_taxes_deficit/options/c/text/1": [
 "9da39fc53b",
@@ -6744,16 +6784,16 @@
 "Ibinababa ng plataporma ang depisit sa mga $9.0 bilyon pagsapit ng 2030-31 at nagbabalanse sa 2034-35. Lilikha ang isang Balanced Budget and Spending Control Act ng Independent Budget Officer at babawasan ang sahod ng mga ministro kung hindi maabot ang target. Ang paglago ng gastos ay 1.5 puntos na mas mababa kada taon kaysa sa plano ng Budget 2026, na may 10,000 posisyong babawasan sa pamamagitan ng attrition. Umaabot ang matitipid sa $5.6 bilyon at ang ginhawa sa buwis sa $4.5 bilyon sa loob ng apat na taon, ayon sa sariling kuwenta ng partido. Itinatakda ng reserbang listahan nito ang isang pondo para sa manufacturing sa $30 milyon, mas mababa sa ipinangako nitong $60 milyon."
 ],
 "questions/q_taxes_deficit/party_positions/conservative/text/1": [
-"3e9c7980f3",
-"Babawasan ng partidong ito ang buwis, hindi magdadagdag ng bago, at aasa sa mas maraming trabaho para punan ang kakulangan."
+"5885f843d3",
+"Babawasan ng partidong ito ang buwis, hindi magdadagdag ng bago, gagastos nang mas kaunti sa mga opisina ng gobyerno, at paliliitin nang kaunti ang depisit bawat taon."
 ],
 "questions/q_taxes_deficit/party_positions/conservative/text/3": [
-"f2c57013cf",
-"Nangangako ang mga Conservative ng $1,000 na bawas sa buwis, walang bagong buwis at walang bawas sa pondo para sa kalusugan, na umaasa sa paglago ng sektor ng likas na yaman. Wala silang inilathalang kuwenta ng gastos o petsa para mabalanse ang budget. Bumoto sila laban sa huling dalawang budget at hindi inulit ang kanilang pangako noong 2024 na magbalanse sa loob ng dalawang termino."
+"4524513b7d",
+"Pinagsasama ng plataporma ng mga Conservative noong Oktubre 18 ang $1,000 na bawas sa buwis ($2.9 bilyon kada taon), walang bagong buwis at $1.4 bilyon kada taon na bagong gastos, kasama ang freeze sa pagkuha ng empleyado maliban sa frontline at iba pang pagtitipid. Ayon sa sariling kuwenta ng partido, bababa ang depisit bawat taon, mula $13.7 bilyon hanggang $10.8 bilyon sa 2029-30, nang walang petsa para magbalanse. Bumoto sila laban sa huling dalawang budget."
 ],
 "questions/q_taxes_deficit/party_positions/conservative/text/5": [
-"e1d4067df0",
-"Itataas ng mga Conservative ang basic personal amount sa $32,000 (walang kuwenta ng partido; tinataya ito ng ekonomistang si Ross Hickey sa mga $2 bilyon kada taon at ng isang kandidato ng NDP sa $2.5 bilyon), walang bago o mas mataas na buwis at poprotektahan ang kasalukuyang pondo sa kalusugan. Walang kuwenta ng gastos ang iba pa nilang pangako. Sinabi ng pansamantalang lider na si Lorne Doerkson na ang plano ay 'palakasin nang husto ang ekonomiya ... iyon ang aming kita'. Walang target sa depisit. Bumoto sila laban sa 2025-26 Supply Act at sa 2026 na panukalang batas sa budget (Bill 2) at hindi inulit ang pangako noong 2024 na magbalanse sa loob ng dalawang termino."
+"f8ae121f82",
+"Itinataas ng plataporma ng mga Conservative noong Oktubre 18 ang basic personal amount sa $32,000 ($2.9 bilyon kada taon simula sa 2027 tax year, kuwenta ng partido), walang idinadagdag na bago o mas mataas na buwis, inililibre sa PST ang makinarya at software ng negosyo sa loob ng tatlong taon ($500 milyon kada taon) at nagdadagdag ng $1.425 bilyon kada taon na bagong gastos sa buong halaga. Nagtatala ito ng $11.7 bilyon na pagtitipid sa loob ng apat na taon: mas maliit na contingency fund, freeze sa pagkuha ng empleyado maliban sa frontline, core review (masusing pagsusuri) ng mga ministri maliban sa kalusugan, edukasyon at kaligtasan ng publiko, at 20% na mas kaunting gastos sa mga consultant. Umaasa ito sa $2.6 bilyon sa loob ng tatlong taon mula sa mas mabilis na paglago. Ang mga depisit nito ay $13.7 bilyon ngayong taon, pagkatapos ay $13.5 bilyon, $12.3 bilyon at $10.8 bilyon sa 2029-30, na may fiscal anchor (pangunahing patakaran sa pananalapi) na bababa ang depisit bawat taon, at walang petsa ng pagbabalanse. Wala sa mga numerong ito ang nasuri nang independiyente. Bumoto ang partido laban sa 2025-26 Supply Act at sa 2026 na panukalang batas sa budget (Bill 2) at hindi inulit ang pangako noong 2024 na magbalanse sa loob ng dalawang termino."
 ],
 "questions/q_taxes_deficit/party_positions/green/text/1": [
 "3796d0265c",

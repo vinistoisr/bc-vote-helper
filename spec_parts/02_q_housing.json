@@ -97,7 +97,7 @@
         },
         "scores": {
           "ndp": 0,
-          "conservative": 2,
+          "conservative": 3,
           "green": 0,
           "centrebc": 1,
           "onebc": 4
@@ -143,8 +143,8 @@
       "conservative": {
         "text": {
           "1": "This party says taxes and rules make homes cost too much, and wants building to be cheaper.",
-          "3": "The Conservatives promise lower building and buying costs, no new housing taxes, and taking housing away from Metro Vancouver's regional government. They have taken no 2026 position on the speculation tax or the density law and have not repeated their 2024 rebate and repeal ideas.",
-          "5": "In 2026 the Conservatives reject the NDP's housing tax plan (the Unsold Condo Tax and a higher speculation tax), saying 'every new tax on housing ends up in the price a family pays', pledge no new taxes, and would return Metro Vancouver's housing and climate roles to the province and cities. They have not said whether they would repeal the speculation tax, change Bills 44 or 47, touch rent control or revive the 2024 rebate. MLAs of the parties before them voted against the speculation tax in 2018 and Bills 44 and 46, and for Bill 47."
+          "3": "The Conservatives promise lower building and buying costs, no new housing taxes, and taking housing away from Metro Vancouver's regional government. Their October 18 platform would also overhaul the Step Code and let cities decide where density goes, but it does not name the speculation tax or the density law.",
+          "5": "In 2026 the Conservatives reject the NDP's housing tax plan (the Unsold Condo Tax and a higher speculation tax), saying 'every new tax on housing ends up in the price a family pays', pledge no new taxes, and would return Metro Vancouver's housing and climate roles to the province and cities. Their October 18 platform promises to cut construction taxes and charges, approve homes 'in months, not years', overhaul the Step Code, restore choice in energy for heating and cooking, and let local governments decide where density goes under their own official community plans with 'appropriate density targets', not 'bureaucrats in Victoria'. It does not say whether they would repeal the speculation tax, Bill 44 or Bill 47, or touch rent control. MLAs of the parties before them voted against the speculation tax in 2018 and Bills 44 and 46, and for Bill 47."
         },
         "basis": "both",
         "confidence": "medium",
@@ -164,6 +164,10 @@
           {
             "label": "Votes and Proceedings, November 30, 2023 (Bill 47 third reading, unanimous)",
             "url": "https://lims.leg.bc.ca/pdms/ldp/42nd4th/votes/v231130.htm"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -237,6 +241,6 @@
         ]
       }
     },
-    "scoring_rationale": "a is the 2026 Conservative message (4). OneBC shares deregulation (3) but its signature items are in e. CentreBC 3 (deadlines, fee cuts and PST relief for builders, no new taxes; but it adds public funds and keeps the transit-area rules). NDP 1: it did clear permit backlogs and cut approval times (record), but its policy is taxes plus mandates. Green 0. b is the NDP record and 2026 pledge (4); Greens backed the 2018 SVT and favour taxing speculation but oppose top-down zoning (2); CentreBC 2 (keeps municipal targets and doubles BC Builds, proposes no change to the taxes beyond speculation tax audits, silent on the zoning law); Conservatives 0 (opposed SVT, Bill 44 and the 2026 taxes); OneBC 0. c is the Green plan (4); NDP 2 for BC Builds and the Community Housing Fund it created, then paused; CentreBC 1 (20,000 below-market homes by 2031 is about a sixth of the Green pace; no vacancy control); Conservative and OneBC 0 (OneBC would ban rent control). d is CentreBC's platform (4): approval deadlines, halved DCCs on rentals, prefab supply, BC Builds doubled; Conservatives 2 and OneBC 2 share the fee and permit side but not the funds or the non-market program; NDP 2 (it signed the DCC agreement and created BC Builds, two of the option's four items, but its 2026 plan leads with taxes plus mandates, which the option leaves out); Green 1. Option d was rewritten on October 10 from the earlier outcomes framing; other parties' scores on it were kept. e is OneBC (4); Conservatives 2 (deregulation sympathy, but no 2026 Step Code or rent-control position and a 2024 record of not touching rent caps formally); CentreBC 1; NDP and Green 0 (NDP wrote the Step Code timeline; Greens want vacancy control)."
+    "scoring_rationale": "a is the 2026 Conservative message (4). OneBC shares deregulation (3) but its signature items are in e. CentreBC 3 (deadlines, fee cuts and PST relief for builders, no new taxes; but it adds public funds and keeps the transit-area rules). NDP 1: it did clear permit backlogs and cut approval times (record), but its policy is taxes plus mandates. Green 0. b is the NDP record and 2026 pledge (4); Greens backed the 2018 SVT and favour taxing speculation but oppose top-down zoning (2); CentreBC 2 (keeps municipal targets and doubles BC Builds, proposes no change to the taxes beyond speculation tax audits, silent on the zoning law); Conservatives 0 (opposed SVT, Bill 44 and the 2026 taxes); OneBC 0. c is the Green plan (4); NDP 2 for BC Builds and the Community Housing Fund it created, then paused; CentreBC 1 (20,000 below-market homes by 2031 is about a sixth of the Green pace; no vacancy control); Conservative and OneBC 0 (OneBC would ban rent control). d is CentreBC's platform (4): approval deadlines, halved DCCs on rentals, prefab supply, BC Builds doubled; Conservatives 2 and OneBC 2 share the fee and permit side but not the funds or the non-market program; NDP 2 (it signed the DCC agreement and created BC Builds, two of the option's four items, but its 2026 plan leads with taxes plus mandates, which the option leaves out); Green 1. Option d was rewritten on October 10 from the earlier outcomes framing; other parties' scores on it were kept. e is OneBC (4); Conservatives 3 (the October 18 platform would overhaul the Step Code and leave density decisions to cities, with no new housing taxes, but has no rent-control position; score changed Oct 18 after the Conservative platform); CentreBC 1; NDP and Green 0 (NDP wrote the Step Code timeline; Greens want vacancy control)."
   }
 ]

@@ -648,8 +648,8 @@
 "Cet outil est indépendant de tous les partis. Il compare vos réponses aux promesses et au bilan des partis. C'est un point de départ, pas une recommandation. Les partis annonçaient encore des promesses au 18 octobre : vérifiez s'il y a du nouveau. Les noms et logos des partis appartiennent aux partis."
 ],
 "meta/disclaimer/5": [
-"310c66e26f",
-"Outil indépendant d'information aux électeurs. Les notes reflètent les engagements 2026 publiés au 18 octobre 2026, pondérés par le bilan gouvernemental et législatif 2016-2026 lorsque les deux se contredisent. CentreBC (10 octobre) et les verts (13 octobre) ont publié des programmes complets avec leur propre chiffrage, et le NPD a publié le 14 octobre un chiffrage de ses engagements de campagne; aucun n'a été vérifié de façon indépendante. Les conservateurs n'avaient pas publié de programme chiffré au 18 octobre, et OneBC fait campagne au fil d'annonces successives. Les positions à faible degré de confiance reposent sur des déclarations d'anciens chefs, les programmes de 2024 ou l'absence de position. Les noms et logos des partis sont des marques de commerce de leurs propriétaires, montrés seulement à des fins d'identification. Ceci n'est pas un appui."
+"81386237e2",
+"Outil indépendant d'information aux électeurs. Les notes reflètent les engagements 2026 publiés au 18 octobre 2026, pondérés par le bilan gouvernemental et législatif 2016-2026 lorsque les deux se contredisent. CentreBC (10 octobre), les verts (13 octobre) et les conservateurs (18 octobre) ont publié des programmes complets avec leur propre chiffrage, et le NPD a publié le 14 octobre un chiffrage de ses engagements de campagne; aucun n'a été vérifié de façon indépendante. OneBC fait campagne au fil d'annonces successives. Les positions à faible degré de confiance reposent sur des déclarations d'anciens chefs, les programmes de 2024 ou l'absence de position. Les noms et logos des partis sont des marques de commerce de leurs propriétaires, montrés seulement à des fins d'identification. Ceci n'est pas un appui."
 ],
 "meta/method_summary/1": [
 "726b03f5d0",
@@ -716,12 +716,12 @@
 "Le principal parti qui veut remplacer le gouvernement. Il veut moins d'impôts, moins de règles pour les entreprises et plus d'emplois dans le gaz et les mines."
 ],
 "parties/conservative/one_liner/3": [
-"eda298f445",
-"Opposition depuis 2024. Promet une baisse d'impôt de 1 000 $ et aucune nouvelle taxe; abrogerait DRIPA et SOGI 123, mettrait fin à l'approvisionnement plus sécuritaire, élargirait le traitement obligatoire et doublerait la production de gaz. Quatre chefs en un an; aucun plan chiffré au 18 octobre."
+"2e1aa2c2f1",
+"Opposition depuis 2024. Promet une baisse d'impôt sur le revenu de 1 000 $ et aucune nouvelle taxe; abrogerait DRIPA et SOGI 123, mettrait fin à l'approvisionnement plus sécuritaire, élargirait le traitement obligatoire et doublerait la production de gaz. Quatre chefs en un an; son programme chiffré du 18 octobre prévoit un déficit qui baisse à 10,8 milliards de dollars d'ici 2029-30 (chiffres du parti)."
 ],
 "parties/conservative/one_liner/5": [
-"ab0d8f10de",
-"Opposition depuis 2024 (44 sièges). 2026 : montant personnel de base porté à 32 000 $ (environ 1 050 $ chacun; non chiffré; estimation externe de 2,5 G$ par an), aucune nouvelle taxe, abrogation de DRIPA et de SOGI 123, fin de l'approvisionnement plus sécuritaire, traitement obligatoire, 250 policiers, 500 agents de la GRC, 50 procureurs, production de gaz doublée d'ici 2032, 120 Day Permitting Act, régime hybride avec recours fondé sur la faute pour ICBC, financement transférable des soins de longue durée. Aucune cible de déficit ni date de retour à l'équilibre."
+"697d65f924",
+"Opposition depuis 2024 (44 sièges). 2026 : montant personnel de base porté à 32 000 $ (environ 1 000 $ chacun; chiffrage du parti : 2,9 G$ par année), aucune nouvelle taxe, abrogation de DRIPA et de SOGI 123, fin de l'approvisionnement plus sécuritaire, traitement obligatoire, 250 policiers, 500 agents de la GRC, 50 procureurs, production de gaz doublée d'ici 2032, 120 Day Permitting Act, régime hybride fondé sur la faute pour ICBC, financement transférable des soins de longue durée. Programme chiffré (18 octobre) : déficits de 13,7 G$, 13,5 G$, 12,3 G$ et 10,8 G$ jusqu'en 2029-30, 1,425 G$ par année en nouvelles dépenses, 3,0 G$ à 4,1 G$ par année en restriction des dépenses; le déficit baisse chaque année, sans date de retour à l'équilibre."
 ],
 "parties/conservative/record_summary/3": [
 "b31d1d6ca4",
@@ -872,24 +872,24 @@
 "Construire un oléoduc vers Prince Rupert ou Kitimat, abroger le prix industriel du carbone et la Low Carbon Fuel Standard (norme sur les carburants à faible teneur en carbone), mettre fin graduellement à CleanBC, et ne fixer aucune cible d'émissions."
 ],
 "questions/q_climate_energy/options/b/text/1": [
-"6bb230fc9f",
-"Vendre beaucoup plus de gaz naturel outre-mer, protéger la nature, et ne faire aucune nouvelle promesse climatique."
+"82959b8d05",
+"Vendre beaucoup plus de gaz naturel outre-mer et mettre fin au plan climatique de la province, mais garder le prix du carbone pour la grande industrie."
 ],
 "questions/q_climate_energy/options/b/text/2": [
-"8cd263cb73",
-"Vendre beaucoup plus de gaz naturel à l'étranger selon les règles environnementales actuelles, mais ne faire aucune nouvelle promesse climatique."
+"95a472b9aa",
+"Vendre beaucoup plus de gaz naturel à l'étranger, abandonner le plan climatique de la province et la règle sur les ventes de voitures électriques, garder le prix du carbone pour la grande industrie et ne fixer aucune nouvelle cible."
 ],
 "questions/q_climate_energy/options/b/text/3": [
-"d0b722792a",
-"Augmenter rapidement les exportations de gaz naturel selon les règles environnementales, et laisser en suspens la tarification du carbone et les cibles climatiques."
+"f23209e446",
+"Augmenter rapidement les exportations de gaz naturel, abroger le plan climatique CleanBC et la règle sur les ventes de véhicules électriques, garder la tarification industrielle du carbone et ne fixer aucune nouvelle cible climatique."
 ],
 "questions/q_climate_energy/options/b/text/4": [
-"91f8fbd0e5",
-"Doubler la production de gaz d'ici 2032 avec des permis en 120 jours qui maintiennent les protections environnementales, chercher à obtenir du crédit pour le remplacement du charbon à l'étranger, et ne prendre aucun engagement sur la tarification industrielle du carbone."
+"8c9ac271d3",
+"Doubler la production de gaz d'ici 2032 et la tripler d'ici 2035, abroger CleanBC et le quota de ventes de véhicules zéro émission, garder la tarification industrielle du carbone et ses revenus, et comptabiliser les émissions évitées grâce aux exportations de gaz."
 ],
 "questions/q_climate_energy/options/b/text/5": [
-"6dcb536131",
-"Doubler le gaz d'ici 2032, autoriser les projets en 120 jours selon les normes environnementales, chercher à obtenir du crédit pour le remplacement du charbon, appuyer un oléoduc, et ne prendre aucun engagement sur la tarification du carbone, les règles sur les carburants propres ou les cibles."
+"cfa7197286",
+"Doubler le gaz d'ici 2032 et le tripler d'ici 2035, approuver des pipelines vers la côte, abroger CleanBC et le quota de ventes de véhicules zéro émission, garder la tarification industrielle du carbone, comptabiliser les émissions évitées à l'étranger grâce à des exportations plus propres, et ne fixer aucune nouvelle cible."
 ],
 "questions/q_climate_energy/options/c/text/1": [
 "d02a75bdb2",
@@ -964,16 +964,16 @@
 "Le programme électoral inscrit dans la loi un objectif intermédiaire pour 2030 : une réduction des émissions de 20 % par rapport aux niveaux de 2007, au lieu de 40 %. Il garde les cibles de 2040 et 2050 et crée un Climate Accountability Office (bureau de responsabilité climatique). Il garde la tarification industrielle du carbone, verse au moins 100 M$ par année au CleanBC Industry Fund et exclut une taxe carbone à la consommation. Il réduirait le méthane de 75 % par rapport aux niveaux de 2014 d'ici 2030, prêterait 500 M$ pour 25 000 rénovations de maisons et ajouterait 2 000 mégawatts d'électricité de BC Hydro. Il appuie les exportations de gaz prêtes pour la carboneutralité avec des partenaires des Premières Nations et demanderait un engagement fédéral écrit de maintenir l'interdiction des pétroliers dans le nord."
 ],
 "questions/q_climate_energy/party_positions/conservative/text/1": [
-"cd41614059",
-"Ce parti veut vendre beaucoup plus de gaz naturel à l'étranger. Il n'a fait aucune promesse sur la réduction de la pollution."
+"540c2ca762",
+"Ce parti veut vendre beaucoup plus de gaz naturel à l'étranger et mettre fin au plan climatique, mais garder le prix du carbone pour la grande industrie."
 ],
 "questions/q_climate_energy/party_positions/conservative/text/3": [
-"1d942dedc1",
-"Les conservateurs doubleraient la production de gaz d'ici 2032, approuveraient les projets en 120 jours et appuieraient un oléoduc. Leurs documents de 2026 ne mentionnent ni la tarification du carbone pour l'industrie ni la cible de 2030. En 2025, leur chef de l'époque a qualifié la taxe carbone industrielle de « punitive » et a demandé si elle serait abandonnée."
+"bc7f9d65e4",
+"Les conservateurs doubleraient la production de gaz d'ici 2032, approuveraient des usines de LNG et des pipelines, abrogeraient le plan climatique CleanBC et la règle sur les ventes de véhicules électriques, et garderaient la tarification du carbone pour la grande industrie. Leur programme ne fixe aucune cible climatique et ne mentionne pas les règles sur les carburants propres."
 ],
 "questions/q_climate_energy/party_positions/conservative/text/5": [
-"e06da5b3c6",
-"Le plan de 2026 ferait plus que doubler la production de gaz d'ici 2032 et plus que la tripler d'ici 2035, adopterait une 120 Day Permitting Act (loi sur la délivrance accélérée des permis) tout en « maintenant les normes environnementales élevées de la C.-B. » et chercherait à obtenir du crédit pour le remplacement du charbon. Le parti accueille favorablement l'oléoduc Pacific Link. Il ne dit rien sur le prix industriel du carbone, la Low Carbon Fuel Standard, CleanBC ou la cible de 2030. En 2024, le parti a promis d'abolir la taxe carbone et la Low Carbon Fuel Standard, et en mars 2025, Rustad a qualifié la taxe carbone industrielle de « punitive » et a demandé si elle serait abandonnée. Ce questionnaire attribue une note au parti en considérant qu'il affaiblirait probablement la tarification industrielle."
+"d2be8ce072",
+"Le programme des conservateurs du 18 octobre ferait plus que doubler la production de gaz naturel d'ici 2032 et la triplerait d'ici 2035, approuverait des projets de LNG et leurs pipelines, abrogerait CleanBC « pour éliminer les obstacles à l'investissement et à la croissance » tout en « gardant une tarification du carbone pour les grands émetteurs industriels et les revenus qu'elle génère », mettrait fin au quota de ventes de véhicules zéro émission, empêcherait les interdictions municipales de raccordement au gaz, et rendrait compte des émissions en même temps que de celles évitées grâce à des exportations plus propres de la C.-B. Il ne fixe aucune cible d'émissions et ne mentionne ni la Low Carbon Fuel Standard ni la cible de 2030. Le parti accueille favorablement l'oléoduc Pacific Link. En 2024, le parti a promis d'abolir la taxe carbone et la Low Carbon Fuel Standard, et en mars 2025, Rustad a qualifié la taxe carbone industrielle de « punitive »."
 ],
 "questions/q_climate_energy/party_positions/green/text/1": [
 "0368faa344",
@@ -1044,8 +1044,8 @@
 "Le coût de la vie est l'enjeu principal pour les électeurs de la C.-B. En 2025, le gouvernement du NPD a aboli la taxe carbone à la consommation, mais il a suspendu une remise de 1 000 $, et en 2026 il a augmenté le taux d'imposition le plus bas. Chaque parti promet un allègement d'une façon différente. Certains baisseraient l'impôt sur le revenu de tout le monde. Un parti plafonnerait les marges sur l'essence et sur certains produits d'épicerie. Un autre augmenterait l'aide aux personnes les plus pauvres. D'autres combinent des baisses d'impôt plus modestes et des limites sur les hausses de tarifs d'électricité et d'assurance automobile."
 ],
 "questions/q_cost_of_living/context/4": [
-"ead02eb516",
-"Le coût de la vie est la priorité numéro un pour 56 % des électeurs de la C.-B., selon un sondage Ipsos. Le salaire minimum est de 18,25 $ l'heure et augmente chaque année avec l'inflation. En 2025, le gouvernement du NPD a suspendu une remise de 1 000 $ sur l'épicerie, et en 2026 il a augmenté le taux d'imposition le plus bas. Le coût des promesses des partis est difficile à comparer. Les baisses d'impôt des conservateurs et de OneBC n'ont aucun coût publié. Les verts évaluent le coût de leurs programmes à 9,28 milliards de dollars par année, mais n'ont pas publié comment ils ont estimé les revenus de leur impôt sur la fortune, et les chiffres de coûts de CentreBC sont les siens, vérifiés par personne d'autre."
+"a08e040d7e",
+"Le coût de la vie est la priorité numéro un pour 56 % des électeurs de la C.-B., selon un sondage Ipsos. Le salaire minimum est de 18,25 $ l'heure et augmente chaque année avec l'inflation. En 2025, le gouvernement du NPD a suspendu une remise de 1 000 $ sur l'épicerie, et en 2026 il a augmenté le taux d'imposition le plus bas. Le coût des promesses des partis est difficile à comparer. Les conservateurs évaluent leur baisse d'impôt à 2,9 milliards de dollars par année; les baisses d'impôt de OneBC n'ont aucun coût publié. Les verts évaluent le coût de leurs programmes à 9,28 milliards de dollars par année, mais n'ont pas publié comment ils ont estimé les revenus de leur impôt sur la fortune, et les chiffres de coûts de CentreBC et des conservateurs sont les leurs, vérifiés par personne d'autre."
 ],
 "questions/q_cost_of_living/context/5": [
 "9da9e5bc8d",
@@ -1168,12 +1168,12 @@
 "Ce parti laisserait les gens gagner plus avant de payer de l'impôt, et il promet de n'ajouter aucun nouvel impôt ni aucune nouvelle taxe."
 ],
 "questions/q_cost_of_living/party_positions/conservative/text/3": [
-"c76475dce1",
-"Les conservateurs promettent de porter le montant non imposable à 32 000 $ (environ 1 000 $ par année), de n'ajouter aucun nouvel impôt ni aucune nouvelle taxe pendant qu'ils seront au gouvernement et de retirer la taxe de vente provinciale sur l'alcool canadien jusqu'à la fin du conflit commercial. Le plan n'a aucun coût publié et ne donne rien aux personnes qui ne paient pas d'impôt provincial sur le revenu. Ils annuleraient aussi la hausse, en 2026, des intérêts sur l'impôt foncier que les propriétaires de 55 ans et plus reportent."
+"a83d72e781",
+"Les conservateurs promettent de porter le montant non imposable à 32 000 $ (environ 1 000 $ par année), de n'ajouter aucun nouvel impôt ni aucune nouvelle taxe pendant qu'ils seront au gouvernement et de retirer la taxe de vente provinciale sur l'alcool canadien jusqu'à la fin du conflit commercial. Le programme du parti du 18 octobre en évalue le coût à 2,9 milliards de dollars par année. La mesure ne donne rien aux personnes qui ne paient pas d'impôt provincial sur le revenu. Ils annuleraient aussi la hausse, en 2026, des intérêts sur l'impôt foncier que les propriétaires de 55 ans et plus reportent."
 ],
 "questions/q_cost_of_living/party_positions/conservative/text/5": [
-"4669328702",
-"Les conservateurs porteraient le montant personnel de base de 13 216 $ à 32 000 $, ce qui, selon le parti, vaut environ 1 000 $ par année; l'économie est la même pour tous ceux qui gagnent plus d'environ 40 000 $. C'est un crédit non remboursable, donc les personnes qui ne doivent pas d'impôt ne reçoivent rien. Le parti ne l'a pas chiffré; une personne candidate du NPD parle d'un trou de 2,5 milliards de dollars, et l'économiste Ross Hickey l'évalue à environ 2 milliards de dollars par année. Il promet de ne créer aucun nouvel impôt ni aucune nouvelle taxe et de n'augmenter aucun impôt ni aucune taxe pendant qu'il sera au gouvernement, de ne percevoir aucune PST sur la bière, le vin et les spiritueux canadiens jusqu'à la fin du conflit commercial, et d'accorder une exemption de PST de trois ans sur la machinerie, les outils et les logiciels des entreprises. Il annulerait la modification apportée en 2026 au programme de report de l'impôt foncier (Property Tax Deferment Program), qui a fait passer les impôts reportés à partir de 2026 d'un intérêt simple au taux préférentiel moins 2 % à un intérêt au taux préférentiel plus 2 % composé mensuellement. Il a voté contre le projet de loi de 2026 (projet de loi 2) qui a augmenté le taux d'imposition le plus bas."
+"d0c0d14e73",
+"Les conservateurs porteraient le montant personnel de base de 13 216 $ à 32 000 $, ce qui, selon le parti, vaut environ 1 000 $ par année; l'économie est la même pour tous ceux qui gagnent plus d'environ 40 000 $. C'est un crédit non remboursable, donc les personnes qui ne doivent pas d'impôt ne reçoivent rien. Le programme du parti du 18 octobre en évalue le coût à 2,9 milliards de dollars par année à partir de l'année d'imposition 2027 (l'économiste Ross Hickey l'avait estimé à environ 2 milliards de dollars). Le programme promet aussi des versements plus élevés de la BC Family Benefit et de l'Affordable Child Care Benefit, ainsi qu'une loi interdisant à TransLink d'imposer une redevance sur la possession ou l'immatriculation d'une voiture. Il promet de ne créer aucun impôt nouveau ou plus élevé pendant que le parti sera au gouvernement, de ne percevoir aucune PST sur la bière, le vin et les spiritueux canadiens jusqu'à la fin du conflit commercial, et d'accorder une exemption de PST de trois ans sur la machinerie, les outils et les logiciels des entreprises. Il annulerait la modification apportée en 2026 au programme de report de l'impôt foncier (Property Tax Deferment Program), qui a fait passer les impôts reportés à partir de 2026 d'un intérêt simple au taux préférentiel moins 2 % à un intérêt au taux préférentiel plus 2 % composé mensuellement. Le parti a voté contre le projet de loi de 2026 (projet de loi 2) qui a augmenté le taux le plus bas."
 ],
 "questions/q_cost_of_living/party_positions/green/text/1": [
 "88225a2b3e",
@@ -1368,12 +1368,12 @@
 "Ce parti veut des délais fermes pour les grands projets et plus de pouvoir pour les villes et les familles."
 ],
 "questions/q_democracy_power/party_positions/conservative/text/3": [
-"50efec0456",
-"Les conservateurs ont voté contre les lois d'accélération et sur les droits de douane du NPD et ont qualifié la loi sur les droits de douane d'« antidémocratique », mais promettent leur propre loi sur les permis en 120 jours et une règle qui retire deux règlements pour chaque nouveau. Ils réduiraient Metro Vancouver à l'eau et aux égouts. Ils n'ont aucune proposition sur le mode de scrutin."
+"2b84537bb3",
+"Les conservateurs ont voté contre les lois d'accélération et sur les droits de douane du NPD et ont qualifié la loi sur les droits de douane d'« antidémocratique », mais promettent leur propre loi sur les permis en 120 jours et une règle qui retire deux règlements pour chaque nouveau. Ils réduiraient Metro Vancouver à l'eau et aux égouts. Ils n'ont aucune proposition sur le mode de scrutin. Leur programme du 18 octobre ajoute des rapports publics trimestriels sur les cibles de déficit et une loi qui tient les élections provinciales à l'écart des élections municipales."
 ],
 "questions/q_democracy_power/party_positions/conservative/text/5": [
-"989c9a35f8",
-"Les conservateurs ont voté contre les projets de loi 7, 14 et 15. Le parti a qualifié le projet de loi 7 de « loi la plus antidémocratique et la plus avide de pouvoir de l'histoire », et Rustad a dit qu'il donnait au Cabinet « des pouvoirs presque illimités sans aucune surveillance ». Le parti promet une 120 Day Permitting Act (loi sur la délivrance accélérée des permis) pour les projets de plus de 250 M$, une loi selon laquelle chaque nouveau règlement en retire deux, et la réduction de Metro Vancouver à l'eau potable et au traitement des eaux usées. En 2024, il promettait l'approbation des électeurs pour tout nouvel impôt, mais ne l'a pas répété."
+"f9c956d493",
+"Les conservateurs ont voté contre les projets de loi 7, 14 et 15. Le parti a qualifié le projet de loi 7 de « loi la plus antidémocratique et la plus avide de pouvoir de l'histoire », et Rustad a dit qu'il donnait au Cabinet « des pouvoirs presque illimités sans aucune surveillance ». Le parti promet une 120 Day Permitting Act (loi sur la délivrance accélérée des permis) pour les projets de plus de 250 M$, une loi selon laquelle chaque nouveau règlement en retire deux, et la réduction de Metro Vancouver à l'eau potable et au traitement des eaux usées. En 2024, il promettait l'approbation des électeurs pour tout nouvel impôt, mais ne l'a pas répété. Le programme du 18 octobre ajoute des délais fermes d'approbation des projets inscrits dans la loi, un examen de la « véritable situation financière » du gouvernement par un comité indépendant, quatre ancrages budgétaires dont il serait rendu compte chaque trimestre, la publication des revendications de titre et des ententes avant qu'elles deviennent contraignantes, et une Respect Local Democracy Act (loi sur le respect de la démocratie locale) interdisant la tenue d'élections provinciales à moins de 60 jours d'élections municipales."
 ],
 "questions/q_democracy_power/party_positions/green/text/1": [
 "1ea2919c66",
@@ -1472,24 +1472,24 @@
 "Abroger DRIPA et l'article 8.1 de l'Interpretation Act (loi d'interprétation), déclarer UNDRIP sans effet en C.-B., geler les transferts volontaires, et abroger l'Indian Act (Loi sur les Indiens)."
 ],
 "questions/q_dripa/options/b/text/1": [
-"350f2aecf9",
-"Mettre fin à la loi, mais continuer de travailler avec les Premières Nations sur des projets et des emplois."
+"fc74a151a1",
+"Mettre fin à la loi, protéger les titres de propriété des gens et travailler avec les Premières Nations sur des projets et des emplois."
 ],
 "questions/q_dripa/options/b/text/2": [
-"76f06f357b",
-"Annuler la loi, mais continuer de conclure avec les Premières Nations des ententes de projets qui créent des emplois."
+"0c0413f0b8",
+"Annuler la loi, protéger par une loi les titres de propriété privés, publier tôt les revendications territoriales et conclure des ententes de projets avec les Premières Nations."
 ],
 "questions/q_dripa/options/b/text/3": [
-"db7d9b91fb",
-"Abroger la loi et miser plutôt sur des partenariats de projets avec les Premières Nations, sans nouvelle loi pour la remplacer."
+"79afb2b5fd",
+"Abroger la loi et une règle connexe sur la façon d'interpréter les autres lois, protéger par une loi les titres de propriété privés, publier les revendications de titre et les ententes avant qu'elles deviennent contraignantes, et miser sur des partenariats de projets avec les Premières Nations."
 ],
 "questions/q_dripa/options/b/text/4": [
-"64780e6118",
-"Abroger DRIPA, poursuivre la réconciliation économique par des partenariats de projets avec les Premières Nations, et n'adopter aucune loi de remplacement."
+"24da3045c3",
+"Abroger DRIPA et l'article 8.1 de l'Interpretation Act, adopter des lois qui protègent les titres en fief simple et qui publient les revendications de titre et les ententes avant qu'elles deviennent contraignantes, et poursuivre la réconciliation économique par des partenariats de projets."
 ],
 "questions/q_dripa/options/b/text/5": [
-"00c16cb391",
-"Abroger DRIPA et poursuivre la réconciliation économique en réalisant des projets avec les Premières Nations, sans loi de remplacement, tandis que les obligations de l'article 35 demeurent."
+"bbf2395da2",
+"Abroger DRIPA et l'article 8.1 de l'Interpretation Act, adopter une Property Rights Defence Act (loi sur la défense du droit de propriété) et une Aboriginal Title Transparency Act (loi sur la transparence du titre ancestral) qui publie les revendications et les ententes avant qu'elles deviennent contraignantes, et poursuivre la réconciliation économique par des projets avec les Premières Nations en vertu de l'article 35."
 ],
 "questions/q_dripa/options/c/text/1": [
 "64ab8cdf1d",
@@ -1564,16 +1564,16 @@
 "Un projet de loi de la première session abrogerait DRIPA et l'article 8.1 de l'Interpretation Act (loi d'interprétation) et adopterait une loi fondée sur les traités avec 30 M$ par année pour les négociations de traités et de chevauchements territoriaux, et un rapport annuel sur les traités. UNDRIP serait « un guide », et l'article 35 et l'obligation de consulter demeurent. Les propriétaires sont indemnisés jusqu'à la valeur évaluée après des décisions sur le titre, sans ententes touchant des terres privées avant la fin des appels dans l'affaire Cowichan. Les ententes sont publiées 60 jours avant leur signature. Le 13 août, le parti avait rejeté l'abrogation comme un « message politique », bien que Sturko ait voté pour la première lecture des projets de loi d'abrogation de DRIPA en novembre 2025 et en avril 2026."
 ],
 "questions/q_dripa/party_positions/conservative/text/1": [
-"cd91f1949f",
-"Ce parti veut mettre fin à la loi et travailler plutôt avec les Premières Nations sur des projets d'affaires."
+"0390c86b33",
+"Ce parti veut mettre fin à la loi, protéger les titres de propriété des gens et travailler avec les Premières Nations sur des projets d'affaires."
 ],
 "questions/q_dripa/party_positions/conservative/text/3": [
-"d1ddc2aa0f",
-"Le chef par intérim Lorne Doerkson dit : « J'abrogerai DRIPA. » Le parti dit vouloir plutôt réaliser des projets avec les Premières Nations et ne nomme aucune loi de remplacement. Ses députés ont voté en 2025 et en 2026 pour présenter des projets de loi abrogeant la loi; les deux ont été rejetés. Beaucoup d'entre eux étaient des libéraux de la C.-B. qui ont voté pour la loi en 2019."
+"da7780793d",
+"Le programme des conservateurs abrogerait DRIPA et une règle connexe de l'Interpretation Act, adopterait une loi protégeant les titres de propriété privés et une autre publiant les revendications de titre et les ententes avant qu'elles deviennent contraignantes, et réaliserait des projets avec les Premières Nations. Ses députés ont voté en 2025 et en 2026 pour présenter des projets de loi abrogeant la loi; les deux ont été rejetés. Beaucoup d'entre eux étaient des libéraux de la C.-B. qui ont voté pour la loi en 2019."
 ],
 "questions/q_dripa/party_positions/conservative/text/5": [
-"03e07552e2",
-"La page du plan conservateur « Repeal DRIPA, Promote Economic Reconciliation » (abroger DRIPA, promouvoir la réconciliation économique) (7 octobre) promet l'abrogation, et Doerkson dit vouloir réaliser des projets « conjointement avec les Premières Nations ». Elle ne nomme aucune loi de remplacement et ne prend aucune position sur les ententes de l'article 7 ni sur la propriété privée. Ses députés, dont Rustad, Doerkson et Halford, ont voté pour la première lecture du projet de loi d'abrogation de DRIPA de Jordan Kealy, député indépendant (rejeté par 43 voix contre 48, novembre 2025), et du propre projet de loi d'abrogation de Halford (rejeté par 44 voix contre 47, avril 2026). En 2019, Rustad et d'autres libéraux de la C.-B. ont voté pour le projet de loi 41, adopté par 82 voix contre 0; Rustad dit qu'il n'avait « pas le choix ». Il a aussi promis l'abrogation en 2024."
+"c2f8699e46",
+"Le programme des conservateurs du 18 octobre abrogerait DRIPA, l'article 8.1 de l'Interpretation Act et les directives du NPD sur les litiges, et rétablirait « le cadre constitutionnel de l'article 35 ». Il ajoute une Property Rights Defence Act (loi sur la défense du droit de propriété) qui confirme la Land Title Act sur toutes les terres en fief simple, une Aboriginal Title Transparency Act (loi sur la transparence du titre ancestral) qui publie les revendications, les négociations et les ententes « avant qu'elles deviennent contraignantes », et un accès public garanti aux terres de la Couronne, aux plages et à l'arrière-pays. Il promet le partage des revenus et la propriété de projets avec les Premières Nations. Il ne nomme aucune loi sur les traités ni aucune indemnisation des propriétaires. Ses députés provinciaux, dont Rustad, Doerkson et Halford, ont voté pour la première lecture du projet de loi d'abrogation de DRIPA de Jordan Kealy, député indépendant (rejeté par 43 voix contre 48, novembre 2025), et du propre projet de loi d'abrogation de Halford (rejeté par 44 voix contre 47, avril 2026). En 2019, Rustad et d'autres libéraux de la C.-B. ont voté pour le projet de loi 41, adopté par 82 voix contre 0; Rustad dit qu'il n'avait « pas le choix ». Il a aussi promis l'abrogation en 2024."
 ],
 "questions/q_dripa/party_positions/green/text/1": [
 "2b58ab9a9b",
@@ -1768,12 +1768,12 @@
 "Ce parti arrêterait de fournir des drogues de remplacement prescrites, obligerait les personnes ayant une dépendance grave à suivre un traitement, et interdirait la consommation de drogues dans les refuges."
 ],
 "questions/q_drugs/party_positions/conservative/text/3": [
-"6baf279123",
-"Le plan conservateur mettrait fin à l'approvisionnement plus sécuritaire, modifierait la Mental Health Act (loi sur la santé mentale) pour que la police puisse enclencher un traitement obligatoire, et interdirait la consommation dans les hôpitaux, les refuges et les logements avec services de soutien. Il ne dit rien sur les sites supervisés; le programme électoral de 2024 promettait de les fermer."
+"6aa8848683",
+"Le plan conservateur mettrait fin à l'approvisionnement plus sécuritaire, modifierait la Mental Health Act (loi sur la santé mentale) pour que la police puisse enclencher un traitement obligatoire, et interdirait la consommation de drogues dans les hôpitaux, les refuges et les logements avec services de soutien. Son programme du 18 octobre réviserait les sites supervisés pour en avoir moins et de mieux situés; le programme électoral de 2024 promettait de les fermer."
 ],
 "questions/q_drugs/party_positions/conservative/text/5": [
-"0e70c9887b",
-"Safe Streets for BC (octobre 2026) mettrait fin à l'« approvisionnement plus sécuritaire », instaurerait l'intervention compatissante, modifierait la Mental Health Act (loi sur la santé mentale) pour un traitement obligatoire lié à une intervention policière, interdirait la consommation de drogues dans les hôpitaux, les refuges et les logements avec services de soutien, et ajouterait des traitements en établissement. Le programme électoral de 2024 promettait de fermer tous les sites de consommation supervisée. Le parti a voté contre le projet de loi 32 du NPD, la Mental Health Amendment Act (No. 2), 2025, adoptée par 45 voix contre 41. Il n'a précisé ni coûts ni nombre de lits."
+"7a99532863",
+"Safe Streets for BC (octobre 2026) mettrait fin à l'« approvisionnement plus sécuritaire », instaurerait l'intervention compatissante, modifierait la Mental Health Act (loi sur la santé mentale) pour un traitement obligatoire lié à une intervention policière, interdirait la consommation de drogues dans les hôpitaux, les refuges et les logements avec services de soutien, et ajouterait des traitements en établissement. Le programme électoral de 2024 promettait de fermer tous les sites de consommation supervisée. Le parti a voté contre le projet de loi 32 du NPD, la Mental Health Amendment Act (No. 2), 2025, adoptée par 45 voix contre 41. Le programme du 18 octobre ajoute un examen des sites de prévention des surdoses et de consommation supervisée visant des « options moins nombreuses et mieux situées » qui mènent au traitement, plus de tribunaux de traitement de la toxicomanie et un traitement sur demande; il évalue le coût du traitement et du rétablissement à 95 M$ par année et ne donne aucun nombre de lits."
 ],
 "questions/q_drugs/party_positions/green/text/1": [
 "e8c5817c48",
@@ -1968,12 +1968,12 @@
 "Ce parti vendrait beaucoup plus de gaz naturel à l'étranger et approuverait les grands projets plus vite avec moins de règles."
 ],
 "questions/q_economy_tariffs/party_positions/conservative/text/3": [
-"2b9a3e73b9",
-"Les conservateurs doubleraient la production de gaz, approuveraient en 120 jours les projets de plus de 250 millions de dollars, réduiraient la paperasse et suspendraient la taxe de vente provinciale sur l'équipement des entreprises. Ils ont voté contre les lois d'accélération du NPD, mais proposent les leurs. Ils n'ont aucun plan pour la foresterie."
+"380c4db921",
+"Les conservateurs doubleraient la production de gaz, approuveraient en 120 jours les projets de plus de 250 millions de dollars, réduiraient la paperasse et suspendraient la taxe de vente provinciale sur l'équipement des entreprises. Ils ont voté contre les lois d'accélération du NPD, mais proposent les leurs. Leur programme du 18 octobre ajoute un crédit sur la masse salariale de 5 000 $ pour un premier emploi, un plancher de récolte de 45 millions de mètres cubes, des permis forestiers plus rapides et un représentant de la C.-B. à Washington."
 ],
 "questions/q_economy_tariffs/party_positions/conservative/text/5": [
-"5f725b0546",
-"Le plan du 29 septembre 2026 ferait plus que doubler la production de gaz naturel d'ici 2032 et plus que la tripler d'ici 2035. Une 120 Day Permitting Act (loi sur la délivrance accélérée des permis) couvrirait les projets de plus de 250 M$. La paperasse reviendrait au niveau de 2017 d'ici la fin d'un premier mandat grâce à une loi qui retire deux règles pour chaque nouvelle règle, et la machinerie, l'équipement et les logiciels d'entreprise seraient exemptés de la taxe de vente provinciale pendant trois ans. Le 10 octobre, le parti a proposé un First Job Tax Credit pour les entreprises qui embauchent des jeunes, sans montant précisé. Le parti accueille favorablement l'oléoduc Pacific Link. Il a voté contre les projets de loi 7, 14 et 15, et a qualifié le projet de loi 7 de « loi la plus antidémocratique et la plus avide de pouvoir de l'histoire »."
+"e167bed7d8",
+"Le plan du 29 septembre 2026 ferait plus que doubler la production de gaz naturel d'ici 2032 et plus que la tripler d'ici 2035. Une 120 Day Permitting Act (loi sur la délivrance accélérée des permis) couvrirait les projets de plus de 250 M$. La paperasse reviendrait au niveau de 2017 d'ici la fin d'un premier mandat grâce à une loi qui retire deux règles pour chaque nouvelle règle, et la machinerie, l'équipement et les logiciels d'entreprise seraient exemptés de la taxe de vente provinciale pendant trois ans. Le 10 octobre, le parti a proposé un First Job Tax Credit (crédit d'impôt pour un premier emploi) pour les entreprises qui embauchent des jeunes; le programme du 18 octobre l'applique aux premiers 5 000 $ de masse salariale (75 M$ par année à partir de 2028-29). Le programme fixe aussi un plancher de 45 millions de mètres cubes pour la récolte de bois, prolonge le BC Manufacturing Jobs Fund, ferait du bois d'œuvre résineux une priorité « de premier rang » dans les négociations avec les États-Unis, nommerait un représentant de la C.-B. à Washington, donnerait la priorité au bois de la C.-B. et à l'acier canadien dans les projets publics, et abrogerait CleanBC. Le parti accueille favorablement l'oléoduc Pacific Link. Il a voté contre les projets de loi 7, 14 et 15, et a qualifié le projet de loi 7 de « loi la plus antidémocratique et la plus avide de pouvoir de l'histoire »."
 ],
 "questions/q_economy_tariffs/party_positions/green/text/1": [
 "1f8508fe07",
@@ -2040,16 +2040,16 @@
 "Les services de garde peuvent coûter aux familles autant qu'un loyer. Environ une place autorisée sur dix coûte 10 $ par jour, et la province a suspendu pour trois ans l'ajout de places à 10 $ par jour pour économiser de l'argent. Certains districts scolaires en forte croissance dépendent encore de classes portatives. Les partis ne s'entendent pas : élargir les services de garde, recentrer les écoles sur les bases, ou limiter les dépenses."
 ],
 "questions/q_education_childcare/context/3": [
-"63b9d1a485",
-"Environ 10 % des places autorisées en services de garde coûtent 10 $ par jour. En 2026, le gouvernement néo-démocrate a suspendu pour trois ans l'ajout de places à 10 $ par jour. Certains districts scolaires en forte croissance utilisent encore beaucoup de classes portatives. Les verts veulent des services de garde gratuits d'ici 2031 et CentreBC veut 20 000 places de plus à 10 $ par jour. En octobre, le NPD a promis plus de places et un plafond des frais, avec de l'argent fédéral. Les conservateurs et OneBC misent sur les examens, les notes et les bases."
+"a47215860b",
+"Environ 10 % des places autorisées en services de garde coûtent 10 $ par jour. En 2026, le gouvernement néo-démocrate a suspendu pour trois ans l'ajout de places à 10 $ par jour. Certains districts scolaires en forte croissance utilisent encore beaucoup de classes portatives. Les verts veulent des services de garde gratuits d'ici 2031 et CentreBC veut 20 000 places de plus à 10 $ par jour. En octobre, le NPD a promis plus de places et un plafond des frais, avec de l'argent fédéral. Les conservateurs et OneBC misent sur les examens, les notes et les bases; les conservateurs ajoutent des prestations familiales plus élevées et quelques places ciblées."
 ],
 "questions/q_education_childcare/context/4": [
 "d6213bc0c6",
 "Environ 10 % des places autorisées en services de garde coûtent 10 $ par jour. En février 2026, le gouvernement néo-démocrate a suspendu pour trois ans les nouvelles inscriptions à 10 $ par jour afin de corriger le modèle de financement du programme. L'Affordable Child Care Benefit (prestation pour des services de garde abordables) aide toujours les familles dont le revenu va jusqu'à 111 000 $. Les districts scolaires en forte croissance utilisent encore des classes mobiles."
 ],
 "questions/q_education_childcare/context/5": [
-"ad9f1e2b04",
-"Les nouvelles inscriptions à 10 $ par jour sont gelées depuis février 2026 (un gel de trois ans, selon les médias), et le budget 2026 ajoute 330 M$ sur trois ans pour les services de garde. Il y avait plus de 16 000 de ces places en mars 2025, pour une cible de 20 000. L'Affordable Child Care Benefit (prestation pour des services de garde abordables) continue pour les revenus familiaux jusqu'à 111 000 $. Le budget 2026 prévoit 3,9 G$ sur trois ans pour construire, rénover et mettre aux normes sismiques des écoles. Le 17 octobre, le NPD s'est engagé à verser 80 M$ pour des places avant et après l'école situées dans les écoles et 250 M$ en vue d'une entente Canada-C.-B. renégociée sur les services de garde. Le programme électoral des verts du 13 octobre évalue le coût des services de garde à 260 M$ par année, sans compter les immobilisations pour les nouveaux centres, et celui de l'éducation à 587 M$ par année. CentreBC évalue son plan d'éducation à environ 2,0 G$, plus 750 M$ en immobilisations sur quatre ans, et finance les services de garde avec de l'argent fédéral, selon les chiffres du parti lui-même."
+"868768a439",
+"Les nouvelles inscriptions à 10 $ par jour sont gelées depuis février 2026 (un gel de trois ans, selon les médias), et le budget 2026 ajoute 330 M$ sur trois ans pour les services de garde. Il y avait plus de 16 000 de ces places en mars 2025, pour une cible de 20 000. L'Affordable Child Care Benefit (prestation pour des services de garde abordables) continue pour les revenus familiaux jusqu'à 111 000 $. Le budget 2026 prévoit 3,9 G$ sur trois ans pour construire, rénover et mettre aux normes sismiques des écoles. Le 17 octobre, le NPD s'est engagé à verser 80 M$ pour des places avant et après l'école situées dans les écoles et 250 M$ en vue d'une entente Canada-C.-B. renégociée sur les services de garde. Le programme des conservateurs du 18 octobre évalue le coût de ses mesures pour les familles et les services de garde à 150 M$ par année. Le programme électoral des verts du 13 octobre évalue le coût des services de garde à 260 M$ par année, sans compter les immobilisations pour les nouveaux centres, et celui de l'éducation à 587 M$ par année. CentreBC évalue son plan d'éducation à environ 2,0 G$, plus 750 M$ en immobilisations sur quatre ans, et finance les services de garde avec de l'argent fédéral, selon les chiffres du parti lui-même."
 ],
 "questions/q_education_childcare/options/a/text/1": [
 "895ead171e",
@@ -2072,24 +2072,24 @@
 "Instaurer des examens provinciaux standardisés axés sur la lecture, l'écriture et les mathématiques, une Parental Bill of Rights (charte des droits parentaux) garantissant le consentement éclairé et la transparence en classe, sans élargir ChildCareBC."
 ],
 "questions/q_education_childcare/options/b/text/1": [
-"e06dd2582f",
-"Miser sur la lecture et les maths, ramener les examens, et ne pas élargir les services de garde."
+"cea1bad4f8",
+"Miser sur la lecture et les maths, ramener les notes et les examens, et n'ajouter qu'un peu d'aide pour les services de garde."
 ],
 "questions/q_education_childcare/options/b/text/2": [
-"90e79ddea8",
-"Miser sur la lecture et les maths, ramener les notes en lettres et les examens provinciaux, et ne pas élargir les services de garde."
+"ea8bf82af2",
+"Miser sur la lecture et les maths, ramener les notes en lettres et les examens provinciaux, et garder une aide aux services de garde modeste et ciblée."
 ],
 "questions/q_education_childcare/options/b/text/3": [
-"34c51d7693",
-"Mettre les bases en premier en rétablissant les notes en lettres et les examens provinciaux, sans élargir les services de garde."
+"726d0b6312",
+"Mettre les bases en premier en rétablissant les notes en lettres, les examens provinciaux et les cours d'atelier, et garder une aide modeste aux services de garde : des prestations familiales plus élevées et quelques places à 10 $ par jour pour les familles qui en ont le plus besoin."
 ],
 "questions/q_education_childcare/options/b/text/4": [
-"cd18f15336",
-"Mettre la littératie et la numératie en premier, rétablir les notes en lettres de la 4e à la 9e année et les examens provinciaux en 10e et 12e année, sans élargir les services de garde."
+"88e3146120",
+"Mettre la littératie et la numératie en premier, rétablir les notes en lettres de la 4e à la 9e année et les examens provinciaux, ramener les cours d'atelier, et limiter les services de garde à des prestations plus élevées, à des places ouvertes 24 heures par jour et à des places prioritaires à 10 $ par jour pour les familles qui en ont le plus besoin."
 ],
 "questions/q_education_childcare/options/b/text/5": [
-"ef4d69df28",
-"Miser sur la littératie et la numératie, rétablir les notes en lettres de la 4e à la 9e année et les examens provinciaux en 10e et 12e année, n'ajouter aucun nouvel impôt, et ne prendre aucun engagement sur les services de garde."
+"86eef6034e",
+"Miser sur la littératie et la numératie, rétablir les notes en lettres de la 4e à la 9e année et les examens provinciaux, ramener les cours d'atelier, n'ajouter aucun nouvel impôt, et garder des dépenses modestes pour les services de garde (150 M$ par année pour les mesures familiales) : des prestations familiales plus élevées, des places ouvertes 24 heures par jour et des places à 10 $ par jour pour les familles qui en ont le plus besoin à mesure que le programme s'élargit."
 ],
 "questions/q_education_childcare/options/c/text/1": [
 "2ddc4b24a9",
@@ -2164,16 +2164,16 @@
 "Le programme électoral ajoute 20 000 places à 10 $ par jour d'ici 2030, avec des fonds fédéraux « garantis jusqu'en 2031 », et 25 000 places dans les écoles d'ici 2031 grâce à des agrandissements préfabriqués et à 750 M$ en immobilisations. Il garde et finance les limites de taille des classes, passe à un conseiller pour 400 élèves d'ici 2030, ajoute 1 500 aides-enseignants, instaure les notes en lettres de la 4e à la 9e année à partir de septembre 2028, publie les résultats des examens par école, plafonne les hausses de droits de scolarité à 2 % et fixe une norme sur l'intelligence artificielle à l'école en 2027. L'éducation coûte environ 2,0 G$ sur quatre ans (chiffre du parti)."
 ],
 "questions/q_education_childcare/party_positions/conservative/text/1": [
-"836d2851b4",
-"Ce parti veut enlever une ressource de l'école sur l'identité de genre. En 2024, il a promis des notes en lettres et des examens. Il n'a rien promis sur les services de garde."
+"a4b841085b",
+"Ce parti veut ramener les notes en lettres, les examens et les cours d'atelier. Il donnerait aux familles un peu plus d'argent pour les services de garde et quelques nouvelles places."
 ],
 "questions/q_education_childcare/party_positions/conservative/text/3": [
-"aaf2709cf0",
-"La page Safe Schools de 2026 des conservateurs demande l'abrogation de SOGI 123, sans promesse sur les services de garde ou la construction d'écoles. Ils ont promis des notes en lettres et des examens provinciaux en 2024, mais ne l'ont pas répété. Leur engagement à n'ajouter aucun nouvel impôt limite les nouvelles dépenses."
+"0c377c67ea",
+"Le programme des conservateurs rétablirait les notes en lettres et les examens provinciaux, ramènerait les cours d'atelier et abrogerait SOGI 123. Pour les services de garde, il promet des prestations familiales plus élevées, des places ouvertes 24 heures par jour et des places à 10 $ par jour pour les familles qui en ont le plus besoin à mesure que le programme s'élargit, au coût de 150 M$ par année, sans cible de places."
 ],
 "questions/q_education_childcare/party_positions/conservative/text/5": [
-"3e4d121484",
-"La page Safe Schools de 2026 abrogerait SOGI 123, une ressource pédagogique sur l'orientation sexuelle et l'identité de genre. Elle ne contient aucun engagement sur les services de garde, la construction d'écoles ou l'éducation postsecondaire. Le programme électoral de 2024 promettait des notes en lettres de la 4e à la 9e année et des examens provinciaux en 10e et 12e année. L'engagement de n'ajouter aucun nouvel impôt laisse croire que les immobilisations scolaires seraient maintenues ou réduites. Ce questionnaire note le parti comme axé sur les notes et les examens, avec un faible degré de confiance sur les services de garde."
+"83d29f3239",
+"Le programme des conservateurs du 18 octobre rétablirait les notes en lettres de la 4e à la 9e année et des « examens provinciaux uniformes, surveillés et fondés sur le programme d'études », miserait sur la littératie et les mathématiques, ramènerait les cours d'atelier, limiterait davantage les téléphones, donnerait aux parents l'accès au programme d'études et le droit de retrait, abrogerait SOGI 123, élargirait les repas à l'école dans les collectivités aux besoins élevés et offrirait un crédit remboursable pour les activités pouvant atteindre 500 $ par enfant. Pour les services de garde, il réduirait les règles qui retardent la création de places, rendrait les fournisseurs indépendants admissibles aux nouvelles places à 10 $ par jour « à mesure que le programme s'élargit », donnerait ces places en priorité aux familles qui en ont le plus besoin, créerait des places ouvertes 24 heures par jour pour les personnes qui travaillent par quarts, augmenterait la BC Family Benefit et l'Affordable Child Care Benefit, et offrirait l'équivalent du crédit fédéral pour la rénovation d'une habitation multigénérationnelle, pour 150 M$ par année à plein coût. Il ne fixe aucune cible de places ni aucun plan d'immobilisations scolaires au-delà des installations d'atelier dans les nouvelles écoles."
 ],
 "questions/q_education_childcare/party_positions/green/text/1": [
 "4ef3cce8c5",
@@ -2368,12 +2368,12 @@
 "Ce parti veut que les soins restent gratuits, que les urgences restent ouvertes et que les familles aient plus de choix de foyers de soins."
 ],
 "questions/q_health/party_positions/conservative/text/3": [
-"81e7347c10",
-"Les conservateurs promettent des urgences ouvertes, un fonds d'urgence de 50 millions de dollars, une commission de 100 jours sur les temps d'attente et aucune réduction du financement actuel de la santé. Ils permettraient que le financement des soins de longue durée et à domicile suive les patients vers des fournisseurs non gouvernementaux. Ils n'ont pas repris leur plan de 2024 sur les cliniques privées."
+"0d72cdc693",
+"Les conservateurs promettent des urgences ouvertes, un fonds d'urgence de 50 millions de dollars, une commission de 100 jours sur les temps d'attente et aucune réduction du financement actuel de la santé. Ils permettraient que le financement des soins de longue durée et à domicile suive les patients vers des fournisseurs non gouvernementaux. Leur programme du 18 octobre ajoute une garantie de traitement payé par l'État auprès d'un autre fournisseur qualifié lorsque l'attente pour une chirurgie est trop longue, et évalue le coût du plan de santé à 975 millions de dollars par année."
 ],
 "questions/q_health/party_positions/conservative/text/5": [
-"b1ae0a1036",
-"Le 5 octobre, les conservateurs ont promis des urgences ouvertes, un fonds d'urgence de 50 M$, du soutien aux cabinets médicaux ruraux, une commission de 100 jours s'inspirant d'« autres systèmes publics » et la protection du financement actuel de la santé, en qualifiant les soins d'« universels et financés par l'État » et en disant qu'il ne faudrait « rien de plus que leur carte santé ». Le 9 octobre, ils ont promis un financement des soins de longue durée que les aînés peuvent apporter à un fournisseur public ou non gouvernemental qualifié. Le 12 octobre, le parti a répété son engagement sur la carte santé. Ils n'ont pas repris les engagements de 2024 sur les partenariats avec des cliniques privées ni sur les garanties de soins hors province. Ils ont voté contre le projet de loi du NPD de 2025 sur la santé mentale (projet de loi 32)."
+"e3be20b985",
+"Le 5 octobre, les conservateurs ont promis des urgences ouvertes, un fonds d'urgence de 50 M$, du soutien aux cabinets médicaux ruraux, une commission de 100 jours s'inspirant d'« autres systèmes publics » et la protection du financement actuel de la santé, en qualifiant les soins d'« universels et financés par l'État » et en disant qu'il ne faudrait « rien de plus que leur carte santé ». Le 9 octobre, ils ont promis un financement des soins de longue durée que les aînés peuvent apporter à un fournisseur public ou non gouvernemental qualifié. Le 12 octobre, le parti a répété son engagement sur la carte santé. Leur programme du 18 octobre ajoute une Universal Health-Care Guarantee (garantie universelle de soins de santé : un traitement financé par l'État auprès d'un autre fournisseur qualifié lorsque les délais de référence pour les chirurgies sont dépassés), « corrigerait » la Health Professions and Occupations Act plutôt que de l'abroger, et évalue le coût de son chapitre sur la santé à 975 M$ par année, dont 205 M$ pour l'accès et les soins en milieu rural et 350 M$ pour les aînés. Il ne reprend pas le plan de 2024 sur les partenariats avec des cliniques privées. Ils ont voté contre le projet de loi du NPD de 2025 sur la santé mentale (projet de loi 32)."
 ],
 "questions/q_health/party_positions/green/text/1": [
 "1b37db8682",
@@ -2568,12 +2568,12 @@
 "Ce parti dit que les taxes et les règles font trop monter le prix des logements, et veut que construire coûte moins cher."
 ],
 "questions/q_housing/party_positions/conservative/text/3": [
-"243b1a72ff",
-"Les conservateurs promettent des coûts de construction et d'achat plus bas, aucune nouvelle taxe sur le logement et le retrait du logement des responsabilités du gouvernement régional de Metro Vancouver. Ils n'ont pris aucune position en 2026 sur la taxe sur la spéculation ou la loi sur la densité, et n'ont pas repris leurs idées de remise et d'abrogation de 2024."
+"7f077ac56a",
+"Les conservateurs promettent des coûts de construction et d'achat plus bas, aucune nouvelle taxe sur le logement et le retrait du logement des responsabilités du gouvernement régional de Metro Vancouver. Leur programme du 18 octobre réformerait aussi le Step Code et laisserait les villes décider où va la densité, mais il ne nomme ni la taxe sur la spéculation ni la loi sur la densité."
 ],
 "questions/q_housing/party_positions/conservative/text/5": [
-"12279a7c50",
-"En 2026, les conservateurs rejettent le plan fiscal du NPD sur le logement (l'Unsold Condo Tax et une hausse de la taxe sur la spéculation), en disant que « chaque nouvelle taxe sur le logement se retrouve dans le prix que paie une famille », promettent de n'ajouter aucune nouvelle taxe et redonneraient à la province et aux villes les rôles de Metro Vancouver en matière de logement et de climat. Ils n'ont pas dit s'ils abrogeraient la taxe sur la spéculation, modifieraient les projets de loi 44 ou 47, toucheraient au contrôle des loyers ou relanceraient la remise de 2024. Les députés provinciaux des partis qui les ont précédés ont voté contre la taxe sur la spéculation en 2018 et contre les projets de loi 44 et 46, et pour le projet de loi 47."
+"36dcc6e5dd",
+"En 2026, les conservateurs rejettent le plan fiscal du NPD sur le logement (l'Unsold Condo Tax et une hausse de la taxe sur la spéculation), en disant que « chaque nouvelle taxe sur le logement se retrouve dans le prix que paie une famille », promettent de n'ajouter aucune nouvelle taxe et redonneraient à la province et aux villes les rôles de Metro Vancouver en matière de logement et de climat. Leur programme du 18 octobre promet de réduire les taxes et les frais de construction, d'approuver les logements « en quelques mois, pas en quelques années », de réformer le Step Code, de rétablir le choix de l'énergie pour le chauffage et la cuisson, et de laisser les gouvernements locaux décider où va la densité selon leurs propres plans officiels de collectivité assortis de « cibles de densité appropriées », et non des « bureaucrates à Victoria ». Il ne dit pas s'ils abrogeraient la taxe sur la spéculation, le projet de loi 44 ou le projet de loi 47, ni s'ils toucheraient au contrôle des loyers. Les députés provinciaux des partis qui les ont précédés ont voté contre la taxe sur la spéculation en 2018 et contre les projets de loi 44 et 46, et pour le projet de loi 47."
 ],
 "questions/q_housing/party_positions/green/text/1": [
 "7e706d6c92",
@@ -2744,16 +2744,16 @@
 "Le programme électoral dit que « BC Hydro et ICBC restent publics ». Les tarifs de base restent gelés jusqu'au printemps 2027, puis augmentent au niveau de l'inflation ou moins jusqu'en 2030. À partir de 2031, les personnes ayant des lésions cérébrales et médullaires catastrophiques reçoivent des indemnités pour douleurs et souffrances, intégrées aux tarifs une fois le plafond terminé. Le parti « donnera suite à l'examen d'Enhanced Care par le comité législatif » et fixera des cibles d'efficacité à ICBC. Il ne rétablit pas les poursuites en général et ne permet pas la concurrence. Qualifier cela de recul partiel par rapport au régime sans égard à la responsabilité est l'interprétation de ce questionnaire, pas le libellé du programme."
 ],
 "questions/q_icbc/party_positions/conservative/text/1": [
-"f962bdbdc9",
-"Ce parti garderait l'assurance publique, mais laisserait les personnes gravement blessées poursuivre, et permettrait un peu de concurrence privée."
+"9dbfbbcfa7",
+"Ce parti garderait l'assurance publique et le régime sans égard à la responsabilité pour la plupart des accidents, mais laisserait les personnes les plus gravement blessées poursuivre."
 ],
 "questions/q_icbc/party_positions/conservative/text/3": [
-"bc978233e4",
-"Une lettre divulguée engage les conservateurs à adopter d'ici un an une loi sur un régime « hybride » qui rétablit les poursuites pour les blessures graves. La page Web du parti garde ICBC public et plafonne les honoraires d'avocat. Les deux décrivent le plan différemment, et aucune ne donne d'estimation des primes."
+"022d4dafdc",
+"Une lettre divulguée engage les conservateurs à adopter d'ici un an une loi sur un régime « hybride » qui rétablit les poursuites pour les blessures graves. La page Web du parti garde ICBC public et plafonne les honoraires d'avocat. Les deux décrivent le plan différemment, et aucune ne donne d'estimation des primes. Le programme du 18 octobre garde le régime sans égard à la responsabilité pour la plupart des réclamations et limite les poursuites aux blessures catastrophiques, sans mention de concurrence privée."
 ],
 "questions/q_icbc/party_positions/conservative/text/5": [
-"259359c48f",
-"Une lettre du 29 septembre 2026 promettait une loi sur un régime hybride d'ici un an donnant aux gens le « droit d'être indemnisés pour leurs blessures graves », et disait que « tout est sur la table », y compris des limites aux réclamations pour blessures mineures, la concurrence privée étant une option à l'étude. La page du parti du 7 octobre plafonne les honoraires selon les limites de la Law Society, dit qu'elle « élimine la très grande majorité des litiges » et garde ICBC comme option publique. Il n'y a aucune estimation des primes."
+"e591029020",
+"Une lettre du 29 septembre 2026 promettait une loi sur un régime hybride d'ici un an donnant aux gens le « droit d'être indemnisés pour leurs blessures graves », et disait que « tout est sur la table », y compris des limites aux réclamations pour blessures mineures, la concurrence privée étant une option à l'étude. La page du parti du 7 octobre plafonne les honoraires selon les limites de la Law Society, dit qu'elle « élimine la très grande majorité des litiges » et garde ICBC comme option publique. Il n'y a aucune estimation des primes. Son programme du 18 octobre garde ICBC comme option publique et le régime sans égard à la responsabilité « pour la très grande majorité des réclamations », donne aux « victimes de blessures catastrophiques » l'accès à une représentation juridique avec des honoraires plafonnés, et ne mentionne pas la concurrence privée."
 ],
 "questions/q_icbc/party_positions/green/text/1": [
 "aa7fcc0be2",
@@ -2928,12 +2928,12 @@
 "Ce parti veut beaucoup plus de policiers partout en C.-B. et des enquêteurs spéciaux pour les menaces contre les commerces."
 ],
 "questions/q_local_extortion/party_positions/conservative/text/3": [
-"39bf718e59",
-"Le plan provincial des conservateurs ajoute près de 1 000 policiers, procureurs et employés des tribunaux et cible les quartiers les plus touchés. Le 13 octobre, il a ajouté un plan anti-extorsion avec des enquêteurs dédiés et de l'aide pour les entreprises et les familles menacées. Il ne mentionne pas le Surrey Police Service. Lors du lancement de ses candidatures à Surrey, le parti a critiqué le NPD au sujet de l'extorsion."
+"d46d9be3a2",
+"Le plan provincial des conservateurs ajoute près de 1 000 policiers, procureurs et employés des tribunaux et cible les quartiers les plus touchés. Le 13 octobre, il a ajouté un plan anti-extorsion avec des enquêteurs dédiés et de l'aide pour les entreprises et les familles menacées. Il ne mentionne pas le Surrey Police Service. Lors du lancement de ses candidatures à Surrey, le parti a critiqué le NPD au sujet de l'extorsion. Son programme du 18 octobre évalue le plan de sécurité à 178 M$ par année."
 ],
 "questions/q_local_extortion/party_positions/conservative/text/5": [
-"59ff019d39",
-"Le plan Safe Streets for BC (6 octobre 2026) ne comporte aucun élément sur l'extorsion; un communiqué du 13 octobre 2026 a ajouté un plan d'action contre l'extorsion (Anti-Extortion Action Plan) prévoyant des enquêteurs spécialisés consacrés aux affaires d'extorsion ainsi que des moyens de signalement et de protection pour les entreprises et les familles menacées, sans coût publié. Le communiqué du parti du 29 septembre sur ses candidatures à Surrey indiquait que les propriétaires de petites entreprises font face à « une vague d'extorsion et de violence qui fait que beaucoup ont peur d'ouvrir leurs portes ». Le parti n'a aucune position sur le Surrey Police Service. Des membres du Parti libéral de la C.-B., dont Doerkson, ont voté contre le projet de loi 36. Le candidat Purewal n'a publié que les thèmes du parti."
+"bcd7956139",
+"Le plan Safe Streets for BC (6 octobre 2026) ne comporte aucun élément sur l'extorsion; un communiqué du 13 octobre 2026 a ajouté un plan d'action contre l'extorsion (Anti-Extortion Action Plan) prévoyant des enquêteurs spécialisés consacrés aux affaires d'extorsion ainsi que des moyens de signalement et de protection pour les entreprises et les familles menacées; le programme du 18 octobre l'inclut dans des dépenses de sécurité publique de 178 M$ par année. Le communiqué du parti du 29 septembre sur ses candidatures à Surrey indiquait que les propriétaires de petites entreprises font face à « une vague d'extorsion et de violence qui fait que beaucoup ont peur d'ouvrir leurs portes ». Le parti n'a aucune position sur le Surrey Police Service. Des membres du Parti libéral de la C.-B., dont Doerkson, ont voté contre le projet de loi 36. Le candidat Purewal n'a publié que les thèmes du parti."
 ],
 "questions/q_local_extortion/party_positions/green/text/1": [
 "53ae451a89",
@@ -3128,12 +3128,12 @@
 "Ce parti créerait un fonds d'urgence pour empêcher les urgences des petites villes de fermer."
 ],
 "questions/q_local_fraser_valley_er/party_positions/conservative/text/3": [
-"c7156c7e50",
-"Le 5 octobre, les conservateurs ont promis un fonds d'urgence de 50 millions de dollars pour les cliniques médicales rurales menacées de fermeture, une dotation souple pour éviter les fermetures des urgences et des services de maternité, une reconnaissance accélérée des titres de compétences, la priorité aux étudiants de la C.-B., une commission d'experts dans les 100 jours et aucune coupe en santé. Ils n'ont pas dit si le fonds est ponctuel ou annuel."
+"9b3861033b",
+"Le 5 octobre, les conservateurs ont promis un fonds d'urgence de 50 millions de dollars pour les cliniques médicales rurales menacées de fermeture, une dotation souple pour éviter les fermetures des urgences et des services de maternité, une reconnaissance accélérée des titres de compétences, la priorité aux étudiants de la C.-B., une commission d'experts dans les 100 jours et aucune coupe en santé. Leur programme du 18 octobre évalue ces mesures d'accès et de soins en milieu rural à 205 M$ par année, sans dire si le fonds lui-même est ponctuel ou annuel."
 ],
 "questions/q_local_fraser_valley_er/party_positions/conservative/text/5": [
-"abc2a9a6f6",
-"« Keep Emergency Rooms Open » (5 octobre 2026, lancé à 100 Mile House) : fonds d'urgence de 50 millions de dollars pour les cliniques rurales menacées de fermeture (ponctuel ou récurrent, ce n'est pas précisé), dotation souple pour éviter les fermetures des urgences et des services de maternité, reconnaissance automatique des titres de compétences des autres provinces, priorité aux étudiants de la C.-B. dans la formation médicale, commission d'experts dans les 100 jours, système maintenu universel et financé par l'État, aucune coupe dans le budget de la santé de 2026. Findlay avait déjà qualifié les fermetures de Mission d'inacceptables."
+"e6afaa51a9",
+"« Keep Emergency Rooms Open » (5 octobre 2026, lancé à 100 Mile House) : fonds d'urgence de 50 millions de dollars pour les cliniques rurales menacées de fermeture (ponctuel ou récurrent, ce n'est pas précisé), dotation souple pour éviter les fermetures des urgences et des services de maternité, reconnaissance automatique des titres de compétences des autres provinces, priorité aux étudiants de la C.-B. dans la formation médicale, commission d'experts dans les 100 jours, système maintenu universel et financé par l'État, aucune coupe dans le budget de la santé de 2026. Findlay avait déjà qualifié les fermetures de Mission d'inacceptables. Le programme du 18 octobre ajoute le transport médical en milieu rural et évalue les mesures d'accès et de soins en milieu rural, y compris le fonds, à 205 M$ par année."
 ],
 "questions/q_local_fraser_valley_er/party_positions/green/text/1": [
 "6e5444fbf0",
@@ -3204,8 +3204,8 @@
 "Le 23 juillet 2026, le gouvernement du NPD a proposé de permettre aux entreprises de transformation alimentaire de construire sur des terres de l'Agricultural Land Reserve (réserve de terres agricoles) aux sols plus pauvres, avec un plafond correspondant à une petite part des terres privées de la réserve, et un minimum de produits locaux réduit de 50 % à 5 %. La province dit que de 500 à 1 000 hectares dans le Lower Mainland et la Fraser Valley pourraient être admissibles. L'Abbotsford Chamber et les fabricants d'aliments l'appuient; l'Agricultural Land Commission et le BC Agriculture Council s'y opposent. Les élections ont mis la décision en pause."
 ],
 "questions/q_local_fraser_valley_farmland/context/4": [
-"1fff6ab8be",
-"La proposition du 23 juillet 2026 permettrait la transformation alimentaire sur des sols de classe 5 à 7 de l'Agricultural Land Reserve (réserve de terres agricoles), réduirait le minimum de produits locaux de 50 % à 5 % et plafonnerait le total à 0,25 % des 2,1 millions d'hectares de terres privées de la réserve. La province dit que le critère du sol exclut environ 90 % des terres agricoles de la Fraser Valley et que de 500 à 1 000 hectares pourraient être admissibles. Les fabricants d'aliments, le Board of Trade et l'Abbotsford Chamber l'appuient. L'Agricultural Land Commission et le BC Agriculture Council s'y opposent. La consultation a pris fin le 18 septembre et les élections ont mis la décision en pause. Eby la présente comme une mesure de sécurité alimentaire; les conservateurs ont refusé de communiquer leur position."
+"712f85900c",
+"La proposition du 23 juillet 2026 permettrait la transformation alimentaire sur des sols de classe 5 à 7 de l'Agricultural Land Reserve (réserve de terres agricoles), réduirait le minimum de produits locaux de 50 % à 5 % et plafonnerait le total à 0,25 % des 2,1 millions d'hectares de terres privées de la réserve. La province dit que le critère du sol exclut environ 90 % des terres agricoles de la Fraser Valley et que de 500 à 1 000 hectares pourraient être admissibles. Les fabricants d'aliments, le Board of Trade et l'Abbotsford Chamber l'appuient. L'Agricultural Land Commission et le BC Agriculture Council s'y opposent. La consultation a pris fin le 18 septembre et les élections ont mis la décision en pause. Eby la présente comme une mesure de sécurité alimentaire; le programme des conservateurs du 18 octobre n'en parle pas, mais referait la carte de la réserve et assouplirait la règle sur la transformation à la ferme."
 ],
 "questions/q_local_fraser_valley_farmland/context/5": [
 "2e853c897b",
@@ -3272,24 +3272,24 @@
 "Aller de l'avant avec la proposition de juillet 2026 : transformation sur des sols de classe 5 à 7 et de classe 4 viabilisés, avec un plafond de 0,25 % des 2,1 millions d'hectares privés de la réserve, une évaluation du sol obligatoire et un minimum de produits locaux réduit de 50 % à 5 %."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/1": [
-"13610f1767",
-"Assouplir davantage les règles, en laissant les propriétaires et les conseils décider de ce qui va sur les sols moins fertiles."
+"08072ee2ad",
+"Refaire la carte des terres agricoles avec de meilleures données sur les sols, laisser les agriculteurs transformer et vendre plus à la ferme, et garder les terres agricoles pour produire des aliments."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/2": [
-"77eb5f4e83",
-"Aller plus loin que la proposition : laisser les propriétaires et les gouvernements locaux décider de ce qui est construit sur les terres de la réserve aux sols moins fertiles."
+"4305d2f6a3",
+"Refaire la carte de la réserve de terres agricoles avec des données modernes sur les sols, assouplir les règles de transformation à la ferme, permettre des activités secondaires à la ferme et garder les terres agricoles consacrées à l'agriculture."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/3": [
-"1be4a62f51",
-"Aller plus loin que la proposition : supprimer le plafond de superficie et laisser les propriétaires et les gouvernements locaux décider de ce qui est construit sur les terres de la réserve aux sols moins fertiles."
+"8dc05df44b",
+"Refaire la carte de la réserve avec des données modernes sur les sols et la cartographie, réécrire sa loi pour mettre la sécurité alimentaire en premier, assouplir la règle sur la transformation à la ferme, permettre des activités secondaires comme l'hébergement à la ferme, et mettre à jour les seuils fiscaux agricoles pour que les terres agricoles soient cultivées."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/4": [
-"56dee66386",
-"Aller plus loin : supprimer le plafond de 0,25 % et le critère de classe de sol, et laisser les propriétaires et les gouvernements locaux décider de ce qui est construit sur les terres de moindre qualité de la réserve, y compris pour des industries non alimentaires."
+"f0bcb15d75",
+"Refaire la carte de l'Agricultural Land Reserve (réserve de terres agricoles) avec des données modernes sur les sols et réformer sa loi autour de la sécurité alimentaire, moderniser la règle de 50 % sur la transformation à la ferme, permettre des usages secondaires et des locations limitées pour l'agrotourisme, et mettre à jour les seuils de revenus de la catégorie foncière agricole."
 ],
 "questions/q_local_fraser_valley_farmland/options/d/text/5": [
-"641301f655",
-"Aller au-delà de la proposition de juillet 2026 : supprimer le plafond de 0,25 % et le critère des sols de classe 5 à 7, permettre des usages industriels non alimentaires, et confier les décisions sur les terres de moindre qualité de la réserve aux propriétaires et aux gouvernements locaux plutôt qu'à l'Agricultural Land Commission."
+"ffb880b93f",
+"Refaire la carte de l'Agricultural Land Reserve (réserve de terres agricoles) avec des technologies modernes de sols et de cartographie et réformer la loi pour mettre la sécurité alimentaire en premier, moderniser la règle 50/50 sur la transformation à la ferme, permettre des usages secondaires et des locations à court terme limitées pour l'agrotourisme, rétablir des décisions de la commission fondées sur le mérite, et mettre à jour les seuils de revenus de la catégorie foncière agricole."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/centrebc/text/1": [
 "adefdddce5",
@@ -3304,16 +3304,16 @@
 "Programme électoral (10 octobre) : garanties de prêt pour la transformation et l'équipement, un volet alimentaire dans un Manufacturing Jobs Fund doublé à 60 millions de dollars par année, des cibles de production agricole sur dix ans, des règles de classification agricole mises à jour « pour que les terres agricoles soient cultivées », un programme permanent de rétablissement agricole et un volet sur l'eau agricole. Le programme ne mentionne pas la proposition sur la transformation dans l'Agricultural Land Reserve. L'option b est déduite du financement des entreprises de transformation sans changement aux règles de la réserve; degré de confiance faible."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/conservative/text/1": [
-"6a05e4be14",
-"Ce parti n'a pas dit ce qu'il ferait à ce sujet, donc il n'est pas noté ici."
+"3c4f640fd2",
+"Ce parti referait la carte des terres agricoles avec de meilleures données sur les sols, laisserait les agriculteurs transformer plus d'aliments à la ferme et garderait les terres agricoles pour produire des aliments."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/conservative/text/3": [
-"47f37d93ba",
-"Le chef Lorne Doerkson a refusé d'indiquer une position sur la proposition visant les terres agricoles; il a dit que le parti ferait « tout ce qui est en notre pouvoir » et qu'« il y en aura davantage à ce sujet » dans son programme électoral. Faute de position publiée, le parti n'est pas noté ici."
+"eeee17055a",
+"Le programme des conservateurs ne mentionne pas la proposition sur la transformation. Il referait la carte de la réserve avec des données modernes sur les sols, réécrirait la loi sur la réserve pour mettre la sécurité alimentaire en premier, assouplirait la règle qui limite la transformation à la ferme, permettrait des usages secondaires comme l'hébergement à la ferme et mettrait à jour les seuils fiscaux agricoles. L'option d est tirée de ce plan."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/conservative/text/5": [
-"fb88a1a337",
-"The Tyee (7 octobre 2026) : le chef Lorne Doerkson a refusé de donner la position du parti sur la proposition; il a dit « Nous allons faire tout ce qui est en notre pouvoir » et « Il y en aura certainement davantage à ce sujet dans les prochains jours dans notre programme ». La page « Our Plan » ne contient aucune mesure sur les terres agricoles ou l'agriculture au 12 octobre, et le parti a seulement mentionné une suppression temporaire de la PST sur la bière et le vin. Sans position; à revérifier si un programme électoral est publié."
+"75f44bea67",
+"Le programme des conservateurs du 18 octobre ne nomme pas la proposition de juillet 2026. Son plan agricole referait la carte de l'Agricultural Land Reserve « au moyen de technologies modernes de sols et de cartographie », réformerait l'Agricultural Land Reserve Act « pour mettre la sécurité alimentaire en premier » et renforcerait la gouvernance contre les abus, moderniserait la règle 50/50 sur la transformation à la ferme pour que les agriculteurs puissent « transformer et vendre leurs produits toute l'année », rétablirait des décisions de l'Agricultural Land Commission fondées sur le mérite, mettrait à jour les seuils de revenus de la catégorie foncière agricole, permettrait des usages secondaires et des locations à court terme limitées pour l'agrotourisme, donnerait la priorité au logement des travailleurs agricoles et fixerait une cible de 10 % de dépendance en moins envers les aliments importés d'ici 2030. Auparavant, Doerkson avait refusé de donner une position sur la proposition (The Tyee, 7 octobre 2026)."
 ],
 "questions/q_local_fraser_valley_farmland/party_positions/green/text/1": [
 "46cafcb525",
@@ -3484,16 +3484,16 @@
 "Programme électoral (10 octobre, pages 11 et 13) : les priorités sont le SkyTrain Surrey-Langley, le Fraser River Tunnel, l'élargissement de la Highway 1 jusqu'à Chilliwack et les routes de la côte nord, dans un plan de transport de 15 milliards de dollars sur trois ans, le chiffrage indiquant aussi 3,5 milliards de dollars empruntés pour le transport, les autobus rapides et les liaisons portuaires; environ six nouvelles lignes d'autobus rapides; une étude du transport en commun rapide au sud du Fraser au-delà du SkyTrain; 15 % de service de transport en commun en plus d'ici 2030; un BC Commuter Credit remboursable de 15 % sur les laissez-passer et les titres de traversier à passages multiples. Aucun échéancier ni coût pour la phase de Chilliwack et aucune position sur les péages."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/conservative/text/1": [
-"5f0f45636e",
-"Ce parti a promis six voies jusqu'à Chilliwack et aucun péage aux dernières élections. Il n'a rien dit de nouveau cette fois-ci."
+"ff06db41cf",
+"Ce parti a promis six voies jusqu'à Chilliwack et aucun péage aux dernières élections. Cette fois, il promet de nouvelles routes en général, mais ne nomme aucun projet sur la Highway 1."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/conservative/text/3": [
-"d37ca610fa",
-"Le 3 octobre 2024, les conservateurs ont promis six voies sur la Highway 1 à travers Chilliwack et aucun péage ni tarification routière. La page de leur plan de 2026 ne contient aucune mesure sur l'autoroute, le transport en commun ou le train. L'option a est déduite de la promesse de 2024 et le degré de confiance est faible."
+"9aaebce747",
+"Le 3 octobre 2024, les conservateurs ont promis six voies sur la Highway 1 à travers Chilliwack et aucun péage ni tarification routière. Leur programme de 2026 promet des « corridors » routiers, ferroviaires et de transport en commun choisis projet par projet, mais ne nomme aucun projet sur la Highway 1. L'option a est déduite de la promesse de 2024 et le degré de confiance est faible."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/conservative/text/5": [
-"22e7c5d7c8",
-"Fraser Valley Today (3 octobre 2024) : Rustad a promis six voies à travers Chilliwack et aucun péage ni tarification routière. La page « Our Plan » de 2026 (consultée le 12 octobre) n'indique aucun engagement sur l'autoroute, le transport en commun ou le train, et aucune déclaration conservatrice de 2026 sur l'autoroute n'a été trouvée. Position déduite de 2024, degré de confiance faible."
+"e21645e7d5",
+"Fraser Valley Today (3 octobre 2024) : Rustad a promis six voies à travers Chilliwack et aucun péage ni tarification routière. Le programme du 18 octobre promet des « BC Future Corridors » (routes, ponts, voies de contournement, élargissements de voies, chemin de fer et transport en commun) établis projet par projet au moyen d'analyses de rentabilisation, et plus de capacité ferroviaire dans le Fraser Canyon, mais ne nomme aucun projet sur la Highway 1. Position déduite de 2024, degré de confiance faible."
 ],
 "questions/q_local_fraser_valley_highway1/party_positions/green/text/1": [
 "e19dd3e4d7",
@@ -3688,12 +3688,12 @@
 "Ce parti terminera le nouvel hôpital de Cloverdale, prévoit un nouvel hôpital pour les femmes et les enfants à Surrey et veut garder les urgences ouvertes."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/3": [
-"8e164e4090",
-"Le 15 octobre, les conservateurs se sont engagés à terminer le Surrey Hospital à Cloverdale « à temps et dans le respect du budget » et à construire un nouveau Women and Children's Hospital à Surrey, sans coût ni date pour ce deuxième hôpital. Leur plan de santé offre aussi du financement pour les urgences, une commission de 100 jours sur les temps d'attente, aucune coupe et un financement des soins de longue durée qui suit la personne âgée. Ils n'ont aucune promesse sur les écoles de Surrey."
+"c107c1148c",
+"Le 15 octobre, les conservateurs se sont engagés à terminer le Surrey Hospital à Cloverdale « à temps et dans le respect du budget » et à construire un nouveau Women and Children's Hospital à Surrey; leur programme du 18 octobre prévoit 25 M$ pendant le premier mandat pour choisir un site et planifier ce deuxième hôpital, sans date de construction. Leur plan de santé offre aussi du financement pour les urgences, une commission de 100 jours sur les temps d'attente, aucune coupe et un financement des soins de longue durée qui suit la personne âgée. Ils n'ont aucune promesse sur les écoles de Surrey."
 ],
 "questions/q_local_hospital_schools/party_positions/conservative/text/5": [
-"d113342783",
-"Le 15 octobre, le parti s'est engagé à « terminer le Surrey Hospital à Cloverdale à temps et dans le respect du budget » et à construire un nouveau Women and Children's Hospital à Surrey; il n'a donné aucun coût ni aucune date pour l'hôpital pour enfants. Cela remplace la réponse de Doerkson du 7 octobre selon laquelle « nous envisageons tout cela pour le dévoilement de notre programme ». Son plan Keep Emergency Rooms Open (5 octobre) offre un fonds d'urgence de 50 millions de dollars, une commission d'experts de 100 jours et la promesse de maintenir les dépenses actuelles en santé; le 12 octobre, le parti a réaffirmé que les soins resteraient universels et financés par l'État. Son plan pour les aînés (9 octobre) revoit les règles de conception des soins de longue durée, fait en sorte que le financement des soins suive la personne âgée et offre le choix du fournisseur de soins à domicile. Il n'a pas de position sur les immobilisations scolaires ni sur le Surrey Memorial. Le candidat Purewal n'a publié que les thèmes du parti."
+"7123c44e6b",
+"Le 15 octobre, le parti s'est engagé à « terminer le Surrey Hospital à Cloverdale à temps et dans le respect du budget » et à construire un nouveau Women and Children's Hospital à Surrey; son programme du 18 octobre maintient l'hôpital de Cloverdale dans son budget de 2,88 G$ et son échéancier et, pour l'hôpital pour enfants, obtiendrait un site, terminerait un plan conceptuel et approuverait une analyse de rentabilisation pendant le premier mandat (25 M$, estimation du parti), le budget de construction devant être publié une fois l'analyse de rentabilisation approuvée. Il relancerait aussi les sept centres de soins de longue durée mis en pause dans le budget 2026 (1,43 G$). Cela remplace la réponse de Doerkson du 7 octobre selon laquelle « nous envisageons tout cela pour le dévoilement de notre programme ». Son plan Keep Emergency Rooms Open (5 octobre) offre un fonds d'urgence de 50 millions de dollars, une commission d'experts de 100 jours et la promesse de maintenir les dépenses actuelles en santé; le 12 octobre, le parti a réaffirmé que les soins resteraient universels et financés par l'État. Son plan pour les aînés (9 octobre) revoit les règles de conception des soins de longue durée, fait en sorte que le financement des soins suive la personne âgée et offre le choix du fournisseur de soins à domicile. Il n'a pas de position sur le Surrey Memorial; sa seule promesse d'immobilisations scolaires porte sur des installations d'atelier dans les nouvelles écoles. Le candidat Purewal n'a publié que les thèmes du parti."
 ],
 "questions/q_local_hospital_schools/party_positions/green/text/1": [
 "f0d6cbcfe4",
@@ -3888,12 +3888,12 @@
 "Ce parti mettrait plus de police au centre-ville, laisserait la police envoyer les personnes très malades en traitement et mettrait fin aux drogues gratuites."
 ],
 "questions/q_local_interior_downtown/party_positions/conservative/text/3": [
-"ab74531e41",
-"« Safe Streets for BC » (6 octobre) met plus de police dans les quartiers les plus touchés (250 nouveaux agents, 500 agents de la GRC sur cinq ans), modifie le Mental Health Act pour que les agents puissent diriger les gens vers un traitement obligatoire, offre une « intervention compatissante » pour les dépendances graves, met fin à l'approvisionnement plus sécuritaire et développe le traitement en établissement. Aucune position déclarée sur la fermeture du site de Kelowna."
+"3c52de3daf",
+"« Safe Streets for BC » (6 octobre) met plus de police dans les quartiers les plus touchés (250 nouveaux agents, 500 agents de la GRC sur cinq ans), modifie la Mental Health Act pour que les agents puissent diriger les gens vers un traitement obligatoire, offre une « intervention compatissante » pour les dépendances graves, met fin à l'approvisionnement plus sécuritaire et développe le traitement en établissement. Son programme du 18 octobre réviserait les sites supervisés avec les collectivités locales pour en avoir moins et de mieux situés, et cesserait d'« imposer » de tels sites aux collectivités; il ne nomme pas le site de Kelowna."
 ],
 "questions/q_local_interior_downtown/party_positions/conservative/text/5": [
-"dbd8df1444",
-"Safe Streets for BC (6 octobre 2026) : plus de police dans les quartiers les plus touchés; 250 agents formés grâce à une académie élargie du Justice Institute; 500 agents de la GRC et 150 employés civils sur cinq ans pour les régions rurales et régionales; 50 procureurs de la Couronne; modification du Mental Health Act pour que la police puisse diriger les gens vers un traitement involontaire; intervention compatissante pour les dépendances graves, la maladie mentale ou les lésions cérébrales; fin de l'approvisionnement plus sécuritaire; développement du traitement psychiatrique et en établissement. À Kelowna le 2 octobre, Doerkson a appuyé « des soutiens, du logement, des services intégrés » sans précisions et n'a pris aucune position sur le site de consommation."
+"6aebe60402",
+"Safe Streets for BC (6 octobre 2026) : plus de police dans les quartiers les plus touchés; 250 agents formés grâce à une académie élargie du Justice Institute; 500 agents de la GRC et 150 employés civils sur cinq ans pour les régions rurales et régionales; 50 procureurs de la Couronne; modification de la Mental Health Act pour que la police puisse diriger les gens vers un traitement involontaire; intervention compatissante pour les dépendances graves, la maladie mentale ou les lésions cérébrales; fin de l'approvisionnement plus sécuritaire; développement du traitement psychiatrique et en établissement. À Kelowna le 2 octobre, Doerkson a appuyé « des soutiens, du logement, des services intégrés » sans précisions et n'a pris aucune position sur le site de consommation. Son programme du 18 octobre réviserait les sites de prévention des surdoses et de consommation supervisée « en consultation avec les collectivités locales, dans le but d'avoir des options moins nombreuses et mieux situées », et cesserait « d'imposer aux collectivités des installations favorables à la drogue »."
 ],
 "questions/q_local_interior_downtown/party_positions/green/text/1": [
 "379a8b82a5",
@@ -4088,12 +4088,12 @@
 "Ce parti laisserait l'argent suivre chaque aîné vers tout foyer approuvé, public ou privé, et réduirait les règles de construction."
 ],
 "questions/q_local_interior_ltc/party_positions/conservative/text/3": [
-"0a0f552e00",
-"Le 9 octobre, les conservateurs ont promis de construire plus vite des lits de soins de longue durée en réduisant des règles de conception qu'ils jugent inutiles, et de donner aux aînés qui attendent un lit un financement public transférable utilisable chez tout fournisseur qualifié, y compris non gouvernemental avec des garde-fous de rendement. Ils citent 7 200 personnes en attente. Aucun nombre de lits, montant ni échéancier."
+"690dc50623",
+"Le 9 octobre, les conservateurs ont promis de construire plus vite des lits de soins de longue durée en réduisant des règles de conception qu'ils jugent inutiles, et de donner aux aînés qui attendent un lit un financement public transférable utilisable chez tout fournisseur qualifié, y compris non gouvernemental avec des garde-fous de rendement. Ils citent 7 200 personnes en attente. Leur programme du 18 octobre relancerait les sept centres mis de côté selon une conception moins coûteuse (1,43 G$). Aucun nombre de lits ni échéancier."
 ],
 "questions/q_local_interior_ltc/party_positions/conservative/text/5": [
-"148df138df",
-"« Les conservateurs construiront les lits de soins de longue durée dont le NPD a mis la construction de côté » (9 octobre 2026, North Vancouver) : construire plus de lits plus vite; travailler avec les fournisseurs, les résidents, les familles et les constructeurs pour réduire les règles de conception inutiles tout en protégeant la sécurité; financement public transférable pour que les aînés en attente choisissent parmi des fournisseurs qualifiés, y compris des exploitants non gouvernementaux avec des garde-fous de rendement. Affirmations : 7 200 personnes en attente, les règles de conception ont fait monter certains lits à 1,8 M$, sept projets reportés. Aucun nombre de lits, montant, échéancier ni déclaration sur Vernon; le parti promet aussi de maintenir le budget de la santé de 2026."
+"49cedb4569",
+"« Les conservateurs construiront les lits de soins de longue durée dont le NPD a mis la construction de côté » (9 octobre 2026, North Vancouver) : construire plus de lits plus vite; travailler avec les fournisseurs, les résidents, les familles et les constructeurs pour réduire les règles de conception inutiles tout en protégeant la sécurité; financement public transférable pour que les aînés en attente choisissent parmi des fournisseurs qualifiés, y compris des exploitants non gouvernementaux avec des garde-fous de rendement. Affirmations : 7 200 personnes en attente, les règles de conception ont fait monter certains lits à 1,8 M$, sept projets reportés. Son programme du 18 octobre relancerait les sept centres, « reconçus pour coûter moins cher par lit » (1,43 G$ selon les estimations actuelles), et évalue ses mesures pour les aînés à 350 M$ par année. Aucun nombre de lits, échéancier ni déclaration sur Vernon; le parti promet aussi de maintenir le budget de la santé de 2026."
 ],
 "questions/q_local_interior_ltc/party_positions/green/text/1": [
 "cfdb112e14",
@@ -4268,12 +4268,12 @@
 "Ce parti achèterait des avions-citernes, financerait la technologie pour repérer les feux et couperait plus de forêt près des villes."
 ],
 "questions/q_local_interior_wildfire/party_positions/conservative/text/3": [
-"5432f5e472",
-"Le plan des conservateurs du 2 octobre achèterait des avions de lutte contre les feux, dont des avions-citernes, réduirait le combustible forestier autour des collectivités, faciliterait les brûlages dirigés, permettrait aux équipes qualifiées d'être déployées plus vite et créerait un fonds pour les technologies de détection. Selon les médias, les avions coûteraient 400 millions de dollars et le fonds, 100 millions de dollars; le communiqué ne donne aucun chiffre. Selon les médias, le plan s'autofinancerait en grande partie, grâce à la vente du bois récolté près des collectivités et à la location des avions à d'autres administrations."
+"a69b19fba0",
+"Le plan des conservateurs du 2 octobre achèterait des avions de lutte contre les feux, dont des avions-citernes, réduirait le combustible forestier autour des collectivités, faciliterait les brûlages dirigés, permettrait aux équipes qualifiées d'être déployées plus vite et créerait un fonds pour les technologies de détection. Son programme du 18 octobre confirme 400 M$ pour les avions et un fonds de 100 M$ pour la détection et l'innovation. Selon les médias, le plan s'autofinancerait en grande partie, grâce à la vente du bois récolté près des collectivités et à la location des avions à d'autres administrations."
 ],
 "questions/q_local_interior_wildfire/party_positions/conservative/text/5": [
-"5d1ca100b8",
-"« Fighting Wildfires, Protecting Communities » (2 octobre 2026) : mettre en œuvre immédiatement un Protect Communities from Wildfire Action Plan, acheter des avions, dont des avions-citernes, réduire le combustible autour des collectivités, faciliter les brûlages dirigés sans abaisser les normes de sécurité, déployer plus vite les ressources qualifiées, créer un fonds réservé à la détection précoce, et un comité du Cabinet sur les feux de forêt présidé par le chef. AM 1150 rapporte 400 millions de dollars pour les avions et un fonds de 100 millions de dollars; Today in BC rapporte plus de récolte dans les zones à risque élevé, les revenus des ventes finançant la prévention, et « un financement FireSmart plus prévisible ». Today in BC a rapporté que le plan s'autofinancerait en grande partie; La Presse canadienne a rapporté que la province pourrait aider à payer les avions en les louant à d'autres administrations."
+"b0f7eb9646",
+"« Fighting Wildfires, Protecting Communities » (2 octobre 2026) : mettre en œuvre immédiatement un Protect Communities from Wildfire Action Plan, acheter des avions, dont des avions-citernes, réduire le combustible autour des collectivités, faciliter les brûlages dirigés sans abaisser les normes de sécurité, déployer plus vite les ressources qualifiées, créer un fonds réservé à la détection précoce, et un comité du Cabinet sur les feux de forêt présidé par le chef. AM 1150 rapporte 400 millions de dollars pour les avions et un fonds de 100 millions de dollars; Today in BC rapporte plus de récolte dans les zones à risque élevé, les revenus des ventes finançant la prévention, et « un financement FireSmart plus prévisible ». Today in BC a rapporté que le plan s'autofinancerait en grande partie; La Presse canadienne a rapporté que la province pourrait aider à payer les avions en les louant à d'autres administrations. Son programme du 18 octobre confirme 400 millions de dollars pour une flotte provinciale d'avions (à louer à des services d'incendie de l'hémisphère sud en dehors de la saison de la C.-B.) et un Wildfire Innovation Fund de 100 millions de dollars sur quatre ans, inscrit au budget les feux de forêt « à ce qu'ils coûtent », et ajoute une réserve de bois Community Protection Forestry et un « financement FireSmart prévisible pour les municipalités »."
 ],
 "questions/q_local_interior_wildfire/party_positions/green/text/1": [
 "8812496155",
@@ -4444,16 +4444,16 @@
 "Programme électoral (au 11 octobre 2026, sections Economy and Affordability, « Buy Canadian » et « Transportation that works ») : futurs navires de BC Ferries et autres navires provinciaux construits au Canada; un fonds de 25 millions de dollars par année pour développer les chantiers navals de la C.-B. et former des constructeurs de navires; un BC Commuter Credit remboursable qui rend 15 % sur les laissez-passer mensuels et annuels de transport en commun et les billets multipassages de BC Ferries, dans un plan de transport de 15 milliards de dollars sur trois ans. Aucune mesure sur les normes de service, les réservations, la gouvernance ou l'horaire. CentreBC ne présente de candidat dans aucune des deux circonscriptions de Nanaimo."
 ],
 "questions/q_local_island_coast_ferries/party_positions/conservative/text/1": [
-"35553f6f55",
-"Ce parti fixerait des règles de service pour les traversiers, obligerait les dirigeants à les respecter et n'ajouterait aucun nouveau coût."
+"d49b5b4b48",
+"Ce parti fixerait des règles de service pour les traversiers, obligerait les dirigeants à les respecter et ferait construire les futurs traversiers en C.-B."
 ],
 "questions/q_local_island_coast_ferries/party_positions/conservative/text/3": [
-"7014ca4139",
-"La BC Ferries Charter (charte de BC Ferries) des conservateurs du 11 octobre fixerait des normes de fiabilité, de ponctualité, de capacité, d'abordabilité et de service à la clientèle, tiendrait la direction responsable, réduirait les dédoublements au conseil d'administration, négocierait une « juste part » du financement fédéral des traversiers et ajouterait le Wi-Fi par des contrats privés « sans nouveau fardeau pour les tarifs ou les contribuables ». Aucun échéancier, aucune baisse de tarifs et aucune position sur la construction des navires."
+"d848f36735",
+"La BC Ferries Charter (charte de BC Ferries) des conservateurs du 11 octobre fixerait des normes de fiabilité, de ponctualité, de capacité, d'abordabilité et de service à la clientèle, tiendrait la direction responsable, réduirait les dédoublements au conseil d'administration, négocierait une « juste part » du financement fédéral des traversiers et ajouterait le Wi-Fi par des contrats privés « sans nouveau fardeau pour les tarifs ou les contribuables ». Leur programme du 18 octobre ajoute un plan pour construire les futurs traversiers en C.-B. plutôt qu'en Chine et demande un financement fédéral comparable à celui des traversiers de l'Atlantique. Aucun échéancier ni aucune baisse de tarifs."
 ],
 "questions/q_local_island_coast_ferries/party_positions/conservative/text/5": [
-"c7dfe1fd2c",
-"« Conservatives will fix BC Ferries » (11 octobre 2026) : une BC Ferries Charter (charte de BC Ferries) avec des normes claires de fiabilité, de ponctualité, de capacité, d'abordabilité et de service à la clientèle; une direction tenue responsable de les atteindre; moins de redondances au conseil d'administration pour que les ressources aillent au service; une négociation avec Ottawa pour une juste part du financement fédéral des traversiers; le Wi-Fi haute vitesse sur les principales liaisons et dans les terminaux par un approvisionnement privé concurrentiel, avec des normes de rendement et sans nouveau fardeau pour les tarifs ou les contribuables. Aucun montant, échéancier, baisse de tarifs ni position sur le lieu de construction des navires."
+"f8fa7d8c2e",
+"« Conservatives will fix BC Ferries » (11 octobre 2026) : une BC Ferries Charter (charte de BC Ferries) avec des normes claires de fiabilité, de ponctualité, de capacité, d'abordabilité et de service à la clientèle; une direction tenue responsable de les atteindre; moins de redondances au conseil d'administration pour que les ressources aillent au service; une négociation avec Ottawa pour une juste part du financement fédéral des traversiers; le Wi-Fi haute vitesse sur les principales liaisons et dans les terminaux par un approvisionnement privé concurrentiel, avec des normes de rendement et sans nouveau fardeau pour les tarifs ou les contribuables. Le programme du 18 octobre ajoute un examen des contrats actuels de renouvellement de la flotte (« Nous ne devrions pas construire des navires en Chine »), une BC Ferry Fleet Renewal Strategy (stratégie de renouvellement de la flotte) pour ramener en C.-B. la construction de traversiers et de navires, et un financement fédéral « comparable à celui des services de traversiers de l'Atlantique ». Aucun montant, échéancier ni baisse de tarifs."
 ],
 "questions/q_local_island_coast_ferries/party_positions/green/text/1": [
 "bd533823a8",
@@ -4524,8 +4524,8 @@
 "L'usine de pâte de Domtar à Crofton (environ 350 emplois) a fermé après une annonce en décembre 2025. Eby a dit que les limites sur les forêts anciennes avaient fait monter le prix de la fibre sur l'île, mais qu'elles étaient « une décision nécessaire », et que transformer des forêts anciennes en pâte pour prolonger la vie de l'usine n'était pas une option. Les reports d'exploitation des forêts anciennes de 2021 sont temporaires. Le plan Working Forest du gouvernement répartirait les forêts en zones, avec un objectif de 45 millions de mètres cubes. Les verts rejettent ce plan; CentreBC l'inscrirait dans une loi."
 ],
 "questions/q_local_island_coast_oldgrowth/context/4": [
-"5b1f517cd4",
-"L'usine de pâte de Domtar à Crofton a fermé après une annonce en décembre 2025; Eby a dit que les restrictions sur les forêts anciennes avaient fait monter le prix de la fibre sur l'île, mais qu'elles étaient « une décision nécessaire », et que transformer des forêts anciennes en pâte pour prolonger la vie de l'usine n'était pas une option. Les reports d'exploitation des forêts anciennes de 2021 restent temporaires. La lettre de mandat pour le portefeuille des Forêts fixe un objectif de récolte de 45 millions de mètres cubes, alors que le budget 2026 prévoit environ 30 millions. Le 10 octobre à Courtenay, le NPD a promis 50 millions de dollars pour rendre permanents les reports visant les forêts les plus rares et aider les usines à se moderniser. Les verts protégeraient de façon permanente les forêts anciennes à grands arbres. CentreBC inscrirait les zones Working Forest dans une loi. OneBC augmenterait la coupe. Les conservateurs n'ont pas de plan forestier en 2026."
+"4bf27a5f48",
+"L'usine de pâte de Domtar à Crofton a fermé après une annonce en décembre 2025; Eby a dit que les restrictions sur les forêts anciennes avaient fait monter le prix de la fibre sur l'île, mais qu'elles étaient « une décision nécessaire », et que transformer des forêts anciennes en pâte pour prolonger la vie de l'usine n'était pas une option. Les reports d'exploitation des forêts anciennes de 2021 restent temporaires. La lettre de mandat pour le portefeuille des Forêts fixe un objectif de récolte de 45 millions de mètres cubes, alors que le budget 2026 prévoit environ 30 millions. Le 10 octobre à Courtenay, le NPD a promis 50 millions de dollars pour rendre permanents les reports visant les forêts les plus rares et aider les usines à se moderniser. Les verts protégeraient de façon permanente les forêts anciennes à grands arbres. CentreBC inscrirait les zones Working Forest dans une loi. OneBC augmenterait la coupe. Les conservateurs fixeraient un plancher de 45 millions et ne protégeraient que les forêts anciennes d'origine et les écosystèmes les plus rares."
 ],
 "questions/q_local_island_coast_oldgrowth/context/5": [
 "ba937f65c2",
@@ -4611,6 +4611,26 @@
 "6a843b224b",
 "Augmenter la possibilité annuelle de coupe « pour que notre secteur forestier dispose de la fibre de bois nécessaire pour croître et prospérer », réduire les droits de coupe pour les entreprises de bois d'œuvre, accélérer les délais d'approbation des permis et les consultations, sans objectif de volume ni mesure sur les forêts anciennes."
 ],
+"questions/q_local_island_coast_oldgrowth/options/e/text/1": [
+"ee7e285f60",
+"Couper au moins autant de bois que l'objectif actuel, approuver les permis plus vite, protéger les forêts les plus anciennes et exploiter le reste."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/2": [
+"efdaea9178",
+"Fixer une récolte minimale de 45 millions de mètres cubes, approuver les permis forestiers en quelques mois, protéger les forêts les plus anciennes et les plus rares, et rouvrir à l'exploitation les autres zones mises en pause."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/3": [
+"6d352f1e60",
+"Fixer un plancher de récolte de 45 millions de mètres cubes par année, décider des permis forestiers en quelques mois par un guichet unique, protéger les forêts anciennes d'origine et les écosystèmes les plus rares, rouvrir à l'exploitation le reste des terres visées par des reports, et prolonger le fonds pour les emplois manufacturiers."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/4": [
+"88dd0ae684",
+"Fixer un plancher de 45 millions de mètres cubes, traiter les permis forestiers selon un processus de grands projets avec un guichet unique pour les consultations des Premières Nations, protéger les forêts anciennes d'origine et les écosystèmes les plus rares tout en remettant les autres terres visées par des reports dans la forêt exploitable, et prolonger le Manufacturing Jobs Fund."
+],
+"questions/q_local_island_coast_oldgrowth/options/e/text/5": [
+"49b9b70316",
+"Fixer un plancher de récolte de 45 millions de mètres cubes, faire des permis forestiers un processus de grands projets avec des décisions en quelques mois et un guichet unique pour les consultations des Premières Nations, réduire les coûts des permis, protéger les forêts anciennes d'origine et les écosystèmes les plus rares et remettre le reste des terres visées par des reports dans la forêt exploitable, et prolonger le BC Manufacturing Jobs Fund."
+],
 "questions/q_local_island_coast_oldgrowth/party_positions/centrebc/text/1": [
 "453c672a2d",
 "Ce parti inscrirait les zones de coupe dans une loi avec un objectif élevé, vendrait plus de bois public et accélérerait les permis."
@@ -4624,16 +4644,16 @@
 "Programme électoral (au 11 octobre 2026, section Economy and Affordability) : viser 45 millions de mètres cubes de bois économiquement exploitable, dont 40 millions d'ici 2030; une Forestry Fibre Task Force; BC Timber Sales porté à 9 millions de mètres cubes d'ici 2029; des zones Working Forest à long terme inscrites dans une loi, à côté de zones à usages multiples et de zones de conservation; 100 millions de dollars sur trois ans pour les travailleurs forestiers et le bois massif; un Manufacturing Jobs Fund doublé à 60 millions de dollars par année; un guichet unique forestier (Forestry One-Stop) avec des décisions en 90 jours lorsque la consultation et l'évaluation environnementale ne s'appliquent pas. Aucun texte sur les forêts anciennes."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/conservative/text/1": [
-"0e38052378",
-"Ce parti n'a pas publié de plan forestier pendant cette élection, donc il n'est pas noté ici."
+"96ba4ca953",
+"Ce parti couperait au moins 45 millions de mètres cubes de bois par année, approuverait les permis plus vite et ne protégerait que les forêts les plus anciennes et les plus rares."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/conservative/text/3": [
-"685e3e795f",
-"Le site des conservateurs affiche un titre « Forestry for the Future » sans texte. Leur communiqué du 7 octobre promet de ramener la paperasserie aux niveaux de 2017; leur porte-parole en matière de forêts a attribué les fermetures d'usines de 2025 à des « politiques restrictives » et aux délais de délivrance des permis. Comme il n'a publié aucune position sur les forêts anciennes, les niveaux de récolte ou le modèle de zonage, le parti n'est pas noté ici."
+"5515aac766",
+"Le programme des conservateurs fixe un plancher de récolte de 45 millions de mètres cubes, déciderait des permis forestiers en quelques mois par un guichet unique, protégerait les forêts anciennes d'origine et les écosystèmes les plus rares tout en rouvrant à l'exploitation les autres terres visées par des reports, réduirait les coûts des permis et prolongerait le Manufacturing Jobs Fund. Il ne mentionne ni le modèle de zonage Working Forest ni les droits de coupe."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/conservative/text/5": [
-"f633d348df",
-"conservativebc.ca (vérifié jusqu'au 11 octobre) affiche « Forestry for the Future » sans contenu. Communiqué « Supercharge » (7 octobre) : paperasserie ramenée aux niveaux de 2017, une loi « une règle ajoutée, deux retirées », une loi 120 Day Permitting Act pour les projets de plus de 250 millions de dollars, affirmation selon laquelle 21 usines ont fermé depuis 2023. Ward Stamer, porte-parole de l'opposition (novembre 2025), a qualifié le « Path to 45 » de « voie vers l'effondrement » et a blâmé les politiques restrictives et la délivrance des permis; le NPD affirme que les conservateurs s'opposent au 30 by 30 (affirmation). Aucune position déclarée sur les reports d'exploitation des forêts anciennes. Aucune position; à vérifier de nouveau si un programme électoral paraît."
+"7b5841af9b",
+"Le programme des conservateurs du 18 octobre « augmenterait l'accès durable à la fibre avec un plancher de 45 millions de mètres cubes », en indemnisant équitablement les titulaires de permis et les entrepreneurs visés par le projet de loi 13 lorsque des tenures sont réattribuées; mettrait en place un processus « de type grand projet » pour les permis forestiers, avec des décisions « en quelques mois, pas en quelques années » et un guichet unique de consultation pour les Premières Nations; examinerait et éliminerait les coûts de permis inutiles; « protégerait les forêts anciennes d'origine et les écosystèmes les plus menacés et les plus rares, et remettrait le reste des terres dans la forêt exploitable »; créerait des conditions fiscales concurrentielles pour les fabricants de produits à valeur ajoutée; élaborerait une stratégie de bioénergie en commençant par des Clean Fuels Hubs à Prince George et à Kamloops; prolongerait le BC Manufacturing Jobs Fund (30 M$ par année dans son chiffrage); et ferait du bois d'œuvre résineux une priorité « de premier rang » avec les États-Unis. Il ne mentionne ni le Working Forest Landscape Model ni les taux des droits de coupe."
 ],
 "questions/q_local_island_coast_oldgrowth/party_positions/green/text/1": [
 "26437aa8fc",
@@ -4828,12 +4848,12 @@
 "Ce parti laisserait l'argent suivre chaque aîné vers un foyer approuvé, public ou privé. Il paierait aussi des cliniques dans les petites villes."
 ],
 "questions/q_local_island_coast_seniors/party_positions/conservative/text/3": [
-"052d8833eb",
-"Le 9 octobre, les conservateurs ont promis un financement public transférable pour les aînés en attente de soins de longue durée, offrant « un vrai choix entre des fournisseurs qualifiés, y compris des options non gouvernementales assorties de solides garanties de rendement », et une construction plus rapide grâce à la réduction des règles de conception. Le 5 octobre, ils ont promis un fonds de 50 millions de dollars pour les cabinets ruraux, une commission d'experts et aucune compression en santé. Aucun engagement de 2026 sur la tour de Nanaimo."
+"a73582f621",
+"Le 9 octobre, les conservateurs ont promis un financement public transférable pour les aînés en attente de soins de longue durée, offrant « un vrai choix entre des fournisseurs qualifiés, y compris des options non gouvernementales assorties de solides garanties de rendement », et une construction plus rapide grâce à la réduction des règles de conception. Le 5 octobre, ils ont promis un fonds de 50 millions de dollars pour les cabinets ruraux, une commission d'experts et aucune compression en santé. Aucun engagement de 2026 sur la tour de Nanaimo. Leur programme du 18 octobre relancerait les sept centres de soins mis de côté, reconçus pour coûter moins cher par lit."
 ],
 "questions/q_local_island_coast_seniors/party_positions/conservative/text/5": [
-"3859c99ab3",
-"Communiqué du 9 octobre 2026 : financement public transférable pour les aînés en attente d'un lit, avec « un vrai choix entre des fournisseurs qualifiés, y compris des options non gouvernementales assorties de solides garanties de rendement »; construire des lits plus vite en réduisant les règles de conception inutiles; affirme que 7 200 Britanno-Colombiens attendent un lit de soins de longue durée et que les règles de conception ont porté certains lits proposés à 1,8 million de dollars chacun. 5 octobre (100 Mile House) : fonds de 50 millions de dollars pour les cabinets ruraux, dotation souple, reconnaissance automatique des titres de compétences, commission d'experts dans les 100 jours, budget de la santé de 2026 maintenu. La personne candidate dans Nanaimo-Lantzville, Pringle, veut des soins cardiaques plus près de chez soi; aucun engagement du parti sur la tour ou le laboratoire de cathétérisme n'a été trouvé pour 2026."
+"cdc84b4f8a",
+"Communiqué du 9 octobre 2026 : financement public transférable pour les aînés en attente d'un lit, avec « un vrai choix entre des fournisseurs qualifiés, y compris des options non gouvernementales assorties de solides garanties de rendement »; construire des lits plus vite en réduisant les règles de conception inutiles; affirme que 7 200 Britanno-Colombiens attendent un lit de soins de longue durée et que les règles de conception ont porté certains lits proposés à 1,8 million de dollars chacun. 5 octobre (100 Mile House) : fonds de 50 millions de dollars pour les cabinets ruraux, dotation souple, reconnaissance automatique des titres de compétences, commission d'experts dans les 100 jours, budget de la santé de 2026 maintenu. La personne candidate dans Nanaimo-Lantzville, Pringle, veut des soins cardiaques plus près de chez soi; aucun engagement du parti sur la tour ou le laboratoire de cathétérisme n'a été trouvé pour 2026. Son programme du 18 octobre relancerait les sept centres de soins de longue durée mis en pause dans le budget 2026, dont celui de Campbell River, « reconçus pour coûter moins cher par lit » (1,43 G$ selon les estimations actuelles, déjà prévus dans le plan d'immobilisations), et évalue ses mesures pour les aînés à 350 M$ par année."
 ],
 "questions/q_local_island_coast_seniors/party_positions/green/text/1": [
 "de600d5c71",
@@ -5004,16 +5024,16 @@
 "Programme électoral (10 octobre, pages 7, 11 et 13) : norme provinciale d'approbation de six mois pour les rezonages et de huit semaines pour les permis de construire, un seul ensemble de règles pour toutes les municipalités d'ici le 1er janvier 2028, frais remboursés si les délais ne sont pas respectés; un fonds de rendement en logement de 125 millions de dollars par année pour les villes qui respectent les délais et atteignent leurs cibles; un fonds de croissance de 240 millions de dollars par année; l'achat de terrains près des nouvelles stations de transport en commun avant leur annonce. Il garde les règles de densité près du transport en commun et ne mentionne ni l'abrogation de l'obligation de logements multiples à petite échelle ni la lettre des maires."
 ],
 "questions/q_local_metro_density/party_positions/conservative/text/1": [
-"b83ef0e8eb",
-"Ce parti a promis en 2024 d'abolir la règle sur les terrains et de payer les villes qui permettent plus de logements. Il n'en a rien dit cette fois-ci."
+"6cd81bac7f",
+"Ce parti dit que les villes devraient décider où vont les nouveaux logements. En 2024, il a promis d'abolir la règle sur les terrains et de payer les villes qui permettent plus de logements."
 ],
 "questions/q_local_metro_density/party_positions/conservative/text/3": [
-"81c68a03ad",
-"En 2024, les conservateurs se sont engagés à abolir la loi sur le nombre de logements par terrain et à la remplacer par un fonds de 1 milliard de dollars par année pour les villes qui permettent ce type de logement, du prézonage avec les villes et des changements à la loi sur les secteurs près du transport en commun. Ils n'ont publié aucune position en 2026 sur les lois de densité, donc l'option c est déduite de 2024 et le degré de confiance est faible."
+"98c68bb440",
+"Le programme de 2026 des conservateurs dit que les villes, et non la province, devraient décider où va la densité selon leurs propres plans de collectivité, mais ne nomme pas les lois sur la densité. En 2024, ils s'étaient engagés à abolir la loi sur le nombre de logements par terrain et à la remplacer par un fonds de 1 milliard de dollars par année pour les villes qui permettent ce type de logement; ce fonds ne figure pas dans le chiffrage de 2026. L'option c est déduite et le degré de confiance est faible."
 ],
 "questions/q_local_metro_density/party_positions/conservative/text/5": [
-"6585b5caa7",
-"Programme électoral de 2024 (Global News, 27 septembre 2024) : abroger le projet de loi 44 et créer un fonds de 1 milliard de dollars par année pour les municipalités qui permettent les logements multiples à petite échelle sur au moins les deux tiers des terrains résidentiels, le prézonage avec les villes, et la modification du projet de loi 47 pour exiger des commerces et des services à distance de marche. En 2026 : seulement « réduire le coût de construction et d'achat d'une maison » et un plan pour Metro Vancouver qui redonne les fonctions de logement du district régional aux villes et à la province. Position déduite, degré de confiance faible."
+"b02fa746c9",
+"Programme de 2026 (18 octobre) : « donner aux gouvernements locaux leur mot à dire sur l'endroit où va la densité », en tenant les municipalités à des plans officiels de collectivité élaborés localement « qui comportent des cibles de densité appropriées », parce que l'endroit où va la densité « doit être une décision des gouvernements locaux et des résidents locaux, et non de bureaucrates à Victoria »; approuver les logements « en quelques mois, pas en quelques années »; une croissance accompagnée de routes, de transport en commun, d'écoles et de services. Il ne nomme ni le projet de loi 44 ni le projet de loi 47, et son chiffrage ne prévoit aucun fonds pour les villes. Programme électoral de 2024 (Global News, 27 septembre 2024) : abroger le projet de loi 44 et créer un fonds de 1 milliard de dollars par année pour les municipalités qui permettent les logements multiples à petite échelle sur au moins les deux tiers des terrains résidentiels, le prézonage avec les villes, et la modification du projet de loi 47 pour exiger des commerces et des services à distance de marche. L'option c est déduite du plan de 2024 et de l'engagement de 2026 sur le contrôle local, degré de confiance faible."
 ],
 "questions/q_local_metro_density/party_positions/green/text/1": [
 "20f2b3e2dc",
@@ -5208,12 +5228,12 @@
 "Ce parti abolirait la loi sur les droits des peuples autochtones et ferait passer le droit de propriété en premier, avec les élus qui décident."
 ],
 "questions/q_local_metro_title_homes/party_positions/conservative/text/3": [
-"9ee7bf8976",
-"Les conservateurs promettent d'abroger DRIPA, de « protéger le droit de propriété et de remettre les décisions importantes entre les mains des élus », et disent vouloir réaliser des projets en partenariat avec les Premières Nations. Ils ont voté pour le projet de loi de OneBC sur le droit de propriété en première lecture. Ils n'ont fait aucune déclaration sur la décision Cowichan ni sur l'indemnisation."
+"39ab19f59a",
+"Le programme des conservateurs abrogerait DRIPA, adopterait une loi confirmant les titres de propriété sur toutes les terres privées, publierait les revendications de titre et les ententes avant qu'elles deviennent contraignantes, et réaliserait des projets avec les Premières Nations. Les conservateurs ont voté pour le projet de loi de OneBC sur le droit de propriété en première lecture. Ils n'ont fait aucune déclaration sur la décision Cowichan ni sur l'indemnisation."
 ],
 "questions/q_local_metro_title_homes/party_positions/conservative/text/5": [
-"8c6c3f8b78",
-"Page du plan « Repeal DRIPA, Promote Economic Reconciliation » (7 octobre) : Doerkson dit que DRIPA « doit être abrogée » et qu'il veut des « partenariats avec les Premières Nations » pour les projets. Doerkson sur X, le 7 octobre : « Abroger DRIPA, protéger le droit de propriété et remettre les décisions importantes entre les mains des élus. » Le 29 octobre 2025, le caucus a voté pour en première lecture la Property Rights Protection Act (rejetée par 40 voix contre 48). Aucune position publiée sur l'appel dans l'affaire Cowichan, une garantie d'indemnisation ou une loi de remplacement fondée sur les traités."
+"0e1a59621e",
+"Le programme des conservateurs du 18 octobre abrogerait DRIPA, l'article 8.1 de l'Interpretation Act et les directives du NPD sur les litiges; adopterait une Property Rights Defence Act (loi sur la défense du droit de propriété) « confirmant la validité de la Land Title Act sur toutes les propriétés en fief simple »; adopterait une Aboriginal Title Transparency Act (loi sur la transparence du titre ancestral) publiant des cartes et de l'information sur les revendications, les négociations, les actions en justice et les ententes avant qu'elles deviennent contraignantes; et poursuivrait la réconciliation par des traités, le partage des revenus et la propriété. Doerkson sur X, le 7 octobre : « Abroger DRIPA, protéger le droit de propriété et remettre les décisions importantes entre les mains des élus. » Le 29 octobre 2025, le caucus a voté pour en première lecture la Property Rights Protection Act (rejetée par 40 voix contre 48). Aucune position publiée sur l'appel dans l'affaire Cowichan ni sur une garantie d'indemnisation."
 ],
 "questions/q_local_metro_title_homes/party_positions/green/text/1": [
 "6abf3d0dbe",
@@ -5408,12 +5428,12 @@
 "Ce parti dit non aux nouvelles taxes et aux nouveaux frais, et veut couper le gaspillage au gouvernement régional."
 ],
 "questions/q_local_metro_translink/party_positions/conservative/text/3": [
-"a4f0f392e8",
-"Les conservateurs ont attaqué la redevance sur les véhicules évoquée dans les médias en la qualifiant de « plan secret de taxe sur les véhicules » et promettent aucune taxe nouvelle ou plus élevée. Ils n'ont publié aucun plan de financement de TransLink. Leur plan du 5 octobre vérifierait et réduirait le district régional de Metro Vancouver. Ils développeraient HandyDART là où la demande est la plus forte."
+"c414fafda6",
+"Les conservateurs ont attaqué la redevance sur les véhicules évoquée dans les médias en la qualifiant de « plan secret de taxe sur les véhicules » et promettent de n'imposer aucune taxe nouvelle ou plus élevée. Ils n'ont publié aucun plan de financement de TransLink. Leur plan du 5 octobre ferait vérifier et réduirait le district régional de Metro Vancouver. Ils développeraient HandyDART là où la demande est la plus forte. Leur programme du 18 octobre interdirait par une loi une redevance de TransLink sur les voitures."
 ],
 "questions/q_local_metro_translink/party_positions/conservative/text/5": [
-"895216681c",
-"Le communiqué du 2 octobre « Eby Must Answer on Secret Vehicle Tax Plan » (Eby doit répondre au sujet du plan secret de taxe sur les véhicules) s'oppose à une redevance et ne propose aucune autre source de revenus. Le 27 septembre, Doerkson a promis de ne pas augmenter les taxes existantes ni d'en créer de nouvelles. Son plan pour Metro Vancouver du 5 octobre ferait vérifier l'usine de traitement des eaux usées de North Shore, créerait « un conseil plus petit et professionnel » et redonnerait aux villes et à la province les fonctions liées au logement, au développement économique et au climat. Son plan pour les aînés du 9 octobre étend HandyDART. Aucun engagement en 2026 sur le manque de TransLink en 2028 ni sur le SkyTrain jusqu'à UBC."
+"e95e8f8c69",
+"Le communiqué du 2 octobre « Eby Must Answer on Secret Vehicle Tax Plan » (Eby doit répondre au sujet du plan secret de taxe sur les véhicules) s'oppose à une redevance et ne propose aucune autre source de revenus. Le 27 septembre, Doerkson a promis de ne pas augmenter les taxes existantes ni d'en créer de nouvelles. Son plan pour Metro Vancouver du 5 octobre ferait vérifier l'usine de traitement des eaux usées de North Shore, créerait « un conseil plus petit et professionnel » et redonnerait aux villes et à la province les fonctions liées au logement, au développement économique et au climat. Son plan pour les aînés du 9 octobre étend HandyDART. Aucun engagement en 2026 sur le manque à gagner de TransLink en 2028 ni sur le SkyTrain jusqu'à UBC. Le programme du 18 octobre modifierait la South Coast British Columbia Transportation Authority Act pour que TransLink ne puisse pas taxer la possession ou l'immatriculation des voitures ni imposer de redevance à ce titre, appuierait l'expansion du transport en commun « là où la population et l'achalandage démontrent le besoin », et ferait de Metro Vancouver « un service public régional allégé » doté d'un conseil professionnel."
 ],
 "questions/q_local_metro_translink/party_positions/green/text/1": [
 "a1b2d1520f",
@@ -5608,12 +5628,12 @@
 "Ce parti créerait un fonds d'urgence pour empêcher les urgences des petites villes de fermer."
 ],
 "questions/q_local_north_er/party_positions/conservative/text/3": [
-"7681fa7b5e",
-"À 100 Mile House, le 5 octobre, les conservateurs ont promis un fonds d'urgence de 50 millions de dollars pour les cabinets médicaux ruraux menacés de fermeture, une dotation souple pour éviter les fermetures d'urgences et de services de maternité, la reconnaissance automatique des titres de compétences des autres provinces, une reconnaissance plus rapide pour les médecins canadiens formés à l'étranger, la priorité aux étudiants de la C.-B. en formation médicale, une commission d'experts dans les 100 jours et aucune compression en santé. Ils n'ont pas précisé si le fonds est ponctuel ou annuel."
+"0e2b8081cf",
+"À 100 Mile House, le 5 octobre, les conservateurs ont promis un fonds d'urgence de 50 millions de dollars pour les cabinets médicaux ruraux menacés de fermeture, une dotation souple pour éviter les fermetures d'urgences et de services de maternité, la reconnaissance automatique des titres de compétences des autres provinces, une reconnaissance plus rapide pour les médecins canadiens formés à l'étranger, la priorité aux étudiants de la C.-B. en formation médicale, une commission d'experts dans les 100 jours et aucune compression en santé. Leur programme du 18 octobre évalue ces mesures d'accès et de soins en milieu rural à 205 M$ par année, sans dire si le fonds lui-même est ponctuel ou annuel."
 ],
 "questions/q_local_north_er/party_positions/conservative/text/5": [
-"6b3934b6b3",
-"« Keep Emergency Rooms Open » (5 octobre 2026, lancé à 100 Mile House; communiqué et discours de Doerkson rapporté par le 100 Mile Free Press) : fonds d'urgence de 50 millions de dollars pour les cabinets ruraux menacés de fermeture (ponctuel ou récurrent, non précisé), dotation souple pour prévenir les fermetures d'urgences et de services de maternité, reconnaissance automatique des titres de compétences des autres provinces et reconnaissance plus rapide pour les médecins canadiens formés à l'étranger, priorité aux étudiants de la C.-B. en formation médicale, commission d'experts dans les 100 jours, système maintenu universel et financé par l'État, aucune compression du budget de la santé de 2026. L'appel de l'ancien membre du caucus Kealy à remplacer Northern Health par des conseils locaux est le sien, pas une politique du parti."
+"27ee05840b",
+"« Keep Emergency Rooms Open » (5 octobre 2026, lancé à 100 Mile House; communiqué et discours de Doerkson rapporté par le 100 Mile Free Press) : fonds d'urgence de 50 millions de dollars pour les cabinets ruraux menacés de fermeture (ponctuel ou récurrent, non précisé), dotation souple pour prévenir les fermetures d'urgences et de services de maternité, reconnaissance automatique des titres de compétences des autres provinces et reconnaissance plus rapide pour les médecins canadiens formés à l'étranger, priorité aux étudiants de la C.-B. en formation médicale, commission d'experts dans les 100 jours, système maintenu universel et financé par l'État, aucune compression du budget de la santé de 2026. L'appel de l'ancien membre du caucus Kealy à remplacer Northern Health par des conseils locaux est le sien, pas une politique du parti. Le programme du 18 octobre ajoute le transport médical en milieu rural et évalue les mesures d'accès et de soins en milieu rural, y compris le fonds, à 205 M$ par année."
 ],
 "questions/q_local_north_er/party_positions/green/text/1": [
 "6e5444fbf0",
@@ -5680,8 +5700,8 @@
 "Canfor a annoncé en juillet qu'elle fermera son usine de pâte Northwood à Prince George d'ici la fin de 2026, en blâmant des pertes et un manque de fibre de bois. La province possède la plupart des terres forestières et fixe combien on peut couper. Le gouvernement veut augmenter la récolte avec un nouveau plan de zonage. Les partis ne sont pas d'accord sur la quantité à couper."
 ],
 "questions/q_local_north_forestry/context/3": [
-"0a91765ab2",
-"Canfor a annoncé le 14 juillet 2026 que son usine de pâte Northwood à Prince George fermera, en invoquant des pertes sur la pâte et un approvisionnement en fibre limité. Le plan Working Forest de la province diviserait la forêt publique en zones de production de bois, d'usages multiples et de conservation, avec un objectif de 45 millions de mètres cubes par an, contre environ 30 millions. Les verts rejettent le plan, CentreBC l'inscrirait dans la loi, OneBC augmenterait la coupe, et les conservateurs n'ont publié aucune politique forestière en 2026."
+"632519b47e",
+"Canfor a annoncé le 14 juillet 2026 que son usine de pâte Northwood à Prince George fermera, en invoquant des pertes sur la pâte et un approvisionnement en fibre limité. Le plan Working Forest de la province diviserait la forêt publique en zones de production de bois, d'usages multiples et de conservation, avec un objectif de 45 millions de mètres cubes par an, contre environ 30 millions. Les verts rejettent le plan, CentreBC l'inscrirait dans la loi, OneBC augmenterait la coupe, et les conservateurs fixeraient un plancher de récolte de 45 millions."
 ],
 "questions/q_local_north_forestry/context/4": [
 "18e69c730c",
@@ -5771,6 +5791,26 @@
 "6a843b224b",
 "Augmenter la possibilité annuelle de coupe « pour que notre secteur forestier dispose de la fibre de bois nécessaire pour croître et prospérer », réduire les droits de coupe pour les entreprises de bois d'œuvre, accélérer les délais d'approbation des permis et les consultations, sans cible de volume ni mesure pour les forêts anciennes."
 ],
+"questions/q_local_north_forestry/options/e/text/1": [
+"ee7e285f60",
+"Couper au moins autant de bois que l'objectif actuel, approuver les permis plus vite, protéger les forêts les plus anciennes et exploiter le reste."
+],
+"questions/q_local_north_forestry/options/e/text/2": [
+"efdaea9178",
+"Fixer une récolte minimale de 45 millions de mètres cubes, approuver les permis forestiers en quelques mois, protéger les forêts les plus anciennes et les plus rares, et rouvrir à l'exploitation les autres zones mises en pause."
+],
+"questions/q_local_north_forestry/options/e/text/3": [
+"6d352f1e60",
+"Fixer un plancher de récolte de 45 millions de mètres cubes par année, décider des permis forestiers en quelques mois par un guichet unique, protéger les forêts anciennes d'origine et les écosystèmes les plus rares, rouvrir à l'exploitation le reste des terres visées par des reports, et prolonger le fonds pour les emplois manufacturiers."
+],
+"questions/q_local_north_forestry/options/e/text/4": [
+"88dd0ae684",
+"Fixer un plancher de 45 millions de mètres cubes, traiter les permis forestiers selon un processus de grands projets avec un guichet unique pour les consultations des Premières Nations, protéger les forêts anciennes d'origine et les écosystèmes les plus rares tout en remettant les autres terres visées par des reports dans la forêt exploitable, et prolonger le Manufacturing Jobs Fund."
+],
+"questions/q_local_north_forestry/options/e/text/5": [
+"49b9b70316",
+"Fixer un plancher de récolte de 45 millions de mètres cubes, faire des permis forestiers un processus de grands projets avec des décisions en quelques mois et un guichet unique pour les consultations des Premières Nations, réduire les coûts des permis, protéger les forêts anciennes d'origine et les écosystèmes les plus rares et remettre le reste des terres visées par des reports dans la forêt exploitable, et prolonger le BC Manufacturing Jobs Fund."
+],
 "questions/q_local_north_forestry/party_positions/centrebc/text/1": [
 "236fa0e6e3",
 "Ce parti inscrirait les zones de coupe dans la loi, vendrait plus de bois public et accélérerait les permis."
@@ -5784,16 +5824,16 @@
 "Programme électoral (10 octobre, Économie et abordabilité) : viser 45 millions de mètres cubes de bois économiquement viable, 40 millions d'ici 2030; Forestry Fibre Task Force; BC Timber Sales à 9 millions de mètres cubes par an d'ici 2029; zones Working Forest à long terme inscrites dans la loi à côté des zones d'usages multiples et de conservation; 100 M$ sur trois ans pour les travailleurs forestiers qualifiés et le bois massif; Forestry One-Stop avec des décisions en 90 jours; Manufacturing Jobs Fund doublé à 60 M$ par an; 3 G$ de financement de participation au capital pour les Premières Nations; un représentant à temps plein à Washington pour les négociations sur le bois d'œuvre. Aucune section sur les forêts anciennes."
 ],
 "questions/q_local_north_forestry/party_positions/conservative/text/1": [
-"0e38052378",
-"Ce parti n'a pas publié de plan forestier pour cette élection, il n'est donc pas noté ici."
+"96ba4ca953",
+"Ce parti couperait au moins 45 millions de mètres cubes de bois par année, approuverait les permis plus vite et ne protégerait que les forêts les plus anciennes et les plus rares."
 ],
 "questions/q_local_north_forestry/party_positions/conservative/text/3": [
-"cd40ab8838",
-"Le site des conservateurs montre un titre « Forestry for the Future » sans texte. Le matériel de campagne dit que le parti va « relancer » la foresterie et adopter une loi fixant à 120 jours le délai de traitement des demandes de permis; la personne responsable du dossier des forêts au parti a blâmé la politique du gouvernement et les délais de permis pour les fermetures de scieries en 2025. Sans politique publiée sur les niveaux de récolte ou le modèle de zonage, le parti n'est pas noté ici."
+"5515aac766",
+"Le programme des conservateurs fixe un plancher de récolte de 45 millions de mètres cubes, déciderait des permis forestiers en quelques mois par un guichet unique, protégerait les forêts anciennes d'origine et les écosystèmes les plus rares tout en rouvrant à l'exploitation les autres terres visées par des reports, réduirait les coûts des permis et prolongerait le Manufacturing Jobs Fund. Il ne mentionne ni le modèle de zonage Working Forest ni les droits de coupe."
 ],
 "questions/q_local_north_forestry/party_positions/conservative/text/5": [
-"5c748a365d",
-"conservativebc.ca (consulté le 12 octobre) affiche « Forestry for the Future » comme titre, sans contenu. Communiqué « Supercharge » (7 octobre) : 120 Day Permitting Act pour les projets de plus de 250 millions de dollars, paperasse ramenée aux niveaux de 2017. Ward Stamer, porte-parole de l’opposition (novembre 2025), a qualifié le « Path to 45 » de « chemin vers l’effondrement » et a blâmé les politiques restrictives et l’octroi des permis; Doerkson (novembre 2025) a réclamé « une récolte appropriée qui peut faire vivre les usines partout dans la province ». Aucune position déclarée sur le modèle Working Forest, l’objectif de 45 millions, les droits de coupe ou les forêts anciennes. Sans position; à revérifier si un programme électoral est publié."
+"7b5841af9b",
+"Le programme des conservateurs du 18 octobre « augmenterait l'accès durable à la fibre avec un plancher de 45 millions de mètres cubes », en indemnisant équitablement les titulaires de permis et les entrepreneurs visés par le projet de loi 13 lorsque des tenures sont réattribuées; mettrait en place un processus « de type grand projet » pour les permis forestiers, avec des décisions « en quelques mois, pas en quelques années » et un guichet unique de consultation pour les Premières Nations; examinerait et éliminerait les coûts de permis inutiles; « protégerait les forêts anciennes d'origine et les écosystèmes les plus menacés et les plus rares, et remettrait le reste des terres dans la forêt exploitable »; créerait des conditions fiscales concurrentielles pour les fabricants de produits à valeur ajoutée; élaborerait une stratégie de bioénergie en commençant par des Clean Fuels Hubs à Prince George et à Kamloops; prolongerait le BC Manufacturing Jobs Fund (30 M$ par année dans son chiffrage); et ferait du bois d'œuvre résineux une priorité « de premier rang » avec les États-Unis. Il ne mentionne ni le Working Forest Landscape Model ni les taux des droits de coupe."
 ],
 "questions/q_local_north_forestry/party_positions/green/text/1": [
 "805cf75ec2",
@@ -5988,12 +6028,12 @@
 "Ce parti approuverait les gros projets en quatre mois par une loi, doublerait la production de gaz et abandonnerait les limites d'émissions."
 ],
 "questions/q_local_north_resources/party_positions/conservative/text/3": [
-"89154a2d0a",
-"Le plan Energy Superpower des conservateurs (28 septembre) doublerait la production de gaz d'ici 2032 et la triplerait d'ici 2035, inscrirait dans la loi des permis en 120 jours pour les projets de plus de 250 M$, mettrait fin aux limites d'émissions qui, selon lui, bloquent les investissements au-delà de LNG Canada, remplacerait le cadre de taxe carbone sur le LNG, accélérerait Ksi Lisims et fixerait une échéance pour la North Coast Transmission Line."
+"030e23a678",
+"Le plan Energy Superpower des conservateurs (28 septembre) doublerait la production de gaz d'ici 2032 et la triplerait d'ici 2035, inscrirait dans la loi des permis en 120 jours pour les projets de plus de 250 M$, mettrait fin aux limites d'émissions qui, selon lui, bloquent les investissements au-delà de LNG Canada, remplacerait le cadre de taxe carbone sur le LNG, accélérerait Ksi Lisims et fixerait une échéance pour la North Coast Transmission Line. Son programme du 18 octobre reprend ces éléments, ajoute du financement de prises de participation pour les Premières Nations et garde la tarification du carbone pour la grande industrie tout en abrogeant CleanBC."
 ],
 "questions/q_local_north_resources/party_positions/conservative/text/5": [
-"de7788a100",
-"BC Energy Superpower Plan (28 septembre 2026) : doubler la production de LNG d'ici 2032 et la tripler d'ici 2035; 120 Day Permitting Act pour les projets de plus de 250 M$; mettre fin aux limites d'émissions et remplacer le cadre de taxe carbone sur le LNG par des « orientations stables »; cadre de redevances concurrentiel; accélérer Ksi Lisims; appuyer la phase 2 de Coastal GasLink et Prince Rupert Gas Transmission; North Coast Transmission Line avec une échéance fixe; plans gaziers avec les nations du Traité 8; le Montney comme actif stratégique. La candidate de Skeena, Rattée, a salué la phase 2 (29 septembre)."
+"f2182bec55",
+"BC Energy Superpower Plan (28 septembre 2026) : doubler la production de LNG d'ici 2032 et la tripler d'ici 2035; 120 Day Permitting Act pour les projets de plus de 250 M$; mettre fin aux limites d'émissions et remplacer le cadre de taxe carbone sur le LNG par des « orientations stables »; cadre de redevances concurrentiel; accélérer Ksi Lisims; appuyer la phase 2 de Coastal GasLink et Prince Rupert Gas Transmission; North Coast Transmission Line avec une échéance fixe; plans gaziers avec les nations du Traité 8; le Montney comme actif stratégique. La candidate de Skeena, Rattée, a salué la phase 2 (29 septembre). Le programme du 18 octobre reprend ces objectifs, ferait de la C.-B. « l'endroit le plus rapide en Amérique du Nord pour obtenir un permis de mine et d'installation de LNG », traiterait le transport d'électricité vers le nord-ouest, le nord-est et le sud de l'Intérieur comme une infrastructure d'importance provinciale avec des dates de mise en service fixes, et rebâtirait le programme de financement de prises de participation de la C.-B. pour les Premières Nations; il abroge CleanBC, mais garde « une tarification du carbone pour les grands émetteurs industriels »."
 ],
 "questions/q_local_north_resources/party_positions/green/text/1": [
 "2de0e1be62",
@@ -6164,16 +6204,16 @@
 "Le programme mentionne la ligne avec le Fraser River Tunnel et l'élargissement de la Highway 1 dans un plan de 15 milliards de dollars sur trois ans, plus 3,5 milliards de dollars de plus empruntés pour le transport, les autobus rapides et les liaisons portuaires. Il ajoute environ six lignes d'autobus rapides, 15 % plus de service d'ici 2030, un BC Commuter Credit remboursable de 15 % sur les laissez-passer de transport en commun et les tarifs de traversier, et une étude du transport rapide au sud du Fraser. Il ne donne aucun montant pour la ligne et aucune position sur le manque de TransLink en 2028 ni sur une redevance sur les véhicules. Paul Brar, qui se présente pour ce parti, n'a publié aucune position."
 ],
 "questions/q_local_skytrain/party_positions/conservative/text/1": [
-"886598a70d",
-"Ce parti n'a fait aucune promesse sur le SkyTrain cette fois-ci. En 2024, il disait qu'il terminerait la ligne à moindre coût."
+"4270af15d1",
+"Ce parti interdirait une nouvelle redevance sur les voitures pour le transport en commun et examinerait le coût des grands projets. En 2024, il disait qu'il terminerait la ligne à moindre coût."
 ],
 "questions/q_local_skytrain/party_positions/conservative/text/3": [
-"564659386b",
-"Les conservateurs n'ont pris aucun engagement sur le transport en commun en 2026. En 2024, ils ont qualifié le coût de 6 milliards de dollars de « débâcle » et dit qu'ils allaient « le réaliser de façon abordable », mais ne se sont jamais engagés à l'annuler. Leur promesse de ne pas créer de nouvelles taxes a une incidence sur la façon dont le manque de TransLink pourrait être comblé."
+"febff6aa95",
+"Le programme des conservateurs interdirait par une loi une redevance de TransLink sur les voitures, appuierait l'expansion du transport en commun là où l'achalandage le justifie et ferait vérifier le plan d'immobilisations, en citant la hausse du coût de la ligne de SkyTrain. Il ne dit pas comment le manque à gagner de TransLink en 2028 serait comblé. En 2024, les conservateurs ont qualifié le coût de 6 milliards de dollars de « débâcle » et dit qu'ils allaient « le réaliser de façon abordable »."
 ],
 "questions/q_local_skytrain/party_positions/conservative/text/5": [
-"8567787957",
-"Aucun engagement des conservateurs de 2026 sur le SkyTrain ou TransLink n'a été trouvé sur le site du parti au 12 octobre. En août 2024, Rustad a qualifié la ligne de « débâcle du Surrey Skytrain de 6 milliards de dollars » et a dit qu'un gouvernement conservateur la « réaliserait de façon abordable ». L'affirmation du NPD selon laquelle Rustad l'annulerait n'est pas confirmée. Pour 2026, le parti promet de ne créer aucune nouvelle taxe et réduirait Metro Vancouver à l'eau et aux égouts. Son communiqué du 2 octobre attaquait la redevance sur les véhicules évoquée dans les médias et ne proposait aucune autre solution. Le candidat Purewal n'a publié que les thèmes du parti."
+"cf0dd8ce13",
+"Le programme des conservateurs du 18 octobre modifierait la South Coast British Columbia Transportation Authority Act pour que TransLink ne puisse pas taxer la possession ou l'immatriculation des voitures ni imposer de redevance à ce titre, appuierait l'expansion du SkyTrain, des autobus rapides et des autobus « là où la population et l'achalandage démontrent le besoin », et ferait vérifier le plan provincial d'immobilisations dans les six mois, en citant la hausse du coût du SkyTrain Surrey-Langley, passé de 3,94 milliards de dollars à environ 6 milliards de dollars. Il ne prend aucun engagement sur le manque à gagner de TransLink en 2028 et ne dit pas si la ligne serait terminée comme prévu. En août 2024, Rustad a qualifié la ligne de « débâcle du Surrey Skytrain de 6 milliards de dollars » et a dit qu'un gouvernement conservateur la « réaliserait de façon abordable ». L'affirmation du NPD selon laquelle Rustad l'annulerait n'est pas confirmée. Le parti promet de ne créer aucune nouvelle taxe et ferait de Metro Vancouver un service public régional allégé. Le candidat Purewal n'a publié que les thèmes du parti."
 ],
 "questions/q_local_skytrain/party_positions/green/text/1": [
 "6119c3de2a",
@@ -6244,12 +6284,12 @@
 "La criminalité est une préoccupation de niveau moyen pour les électeurs. Les conservateurs promettent beaucoup plus de policiers, de procureurs et de juges, ainsi qu'un plan contre l'extorsion. Le gouvernement du NPD maintiendrait le financement actuel, doublerait ses programmes pour les personnes qui commettent de nombreux crimes, embaucherait 50 procureurs de plus et ajouterait une unité contre l'extorsion. CentreBC promet 500 agents de la GRC de plus, 60 procureurs de plus et un groupe de travail permanent contre l'extorsion, c'est-à-dire quand des criminels menacent des propriétaires d'entreprise pour obtenir de l'argent. OneBC cible les récidivistes violents. Les verts adopteraient une nouvelle loi sur la police avec plus de surveillance, enverraient des travailleurs de la santé plutôt que la police pour plus d'appels liés à la santé mentale et aux drogues, et investiraient dans le logement et les services qui préviennent le crime."
 ],
 "questions/q_public_safety/context/4": [
-"3455b5f14e",
-"L'indice de gravité de la criminalité de la C.-B., une mesure de Statistique Canada des crimes déclarés par la police, a baissé à 92,4 en 2025, près de 12 % sous le niveau de 2023. Une analyse du Fraser Institute indique que les crimes violents ont tout de même augmenté de 2,2 % l'an dernier et d'environ un tiers depuis 2017. Les données provinciales montrent que l'extorsion a diminué de 7 % en 2025. Comme le droit sur la mise en liberté sous caution est fédéral, les principaux outils de la province sont le financement de la police, des procureurs et des tribunaux. Le NPD n'a pris aucun engagement chiffré sur le nombre de policiers, mais promet 50 procureurs de la Couronne de plus et une unité pour l'extorsion et la violence des gangs, sans coût publié. Le plan conservateur d'environ 1 000 nouveaux postes et son plan anti-extorsion annoncé plus tard n'ont aucun coût publié. CentreBC évalue l'ensemble de son chapitre sur la sécurité, qui couvre aussi le logement, le traitement et la préparation aux catastrophes, à environ 1,8 G$ sur quatre ans. Les verts adopteraient une nouvelle Community Safety and Policing Act (loi sur la sécurité communautaire et les services de police) avec une surveillance multipartite des services de police et bâtiraient un système volontaire de soins en santé mentale et en consommation de substances pour que moins d'appels liés à la santé soient confiés à la police; ils évaluent le coût du chapitre sur la justice à 131 M$ par année."
+"f55248167e",
+"L'indice de gravité de la criminalité de la C.-B., une mesure de Statistique Canada des crimes déclarés par la police, a baissé à 92,4 en 2025, près de 12 % sous le niveau de 2023. Une analyse du Fraser Institute indique que les crimes violents ont tout de même augmenté de 2,2 % l'an dernier et d'environ un tiers depuis 2017. Les données provinciales montrent que l'extorsion a diminué de 7 % en 2025. Comme le droit sur la mise en liberté sous caution est fédéral, les principaux outils de la province sont le financement de la police, des procureurs et des tribunaux. Le NPD n'a pris aucun engagement chiffré sur le nombre de policiers, mais promet 50 procureurs de la Couronne de plus et une unité pour l'extorsion et la violence des gangs, sans coût publié. Le plan conservateur d'environ 1 000 nouveaux postes et son plan anti-extorsion sont chiffrés à 178 M$ par année dans le programme du parti du 18 octobre. CentreBC évalue l'ensemble de son chapitre sur la sécurité, qui couvre aussi le logement, le traitement et la préparation aux catastrophes, à environ 1,8 G$ sur quatre ans. Les verts adopteraient une nouvelle Community Safety and Policing Act (loi sur la sécurité communautaire et les services de police) avec une surveillance multipartite des services de police et bâtiraient un système volontaire de soins en santé mentale et en consommation de substances pour que moins d'appels liés à la santé soient confiés à la police; ils évaluent le coût du chapitre sur la justice à 131 M$ par année."
 ],
 "questions/q_public_safety/context/5": [
-"e269660232",
-"L'indice de gravité de la criminalité de la C.-B. a baissé à 92,4 en 2025, près de 12 % sous le niveau de 2023 selon la province, mais l'indice des crimes violents a augmenté de 2,2 % en 2025 et de 31,7 % depuis 2017, selon une analyse du Fraser Institute fondée sur des données de Statistique Canada. L'extorsion a diminué de 7 % à l'échelle de la province en 2025. Le gouvernement du NPD a financé la police au moyen du plan Safer Communities de 230 M$ en 2022 et de 325 M$ en nouveau financement sur trois ans dans le budget 2025 pour les campements, les services de police et le système de justice, mais n'a pris aucun engagement chiffré sur le nombre de policiers; le 14 octobre, il a promis 50 procureurs de la Couronne de plus, une unité pour l'extorsion et la violence des gangs et le doublement des programmes pour les récidivistes, sans coût publié. Le plan conservateur ajoute environ 1 000 postes et n'a aucun coût publié; le 13 octobre, le parti a ajouté un plan anti-extorsion et un volet judiciaire pour les récidivistes, également sans coût publié. Le plan de CentreBC ajoute 500 agents de la Gendarmerie royale du Canada (GRC) et 60 procureurs de la Couronne; le parti évalue l'ensemble de son chapitre sur la sécurité, qui couvre aussi le logement, le traitement et la préparation aux urgences, à environ 1,8 G$ sur quatre ans, plus 255 M$ en immobilisations. Le programme électoral des verts adopterait la Community Safety and Policing Act recommandée en 2022 par le comité multipartite de l'Assemblée législative, créerait un comité multipartite chargé de surveiller les services de police, financerait un système volontaire de soins en santé mentale et en consommation de substances pour réduire le travail de la police lié aux appels de santé, et s'attaquerait aux causes de la criminalité comme l'itinérance; il évalue le coût du chapitre sur la justice à 131 M$ par année et ne fixe aucun chiffre pour la police, les procureurs de la Couronne ou les tribunaux. Le droit sur la mise en liberté sous caution et sur la détermination de la peine relève du fédéral."
+"5d319e35de",
+"L'indice de gravité de la criminalité de la C.-B. a baissé à 92,4 en 2025, près de 12 % sous le niveau de 2023 selon la province, mais l'indice des crimes violents a augmenté de 2,2 % en 2025 et de 31,7 % depuis 2017, selon une analyse du Fraser Institute fondée sur des données de Statistique Canada. L'extorsion a diminué de 7 % à l'échelle de la province en 2025. Le gouvernement du NPD a financé la police au moyen du plan Safer Communities de 230 M$ en 2022 et de 325 M$ en nouveau financement sur trois ans dans le budget 2025 pour les campements, les services de police et le système de justice, mais n'a pris aucun engagement chiffré sur le nombre de policiers; le 14 octobre, il a promis 50 procureurs de la Couronne de plus, une unité pour l'extorsion et la violence des gangs et le doublement des programmes pour les récidivistes, sans coût publié. Le plan conservateur ajoute environ 1 000 postes; le 13 octobre, le parti a ajouté un plan anti-extorsion et un volet judiciaire pour les récidivistes, et son programme du 18 octobre en évalue le coût à 178 M$ par année. Le plan de CentreBC ajoute 500 agents de la Gendarmerie royale du Canada (GRC) et 60 procureurs de la Couronne; le parti évalue l'ensemble de son chapitre sur la sécurité, qui couvre aussi le logement, le traitement et la préparation aux urgences, à environ 1,8 G$ sur quatre ans, plus 255 M$ en immobilisations. Le programme électoral des verts adopterait la Community Safety and Policing Act recommandée en 2022 par le comité multipartite de l'Assemblée législative, créerait un comité multipartite chargé de surveiller les services de police, financerait un système volontaire de soins en santé mentale et en consommation de substances pour réduire le travail de la police lié aux appels de santé, et s'attaquerait aux causes de la criminalité comme l'itinérance; il évalue le coût du chapitre sur la justice à 131 M$ par année et ne fixe aucun chiffre pour la police, les procureurs de la Couronne ou les tribunaux. Le droit sur la mise en liberté sous caution et sur la détermination de la peine relève du fédéral."
 ],
 "questions/q_public_safety/options/a/text/1": [
 "54249385c5",
@@ -6368,12 +6408,12 @@
 "Ce parti embaucherait beaucoup plus de policiers et de personnel des tribunaux, ajouterait des enquêteurs pour les menaces contre les commerces et publierait des chiffres sur la récidive."
 ],
 "questions/q_public_safety/party_positions/conservative/text/3": [
-"3d56b39234",
-"Le plan Safe Streets des conservateurs ajoute 250 policiers, 500 agents de la GRC en milieu rural et 150 employés civils, 50 procureurs et une aide pour payer 20 juges, et ferait rapport sur la récidive et la mise en liberté sous caution. Le plan n'a aucun coût publié. Le 13 octobre, le parti a ajouté un plan anti-extorsion avec des enquêteurs dédiés et un volet judiciaire distinct pour les récidivistes, également sans coût publié. Le droit sur la mise en liberté sous caution relève du gouvernement fédéral."
+"013482820d",
+"Le plan Safe Streets des conservateurs ajoute 250 policiers, 500 agents de la GRC en milieu rural plus 150 employés civils, 50 procureurs et une aide pour payer 20 juges, et ferait rapport sur la récidive et la mise en liberté sous caution. Le 13 octobre, le parti a ajouté un plan anti-extorsion avec des enquêteurs dédiés et un volet judiciaire distinct pour les récidivistes. Son programme du 18 octobre en évalue le coût à 178 M$ par année. Le droit sur la mise en liberté sous caution relève du gouvernement fédéral."
 ],
 "questions/q_public_safety/party_positions/conservative/text/5": [
-"a8b2443aac",
-"Le plan Safe Streets (octobre 2026) ajoute 250 policiers par l'intermédiaire du Justice Institute of British Columbia, 500 agents de la GRC en milieu rural et 150 employés civils sur cinq ans, 50 procureurs de la Couronne, 20 juges fédéraux de première instance cofinancés et davantage de shérifs, soit environ 1 000 embauches au total. Il ferait rapport sur la récidive, la mise en liberté sous caution et les délais judiciaires. Il n'a aucun coût publié. Le 13 octobre 2026, le parti a ajouté un plan d'action contre l'extorsion (Anti-Extortion Action Plan : des enquêteurs spécialisés consacrés aux affaires d'extorsion, des moyens de signalement et de protection pour les entreprises et les familles menacées, et des mesures pour réduire le recrutement de jeunes par les gangs), un volet judiciaire réservé aux récidivistes, une application plus stricte des conditions de mise en liberté sous caution et des mandats, et une surveillance électronique élargie des personnes remises en liberté dans la collectivité. Aucune des deux annonces n'a de coût publié. Plusieurs conservateurs actuels, dont Rustad, Doerkson et Halford, ont voté contre le projet de loi 36 en 2023."
+"03de254763",
+"Le plan Safe Streets (octobre 2026) ajoute 250 policiers par l'intermédiaire du Justice Institute of British Columbia, 500 agents de la GRC en milieu rural et 150 employés civils sur cinq ans, 50 procureurs de la Couronne, 20 juges fédéraux de première instance cofinancés et davantage de shérifs, soit environ 1 000 embauches au total. Il ferait rapport sur la récidive, la mise en liberté sous caution et les délais judiciaires. Le 13 octobre 2026, le parti a ajouté un plan d'action contre l'extorsion (Anti-Extortion Action Plan : des enquêteurs spécialisés consacrés aux affaires d'extorsion, des moyens de signalement et de protection pour les entreprises et les familles menacées, et des mesures pour réduire le recrutement de jeunes par les gangs), un volet judiciaire réservé aux récidivistes, une application plus stricte des conditions de mise en liberté sous caution et des mandats, et une surveillance électronique élargie des personnes remises en liberté dans la collectivité. Le programme du 18 octobre évalue ces ressources de sécurité publique à 178 M$ par année à plein coût, et ajoute la lutte contre les armes illégales, « pas contre les chasseurs, les agriculteurs et les propriétaires d'armes respectueux de la loi », ainsi que 2 M$ par année pour la sécurité des communautés religieuses vulnérables. Plusieurs conservateurs actuels, dont Rustad, Doerkson et Halford, ont voté contre le projet de loi 36 en 2023."
 ],
 "questions/q_public_safety/party_positions/green/text/1": [
 "90f32aa02e",
@@ -6548,12 +6588,12 @@
 "Ce parti arrêterait ces leçons, miserait sur la lecture et les maths, et protégerait les élèves."
 ],
 "questions/q_sogi/party_positions/conservative/text/3": [
-"956798c3b0",
-"Les conservateurs aboliraient SOGI 123 et recentreraient l'école sur « l'arithmétique et la lecture », mais n'ont pas dit comment ils mettraient fin à une ressource facultative. En 2026, la plupart de leurs députés ont voté pour permettre la présentation de projets de loi sur l'identité de genre et sur l'abrogation du Human Rights Code (Code des droits de la personne), en disant qu'il s'agissait d'une étape de procédure."
+"50dfc6e7fe",
+"Les conservateurs abrogeraient SOGI 123, s'attaqueraient directement à l'intimidation et donneraient aux parents l'accès au matériel pédagogique et le droit de retrait, mais n'ont pas dit comment ils mettraient fin à une ressource facultative. En 2026, la plupart de leurs députés ont voté pour permettre la présentation de projets de loi sur l'identité de genre et sur l'abrogation du Human Rights Code (Code des droits de la personne), en disant qu'il s'agissait d'une étape de procédure."
 ],
 "questions/q_sogi/party_positions/conservative/text/5": [
-"448155008b",
-"Le plan Safe Schools abrogerait SOGI, mais ne précise aucun moyen. Le programme électoral de 2024 promettait de retirer les plans de leçons et les guides de politique tirés de SOGI, d'adopter des règles de tolérance zéro contre l'intimidation et d'aviser les parents en cas d'intention suicidaire. La plupart des députés provinciaux conservateurs ont voté pour donner la première lecture à un projet de loi sur l'identité de genre (rejeté par 38 voix contre 49) et à la Human Rights Code Repeal Act (loi abrogeant le Code des droits de la personne) (37 contre 50), en disant que tous les projets de loi devraient franchir la première lecture sans opposition. SOGI 123 a été lancé sous le gouvernement libéral de la C.-B., alors que Rustad était ministre."
+"e4b9fee501",
+"Le programme du 18 octobre abrogerait SOGI 123 « et s'attaquerait plutôt directement à l'intimidation », protégerait les élèves contre le harcèlement « fondé sur des caractéristiques personnelles » et donnerait aux parents l'accès au matériel du programme d'études, le droit d'être avisés et le droit de retrait; il ne précise aucun moyen de mettre fin à une ressource facultative. Le programme électoral de 2024 promettait de retirer les plans de leçons et les guides de politique tirés de SOGI, d'adopter des règles de tolérance zéro contre l'intimidation et d'aviser les parents en cas d'intention suicidaire. La plupart des députés provinciaux conservateurs ont voté pour donner la première lecture à un projet de loi sur l'identité de genre (rejeté par 38 voix contre 49) et à la Human Rights Code Repeal Act (loi abrogeant le Code des droits de la personne) (37 contre 50), en disant que tous les projets de loi devraient franchir la première lecture sans opposition. SOGI 123 a été lancé sous le gouvernement libéral de la C.-B., alors que Rustad était ministre."
 ],
 "questions/q_sogi/party_positions/green/text/1": [
 "a92d9d3825",
@@ -6624,12 +6664,12 @@
 "Le déficit de la C.-B., soit l'écart entre ce qu'elle dépense et ce qu'elle reçoit, est d'environ 13,8 milliards de dollars. C'est un record en dollars. Les quatre agences de notation ont toutes abaissé la cote de la C.-B. en 2026. Les partis donnent des niveaux de détail très différents sur les coûts, alors leurs promesses et leurs coûts sont difficiles à comparer."
 ],
 "questions/q_taxes_deficit/context/4": [
-"7117f6d452",
-"La C.-B. prévoit maintenant un déficit de 13,8 G$ cette année, contre 13,3 G$ dans le budget 2026, et une dette qui atteindra 37 % du produit intérieur brut (PIB), soit la taille de l'économie de la C.-B., d'ici 2028-29. Les plans des partis diffèrent par leur ampleur. La hausse d'impôt du NPD sur les hauts revenus rapporterait environ 1 G$ par année. Les conservateurs n'ont pas chiffré leur baisse d'impôt; une estimation d'économiste l'évalue à environ 2 G$ par année. Les verts estiment que leur impôt sur la fortune rapporterait 22,2 G$ la première année et évaluent le coût de leurs programmes à 9,28 G$ par année. CentreBC dit que ses promesses coûtent 13,7 G$ sur quatre ans et que le budget serait équilibré en 2034-35. OneBC n'a pas chiffré ses baisses d'impôts."
+"15aebbd171",
+"La C.-B. prévoit maintenant un déficit de 13,8 G$ cette année, contre 13,3 G$ dans le budget 2026, et une dette qui atteindra 37 % du produit intérieur brut (PIB), soit la taille de l'économie de la C.-B., d'ici 2028-29. Les plans des partis diffèrent par leur ampleur. La hausse d'impôt du NPD sur les hauts revenus rapporterait environ 1 G$ par année. Les conservateurs évaluent leur baisse d'impôt à 2,9 G$ par année et disent que la croissance et les économies ramèneraient le déficit à 10,8 G$ d'ici 2029-30. Les verts estiment que leur impôt sur la fortune rapporterait 22,2 G$ la première année et évaluent le coût de leurs programmes à 9,28 G$ par année. CentreBC dit que ses promesses coûtent 13,7 G$ sur quatre ans et que le budget serait équilibré en 2034-35. OneBC n'a pas chiffré ses baisses d'impôts."
 ],
 "questions/q_taxes_deficit/context/5": [
-"983c474898",
-"Le budget 2026 prévoyait un déficit de 13,3 G$ pour 2026-27, et la mise à jour trimestrielle de septembre a porté la prévision à 13,8 G$. La dette soutenue par les contribuables devrait atteindre 37,4 % du produit intérieur brut (PIB) d'ici 2028-29, et les quatre agences de notation ont abaissé la cote de la C.-B. cette année. Le NPD ajouterait deux points aux deux tranches d'imposition les plus élevées et imposerait un taux de 24,5 % au-delà de 1 M$ (environ 1 G$ par année), et prévoit 15 000 postes équivalents temps plein de moins dans le secteur public. Les conservateurs porteraient le montant personnel de base à 32 000 $ (non chiffré par le parti; une estimation d'économiste l'évalue à environ 2 G$ par année, et une personne candidate du NPD à 2,5 G$) et ne fixent aucune cible de déficit. Les verts imposeraient la fortune au-delà de 50 M$ (22,2 G$ la première année, estimation du parti) et évaluent le coût de leurs programmes à 9,28 G$ par année. CentreBC inscrirait dans la loi un budget équilibré en 2034-35, supprimerait 10 000 postes à mesure que les gens partent et ramènerait le taux le plus bas à 5,06 % (ses allègements fiscaux coûtent 4,5 G$ sur quatre ans, chiffrage du parti). OneBC réduirait les impôts de 25 % et équilibrerait le budget en quatre ans."
+"875294bace",
+"Le budget 2026 prévoyait un déficit de 13,3 G$ pour 2026-27, et la mise à jour trimestrielle de septembre a porté la prévision à 13,8 G$. La dette soutenue par les contribuables devrait atteindre 37,4 % du produit intérieur brut (PIB) d'ici 2028-29, et les quatre agences de notation ont abaissé la cote de la C.-B. cette année. Le NPD ajouterait deux points aux deux tranches d'imposition les plus élevées et imposerait un taux de 24,5 % au-delà de 1 M$ (environ 1 G$ par année), et prévoit 15 000 postes équivalents temps plein de moins dans le secteur public. Les conservateurs porteraient le montant personnel de base à 32 000 $ (2,9 G$ par année, chiffrage du parti), gèleraient l'embauche en dehors de la première ligne et réduiraient le fonds de prévoyance, et prévoient des déficits qui baissent jusqu'à 10,8 G$ en 2029-30, sans date de retour à l'équilibre. Les verts imposeraient la fortune au-delà de 50 M$ (22,2 G$ la première année, estimation du parti) et évaluent le coût de leurs programmes à 9,28 G$ par année. CentreBC inscrirait dans la loi un budget équilibré en 2034-35, supprimerait 10 000 postes à mesure que les gens partent et ramènerait le taux le plus bas à 5,06 % (ses allègements fiscaux coûtent 4,5 G$ sur quatre ans, chiffrage du parti). OneBC réduirait les impôts de 25 % et équilibrerait le budget en quatre ans."
 ],
 "questions/q_taxes_deficit/options/a/text/1": [
 "e418bf2dfc",
@@ -6652,24 +6692,24 @@
 "Baisser chaque tranche d'imposition des particuliers et des sociétés de 25 % et la PST de deux points, équilibrer le budget d'ici quatre ans et affecter une partie de tout surplus à la dette."
 ],
 "questions/q_taxes_deficit/options/b/text/1": [
-"e7cc50c153",
-"Baisser un peu les impôts et laisser une économie en croissance combler l'écart avec le temps."
+"643fc09d34",
+"Baisser les impôts, n'en ajouter aucun nouveau, dépenser moins pour les bureaux du gouvernement et laisser une économie en croissance réduire l'écart chaque année."
 ],
 "questions/q_taxes_deficit/options/b/text/2": [
-"3f6a9f0b7b",
-"Baisser les impôts d'environ 1 000 $ par travailleur, n'ajouter aucun nouvel impôt et laisser la création d'emplois combler l'écart avec le temps."
+"464eaa4180",
+"Baisser les impôts d'environ 1 000 $ par travailleur, n'ajouter aucun nouvel impôt, ralentir l'embauche dans les bureaux du gouvernement et laisser la création d'emplois réduire un peu l'écart chaque année."
 ],
 "questions/q_taxes_deficit/options/b/text/3": [
-"26804c7002",
-"Accorder une baisse d'impôt sur le revenu de 1 000 $, n'ajouter aucun nouvel impôt, protéger le financement de la santé et miser sur la croissance plutôt que sur une date pour équilibrer le budget."
+"ad7b4ad130",
+"Accorder une baisse d'impôt sur le revenu de 1 000 $, n'ajouter aucun nouvel impôt, protéger le financement de la santé, réduire les dépenses de bureau et diminuer le déficit chaque année, sans date pour équilibrer le budget."
 ],
 "questions/q_taxes_deficit/options/b/text/4": [
-"2eee2e0524",
-"Une baisse d'impôt sur le revenu de 1 000 $ par contribuable, l'engagement de n'imposer aucun nouvel impôt ni aucune nouvelle taxe et la promesse de protéger le financement actuel de la santé, avec la croissance du secteur des ressources pour combler l'écart et aucune cible de déficit."
+"7493dc1afa",
+"Une baisse d'impôt sur le revenu de 1 000 $ par contribuable, chiffrée à 2,9 G$ par année, aucun nouvel impôt, un financement de la santé protégé, un gel de l'embauche administrative et un fonds de prévoyance réduit, la croissance du secteur des ressources faisant baisser le déficit chaque année, sans date de retour à l'équilibre."
 ],
 "questions/q_taxes_deficit/options/b/text/5": [
-"156fe9aa9b",
-"Porter le montant personnel de base à 32 000 $ (non chiffré; les estimations vont d'environ 2 G$ à 2,5 G$ par année), n'ajouter aucun impôt nouveau ou plus élevé, protéger le financement actuel de la santé et miser sur une croissance tirée par les ressources, sans date d'équilibre."
+"ecd73865cd",
+"Porter le montant personnel de base à 32 000 $ (chiffré à 2,9 G$ par année), n'ajouter aucun impôt nouveau ou plus élevé, protéger le financement actuel de la santé, geler l'embauche en dehors de la première ligne et réduire le fonds de prévoyance, et miser sur une croissance tirée par les ressources pour que le déficit baisse chaque année, sans date de retour à l'équilibre."
 ],
 "questions/q_taxes_deficit/options/c/text/1": [
 "9da39fc53b",
@@ -6744,16 +6784,16 @@
 "Le programme électoral réduit le déficit à environ 9,0 G$ d'ici 2030-31 et atteint l'équilibre en 2034-35. Une Balanced Budget and Spending Control Act (loi sur l'équilibre budgétaire et le contrôle des dépenses) créerait un Independent Budget Officer et réduirait la rémunération des ministres si la cible n'est pas atteinte. Les dépenses augmenteraient de 1,5 point de moins par année que ce que prévoit le Budget 2026, avec 10 000 postes supprimés par attrition. Les économies totalisent 5,6 G$ et les allègements fiscaux 4,5 G$ sur quatre ans, selon le chiffrage du parti lui-même. Sa liste de rechange fixe un fonds pour la fabrication à 30 M$, sous son engagement de 60 M$."
 ],
 "questions/q_taxes_deficit/party_positions/conservative/text/1": [
-"3e9c7980f3",
-"Ce parti baisserait les impôts, n'en ajouterait aucun nouveau et compterait sur plus d'emplois pour combler l'écart."
+"5885f843d3",
+"Ce parti baisserait les impôts, n'en ajouterait aucun nouveau, dépenserait moins pour les bureaux du gouvernement et réduirait un peu le déficit chaque année."
 ],
 "questions/q_taxes_deficit/party_positions/conservative/text/3": [
-"f2c57013cf",
-"Les conservateurs promettent une baisse d'impôt de 1 000 $, aucun nouvel impôt et aucune compression en santé, en misant sur la croissance du secteur des ressources. Ils n'ont publié ni chiffrage ni date pour équilibrer le budget. Ils ont voté contre les deux derniers budgets et n'ont pas répété leur promesse de 2024 d'équilibrer le budget en deux mandats."
+"4524513b7d",
+"Le programme des conservateurs du 18 octobre combine une baisse d'impôt de 1 000 $ (2,9 G$ par année), aucun nouvel impôt et 1,4 G$ par année en nouvelles dépenses avec un gel de l'embauche en dehors de la première ligne et d'autres économies. Selon le chiffrage du parti lui-même, le déficit baisse chaque année, de 13,7 G$ à 10,8 G$ en 2029-30, sans date pour équilibrer le budget. Ils ont voté contre les deux derniers budgets."
 ],
 "questions/q_taxes_deficit/party_positions/conservative/text/5": [
-"e1d4067df0",
-"Les conservateurs porteraient le montant personnel de base à 32 000 $ (aucun chiffrage du parti; l'économiste Ross Hickey l'évalue à environ 2 G$ par année, et une personne candidate du NPD à 2,5 G$), n'ajouteraient aucun impôt nouveau ou plus élevé et protégeraient le financement actuel de la santé. Leurs autres engagements ne sont pas chiffrés. Le chef par intérim Lorne Doerkson dit que le plan est de « donner un élan énorme à l'économie ... ce sont nos revenus ». Il n'y a aucune cible de déficit. Ils ont voté contre la Supply Act (loi de crédits) de 2025-26 et le projet de loi budgétaire de 2026 (projet de loi 2), et n'ont pas répété l'engagement de 2024 d'équilibrer le budget en deux mandats."
+"f8ae121f82",
+"Le programme des conservateurs du 18 octobre porte le montant personnel de base à 32 000 $ (2,9 G$ par année à partir de l'année d'imposition 2027, chiffrage du parti), n'ajoute aucun impôt nouveau ou plus élevé, exempte de la PST la machinerie et les logiciels des entreprises pendant trois ans (500 M$ par année) et ajoute 1,425 G$ par année en nouvelles dépenses à plein coût. Il inscrit 11,7 G$ sur quatre ans en restriction des dépenses : un fonds de prévoyance réduit, un gel de l'embauche en dehors de la première ligne, un examen de fond des ministères autres que la santé, l'éducation et la sécurité publique, et 20 % de moins pour les consultants. Il compte sur 2,6 G$ sur trois ans grâce à une croissance plus rapide. Ses déficits sont de 13,7 G$ cette année, puis de 13,5 G$, de 12,3 G$ et de 10,8 G$ en 2029-30, avec un ancrage budgétaire voulant que le déficit baisse chaque année, et aucune date de retour à l'équilibre. Aucun de ces chiffres n'a été vérifié de façon indépendante. Le parti a voté contre la Supply Act (loi de crédits) de 2025-26 et le projet de loi budgétaire de 2026 (projet de loi 2), et n'a pas répété l'engagement de 2024 d'équilibrer le budget en deux mandats."
 ],
 "questions/q_taxes_deficit/party_positions/green/text/1": [
 "3796d0265c",

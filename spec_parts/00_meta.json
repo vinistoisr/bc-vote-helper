@@ -8,7 +8,7 @@
   "disclaimer": {
    "1": "This tool helps you compare. It shows which party's ideas are closest to yours. It does not tell you how to vote. You decide.",
    "3": "This tool is independent of all parties. It compares your answers with parties' promises and records. It is a starting point, not a recommendation. Parties were still announcing promises as of October 18, so check for updates. Party names and logos belong to the parties.",
-   "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 18, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC (October 10) and the Greens (October 13) released full platforms with their own costing, and the NDP released a costing of its campaign commitments on October 14; none was independently checked. The Conservatives had not released a costed platform as of October 18, and OneBC campaigns on rolling announcements. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
+   "5": "Independent voter-information tool. Scores reflect published 2026 commitments as of October 18, 2026, weighted against the 2016-2026 governing and legislative record where the two conflict. CentreBC (October 10), the Greens (October 13) and the Conservatives (October 18) released full platforms with their own costing, and the NDP released a costing of its campaign commitments on October 14; none was independently checked. OneBC campaigns on rolling announcements. Low-confidence positions rest on prior-leader statements, 2024 platforms or silence. Party names and logos are trademarks of their owners, shown for identification only. Not an endorsement."
   },
   "method_summary": {
    "1": "You pick answers. Each answer is close to some groups and far from others. We add it up and show the closest group.",
@@ -147,8 +147,8 @@
    "candidates_running": 93,
    "one_liner": {
     "1": "The main party trying to replace the government. It wants lower taxes, fewer rules for business and more gas and mining jobs.",
-    "3": "Opposition since 2024. Promises a $1,000 income tax cut and no new taxes; would repeal DRIPA and SOGI 123, end safe supply, expand mandatory treatment and double gas production. Four leaders in a year; no costed plan as of October 18.",
-    "5": "Opposition since 2024 (44 seats). 2026: basic personal amount to $32,000 (about $1,050 each; uncosted; outside estimate $2.5B a year), no new taxes, repeal DRIPA and SOGI 123, end safe supply, mandatory treatment, 250 police, 500 RCMP, 50 prosecutors, double gas output by 2032, 120 Day Permitting Act, ICBC hybrid tort, portable LTC funding. No deficit target or balance date."
+    "3": "Opposition since 2024. Promises a $1,000 income tax cut and no new taxes; would repeal DRIPA and SOGI 123, end safe supply, expand mandatory treatment and double gas production. Four leaders in a year; its October 18 costed platform has the deficit falling to $10.8 billion by 2029-30 (party figures).",
+    "5": "Opposition since 2024 (44 seats). 2026: basic personal amount to $32,000 (about $1,000 each; party costing $2.9B a year), no new taxes, repeal DRIPA and SOGI 123, end safe supply, mandatory treatment, 250 police, 500 RCMP, 50 prosecutors, double gas output by 2032, 120 Day Permitting Act, ICBC hybrid tort, portable LTC funding. Costed platform (October 18): deficits $13.7B, $13.5B, $12.3B, $10.8B to 2029-30, $1.425B a year new spending, $3.0B to $4.1B a year restraint; deficit falls every year, no balance date."
    },
    "record_summary": {
     "3": "Its 2024 calls to end the carbon tax and for mandatory treatment and bail reform preceded NDP action. Opposed nearly all NDP bills. Most MLAs backed first reading of gender identity and Human Rights Code repeal bills, citing courtesy. Many backed DRIPA as BC Liberals, then voted for first reading of two bills to repeal it in 2025 and 2026; both were defeated. Three leaders since Rustad resigned in December 2025.",
@@ -188,8 +188,8 @@
      "url": "https://www.castanetkamloops.net/news/BC/631916/Five-return-to-B-C-Conservative-caucus-as-early-election-looms"
     },
     {
-     "label": "Energeticcity (Canadian Press): voting begins without Conservative costed platform (Oct 16, 2026)",
-     "url": "https://energeticcity.ca/2026/10/16/b-c-begins-voting-without-conservatives-costed-platform-doerkson-calls-it-imminent/"
+     "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
     }
    ]
   },

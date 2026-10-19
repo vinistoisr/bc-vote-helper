@@ -29,7 +29,7 @@
         },
         "scores": {
           "ndp": 4,
-          "conservative": 1,
+          "conservative": 2,
           "green": 2,
           "centrebc": 2,
           "onebc": 2
@@ -63,7 +63,7 @@
         },
         "scores": {
           "ndp": 2,
-          "conservative": 1,
+          "conservative": 2,
           "green": 2,
           "centrebc": 4,
           "onebc": 2
@@ -80,7 +80,7 @@
         },
         "scores": {
           "ndp": 2,
-          "conservative": 2,
+          "conservative": 3,
           "green": 4,
           "centrebc": 2,
           "onebc": 2
@@ -117,9 +117,9 @@
       },
       "conservative": {
         "text": {
-          "1": "This party would set service rules for the ferries, hold the bosses to them, and add no new costs.",
-          "3": "The Conservatives' October 11 BC Ferries Charter would set standards for reliability, on-time performance, capacity, affordability and customer service, hold leadership responsible, cut board duplication, negotiate a 'fair share' of federal ferry funding, and add Wi-Fi through private contracts 'with no new burden on fares or taxpayers'. No timeline, fare cut or shipbuilding position.",
-          "5": "'Conservatives will fix BC Ferries' (October 11, 2026): a BC Ferries Charter with clear standards for reliability, on-time performance, capacity, affordability and customer service; leadership held responsible for meeting them; reduced redundancy at the board so resources go to service; negotiation with Ottawa for a fair share of federal ferry funding; high-speed Wi-Fi on major routes and terminals through competitive private procurement with performance standards and no new burden on fares or taxpayers. No dollar figures, timelines, fare reductions or position on where vessels are built."
+          "1": "This party would set service rules for the ferries, hold the bosses to them, and build future ferries in BC.",
+          "3": "The Conservatives' October 11 BC Ferries Charter would set standards for reliability, on-time performance, capacity, affordability and customer service, hold leadership responsible, cut board duplication, negotiate a 'fair share' of federal ferry funding, and add Wi-Fi through private contracts 'with no new burden on fares or taxpayers'. Its October 18 platform adds a plan to build future ferries in BC rather than China and seeks federal funding comparable to Atlantic ferries. No timeline or fare cut.",
+          "5": "'Conservatives will fix BC Ferries' (October 11, 2026): a BC Ferries Charter with clear standards for reliability, on-time performance, capacity, affordability and customer service; leadership held responsible for meeting them; reduced redundancy at the board so resources go to service; negotiation with Ottawa for a fair share of federal ferry funding; high-speed Wi-Fi on major routes and terminals through competitive private procurement with performance standards and no new burden on fares or taxpayers. The October 18 platform adds a review of current fleet renewal contracts ('We should not be building ships in China'), a BC Ferry Fleet Renewal Strategy to bring ferry and vessel building back to BC, and federal funding 'comparable to Atlantic ferry services'. No dollar figures, timelines or fare reductions."
         },
         "basis": "platform",
         "confidence": "high",
@@ -131,6 +131,10 @@
           {
             "label": "Victoria Buzz: what the major parties are promising for BC Ferries (Oct 11, 2026)",
             "url": "https://victoriabuzz.com/2026/10/heres-what-bcs-major-political-parties-are-promising-for-bc-ferries-ahead-of-the-election/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -197,7 +201,7 @@
         "no_position": true
       }
     },
-    "scoring_rationale": "a = NDP (4): the reservation pilot and BC-built pledge; Green 2 and CentreBC 2 (both share domestic shipbuilding, neither has a reservation measure); Conservative 1 (no shipbuilding position, and its charter frames the NDP record as the problem). b = Conservative (4); OneBC placeholder; NDP 1, Green 1 and CentreBC 1 (none proposes a charter or board cut; the Greens' governance review is a different instrument and the charter's 'no new burden' excludes the Green and CentreBC spending). c = CentreBC (4); NDP 2 and Green 2 (BC-built ships overlap; no fare credit); Conservative 1 (affordability as a standard, no credit or shipyard fund). d = Green (4); NDP 2 and CentreBC 2 (local shipbuilding overlaps; no federal parity or governance review); Conservative 2 (also seeks federal money and a governance change, through a charter rather than a review). Options c and d are not exclusive in practice (the Greens and CentreBC both want domestic shipbuilding); the prompt asks which change should come first. OneBC is no_position."
+    "scoring_rationale": "a = NDP (4): the reservation pilot and BC-built pledge; Green 2 and CentreBC 2 (both share domestic shipbuilding, neither has a reservation measure); Conservative 2 (its October 18 platform also wants future vessels built in BC; no reservation measure; score changed Oct 18 after the Conservative platform). b = Conservative (4); OneBC placeholder; NDP 1, Green 1 and CentreBC 1 (none proposes a charter or board cut; the Greens' governance review is a different instrument and the charter's 'no new burden' excludes the Green and CentreBC spending). c = CentreBC (4); NDP 2 and Green 2 (BC-built ships overlap; no fare credit); Conservative 2 (BC-built vessels overlap; no fare credit or shipyard fund; score changed Oct 18 after the Conservative platform). d = Green (4); NDP 2 and CentreBC 2 (local shipbuilding overlaps; no federal parity or governance review); Conservative 3 (seeks federal funding comparable to Atlantic ferries and BC-built vessels, as this option does, with a governance change through a charter rather than a review; no electric ferry or Island rail plan; score changed Oct 18 after the Conservative platform). Options c and d are not exclusive in practice (the Greens and CentreBC both want domestic shipbuilding); the prompt asks which change should come first. OneBC is no_position."
   },
   {
     "id": "q_local_island_coast_oldgrowth",
@@ -214,7 +218,7 @@
       "1": "Logging has long been a big employer on the Island and the coast. A pulp mill near Duncan has closed. Some of the oldest forests are off limits for now. Parties disagree on protecting versus cutting.",
       "2": "The Crofton pulp mill, with about 350 jobs, closed last December. The premier said limits on old-growth logging were necessary and refused to let old growth be pulped to keep the mill open. Some old forests are under temporary logging deferrals. Parties disagree on what to protect and how much to cut.",
       "3": "Domtar's Crofton pulp mill (about 350 jobs) closed after a December 2025 announcement. Eby said old-growth limits had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. Old-growth deferrals from 2021 are temporary. The government's Working Forest plan would zone forests with a 45 million cubic metre goal. The Greens reject the plan; CentreBC would write it into law.",
-      "4": "Domtar's Crofton pulp mill closed after a December 2025 announcement; Eby said old-growth restrictions had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. Old-growth deferrals from 2021 remain temporary. The Forests minister's mandate letter sets a 45 million cubic metre harvest target while Budget 2026 projects about 30 million. On October 10 in Courtenay the NDP pledged $50 million to make the rarest deferrals permanent and help mills retrofit. The Greens would protect big-treed old growth permanently. CentreBC would legislate Working Forest zones. OneBC would raise the cut. The Conservatives have no 2026 forestry plan.",
+      "4": "Domtar's Crofton pulp mill closed after a December 2025 announcement; Eby said old-growth restrictions had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. Old-growth deferrals from 2021 remain temporary. The Forests minister's mandate letter sets a 45 million cubic metre harvest target while Budget 2026 projects about 30 million. On October 10 in Courtenay the NDP pledged $50 million to make the rarest deferrals permanent and help mills retrofit. The Greens would protect big-treed old growth permanently. CentreBC would legislate Working Forest zones. OneBC would raise the cut. The Conservatives would set a 45 million floor and protect only original old growth and the rarest ecosystems.",
       "5": "Domtar's Crofton pulp mill in the Cowichan Valley (about 350 jobs) closed after a December 2025 announcement; Eby said restrictions on old-growth harvesting had raised Island fibre prices but were 'a necessary decision', and that pulping old growth to extend the mill was not an option. The 2021 old-growth deferrals remain temporary. Minister Parmar's mandate letter sets a 45 million cubic metre target; Budget 2026 projects about 30 million; the Working Forest model's first candidate area near Campbell River was announced September 15, 2026. On October 10 in Courtenay the NDP pledged $50 million to convert deferrals of 'the most irreplaceable and rarest forests' to permanent protection, with mill retrofit support for second growth. The Greens (October 4) would implement all 14 Old Growth Strategic Review recommendations and reject the 45 million target."
     },
     "options": [
@@ -229,7 +233,7 @@
         },
         "scores": {
           "ndp": 2,
-          "conservative": 2,
+          "conservative": 1,
           "green": 4,
           "centrebc": 1,
           "onebc": 0
@@ -246,7 +250,7 @@
         },
         "scores": {
           "ndp": 4,
-          "conservative": 2,
+          "conservative": 3,
           "green": 2,
           "centrebc": 2,
           "onebc": 1
@@ -263,7 +267,7 @@
         },
         "scores": {
           "ndp": 3,
-          "conservative": 2,
+          "conservative": 3,
           "green": 0,
           "centrebc": 4,
           "onebc": 2
@@ -284,6 +288,23 @@
           "green": 0,
           "centrebc": 1,
           "onebc": 4
+        }
+      },
+      {
+        "id": "e",
+        "text": {
+          "1": "Cut at least as much wood as the current goal, approve permits faster, protect the oldest forests and log the rest.",
+          "2": "Set a minimum harvest of 45 million cubic metres, approve forestry permits in months, protect the oldest and rarest forests, and return other paused areas to logging.",
+          "3": "Set a harvest floor of 45 million cubic metres a year, decide forestry permits in months through one window, protect original old growth and the rarest ecosystems, return the rest of the deferred land to logging, and extend the manufacturing jobs fund.",
+          "4": "Set a floor of 45 million cubic metres, run forestry permits through a major-project process with one window for First Nations referrals, protect original old growth and the rarest ecosystems while returning other deferred land to the working forest, and extend the Manufacturing Jobs Fund.",
+          "5": "Set a harvest floor of 45 million cubic metres, make forestry permits a major-project process decided in months with one window for First Nations referrals, cut permitting costs, protect original old growth and the rarest ecosystems and return the remaining deferred land to the working forest, and extend the BC Manufacturing Jobs Fund."
+        },
+        "scores": {
+          "ndp": 3,
+          "conservative": 4,
+          "green": 0,
+          "centrebc": 3,
+          "onebc": 2
         }
       }
     ],
@@ -321,12 +342,12 @@
       },
       "conservative": {
         "text": {
-          "1": "This party has not published a forestry plan this election, so it is not scored here.",
-          "3": "The Conservatives' site shows a 'Forestry for the Future' heading with no text. Their October 7 release promises red tape cut to 2017 levels; the forestry critic blamed 'restrictive policies' and permitting delays for mill closures in 2025. With no published position on old growth, harvest levels or the zoning model, the party is not scored here.",
-          "5": "conservativebc.ca (checked through October 11) lists 'Forestry for the Future' with no content. 'Supercharge' release (October 7): red tape to 2017 levels, a one-in two-out law, 120 Day Permitting Act for projects over $250 million, claim of 21 mills closed since 2023. Critic Ward Stamer (November 2025) called the 'Path to 45' 'a path to collapse' and blamed restrictive policy and permitting; The NDP claims the Conservatives oppose 30 by 30 (claim). No stated position on old-growth deferrals. No_position; recheck if a platform appears."
+          "1": "This party would cut at least 45 million cubic metres of wood a year, approve permits faster, and protect only the oldest and rarest forests.",
+          "3": "The Conservatives' platform sets a harvest floor of 45 million cubic metres, would decide forestry permits in months through one window, protect original old growth and the rarest ecosystems while returning other deferred land to logging, cut permitting costs and extend the Manufacturing Jobs Fund. It does not mention the Working Forest zoning model or stumpage.",
+          "5": "The Conservatives' October 18 platform would 'increase sustainable access to fibre with a floor of 45 million cubic metres', compensating licensees and Bill 13 contractors fairly where tenure is reallocated; set up a 'major-project-style' process for forestry permits with decisions in 'months, not years' and a single-window consultation hub for First Nations; review and eliminate unnecessary permitting costs; 'protect original old growth and the most endangered and rarest ecosystems and return remaining land to the working forest'; create competitive tax conditions for value-added manufacturers; develop a bioenergy strategy starting with Clean Fuels Hubs in Prince George and Kamloops; extend the BC Manufacturing Jobs Fund ($30 million a year in its costing); and make softwood lumber a 'first-rank' priority with the United States. It does not mention the Working Forest Landscape Model or stumpage rates."
         },
         "basis": "platform",
-        "confidence": "low",
+        "confidence": "high",
         "sources": [
           {
             "label": "Conservative Party of BC: Supercharge British Columbia's economy (Oct 7, 2026)",
@@ -335,9 +356,12 @@
           {
             "label": "Westk News: Conservative forestry critic on the 100 Mile House closure (Nov 7, 2025)",
             "url": "https://westknews.com/2025/11/07/conservative-forestry-critic-calls-closure-of-100-mile-west-fraser-mill-devastating/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
-        ],
-        "no_position": true
+        ]
       },
       "green": {
         "text": {
@@ -401,7 +425,7 @@
         ]
       }
     },
-    "scoring_rationale": "a = Green (4); NDP 2 (protects the rarest old growth permanently and kept the Crofton refusal, but keeps a provincial volume target and clearcutting); CentreBC 1 (worker funding only); OneBC 0. b = NDP record and pledge (4); Green 2 (permanent protection overlaps; rejects the harvest goal); CentreBC 2 (same zones and goal; no old-growth measure); OneBC 1. c = CentreBC (4); NDP 3 (its own model, without legislation, timber sales target or task force, and with an old-growth measure CentreBC lacks); OneBC 2 (more supply and faster permits, no zones); Green 0. d = OneBC (4); NDP 1; CentreBC 1 (aims at 45 million, keeps consultation); Green 0. The Conservatives have no published 2026 forestry or old-growth position and are no_position. This is the Island framing (old growth and the Crofton closure) of the forestry issue that the North question frames around timber supply; the party mapping is the same and no voter sees both."
+    "scoring_rationale": "a = Green (4); NDP 2 (protects the rarest old growth permanently and kept the Crofton refusal, but keeps a provincial volume target and clearcutting); CentreBC 1 (worker funding only); OneBC 0. b = NDP record and pledge (4); Green 2 (permanent protection overlaps; rejects the harvest goal); CentreBC 2 (same zones and goal; no old-growth measure); OneBC 1. c = CentreBC (4); NDP 3 (its own model, without legislation, timber sales target or task force, and with an old-growth measure CentreBC lacks); OneBC 2 (more supply and faster permits, no zones); Green 0. d = OneBC (4); NDP 1; CentreBC 1 (aims at 45 million, keeps consultation); Green 0. e = Conservative (4), from its October 18 platform: a 45 million cubic metre harvest floor, major-project-style permits decided in months, protection for original old growth and the rarest ecosystems with other deferred land returned to the working forest, and an extended Manufacturing Jobs Fund; NDP 3 (the same 45 million goal, rarest old growth protected, faster permits and a jobs fund stream, but as a target within its zoning model); CentreBC 3 (the 45 million goal and fast permit decisions, no old-growth measure); OneBC 2 (more harvest and faster permits, but this option sets a volume floor and an old-growth measure); Green 0. Option e was added on October 18 when the Conservatives published a forestry plan; before that they were no_position. Conservative on the others: a 1 (protects some old growth, but sets the harvest floor this option rejects), b 3 (the 45 million goal, rarest old growth and value-added overlap; no zoning model), c 3 (45 million and fast permits; no legislated zones, timber sales target or task force), d 2 (more harvest, faster permits and lower costs, but it sets a volume floor and an old-growth measure). This is the Island framing (old growth and the Crofton closure) of the forestry issue that the North question frames around timber supply; the party mapping is the same and no voter sees both."
   },
   {
     "id": "q_local_island_coast_seniors",
@@ -467,7 +491,7 @@
         },
         "scores": {
           "ndp": 3,
-          "conservative": 2,
+          "conservative": 3,
           "green": 2,
           "centrebc": 4,
           "onebc": 1
@@ -551,8 +575,8 @@
       "conservative": {
         "text": {
           "1": "This party would let the money follow each senior to an approved home, public or private, and fund small-town clinics.",
-          "3": "On October 9 the Conservatives promised portable public funding for seniors waiting for long-term care, giving 'a real choice among qualified providers, including non-government options with strong performance safeguards', and faster builds by cutting design rules. On October 5 they pledged a $50 million rural practice fund, an expert commission and no health cuts. No 2026 commitment on the Nanaimo tower.",
-          "5": "October 9, 2026 release: portable public funding for seniors waiting for a bed, with 'a real choice among qualified providers, including non-government options with strong performance safeguards'; build beds faster by cutting unnecessary design rules; says 7,200 British Columbians are waiting for a long-term-care bed and that design rules pushed some proposed beds to $1.8 million each. October 5 (100 Mile House): $50 million rural practice fund, flexible staffing, automatic credential recognition, expert commission within 100 days, 2026 health budget kept. Nanaimo-Lantzville candidate Pringle wants cardiac care closer to home; no party commitment on the tower or cath lab was found for 2026."
+          "3": "On October 9 the Conservatives promised portable public funding for seniors waiting for long-term care, giving 'a real choice among qualified providers, including non-government options with strong performance safeguards', and faster builds by cutting design rules. On October 5 they pledged a $50 million rural practice fund, an expert commission and no health cuts. No 2026 commitment on the Nanaimo tower. Its October 18 platform would restart the seven shelved care homes, redesigned to cost less per bed.",
+          "5": "October 9, 2026 release: portable public funding for seniors waiting for a bed, with 'a real choice among qualified providers, including non-government options with strong performance safeguards'; build beds faster by cutting unnecessary design rules; says 7,200 British Columbians are waiting for a long-term-care bed and that design rules pushed some proposed beds to $1.8 million each. October 5 (100 Mile House): $50 million rural practice fund, flexible staffing, automatic credential recognition, expert commission within 100 days, 2026 health budget kept. Nanaimo-Lantzville candidate Pringle wants cardiac care closer to home; no party commitment on the tower or cath lab was found for 2026. Its October 18 platform would restart the seven long-term care homes paused in Budget 2026, including Campbell River's, 'redesigned to cost less per bed' ($1.43 billion at current estimates, already in the capital plan), and costs its seniors measures at $350 million a year."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -568,6 +592,10 @@
           {
             "label": "CHEK News: all Vancouver Island candidates for the 2026 election",
             "url": "https://cheknews.ca/all-vancouver-island-candidates-for-the-2026-b-c-election-1351308/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -645,6 +673,6 @@
         ]
       }
     },
-    "scoring_rationale": "No party has a 2026 commitment on the Nanaimo tower, so the question scores the seniors' care and hospital capacity approaches each party has published. a = NDP (4): restart the seven, Oak Bay Lodge, scanners, continued Nanaimo planning; CentreBC 3 (restarts the same seven and keeps care public, with its own design and targets); Green 2 (public expansion, no project pledge); Conservative 1 (builds the shelved beds through portable funding and non-government providers); OneBC 0. b = Conservative (4); OneBC 3 (private providers welcome, no portable funding or rural fund pledge); CentreBC 2 (rural fund overlaps, rejects non-government portable funding); NDP 1 (rural incentives only); Green 0. c = CentreBC (4); NDP 3 (same projects and public delivery, no stuck-patient target or accountability law); Conservative 2 (faster builds and a rural fund overlap; rejects public-only); Green 2 (public delivery overlaps); OneBC 1. d = Green (4); NDP 2 and CentreBC 2 (team clinics and public delivery, no ratios or single authority); Conservative 0; OneBC 0. e = OneBC (4), inferred from its private-care stance; Conservative 2 (non-government providers, public funding); others 0. The Interior's long-term care question uses the same party mapping with Okanagan projects; no voter sees both."
+    "scoring_rationale": "No party has a 2026 commitment on the Nanaimo tower, so the question scores the seniors' care and hospital capacity approaches each party has published. a = NDP (4): restart the seven, Oak Bay Lodge, scanners, continued Nanaimo planning; CentreBC 3 (restarts the same seven and keeps care public, with its own design and targets); Green 2 (public expansion, no project pledge); Conservative 1 (builds the shelved beds through portable funding and non-government providers); OneBC 0. b = Conservative (4); OneBC 3 (private providers welcome, no portable funding or rural fund pledge); CentreBC 2 (rural fund overlaps, rejects non-government portable funding); NDP 1 (rural incentives only); Green 0. c = CentreBC (4); NDP 3 (same projects and public delivery, no stuck-patient target or accountability law); Conservative 3 (its October 18 platform restarts the same seven homes on a cheaper design and has a rural fund; rejects public-only delivery and has no stuck-patient target; score changed Oct 18 after the Conservative platform); Green 2 (public delivery overlaps); OneBC 1. d = Green (4); NDP 2 and CentreBC 2 (team clinics and public delivery, no ratios or single authority); Conservative 0; OneBC 0. e = OneBC (4), inferred from its private-care stance; Conservative 2 (non-government providers, public funding); others 0. The Interior's long-term care question uses the same party mapping with Okanagan projects; no voter sees both."
   }
 ]

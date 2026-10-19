@@ -118,8 +118,8 @@
       "conservative": {
         "text": {
           "1": "This party would buy water bombers, fund fire-spotting technology, and log more forest near towns.",
-          "3": "The Conservatives' October 2 plan would buy firefighting aircraft including water bombers, reduce forest fuels around communities, make prescribed burns easier, let qualified crews deploy faster, and create a detection-technology fund. News reports put the aircraft at $400 million and the fund at $100 million; the release gives no figures. News reports say the plan would largely pay for itself, through sales of timber logged near communities and by renting the planes to other jurisdictions.",
-          "5": "'Fighting Wildfires, Protecting Communities' (October 2, 2026): implement a Protect Communities from Wildfire Action Plan immediately, buy aircraft including water bombers, reduce fuels around communities, easier prescribed fire without lowering safety standards, faster deployment of qualified resources, a dedicated early-detection fund, a wildfire cabinet committee chaired by the leader. AM 1150 reports $400 million for aircraft and a $100 million fund; Today in BC reports more logging in high-risk areas with sale revenue funding prevention and 'more predictable FireSmart funding'. Today in BC reported the plan would largely pay for itself; the Canadian Press reported the province could help pay for the planes by renting them to other jurisdictions."
+          "3": "The Conservatives' October 2 plan would buy firefighting aircraft including water bombers, reduce forest fuels around communities, make prescribed burns easier, let qualified crews deploy faster, and create a detection-technology fund. Its October 18 platform confirms $400 million for aircraft and a $100 million detection and innovation fund. News reports say the plan would largely pay for itself, through sales of timber logged near communities and by renting the planes to other jurisdictions.",
+          "5": "'Fighting Wildfires, Protecting Communities' (October 2, 2026): implement a Protect Communities from Wildfire Action Plan immediately, buy aircraft including water bombers, reduce fuels around communities, easier prescribed fire without lowering safety standards, faster deployment of qualified resources, a dedicated early-detection fund, a wildfire cabinet committee chaired by the leader. AM 1150 reports $400 million for aircraft and a $100 million fund; Today in BC reports more logging in high-risk areas with sale revenue funding prevention and 'more predictable FireSmart funding'. Today in BC reported the plan would largely pay for itself; the Canadian Press reported the province could help pay for the planes by renting them to other jurisdictions. Its October 18 platform confirms $400 million for a provincial aircraft fleet (to be leased to Southern Hemisphere fire services outside BC's season) and a $100 million Wildfire Innovation Fund over four years, budgets for wildfire 'at what it costs', and adds a Community Protection Forestry timber pool and 'predictable FireSmart funding for municipalities'."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -143,6 +143,10 @@
           {
             "label": "CFJC Today (Canadian Press): Doerkson promises to buy firefighting water bombers (Oct 2, 2026)",
             "url": "https://cfjctoday.com/2026/10/02/b-c-conservative-interim-leader-doerkson-promises-to-buy-firefighting-water-bombers/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -339,8 +343,8 @@
       "conservative": {
         "text": {
           "1": "This party would put more police downtown, let police send very sick people into treatment, and end free drugs.",
-          "3": "'Safe Streets for BC' (October 6) puts more police in the hardest-hit neighbourhoods (250 new officers, 500 RCMP over five years), amends the Mental Health Act so officers can connect people with mandatory treatment, offers 'compassionate intervention' for severe addiction, ends safe supply and expands residential treatment. No stated position on closing the Kelowna site.",
-          "5": "Safe Streets for BC (October 6, 2026): more police in the hardest-hit neighbourhoods; 250 officers through an expanded Justice Institute academy; 500 RCMP and 150 civilian staff over five years for rural and regional areas; 50 Crown prosecutors; Mental Health Act amendment so police can connect people to involuntary treatment; compassionate intervention for severe addiction, mental illness or brain injury; end safe supply; expand psychiatric and residential treatment. In Kelowna on October 2 Doerkson backed 'supports, housing, wraparound services' without specifics and took no position on the consumption site."
+          "3": "'Safe Streets for BC' (October 6) puts more police in the hardest-hit neighbourhoods (250 new officers, 500 RCMP over five years), amends the Mental Health Act so officers can connect people with mandatory treatment, offers 'compassionate intervention' for severe addiction, ends safe supply and expands residential treatment. Its October 18 platform would review supervised sites with local communities to have fewer, better placed ones, and stop 'forcing' such sites on communities; it does not name the Kelowna site.",
+          "5": "Safe Streets for BC (October 6, 2026): more police in the hardest-hit neighbourhoods; 250 officers through an expanded Justice Institute academy; 500 RCMP and 150 civilian staff over five years for rural and regional areas; 50 Crown prosecutors; Mental Health Act amendment so police can connect people to involuntary treatment; compassionate intervention for severe addiction, mental illness or brain injury; end safe supply; expand psychiatric and residential treatment. In Kelowna on October 2 Doerkson backed 'supports, housing, wraparound services' without specifics and took no position on the consumption site. Its October 18 platform would review overdose prevention and consumption sites 'in consultation with local communities, with the goal of fewer and better-situated options', and 'stop forcing drug-friendly facilities on communities'."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -352,6 +356,10 @@
           {
             "label": "Global News: NDP and Conservative leaders campaign in the Okanagan (Oct 2, 2026)",
             "url": "https://globalnews.ca/news/12086166/bc-ndp-conservative-leaders-campaign-okanagan/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -417,7 +425,7 @@
         ]
       }
     },
-    "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 search for a regional site that can be used immediately, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, makes no involuntary care pledge); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment, silent on closing sites); CentreBC 1 (asks Ottawa to charge public and repeat possession); NDP 0; Green 0."
+    "scoring_rationale": "This question scores the provincial response to Kelowna's two requests (a regional involuntary care site and the downtown consumption site), not drug policy in general, which the province-wide question covers. a = NDP (4): Eby's October 2 search for a regional site that can be used immediately, keeping well-run consumption sites and expanding the repeat-offender program; Conservative 2 and CentreBC 2 (both support involuntary care and more enforcement but neither defends consumption sites); Green 1 (keeps the sites, makes no involuntary care pledge); OneBC 0. b = Conservative (4); OneBC 3 (ends safe supply and backs involuntary care, goes further on closing sites); CentreBC 2 (more RCMP and a police steer option, but voluntary-first); NDP 1 (expands police programs, no Mental Health Act amendment); Green 0. c = CentreBC (4); Conservative 3 (treatment beds, police and municipal rules overlap; opposes voluntary-first); NDP 2 (supports treatment expansion and repeat-offender work, no downtown fund); Green 1; OneBC 1. d = Green (4); NDP 1 (keeps sites but ended decriminalization and backs involuntary care); CentreBC 1; Conservative 0; OneBC 0. e = OneBC (4); Conservative 2 (ends safe supply and backs mandatory treatment; would cut sites to fewer, better-situated ones rather than convert them all); CentreBC 1 (asks Ottawa to charge public and repeat possession); NDP 0; Green 0."
   },
   {
     "id": "q_local_interior_ltc",
@@ -466,7 +474,7 @@
         },
         "scores": {
           "ndp": 3,
-          "conservative": 2,
+          "conservative": 3,
           "green": 2,
           "centrebc": 4,
           "onebc": 1
@@ -559,8 +567,8 @@
       "conservative": {
         "text": {
           "1": "This party would let the money follow each senior to any approved home, public or private, and cut building rules.",
-          "3": "On October 9 the Conservatives promised to build long-term care beds faster by cutting design rules they call unnecessary, and to give seniors waiting for a bed portable public funding usable at any qualified provider, including non-government ones with performance safeguards. They cite 7,200 people waiting. No bed count, dollar figure or timeline.",
-          "5": "'Conservatives will build the long-term care beds the NDP shelved' (October 9, 2026, North Vancouver): build more beds faster; work with providers, residents, families and builders to cut unnecessary design rules while protecting safety; portable public funding for waiting seniors to choose among qualified providers including non-government operators with performance safeguards. Claims: 7,200 waiting, design rules pushed some beds to $1.8 million, seven projects deferred. No bed count, dollar figure, timeline or Vernon statement; the party also pledges to keep the 2026 health budget."
+          "3": "On October 9 the Conservatives promised to build long-term care beds faster by cutting design rules they call unnecessary, and to give seniors waiting for a bed portable public funding usable at any qualified provider, including non-government ones with performance safeguards. They cite 7,200 people waiting. Their October 18 platform would restart the seven shelved homes on a cheaper design ($1.43 billion). No bed count or timeline.",
+          "5": "'Conservatives will build the long-term care beds the NDP shelved' (October 9, 2026, North Vancouver): build more beds faster; work with providers, residents, families and builders to cut unnecessary design rules while protecting safety; portable public funding for waiting seniors to choose among qualified providers including non-government operators with performance safeguards. Claims: 7,200 waiting, design rules pushed some beds to $1.8 million, seven projects deferred. Its October 18 platform would restart the seven homes, 'redesigned to cost less per bed' ($1.43 billion at current estimates), and costs its seniors measures at $350 million a year. No bed count, timeline or Vernon statement; the party also pledges to keep the 2026 health budget."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -572,6 +580,10 @@
           {
             "label": "Conservative Party of BC: Keep emergency rooms open, health spending kept (Oct 5, 2026)",
             "url": "https://conservativebc.ca/keep-emergency-rooms-open/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -641,6 +653,6 @@
         ]
       }
     },
-    "scoring_rationale": "a = NDP (4): resume the seven as public projects with federal money on a cheaper model; CentreBC 3 (restarts the same seven, with its own design and targets); Green 3 (public expansion, no specific project pledge); Conservative 1 (would build the shelved beds but through portable funding and non-government providers); OneBC 0. b = CentreBC (4); NDP 3 (same projects, no prefabrication pledge or bed targets); Conservative 2 (faster building and fewer design rules overlap; rejects public-only delivery); Green 2 (public delivery overlaps; no targets); OneBC 1. c = Conservative (4); OneBC 3 (private providers welcome, no portable funding pledge); CentreBC 2 (cuts build cost with prefabrication but keeps care public); NDP 1 (cheaper design only); Green 0. d = Green (4); NDP 3 (public projects and expansion, but no pledge to keep every public health dollar in public care; for-profit operators already run many homes); CentreBC 2 (public, no private pay, but no ratio or agency pledge); Conservative 0; OneBC 0. e = OneBC (4), inferred from its private-care stance; Conservative 2 (non-government providers and a review of other systems, but public funding); others 0. The Island question on seniors' care uses the same party mapping with Island projects; the two regions never see each other's question."
+    "scoring_rationale": "a = NDP (4): resume the seven as public projects with federal money on a cheaper model; CentreBC 3 (restarts the same seven, with its own design and targets); Green 3 (public expansion, no specific project pledge); Conservative 1 (would build the shelved beds but through portable funding and non-government providers); OneBC 0. b = CentreBC (4); NDP 3 (same projects, no prefabrication pledge or bed targets); Conservative 3 (its October 18 platform restarts all seven homes on a cheaper design, as this option does; rejects public-only delivery and sets no bed targets; score changed Oct 18 after the Conservative platform); Green 2 (public delivery overlaps; no targets); OneBC 1. c = Conservative (4); OneBC 3 (private providers welcome, no portable funding pledge); CentreBC 2 (cuts build cost with prefabrication but keeps care public); NDP 1 (cheaper design only); Green 0. d = Green (4); NDP 3 (public projects and expansion, but no pledge to keep every public health dollar in public care; for-profit operators already run many homes); CentreBC 2 (public, no private pay, but no ratio or agency pledge); Conservative 0; OneBC 0. e = OneBC (4), inferred from its private-care stance; Conservative 2 (non-government providers and a review of other systems, but public funding); others 0. The Island question on seniors' care uses the same party mapping with Island projects; the two regions never see each other's question."
   }
 ]

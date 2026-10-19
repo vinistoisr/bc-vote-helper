@@ -138,8 +138,8 @@
       "conservative": {
         "text": {
           "1": "This party wants many more police officers across BC and special investigators for threats against businesses.",
-          "3": "The Conservatives' province-wide plan adds nearly 1,000 police, prosecutors and court staff and targets the hardest-hit neighbourhoods. On October 13 it added an anti-extortion plan with dedicated investigators and help for threatened businesses and families. It does not mention the Surrey Police Service. At its Surrey candidate launch the party criticized the NDP on extortion.",
-          "5": "The Safe Streets for BC plan (October 6, 2026) has no extortion item; an October 13, 2026 release added an Anti-Extortion Action Plan with specialized investigators dedicated to extortion cases and reporting and protection pathways for threatened businesses and families, with no published cost. The party's September 29 Surrey candidate release said small business owners face 'a wave of extortion and violence that has left many afraid to open their doors'. It has no position on the Surrey Police Service. BC Liberal members, including Doerkson, voted against Bill 36. Candidate Purewal has published only party themes."
+          "3": "The Conservatives' province-wide plan adds nearly 1,000 police, prosecutors and court staff and targets the hardest-hit neighbourhoods. On October 13 it added an anti-extortion plan with dedicated investigators and help for threatened businesses and families. It does not mention the Surrey Police Service. At its Surrey candidate launch the party criticized the NDP on extortion. Its October 18 platform puts the safety plan at $178 million a year.",
+          "5": "The Safe Streets for BC plan (October 6, 2026) has no extortion item; an October 13, 2026 release added an Anti-Extortion Action Plan with specialized investigators dedicated to extortion cases and reporting and protection pathways for threatened businesses and families; the October 18 platform includes it in public safety spending of $178 million a year. The party's September 29 Surrey candidate release said small business owners face 'a wave of extortion and violence that has left many afraid to open their doors'. It has no position on the Surrey Police Service. BC Liberal members, including Doerkson, voted against Bill 36. Candidate Purewal has published only party themes."
         },
         "basis": "platform",
         "confidence": "medium",
@@ -159,6 +159,10 @@
           {
             "label": "Conservative Party of BC: Garry Purewal candidate page",
             "url": "https://conservativebc.ca/candidate/garry-purewal/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },

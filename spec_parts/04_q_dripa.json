@@ -38,11 +38,11 @@
       {
         "id": "b",
         "text": {
-          "1": "End the law, but keep partnering with First Nations on projects and jobs.",
-          "2": "Cancel the law, but keep making project deals with First Nations that create jobs.",
-          "3": "Repeal the law and rely instead on project partnerships with First Nations, with no new law to replace it.",
-          "4": "Repeal DRIPA, pursue economic reconciliation through project partnerships with First Nations, and pass no replacement law.",
-          "5": "Repeal DRIPA and pursue economic reconciliation by building projects with First Nations, with no replacement law, while section 35 duties continue."
+          "1": "End the law, protect people's land titles, and partner with First Nations on projects and jobs.",
+          "2": "Cancel the law, protect private land titles in law, publish land claims early, and make project deals with First Nations.",
+          "3": "Repeal the law and a related rule on how other laws are read, protect private land titles in law, publish title claims and deals before they bind, and rely on project partnerships with First Nations.",
+          "4": "Repeal DRIPA and section 8.1 of the Interpretation Act, pass laws protecting fee-simple titles and publishing title claims and agreements before they bind, and pursue economic reconciliation through project partnerships.",
+          "5": "Repeal DRIPA and section 8.1 of the Interpretation Act, pass a Property Rights Defence Act and an Aboriginal Title Transparency Act that publishes claims and agreements before they bind, and pursue economic reconciliation through projects with First Nations under section 35."
         },
         "scores": {
           "ndp": 0,
@@ -154,9 +154,9 @@
       },
       "conservative": {
         "text": {
-          "1": "This party wants to end the law and work with First Nations on business projects instead.",
-          "3": "Interim leader Lorne Doerkson says, 'I will repeal DRIPA.' The party says it wants to build projects with First Nations instead and names no replacement law. Its members voted in 2025 and 2026 to introduce bills repealing the law; both failed. Many of them were BC Liberals who voted for the law in 2019.",
-          "5": "The Conservative plan page 'Repeal DRIPA, Promote Economic Reconciliation' (October 7) promises repeal, and Doerkson says he wants to build projects 'together with First Nations'. It names no replacement law and takes no position on section 7 agreements or private property. Its MLAs, including Rustad, Doerkson and Halford, voted for first reading of independent MLA Jordan Kealy's DRIPA repeal bill (lost 43 to 48, November 2025) and Halford's own repeal bill (lost 44 to 47, April 2026). In 2019 Rustad and other BC Liberals voted for Bill 41, which passed 82 to 0; Rustad says he had 'no choice'. He also pledged repeal in 2024."
+          "1": "This party wants to end the law, protect people's land titles, and work with First Nations on business projects.",
+          "3": "The Conservatives' platform would repeal DRIPA and a related rule in the Interpretation Act, pass a law protecting private land titles and another publishing title claims and deals before they bind, and build projects with First Nations. Its members voted in 2025 and 2026 to introduce bills repealing the law; both failed. Many of them were BC Liberals who voted for the law in 2019.",
+          "5": "The Conservatives' October 18 platform would repeal DRIPA, section 8.1 of the Interpretation Act and the NDP's litigation directives, and 'restore the section 35 constitutional framework'. It adds a Property Rights Defence Act upholding the Land Title Act on all fee-simple land, an Aboriginal Title Transparency Act publishing claims, negotiations and agreements 'before they become binding', and guaranteed public access to Crown land, beaches and backcountry. It promises revenue sharing and ownership in projects with First Nations. It names no treaty law or homeowner compensation. Its MLAs, including Rustad, Doerkson and Halford, voted for first reading of independent MLA Jordan Kealy's DRIPA repeal bill (lost 43 to 48, November 2025) and Halford's own repeal bill (lost 44 to 47, April 2026). In 2019 Rustad and other BC Liberals voted for Bill 41, which passed 82 to 0; Rustad says he had 'no choice'. He also pledged repeal in 2024."
         },
         "basis": "both",
         "confidence": "high",
@@ -188,6 +188,10 @@
           {
             "label": "CHEK News: Rustad pledges to repeal DRIPA (Jun 9, 2024)",
             "url": "https://www.cheknews.ca/bc-conservatives-want-to-repeal-the-provinces-commitment-to-undrip-1208019/"
+          },
+          {
+            "label": "Conservative Party of BC: A Plan for a Stronger BC, 2026 platform and costing (Oct 18, 2026)",
+            "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-17_compressed.pdf"
           }
         ]
       },
@@ -297,6 +301,6 @@
         ]
       }
     },
-    "scoring_rationale": "Four repeal-or-not positions plus a strengthen option. a = OneBC (4); Conservatives 2: they share repeal but have not endorsed declaring UNDRIP void, ending transfers or Indian Act repeal, and their first-reading yea on the property-rights bill is treated as procedural, the same rule applied to first-reading votes everywhere in this bank, including their yea votes on the November 2025 and April 2026 DRIPA repeal bills, which are consistent with their repeal score on b; CentreBC 1 (also repeals DRIPA and s. 8.1, but keeps UNDRIP as a guide and funds more treaties, the opposite of a transfer moratorium). b = Conservative (4); OneBC 3 (repeal, but it opposes voluntary transfers that partnerships may involve); CentreBC 3 (repeal plus economic reconciliation and equity financing, but with a replacement statute and treaty funding the Conservatives have not proposed). c = NDP (4), scored on its stated post-Gitxaala intent and April record rather than on the 2019 law; CentreBC 2 (shares the aim of taking courts out of alignment, but by repeal rather than amendment); Conservative 1 and Green 1 (both reject amendment as the answer, from opposite directions). d = CentreBC's platform (4): repeal and replace with a treaty-based law, homeowner compensation, publication rules; Conservative 3 (repeal and economic reconciliation overlap, no replacement law or compensation scheme); OneBC 2 (repeal and s. 8.1 match, private-land protection, but it opposes the treaty transfers the law would fund); NDP 1 (continues treaty talks and wants courts out of alignment, rejects repeal); Green 0. e = Green (4); NDP 1 (it built the consent-agreement practice but is moving the other way); CentreBC 0 (repeal is the opposite of strengthening). Option d was rewritten on October 10 when CentreBC reversed its August 'no repeal' stance, so every party was re-scored on it (NDP 2 to 1, Conservative 0 to 3, Green 2 to 0, OneBC 0 to 2). Confidence: NDP medium because the amendment text does not exist; CentreBC high (platform text)."
+    "scoring_rationale": "Four repeal-or-not positions plus a strengthen option. a = OneBC (4); Conservatives 2: they share repeal and, since October 18, repeal of section 8.1, but have not endorsed declaring UNDRIP void, ending transfers or Indian Act repeal, and their first-reading yea on the property-rights bill is treated as procedural, the same rule applied to first-reading votes everywhere in this bank, including their yea votes on the November 2025 and April 2026 DRIPA repeal bills, which are consistent with their repeal score on b; CentreBC 1 (also repeals DRIPA and s. 8.1, but keeps UNDRIP as a guide and funds more treaties, the opposite of a transfer moratorium). b = Conservative (4); OneBC 3 (repeal, but it opposes voluntary transfers that partnerships may involve); CentreBC 3 (repeal plus economic reconciliation and equity financing, but with a replacement statute and treaty funding the Conservatives have not proposed). c = NDP (4), scored on its stated post-Gitxaala intent and April record rather than on the 2019 law; CentreBC 2 (shares the aim of taking courts out of alignment, but by repeal rather than amendment); Conservative 1 and Green 1 (both reject amendment as the answer, from opposite directions). d = CentreBC's platform (4): repeal and replace with a treaty-based law, homeowner compensation, publication rules; Conservative 3 (repeal of DRIPA and section 8.1 and publication before signing overlap; no treaty law or compensation scheme); OneBC 2 (repeal and s. 8.1 match, private-land protection, but it opposes the treaty transfers the law would fund); NDP 1 (continues treaty talks and wants courts out of alignment, rejects repeal); Green 0. e = Green (4); NDP 1 (it built the consent-agreement practice but is moving the other way); CentreBC 0 (repeal is the opposite of strengthening). Option d was rewritten on October 10 when CentreBC reversed its August 'no repeal' stance, so every party was re-scored on it (NDP 2 to 1, Conservative 0 to 3, Green 2 to 0, OneBC 0 to 2). Confidence: NDP medium because the amendment text does not exist; CentreBC high (platform text). Option b was rewritten on October 18 to the Conservative platform (section 8.1 repeal, property rights and title transparency laws); other parties' scores on it were kept."
   }
 ]
