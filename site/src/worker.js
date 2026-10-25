@@ -230,9 +230,22 @@ async function liveTotals(request, env, ctx) {
     const ids = liveTops(safeParse(r.answers) || {}, ride ? ride.region : null);
     if (ids.length) tops.push(ids);
   }
-  const scored = Math.floor(tops.length / LIVE_STEP) * LIVE_STEP;
+  /* Completed blocks are frozen in live_blocks the first time they fill up; only new whole blocks are added. */
+  const saved = (await env.DB.prepare("SELECT block, totals FROM live_blocks ORDER BY block").all()).results;
+  const add = [];
+  for (let k = saved.length; (k + 1) * LIVE_STEP <= tops.length; k++) {
+    const t = {};
+    for (const ids of tops.slice(k * LIVE_STEP, (k + 1) * LIVE_STEP)) for (const p of ids) t[p] = (t[p] || 0) + 1 / ids.length;
+    add.push({ block: k, totals: JSON.stringify(t) });
+  }
+  if (add.length) {
+    const now = new Date().toISOString();
+    await env.DB.batch(add.map((x) => env.DB.prepare("INSERT OR IGNORE INTO live_blocks (block, totals, created_at) VALUES (?1, ?2, ?3)").bind(x.block, x.totals, now)));
+  }
   const best = {};
-  for (const ids of tops.slice(0, scored)) for (const p of ids) best[p] = (best[p] || 0) + 1 / ids.length;
+  const blocks = saved.map((r) => safeParse(r.totals) || {}).concat(add.map((x) => JSON.parse(x.totals)));
+  for (const t of blocks) for (const [p, v] of Object.entries(t)) best[p] = (best[p] || 0) + v;
+  const scored = blocks.length * LIVE_STEP;
   const pct = (o, n) => Object.fromEntries(Object.entries(o).map(([k, v]) => [k, n ? Math.round((1000 * v) / n) / 10 : 0]));
   const body = {
     since, updated: new Date().toISOString(),
