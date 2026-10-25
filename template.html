@@ -187,6 +187,13 @@ button, input, select { font: inherit; color: inherit; }
 .mast.compact .lang-chip select { height: 33px; }
 /* One line under the masthead in translated views */
 .lang-note-bar { background: var(--surface); border-bottom: 1px solid var(--line); }
+/* After election day: the quiz stays up, the results page is the news */
+.over-bar { background: var(--ink); color: var(--on-ink); }
+.over-note { padding-block: 12px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; font-size: var(--t-s); }
+.over-note b { font-family: var(--f-display); font-weight: 800; font-size: var(--t-m); display: block; }
+.over-note a { color: var(--ink); background: var(--on-ink); font-weight: 700; text-decoration: none; padding: 9px 16px; border-radius: 8px; min-height: 44px; display: inline-flex; align-items: center; }
+.over-note a:hover { text-decoration: underline; text-underline-offset: .18em; }
+.over-note a:focus-visible { outline: 2px solid var(--on-ink); outline-offset: 3px; }
 .lang-note { padding-block: 8px; font-size: var(--t-s); color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
 .lang-note .linkbtn { color: var(--ink); min-height: 32px; }
 @media (max-width: 480px) {
@@ -886,6 +893,10 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   </header>
 </div>
 
+<div class="page over-bar" id="over-note">
+  <div class="wrap over-note"><p><b data-t="over_title">The election is over.</b><span data-t="over_body">Voting ended on October 24, 2026. The quiz still works below.</span></p><a href="/results/" data-t="over_link">See how over 10,000 people answered</a></div>
+</div>
+
 <div class="page lang-note-bar" id="lang-note" hidden>
   <p class="wrap lang-note"><span id="lang-note-text"></span><button type="button" class="linkbtn" id="lang-note-en"></button></p>
 </div>
@@ -1480,8 +1491,27 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     for (var k = 0; k < 4; k++) a.push((newSeed() >>> 0).toString(16).padStart(8, "0"));
     return a.join("");
   }
+  /* Where the visitor came from, as a category only (never the address). Worked out once on landing. */
+  var SOURCES = ["reddit", "facebook", "instagram", "x", "search", "classroom", "linkedin", "bluesky", "github", "email", "direct", "other"];
+  function landingSource() {
+    var host = "";
+    try { host = document.referrer ? new URL(document.referrer).hostname.toLowerCase() : ""; } catch (e) { host = ""; }
+    if (!host) return "direct";
+    if (host === location.hostname) return null;
+    if (/(^|\.)reddit\.com$|reddit\.frontpage/.test(host)) return "reddit";
+    if (/(^|\.)instagram\.com$/.test(host)) return "instagram";
+    if (/(^|\.)facebook\.com$|(^|\.)fb\.com$|messenger\.com$/.test(host)) return "facebook";
+    if (/^t\.co$|(^|\.)twitter\.com$|(^|\.)x\.com$/.test(host)) return "x";
+    if (/^classroom\.google\.com$|brightspace|d2l|moodle|canvas|\.edu\.cloud\.microsoft$|^teams\.|teams\.microsoft/.test(host)) return "classroom";
+    if (/(^|\.)google\.[a-z.]+$|googlequicksearchbox|(^|\.)bing\.com$|(^|\.)ecosia\.org$|duckduckgo\.com$|(^|\.)yahoo\.com$|(^|\.)brave\.com$/.test(host)) return "search";
+    if (/linkedin/.test(host)) return "linkedin";
+    if (/bsky\.app$/.test(host)) return "bluesky";
+    if (/(^|\.)github\.com$/.test(host)) return "github";
+    if (/^mail\.|android\.gm$|outlook\.|mail\.yahoo/.test(host)) return "email";
+    return "other";
+  }
   function freshState() {
-    return { v: 1, phase: "setup", count: 1, people: [makePerson(), makePerson(), makePerson(), makePerson()], cur: 0, qi: 0, resultsLevel: null, finishedAt: null, sid: newSid(), share: true, sentKey: null, mode: "solo", groupLevel: null, riding: null, ridingSkip: false };
+    return { v: 1, phase: "setup", count: 1, people: [makePerson(), makePerson(), makePerson(), makePerson()], cur: 0, qi: 0, resultsLevel: null, finishedAt: null, sid: newSid(), share: true, sentKey: null, mode: "solo", groupLevel: null, riding: null, ridingSkip: false, source: landingSource(), completeSent: false };
   }
   function sanitizeState(s) {
     if (!s || typeof s !== "object" || s.v !== 1 || !Array.isArray(s.people)) return null;
@@ -1499,6 +1529,10 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     if (typeof s.sid === "string" && /^[0-9a-f]{32}$/.test(s.sid)) out.sid = s.sid;
     out.share = s.share !== false;
     out.sentKey = typeof s.sentKey === "string" ? s.sentKey : null;
+    /* Keep the first landing source; a returning visitor from an outside link gets that link's source instead */
+    var landed = landingSource();
+    out.source = landed && landed !== "direct" ? landed : (SOURCES.indexOf(s.source) >= 0 ? s.source : landed);
+    out.completeSent = s.completeSent === true;
     out.mode = s.mode === "together" ? "together" : "solo";
     out.groupLevel = s.groupLevel >= 1 && s.groupLevel <= 5 ? Math.round(s.groupLevel) : null;
     /* Together needs 2+ people; a stray "together" phase falls back to the start screen */
@@ -1774,6 +1808,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
     var da = Math.round((adv - today) / 86400000);
     var de = Math.round((advEnd - today) / 86400000);
     function days(n) { return tn("cd_days", n); }
+    if (now >= new Date("2026-10-25T03:00:00Z")) { c.textContent = t("cd_past"); return; }
     if (dd > 0) c.textContent = da > 0 ? t("cd_before_advance", { adv: days(da), day: days(dd) }) : de >= 0 ? t("cd_advance_open", { day: days(dd) }) : t("cd_advance_closed", { day: days(dd) });
     else if (dd === 0) c.textContent = t("cd_today");
     else c.textContent = t("cd_past");
@@ -3754,7 +3789,16 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
   /* ------------------------------------------------------------------ */
   /* Anonymous totals (website only, opt-out on the start screen)        */
   /* ------------------------------------------------------------------ */
+  /* Count of finished quizzes, sent once per session whether or not the share box is ticked: number of people, language and source only */
+  function submitCompletion() {
+    if (!COLLECT || S.completeSent) return;
+    try {
+      fetch("/api/complete", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ v: 1, count: S.count, lang: LANG, source: S.source || null }), keepalive: true })
+        .then(function (r) { if (r.ok) { S.completeSent = true; save(); } }, function () { /* offline: the count is optional */ });
+    } catch (e) { /* fetch unavailable */ }
+  }
   function submitResponses() {
+    submitCompletion();
     if (!COLLECT || !S.share) return;
     var people = [];
     for (var i = 0; i < S.count; i++) {
@@ -3765,7 +3809,7 @@ footer.foot { border-top: 1px solid var(--line); padding-block: 22px 40px; color
       });
       people.push({ level: p.level, answers: ans });
     }
-    var body = JSON.stringify({ v: 1, sid: S.sid, data_as_of: SPEC.meta.data_as_of, count: S.count, riding: S.riding || null, lang: LANG, people: people });
+    var body = JSON.stringify({ v: 1, sid: S.sid, data_as_of: SPEC.meta.data_as_of, count: S.count, riding: S.riding || null, lang: LANG, source: S.source || null, people: people });
     var key = String(hashStr(body));
     if (S.sentKey === key) return;
     try {

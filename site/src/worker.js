@@ -20,6 +20,9 @@ const IMPORTANCE = new Set(["low", "medium", "high"]);
 /* Page languages (template.html LANGS); anything else is rejected */
 const LANGS = new Set(["en", "pa", "zh-Hans", "zh-Hant", "tl", "fr", "ru", "ko", "fa"]);
 const MAX_BODY = 24 * 1024;
+/* Traffic source categories, worked out in the browser from where the visitor landed from. Never a raw hostname. */
+const SOURCES = new Set(["reddit", "facebook", "instagram", "x", "search", "classroom", "linkedin", "bluesky", "github", "email", "direct", "other"]);
+function cleanSource(v) { return typeof v === "string" && SOURCES.has(v) ? v : null; }
 const RIDING_RE = /^[A-Z]{3}$/;
 const POSTAL_RE = /^[A-Z]\d[A-Z]\d[A-Z]\d$/;
 const REPRESENT = "https://represent.opennorth.ca";
@@ -64,6 +67,11 @@ export default {
         return withHeaders(await env.ASSETS.fetch(request), { "Cache-Control": "public, max-age=86400" });
       }
 
+      /* BC Election Act s.233.1(2): no new survey results on voting day before polls close */
+      if (isResults(path) && Date.now() < RESULTS_AT) {
+        return text("Results are posted after polls close at 8 PM Pacific on October 24, 2026.", 404, { "Cache-Control": "no-store" });
+      }
+
       if (!countryAllowed(request, env) && !openOutsideCanada(request, path)) {
         if (isPreviewBot(request) && !path.startsWith("/api/") && (request.method === "GET" || request.method === "HEAD")) {
           return await previewStub(request, env);
@@ -74,6 +82,10 @@ export default {
       if (path === "/api/response") {
         if (request.method !== "POST") return text("Method not allowed", 405, { Allow: "POST" });
         return await saveResponse(request, env);
+      }
+      if (path === "/api/complete") {
+        if (request.method !== "POST") return text("Method not allowed", 405, { Allow: "POST" });
+        return await saveCompletion(request, env);
       }
       if (path === "/api/riding") {
         if (request.method !== "GET") return text("Method not allowed", 405, { Allow: "GET" });
@@ -127,8 +139,14 @@ const OPEN_FILES = new Set(["/robots.txt", "/sitemap.xml", "/llms.txt", "/7c1e4b
 function openOutsideCanada(request, path) {
   if (request.method !== "GET" && request.method !== "HEAD") return false;
   if (path.startsWith("/api/")) return false;
-  if (OPEN_FILES.has(path) || path === "/about" || path.startsWith("/about/") || path === "/ridings" || path.startsWith("/ridings/") || path.startsWith("/fonts/")) return true;
+  if (OPEN_FILES.has(path) || path === "/about" || path.startsWith("/about/") || path === "/ridings" || path.startsWith("/ridings/") || path.startsWith("/fonts/") || isResults(path)) return true;
   return SEARCH_BOTS.test(request.headers.get("User-Agent") || "");
+}
+
+/* The public results page (totals only) opens to everyone once polls close: 8 PM Pacific, October 24, 2026 */
+const RESULTS_AT = Date.parse("2026-10-25T03:00:00Z");
+function isResults(path) {
+  return path === "/results" || path.startsWith("/results/");
 }
 
 /* Link-preview crawlers (mostly outside Canada) get the page's title, description and image only */
@@ -234,10 +252,11 @@ async function saveResponse(request, env) {
   const stmts = [
     env.DB.prepare(
       /* lang needs migrate_i18n.sql. Without that column this insert fails (500 and an error log), on purpose: run the migration first. */
-      `INSERT INTO submissions (sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding, lang)
-       VALUES (?1, ?2, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10)
-       ON CONFLICT(sid) DO UPDATE SET updated_at = ?2, count = ?3, data_as_of = ?8, riding = ?9, lang = ?10`
-    ).bind(clean.sid, now, clean.count, str(cf.country, 2), str(cf.region, 64), str(cf.regionCode, 8), str(cf.city, 64), clean.data_as_of, clean.riding, clean.lang),
+      /* source needs migrate_source.sql, same rule as lang */
+      `INSERT INTO submissions (sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding, lang, source)
+       VALUES (?1, ?2, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11)
+       ON CONFLICT(sid) DO UPDATE SET updated_at = ?2, count = ?3, data_as_of = ?8, riding = ?9, lang = ?10, source = COALESCE(submissions.source, ?11)`
+    ).bind(clean.sid, now, clean.count, str(cf.country, 2), str(cf.region, 64), str(cf.regionCode, 8), str(cf.city, 64), clean.data_as_of, clean.riding, clean.lang, clean.source),
     env.DB.prepare("DELETE FROM people WHERE sid = ?1").bind(clean.sid),
   ];
   clean.people.forEach((p, idx) => {
@@ -318,7 +337,32 @@ function validate(b) {
     if (typeof b.lang !== "string" || !LANGS.has(b.lang)) return null;
     lang = b.lang;
   }
-  return { sid: b.sid, count, people, data_as_of: asOf, riding, lang };
+  /* Optional traffic source: unknown values are dropped, never rejected, so old and new pages both save */
+  return { sid: b.sid, count, people, data_as_of: asOf, riding, lang, source: cleanSource(b.source) };
+}
+
+/* ------------------------------------------------------------------ */
+/* Public: count a finished quiz (everyone, shared or not)             */
+/* ------------------------------------------------------------------ */
+/* Stores only the time, page language, source category and number of people. No answers, no session id, no location. */
+async function saveCompletion(request, env) {
+  const origin = request.headers.get("Origin");
+  if (origin && origin !== new URL(request.url).origin) return json({ error: "bad_origin" }, 403);
+  if (!(request.headers.get("Content-Type") || "").includes("application/json")) return json({ error: "bad_type" }, 415);
+  if (env.SUBMIT_LIMIT) {
+    const { success } = await env.SUBMIT_LIMIT.limit({ key: rlKey(request) });
+    if (!success) return json({ error: "rate_limited" }, 429);
+  }
+  const raw = await request.text();
+  if (raw.length > 1024) return json({ error: "too_large" }, 413);
+  let b;
+  try { b = JSON.parse(raw); } catch { return json({ error: "bad_json" }, 400); }
+  const count = Number(b && b.count);
+  if (!b || b.v !== 1 || !Number.isInteger(count) || count < 1 || count > 4) return json({ error: "invalid" }, 400);
+  const lang = typeof b.lang === "string" && LANGS.has(b.lang) ? b.lang : null;
+  await env.DB.prepare("INSERT INTO completions (created_at, lang, source, count) VALUES (?1, ?2, ?3, ?4)")
+    .bind(new Date().toISOString(), lang, cleanSource(b.source), count).run();
+  return json({ ok: true });
 }
 
 function validRiding(code) {
@@ -521,9 +565,15 @@ const ADMIN_ROWS = 20000;
 async function adminApi(request, env, path) {
   if (path === "/api/admin/data" && request.method === "GET") {
     const subs = await env.DB.prepare(
-      `SELECT sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding, lang FROM submissions
+      `SELECT sid, created_at, updated_at, count, country, region, region_code, city, data_as_of, riding, lang, source FROM submissions
        ORDER BY created_at DESC LIMIT ${ADMIN_ROWS}`
     ).all();
+    /* Finished quizzes from everyone (shared or not), counted from the day the counter went live */
+    const dayAgo = new Date(Date.now() - 86400000).toISOString();
+    const [compTotal, compBySource] = await env.DB.batch([
+      env.DB.prepare("SELECT COUNT(*) AS sessions, COALESCE(SUM(count), 0) AS people, MIN(created_at) AS since, COALESCE(SUM(CASE WHEN created_at >= ?1 THEN count ELSE 0 END), 0) AS last24 FROM completions").bind(dayAgo),
+      env.DB.prepare("SELECT COALESCE(source, 'unknown') AS source, COALESCE(SUM(count), 0) AS people FROM completions GROUP BY 1 ORDER BY 2 DESC"),
+    ]);
     const people = await env.DB.prepare(
       `SELECT sid, idx, level, answered, answers FROM people
        WHERE sid IN (SELECT sid FROM submissions ORDER BY created_at DESC LIMIT ${ADMIN_ROWS})`
@@ -531,6 +581,7 @@ async function adminApi(request, env, path) {
     return json(
       {
         generated_at: new Date().toISOString(),
+        completions: { ...(compTotal.results[0] || {}), by_source: compBySource.results },
         submissions: subs.results,
         people: people.results.map((r) => ({ sid: r.sid, idx: r.idx, level: r.level, answered: r.answered, answers: safeParse(r.answers) })),
       },
@@ -541,17 +592,17 @@ async function adminApi(request, env, path) {
 
   if (path === "/api/admin/export.csv" && request.method === "GET") {
     const rows = await env.DB.prepare(
-      `SELECT s.sid, s.created_at, s.updated_at, s.count, s.country, s.region_code, s.city, s.data_as_of, s.riding, s.lang, p.idx, p.level, p.answered, p.answers
+      `SELECT s.sid, s.created_at, s.updated_at, s.count, s.country, s.region_code, s.city, s.data_as_of, s.riding, s.lang, s.source, p.idx, p.level, p.answered, p.answers
        FROM people p JOIN (SELECT * FROM submissions ORDER BY created_at DESC LIMIT ${ADMIN_ROWS}) s ON s.sid = p.sid
        ORDER BY s.created_at, p.idx`
     ).all();
     const qids = Object.keys(VALID.questions);
-    const head = ["session", "created_at", "updated_at", "people_in_session", "country", "region", "city", "data_as_of", "riding", "lang", "person", "level", "answered"];
+    const head = ["session", "created_at", "updated_at", "people_in_session", "country", "region", "city", "data_as_of", "riding", "lang", "source", "person", "level", "answered"];
     qids.forEach((q) => head.push(q, q + "_importance"));
     const lines = [head.map(csv).join(",")];
     for (const r of rows.results) {
       const a = safeParse(r.answers) || {};
-      const line = [r.sid, r.created_at, r.updated_at, r.count, r.country, r.region_code, r.city, r.data_as_of, r.riding, r.lang, r.idx + 1, r.level, r.answered];
+      const line = [r.sid, r.created_at, r.updated_at, r.count, r.country, r.region_code, r.city, r.data_as_of, r.riding, r.lang, r.source, r.idx + 1, r.level, r.answered];
       qids.forEach((q) => line.push(a[q] ? a[q].c : "", a[q] ? a[q].w : ""));
       lines.push(line.map(csv).join(","));
     }

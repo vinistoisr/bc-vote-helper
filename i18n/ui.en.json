@@ -515,5 +515,9 @@
   "spec_you": "You",
   "spec_aria": "Line from left to right. Parties: {parties}. Answers: {people}.",
   "spec_aria_item": "{name} at {pos} out of 100",
-  "method_spectrum": "The left-to-right line uses the {n} province-wide questions. Each party gets a place on it from the biggest pattern in how the five parties score the answers (a principal component analysis). Each answer then sits at the average place of the parties that back it, weighted by their scores, and a person's mark is the average of their answers, weighted by importance. A party's mark is where someone who picks that party's top answer every time would land. Calling the NDP's end left follows common use. The line does not say any place on it is better than another."
+  "method_spectrum": "The left-to-right line uses the {n} province-wide questions. Each party gets a place on it from the biggest pattern in how the five parties score the answers (a principal component analysis). Each answer then sits at the average place of the parties that back it, weighted by their scores, and a person's mark is the average of their answers, weighted by importance. A party's mark is where someone who picks that party's top answer every time would land. Calling the NDP's end left follows common use. The line does not say any place on it is better than another.",
+
+  "over_title": "The election is over.",
+  "over_body": "Voting ended on October 24, 2026. The quiz still works below.",
+  "over_link": "See how over 10,000 people answered"
 }

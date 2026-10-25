@@ -357,12 +357,30 @@ td.weak, .weak { color: var(--ink-2); }
     }).join("") + "</div>";
   }
 
+  /* Where people came from: everyone who finished (all filters ignored) and the shared sessions in the current filter */
+  var SOURCE_LABEL = { reddit: "Reddit", facebook: "Facebook", instagram: "Instagram", x: "X / Twitter", search: "Search engines", classroom: "Classroom / school", linkedin: "LinkedIn", bluesky: "Bluesky", github: "GitHub", email: "Email", direct: "Direct / no referrer", other: "Other sites", unknown: "Not recorded" };
+  function sourcePanel(subs) {
+    var c = DATA.completions || {}, rows = (c.by_source || []).map(function (r) { return { label: SOURCE_LABEL[r.source] || r.source, v: Number(r.people) }; });
+    var html = '<div class="card"><h2>Where people came from</h2>';
+    if (c.since) {
+      html += '<p class="muted small">Everyone who finished, shared or not: ' + esc(String(c.people)) + " people in " + esc(String(c.sessions)) + " sessions, " + esc(String(c.last24)) + " in the last 24 hours. All filters ignored.</p>" + barRows(rows, Number(c.people) || 1);
+    } else {
+      html += '<p class="muted small">No finished quizzes counted yet. The counter starts when this version goes live.</p>';
+    }
+    var by = {}; subs.forEach(function (s) { var k = s.source || "unknown"; by[k] = (by[k] || 0) + s.count; });
+    var srows = Object.keys(by).sort(function (a, b) { return by[b] - by[a]; }).map(function (k) { return { label: SOURCE_LABEL[k] || k, v: by[k] }; });
+    var tot = srows.reduce(function (a, r) { return a + r.v; }, 0);
+    if (tot) html += '<p class="muted small" style="margin-top:12px">Shared people in the current filter (older rows show as Not recorded):</p>' + barRows(srows, tot);
+    return html + "</div>";
+  }
+
   function render() {
     /* the toggle event arrives a task after a click, so read open/closed straight from the page first */
     Array.prototype.forEach.call(document.querySelectorAll("#out details[data-key]"), function (d) { OPEN[d.getAttribute("data-key")] = d.open; });
     var f = filtered(), P = f.people, n = P.length;
     el("stamp").textContent = "Updated " + new Date(DATA.generated_at).toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" }) +
-      "; scores use the current quiz data (" + SPEC.meta.data_as_of + "). " + DATA.people.length + " people stored in total.";
+      "; scores use the current quiz data (" + SPEC.meta.data_as_of + "). " + DATA.people.length + " people stored in total (shared)" +
+      (DATA.completions && DATA.completions.since ? "; " + DATA.completions.people + " finished in total (everyone, counted since " + new Date(DATA.completions.since).toLocaleDateString("en-CA", { dateStyle: "medium" }) + ")." : ".");
     if (!n) { el("out").innerHTML = '<div class="card empty muted">No responses match these filters yet.</div>'; return; }
 
     var families = f.subs.filter(function (s) { return s.count > 1; }).length;
@@ -395,6 +413,7 @@ td.weak, .weak { color: var(--ink-2); }
         return { label: PBY[id].short_name || PBY[id].name, v: v, color: PBY[id].color, text: Math.round(v) + "" };
       }), 100) + "</div>";
     html += candidatePanel(f, shareLocal, n);
+    html += sourcePanel(f.subs);
     html += "</div><div style=\"height:16px\"></div>";
     html += mapSection();
     html += byRidingTable(P, f);
