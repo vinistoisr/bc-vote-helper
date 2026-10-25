@@ -159,6 +159,10 @@ function isResults(path) {
 /* Live totals after polls closed                                      */
 /* ------------------------------------------------------------------ */
 const LIVE_TTL = 300;
+/* The party split moves only in steps of LIVE_STEP people (oldest first) and needs LIVE_MIN of them,
+   so comparing two snapshots never isolates one person's result. Sources need LIVE_MIN sessions. */
+const LIVE_STEP = 25;
+const LIVE_MIN = 30;
 const LIVE_WEIGHTS = { low: 0.5, medium: 1, high: 2 };
 const PACIFIC_MS = -7 * 3600 * 1000; /* PDT through November 1, 2026; PST (-8) after */
 
@@ -203,7 +207,7 @@ async function liveTotals(request, env, ctx) {
   const since = new Date(RESULTS_AT).toISOString();
   const [comp, people] = await env.DB.batch([
     env.DB.prepare("SELECT created_at, source, count FROM completions WHERE created_at >= ?").bind(since),
-    env.DB.prepare("SELECT s.created_at, s.riding, s.region_code, p.answers FROM people p JOIN submissions s ON s.sid = p.sid WHERE s.created_at >= ?").bind(since),
+    env.DB.prepare("SELECT s.created_at, s.riding, s.region_code, p.answers FROM people p JOIN submissions s ON s.sid = p.sid WHERE s.created_at >= ? ORDER BY s.created_at, s.sid, p.idx").bind(since),
   ]);
   const finishedDaily = {}, sources = {};
   let sessions = 0, finished = 0;
@@ -215,8 +219,8 @@ async function liveTotals(request, env, ctx) {
     const s = r.source || "unknown";
     sources[s] = (sources[s] || 0) + 1;
   }
-  const sharedDaily = {}, best = {};
-  let shared = 0, scored = 0;
+  const sharedDaily = {}, tops = [];
+  let shared = 0;
   for (const r of people.results) {
     const ride = r.riding && VALID.ridings[r.riding] ? VALID.ridings[r.riding] : null;
     if (!ride && r.region_code !== "BC") continue; /* same rule as the totals before polls closed */
@@ -224,18 +228,19 @@ async function liveTotals(request, env, ctx) {
     const d = pacificDay(r.created_at);
     sharedDaily[d] = (sharedDaily[d] || 0) + 1;
     const ids = liveTops(safeParse(r.answers) || {}, ride ? ride.region : null);
-    if (!ids.length) continue;
-    scored += 1;
-    for (const p of ids) best[p] = (best[p] || 0) + 1 / ids.length;
+    if (ids.length) tops.push(ids);
   }
+  const scored = Math.floor(tops.length / LIVE_STEP) * LIVE_STEP;
+  const best = {};
+  for (const ids of tops.slice(0, scored)) for (const p of ids) best[p] = (best[p] || 0) + 1 / ids.length;
   const pct = (o, n) => Object.fromEntries(Object.entries(o).map(([k, v]) => [k, n ? Math.round((1000 * v) / n) / 10 : 0]));
   const body = {
     since, updated: new Date().toISOString(),
     finished, sessions, shared, scored,
     deleted: Date.now() >= Date.parse(env.DELETE_AFTER || "2100-01-01"),
-    best: pct(best, scored),
+    best: scored >= LIVE_MIN ? pct(best, scored) : {},
     finished_daily: finishedDaily, shared_daily: sharedDaily,
-    sources: pct(sources, sessions),
+    sources: sessions >= LIVE_MIN ? pct(sources, sessions) : {},
   };
   const res = json(body, 200, { "Cache-Control": `public, max-age=${LIVE_TTL}` });
   ctx.waitUntil(cache.put(key, res.clone()));

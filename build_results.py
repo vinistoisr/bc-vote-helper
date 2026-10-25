@@ -703,9 +703,9 @@ LIVE_JS = r"""(function () {
         ps.appendChild(c);
       });
       body.appendChild(st); body.appendChild(ps);
-      body.appendChild(el("p", "small live-note", "Based on " + n(d.scored) + " people. Compare with the totals above, from before polls closed."));
+      body.appendChild(el("p", "small live-note", "Based on the first " + n(d.scored) + " of them; this split updates in steps of 25 people. Compare with the totals above, from before polls closed."));
     } else if (d.shared > 0) {
-      body.appendChild(el("p", "small", "A closest-party split appears here once 30 or more people have shared since polls closed."));
+      body.appendChild(el("p", "small", "A closest-party split appears here once 50 or more people have shared since polls closed."));
     }
     var days = Object.keys(d.finished_daily).sort();
     if (days.length) {
