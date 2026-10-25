@@ -72,6 +72,12 @@ export default {
         return text("Results are posted after polls close at 8 PM Pacific on October 24, 2026.", 404, { "Cache-Control": "no-store" });
       }
 
+      /* Live totals for the results page since polls closed: open to everyone, totals only, cached 5 minutes */
+      if (path === "/api/live" && Date.now() >= RESULTS_AT) {
+        if (request.method !== "GET") return text("Method not allowed", 405, { Allow: "GET" });
+        return await liveTotals(request, env, ctx);
+      }
+
       if (!countryAllowed(request, env) && !openOutsideCanada(request, path)) {
         if (isPreviewBot(request) && !path.startsWith("/api/") && (request.method === "GET" || request.method === "HEAD")) {
           return await previewStub(request, env);
@@ -147,6 +153,93 @@ function openOutsideCanada(request, path) {
 const RESULTS_AT = Date.parse("2026-10-25T03:00:00Z");
 function isResults(path) {
   return path === "/results" || path.startsWith("/results/");
+}
+
+/* ------------------------------------------------------------------ */
+/* Live totals after polls closed                                      */
+/* ------------------------------------------------------------------ */
+const LIVE_TTL = 300;
+const LIVE_WEIGHTS = { low: 0.5, medium: 1, high: 2 };
+const PACIFIC_MS = -7 * 3600 * 1000; /* PDT through November 1, 2026; PST (-8) after */
+
+function pacificDay(iso) {
+  const t = Date.parse(iso);
+  const off = t >= Date.parse("2026-11-01T09:00:00Z") ? -8 * 3600 * 1000 : PACIFIC_MS;
+  return new Date(t + off).toISOString().slice(0, 10);
+}
+
+/** Closest parties for one person's answers: the quiz's rule, sum(w*s) / sum(w*4), skips and no-position cells left out. */
+function liveTops(answers, region) {
+  const t = {};
+  for (const p of VALID.parties) t[p] = [0, 0];
+  const local = new Set(region ? VALID.regions[region] || [] : []);
+  for (const [qid, opts] of Object.entries(VALID.scores)) {
+    if (VALID.local_qids.includes(qid) && !local.has(qid)) continue;
+    const a = answers && answers[qid];
+    const c = a && a.c;
+    if (!c || c === "skip" || !opts[c]) continue;
+    const w = LIVE_WEIGHTS[a.w] || 1;
+    const nop = (VALID.nopos && VALID.nopos[qid]) || [];
+    for (const p of VALID.parties) {
+      if (nop.includes(p)) continue;
+      t[p][0] += w * Number(opts[c][p]);
+      t[p][1] += w * 4;
+    }
+  }
+  let best = -1, ids = [];
+  for (const p of VALID.parties) {
+    if (!t[p][1]) continue;
+    const r = Math.round((100 * t[p][0]) / t[p][1]);
+    if (r > best) { best = r; ids = [p]; } else if (r === best) ids.push(p);
+  }
+  return ids;
+}
+
+async function liveTotals(request, env, ctx) {
+  const cache = caches.default;
+  const key = new Request(new URL("/api/live", request.url).toString(), { method: "GET" });
+  const hit = await cache.match(key);
+  if (hit) return hit;
+  const since = new Date(RESULTS_AT).toISOString();
+  const [comp, people] = await env.DB.batch([
+    env.DB.prepare("SELECT created_at, source, count FROM completions WHERE created_at >= ?").bind(since),
+    env.DB.prepare("SELECT s.created_at, s.riding, s.region_code, p.answers FROM people p JOIN submissions s ON s.sid = p.sid WHERE s.created_at >= ?").bind(since),
+  ]);
+  const finishedDaily = {}, sources = {};
+  let sessions = 0, finished = 0;
+  for (const r of comp.results) {
+    sessions += 1;
+    finished += r.count || 1;
+    const d = pacificDay(r.created_at);
+    finishedDaily[d] = (finishedDaily[d] || 0) + (r.count || 1);
+    const s = r.source || "unknown";
+    sources[s] = (sources[s] || 0) + 1;
+  }
+  const sharedDaily = {}, best = {};
+  let shared = 0, scored = 0;
+  for (const r of people.results) {
+    const ride = r.riding && VALID.ridings[r.riding] ? VALID.ridings[r.riding] : null;
+    if (!ride && r.region_code !== "BC") continue; /* same rule as the totals before polls closed */
+    shared += 1;
+    const d = pacificDay(r.created_at);
+    sharedDaily[d] = (sharedDaily[d] || 0) + 1;
+    const ids = liveTops(safeParse(r.answers) || {}, ride ? ride.region : null);
+    if (!ids.length) continue;
+    scored += 1;
+    for (const p of ids) best[p] = (best[p] || 0) + 1 / ids.length;
+  }
+  const pct = (o, n) => Object.fromEntries(Object.entries(o).map(([k, v]) => [k, n ? Math.round((1000 * v) / n) / 10 : 0]));
+  const body = {
+    since, updated: new Date().toISOString(),
+    finished, sessions, shared, scored,
+    deleted: Date.now() >= Date.parse(env.DELETE_AFTER || "2100-01-01"),
+    best: pct(best, scored),
+    finished_daily: finishedDaily, shared_daily: sharedDaily,
+    sources: pct(sources, sessions),
+  };
+  const res = json(body, 200, { "Cache-Control": `public, max-age=${LIVE_TTL}` });
+  ctx.waitUntil(cache.put(key, res.clone()));
+  return res;
 }
 
 /* Link-preview crawlers (mostly outside Canada) get the page's title, description and image only */

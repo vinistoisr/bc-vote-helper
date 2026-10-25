@@ -595,6 +595,19 @@ details.table{margin:14px 0 0}
 details.table>summary{cursor:pointer;font-weight:700;padding:8px 0;color:var(--sea)}
 .limits{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
 .limits ul{margin:0;padding-left:20px;max-width:68ch}.limits li{margin:0 0 8px}
+#live{margin:28px 0 0}
+#live .live-panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:clamp(16px,3vw,24px)}
+#live h2{font-size:clamp(1.15rem,2.4vw,1.45rem);margin:0 0 4px}
+#live .live-when{font-size:.88rem;color:var(--ink-2);margin:0 0 14px}
+#live .live-when::before{content:"";display:inline-block;width:.6em;height:.6em;border-radius:50%;background:var(--sea);margin-right:7px;vertical-align:.05em}
+#live .live-lede{font-size:1.08rem;font-weight:700;margin:0 0 6px}
+#live .live-h{font-size:1rem;margin:22px 0 10px}
+#live .stack{height:40px}
+#live .parties b{font-size:clamp(1.3rem,3vw,1.8rem)}
+#live .live-days{height:150px;justify-content:flex-start}
+#live .live-days .day{max-width:72px}
+#live .live-note{margin-top:12px}
+
 .quotes{columns:3 280px;column-gap:18px}
 .quote{break-inside:avoid;margin:0 0 18px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
 .quote blockquote{margin:0;font-size:1rem;line-height:1.5}
@@ -657,6 +670,66 @@ QUOTES = [
     ("Every voter should engage with this tool if only to become more informed of what's on offer.", "BCpolitics", "1x77s05", "ph6c2vv"),
     ("This helped me a lot, thank you stranger for building this!", "VictoriaBC", "1x4lipj", "phsgb6x"),
 ]
+
+
+# Live section: filled in the browser from /api/live (Worker totals since polls closed, cached 5 minutes)
+LIVE_JS = r"""(function () {
+  var box = document.getElementById("live");
+  if (!box || !window.fetch) return;
+  var P = JSON.parse(document.getElementById("live-parties").textContent);
+  function el(tag, cls, txt) { var n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; }
+  function n(v) { return Number(v).toLocaleString("en-CA"); }
+  function pct(v) { return (v >= 10 || v === 0 ? Math.round(v) : v.toFixed(1)) + "%"; }
+  function day(d) { var m = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; var x = d.split("-"); return m[+x[1] - 1] + " " + (+x[2]); }
+  fetch("/api/live", { headers: { Accept: "application/json" } }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    if (!d) return;
+    var body = box.querySelector(".live-body");
+    var t = new Date(d.updated);
+    box.querySelector(".live-when").textContent = "Updated " + t.toLocaleString("en-CA", { timeZone: "America/Vancouver", month: "long", day: "numeric", hour: "numeric", minute: "2-digit" }) + " Pacific. Numbers update every few minutes.";
+    body.appendChild(el("p", "live-lede", n(d.finished) + " more " + (d.finished === 1 ? "person has" : "people have") + " finished the quiz since polls closed, and " + n(d.shared) + " shared their answers."));
+    if (d.deleted) body.appendChild(el("p", "small", "Stored answers were deleted on November 23, 2026, as promised. Counts of finished quizzes continue."));
+    if (d.scored >= 30) {
+      body.appendChild(el("h3", "live-h", "Closest party for people who shared since polls closed"));
+      var order = P.map(function (p) { return p.id; }).filter(function (id) { return d.best[id] != null; }).sort(function (a, b) { return d.best[b] - d.best[a]; });
+      var st = el("div", "stack"); st.setAttribute("role", "img");
+      st.setAttribute("aria-label", order.map(function (id) { var p = P.filter(function (x) { return x.id === id; })[0]; return p.name + " " + pct(d.best[id]); }).join(", "));
+      var ps = el("div", "parties");
+      order.forEach(function (id) {
+        var p = P.filter(function (x) { return x.id === id; })[0];
+        var seg = el("span"); seg.style.flex = d.best[id] + " 1 0"; seg.style.background = p.color; st.appendChild(seg);
+        var c = el("div"); c.style.flex = d.best[id] + " 1 0";
+        c.appendChild(el("b", "num", pct(d.best[id])));
+        var lab = el("span"); var dot = el("span", "dot"); dot.style.background = p.color; lab.appendChild(dot); lab.appendChild(document.createTextNode(p.name)); c.appendChild(lab);
+        ps.appendChild(c);
+      });
+      body.appendChild(st); body.appendChild(ps);
+      body.appendChild(el("p", "small live-note", "Based on " + n(d.scored) + " people. Compare with the totals above, from before polls closed."));
+    } else if (d.shared > 0) {
+      body.appendChild(el("p", "small", "A closest-party split appears here once 30 or more people have shared since polls closed."));
+    }
+    var days = Object.keys(d.finished_daily).sort();
+    if (days.length) {
+      var top = Math.max.apply(null, days.map(function (k) { return d.finished_daily[k]; }));
+      body.appendChild(el("h3", "live-h", "Finished per day since polls closed"));
+      var row = el("div", "days live-days");
+      days.forEach(function (k) {
+        var f = d.finished_daily[k], s = d.shared_daily[k] || 0;
+        var c = el("div", "day"); c.appendChild(el("b", null, n(f)));
+        var col = el("div", "col");
+        var fi = el("i", "fin"); fi.style.height = (100 * f / top) + "%"; col.appendChild(fi);
+        var si = el("i", "sh"); si.style.height = (100 * s / top) + "%"; col.appendChild(si);
+        c.appendChild(col); c.appendChild(el("span", null, day(k))); row.appendChild(c);
+      });
+      body.appendChild(row);
+      var key = el("div", "key");
+      var k1 = el("span"); k1.appendChild(el("i")); k1.appendChild(document.createTextNode("Shared their answers"));
+      var k2 = el("span"); k2.appendChild(el("i", "d")); k2.appendChild(document.createTextNode("Everyone who finished"));
+      key.appendChild(k1); key.appendChild(k2); body.appendChild(key);
+    }
+    box.hidden = false;
+  }).catch(function () {});
+})();
+"""
 
 
 def party_chips(ids, pname, pcol):
@@ -741,6 +814,13 @@ def write_page(out, od):
              "Average match across everyone: "
              + ", ".join(f"{e(pname[p])} {out['avg'][p]:.0f}%" for p in sorted(out["avg"], key=lambda k: -out["avg"][k]))
              + ". A closest party is a match on published positions, not a vote or a forecast.</p></div>")
+
+    # live totals since polls closed (filled by /results/live.js; stays hidden without JavaScript)
+    plist = [{"id": pid, "name": pname[pid], "color": pcol[pid]} for pid in order]
+    b.append('<section id="live" hidden><div class="live-panel"><h2>Since polls closed</h2><p class="live-when"></p>'
+             '<div class="live-body"></div></div></section>'
+             f'<script type="application/json" id="live-parties">{json.dumps(plist)}</script>'
+             '<script src="/results/live.js" defer></script>')
 
     svgs = map_svgs(out)
     b.append("<section><h2>Closest party, riding by riding</h2>")
@@ -930,6 +1010,7 @@ def write_page(out, od):
     if chr(0x2014) in page:
         sys.exit("em dash in results page")
     (od / "index.html").write_text(page, encoding="utf-8", newline="\n")
+    (od / "live.js").write_text(LIVE_JS, encoding="utf-8", newline="\n")
     print(f"wrote {od / 'index.html'} ({(od / 'index.html').stat().st_size / 1024:.0f} KB)")
 
 

@@ -285,6 +285,9 @@ def build_site(template, spec, logos, build_info, en, bundles):
             for r in spec.get("ridings", [])
         },
         "data_as_of": spec["meta"].get("data_as_of"),
+        # parties with no published position on a question: left out of scoring, as on the page
+        "nopos": {q["id"]: [pid for pid, pp in q.get("party_positions", {}).items() if pp.get("no_position") is True]
+                  for q in spec["questions"] if any(pp.get("no_position") is True for pp in q.get("party_positions", {}).values())},
     }
     (SITE_DIR / "src" / "spec_valid.json").write_text(json.dumps(valid, separators=(",", ":")), encoding="utf-8")
     sizes = ", ".join(f"{lang} {(i18n_dir / (lang + '.json')).stat().st_size / 1024:.0f} KB" for lang in bundles)
